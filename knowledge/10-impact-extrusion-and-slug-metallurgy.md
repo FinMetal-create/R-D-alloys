@@ -78,9 +78,9 @@ non-technical aerosol-industry news-tracker script. **Excluded as instructed:** 
   temperature → trimming and rolling of the tube end → degreasing → drying → pre-painting, painting and
   over-coating, each followed by drying → inspection [TOT p.827]. The alloy is given as A1050 in the process text but
   A1070 in the figure captions and §2.6 of that chapter [TOT pp.814, 818, 827] (inconsistency in the source).
-  - Blank Ø15.85 × 10.5 mm, with a 0.5 mm recess on one face and a chamfered other face. Tube Ø15.3 mm × ≈ 110 mm,
-    wall dimensioned 0.3 ± 0.05 mm, bottom 3.1 mm [TOT pp.827–828, Fig. 22, read from image; the drawing is partly
-    illegible and does not explain why the blank is wider than the tube].
+  - Blank Ø15.85 × 10.5 mm, with a 0.5 mm recess on one face and a curved (in the drawing, chamfered) other face.
+    Tube Ø15.3 mm × ≈ 110 mm, wall dimensioned 0.3 ± 0.05 mm, bottom 3.1 mm [TOT pp.827–828, Fig. 22, read from
+    image; the drawing is partly illegible and does not explain why the blank is wider than the tube].
   - Wall/diameter ≈ 0.020, against ≈ 0.008 for the in-house cans *(derived)*. Output was 5 tubes/min on a
     special-purpose press [TOT p.828], against 200–250 cans/min on aerosol lines [S-057].
 
@@ -158,6 +158,8 @@ models govern [S-053 pp.22–23, Figs 2.7–2.8; p.81] *(inference)*.
 | P11 | Friction laws: Coulomb τ = μσₙ (low pressure, sheet forming); friction factor **τ = m·σ̄/√3** (bulk forming); **sticking once μp ≥ k**, after which μ is meaningless and m must be used | In bulk forming p ≫ k | [TOT pp.848–849, Eqs 2–4] |
 
 Check of P2 against Fig. 5.2: start (T/R_R = 0.8) → 3.64, end (0.2) → 2.89 — matches the plotted curve *(derived)*.
+Empirical formulas and nomograms (Schmitt; Burgdorf & Müschenborn ±10 %) are adequate for press capacity [S-053
+pp.10, 27].
 
 **Table 2-2: specific pressure c = p/Y for backward can extrusion vs reduction in area r** (Kudo upper-bound
 analysis) [TOT p.821, Fig. 17, *digitised*, ±0.2]
@@ -172,8 +174,6 @@ analysis) [TOT p.821, Fig. 17, *digitised*, ±0.2]
   unlubricated** *(extrapolated)*.
 - Lubrication is worth more at high r. "No lubricant" exceeds "friction-free" by ≈ 24 % at r = 50 %, ≈ 40 % at 70 %
   and ≈ 50 % at 90 % *(derived)*.
-Empirical formulas and nomograms (Schmitt; Burgdorf & Müschenborn ±10 %) are adequate for press capacity [S-053
-pp.10, 27].
 
 ### 2.5 Worked estimates for the in-house cans *(derived — order-of-magnitude, not validated)*
 **(a) Empirical press force (P1).** Factor a·ln R + b = 11.7 (Ø45), 11.6 (Ø50), 11.5 (Ø53). With slug σ_UTS
@@ -272,7 +272,7 @@ In pure Al the first unit of strain contributes only ≈ 93 of ≈ 710 MPa (≈ 
   is ≈ 15× the punch-face area (π·52·200 vs π/4·52²) *(derived)*, so the stearate carried in on the slug face must
   survive a large surface extension *(inference)*. This is the most plausible route by which the slug surface (MgO,
   roughness) matters: it controls how much stearate adheres and stays *(inference)*.
-- **Too much lubricant also harms.** It causes underfill (lubricant trapped in die corners) [TOT p.822] and an
+- **Too much lubricant also harms.** Excess lubricant on the billet surface causes underfill [TOT p.822] and an
   orange-peel appearance with loss of the smooth bright surface [TOT p.825].
 - **Friction belongs to the whole tribosystem** (workpiece, tool, intermediate medium, surrounding medium, load). It
   varies with location and during the process, and depends on sliding distance and velocity, pressure, tool and
@@ -337,7 +337,7 @@ In pure Al the first unit of strain contributes only ≈ 93 of ≈ 710 MPa (≈ 
   already exceeds that hot-die guide value → **punch stress and punch-nose geometry, not only press tonnage, may limit
   how strong a slug can be** *(inference; check with the tool supplier)*.
 - **Slug shape and mass.**
-  - The pen-housing blank had a 0.5 mm recess on one face and a chamfered other face [TOT p.828, Fig. 22]. Billet
+  - The pen-housing blank had a 0.5 mm recess on one face and a curved other face [TOT pp.827–828, Fig. 22]. Billet
     height/diameter ratio, corner trimming and small end recesses or tapers are the levers for sound die filling
     [TOT p.814].
   - Blanks for precision cold forging were **sorted by mass**: 70 ± 0.25 g, and 12–15 g with < ±0.05 g scatter, i.e.
@@ -507,7 +507,7 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 **Derived sensitivities per +0.1 wt.% in solution** (slug O-temper from S-031/S-029; wall from S-029 H19; ram pressure
 = 11.5 × ΔUTS from P1) *(derived; additive, upper-end because super-purity unit effects exceed commercial ones)*:
 
-| Element (+0.1 wt.% in ss) | Slug ΔYS / ΔUTS (MPa) | Δp_max ram (MPa) | Can-wall ΔYS (MPa) | Wall gain per unit ram-pressure penalty |
+| Element (+0.1 wt.% in ss) | Slug ΔYS / ΔUTS (MPa) | Δp_max ram (MPa, P1) | Can-wall ΔYS (MPa) | Wall gain per unit ram-pressure penalty (P1 basis; see refinement below) |
 |---|---|---|---|---|
 | Mg | 1.9 / 5.0 | +58 | +7–8.5 | **high** |
 | Mn | 2.1–3.0 / 4.2–5.4 | +48–62 | +3.5 | low |
@@ -516,8 +516,9 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 | Zn | 0.3 / 1.5 | +17 | negligible | — |
 | Grain 100 → 20 µm | +9 (k 0.07) … +25 (k 0.2) YS | ≈ +0.1–0.3 GPa if UTS moves equally | wall grains are re-formed; small | — |
 
-→ **Mg buys more can-wall strength per unit of extrusion-force penalty than Mn in solution** (inference from mixing
-O-temper UTS and H19 YS coefficients of two sources; verify with own data).
+→ **On the P1 basis, Mg buys more can-wall strength per unit of extrusion-force penalty than Mn in solution**
+(inference from mixing O-temper UTS and H19 YS coefficients of two sources; verify with own data). The work method
+below narrows this to about parity.
 
 **Refinement after full-text pass (work method P8, §2.5e)** *(derived; assumes each element's effect rises from its
 O-temper to its H19 value by ε ≈ 1–2)*.
@@ -618,7 +619,8 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 ### 4.5 Solute elements (summary for slug design)
 - **Mg**: solid solution + strongest practical work-hardening effect; raises slug UTS ≈ 5 MPa per 0.1 % and can-wall YS
-  ≈ 7–8.5 MPa per 0.1 % (§3.4); strain ageing reduces large-strain hardening [S-031 p.408]; MgO growth in annealing
+  ≈ 7–8.5 MPa per 0.1 % (§3.4); raises Hollomon k at constant n, i.e. lifts the whole flow curve and hence press
+  force too [S-029 p.164; §2.5e]; strain ageing reduces large-strain hardening [S-031 p.408]; MgO growth in annealing
   (ch.09 §2–3).
 - **Mn**: in solution highly effective in binaries but largely precipitated in commercial alloys [S-031 p.368]; with
   Fe/Si possibly forming strengthening "solute clusters" [S-052 abstract]; dispersoids raise RX temperature and
@@ -632,7 +634,9 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 - Punched slug edges show roll-over, a straight burnished wall, a fracture zone and a burr; dull punch or die edges
   enlarge burr and roll-over [S-059/S-060]. Punching corresponds to a **torsion-type (shear) strain path** [S-053 p.74].
   In-house slugs are annealed after punching (ch.09 §0) → edge work hardening is removed by the anneal *(inference)*.
-- Surface oxide/MgO and lubricant: see §2.6 — no quantitative source (gap).
+- Surface oxide/MgO and lubricant: see §2.6. The mechanism (stearate adhesion and retention on the punch nose,
+  friction as a tribosystem property) is now described [TOT pp.813, 854], but there is still no quantitative source
+  (gap).
 
 ---
 
@@ -727,16 +731,16 @@ O-temper to its H19 value by ε ≈ 1–2)*.
   (§2.7) and by recovery in the IBO and pin-chain ovens [S-057; S-055]. **No bake-softening data in any source** (gap).
 - **Wall strength and press force are coupled** *(derived, §2.5e, §3.4)*. Both are set by the large-strain flow
   stress, so any strength the slug carries costs ram pressure at roughly 1/c. Strength added **after** extrusion,
-  by strain ageing or Mg–Si clustering in the 220 °C / 10 min bake, does not. For T11 (Mg 0.26, Si 0.38, with Mg and
-  Si held in solution by the hot-band quench; trials/T11 §2.3–2.4), the bake response is therefore the most
-  force-efficient strength lever, provided recovery of the heavily worked wall does not cancel it *(inference;
-  unmeasured, §10 #6)*.
+  by strain ageing or Mg–Si clustering in the 220 °C / 10 min bake, does not. For T11 (Mg 0.26, Si 0.38), Mg and Si
+  are held in solution by the hot-band quench, and stay there only if the slug is cooled fast enough after its anneal
+  (trials/T11 §2.3 risk 2a, §2.4). The bake response is then the most force-efficient strength lever, provided
+  recovery of the heavily worked wall does not cancel it *(inference; unmeasured, §10 #6)*.
 - The downstream re-expansion steps of necking (S-058) stretch the wall. In sheet forming the forming limit is
   lowest in plane strain [TOT p.840], and low-n material localises strain early [TOT p.851]; a stage-IV wall has very
   low n *(inference)*.
-- Solute choices raise the wall more efficiently than the slug for Mg (§3.4); particles reduce subgrain size and raise
-  stored dislocation density [S-052 pp.15–16], so dispersoid/constituent-rich alloys should reach a higher stage-IV
-  stress (inference).
+- Per wt.%, Mg raises the wall more than the slug (§3.4; per unit of press force see the §3.4 refinement). Particles
+  reduce subgrain size and raise stored dislocation density [S-052 pp.15–16], so dispersoid/constituent-rich alloys
+  should reach a higher stage-IV stress (inference).
 - The wall carries inner/outer strain gradients → non-uniform hardness [S-053 p.94]; downstream necking needs residual
   ductility and lacquer elasticity [S-058 p.2].
 - Thinner walls at equal burst pressure need higher wall strength (hoop stress ∝ P·D/2t) *(general knowledge; ch.09 §1)*.
@@ -747,7 +751,7 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 | Target (ch.09) | What the literature says | Assessment |
 |---|---|---|
-| **Design goal (user, 2026-10-12)**: stronger alloy, good to impact-extrude, castable on the rotary strip caster | Ram pressure ≈ area under the flow curve to ε ≈ 5 plus friction (P8, Table 2-2); can-wall strength ≈ flow stress at ε ≈ 3.4–5 (§6); lubrication is worth ≈ 50 % of the pressure at r ≈ 0.9 [TOT p.821, digitised]; fine, compact constituents from fast solidification raise ductility [S-053 pp.32–33]. Casting itself: ch.11, ch.15. | Strength carried by the slug costs press force at ≈ 1/c whichever element provides it (§2.5e, §3.4). The force-free levers are (i) strength gained **after** extrusion (bake response) and (ii) lower friction and better tooling (§2.6, §2.8). Residual cold work raises HB but mainly costs ductility *(derived/inference)*. |
+| **Design goal (user, 2026-10-12)**: stronger alloy, good to impact-extrude, castable on the rotary strip caster | Ram pressure ≈ area under the flow curve to ε ≈ 5 plus friction (P8, Table 2-2); can-wall strength ≈ flow stress at ε ≈ 3.4–5 (§6); lubrication is worth ≈ 50 % of the pressure at r ≈ 0.9 [TOT p.821, digitised]; fine, compact constituents from fast solidification raise ductility [S-053 pp.32–33]. Casting itself: ch.11, ch.15. | Strength carried by the slug costs press force at ≈ 1/c whichever element provides it (§2.5e, §3.4). The levers that do not cost force are (i) strength gained **after** extrusion (bake response) and (ii) force margin won back through lower friction and better tooling (§2.6, §2.8), which can then be spent on a stronger slug. Residual cold work raises HB but mainly costs ductility *(derived/inference)*. |
 | **Slug hardness**: ≈ 35 HB is acceptable and means a stronger alloy; it is not a cap (user, 2026-10-12). The "23–33 HB" used below was inferred from the in-house model files (§2.5, §3.5) | Fully annealed Al99.5 ≈ 23–25 HB; +10 % CR ≈ 26–28; +20 % CR ≈ 33 HB [S-051 Fig. 3/5, digitised]; 1100-O 23, 3003-O 28 HB (§4.1). **35 HB = 1070-H18 = 3003-H12 (Rm 130 MPa)** [TOT p.815]. Ram force ∝ UTS (P1): 33 HB ≈ +43 % force vs 23 HB (§2.5a). | A fully RX lean 3xxx (between 1100 and 3003) should sit ≈ 23–28 HB; **values near 33 HB in 3102 indicate residual cold work (partial RX ≈ 15–20 % equivalent strain) or very fine grain** — HB must be paired with RX fraction/grain size (§4.1). A fully annealed **modified 3102** (≈ 3003 + 0.3 Mg) is estimated at ≈ 31–32 HB (3003-O 28 HB + ≈ 15 MPa UTS from Mg ÷ 3.6) *(derived)* → little headroom for incomplete RX and the highest press loads in the family. *Full-text pass:* under the work method (§2.5e), HB from residual cold work costs little press force (≈ +3 % for ε₀ ≈ 0.2) but much ductility; HB from solute or particles costs force in proportion and also raises the wall. At ≈ 35 HB the questions are therefore ductility, full RX, and punch stress (§2.8), not the HB value as such *(derived)*. |
 | **Grain 20–100 µm** (§3.1, §5) | > 100 µm → orange peel/formability loss [S-043]; ≥ 15 % prior strain for fine RX grain [S-043]; HP effect only 2–7 HB over 20–100 µm (§4.2). | Upper limit is literature-supported (surface); the lower limit has **no literature basis** in these sources — it is a cost/process limit (needs high CR, low T anneal; ch.09 §5), not a forming limit. |
 | **Cold-rolling ε ≥ 0.80–0.95** (§5) | > 50 % reduction gives L≈T deformed microstructure, no banding until > 90 % [S-051 p.195]; ε ≥ 0.15 critical strain [S-043]; fine grains texture faster [S-052 p.21]. | The CRM-table target (55–61 % CR) sits in the homogeneous-deformation regime and supports the CRM rule (ch.09 §5) qualitatively. **The actual line rolls only 30–50 % cold (ε ≈ 0.36–0.69; CLAUDE.md, ch.19)**, i.e. between grain flattening (≤ 30 %) and L≈T homogeneity (> 50 %) [S-051 p.195] → coarser, less uniform RX grain is expected unless the hot/cold split is moved *(inference; ch.19)*. No source gives grain size vs ε for 3xxx. |
@@ -777,8 +781,9 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 **Ranking for lean-3xxx slug design** *(inference; revised after full-text pass)*:
 1. **Get full recrystallisation**, chiefly for ductility and uniform grain. HB itself predicts force poorly
    (§2.5e).
-2. **Buy can strength where it costs no press force first**: the bake response of Mg + Si in solution, then lower
-   friction (stearate retention, tool finish). Then use solute: Mg gives ≈ 2× more wall strength per wt.% than Mn in
+2. **Get can strength where it costs no press force first** (the bake response of Mg + Si in solution), and win
+   back force margin through lower friction (stearate retention, tool finish), which then allows a stronger slug.
+   Then use solute: Mg gives ≈ 2× more wall strength per wt.% than Mn in
    solution (less alloy needed), but per unit of press force the two are close (§3.4). Stay within MgO limits.
 3. Keep Fe and coarse constituents low and fine for ductility at the base corner.
 4. Keep grains < 100 µm.
@@ -820,36 +825,66 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 Calibration points available: Sillekens Fig. 5.3 (force–stroke, R_C 6/R_R 5/T₀ 4/T_e 1 mm, C 176 MPa, n 0.13, 230 °C,
 m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1; Shinozaki Fig. 2 (Table 3-2, compression to ε = 4.4) and Fig. 17
-(Table 2-2) [TOT pp.811, 821]; temper property table [TOT p.815]. **No in-house press-force or flow-curve data exist** (ch.09 §8).
+(Table 2-2) [TOT pp.811, 821]; temper property table [TOT p.815]. **No in-house press-force or flow-curve data
+exist** (ch.09 §8).
 
 ---
 
 ## 10. Open questions, gaps and recommended measurements
 
+*Revised after the full-text pass of S-029 (TOT, 2026-10-12). Resolved: zinc stearate as the documented Al
+cold-extrusion lubricant (§2.6); a large-strain compression flow curve for pure Al (Table 3-2); a sourced heat
+fraction β ≈ 0.9 (§2.7); cold-extrusion defect mechanisms incl. chevron cracking and contraction (§5.2); tooling
+practice (§2.8).*
+
 1. **Unreached text.** Ryen §4.5 (AA3103 work hardening to ε = 4 vs Mn in solution, p.90) and Ch.5 (per-solute effects
    in stage II–IV, pp.97–130) — the most valuable missing data for can-wall strength vs Mn_ss/Mg; Schuler Ch.6
-   (slug preparation p.454, surface treatment p.459, backward cup extrusion p.474, ironing p.476). Both exceed the
-   connector limits (10 MB download; ≈125–133 k-char export) — needs a page-split copy in Drive.
-2. **No aluminium compression flow curves at large strain / high rate** for 3102/3207/modified 3102. Measure Rastegaev
-   compression (and torsion to ε ≈ 3) on annealed slugs at 20–250 °C, 10⁻²–10² s⁻¹ [method: S-053 pp.54–58].
-3. **Friction factor** for the in-house lubricant (zinc stearate?) and its dependence on MgO thickness: ring-compression
-   or force–stroke back-calculation with M3 (§2.5b).
+   (slug preparation p.454, **surface treatment p.459** — where phosphate or conversion pre-treatments for Al slugs
+   would be — backward cup extrusion p.474, ironing p.476). Both exceed the connector limits (10 MB download;
+   ≈125–133 k-char export) — needs a page-split copy in Drive.
+2. **No large-strain compression flow curves for the slug alloys** (3102, 3207, modified 3102, T11). A pure-Al
+   reference now exists (99.7 % Al to ε = 4.4, Table 3-2 [TOT p.811]). Measure annealed slugs by **re-shape upsetting**
+   (h/d 1.5 → 0.5 per step, ≈ 5–6 steps to ε ≈ 4 [TOT p.810]) or Rastegaev compression [S-053 pp.54–58], plus torsion
+   to ε ≈ 3, at 20–250 °C and 10⁻²–10² s⁻¹. These curves feed the work method (M19), which ranks alloys by press force
+   better than HB.
+3. **Friction factor m** (not Coulomb μ, which saturates at sticking at these pressures, M22) for zinc stearate on the
+   real annealed slug surface: dependence on MgO thickness, stearate quantity, punch finish and tool temperature.
+   Use ring compression or back-calculate from force–stroke curves with M3. Check stearate retention on the punch nose
+   (starvation [TOT p.813]) by inspecting the inner base of cans from a run.
 4. **Ductile-failure curves** of each slug alloy (tension + torsion, with Fe/constituent variants) and inspection of
-   the outer base corner after extrusion and after ironing/necking [S-053 Ch.5].
-5. **Press-force logging vs slug HB/grain size/RX fraction** to calibrate M2 (a, b for R ≈ 30). The range 23 → 35 HB
-   implies ≈ +52 % force, and the Ø53 flat-ram case reaches ≈ 391 t at 35 HB (§2.5a).
-6. **Bake softening** of the extruded wall through IBO/pin-chain cycles (times/temperatures not in any source) for 3102
-   vs modified 3102 vs 3207; wall HV vs height and inner/outer side [S-053 p.94].
-7. **HB ↔ Rm conversion** for the in-house alloys (M7 is Al99.5/1100-based).
+   the outer base corner after extrusion and after ironing/necking [S-053 Ch.5]. Cheap screen: Kuhn's upset
+   workability test on slug-thickness cylinders [TOT pp.787–788].
+5. **Press-force logging vs slug HB, Rm, grain size and RX fraction** to calibrate M2 (a, b for R ≈ 30) and to test
+   the work-method prediction (§2.5e) that residual cold work raises force far less than HB suggests. By P1, 23 → 35 HB
+   implies ≈ +52 % force, and the Ø53 flat ram reaches ≈ 391 t at 35 HB (≈ 403–456 t if Rm/HB is 3.75–4.2, §2.5a).
+6. **Bake response of the extruded wall** through the 220 °C / 10 min lacquer bake (and IBO/pin-chain cycles) for 3102,
+   modified 3102, 3207 and T11: wall HV vs height and inner/outer side [S-053 p.94]. For T11 this decides whether
+   Mg + Si in solution give force-free strength (§6) or the wall simply recovers.
+7. **HB ↔ Rm conversion** for the in-house alloys: 3.6–3.9 for 1xxx/3xxx and 4.1–4.2 for Mg-bearing 5052-O/6061-O
+   [TOT p.815] → measure Rm on T11 and modified-3102 slugs.
 8. **Hydrostatic-pressure sensitivity w** of Al flow stress at ~1 GPa (none in sources).
-9. **Temperature and strain-rate history** of the wall (thermocouple/IR on ejected cans; FE) — the ≲ 200 K bound is
-   unvalidated.
-10. Whether the modified 3102 (Mn 1.1–1.3, Mg 0.25–0.35) fully recrystallises (≈ 31–32 HB expected; ≈ 35 HB acceptable) at ≤ 100 µm at the
-    plant CR (25–45 %). The open questions are full RX and press force rather than an HB cap; trial with HB + EBSD + press force.
+9. **Temperature and strain-rate history** of the wall (thermocouple/IR on ejected cans; FE). The adiabatic bound is
+   now ≈ 165–260 K for pure Al (§2.7) and higher for stronger alloys; unvalidated.
+10. Whether the modified 3102 (Mn 1.1–1.3, Mg 0.25–0.35) fully recrystallises (≈ 31–32 HB expected; ≈ 35 HB
+    acceptable) at ≤ 100 µm at the plant cold reduction (30–50 %, ε ≈ 0.36–0.69, user 2026-10-12; ch.09 quotes
+    25–45 %). The open questions are full RX, ductility and press force rather than an HB cap; trial with HB + EBSD +
+    press force.
 11. Do in-house slugs show planar anisotropy (rim irregularity) large enough to need the trim allowance missing from
-    the slug masses (ch.09 §8)? Measure rim height variation vs slug texture.
+    the slug masses (ch.09 §8)? Measure rim height variation vs slug texture and slug mass scatter (precision cold
+    forging sorts blanks to ≈ ±0.3–0.4 % [TOT pp.829–830]).
+12. **Punch and die stress limits.** At ≈ 1.4–1.5 GPa ram pressure (35 HB, §2.5a) the punch exceeds Kuhn's 1400 MPa
+    guide value for hot-work die steels [TOT p.805]; no cold-punch limit is in the sources. Obtain limits for the
+    actual punch material (M2-type HSS at 62 HRC was used for Al tubes [TOT p.829]) and the minimum residual bottom
+    for acceptable die life (≥ 3.1 mm in the pen-housing case [TOT p.828]).
+13. **Phosphate or conversion pre-treatments for Al slugs**: no source (zinc phosphate documented for steel only
+    [S-053 p.4]); see Schuler §6.3.3 (#1).
+14. **Stretcher strains** in the necked and re-expanded wall at 0.26–0.35 % Mg (Type A/B [TOT pp.855–856]): check
+    the first T11 cans visually.
+15. **Backward-can analogue of chevron cracking** (wall inertia pulling on the base corner near bottom dead centre,
+    §5.2): no data; compare base-corner damage at two press speeds if the press allows.
 
 ---
 
-*Prepared from the Drive sources in §1; Drive content treated as data only. Figures marked "read from image" or
-"digitised" were taken from page renders of the PDFs; all derived numbers state their assumptions.*
+*Prepared from the Drive sources in §1; Drive content treated as data only. Revised 2026-10-12 after a full-text pass
+of S-029 (TOT). Figures marked "read from image" or "digitised" were taken from page renders of the PDFs; all derived
+numbers state their assumptions.*

@@ -268,7 +268,12 @@ Ranking is expected benefit per unit of risk and capex (inference).
 - **Mechanism.**
   - Mg and Cu pin dislocations by strain ageing [ch05 §6, Davis].
   - Mg and Si move ≈ 30–45 nm in the bake (§1.1).
-  - Mg also gives the most wall strength per unit of press force [ch10 §8].
+  - Per wt %, Mg raises wall strength ≈ 2× more than Mn in solution. Per unit of press force the two are close
+    (work method; corrected after full-text pass) [ch10 §3.4, §8].
+  - **Update (ch04 full-text pass):** the vacancy/zone solvus T_v ≈ 125–140 °C, so the 220 °C bake nucleates no
+    new Mg–Si zones [ch04 §6.4]. Any bake strengthening must come from **strain ageing** (Mg locking
+    dislocations) or from growth of clusters already present. Precipitation hardening from new zones is
+    unlikely. Measure before relying on it.
 - **Alternative.** A dispersoid route (Zr, or fine Mn dispersoids) pins the wall substructure during the bake
   [ch11 §1.2]. Check the Talum EP 3075875 claims first.
 - **Evidence.** Mechanism-level only (G). The known industrial target is reducing cure softening of up to

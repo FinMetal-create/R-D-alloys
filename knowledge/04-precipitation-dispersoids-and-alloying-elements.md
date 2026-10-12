@@ -20,11 +20,12 @@
 | R10 | Davis J.R. (ed.), *Alloying: Understanding the Basics*, ASM 2001, "Aluminum and Aluminum Alloys" pp.351–416 ("Aluminum and Aluminum Alloys Davis.pdf") — *found by Drive search* | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | Full read. Good per-element text; Table 8 gives solid-solution strengthening data. Figures are not readable. |
 | R11 | Polmear I.J., *Light Alloys*, 4th ed., Butterworth-Heinemann 2006 ("115132137-Light-Alloys.pdf") — *found by Drive search* | https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view | **Extraction truncated at ~book p.174** (Ch. 1–3). Ch. 2 was read fully; Ch. 3 in parts. Some symbols (π, −, Greek) were lost. |
 | R12 | Humphreys F.J., Hatherly M., *Recrystallization and Related Annealing Phenomena*, 2nd ed., Elsevier 2004 ("85721252-…Re-Crystallization…pdf") — *found by Drive search* | https://drive.google.com/file/d/1QvLAUS_TAp3Pqpqsac2bpceRzsEw7w6w/view | Extraction truncated at ~book p.190. Only §4.6 (Zener drag) was used. γ symbols were lost and have been restored. |
+| TOT | Totten G.E., MacKenzie D.S. (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003 (catalog **S-029**). Used: **Ch. 3** Tiryakioğlu M., Staley J.T., "Physical Metallurgy and the Effect of Alloying Additions in Aluminum Alloys", pp.81–210; **Ch. 5** Katgerman L., Eskin D., "Hardening, Annealing, and Aging", pp.259–301; Ch. 2 (Sverdlin) pp.40 and 52 only | S-029: https://drive.google.com/file/d/1UsZI7XP3jC8Pu0Mjiqksj2dQEmozI2O2/view ; part file `Al 1-400.pdf`: https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view | **Full text 2026-10-12.** Ch. 3 and Ch. 5 read in full from a repaired text layer; whole book searched for diffusion data. Citations `[TOT p.x]` are **printed** pages (PDF page = printed page + 12). Figures are not readable. Some equations are garbled and some Greek letters are guesses; these are flagged ⚠. |
 
 Not used:
 - Anything in the `microstructure-sim-v2.14.0` tree (`src/models/*.js`, `App.jsx`, tests), as instructed.
 - `AA3207_Recrystallization_Simulation.xlsx`, which is a user model, not literature.
-- Large handbooks (ASM vol. 1, *Alminium.pdf*, extrusion books, Kaufman), which I did not read. They are candidates for later passes.
+- Large handbooks (ASM vol. 1, extrusion books, Kaufman), which I did not read. They are candidates for later passes. *Alminium.pdf* is the same book as S-029, and its Ch. 3 and 5 are now used as [TOT] (full-text pass 2026-10-12).
 
 ---
 
@@ -34,12 +35,15 @@ Not used:
    - Binary Mn solubility falls from 1.82 % at 658 °C to about 0.2 % at 427 °C [R11 p.30; R8 p.12 Table 1.9].
    - When Al₃Fe and Al₆(FeMn) are co-present, Mn solubility drops to 0.23 % at 654 °C and 0.026 % at 427 °C [R8 Table 1.9].
    - In the Si-saturated field, Mn solubility is ≤0.08 % from 573 °C downwards [R8 Table 1.13].
-   - Only 0.2–0.3 % Mn tends to stay in solid solution after preheat and hot work [R11 p.30].
+   - Only 0.2–0.3 % Mn tends to stay in solid solution after preheat and hot work [R11 p.30; TOT p.94].
+   - As-cast DC 3003 holds 0.7–0.9 % Mn in solution; the rest sits in Al–Mn–Fe(–Si) constituents [TOT p.160].
+   - Casting at 10–100 K s⁻¹ can saturate (Al) with transition metals up to the equilibrium limit (eutectic systems) [TOT p.294]. Mn in (Al) reaches 2.5 % at 10 K s⁻¹ and 2.8 % at 100 K s⁻¹ [TOT p.294 Table 33].
 2. **Si converts Mn chemistry from Al₆(Mn,Fe) to α-Al₁₅(FeMn)₃Si₂.**
    - Si enables α-dispersoid formation during annealing [R8 p.32].
    - Si drastically lowers Mn solubility, so more Mn precipitates [R8 Table 1.13].
    - When Fe and Si are fully bound in α, the Mn and Si left in (Al) set the dispersoid amount [R8 p.37].
-   - Homogenisation transforms Al₆(Fe,Mn) into α-Al₁₂(Fe,Mn)₃Si [R11 p.107].
+   - Homogenisation transforms Al₆(Fe,Mn) into α-Al₁₂(Fe,Mn)₃Si [R11 p.107; TOT p.160].
+   - Si accelerates Mn precipitation, gives a denser α-Al₁₂(Mn,Fe)₃Si dispersion and lowers retained Mn. Below 0.07 % Si the dispersoid is usually Al₆(Mn,Fe) [TOT p.160].
 3. **Dispersoid number density, not size, is the lever. Supersaturation drives nucleation.**
    - Extra Sc/Zr mainly raises number density; radius stays about 10 nm at 480 °C [R1 pp.1415, 1419].
    - Recrystallisation resistance is best when dispersoids form at T_disp < T_anneal before deformation, or during an intermediate anneal [R4 p.35].
@@ -57,6 +61,10 @@ Not used:
 6. **Si and Fe are Sc poisons.**
    - Si makes the ternary V-phase AlSc₂Si₂, promotes discontinuous precipitation and delays the late stage of Al₃Sc precipitation. Fe also delays the late stage [R4 pp.22, 32–33].
    - **(inference)** 3xxx + Sc needs low Si. Al₃Sc formed at 0.4Sc/≤0.8Si but not at 0.10Sc/1.10Si [R4 p.32].
+7. **Lean Al–Fe–Si–Mg(–Mn) slug alloys such as T11 are controlled by Si partitioning, not by Mn.** (Added after the [TOT] full-text pass; details in §2.6 and §6.4.)
+   - The Fe-phase type decides how much Si stays free for Mg₂Si. The rule Si(available) = Si − ¼(Fe + Mn) [TOT p.171 Eq 26] gives ≈ 0.22 % for T11 (derived). If β-Al₅FeSi forms instead, only ≈ 0.07–0.12 % is left (derived, §6.4).
+   - Dilute Mg₂Si alloys (< 0.8–0.9 %) gain, not lose, from room-temperature storage before artificial ageing [TOT pp.175–176, 279; R11 pp.141–142].
+   - Fe retained in solution by fast casting raises the recrystallisation onset (+65 K at 0.04 at% Fe in Yelagin's binaries) through fine Al–Fe precipitation during the anneal [TOT pp.140, 296 Table 35].
 
 ---
 
@@ -73,6 +81,14 @@ Not used:
   - Peritectic aluminium ends: Mo [R10 p.383; R6 p.3], V (VAl₁₁) [R10 p.385], Nb [R10 p.383], Zr [R10 p.390].
   - Ti and Cr particles form by peritectic reactions in as-cast 6xxx; Mn forms eutectic particles [R9, 6xxx section].
   - Al–Ti is peritectic (Al₃Ti); Al–Sc is eutectic (Al₃Sc) [R9 p.68].
+  - TOT groups the transition metals as **eutectic: Mn, Fe, Sc, Ni** and **peritectic: Cr, V, Zr, Ti, Mo** [TOT p.294].
+  - Al–Cr: peritectic at 661 °C, peritectic composition 0.41 % Cr, maximum solubility 0.77 % Cr. Primary Al₇Cr forms between these limits and is retained under commercial cooling [TOT p.116].
+  - Al–Mn: eutectic Al–Al₆Mn at ≈ 1.9 % Mn and 657 °C [TOT p.159].
+- **Transition-metal (TM) supersaturation depends on the solidification type** [TOT pp.293–295].
+  - Supersaturation rises continuously with cooling rate in eutectic systems. Peritectic systems need a threshold cooling rate of about 10² K s⁻¹.
+  - Al–TM supersaturated solutions are much more stable than those of Cu, Mg, Zn, Si and Li. They decompose between 250 and 650 °C, depending on the element.
+  - Eutectic-system solid solutions decompose at lower temperature and faster than peritectic ones, because the eutectic-forming elements diffuse about an order of magnitude faster.
+  - Dendritic TM segregation is not easily removed by homogenisation, because TM diffusion is slow.
 - **Partitioning sign follows from this.**
   - k > 1 (peritectic, e.g. Zr): the element enriches dendrite **centres**.
   - k < 1 (eutectic, e.g. Sc): the element enriches dendrite **edges** [R1 p.1411].
@@ -111,6 +127,14 @@ Not used:
 
 Solubility at 20 °C is about 2 wt% for Mg and Zn, 0.1–0.2 wt% for Ge, Li and Ag, and <0.1 wt% for all other elements [R11 p.30 note (ii)].
 
+**Full-text check against [TOT] (2026-10-12).** TOT Table 1 [TOT p.92] gives the maximum solubility in at% and agrees with the table above for Ag, Cr, Fe, Mn, Ni, Si and Zn. Differences are flagged, not resolved:
+- **Mg ⚠ conflict.** TOT gives 14.9 wt% at 450 °C [TOT p.161] and 16.26 at% [TOT p.92]. R11 gives 17.4 wt% / 18.5 at%. TOT also gives ≈ 1.7 wt% at room temperature [TOT p.161].
+- Cu: 2.48 at% [TOT p.92] versus 2.40 at% [R11]. Ge: 2.30 versus 2.7 at%.
+- Li: TOT is internally inconsistent: 13.9 at% in Table 1 [TOT p.92], "≈ 4 wt% (16 at%) at 610 °C" in the text [TOT p.151]. R11 gives 4.2 wt% at 600 °C.
+- Limit solubilities in TOT Table 34 [TOT p.295], at%: Mn 0.88, Cr 0.41, Zr 0.093, V 0.21, **Ti 0.17** and **Sc 0.28**.
+  - Ti 0.17 at% is far below R11's ~0.74 at% (~1.3 wt%). Sc 0.28 at% (≈ 0.47 wt%, derived) is above R4's ≈ 0.35–0.38 wt% (≈ 0.21–0.23 at%, derived). ⚠ Both differences are unresolved.
+- Mg₂Si quasi-binary: eutectic at 595 °C and maximum solubility 1.85 wt% Mg₂Si [TOT p.171], the same as R10. **No solvus-versus-temperature values are given** (the figure is not readable).
+
 ### 1.3 Solubility versus temperature (model-ready points)
 
 **Mn in (Al) with Fe and/or Si present — the key 3xxx dataset.**
@@ -132,8 +156,27 @@ Solubility at 20 °C is about 2 wt% for Mg and Zn, 0.1–0.2 wt% for Ge, Li and 
 Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are approximations]; Si columns from [R8 p.15 Table 1.13] (Drits 1977 and Phillips 1959; I reconstructed the columns from the garbled extraction ⚠). In the α+Al₆Mn field Mn solubility is about the same as binary Al–Mn; in the Si-saturated field Mn is ≤0.1 % [R8 p.13 text]. Note that R8 Fig 1.4b (Mondolfo) disagrees: it shows ~1 % Mn at 527 °C instead of ~0.4 %. The calculated 550 °C section (Du et al. 2004) agrees with the table [R8 p.13].
 
 **Fe and Si.**
-- Fe in (Al) is ≤0.05 % [R8 p.3].
+- Fe in (Al) is ≤0.05 % [R8 p.3; TOT pp.117, 138].
 - Secondary (solid-state) Fe-phase volume cannot exceed 0.1–0.2 vol% [R8 p.10; R9].
+- Si solubility in (Al) is lowered by other elements, especially Mg [TOT p.122].
+- **Si available for Mg₂Si** = wt% Si − ¼(wt% Fe + wt% Mn) [TOT p.171 Eq 26].
+- With excess Si, wt% Mg₂Si = 1.578 × wt% Mg [TOT p.171 Eq 25]. The stoichiometric Mg:Si weight ratio is 1.73 [TOT p.169].
+
+**Effect of cooling rate on TM supersaturation of (Al)** [TOT p.294 Table 33] (wt% as printed, presumably):
+
+| Cooling rate (K s⁻¹) | Mn | Cr | Zr | V | Ti | Sc |
+|---|---|---|---|---|---|---|
+| 10⁻¹ | 1.82 | 0.82 | 0.28 | 0.37 | 0.28 | 0.4 |
+| 10¹ | 2.5 | 0.4 | 0.1 | 0.1 | 0.1 | 0.4 |
+| 10² | 2.8 | 0.7–1.0 | 0.15–0.17 | 0.25 | 0.2 | 0.5 |
+| 10³ | 3.0–5.0 | 1.5–3.5 | 0.5–0.7 | 1.3 | 0.4–1.0 | 1.1 |
+| 10⁴ | 5.0–7.0 | 2.0–5.7 | 0.9–1.7 | — | 1.4 | — |
+| 10⁵ | 6.1–10.0 | 5.35–5.7 | 1.2–2.0 | 1.3 | — | 3.2 |
+| 10⁶ | 8.6–14.0 | 5.8–7.75 | 2.5–2.8 | 2.6 | 3.7–5.0 | — |
+
+- The dip at 10 K s⁻¹ for the peritectic formers (Cr, Zr, V, Ti) fits the ~10² K s⁻¹ threshold [TOT p.295].
+- Ingot and casting practice runs at 10–100 K s⁻¹ [TOT p.294]. Fe is not in the table.
+- **Relevance (rotary-cast 22 mm strip):** at a casting cooling rate in or above this range, all of T11's 0.14 % Mn could in principle stay in (Al). In practice part of it goes into Fe-rich constituents [TOT p.160] (inference). The cast strip should be treated as a supersaturated, non-homogenised solid solution in Mn and, possibly, Fe (inference; see §5).
 
 **Sc.**
 - About 0.025 wt% at 430 °C (binary) [R4 p.22].
@@ -159,14 +202,21 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
 | D_Mg, D_Si in Al | 1×10⁻⁹ cm² s⁻¹ (= 1×10⁻¹³ m² s⁻¹) | 500 °C | [R11 p.105] |
 | D_Sc / D_Zr | ≈ 4 | at 480 °C, as used in the KWN model | [R1 p.1414] |
 | Q* (atom transfer across nucleus interface) | ≈ 2.07 eV atom⁻¹ | within the range reported for Sc and Zr | [R1 p.1412] |
-| Cr | "slow diffusion rate" → fine dispersed phases | qualitative | [R10 p.373] |
-| Dispersoid formers | "modest solubility and … diffuse slowly" | qualitative | [R11 p.78] |
+| Cr | "slow diffusion rate" → fine dispersed phases | qualitative | [R10 p.373]; Cr can stay in solution because of its low diffusivity [TOT p.168] |
+| Dispersoid formers | "modest solubility and … diffuse slowly" | qualitative | [R11 p.78; TOT p.102] |
+| Transition metals in Al (range) | 10⁻¹⁴ to 10⁻¹² cm² s⁻¹ (printed "cm³/sec", a misprint) | 500 °C | [TOT p.295] |
+| Eutectic vs peritectic TM | D(Mn, Fe, Sc, Ni) about **10×** D(Cr, V, Zr, Ti, Mo) | group statement | [TOT p.295] |
+| Vacancy formation / migration / self-diffusion energy | E_f = 0.76 eV, E_m = 0.65 eV, E_sd = 1.4 eV (single vacancy); divacancy binding 0.17 eV, migration 0.50 eV | pure Al | [TOT p.40 Table 8] |
+| Vacancy formation energy | ≈ 0.7 eV | pure Al | [TOT p.86] |
+| Solute transport during GP-zone formation | several orders of magnitude faster than normal diffusion at the same temperature (quenched-in vacancies); ≈ 10⁷× the expected rate in Al–Cu | after quench | [TOT pp.128, 271] |
 
 - Diffusion distance is x = √(Dt) [R11 p.105].
 - Doubling x needs 4× time. Raising the homogenisation temperature by 50 °C cuts time to about ⅓. Practical homogenisation times are 6–24 h [R11 p.105].
 - **(derived)** For 24 h at 500 °C, x ≈ 2 µm for Mn, ≈ 66 µm for Cu and ≈ 93 µm for Mg/Si. Mn therefore never levels across a 20–50 µm dendrite cell; Cu, Mg and Si do.
 - In KWN slice models, long-range Sc and Zr diffusion between dendrite slices had only a minor effect [R1 p.1413].
-- **D₀ and Q for individual solutes are not given in any source read.** See §12.
+- **D₀ and Q for individual solutes are not given in any source read**, including [TOT]: Ch. 2, 3 and 5 were checked and the whole book was searched (2026-10-12). See §12.
+- **Mn-diffusivity conflict, resolved for this chapter (full-text pass).** Elsewhere in the knowledge base, Sheppard's Mn row gives diffusion about 10³× faster than Polmear's D_Mn(500 °C) = 5×10⁻¹³ cm² s⁻¹ [ch07 §11 G9]. TOT's TM range at 500 °C, 10⁻¹⁴–10⁻¹² cm² s⁻¹ [TOT p.295], contains Polmear's value. A value 10³× higher would lie outside it (derived). **Use the Polmear scale.**
+- **D_Sc/D_Zr, still unresolved.** R1 uses ≈ 4 at 480 °C [R1 p.1414]. Arrhenius sets elsewhere in the knowledge base give ≈ 510 [ch13] and ≈ 640 [ch18 §2.3] at 480 °C. TOT gives only the group statement that eutectic formers (Sc) diffuse about 10× faster than peritectic formers (Zr) [TOT p.295]. That supports D_Sc > D_Zr but fixes neither value. Tracer data (Fujikawa) are still needed (§12).
 
 ### 1.5 Partition coefficients, Scheil and growth restriction
 
@@ -220,6 +270,21 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
   - During solidification, Al₆(Mn,Fe) and cubic Al₁₂(Fe,Mn)Si form eutectically.
   - Remaining Mn precipitates during preheat as **Al₁₂(Mn,Fe)Si and Al₆(Mn,Fe) dispersoids**, which "strengthen the material and control recrystallized grain size".
   - In Cu-bearing alloys, **Al₂₀Cu₂Mn₃** forms instead (minor strength effect; grain control after solution treatment).
+- **3xxx phase path, TOT version** [TOT pp.159–160, 299; Table 6 p.123; Table 7 p.125]:
+  - Constituents in 3xxx: Al₆(Fe,Mn) and Al₁₂(Fe,Mn)₃Si. Dispersoids in 3003: Al₁₂(Mn,Fe)₃Si and Al₆(Mn,Fe).
+  - Ingot casting (cooling rate < 10² K s⁻¹) readily gives a Mn-supersaturated (Al). It decomposes **above ≈ 325 °C** into fine Al₆Mn or (AlFeMn) and (AlFeMnSi) dispersoids. Table 34 gives a decomposition range of **300–350 °C** for Al–Mn [TOT pp.295, 299].
+  - There is "no real precipitation hardening". The dispersoids act by hindering grain growth during recrystallisation, which gives fine grains [TOT p.299].
+  - Dispersoid size is typically < 1 µm and depends on the homogenisation conditions [TOT p.160].
+  - **A high Fe/Mn ratio can produce Al₁₃(Fe,Mn)₄ in as-cast 3xxx** [TOT p.160, citing Cama et al. 1997].
+  - High Fe and Si, and small Cu and Mg contents, also refine the grain size. Fe controls the texture and hence earing [TOT p.299].
+  - 3004-H19 can body sheet relies on careful control of the size, volume fraction and distribution of Al₁₂(Fe,Mn)Si constituents [TOT p.123].
+- **Mn partners in other families** [TOT pp.168, 177, 179, 192]:
+  - In 5xxx, Mn dispersoids form as **Al₆(Mn,Fe)**, because Mg₂Si consumes the Si.
+  - In 6xxx, Mn forms Al₁₀Mn₂Si (as printed) or α-Al₁₅(Mn,Fe)₃Si₂ ("virtually insoluble"). This takes Si out of the matrix and lowers the ageing response.
+  - In 7xxx, AlMn₆ (Cu-free) and Al₂₀Cu₂Mn₃ dispersoids are larger than the Cr E-phase and less effective against recrystallisation.
+- **Effectiveness ranking** [TOT p.125]:
+  - Particles below about 0.4 µm retard recrystallisation by pinning subgrain boundaries and preventing subgrain coalescence.
+  - Coherent dispersoids (Al₃Zr) beat incoherent ones (Al₁₂Mg₂Cr, Al₂₀Mn₃Cu₂). A passing boundary must either change the interface to semi- or incoherent, or dissolve and reprecipitate the particle.
 - **8006-type (Fe ≫ Si):** dispersoids formed by annealing above 300–350 °C are mostly **Al₆Mn**, not Al₆(FeMn), because Fe solubility is negligible. Their amount is set by the non-equilibrium Mn in (Al) [R8 pp.31–32].
 - **Cr dispersoids:** Al₁₈Mg₃Cr₂ in 5xxx; closer to Al₁₂Mg₂Cr in 7xxx. They contribute strength in non-heat-treatable (NHT) alloys and control recrystallisation in heat-treatable alloys [R10 p.390].
 - **Zr dispersoids:** equilibrium Al₃Zr is tetragonal, but fine **metastable cubic (L1₂) Al₃Zr** forms in preheat; usually <0.15 % Zr [R10 p.390].
@@ -248,7 +313,20 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
 | Al₂₀Cu₂Mn₃ | — | — | — | Cu-bearing alloys [R10 pp.369, 389] |
 | Al₁₂Mg₂Cr / Al₁₈Mg₃Cr₂ | — | fcc (Al₁₈Mg₃Cr₂) | — | [R10 p.390] |
 
-Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and the quaternary "Al₁₂(Fe,Mn)₃Si" [R10 pp.369, 388]. The phases are the same; the formula conventions differ.
+Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and the quaternary "Al₁₂(Fe,Mn)₃Si" [R10 pp.369, 388]. The phases are the same; the formula conventions differ. TOT uses the same names: α-Al₁₂Fe₃Si, β-Al₉Fe₂Si₂ [TOT p.138], α-Al₈Fe₂Si and β-Al₅FeSi [TOT p.179].
+
+**Binary Al–TM phases** [TOT p.295 Table 34]:
+
+| System | Phase | Structure, lattice (nm) | Limit solubility (at%) | Decomposition T of the supersaturated solution (°C) | Precipitation-hardening effect ΔH/C (per at%) ⚠ |
+|---|---|---|---|---|---|
+| Al–Mn | Al₆Mn | orthorhombic a 0.6498, b 0.7552, c 0.8870; metastable cubic Al₁₂Mn a 0.747 | 0.88 | 300–350 | 10 |
+| Al–Cr | Al₇Cr | orthorhombic a 2.48, b 2.47, c 3.02 | 0.41 | 450–500 | 51 |
+| Al–Zr | Al₃Zr | tetragonal a 0.4006, c 1.727; metastable cubic a 0.407 | 0.093 | 400–450 | 154 |
+| Al–V | Al₁₁V | cubic a 1.4586 | 0.21 | 500–550 | 31 |
+| Al–Ti | Al₃Ti | tetragonal a 0.3848, c 0.8596 | 0.17 | — | — |
+| Al–Sc | Al₃Sc | cubic a 0.4104 | 0.28 | 250–350 | 208 |
+
+⚠ The quantity H and its unit are not defined in the extracted text. Use the last column as a relative ranking only. The Al₆Mn lattice matches R8's Al₆(FeMn) (a 0.75518, b 0.64978, c 0.88703) with a and b swapped.
 
 **Invariant reactions** relevant to 3xxx casting:
 - Al–Mn–Si [R8 p.15 Table 1.11]:
@@ -270,11 +348,24 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
 - 8xxx (8006 Al–1.6Fe–0.65Mn, 8011): dispersion hardening is about **30–40 MPa** of proof and tensile strength; solid solution adds 2–10 MPa (proof) and 5–20 MPa (UTS) [R11 p.131].
 - Annealed 3003 UTS ≈110 MPa versus 90 MPa for 1100 [R11 p.129].
 - 3004 annealed UTS ≈180 MPa [R11 p.130].
+- **Commercial Al–Mn alloys** [TOT p.299 Table 37]. All contain up to 0.25 Cu and 0.70 Fe, plus "0.3–0.6 %" of an element the extracted text does not name (presumably Si ⚠):
+
+| Alloy | Mn | Mg | Anneal (°C) | O: UTS / YS / El | Worked: UTS / YS / El |
+|---|---|---|---|---|---|
+| 3003 | 1.0–1.5 | — | 400–600 | 110 / 42 / 35 % | H14: 150 / 145 / 12 % |
+| 3004 | 1.0–1.5 | 0.8–1.3 | 415 | 180 / 70 / 22 % | H34: 240 / 200 / 11 % |
+| 3105 | 0.2–0.8 | 0.2–0.8 | 345 | 115 / 55 / 24 % | H14: 170 / 150 / 5 % |
+
+  - **Relevance:** 3105 is the registered alloy closest to the lean Mn–Mg slug alloys. T11 (Mn 0.14, Mg 0.26) sits below its Mn range (inference).
+- **Constituent strengthening.** In annealed Al–0.05Si–(0.15–1.17)Fe 1xxx alloys, YS rises by **≈ 7 MPa per vol% constituent** (Al₃Fe or Al₆Fe), whatever the temper or intermetallic type [TOT pp.122, 138; Alcoa unpublished data]. Constituents are otherwise said to give no strengthening [TOT p.122].
 - Al–Mg–Mn plate: Mn is about twice as effective as Mg per % (≈35 MPa UTS per 1 % Mg) [R10 p.380].
 
 **Quench sensitivity** (critical range 290–400 °C):
 - Al₁₂Mg₂Cr is worst, Al₆Mn intermediate, Al₃Zr least [R11 pp.112–113].
 - Mn-bearing particles nucleate coarse Mg₂Si needles [R11 p.113 Fig 3.14].
+- TOT agrees on the Cr > Mn > Zr ranking [TOT pp.127, 192–194]. It adds that V affects the quench sensitivity of Al–Zn–Mg more than Cr or Mn [TOT pp.193–194].
+- In Al–1 % Mg₂Si, the Mn and Cr variants show the largest YS loss between still air (0.65 °C s⁻¹) and cold water (> 1000 °C s⁻¹), because their dispersoids nucleate β″ heterogeneously. Homogenised ingot is less quench sensitive [TOT pp.177–179].
+- Fe and Si constituents alone can raise quench sensitivity, and they magnify the effect of dispersoid formers [TOT pp.192, 194].
 
 ### 2.3 Dispersoid-free zones (DFZ) from microsegregation
 
@@ -285,7 +376,8 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
 ### 2.4 Design levers
 
 - Fe + Mn total sets the constituent fraction and the primary-phase risk (≤1.7–2.0 %) [R10 p.383]. Fe also controls how much Mn goes into constituent versus solid solution [R8 p.12].
-- Si/Mn ratio decides Al₆(Mn,Fe) versus α. More Si gives more, finer α dispersoids and lower Mn in solid solution [R8 pp.32, 37; R10 p.389] (inference on "finer").
+- Si/Mn ratio decides Al₆(Mn,Fe) versus α. More Si gives more α dispersoids and lower Mn in solid solution [R8 pp.32, 37; R10 p.389].
+  - TOT confirms the "denser distribution" and the faster Mn precipitation with Si, and puts the Al₆(Mn,Fe)/α switch at about 0.07 % Si [TOT p.160]. *Updated after full-text pass; "finer" was an inference, "denser" is sourced.*
 - Heating rate of 50–75 °C h⁻¹ through the nucleation window, an optional isothermal hold, then soak at 450–600 °C [R11 pp.105–106].
 - Use electrical conductivity as an in-line metric of Mn precipitation [R10 p.370].
 
@@ -294,7 +386,8 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
 - Coarse dispersoids or constituents above about 1 µm act as particle-stimulated nucleation (PSN) sites, which promotes recrystallisation [R11 p.42].
 - Dispersoids also nucleate microvoids [R11 p.82].
 - Dispersoids raise quench sensitivity in heat-treatable alloys (Cr > Mn > Zr) [R11 p.112].
-- **Conflict:** Davis states Mn "decreases resistivity" [R10 p.382]. This contradicts the general understanding that Mn in solid solution raises resistivity strongly (general knowledge). Treat that sentence as an error.
+- **Conflict resolved (corrected after full-text pass):** Davis states Mn "decreases resistivity" [R10 p.382]. TOT ranks impurities by their increasingly harmful effect on conductivity as **Cr, V, Mn, Ti, Mg, Ag, Cu, Zn, Si, Fe, Ni** (Fridlyander). It names Cr, V, Mn and Ti as the most harmful and limits Cr + V + Mn + Ti to ≤ 0.010–0.015 % in electrical-grade Al [TOT p.52]. Mn in solid solution therefore lowers conductivity. Treat R10's sentence as an error.
+- Coarse constituents crack early: 25–50 % of them are cracked after 7 % plastic strain in uniaxial tension [TOT p.122]. Incoherent Mn-bearing dispersoids lower toughness and speed fatigue-crack growth in 7xxx [TOT p.193].
 
 ---
 

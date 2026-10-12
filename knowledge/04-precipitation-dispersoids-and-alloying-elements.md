@@ -39,11 +39,11 @@ Not used:
    - Si enables α-dispersoid formation during annealing [R8 p.32].
    - Si drastically lowers Mn solubility, so more Mn precipitates [R8 Table 1.13].
    - When Fe and Si are fully bound in α, the Mn and Si left in (Al) set the dispersoid amount [R8 p.37].
-   - Homogenisation transforms Al₆(Fe,Mn) into α-Al₁₂(Fe,Mn)₃Si [R11 p.106].
+   - Homogenisation transforms Al₆(Fe,Mn) into α-Al₁₂(Fe,Mn)₃Si [R11 p.107].
 3. **Dispersoid number density, not size, is the lever. Supersaturation drives nucleation.**
    - Extra Sc/Zr mainly raises number density; radius stays about 10 nm at 480 °C [R1 pp.1415, 1419].
    - Recrystallisation resistance is best when dispersoids form at T_disp < T_anneal before deformation, or during an intermediate anneal [R4 p.35].
-   - Slow heating (50–75 °C h⁻¹) promotes fine, uniform dispersoids [R11 p.105].
+   - Slow heating (50–75 °C h⁻¹) promotes fine, uniform dispersoids [R11 p.106].
 4. **Sc + Zr core–shell L1₂ is the strongest anti-RX dispersoid, and very little Sc is needed.**
    - In 7050, 0.02 % Sc is predicted to almost eliminate recrystallisation [R1 p.1420].
    - Zr slows coarsening and the late stage of precipitation; it does not change the start [R4 p.32; R3 p.14].
@@ -129,7 +129,7 @@ Solubility at 20 °C is about 2 wt% for Mg and Zn, 0.1–0.2 wt% for Ge, Li and 
 | 427 | 0.2 | 0.026 | — | — |
 | 400 | — | — | 0.06 / 0.08 | 0.04 / 0.25 |
 
-Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are approximations]; Si columns from [R8 p.14 Table 1.13] (Drits 1977 and Phillips 1959; I reconstructed the columns from the garbled extraction ⚠). In the α+Al₆Mn field Mn solubility is about the same as binary Al–Mn; in the Si-saturated field Mn is ≤0.1 % [R8 p.13 text]. Note that R8 Fig 1.4b (Mondolfo) disagrees: it shows ~1 % Mn at 527 °C instead of ~0.4 %. The calculated 550 °C section (Du et al. 2004) agrees with the table [R8 p.13].
+Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are approximations]; Si columns from [R8 p.15 Table 1.13] (Drits 1977 and Phillips 1959; I reconstructed the columns from the garbled extraction ⚠). In the α+Al₆Mn field Mn solubility is about the same as binary Al–Mn; in the Si-saturated field Mn is ≤0.1 % [R8 p.13 text]. Note that R8 Fig 1.4b (Mondolfo) disagrees: it shows ~1 % Mn at 527 °C instead of ~0.4 %. The calculated 550 °C section (Du et al. 2004) agrees with the table [R8 p.13].
 
 **Fe and Si.**
 - Fe in (Al) is ≤0.05 % [R8 p.3].
@@ -220,7 +220,7 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
   - During solidification, Al₆(Mn,Fe) and cubic Al₁₂(Fe,Mn)Si form eutectically.
   - Remaining Mn precipitates during preheat as **Al₁₂(Mn,Fe)Si and Al₆(Mn,Fe) dispersoids**, which "strengthen the material and control recrystallized grain size".
   - In Cu-bearing alloys, **Al₂₀Cu₂Mn₃** forms instead (minor strength effect; grain control after solution treatment).
-- **8006-type (Fe ≫ Si):** dispersoids formed by annealing above 300–350 °C are mostly **Al₆Mn**, not Al₆(FeMn), because Fe solubility is negligible. Their amount is set by the non-equilibrium Mn in (Al) [R8 p.31].
+- **8006-type (Fe ≫ Si):** dispersoids formed by annealing above 300–350 °C are mostly **Al₆Mn**, not Al₆(FeMn), because Fe solubility is negligible. Their amount is set by the non-equilibrium Mn in (Al) [R8 pp.31–32].
 - **Cr dispersoids:** Al₁₈Mg₃Cr₂ in 5xxx; closer to Al₁₂Mg₂Cr in 7xxx. They contribute strength in non-heat-treatable (NHT) alloys and control recrystallisation in heat-treatable alloys [R10 p.390].
 - **Zr dispersoids:** equilibrium Al₃Zr is tetragonal, but fine **metastable cubic (L1₂) Al₃Zr** forms in preheat; usually <0.15 % Zr [R10 p.390].
   - In Ref. [R1]'s 7050 (0–0.3Sc, ≤0.13Zr), all dispersoids remained L1₂ even after 40 h at 475 °C; no D0₂₃ formed [R1 p.1410].
@@ -230,7 +230,7 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
 - **Si effect on Mn dispersoids.**
   - With Si, α-Al₁₅(Fe,Mn)₃Si₂ forms in casting **and** in annealing, because Si has relatively high solubility [R8 p.32].
   - In the Si-saturated field, Mn solubility drops to 0.04–0.08 % (400–573 °C) [R8 Table 1.13]. Si therefore raises the driving force for Mn precipitation (inference).
-  - Si also converts Al₆(Fe,Mn) constituents to α during homogenisation [R11 p.106].
+  - Si also converts Al₆(Fe,Mn) constituents to α during homogenisation [R11 p.107].
   - Single-phase 3003 (no excess phases) requires Mn < 1 % and Si < 0.1 %. Then Mn microsegregation can be removed by annealing above 540–550 °C [R8 pp.32–33].
 
 ### 2.2 Quantitative data
@@ -262,8 +262,8 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
 
 **Homogenisation practice:**
 - 450–600 °C for 6–24 h [R11 p.105].
-- Slow heating, about 75 °C h⁻¹, "necessary to promote nucleation and growth of a fine and uniform dispersion" [R11 p.105].
-- Cooling-rate control and a second isothermal step are sometimes used [R11 p.106].
+- Slow heating, about 75 °C h⁻¹, "necessary to promote nucleation and growth of a fine and uniform dispersion" [R11 p.106].
+- Cooling-rate control and a second isothermal step are sometimes used [R11 p.107].
 - R2's Sc–Zr billets: heat 50 °C h⁻¹, cool 350 °C h⁻¹, 400 °C/8 h versus 450 °C/4 h. Both gave negligible differences in extrusion and post-braze properties [R2 pp.18, 38, 43].
 
 **Strength contribution:**
@@ -523,7 +523,7 @@ Other 1xxx rows:
 | E1 | c^α_r = c^α_∞ exp[2σV_m/(R_g T r)] (Gibbs–Thomson) | c: matrix concentration at the interface for radius r; σ (J m⁻²); V_m (m³ mol⁻¹) of the precipitate; R_g = 8.314 J mol⁻¹ K⁻¹ | [R1 p.1411 Eq 1] |
 | E2 | I = N_v (kT/h) exp[−(4πσr\*² + Q\*)/(3kT)] ⚠ | I: nucleation rate (m⁻³ s⁻¹); N_v: site density; h: Planck; k: Boltzmann; Q\* ≈ 2.07 eV atom⁻¹; r\*: critical radius. ⚠ as extracted — check grouping of the 1/3 factor against the original | [R1 p.1412 Eq 3] |
 | E3 | r\* = radius at which the capillarity-shifted solvus passes through the current mean matrix composition (consistent for nucleation and growth) | — | [R1 p.1412] |
-| E4 | dr/dt = (D_Sc/r)(c̄_Sc − c^α_Sc(r))/(c^β_Sc − c^α_Sc(r)) = (D_Zr/r)(c̄_Zr − c^α_Zr(r))/(c^β_Zr − c^α_Zr(r)) | ternary flux-balance tie-line, solved by Newton–Raphson for each size class; negative values give dissolution | [R1 p.1412 Eq 4] |
+| E4 | dr/dt = (D_Sc/r)(c̄_Sc − c^α_Sc(r))/(c^β_Sc − c^α_Sc(r)) = (D_Zr/r)(c̄_Zr − c^α_Zr(r))/(c^β_Zr − c^α_Zr(r)) | ternary flux-balance tie-line, solved by Newton–Raphson for each size class; negative values give dissolution | [R1 p.1413 Eq 4] |
 | E5 | c = k c̄ (1 − f_s)^(k−1) | initial segregation profile; k_Zr = 1.4, k_Sc = 0.9 | [R1 p.1411 Eq 2] |
 | E6 | r̄³ − r̄₀³ = a(t − t₀) | LSW coarsening | [R1 p.1416 Eq 5] |
 | E7 | a_KV (see §3.4) | ternary coarsening constant | [R1 p.1417 Eq 6] |
@@ -568,7 +568,7 @@ Other 1xxx rows:
 - **Other elements:**
   - Mn raises the recrystallisation temperature, gives fibrous hot-worked structures and slows recovery [R10 p.382].
   - Cr prevents recrystallisation in Al–Mg–Si and Al–Zn alloys [R10 p.373].
-  - Zr at 0.1–0.3 % inhibits recovery and recrystallisation [R10 p.386].
+  - Zr at 0.1–0.3 % inhibits recovery and recrystallisation [R10 p.387].
   - V raises the recrystallisation temperature [R10 p.385].
   - 0.2 % Ca alters recrystallisation in 3003 [R10 p.372].
   - Yb + Cr + Zr strongly raise recrystallisation resistance in Al–Zn–Mg–Cu [R7 p.6].
@@ -598,7 +598,7 @@ Other 1xxx rows:
   - GP-zone densities reach 10¹⁷–10¹⁸ cm⁻³ [R11 p.45].
 - **Al–Cu–Mg cluster hardening.**
   - Two-stage hardening at about 100–240 °C. The first stage gives **60–70 % of total hardening within 60 s**, followed by a plateau of up to about 100 h.
-  - It is attributed to about 10¹⁹ cm⁻³ Cu–Mg clusters [R11 p.64].
+  - It is attributed to about 10¹⁹ cm⁻³ Cu–Mg clusters [R11 pp.64–65].
   - Strengthening scales with the number density of Cu–Mg co-clusters. Cu–Cu and Mg–Mg clusters do not correlate with hardness. Vacancy–Mg–Cu complexes are proposed [R5 p.12].
 - **Natural-ageing data** (Al–1.1Cu–1.7Mg; Al–1.5Cu–3.5Li ± 0.44Mg at.%; solution treated 500–505 °C 30 min, water quenched) [R5 pp.29–31, 71–73]:
   - Most change happens in the first 24 h; hardening saturates after about 10 h; 72 h is stable up to 6 months.
@@ -760,14 +760,14 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 
 | Element | Max solubility (wt% @ °C) | Diffusion | Partitioning / reaction | Phases formed | Strength | RX / grain | Corrosion | Conductivity | Castability / process | Typical levels |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **Mn** | 1.82 @ 658; ≤0.23 @ 654 with Fe; ≤0.08 with Si saturation [R8] | 5×10⁻¹³ cm²/s (slowest listed) | eutectic (k < 1, gen. knowl.) | Al₆(Mn,Fe), α-Al₁₅(FeMn)₃Si₂, Al₂₀Cu₂Mn₃, Al₆Mn dispersoids [R8; R10 p.389] | SS 30.3 MPa/wt% YS [R10 Table 8]; dispersion; Mn ≈ 2× Mg in Al–Mg–Mn [R10 p.380] | raises RX temperature, fibrous structure, slows recovery [R10 p.382] | no adverse effect; Al₆(Mn,Fe) and α at ≈ matrix potential [R10 pp.382, 401]; MnAl₆ −0.85 V [R11 Table 2.5] | strong reduction in SS (gen. knowl.; R10 text says otherwise ⚠) | Fe + Mn < 1.7–2.0 % to avoid primary Al₆ [R10 p.383]; corrects acicular Fe phases | 3102: 0.05–0.4; 3207: 0.4–0.8; 3003: 1.0–1.6 [R8 Table 1.10]; ≤1.25 [R11] |
+| **Mn** | 1.82 @ 658; ≤0.23 @ 654 with Fe; ≤0.08 with Si saturation [R8] | 5×10⁻¹³ cm²/s (slowest listed) | eutectic (k < 1, gen. knowl.) | Al₆(Mn,Fe), α-Al₁₅(FeMn)₃Si₂, Al₂₀Cu₂Mn₃, Al₆Mn dispersoids [R8; R10 p.389] | SS 30.3 MPa/wt% YS [R10 Table 8]; dispersion; Mn ≈ 2× Mg in Al–Mg–Mn [R10 p.380] | raises RX temperature, fibrous structure, slows recovery [R10 p.382] | no adverse effect; Al₆(Mn,Fe) and α at ≈ matrix potential [R10 pp.382, 402]; MnAl₆ −0.85 V [R11 Table 2.5] | strong reduction in SS (gen. knowl.; R10 text says otherwise ⚠) | Fe + Mn < 1.7–2.0 % to avoid primary Al₆ [R10 p.383]; corrects acicular Fe phases | 3102: 0.05–0.4; 3207: 0.4–0.8; 3003: 1.0–1.6 [R8 Table 1.10]; ≤1.25 [R11] |
 | **Fe** | 0.05 @ 655 | — | eutectic | Al₃Fe, Al₆Fe (>1–10 K/s), α-Al₈Fe₂Si, β-Al₅FeSi, Al₆(FeMn), Al₇Cu₂Fe [R8; R10] | slight; creep in conductors [R10 p.379]; 8006 fine-grain strength | reduces grain size; stabilises fine grains (8006) [R10 p.379] | Al₃Fe/Al₆Fe/AlFeSi cathodic → pitting ∝ area fraction [R10 p.399]; FeAl₃ −0.56 V | — | Fe:Si > 1 to avoid hot tearing [R8 p.29]; needles in foil | 0.4–0.7 (3xxx); 1.2–2 (8006) |
 | **Si** | 1.65 @ 577 | 1×10⁻⁹ | eutectic | Si, α/β-AlFeSi, α-Al(FeMn)Si, Mg₂Si, AlSc₂Si₂ [R4] | 9.2 MPa/wt% YS; excess Si in 6xxx +70 MPa [R10] | promotes α dispersoids [R8]; GB segregation in 6xxx [R10 p.381] | Si −0.26 V (cathodic but polarised) [R11; R10 p.402]; excess Si → intergranular corrosion in 6xxx | — | hot short 0.17–0.8 % in high-purity Al [R10 p.384]; fluidity | 0.1–0.6 (3xxx) |
 | **Cu** | 5.65 @ 548 | 5×10⁻¹⁰ | eutectic | θ series, S, Q, Al₂₀Cu₂Mn₃, Al₇Cu₂Fe [R10; R11] | 13.8 MPa/wt% YS (SS); age hardening max 4–6 % [R10 p.373] | most effective at slowing recovery [R11 p.34] | most detrimental (micro-constituents); 0.05–0.2 % gives more uniform corrosion and less pitting [R11 p.72]; raises potential (Al–4Cu −0.69 V) | — | ≤0.3 % in NHT [R11 p.30]; SCC in some tempers [R7 p.2] | 0.05–0.3 (3xxx) |
 | **Mg** | 17.4 @ 450 | 1×10⁻⁹ | eutectic | Mg₅Al₈ (β), Mg₂Si, S, η, Al₁₂Mg₂Cr, Al₂LiMg | 18.6 MPa/wt% YS; ≤175 MPa annealed at 6 % [R11 p.30] | — | >3–4 % → β at grain boundaries → intergranular corrosion / SCC [R11 p.130; R10 p.403]; Al–5Mg −0.88 V | — | Lüders lines; hot cracking with Na [R10 p.380] | 0.1–0.3 (3xxx), 0.8–5.5 (5xxx) |
 | **Zn** | 82.8 @ 443 (peritectic per R11) | — | — | MgZn₂, T-phase; τ in Al–Mg | 2.9 MPa/wt% YS; little work hardening [R11 p.34] | — | raises potential (anodic) → 7072 clad, sacrificial anodes [R10 p.385]; 0.68–0.70 % Zn in 5083 → τ instead of β [R7 p.5] | — | — | 1–1.5 for HX fin anodic protection (gen. knowl.) |
 | **Cr** | 0.77 @ 661 (peritectic) | slow (qualitative) [R10 p.373] | peritectic; Al₇Cr primary at lower Cr in commercial alloys [R10 p.389] | Al₁₂Mg₂Cr, Al₁₈Mg₃Cr₂ dispersoids | slight | prevents RX in 6xxx/7xxx | reduces SCC (fibrous structure); yellow anodic film [R10 p.373] | large resistivity increase [R10 p.373] | highest quench sensitivity [R11 p.112]; sludge (factor Fe + 2Mn + 3Cr) [R7 p.5] | ≤0.35 |
-| **Zr** | 0.28 @ 660.5 (peritectic) | D_Sc ≈ 4 D_Zr [R1] | peritectic, **k = 1.4** [R1] | L1₂ Al₃Zr (metastable), D0₂₃ (eq.), Al₃(Sc,Zr) shell | small | 0.1–0.3 % inhibits recovery and RX [R10 p.386]; dendrite-edge dispersoid-free zones [R1] | non-recrystallised structure helps SCC resistance [R10 p.386] | — | least quench-sensitive dispersoid [R11]; reduces TiB grain refining [R10 p.386] | <0.15 (0.05–0.25 with Sc) |
+| **Zr** | 0.28 @ 660.5 (peritectic) | D_Sc ≈ 4 D_Zr [R1] | peritectic, **k = 1.4** [R1] | L1₂ Al₃Zr (metastable), D0₂₃ (eq.), Al₃(Sc,Zr) shell | small | 0.1–0.3 % inhibits recovery and RX [R10 p.387]; dendrite-edge dispersoid-free zones [R1] | non-recrystallised structure helps SCC resistance [R10 p.387] | — | least quench-sensitive dispersoid [R11]; reduces TiB grain refining [R10 p.387] | <0.15 (0.05–0.25 with Sc) |
 | **Sc** | ≈0.35–0.38 @ 655–659 (eutectic, 0.6 % at eutectic point) [R4; R3]; 0.025 @ 430 [R4] | D_Sc ≈ 4 D_Zr [R1] | eutectic, **k = 0.9** [R1] | L1₂ Al₃Sc (core), AlSc₂Si₂, W-phase [R4] | ~100 MPa hardening; about 300 MPa/wt% YS in 3xxx (derived) [R3] | strongest anti-RX element; +220 °C onset (0.3 %) [R4 p.34] | slightly more noble; improved self-corrosion [R4 p.38] | — (not in sources) | best grain refiner (>0.6 %, or lower with Zr) [R4 p.33]; +44 % extrusion pressure [R2] | 0.02–0.3 |
 | **Ti** | ~1.3 @ 665 (peritectic) | — | peritectic; Q ≈ 35 at 0.15 % [R9] | Al₃Ti, TiB₂; substitutes in Al₃Sc [R4] | slight | grain refiner (with B); Al₃(Sc,Ti) nucleants [R4 p.34] | higher Ti improves corrosion in 3003 [R7 p.3] | depresses conductivity; removed by B [R10 p.385] | ~0.015 % optimal in DC 3003; ≥0.15 % coarser grains and casting problems [R7 p.3] | 0.01–0.05 |
 | **V** | ~0.4 @ 661 (peritectic) | — | peritectic (VAl₁₁) | Al₂₁V₂; V in Al₃Sc 1.4–2.7 at% [R4] | — | raises RX temperature [R10 p.385] | — | lowers conductivity; removed by B [R10] | weaker refiner than Ti and Zr | 10–200 ppm impurity |
@@ -836,7 +836,7 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 | Si solubility (α + Si field) | 1.66 (573), 1.36 (550), 0.85 (500), 0.45 (450), 0.25 (400) | wt% | — | [R8 Table 1.13] |
 | Dispersoid size range | 0.05–0.5 | µm | homogenisation | [R11 pp.43, 78] |
 | PSN threshold | >~1 | µm | — | [R11 p.42] |
-| Homogenisation heating rate | ~50–75 | °C h⁻¹ | fine dispersoids | [R11 p.105; R2 p.18] |
+| Homogenisation heating rate | ~50–75 | °C h⁻¹ | fine dispersoids | [R11 p.106; R2 p.18] |
 | Homogenisation T, t | 450–600; 6–24 | °C; h | — | [R11 p.105] |
 | Δt factor per +50 °C | ≈1/3 | — | homogenisation | [R11 p.105] |
 | Zener pressure | P_Z = 3F_Vγ/(2r) | Pa | random, incoherent | [R12 p.114] |

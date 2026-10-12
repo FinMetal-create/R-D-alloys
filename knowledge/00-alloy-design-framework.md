@@ -274,6 +274,17 @@ Use inexpensive, high-information measurements first [ch03 §5.2; ch13; ch18].
   real lacquer schedule. Measure HB / tensile before and after.
 - **Model use.** Fit the two-process model (§6.3) to sets A–B with Bayesian calibration. Use the posterior to
   choose the next experiments (active learning) [ch18].
+- **Suggested low-cost toolchain** [ch18] (W):
+  - pycalphad + scheil for phase selection during solidification;
+  - kawin (Python KWN) for Mn dispersoid precipitation and Zener-pinned grain growth;
+  - a custom ALSOFT-type recovery/RX module;
+  - PyMC hierarchical Bayesian calibration on HB, conductivity, EBSD and DSC data (≈ 9 isothermal softening
+    curves plus 2–3 hold-out industrial cycles per alloy);
+  - BoTorch/Ax to optimise composition and process.
+
+  **Caveat:** the free COST 507 database splits α-Al(Mn,Fe)Si into separate Fe-free and Mn-free phases, so it
+  cannot represent the 3xxx dispersoid. Either refit the Al–Mn–Fe–Si description (ESPEI), or buy a short
+  commercial Al-database licence (TCAL or PanAl) [ch18].
 
 ---
 
@@ -299,3 +310,12 @@ Use inexpensive, high-information measurements first [ch03 §5.2; ch13; ch18].
    Set them before choosing between H3, H4 and H5.
 5. **IP.** Verify the patent claims cited in [ch11 §1.1] and [ch16 §1.5] (snippet level), and run a
    freedom-to-operate review before fixing a new composition window.
+6. **Open data conflicts** (do not pick a value silently):
+
+   | Quantity | Conflict | Sources |
+   |---|---|---|
+   | D_Mn in Al | Sheppard's row is ≈ 10³× faster than Polmear's. Use Polmear | [ch07 §11 G9]; [ch13] |
+   | D_Sc / D_Zr at ≈ 480 °C | ≈ 4 in the KWN parameters of ch04, vs ≈ 510 [ch13] and ≈ 640 [ch18] from diffusion data. Recheck before any Sc/Zr modelling | [ch04 §11]; [ch13]; [ch18] |
+   | Mn "solubility" 1.82 vs 1.25 wt % | Not a real conflict. 1.82 % is the maximum equilibrium solubility at 658 °C; ≤ 1.25 % is the practical commercial ceiling set by the primary-Al₆(Fe,Mn) risk | [ch05 §4.2]; [ch13] |
+   | H3x stabilisation temperature | 120–150 °C [Polmear] vs ≈ 180 °C [Rolling Aluminum] | [ch07 §11 G10] |
+   | Fe:Si for 1xxx fir-tree control | "≈ 3" [ch01] vs "3–5, worst at ≈ 2" [ch02]. These are consistent ranges, not a contradiction | [ch01 §11]; [ch02] |

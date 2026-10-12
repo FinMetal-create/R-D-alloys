@@ -102,8 +102,11 @@ taken as 182–227 kJ/mol, the range implied in [ch13]. Homogenisation relaxatio
 2. **The cold strain is below the in-house CRM-table targets** (ε ≥ 0.80–0.85 [ch09 §5]). Expect coarser,
    more variable grains and higher anneal temperatures (so more MgO) than the tables predict.
    - The RX grain size falls with strain, and ≈ 15 % is the critical strain [ch03 §4.4; ch06].
-   - At low strain, fewer constituent particles act as PSN nuclei: the critical particle size grows as stored
-     energy falls (general knowledge; HH ch. 9 not extracted [ch03 §12]).
+   - At low strain, fewer constituent particles act as PSN nuclei. At 30–60 % cold reduction only particles
+     ≳ 3–7 µm nucleate grains, at ≈ 14 % efficiency [ch03 §3.2b, Humphreys & Hatherly].
+   - The fast-cooled rotary-cast constituents are finer than DC ones, and hot rolling fragments them further.
+     So few may exceed the threshold, giving coarser slug grains. This is another argument for more cold
+     reduction (P10). Measure the coarse tail of the constituent size distribution.
 3. **The quench is a design variable.**
    - Slow cooling or hot coiling instead would let Mn (and Mg₂Si) precipitate in the coil, using the casting
      heat (P2).
@@ -229,6 +232,8 @@ Ranking is expected benefit per unit of risk and capex (inference).
   sequencing with fine equiaxed grains [ch03 §5.2, R10]. The hold then lowers Mn_ss (softer, stable slug),
   and the new dispersoids limit grain growth.
 - **Evidence.**
+  - Humphreys & Hatherly's three-regime framework [ch03 §5.2]: for supersaturated Al–1.3Mn, T_A ≈ 400 °C and
+    T_B ≈ 350 °C, and **slow heating raised the 1 h RX temperature by ≈ 75 °C** (D).
   - Fast heating (≈ 50 °C/s) gives fine equiaxed grains; ≤ 3 °C/s gives coarse grains in CC 3xxx [ch15 §3]
     (W).
   - AA3103: fully RX in 45 s at 400 °C with no Mn precipitation [ch03 §4.3] (D).

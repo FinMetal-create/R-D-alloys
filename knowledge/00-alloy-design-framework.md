@@ -120,8 +120,8 @@ Strengthening coefficients are for **annealed super-purity binaries** unless sta
 | R10 | Heating rate and grain shape (supersaturated 3xxx) | Fast (≈ 50 °C/s) → fine equiaxed; ≤ 3 °C/s → coarse. Fine dense dispersoids or concurrent precipitation → pancake grains | W | [ch12]; [ch15 §3] |
 | R11 | JMAK parameters are **not constant** across the precipitation window | n falls 3.0 → 0.8 (371 → 427 °C), apparent Q ≈ 456 kJ/mol (one Al–Mn alloy); continuously cast 3xxx n ≈ 2.9 → 0.8, Q 222–539 kJ/mol vs n ≈ 1.5 for DC 3003 | W | [ch12]; [ch15 §3] |
 | R12 | Zener pressure | P_Z = 3F_Vγ/2r (random); much stronger when particles sit on boundaries | D | [ch04 §5]; [ch03 §5.3, §6] |
-| R13 | Grain-size control in lean 3xxx | Estimated Zener limit from published dispersoid statistics ≈ 3–5 µm, so 20–100 µm slug grains are set by **nucleation density** (G, web-derived) | W/G | [ch12] |
-| R14 | PSN | Needs particles ≳ 1 µm. Fine precipitates in the deformation zones suppress PSN | D | [ch03 §3] |
+| R13 | Grain-size control in lean 3xxx | Estimated Zener limit from published dispersoid statistics ≈ 3–5 µm, so 20–100 µm slug grains are set by **nucleation density** (G, web-derived). HH's calibrated Zener cap (≈ 0.35–0.47·r/F_V) is smaller still, which supports this | W/G/D | [ch12]; [ch03 §6] |
+| R14 | PSN | The critical particle diameter depends on strain: **≈ 3–7 µm at 30–60 % cold reduction**; ≈ 1 µm only at high strain. Efficiency ≈ 14 % of eligible particles, so the **coarse tail of the constituent size distribution** sets nucleus density and slug grain size. Fine precipitates in the deformation zones suppress PSN *(corrected after the HH full-text pass)* | D | [ch03 §3, §3.2b] |
 | R15 | Critical-strain coarsening | 3–7 % strain + high-T cycle → very coarse grains (AA3102 tube: ≈ −22 % strength at ≈ 3 % sizing) | D | [ch03 §7.1]; [ch07 §10] |
 | R16 | Hall–Petch | k = 0.065–0.07 MPa·m^½ (pure Al); ≤ 0.15 for Mg-free alloys | D | [ch06 §4]; [ch03 §7.2] |
 | R17 | O-temper work hardening | 3003-O: K = 188 MPa, n = 0.242; 1100-O: K = 146 MPa, n = 0.242 | D | [ch06 §4]; [ch07 §10] |

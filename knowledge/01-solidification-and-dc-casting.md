@@ -371,7 +371,7 @@ General points: real as-cast phase assemblages differ from equilibrium (suppress
   - 3–10% Ti, giving soluble Al3Ti plus insoluble (Ti,Al)B2.
   - Effective at 0.01–0.03% Ti in the cast alloy. Because of this, "the predominant role in nucleation is taken by the boride particles".
   - The Ti:B ratio is printed "3:50". That cannot describe these master alloys (AlTi5B1 has Ti:B = 5:1 by its name, general knowledge), so it is a printing or extraction error.
-  - Eskin's "0.001–0.005% Ti" (§5.2) is the Ti *added* with the refiner; TOT's 0.01–0.03% is the Ti *in the cast alloy*. They are not in conflict.
+  - Eskin's "0.001–0.005% Ti" (§5.2) is the Ti *added* with the refiner; TOT's 0.01–0.03% is the Ti *in the cast alloy*. (inference) They are therefore not in conflict.
 - **Role of boron: two models.**
   - Ch. 9 cites a theory that a TiB2 coating on TiAl3 slows the dissolution of TiAl3 in the superheated weld pool ("fading"). B is used at < 0.03% [TOT p.493].
   - Eskin's in-situ data show a metastable Al3Ti layer *on* TiB2 as the nucleant (§5.1) [ch2, p.73–74].
@@ -891,7 +891,7 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
 6. **Rotary (wheel-type) strip caster and trial T11: relevance summary** (added 2026-10-12; inference unless cited)
    - **Context.** 22 mm strip leaves the caster at ≈ 500 °C and goes straight to in-line hot rolling; there is no ingot homogenisation; the melts are scrap-rich. T11 is Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04, Ti 0.043 with AlTi5B1 [trials/T11.md §1]. Neither Eskin nor [TOT] has solidification data for continuously cast strip (§13 item 6).
    - **Structure scale.** Use the through-thickness SDAS profile of the cast strip as the cooling-rate record. Calibrate d = C·Vc^−n on lab castings first (§2.2, §2.5).
-   - **Phase path.** T11's Si and Mg sit close to 6063 (0.39 Si, 0.43 Mg), which forms cubic α and then β by L + α → (Al) + Al5FeSi at 613/610 °C at both 0.5 and 15 K/s (§4.1) [ch2, p.49]. T11 has 2.6× the Fe of that 6063 (derived), so β is a real risk, most of all in the slower-cooled mid-thickness. Phase selection is in ch. 02 §3.7.
+   - **Phase path.** T11 has the same Si as the 6063 of §4.1 (0.39 Si, 0.43 Mg, 0.2 Fe) and less Mg. That 6063 forms cubic α and then β by L + α → (Al) + Al5FeSi at 613/610 °C at both 0.5 and 15 K/s (§4.1) [ch2, p.49]. T11 has 2.6× the Fe of that 6063 (derived), so β is a real risk, most of all in the slower-cooled mid-thickness. Phase selection is in ch. 02 §3.7.
    - **Solidus and the hot mill.** The lowest non-equilibrium solidus in this chemistry family is 555 °C if free Si forms (§4.5) [ch2, p.47], or 573–576 °C for β + (Si) (§4.2) [ch2, p.45]. (derived) The ≈ 500 °C exit temperature is ≥ 55 K below these values, so the hot mill should see fully solid strip, provided the 500 °C reading represents mid-thickness. A surface pyrometer can understate the centre temperature.
    - **Hot tearing.** Lean Mg + Si alloys sit near the peak of the susceptibility curve (§9.5, §9.7; ch. 02 §6.5). Keep grains refined and dendritic (§5.4), the melt clean (oxide films start tears, §9.7), and strain in the wheel–band zone low while fs > 0.9 (§9.1).
    - **Melt.** Degas to < 0.10 ml/100 g; filter with ≥ 50 ppi foam, a deep bed or a cartridge; flux alkalis in the furnace, not in line; add the refiner after the filter (§5.4, §10.1–10.4).

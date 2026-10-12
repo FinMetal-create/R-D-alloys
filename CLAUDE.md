@@ -15,11 +15,17 @@ composition → solidification → homogenisation → hot/cold deformation → a
 The main focus is wrought aluminium. The user's own work centres on lean 3xxx alloys
 (EN AW-3102 and a modified 3102, and AA3207) cold rolled into strip and annealed into
 **impact-extrusion slugs for aerosol cans**. The key levers are recrystallisation during
-annealing (grain size 20–100 µm; slug hardness **≤ 35 HB**, an upper limit stated by the user on 2026-10-12,
-with no lower limit given; the earlier "23–33 HB" window was an inference from the in-house files), MgO
-surface oxide growth, and
+annealing (grain size 20–100 µm; slug hardness around 35 HB is acceptable and means a stronger alloy, so it is
+**not** a cap; the earlier "23–33 HB" window was an inference from the in-house files), MgO surface oxide
+growth, and
 cold-rolling-mill reductions. Other alloy families are covered for the principles that
 transfer to aluminium.
+
+**Design goal (user, 2026-10-12):** find alloys that are (1) **stronger**, (2) **good to impact-extrude**, and
+(3) **castable on a rotary (wheel-type) strip caster**, the user's casting route. Treat strength vs press force
+and extrudability as the core trade-off, and judge every candidate against rotary strip casting (high cooling
+rate, no ingot homogenisation, hot tearing and centreline segregation risks; see `knowledge/15` and
+`knowledge/11`).
 
 Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw
 materials. "MgO" refers to surface oxide growth during annealing.

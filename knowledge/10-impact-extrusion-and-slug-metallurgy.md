@@ -142,7 +142,7 @@ pp.10, 27].
 → Consistent with the 400 t press rating [S-057]; **force scales linearly with slug UTS (≈ HB): the 33-HB end of the
 window needs ≈ 43 % more force than the 23-HB end**, and a flat-nosed Ø53 punch at 33 HB approaches the press rating.
 
-**Update (2026-10-12): the user's slug limit is ≤ 35 HB**, not a 23–33 HB window. At 35 HB, Rm ≈ 126 MPa, and the
+**Update (2026-10-12): the user aims for stronger alloys; ≈ 35 HB is acceptable and not a cap**, so there is no 23–33 HB window. At 35 HB, Rm ≈ 126 MPa, and the
 same factors give *(derived, same caveats)*:
 
 | Can | p_max at 35 HB (MPa) | F_max conical ram | F_max flat ram (×1.2) |
@@ -451,7 +451,7 @@ O-temper UTS and H19 YS coefficients of two sources; verify with own data).
 
 | Target (ch.09) | What the literature says | Assessment |
 |---|---|---|
-| **Slug hardness**: user limit **≤ 35 HB** (stated 2026-10-12). The "23–33 HB" used below was inferred from the in-house model files (§2.5, §3.5) | Fully annealed Al99.5 ≈ 23–25 HB; +10 % CR ≈ 26–28; +20 % CR ≈ 33 HB [S-051 Fig. 3/5, digitised]; 1100-O 23, 3003-O 28 HB (§4.1). Ram force ∝ UTS (P1): 33 HB ≈ +43 % force vs 23 HB (§2.5a). | A fully RX lean 3xxx (between 1100 and 3003) should sit ≈ 23–28 HB; **values near 33 HB in 3102 indicate residual cold work (partial RX ≈ 15–20 % equivalent strain) or very fine grain** — HB must be paired with RX fraction/grain size (§4.1). A fully annealed **modified 3102** (≈ 3003 + 0.3 Mg) is estimated at ≈ 31–32 HB (3003-O 28 HB + ≈ 15 MPa UTS from Mg ÷ 3.6) *(derived)* → little headroom for incomplete RX and the highest press loads in the family. |
+| **Slug hardness**: ≈ 35 HB is acceptable and means a stronger alloy; it is not a cap (user, 2026-10-12). The "23–33 HB" used below was inferred from the in-house model files (§2.5, §3.5) | Fully annealed Al99.5 ≈ 23–25 HB; +10 % CR ≈ 26–28; +20 % CR ≈ 33 HB [S-051 Fig. 3/5, digitised]; 1100-O 23, 3003-O 28 HB (§4.1). Ram force ∝ UTS (P1): 33 HB ≈ +43 % force vs 23 HB (§2.5a). | A fully RX lean 3xxx (between 1100 and 3003) should sit ≈ 23–28 HB; **values near 33 HB in 3102 indicate residual cold work (partial RX ≈ 15–20 % equivalent strain) or very fine grain** — HB must be paired with RX fraction/grain size (§4.1). A fully annealed **modified 3102** (≈ 3003 + 0.3 Mg) is estimated at ≈ 31–32 HB (3003-O 28 HB + ≈ 15 MPa UTS from Mg ÷ 3.6) *(derived)* → little headroom for incomplete RX and the highest press loads in the family. |
 | **Grain 20–100 µm** (§3.1, §5) | > 100 µm → orange peel/formability loss [S-043]; ≥ 15 % prior strain for fine RX grain [S-043]; HP effect only 2–7 HB over 20–100 µm (§4.2). | Upper limit is literature-supported (surface); the lower limit has **no literature basis** in these sources — it is a cost/process limit (needs high CR, low T anneal; ch.09 §5), not a forming limit. |
 | **Cold-rolling ε ≥ 0.80–0.95** (§5) | > 50 % reduction gives L≈T deformed microstructure, no banding until > 90 % [S-051 p.195]; ε ≥ 0.15 critical strain [S-043]; fine grains texture faster [S-052 p.21]. | 55–61 % CR sits in the homogeneous-deformation regime; supports the CRM rule (ch.09 §5) qualitatively. No source gives grain size vs ε for 3xxx. |
 | **Low MgO after anneal** (§2.6, §3) | Interface/lubrication and surface reactions are recognised problem areas [S-053 pp.5–6]; end-of-stroke force is friction-dominated for thin-based Ø45–53 cans (§2.5b). | Plausible route by which MgO matters (lubricant adhesion → m → peak force, galling, surface) — **not quantified in any source** (gap). |
@@ -529,7 +529,7 @@ m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1. **No in-house press-force or flow-c
 8. **Hydrostatic-pressure sensitivity w** of Al flow stress at ~1 GPa (none in sources).
 9. **Temperature and strain-rate history** of the wall (thermocouple/IR on ejected cans; FE) — the ≲ 200 K bound is
    unvalidated.
-10. Whether the modified 3102 (Mn 1.1–1.3, Mg 0.25–0.35) fully recrystallises within ≤ 35 HB and ≤ 100 µm at the
+10. Whether the modified 3102 (Mn 1.1–1.3, Mg 0.25–0.35) fully recrystallises (≈ 31–32 HB expected; ≈ 35 HB acceptable) at ≤ 100 µm at the
     plant CR (25–45 %). The §7 estimate of ≈ 31–32 HB leaves only ≈ 3–4 HB of margin; trial with HB + EBSD + press
     force.
 11. Do in-house slugs show planar anisotropy (rim irregularity) large enough to need the trim allowance missing from

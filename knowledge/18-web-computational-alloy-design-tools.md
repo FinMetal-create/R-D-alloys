@@ -450,7 +450,7 @@ Roughly 80–100 hardness/conductivity samples and about 15–20 EBSD maps per a
 3. **Hierarchy.** Shared physics parameters across alloys; alloy-level offsets for Mn_ss and dispersoid state.
 4. **Discrepancy.** Add a GP δ(T, ε) on hardness only if the posterior-predictive checks on Block D fail.
 5. **Diagnostics.** R̂, effective sample size, posterior correlations (expect Q ↔ pre-factor). Prior sensitivity.
-6. **Output.** The posterior predictive for HB and grain size of any proposed cycle → probability of meeting ≤ 35 HB (user limit, 2026-10-12) and 20–100 µm. This is the quantity the optimiser should use.
+6. **Output.** The posterior predictive for HB and grain size of any proposed cycle → probability of meeting the strength target (≈ 35 HB is acceptable; not a cap, per the user, 2026-10-12), full RX, 20–100 µm and the press-force limit. This is the quantity the optimiser should use.
 
 ### 7.5 Optimiser formulation (assessment)
 

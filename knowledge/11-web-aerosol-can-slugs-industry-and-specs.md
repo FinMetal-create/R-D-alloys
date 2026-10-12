@@ -88,7 +88,7 @@ Types:
 | W11-37 | BS 3914-1:1974, *Specification for aerosol dispensers – non-returnable metal containers up to 1400 cm³ and 85 mm diameter* | BSI | 1974 (withdrawn 1991) | https://knowledge.bsigroup.com/products/specification-for-aerosol-dispensers-non-returnable-metal-containers-up-to-1400-cm-sup-3-sup-and-85-mm-diameter | standard (withdrawn) | Existence, scope and withdrawal date only |
 
 Source count by type:
-- patent: 13 (W11-01 to 05, 07 to 10, 15, 16, 32, plus EP 2881477 under W11-07)
+- patent: 12 keys (W11-01 to 05, 07 to 10, 15, 16, 32; EP 2881477 is folded into W11-07)
 - peer-reviewed / academic: 3 (W11-06, W11-30, W11-34)
 - standard / regulation: 5 (W11-11 to 14, W11-37)
 - industry (company technical or trade press): 8 (W11-19 to 21, 23, 25 to 27, 36)
@@ -456,8 +456,8 @@ All rows are snippet only. n/c = not captured.
 - **Historical UK standard.** BS 3914-1:1974 covered non-returnable metal aerosol containers up to 1400 cm³ and
   85 mm diameter, including deformation and test pressure. It was withdrawn in 1991 [W11-37] (snippet only).
 - **FEA / AEROBAL technical standards:** none was captured (see §6). Patents state that burst and buckle
-  requirements are set by DOT in the USA and by the European Aerosol Federation in Europe [W11-02/W11-05 result
-  set] (snippet only; exact document not identified).
+  requirements are set by DOT in the USA and by the European Aerosol Federation in Europe [patent text in the W11-02
+  result set] (snippet only; exact document not identified).
 
 **Table 4.1 — EU minimum test and burst pressures implied by 75/324/EEC as amended (derived from W11-12/W11-13)**
 

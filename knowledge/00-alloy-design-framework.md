@@ -166,7 +166,10 @@ Pick the target microstructure from [ch03 §5.4] (table "fine equiaxed vs coarse
     orange-peel risk) to "yellow" (0.55–0.84).
   - Hot strain is largely lost to dynamic recovery, so it does not substitute for cold strain (general
     knowledge; [ch03 §9]).
-  - **Shifting reduction from the hot mill to the cold mill is the most direct process lever** [ch19 P10].
+  - **Shifting reduction from the hot mill to the cold mill is the most direct process lever** [ch19 P10]. The
+    user confirmed the split is flexible per final thickness. Rule: hot-band gauge = t_final·e^(ε_target)
+    (≈ 20–38 % hot / 55–60 % cold for 6–7.5 mm slugs). Check that enough hot reduction remains to break up the
+    cast structure.
 - In-house data already rank this as the strongest process lever: 25 → ≥ 45–55 % CR allows a lower annealing
   T and t, finer grains and less MgO [ch09 §9 item 4].
 

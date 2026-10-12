@@ -117,11 +117,32 @@ Ranking is expected benefit per unit of risk and capex (inference).
   - finer, more equiaxed RX grains;
   - lower RX temperature and time, so less MgO and less time for Mn to precipitate before RX
   [ch03 §1, §4.4, §5.4].
-- **Constraints to clarify.**
-  - Why ≥ 50 % hot reduction is a minimum: closing cast porosity, breaking the cast structure, mill design or
-    cold-mill capacity?
+- **Feasibility (user, 2026-10-12):** the hot/cold split is **flexible** and is set per order by the
+  customer's final thickness. So P10 needs no new equipment, only a rule for choosing the split.
+- **Rule** (the in-house CRM-table logic [ch09 §5.2]): hot-band gauge h_HB = t_final × e^(ε_target), capped at
+  22 mm. The cold mill then delivers exactly ε_target.
+
+  | Slug t_final (mm) | ε 0.80 (3102-type): h_HB / hot % / cold % | ε 0.85 (3207-type) | ε 0.90 (1xxx/T11-type, inference) |
+  |---|---|---|---|
+  | 5.5 | 12.2 / 44 % / 55 % | 12.9 / 42 % / 57 % | 13.5 / 39 % / 59 % |
+  | 6.1 | 13.6 / 38 % / 55 % | 14.3 / 35 % / 57 % | 15.0 / 32 % / 59 % |
+  | 6.6 | 14.7 / 33 % / 55 % | 15.4 / 30 % / 57 % | 16.2 / 26 % / 59 % |
+  | 7.4 | 16.5 / 25 % / 55 % | 17.3 / 21 % / 57 % | 18.2 / 17 % / 59 % |
+  | 8.0 | 17.8 / 19 % / 55 % | 18.7 / 15 % / 57 % | 19.7 / 11 % / 59 % |
+  | 9.0 | 20.0 / 9 % / 55 % | 21.1 / 4 % / 57 % | 22 (cap) / 0 % / 59 % |
+  | 10.0 | 22 (cap): cold 54.5 %, ε 0.79, below the 0.85–0.90 targets | | |
+
+  *(derived)*
+- **Caveat: minimum hot reduction.** For thick slugs (≥ ≈ 8 mm) the rule leaves < 20 % hot reduction. Some hot
+  work is needed to break up the cast structure and close casting porosity. The required minimum for this caster
+  is not in the knowledge base; this may be where the "≥ 50 %" habit comes from. Find it by trial: blister and
+  porosity checks, and grain uniformity.
+  - Related data point: ≥ 40 % cold reduction of as-cast DC ingot eliminated blisters [ch02 §7].
+  - Where the cap or the hot-work minimum prevents ε_target, compensate with P1/P5 (Mn out before cold
+    rolling) and P3/P4 (fast heating).
+- **Other constraints.** Cold-mill load and strip hardness rise with more cold reduction.
   - Higher cold reduction also raises cold-mill load and strip hardness.
-- **If the hot reduction cannot be lowered:**
+- **If the hot reduction cannot be lowered for a given order:**
   - (a) finish hot rolling **cooler** (warm) before the quench, so part of the hot strain is retained as stored
     energy (general knowledge; verify);
   - (b) make thinner slugs where the product allows;

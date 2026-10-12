@@ -26,6 +26,8 @@ transfer to aluminium.
 and extrudability as the core trade-off, and judge every candidate against rotary strip casting (high cooling
 rate, no ingot homogenisation, hot tearing and centreline segregation risks; see `knowledge/15` and
 `knowledge/11`).
+Route facts: **22 mm cast strip**; lacquer bake **220 °C / 10 min**. Process-innovation options are in
+`knowledge/19-process-innovation-rotary-cast-slugs.md`.
 
 Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw
 materials. "MgO" refers to surface oxide growth during annealing.

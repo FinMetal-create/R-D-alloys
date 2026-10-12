@@ -37,12 +37,12 @@ melt (scrap-rich) → strip casting (DC + hot rolling, or continuous casting ≈
 |---|---|---|---|
 | **Design goal (user, 2026-10-12)** | **Stronger alloy, good to impact-extrude, castable on a rotary strip caster** | Strength from solute, dispersoids and work hardening, balanced against press force and slug ductility; castability set by freezing range, hot tearing and segregation at rotary-caster cooling rates | user; [ch10]; [ch11]; [ch15] |
 | Slug hardness | Around 35 HB is acceptable: it means a stronger alloy and is **not** a cap. The earlier "23–33 HB" was inferred from in-house model files [ch09 §2–3] | Fully recrystallised matrix. The level is set by solute (Mn_ss, Mg, Cu), dispersoids and grain size. The practical ceiling is press force and extrudability (R21) | user; [ch10 §2.5] |
-| Casting route | **Rotary (wheel-type) strip caster**: narrow strip up to ≈ 20 mm, typically hot rolled in line; the standard route for aerosol slugs | High cooling rate (finer constituents, more Mn/Fe supersaturation), no ingot homogenisation, centreline segregation, possibly variable cooling from wheel/band contact | [ch15 §1]; [ch11 §3]; [ch02 §4] |
+| Casting route | **Rotary (wheel-type) strip caster**, **22 mm cast strip** (user); narrow strip up to ≈ 20 mm in the literature, typically hot rolled in line; the standard route for aerosol slugs | High cooling rate (finer constituents, more Mn/Fe supersaturation), no ingot homogenisation, centreline segregation, possibly variable cooling from wheel/band contact | [ch15 §1]; [ch11 §3]; [ch02 §4] |
 | Slug grain size | 20–100 µm, equiaxed. No pancake grains and no coarse surface grains (orange peel) | Recrystallisation (RX) nucleation density vs Zener drag. Precipitation-before-RX sequence | [ch09 §2–3] (I); [ch03 §5, §7.1] (D) |
 | Slug surface | Low MgO (in-house ≲ 7–9 nm). No abrasive oxide | Mg surface segregation and selective oxidation during the anneal | [ch09 §3] (I); [ch14] (W); [ch11 §2] (W) |
 | Extrudability | Low punch force, no splits, good wall surface | Low flow stress, high ductility, uniform fine grains, compact constituents | [ch10]; [ch03 §7.1] (D) |
 | Can performance | Test pressure ≥ 10 bar or 1.5 × P(50 °C); burst ≥ 1.2 × test pressure; P(50 °C) max 12 / 13.2 / 15 bar depending on propellant | Strength of the heavily cold-worked wall **after** the lacquer cure | [ch11 §4] (W) |
-| Lacquer-cure stability | Minimise strength loss in the cure (reported up to ≈ 15 % loss during can making) | Recovery / RX resistance of the extruded wall: solute drag, dispersoid pinning | [ch11 §1.2, §4.2] (W) |
+| Lacquer-cure stability | Bake **220 °C / 10 min** (user). Minimise strength loss in the cure (reported up to ≈ 15 % loss during can making) | Recovery / RX resistance of the extruded wall: solute drag, dispersoid pinning | [ch11 §1.2, §4.2] (W) |
 | Recycled content | High scrap share; Fe, Si, Cu, Zn pick-up | Fe-phase engineering with Mn, Si control, cooling rate | [ch16 §1, §5] (W); [ch02] (D) |
 | Specification | EN 573-3 / AA registration windows for 3102 / 3207 | — | [ch17] (W) |
 | Carbon / CBAM | Post-consumer scrap counts as zero embedded emissions. Primary metal carries the charge | Scrap share and provenance | [ch16 §2–3] (W) |
@@ -174,6 +174,14 @@ Pick the target microstructure from [ch03 §5.4] (table "fine equiaxed vs coarse
 ### 5.5 Extrusion and cure
 - Softer, finer-grained, uniform slugs lower punch force and improve the wall surface [ch10].
 - Wall strength after the cure is the performance property to design for [ch11 §1.2].
+
+---
+
+### 5.6 Process innovation for the rotary-cast route
+See [ch19]. Key point: Mn cannot homogenise at slug-anneal temperatures (it moves only ≈ 0.01–0.05 µm per hour at
+350–420 °C). Homogenisation needs ≈ 580–620 °C for ≈ 0.5–4 h. So move Mn precipitation and homogenisation
+upstream to the 22 mm cast coil (P1/P2/P5), and/or recrystallise first and precipitate second in a fast slug
+anneal (P3/P4).
 
 ---
 

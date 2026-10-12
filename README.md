@@ -38,6 +38,7 @@ general knowledge explicitly.
 | 16 | [Recycling, CBAM, sustainable alloy design](knowledge/16-web-recycling-cbam-sustainable-alloy-design.md) | Web (snippet level) |
 | 17 | [Standards: compositions and properties](knowledge/17-web-standards-compositions-and-properties.md) | Web (partial) |
 | 18 | [Computational alloy-design tools](knowledge/18-web-computational-alloy-design-tools.md) | Web |
+| 19 | [Process innovation for rotary-cast slugs](knowledge/19-process-innovation-rotary-cast-slugs.md) | Synthesis + kinetic estimates |
 | — | [Source catalogue](knowledge/sources/catalog.md) | Drive inventory (S-001…S-079, W-01…W-24) |
 
 ## Known limitations

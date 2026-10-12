@@ -130,6 +130,7 @@ Strengthening coefficients are for **annealed super-purity binaries** unless sta
 | R20 | Thin-wall lightweighting | t ∝ 1/σ_allowable; +10 % post-cure strength ≈ −9 % wall | G | [ch11 §1.2] |
 | R21 | Press force vs slug hardness | Ram force follows the slug's **large-strain flow stress**; HB is only a proxy (Rm/HB ≈ 3.6–3.9, or 4.1–4.2 for Mg-bearing O tempers). With Rm ≈ 3.6·HB at ≈ 30:1 reduction, 33 HB needs ≈ 43 % more force than 23 HB, and **35 HB ≈ 52 % more**. At 35 HB a flat-nosed Ø53 punch is estimated at ≈ 391 t, about 98 % of a 400 t press; conical Ø53 is ≈ 326 t. Punch stress is then ≈ 1.4–1.5 GPa, at Kuhn's 1400 MPa die-steel guide value, so tooling becomes a limit too (order-of-magnitude estimates, not validated) | D/G | [ch10 §2.5, §4.1] |
 | R22 | What HB means for lean 3xxx slugs | Fully RX lean 3xxx ≈ 23–28 HB (between 1100-O 23 and 3003-O 28 HB). Readings above ≈ 30 HB in **lean** 3102/3207 point to residual cold work (partial RX) or very fine grain. In a deliberately stronger alloy, ≈ 35 HB can be fully recrystallised. Always pair HB with RX fraction and grain size | D/G | [ch10 §4.1, §7] |
+| R24 | Hot-working constants (Sellars–Tegart, homogenised DC material) | α / n / Q (kJ/mol) / ln A: 1100 0.045 / 5.66 / 158.3 / 24.67; 3003 0.0316 / 4.45 / 164.8 / 26.9; 3004 0.0344 / 3.6 / 193.85 / 28.21; 3105 0.0248 / 4.83 / 179.3 / 29.98. No values for 3102/3207/T11, and no T or strain-rate validity range is printed. Non-homogenised rotary-cast strip should sit at higher flow stress | D | [ch07 §10, Sheppard Table 4.1] |
 | R23 | Base-corner damage | Coarse Fe/Mn constituents nucleate hidden ductile damage at the base corner; it shows up later in ironing or necking | D | [ch10 §5.1] |
 
 ---
@@ -325,26 +326,26 @@ Use inexpensive, high-information measurements first [ch03 §5.2; ch13; ch18].
      succeeded; *Rolling Aluminum* 7.19 MB and Polmear 9.68 MB failed with "message too large"; files over
      10 MB are refused outright.
 
-   The truncated sources under the limit have been read in full (Dwight, Kaufman, Schröder, EAA, Belov, Davis,
-   the blister paper, Junit, Farrar, Everhart and Thienel; see each chapter's coverage table). Books above the limit
-   can be read in full once they are saved in Drive as parts of **≤ ~5 MB** each:
-   - Totten, *Handbook of Aluminum* Vol. 1 (17.7 MB);
-   - Humphreys & Hatherly (12.7 MB);
-   - Ryen (11.2 MB);
-   - Sheppard (10.5 MB);
-   - Polmear (9.7 MB);
-   - *Rolling Aluminum* (7.2 MB).
+   **Status 2026-10-12, after the user uploaded split parts to Drive folder "Cloud part book":**
+   - **Now read in full:**
+     - Totten & MacKenzie, *Handbook of Aluminum* Vol. 1;
+     - Humphreys & Hatherly (all chapters);
+     - Polmear;
+     - Sheppard (incl. Table 4.1 hot-working constants);
+     - *Rolling Aluminum*, except the Appendix C image tables;
+     - Lalpoor;
+     - Ivanov, except pp. 24–30 and some even pages;
+     - plus the under-limit sources (Dwight, Kaufman, Schröder, EAA, Belov, Davis, blister paper, Junit, Farrar,
+       Everhart, Thienel, Sillekens).
+   - **Still not read in full:**
+     - **Maggs** (Al–Fe–Si phase selection, the key source for T11's β/α question);
+     - **Ryen** (per-solute work hardening);
+     - *ASM Handbook* Vol. 2 (Al sections);
+     - selected *Light Metals 2018* papers;
+     - the Schuler cold-extrusion chapter;
+     - Habashi.
 
-   The parts most worth having:
-   - Humphreys & Hatherly beyond §6.5 (RX kinetics, PSN, ch. 9 two-phase alloys, textures);
-   - Polmear §3.6.5 (canstock and foil);
-   - Sheppard ch. 4 (constitutive constants);
-   - Totten Handbook of Aluminum Vol. 1 ch. 7–8 (rolling, extrusion);
-   - Ryen ch. 4.5–5 (per-solute work-hardening results);
-   - the Schuler handbook's cold-extrusion chapter (pp. 443–480).
-
-   Sillekens was recovered in full by downloading the PDF [ch10 §1]. Files over ≈ 10 MB cannot be downloaded
-   this way.
+     Split plan: [sources/catalog.md].
 3. **In-house calibration data** are the binding constraint for every model [ch09 §11 Q4–Q5]: measured
    softening curves, grain sizes, conductivity and oxide thickness for the existing cycles.
 4. **Targets.** No wall-strength, burst-pressure or cure-softening target is stated anywhere [ch09 §11 Q1].

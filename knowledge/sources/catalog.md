@@ -319,6 +319,19 @@ Hinterkopf brochures, the punching slides) relates to the user's slug and aeroso
 - Table 1 p.16: 3xxx Al-0.5Mn-0.2Mg-0.15Zr: Rp0.2 87 / Rm 140; +0.11Sc 119/173; +0.21Sc 152/198; +0.26Sc 168/207 (Riddle, Hallem, Ryum 2002; as-hot-worked or annealed)
 - p.19: Al-2%Sc master ~US$50/kg -> Sc ~US$2500/kg; 0.2 wt% Sc adds ~US$5/kg
 
+## Split parts uploaded (Drive folder "Cloud part book", 1fzmh9OxDx3E92Sq2FLDNQ9AkCKrWvP-G), status 2026-10-12
+
+| Ref | Work | Parts (Drive names, in order) | Status |
+|---|---|---|---|
+| S-029 | Totten & MacKenzie, *Handbook of Aluminum* Vol. 1 | Al 1-400 → ACFROG~1 → Al 1-800 → 1309 | complete |
+| S-016 | Humphreys & Hatherly | 11 → 22 → 33 | all chapters and appendices; missing only the end of the references and the index |
+| S-028 | Polmear, *Light Alloys* | 111 → 222 | complete |
+| S-045 | Sheppard, *Extrusion* | w → ww → 2 (clean copy); aaa → bbb → ccc (duplicate split) | complete |
+| S-047 | AA, *Rolling Aluminum* | x → xx → xxx | complete except glossary p. 9-2; Appendix C tables are images |
+| S-007 | Lalpoor thesis | aa → q → qq → cc → dd (bb replaced by q/qq) | complete except acknowledgments |
+| S-020 | Ivanov thesis | a → c (via text reader) → eee → d → b; ee (8.2 MB) failed | pp. 24–30 and some even pages 32–58 missing (low priority) |
+| — | 1.pdf, c.pdf, bb.pdf, ee.pdf | over the ≈ 6 MB limit | superseded by re-splits, except ee (not needed) |
+
 ## Files too large for the Drive connector: split plan (2026-10-12)
 
 The connector downloads whole PDFs only up to **≈ 6 MB**. Kaufman at 6.09 MB worked; 7.19 MB and larger

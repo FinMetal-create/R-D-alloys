@@ -46,6 +46,8 @@ general knowledge explicitly.
 
 - **Web chapters (11–18)** were written while the environment's network policy blocked publisher sites, so
   they rest on abstracts and search snippets. Each chapter lists the documents to fetch to verify its claims.
-- **Large Drive books** (above ≈ 10 MB) were only partly readable through the Drive connector. The
-  chapters record exactly how far each text went.
+- **Large Drive books.** The Drive connector downloads PDFs only up to ≈ 6 MB. The key large books were re-uploaded
+  as split parts and are now read in full: Handbook of Aluminum, Humphreys & Hatherly, Polmear, Sheppard,
+  *Rolling Aluminum*, Lalpoor. Maggs, Ryen and a few others are still pending (see
+  `knowledge/sources/catalog.md`). Each chapter's coverage table records what was read.
 - The `microstructure-sim` code stored in Drive is intentionally not part of this repository.

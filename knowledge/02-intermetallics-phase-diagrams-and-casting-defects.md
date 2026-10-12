@@ -625,11 +625,11 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 
 **Cold cracking (AA7050 as-cast)** (more detail, the criterion and the process effects are in §6.6)
 - Yield (fracture) strength of radial billet samples: 279 MPa at RT, 30 MPa at 400 °C. Ductility falls from 23% to 2.5% below 300 °C (~90% loss). The material is brittle below 200 °C [R7, p.26–27, 64].
-  - Table 6.1 of the same thesis (10⁻⁴ s⁻¹) gives 266 ± 12 MPa at RT and 23 ± 2 MPa at 400 °C instead (§6.6.1) [R7, p.94]. This is a source-internal difference; use the Table 6.1 set, which R7 itself uses for the simulations.
+  - Table 6.1 of the same thesis (10⁻⁴ s⁻¹) gives 266 ± 12 MPa at RT and 23 ± 2 MPa at 400 °C instead (§6.6.1) [R7, p.94]. This is a source-internal difference (§10 item 8). Prefer the Table 6.1 set, because R7 tabulates it for its stress analysis and quotes the same 73 / 23 MPa at 300 / 400 °C on p.82.
 - CTOD: 6.4 µm at 25 °C, 7.8 at 100, 11.7 at 200, 495 at 300, 780 at 400 °C [R7, p.40].
 - **K_IC of as-cast DC 7050 (ASTM E399): 8.9 ± 0.3 MPa√m at RT and 8.29 MPa√m at 200 °C** [R7, p.41, 111]. K_IC falls slightly with temperature, but within the error bars the differences are insignificant [R7, p.40]. Compare **20.9–27.5 MPa√m, the minimum K_IC of precipitation-hardened 7050 at RT** [R7, p.41].
   - *Corrected after full-text pass:* the RT value 8.9 ± 0.3 was previously marked "garbled, reconstructed". It is confirmed by the full text: the two-column paragraph on p.41 is interleaved in the Drive text but reads unambiguously. The 200 °C value (8.29) is stated on p.111. The 100 °C value exists only in Fig. 2.23, which is not readable.
-  - (derived) Back-calculating K_IC from R7's own critical crack sizes with Eqs. 6.2/6.3 (§6.6.3) gives 8.2 MPa√m (10.1 mm penny crack at σ11 = 73 MPa) and 8.3 MPa√m (4.2 mm thumbnail crack at 100 MPa). Both agree with 8.29 at 200 °C.
+  - (derived) Back-calculating K_IC from R7's own critical crack sizes with Eqs. 6.2/6.3 (§6.6.3) gives 8.3 MPa√m both from the 10.1 mm penny crack at σ11 = 73 MPa and from the 4.2 mm thumbnail crack at 100 MPa. Both agree with 8.29 at 200 °C.
   - Above 200 °C plane-strain conditions were no longer valid, because the yield strength drops from 154 MPa at 200 °C to 73 MPa at 300 °C; CTOD was used instead [R7, p.40].
   - Chang et al.'s earlier 7050 tests did not give valid K_IC (Pmax/PQ > 1.10). Their stress intensities at failure were K_Q = 10.4 and K_c = 12.4 MPa√m at RT (a/W = 0.55), measured on homogenised or stress-relieved billet, which is why they are higher [R7, p.41].
   - Test geometry: three-point bend, 150 × 30 × 15 mm, chevron notch, fatigue pre-crack to 15 mm total, K rate 0.55–2.75 MPa√m/s, 20 min soak at temperature [R7, p.38–39].
@@ -654,7 +654,7 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 - Many criteria predict only *probability*, not *occurrence*. Do not rank DC process windows with CSC alone [R12, p.237–239].
 - Properties of stress-relieved or homogenised material differ from as-cast. Simulations need genuine as-cast data [R7, p.24, 31].
 - Higher purity is not always better. A high-purity 7010 was more cold-crack prone, and more Si in 7050 raised RT ductility (literature cited) [R7, p.16]. R7 did not test this itself: its "low-purity" and "high-purity" 7050 melts ended up with almost the same Fe and Si (0.16–0.20 Fe, 0.04–0.07 Si), probably supplied by the master alloys [R7, p.17].
-- **Tensile-test Young's modulus is not elastic modulus at temperature.** In as-cast 7050 the tensile E fell from 73 GPa at 20 °C to 5.8 GPa at 400 °C because of creep, while torsion at high rate (69.5 → 54.5 GPa) agreed with JMat-Pro (67.9 → 53.6 GPa). R7 used the calculated values in its stress model [R7, p.43]. (inference) The same applies to any quench-stress or hot-mill model of the rotary route.
+- **Tensile-test Young's modulus is not elastic modulus at temperature.** In as-cast 7050 the tensile E fell from 73 GPa at 20 °C to 5.8 GPa at 400 °C because of creep, while torsion (RMS-800; 69.5 → 54.5 GPa) agreed with JMat-Pro (67.9 → 53.6 GPa). High-rate torsion matched JMat-Pro; low-rate torsion (0.1 rad/s) also fell short above 350 °C [R7, p.43]. (inference) A quench-stress or hot-mill model of the rotary route therefore needs dynamic or calculated E, not tensile E. Minor point: the text says the JMat-Pro values went into the model, but model-input Table 5.3 lists the torsion values; the two sets differ by ≤ 2.3 GPa (derived) [R7, p.43, 76].
 - **The thermal-stress model is not the fracture model.** R7's critical crack sizes assume a homogeneous, isotropic, grain-refined material with cracks normal to σ11 [R7, p.96]. Real cracks follow the intermetallic network, may not align with σ11 and may arrest in the matrix, which is why cold cracking looks random [R7, p.101, 138]. R7's mush rheology also borrowed Al–2Cu parameters, because none existed for 7050 [R7, p.80].
 - **K_IC is measurable on as-cast 7050 only up to 200 °C** (plane strain fails above it) [R7, p.40]. The criterion therefore covers only the brittle range below 200 °C.
 
@@ -696,6 +696,148 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
   - Keep Fe:Si > 1, which T11 already does (1.4), to avoid free Si.
   - Avoid mechanical strain on the strip in the wheel–band contact while fs > 0.9 (ch. 01 §9.1).
 - **No hot-tear measurement exists for T11 or any comparable Fe-rich lean Mg–Si alloy.** The trial's crack inspection of the cast strip (trials/T11.md §3) is the first data point.
+
+### 6.6 Cold cracking: as-cast properties, residual stresses and the critical-crack-size criterion (full text of [R7], 2026-10-12)
+R7 studies 7xxx DC-cast round billets. The method transfers to other routes: genuine as-cast properties → thermal-stress simulation → fracture mechanics. The alloy numbers do not transfer, because lean 3xxx/6xxx alloys are not brittle in the as-cast state (general knowledge; see §6.6.6).
+
+#### 6.6.1 Genuine as-cast properties of AA7050 (no stress relief, no homogenisation)
+
+| T (°C) | YS (MPa) | Red. of area (%) | Elong. (%) | K (MPa) | n | m | E (GPa), model input |
+|---|---|---|---|---|---|---|---|
+| 20 | 266 ± 12 | 0.4 ± 0.1 | 1.9 | 774 ± 32 | 0.42 | 0 | 69.5 |
+| 100 | 223 ± 7 | 0.5 | 1.4 ± 0.1 | 626 ± 13 | 0.38 | 0 | 67 |
+| 200 | 154 ± 8 | 2.5 ± 0.2 | 1.6 ± 0.1 | 392 ± 11 | 0.21 | 0 | 63.5 |
+| 300 | 73 ± 2 | 36 ± 5 | 5.2 ± 0.8 | 199 ± 4.5 | 0.11 | 0.03 | 59 |
+| 400 | 23 ± 2 | 33 ± 3 | 3.8 ± 0.1 | 174 ± 5 | 0.09 | 0.15 | 54.5 |
+
+Sources: YS, reduction of area and elongation are from Table 6.1 (Gleeble, 10⁻⁴ s⁻¹, Ø 255 mm DC billet) [R7, p.94]. K, n and m are the extended-Ludwik parameters σ = K(T)·(εᵖ + 0.001)^n(T)·(ε̇ᵖ)^m(T) [R7, p.29–30, 76]. The measured m is negative below 200 °C, an artefact of brittleness, so it was set to 0 [R7, p.32, 74]. E is the Table 5.3 model input, which equals the torsion (RMS-800) values of Table 2.7 (§6.4) [R7, p.43, 76].
+- Tensile fracture strength is 266 ± 12 MPa at RT, 226 ± 8 at 100 °C and 225 ± 4 at 200 °C [R7, p.90, 123].
+- **Heat treatment removes the brittleness, so data from treated ingots mislead** (Table 2.4) [R7, p.24]. Copper-mould as-cast 7050 at 10⁻² s⁻¹ has a reduction of area of 0.12 / 0.3 / 3 / 12.8 / 23.5 % at 20 / 100 / 200 / 300 / 400 °C. Literature elongations at the same temperatures are 12.5 / 11.5 / 8 / 31.5 / 113.5 % after stress relief, and 1.5 / 2 / 10 / 12 / 12 % after homogenisation and natural ageing.
+- **Charpy, RT to 500 °C** (copper-mould 7050 and DC 7475) [R7, p.36–37]:
+  - The material absorbs little energy up to 200 °C. Energy peaks at 400 °C, with dimples that have cracked intermetallics at their bottoms.
+  - Energy falls again at 500 °C, which is above the non-equilibrium solidus (465–469 °C). Fracture there is intergranular, by liquid-film embrittlement.
+  - The as-cast material therefore has **two brittle windows: below ~200 °C, and above the non-equilibrium solidus.** It is ductile in between.
+- **Structure.**
+  - Ø 255 mm billet: grain size 130 µm at the surface, 179 at mid-radius and 229 at the centre; DAS 28–34 µm; non-equilibrium eutectic 4.5–4.9 % [R7, p.30].
+  - Copper-mould samples: grain size 40 µm (grain-refined) to 240 µm (hot mould); eutectic 4.90–5.80 %; porosity 2.4–3.6 % [R7, p.23].
+- **Thermal data** for the stress model [R7, p.50–55, 58–59]:
+  - Liquidus 632 °C and non-equilibrium solidus 462 °C by DSC at 10 K/min.
+  - Onset of contraction (rigidity) 559 ± 5 °C, at fs ≈ 0.8.
+  - Linear solidification contraction −0.23 % at the non-equilibrium solidus.
+  - Solid-state thermal contraction ≈ 3.5 % from the non-equilibrium solidus to RT. Solidification shrinkage of Al alloys is 6–8 %.
+  - Dilatometry shows a CTE jump between 300 and 400 °C on heating (and near 255 °C on cooling), tentatively linked to η′-type precipitation. The stresses were nevertheless insensitive to the CTE data set: centre σ11 was 71 MPa with JMat-Pro data and 67 MPa with dilatometry data.
+- **Why 7xxx is the worst case** [R7, p.47–49, 105]. It combines the lowest thermal conductivity, the widest freezing range and a relatively high CTE. Low conductivity gives steeper gradients, and high CTE gives larger stresses. For comparison: 7050 has 157 W/mK, 24.1 × 10⁻⁶/K and a 140 °C freezing range; 3003 has 193 W/mK, 23.2 × 10⁻⁶/K and 12 °C.
+
+#### 6.6.2 Residual thermal stresses (ALSIM5; Ø 200 mm AA7050 billet, 1 mm/s, 680 °C melt, 80 l/min water at 15 °C)
+- **Material models by temperature range** [R7, p.78–80]:
+  - Below Th = 390 °C: extended Ludwik.
+  - Th to Tm (455 °C, a few degrees below the non-equilibrium solidus): a merged ALSPEN–cohesion model.
+  - Tm to rigidity (559 °C): the mush cohesion model, run with Al–2Cu rheology parameters.
+  - Above rigidity: liquid.
+- **Steady state** is reached after ≈ 200 s of casting [R7, p.91].
+
+**Stresses after 500 s, 65 mm above the bottom block** (Table 5.4) [R7, p.85]
+
+| Position | σrr | σθθ | σzz | σm | σ11 (MPa) |
+|---|---|---|---|---|---|
+| Centre | 70.8 | 70.9 | 8.4 | 49.9 | 71 |
+| Mid-radius | 44.4 | 0 | −15.4 | 9.3 | 44 |
+| Surface | 3.25 | −85 | 3.5 | −26 | 3.5 |
+| Water-impingement zone (WIZ) | −4 | 100 | −1.5 | 30 | 100 |
+
+- **Mechanism** [R7, p.81]:
+  - In the WIZ, the quenched surface contracts against a hot core and goes into tension. σθθ peaks at ~100 MPa about 76 s into the cast.
+  - Below the WIZ, the core contracts against an already rigid, cold surface. The final state is a tensile core and a compressive surface (σθθ −85 MPa). The compressive shell protects the billet.
+- **The stress peak coincides with the brittle range.** The centre σ11 peaks at 71–73 MPa after ≈ 200 s, when the centre is at ≈ 200 °C [R7, p.84, 96, 137]. Stresses then stay locked in until the billet is annealed or cut [R7, p.103, 111]. After casting stops, the lower billet keeps its stress state; the upper part changes and can reach similar levels [R7, p.91, 141].
+- **Triaxial tension at the centre.** All three principal stresses are tensile there, so the von Mises stress is low. Viscoplastic strain at the centre comes from creep (hardening parameter ≈ 0). The mean (hydrostatic) stress, however, is highest at the centre, so plastic constraint favours brittle fracture [R7, p.82, 85, 123].
+- **Surface strains.** The surface carries effective stresses > 100 MPa and 1.6 % accumulated viscoplastic strain. The maximum, 2.5 %, is at the corner on the bottom block [R7, p.82].
+- **Flaws are required.** The computed stresses (≤ 100 MPa) lie far below the 225–266 MPa fracture strength, so failure needs pre-existing flaws that amplify the stress [R7, p.90, 123].
+
+#### 6.6.3 The cold-cracking criterion (critical crack size)
+- **Assumptions.** Mode I cracks normal to the maximum principal stress σ11 in a semi-infinite body; K_IC(T) from tests; σ11 from the simulation [R7, p.96, 121–122].
+- **Formulas** [R7, p.96]:
+  - Embedded penny-shaped crack (centre, mid-radius), critical radius: **a_c = (π/4)·(K_IC/σ11)²** (Eq. 6.2).
+  - Surface-breaking semicircular ("thumbnail") crack: **a_c = π/(2 × 1.13)²·(K_IC/σ11)²** (Eq. 6.3).
+- A module added to ALSIM5 maps a_c over the whole billet. Points where σ11 is compressive get no value [R7, p.121–122].
+
+| Location (Ø 200 mm, 1 mm/s, AA7050) | σ11 | T | Critical size | Source |
+|---|---|---|---|---|
+| Centre, penny crack (radius) | 73 MPa | 200 °C | **10.1 mm** (minimum) | [R7, p.99, 141] |
+| Centre after the whole billet reaches RT | lower | RT | 17.1 mm | [R7, p.141] |
+| WIZ surface, thumbnail crack | 100 MPa | ≈ 200 °C | **4.2 mm** | [R7, p.99] |
+| Surface, thumbnail crack, at the lower σ11 | 73 MPa | — | 8 mm | [R7, p.99] |
+| Surface below the WIZ (compressive or small σ11) | — | 100 / 25 °C | 6.7 m / 7.3 m, i.e. safe | [R7, p.99] |
+
+- **Literature values on the same basis** [R7, p.90, 120]:
+  - Al–4.5Cu slab (1150 × 360 mm), σ11 = 80 MPa, K_IC = 15 MPa√m: critical size 8 mm.
+  - AA2024 slabs (2000 × 510 mm): penny cracks of 5–50 mm.
+- **Field case: 7475 Ø 200 mm billet that split on sawing** [R7, p.100–101]:
+  - At mid-height the bright surface-crack band was 3.4 mm deep, below the 4.2 mm critical size, so it did not run during casting.
+  - Near the bottom the surface crack was > 20 mm deep, above critical. Such surface cracks were visible on billets of the same batch before any failure.
+  - Sawing removed the compressive shell and the crack propagated.
+- **Validation trials on a new 7xxx alloy, Ø 260 mm** (DC trials at Corus IJmuiden) [R7, p.129–132, 141]
+
+| Case | Casting speed | Water | Result |
+|---|---|---|---|
+| 1 | 60 mm/min (1 mm/s) | 35 l/min | no crack |
+| 2 | 80 mm/min | 35 l/min | not cast; a 70 mm/min, 35 l/min trial was crack-free |
+| 3 | 110 mm/min (1.8 mm/s) | 90 l/min | **cold crack during casting, "with an audible bang"** |
+| 4 | 60 mm/min | 70 l/min | no crack |
+
+  - **Prediction vs origin.** For case 3 the model predicted a critical flaw diameter of 6–12 mm (3–6 mm radius) at the centre. The fracture origin was a **7 mm Mg-oxide inclusion**, 20 mm off-axis and 730 mm above the bottom block. Chevron marks radiated from it, and the location was at ≈ 55 °C when it failed.
+  - **Pores were harmless.** Ultrasonic testing (resolution 1.5 mm) of the other billets found no critical voids. SEM found shrinkage pores of at most ~100 µm, far below critical.
+  - **The alloy itself** (composition undisclosed) had higher strength and K at low temperature (K = 1742 MPa at RT, vs 774 for 7050), more ductility at 200 °C, and a higher K_IC that stayed roughly constant from 20 to 200 °C (values only in Fig. 8.8). Fracture was the same brittle intergranular type [R7, p.125–127].
+- **Cold cracking needs both a large flaw and the right orientation.** It requires flaws of "considerable size": microcracks at matrix–intermetallic interfaces, chains of pores, inclusions or hot tears. They must also lie normal to σ11, and having both at once is why the phenomenon looks random [R7, p.103, 138].
+
+#### 6.6.4 Process variables (ALSIM5 parametric study, AA7050)
+- **Variables studied:** diameter 200 / 300 / 400 mm; speed 1 / 1.5 / 2 mm/s; melt 680 / 700 °C; water flow 40 / 80 / 120 l/min; water temperature 15 / 25 / 45 °C [R7, p.107].
+- **Casting speed and diameter dominate.** Water flow, water temperature and melt temperature had negligible effect on the residual stresses [R7, p.107, 116].
+  - 80 l/min was the minimum flow that avoided bleed-out [R7, p.107].
+  - Melt superheat is only ≈ 5 % of the energy content [R7, p.114].
+  - Outside the simulated range, Matsuda et al. saw cracking in practice at 130–310 l/min [R7, p.115].
+- **Higher speed or diameter means more heat input.** That gives a deeper sump (sump depth ∝ D², ∝ V and ∝ 1/k), steeper gradients and higher centre, WIZ and mean stresses, and therefore smaller critical crack sizes [R7, p.108–114].
+  - At 2 mm/s the centre a_c falls below 10 mm and the critical zone grows. The WIZ critical zone shrinks, because the metal spends less time there [R7, p.123].
+  - The WIZ σ11 reaches 105 MPa at Ø 400 mm. Peak times (WIZ / centre) are 76 / 200 s at Ø 200, 78 / 347 s at Ø 300 and 160 / 680 s at Ø 400 [R7, p.108].
+- **Crack orientation follows σ11** [R7, p.108, 114–116, 131]. Axial stress grows fastest with speed and size, so σ11 rotates towards the billet axis. Cold cracks turn from planes parallel to the axis (low speed, small Ø) to inclined or transverse "cup-and-cone" cracks. The case-3 crack plane was inclined, as predicted.
+
+#### 6.6.5 What R7 shows on grain refinement, cooling rate and composition
+- **Grain refinement** (Al–3Ti–1B; 40 vs 160 µm) [R7, p.19, 23, 36, 54]:
+  - Grain-refined and cold-mould samples had the best strength and ductility of the copper-mould set.
+  - Grain refinement barely changed the eutectic fraction (5.35 vs 5.40 %).
+  - It gave an advantage in Charpy at 500 °C, i.e. above the non-equilibrium solidus.
+  - The non-refined alloy had a slightly higher CTE.
+  - R7 measured no K_IC or critical-size effect of grain size.
+- **Cooling rate.** The cold mould gave the most non-equilibrium eutectic (5.80 %) but the least porosity (2.4 ± 0.5 %), possibly because hydrogen was quenched into solution. The hot mould gave the coarsest structure (240 µm, DAS 18 µm) [R7, p.23–24].
+- **Porosity** causes scatter and premature fracture below yield [R7, p.24–25]. In the trial billets, however, ~100 µm shrinkage pores were far below the critical size [R7, p.132].
+- **Composition.** R7 has no systematic composition study (§6.4).
+  - Impurity constituents (Al7Cu2Fe, Mg2Si) initiate cracks [R7, p.64–65].
+  - Literature cited by R7: more Si in 7050 raised RT ductility and reduced cold cracking, and a high-purity 7010 was more crack-prone [R7, p.16].
+  - Alloy class matters mainly through brittleness of the eutectic network, freezing range, conductivity and CTE [R7, p.47–49].
+
+#### 6.6.6 Relevance: rotary strip caster, hot-band quench and trial T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) (inference unless cited)
+1. **T11 is not in R7's brittle class, but it carries the same crack initiators.**
+   - R7's brittleness comes from a near-continuous network of non-equilibrium eutectic (4.5–5.8 % in 7050) in a 140 °C freezing range [R7, p.23, 30, 48]. Lean 3xxx freezes over 12–25 °C and 6063 over 40 °C [R7, p.48], and their as-cast matrix is ductile (general knowledge).
+   - (derived) T11's 0.52 Fe makes roughly 1.3–2.0 wt% Fe constituents (Fe content ≈ 37–40 % in Al3Fe, ≈ 31 % in α, ≈ 26 % in β; §1). That is roughly a quarter to a half of 7050's eutectic. The units differ (wt% vs area %), so this is an order-of-magnitude comparison only.
+   - Fe-rich constituents and Mg2Si are the same kind of particle that initiated cracks in 7050 [R7, p.64–65].
+   - **Risk spot:** a mid-thickness band where β platelets and Fe-enriched centreline segregate (§3.7; ch. 15 §2). If they form a near-continuous film, the R7 mechanism applies locally.
+   - **Screening test for the trial:** RT tensile elongation of the as-cast 22 mm strip, taken separately from the surface layers and the mid-thickness, ideally also at 200 °C. Livanov's > 1.5 % [R7, p.16] is a floor. A lean as-cast strip near that value would point to a continuous network (inference). Add this to trials/T11.md §3 when that file is next revised.
+2. **The quench bath is the analogue of R7's water-impingement zone.**
+   - In the bath, the strip faces contract first against a hot core (a transient surface tension, like the 100 MPa WIZ peak in 7050). The core then contracts against cold faces, leaving compressive faces and a tensile mid-thickness [R7, p.81].
+   - (derived) Gradients are far milder than in a DC billet. Take h ≈ 40–48 kW/m²K (impingement and nucleate boiling, §8 [R10, p.94–96]; an upper bound for a bath). The Biot number is then ≈ 25–30 for R7's Ø 200 mm billet (R = 100 mm, k = 157 W/mK [R7, p.48]). For the hot band it is ≈ 0.9–1.8: thickness ≈ 9–15 mm (from 6.1–7.4 mm slugs and 30–50 % cold reduction), k = 193 W/mK (3003) [R7, p.48].
+   - Bi ≈ 1 still means a real through-thickness gradient, so residual quench stress is expected. In a soft hot band it is capped near the band's own low yield strength (general knowledge).
+   - The tensile part sits at mid-thickness, where the Fe-rich centreline and any hot tears are.
+   - **Orientation helps** [R7, p.96, 138]. A quenched plate carries mainly in-plane stresses (general knowledge). Laminar flaws, flattened into the rolling plane by the ≥ 50 % hot reduction, are therefore not opened in mode I. Through-thickness flaws are: **edge cracks from the hot mill and transverse surface cracks** are the flaw type to inspect for after the bath.
+3. **The in-line hot mill works in the ductile window, if the whole section is below its non-equilibrium solidus.**
+   - Even 7050 is ductile at 300–400 °C (reduction of area 33–36 %, Charpy maximum at 400 °C). Its toughness collapses only above the non-equilibrium solidus, by liquid-film embrittlement [R7, p.36–37, 94].
+   - Rolling from ≈ 500 °C down to ≈ 380 °C sits in the ductile window, provided every point of the section is below its local non-equilibrium solidus. For T11 the lowest candidates are 555–576 °C (§6.5).
+   - Two things can narrow that ≥ 55 K margin: a Fe/Si-enriched centreline, whose local solidus is lower, and a mid-thickness hotter than the measured surface. Measure or calculate the mid-thickness temperature at the first stand.
+4. **Oxides are the critical flaws, not pores.** R7's only validated cold crack started at a 7 mm Mg-oxide inclusion, while ~100 µm shrinkage pores were harmless [R7, p.131–132].
+   - With 0.26 Mg, T11 forms MgO and spinel more readily than 1xxx metal (§7.4). This strengthens the filtration and low-turbulence feed measures of §7.5.
+   - Fractograph any crack in strip or slug, and look for chevron marks that point back to an oxide origin [R7, p.131].
+5. **The process knobs map across** (inference). In R7, heat input (speed × size) set the stresses, while water flow and temperature hardly mattered [R7, p.107, 116].
+   - On the wheel caster the analogues are casting speed and strip thickness.
+   - For the quench they are the hot-band gauge entering the bath and its temperature. The flexible hot/cold split (route facts, CLAUDE.md) changes the gauge and with it the Biot number above.
+6. **Limits.** R7 contains no data on lean alloys, strip casting, rolling, edge cracking or quench cracking. The points above transfer mechanisms and orders of magnitude, not values (gap, §10 item 13).
 
 ---
 
@@ -849,6 +991,13 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
 | Critical free-surface velocity (young oxide films) | 0.5 m/s | [TOT p.118] |
 | Harmful inclusion size | > 30 µm generally; < 10 µm in thin foil | [TOT p.664] |
 | Al–Mg–Si eutectics | 595 °C (Mg2Si); 555 °C (Mg2Si + Si); 449 °C (Mg2Si + Mg5Al8) | [TOT p.490] |
+| K_IC, as-cast DC AA7050 | 8.9 ± 0.3 MPa√m (RT); 8.29 MPa√m (200 °C); not valid above 200 °C. Precipitation-hardened 7050: minimum 20.9–27.5 MPa√m | [R7, p.40–41, 111] |
+| Cold-crack rule of thumb (Livanov) | RT tensile elongation of the as-cast material > 1.5 % means no cold cracking | [R7, p.16] |
+| Critical crack size (Griffith, mode I) | Penny: a_c = (π/4)(K_IC/σ11)². Thumbnail: a_c = π/(2·1.13)²·(K_IC/σ11)² | [R7, p.96] |
+| Critical sizes, Ø 200 mm 7050 billet, 1 mm/s | 10.1 mm penny radius at the centre (σ11 73 MPa, 200 °C); 17.1 mm at RT; 4.2 mm thumbnail in the WIZ (σ11 100 MPa) | [R7, p.99, 141] |
+| Validated cold crack (new 7xxx, Ø 260 mm, 110 mm/min) | Predicted critical flaw 6–12 mm diameter; actual origin a 7 mm Mg-oxide inclusion; shrinkage pores ≤ ~100 µm harmless | [R7, p.130–132] |
+| Brittle windows, as-cast 7050 | Below ~200 °C and above the non-equilibrium solidus (465–469 °C); ductile at 300–400 °C (RA 33–36 %) | [R7, p.36–37, 94] |
+| Dominant DC variables for residual stress | Casting speed and diameter. Water flow (40–120 l/min), water temperature (15–45 °C) and melt temperature (680–700 °C) are negligible | [R7, p.107, 116] |
 
 ---
 
@@ -857,9 +1006,10 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
 2. **TRC metallurgy is essentially missing.** R4 gives only process parameters. Its Table 1 is now legible (2026-10-12), but the speed unit is still printed as "cm/min" and remains unverified (§4.2). The cooling rate, Mn/Fe/Si supersaturation, centreline segregation, and surface or bulk defects of TRC (cf. Sun et al. 2006 on TRC AA3105; Monaghan et al. 1993, both cited in R4) need sourcing. [TOT] (2026-10-12) adds no strip-casting metallurgy, only that twin-roll casters reach a nominal 6 mm minimum and belt casters cast 16–20 mm [TOT p.352–354] (§4.3).
 3. **PSN and recrystallisation.** No source quantifies the particle-size threshold for particle-stimulated nucleation, or how constituent morphology affects texture and earing. Particle effects on formability appear only qualitatively, for foil [R1, p.23].
 4. **Truncated or incomplete sources** (status after the 2026-10-12 full-text pass):
-   - Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are still missing. Lalpoor (R7) Chs 5–8 (cold-cracking criterion, critical crack size) are still missing. Both files exceed the 10 MB download-tool limit. *Action:* the user splits the PDFs (e.g. per chapter) and uploads the parts, or downloads them through the standard Drive API.
+   - Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are still missing. The file exceeds the 10 MB download-tool limit. *Action:* the user splits the PDF (e.g. per chapter) and uploads the parts, or downloads it through the standard Drive API.
    - O'Dette (R8): the Drive file holds only pp.924–925, so the ≥40 % cold-reduction explanation (p.926 onward) cannot be recovered from Drive. *Action:* obtain the complete article (J. Metals / Trans. AIME, July 1957, TP 4460E).
-5. **Tables still unreadable.** R1 Tables 1.2 (Al–Fe–Si invariants), 1.5 (metastable phases) and 1.16 (quaternary mono/bivariant reactions) are on rotated pages with a garbage OCR layer; they need OCR or the printed book. The R7 KIc numbers remain unverified because R7 is too large to download. *Resolved 2026-10-12:* R1 Tables 1.4, 1.7 and 1.13 and R8 Table I (§2.2, §2.4, §2.5, §7.2).
+   - *Resolved 2026-10-12:* Lalpoor (R7) Chs 5–8 were read from the split parts. The cold-cracking criterion, critical crack sizes, residual stresses and process effects are in §6.6. Remaining R7 limits: pp. 31–70 exist only as Drive text without figures, so values that are only plotted (K_IC at 100 °C, Fig. 2.23; critical-size curves, Figs. 6.9, 7.6, 7.7; the new alloy's K_IC, Fig. 8.8) are missing. A ≤ 5 MB re-split of part bb would recover the layout text, though still not the plotted values.
+5. **Tables still unreadable.** R1 Tables 1.2 (Al–Fe–Si invariants), 1.5 (metastable phases) and 1.16 (quaternary mono/bivariant reactions) are on rotated pages with a garbage OCR layer; they need OCR or the printed book. *Resolved 2026-10-12:* R1 Tables 1.4, 1.7 and 1.13 and R8 Table I (§2.2, §2.4, §2.5, §7.2), and the R7 K_IC values: 8.9 ± 0.3 MPa√m at RT and 8.29 MPa√m at 200 °C, verified against the full text (§6.2).
 6. **Mn:Fe threshold for wrought 3xxx/8xxx.** There is no quantitative Mn:Fe or Si window for forming α instead of β or Al6(Fe,Mn) at DC versus TRC cooling rates. The only number found is the 4xx.x statement that "≫1:20" is needed [R1, p.43].
    - *Partly addressed 2026-10-12:* [TOT] gives **Mn/Fe > 0.5** together with the rule that slow cooling favours β, and that lower Fe moves the β→α transition to slower cooling rates [TOT p.610] (§3.7). These numbers come from Al–Si foundry alloys. A window for lean wrought or strip-cast alloys (DC vs strip cooling rates) is still missing; the T11 trial metallography will give the first in-house point.
 7. **Hot-tear data for 3xxx.** Only 3004 mush strength (fs 0.81), the Al–1.4Mn ductility drop and the benefit of grain refinement in 3104 are available. No CSC or measured HCS exists for 3102 or 3207.
@@ -868,6 +1018,8 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
    - Si promotes Al3Fe [R5, p.57] vs Si promotes FeAl6 [R3, p.368]. *Partly resolved 2026-10-12:* [TOT] reports that Si, and 0.75% Mg, raise the stability of Al3Fe against increasing front velocity [TOT p.139], which supports R5. The R3 statement stays unexplained (purity or method).
    - **New (TOT):** Fe "improves hot tear resistance" [TOT p.592] (foundry alloys) vs Fe raising hot-crack susceptibility in wrought alloys [R12, p.217–220] and Fe-rich eutectic blocking feeding [TOT p.491]. A reading is proposed in §6.5.
    - **New (TOT):** partition coefficient of Mn, 0.95 [TOT p.491] vs 0.82 [R11, p.172].
+   - **New (R7 full text):** casting speed and cold cracking. Livanov's slab rule says to cast *faster* to avoid cold cracks [R7, p.8, 119–120]. R7's billet simulations and trials show that higher speed raises the residual stresses and shrinks the critical crack size; the only crack came at the highest speed [R7, p.107–116, 130]. The two may describe different regimes (slabs vs billets; Livanov's speeds are bounded above by hot cracking) and are not reconciled in R7. For billets, R7's practical advice is to choose a speed whose minimum critical crack size exceeds the typical inclusion size [R7, p.142].
+   - **New (R7, internal):** the as-cast 7050 yield strength is given as 279 MPa (RT) and 30 MPa (400 °C) in the text [R7, p.27], but as 266 ± 12 and 23 ± 2 MPa in Table 6.1 [R7, p.94]. At 100–200 °C, "fracture strengths" of 226 and 225 MPa [R7, p.90] sit beside Table 6.1 yield strengths of 223 and 154 MPa. The centre σ11 peak is 71 MPa in Chs 5 and 7 but 73 MPa in Ch 6 [R7, p.84, 96, 111].
    - "AlmFe = Al9Fe2" [R10, p.116] vs separate phases [R5, p.6, 9].
    - The direction of the Sha et al. growth-velocity effect on α/β selection in 6xxx is garbled in R3 p.369.
 9. **Blistering in modern routes.** R13 now gives the qualitative picture (§7.1): hydrogen from water vapour and decomposing hydrocarbons, and pickup in solid Al promoted by sulfur compounds [R13, p.377–378]. **No quantitative data** exist for lubricant-residue or furnace dew-point limits on annealed coils or slugs. The role of oxides versus micro-shrinkage in TRC strip is not covered.
@@ -879,3 +1031,10 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
     - Whether any free Si or Mg2Si + Si eutectic forms (§6.5).
     - Hot cracks in the cast strip, especially at mid-thickness and the edges.
     - Melt hydrogen and inclusion level achieved, and blisters after the slug anneal (§7.5).
+    - RT (and ideally 200 °C) tensile elongation of the as-cast strip, surface layer vs mid-thickness: the Livanov > 1.5 % floor screen (§6.6.6).
+    - Edge and transverse surface cracks on the quenched hot band, with fractography for oxide origins (§6.6.6).
+13. **Cold cracking and quench stresses on strip-cast routes** (opened 2026-10-12 after the R7 full-text pass). R7 covers only 7xxx DC billets.
+    - No as-cast ductility, K_IC or CTOD data exist in the library for lean 3xxx/6xxx or for strip-cast material.
+    - There is no residual-stress or quench-stress analysis for a 9–15 mm hot band quenched from ≈ 380 °C. The Biot estimate in §6.6.6 is derived, using DC heat-transfer coefficients as an upper bound; the real bath heat-transfer coefficient (film vs nucleate boiling) is unknown.
+    - No source covers edge cracking in the in-line hot mill.
+    - *Action:* use the T11 trial checks in item 12. If cracks appear, run a thermal-stress calculation of the bath quench with temperature-dependent as-cast properties, following R7's method (§6.6.2–6.6.3).

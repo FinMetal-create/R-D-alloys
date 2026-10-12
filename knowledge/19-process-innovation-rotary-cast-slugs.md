@@ -82,9 +82,15 @@ taken as 182–227 kJ/mol, the range implied in [ch13]. Homogenisation relaxatio
 
 | Step | Gauge | Reduction | ε | Fate of the strain |
 |---|---|---|---|---|
-| Hot rolling, straight after casting | 22 → ≤ 11 mm | ≥ 50 % | ≥ 0.69 | Mostly lost to dynamic recovery at hot-rolling temperature; it leaves a recovered subgrain structure [ch03 §9] |
-| Cooling bath | ≈ 11 mm | — | — | **Quench** freezes the state: Mn, Mg, Si (and Fe traces) stay supersaturated, and no precipitation or self-annealing happens in the coil |
+| Hot rolling, straight after casting, **≈ 500 → 380 °C** (user) | 22 → hot-band gauge (flexible, P10) | currently ≥ 50 % | ≥ 0.69 | Partly removed by dynamic recovery. At this relatively cool finish (high Zener–Hollomon parameter) a fine recovered subgrain structure remains [ch03 §9]. It adds some driving force for later RX, though less than the same cold strain (G) |
+| Cooling bath, from ≈ 380 °C | hot-band gauge | — | — | **Quench** freezes the state. It probably leaves an unrecrystallised, recovered hot band, because there is too little time at 380 °C for static RX (G): Mn, Mg, Si (and Fe traces) stay supersaturated, and no precipitation or self-annealing happens in the coil |
 | Cold rolling | ≤ 11 → 6.1–7.4 mm (slugs, ch09 §8) | 33–45 % (range 30–50 %) | 0.40–0.59 (0.36–0.69) | This is the stored energy that drives slug RX |
+
+**Temperatures (user):** ≈ 500 °C leaving the caster, ≈ 380 °C after the hot mill, then the bath.
+- Time in the 500–380 °C window is short (seconds to about a minute, depending on line speed). Mn diffuses
+  only ≈ 0.05 µm in 1 min at 500 °C (§1.1), so **almost all Mn reaches the bath still in solution**.
+- Mg and Si are largely in solution at 500 °C. Some strain-induced Mg₂Si precipitation during rolling is
+  possible but limited by time (G).
 
 **Consequences**
 1. **The slug anneal starts from a fully supersaturated, only moderately cold-worked state.** That is the
@@ -191,6 +197,15 @@ Ranking is expected benefit per unit of risk and capex (inference).
 
   For Mg–Si alloys (T11), keep the quench if bake response is wanted, or use slow cooling for soft, stable
   slugs.
+- **Assessment for this line (≈ 380 °C after the hot mill): weak for Mn, ranked down.**
+  - At 380 °C, Mn diffuses only ≈ 0.02 µm in 1 h and ≈ 0.08 µm in 10 h (Q = 200 kJ/mol, derived).
+  - A hot-coiled band would at best grow **fine, dense dispersoids**: maximum Zener drag and pancake grains in
+    the slug anneal [ch03 §5.2], the opposite of what is wanted.
+  - Effective Mn precipitation needs ≥ ≈ 480–500 °C for hours. That means re-heating, i.e. P1 or P5.
+  - Hot coiling at ≈ 380 °C *is* relevant for Mg–Si alloys: slow cooling from 380 °C would precipitate
+    Mg₂Si, giving softer, storage-stable slugs but less bake response (G).
+  - An in-line soaking tunnel at ≈ 500 °C between caster and mill is metallurgically attractive, but
+    impractical at strip speeds (minutes needed).
 - **Mechanism.** Precipitates a large part of the Mn supersaturation (diffusion distance 0.15–0.85 µm in
   1–4 h, §1.1) using heat already in the metal. It does not fully homogenise. This is a cheap partial version
   of P1 (G; analogous to self-annealing of hot-rolled coils).
@@ -313,8 +328,9 @@ the slug anneal fast and fine.
 
 ## 4. Open questions for the user
 
-1. Strip temperature entering and leaving the hot mill, and the temperature after the cooling bath (needed for
-   P2 and P10). *(Route confirmed by the user: 22 mm → hot ≥ 50 % → cooling bath → cold 30–50 %.)*
+1. ~~Strip temperatures~~ **Answered:** ≈ 500 °C leaving the caster, ≈ 380 °C after the hot mill. Still open:
+   line speed (time from caster to bath), the temperature after the bath, and whether the hot-mill exit
+   temperature rises when hot reduction is lowered (P10).
 2. Why is ≥ 50 % hot reduction a minimum? Could the hot/cold split be shifted towards ≈ 25–35 % hot and
    ≈ 55–60 % cold for 6–7.5 mm slugs (P10)?
 3. Available equipment: coil batch furnaces (maximum T, atmosphere), slug furnaces (batch or continuous,

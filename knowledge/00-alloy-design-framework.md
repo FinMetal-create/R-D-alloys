@@ -164,7 +164,8 @@ Pick the target microstructure from [ch03 §5.4] (table "fine equiaxed vs coarse
   - The in-house CRM tables call for ε ≥ 0.80 (3102) / 0.85 (3207), which needs only 21–38 % hot reduction
     [ch09 §5, §8]. By the tables' own legend, current practice is "red" (ε < 0.55: coarse grain, high scatter,
     orange-peel risk) to "yellow" (0.55–0.84).
-  - Hot strain is largely lost to dynamic recovery, so it does not substitute for cold strain (general
+  - Hot rolling runs at ≈ 500 → 380 °C (user). Hot strain is partly recovered dynamically; the quench keeps a
+    fine subgrain structure that adds some driving force, but it does not substitute for cold strain (general
     knowledge; [ch03 §9]).
   - **Shifting reduction from the hot mill to the cold mill is the most direct process lever** [ch19 P10]. The
     user confirmed the split is flexible per final thickness. Rule: hot-band gauge = t_final·e^(ε_target)

@@ -44,7 +44,7 @@
 | Density, 20 °C | 2.70 g/cm³ (99.99–99.999 %); 2.71 (99.5–99.0 %); theoretical 2.69872; measured 2.6984 | [HB p.37, p.40] |
 | Density, wrought alloys | 2.67–2.80 g/cm³; 2.7 used in design | [DW §1.2] |
 | Density effect of Mg | −0.5 % per wt.% Mg in solid solution | [HB p.160] |
-| Liquid density at m.p. | 2.375 g/cm³ (WP); 2.3 g/cm³ (molten cathode Al) | [WP p.1; HB p.~30] |
+| Liquid density at m.p. | 2.375 g/cm³ (WP); 2.3 g/cm³ (molten cathode Al) | [WP p.1; HB p.28] |
 | Melting point | 660.32 °C [WP p.1]; 660.37 °C [HB p.57]; 660.2 (99.999) → 657.0 °C (99.0) [HB p.37]; 657 (99.2 %), 658 (99.5 %) [HB p.59] | — |
 | dT_m/dp | 6.41×10⁻² °C/MPa | [HB p.59] |
 | Volume change on melting | 5.4 % | [HB p.59] |
@@ -60,7 +60,7 @@
 | Conductivity, high purity | 99.997 %: 65.45 % IACS (2.6434 µΩ·cm); 99.996 %: 64.94 % IACS (2.6548); 99.993 %: 65.1 % IACS | [HB p.50] |
 | Temperature coefficient of resistivity | 0.0042 (99.99x) → 0.0040 K⁻¹ (99.0); dρ/dT = 0.0115 µΩ·cm/K, 0–300 °C (Matthiessen) | [HB p.37, p.50] |
 | Resistivity jump on melting | 99.99 %: solid 10.8, liquid 26.6 ×10⁻⁸ Ω·m; commercial purity: liquid 27.1×10⁻⁸ Ω·m (~+164 %) | [HB p.52] |
-| Lattice / atomic | fcc, a = 4.0496 Å at 25 °C; nearest neighbour 2.863 Å; b = 0.286 nm; SFE ≈ 200 mJ/m² | [HB p.38–39, p.84–85; WP p.3] |
+| Lattice / atomic | fcc, a = 4.0496 Å at 25 °C; nearest neighbour 2.863 Å; b = 0.286 nm; SFE ≈ 200 mJ/m² | [HB p.38–39, p.83–85; WP p.3] |
 | Vacancies | E_f 0.76 eV, E_m 0.65 eV, E_SD 1.4 eV; equilibrium concentration near m.p. 9.4×10⁻⁴ | [HB p.39] |
 | Reflectance / emissivity | bright dip R 90 % / ε 3 %; clear anodic R 80 % / ε 35–65 %; black anodic R 5 % / ε 95 %; sand-blasted 15–25 % of polished reflectance; rough finish ε 20–30 % | [HB p.55–56] |
 | Superconducting T_c | 1.187 K | [HB p.51] |
@@ -399,7 +399,7 @@ Further reference values:
 - **Pitting.** Caused by film breakdown, mainly by halides. Oxidisers (H₂O₂, free Cl) accelerate it, more strongly in acid. Sn in the film raises ionic conductivity and dissolution [HB p.65].
 - **Effect of purity.** 99.99 % Al has a lower pitting probability, and refined 99.99 % Al is 3–15× more corrosion resistant than commercial purity [HB p.65]. At ≥ 99.99 %, corrosion in HCl is governed by Cu: sheet with > 2×10⁻³ % Cu perforated in 1 week in 20 % HCl, against 2 weeks at 0.9–3×10⁻⁴ % Cu ⚠. Fe also raises the corrosion rate. Ga (0.5 % → 120 g/m²·h) and Re (0.3 % → 250 g/m²·h) are very harmful; 0.14–0.19 % Nb reduces resistance; Ti has no effect; 0.05–0.5 % Be has a slight effect [HB p.66].
 - **Potentials in 1 M NaCl (V vs 0.1 N calomel):** Mg −1.72, Zn −1.15, **Al −0.86**, Fe −0.72, Cu −0.35. Al is cathodic to Mg and Zn and anodic to Fe and Cu in most electrolytes [HB p.63].
-- Pure Al is less noble than most alloys, which is why it is used as protective (cathodic) cladding [HB p.60, p.77].
+- Pure Al is less noble than most alloys, which is why it is used as a protective cladding that cathodically protects the core [HB p.60, p.77].
 - **Al–Mg.** β (Al₃Mg₂) nucleates on grain boundaries at ambient temperature in alloys with more than about 3 % Mg, reducing ductility and SCC resistance. Above 4 % Mg, cold work promotes grain-boundary precipitation. Alloys above 5 % Mg need special tempers [HB p.161–162].
   - H116 applies to 5xxx with ≥ 3 % Mg. It must pass accelerated intergranular and exfoliation tests and is suited to continuous service ≤ 65 °C [EAA p.42–43].
   - High-Mg alloys can suffer intergranular corrosion and SCC [HB p.166].
@@ -512,7 +512,7 @@ Sources: [HB p.52–53, p.92–100, p.122, p.138–168; WP p.73]. **Per-wt.% res
 | Artificial ageing | 6060 (T1/T4 → T5/T6) | 6 h/185 °C or 8 h/175 °C | [EAA p.53] |
 | Artificial ageing | 6005, 6106, 6061 | 8 h/175 °C | [EAA p.53] |
 | Artificial ageing | 6082 | 16 h/165 °C, 10 h/170 °C or 8 h/175 °C | [EAA p.53] |
-| Artificial ageing | 6xxx general / Al–Mg₂Si | 150–180 °C, several hours / about 170 °C | [DW §2.3.2; HB p.172] |
+| Artificial ageing | 6xxx general / Al–Mg₂Si | 150–180 °C, several hours / about 170 °C | [DW §2.3.2; HB p.173] |
 | PFZ suppression | Al–Zn–Mg–Cu | 93 °C ageing step | [HB p.130] |
 | GP-zone stability limit | Al–Cu | dissolve > 190 °C | [HB p.141] |
 | T4/W forming window | 6xxx/2xxx | ≤ 2 h after quench; 4–5 days at −6 to −10 °C; W ≤ 15 min ambient | [DW §3.1.4; WP p.47] |

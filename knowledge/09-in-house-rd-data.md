@@ -1073,6 +1073,11 @@ span ≈ 23–33, grain 20–100 µm, MgO ≤ ~7–9 nm) and §5 (grain bands, m
   and simply means a stronger alloy.
 - The goal is alloys that are stronger, good to impact-extrude, and castable on the user's **rotary strip
   caster**. This also answers §11 Q9: the starting strip is continuously cast on a rotary caster.
+- Actual line: 22 mm cast strip → in-line hot rolling **≥ 50 %** → **cooling bath** → cold rolling **30–50 %**.
+  - *Assessment:* for the 6.1–7.4 mm slugs (§8), this gives cold ε ≈ 0.40–0.59.
+  - The §5 tables assume 21–38 % hot and 55–57 % cold reduction (ε 0.80–0.85).
+  - Current practice therefore sits in the tables' own "red/yellow" bands (ε < 0.55 / 0.55–0.84).
+  - The table data themselves are unchanged.
 
 ### Assessment
 - Slug geometry is self-consistent: slug mass = (π/4)·D²·h·2.70 within 0.3–1.3 %, and slug thickness =

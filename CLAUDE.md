@@ -26,7 +26,10 @@ transfer to aluminium.
 and extrudability as the core trade-off, and judge every candidate against rotary strip casting (high cooling
 rate, no ingot homogenisation, hot tearing and centreline segregation risks; see `knowledge/15` and
 `knowledge/11`).
-Route facts: **22 mm cast strip**; lacquer bake **220 °C / 10 min**. Process-innovation options are in
+Route facts (user, 2026-10-12): rotary caster → **22 mm cast strip** → **in-line hot rolling, ≥ 50 % reduction** →
+**cooling bath (water quench)** → **cold rolling 30–50 %** → slugs (≈ 6.1–7.4 mm) → anneal → impact extrusion →
+lacquer bake **220 °C / 10 min**. The quench retains Mn, Mg and Si in solution. The 30–50 % cold reduction
+(ε ≈ 0.36–0.69) is below the in-house CRM-table target of ε ≥ 0.80–0.85. Process-innovation options are in
 `knowledge/19-process-innovation-rotary-cast-slugs.md`.
 
 **Trials** are recorded in `knowledge/trials/<ID>.md` (composition, assessment, measurement plan, results). Fill

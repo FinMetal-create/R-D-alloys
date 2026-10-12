@@ -25,8 +25,8 @@ here is a hypothesis to test against plant data, not a validated result.
 **Process chain** [ch09 §0, §5; ch10 §2; ch11]:
 
 ```
-melt (scrap-rich) → strip casting (DC + hot rolling, or continuous casting ≈ 20 mm)
-  → [homogenisation?] → cold rolling (CRM, true strain ε ≈ 0.8–0.95+) → slug blanking
+melt (scrap-rich) → rotary strip caster (22 mm) → in-line hot rolling (≥ 50 %) → cooling bath (quench)
+  → [homogenisation?] → cold rolling (CRM, 30–50 %, ε ≈ 0.36–0.69) → slug blanking
   → slug anneal (batch or continuous) → impact (backward) extrusion → necking/shaping
   → internal lacquer cure → aerosol can
 ```
@@ -37,7 +37,7 @@ melt (scrap-rich) → strip casting (DC + hot rolling, or continuous casting ≈
 |---|---|---|---|
 | **Design goal (user, 2026-10-12)** | **Stronger alloy, good to impact-extrude, castable on a rotary strip caster** | Strength from solute, dispersoids and work hardening, balanced against press force and slug ductility; castability set by freezing range, hot tearing and segregation at rotary-caster cooling rates | user; [ch10]; [ch11]; [ch15] |
 | Slug hardness | Around 35 HB is acceptable: it means a stronger alloy and is **not** a cap. The earlier "23–33 HB" was inferred from in-house model files [ch09 §2–3] | Fully recrystallised matrix. The level is set by solute (Mn_ss, Mg, Cu), dispersoids and grain size. The practical ceiling is press force and extrudability (R21) | user; [ch10 §2.5] |
-| Casting route | **Rotary (wheel-type) strip caster**, **22 mm cast strip** (user); narrow strip up to ≈ 20 mm in the literature, typically hot rolled in line; the standard route for aerosol slugs | High cooling rate (finer constituents, more Mn/Fe supersaturation), no ingot homogenisation, centreline segregation, possibly variable cooling from wheel/band contact | [ch15 §1]; [ch11 §3]; [ch02 §4] |
+| Casting route | **Rotary (wheel-type) strip caster**, **22 mm cast strip → in-line hot rolling ≥ 50 % → cooling-bath quench → cold rolling 30–50 %** (user); narrow strip up to ≈ 20 mm in the literature, typically hot rolled in line; the standard route for aerosol slugs | High cooling rate (finer constituents, more Mn/Fe supersaturation), no ingot homogenisation, centreline segregation, possibly variable cooling from wheel/band contact | [ch15 §1]; [ch11 §3]; [ch02 §4] |
 | Slug grain size | 20–100 µm, equiaxed. No pancake grains and no coarse surface grains (orange peel) | Recrystallisation (RX) nucleation density vs Zener drag. Precipitation-before-RX sequence | [ch09 §2–3] (I); [ch03 §5, §7.1] (D) |
 | Slug surface | Low MgO (in-house ≲ 7–9 nm). No abrasive oxide | Mg surface segregation and selective oxidation during the anneal | [ch09 §3] (I); [ch14] (W); [ch11 §2] (W) |
 | Extrudability | Low punch force, no splits, good wall surface | Low flow stress, high ductility, uniform fine grains, compact constituents | [ch10]; [ch03 §7.1] (D) |
@@ -158,6 +158,15 @@ Pick the target microstructure from [ch03 §5.4] (table "fine equiaxed vs coarse
 
 ### 5.3 Cold reduction
 - More reduction raises stored energy and the nucleation density, and lowers the RX temperature and time.
+- **Plant vs in-house targets (Assessment).**
+  - The actual route is ≥ 50 % hot reduction (22 → ≤ 11 mm), a quench, then 30–50 % cold reduction. For the
+    6.1–7.4 mm slugs that gives ε_cold ≈ 0.40–0.59.
+  - The in-house CRM tables call for ε ≥ 0.80 (3102) / 0.85 (3207), which needs only 21–38 % hot reduction
+    [ch09 §5, §8]. By the tables' own legend, current practice is "red" (ε < 0.55: coarse grain, high scatter,
+    orange-peel risk) to "yellow" (0.55–0.84).
+  - Hot strain is largely lost to dynamic recovery, so it does not substitute for cold strain (general
+    knowledge; [ch03 §9]).
+  - **Shifting reduction from the hot mill to the cold mill is the most direct process lever** [ch19 P10].
 - In-house data already rank this as the strongest process lever: 25 → ≥ 45–55 % CR allows a lower annealing
   T and t, finer grains and less MgO [ch09 §9 item 4].
 

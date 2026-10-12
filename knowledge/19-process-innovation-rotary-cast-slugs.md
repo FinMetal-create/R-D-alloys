@@ -4,8 +4,9 @@
 **impact-extrude well**, on the user's route. It includes the option of building homogenisation into the
 anneal.
 
-**Route (user, 2026-10-12):** rotary (wheel-type) strip caster → **22 mm cast strip** → cold rolling (CRM) →
-slugs → slug anneal → impact extrusion → lacquer bake **220 °C / 10 min**.
+**Route (user, 2026-10-12):** rotary (wheel-type) strip caster → **22 mm cast strip** → **in-line hot rolling,
+≥ 50 % reduction** → **cooling bath (quench)** → **cold rolling (CRM) 30–50 %** → slugs (≈ 6.1–7.4 mm) → slug
+anneal → impact extrusion → lacquer bake **220 °C / 10 min**.
 
 **Evidence grades:** as in ch00.
 - **D**: Drive literature, full text.
@@ -75,15 +76,63 @@ taken as 182–227 kJ/mol, the range implied in [ch13]. Homogenisation relaxatio
 - **Fe** is essentially all in constituent particles (solubility 0.002–0.016 % at 400–550 °C [ch02]). Those
   particles are the PSN sites that give fine, equiaxed grains [ch03 §3].
 
+### 1.3 What the actual line does to the metal (Inference + G)
+
+**Strain budget** (ε = ln(h₀/h)):
+
+| Step | Gauge | Reduction | ε | Fate of the strain |
+|---|---|---|---|---|
+| Hot rolling, straight after casting | 22 → ≤ 11 mm | ≥ 50 % | ≥ 0.69 | Mostly lost to dynamic recovery at hot-rolling temperature; it leaves a recovered subgrain structure [ch03 §9] |
+| Cooling bath | ≈ 11 mm | — | — | **Quench** freezes the state: Mn, Mg, Si (and Fe traces) stay supersaturated, and no precipitation or self-annealing happens in the coil |
+| Cold rolling | ≤ 11 → 6.1–7.4 mm (slugs, ch09 §8) | 33–45 % (range 30–50 %) | 0.40–0.59 (0.36–0.69) | This is the stored energy that drives slug RX |
+
+**Consequences**
+1. **The slug anneal starts from a fully supersaturated, only moderately cold-worked state.** That is the
+   least favourable combination for Mn-bearing alloys: precipitation can win the race against RX, giving coarse
+   grains [ch03 §5].
+2. **The cold strain is below the in-house CRM-table targets** (ε ≥ 0.80–0.85 [ch09 §5]). Expect coarser,
+   more variable grains and higher anneal temperatures (so more MgO) than the tables predict.
+   - The RX grain size falls with strain, and ≈ 15 % is the critical strain [ch03 §4.4; ch06].
+   - At low strain, fewer constituent particles act as PSN nuclei: the critical particle size grows as stored
+     energy falls (general knowledge; HH ch. 9 not extracted [ch03 §12]).
+3. **The quench is a design variable.**
+   - Slow cooling or hot coiling instead would let Mn (and Mg₂Si) precipitate in the coil, using the casting
+     heat (P2).
+   - For Mg–Si alloys like T11, the quench keeps Mg and Si in solution. That helps bake response but makes
+     slug hardness sensitive to the anneal cooling rate and to storage time [trials/T11 §2.3].
+
 ---
 
 ## 2. Innovation options, ranked
 
 Ranking is expected benefit per unit of risk and capex (inference).
 
-### P1 — High-temperature treatment of the 22 mm cast coil ("at-gauge homogenisation") before cold rolling ★ highest value
+### P10 — Rebalance reduction: less hot, more cold ★ quickest lever (no new equipment if the mill allows it)
 
-- **What.** Batch-anneal the as-cast coil at ≈ 580–620 °C for ≈ 1–4 h (§1.1). Then cool **slowly or in
+- **What.** Lower the hot reduction so that the cold mill gives ε ≥ 0.80–0.85, the in-house CRM-table targets
+  [ch09 §5]. For 6.1–7.4 mm slugs the tables give hot-band gauges of ≈ 13.6–17.3 mm, i.e. 21–38 % hot
+  reduction instead of ≥ 50 %.
+- **Mechanism.** More cold stored energy gives:
+  - more nuclei (PSN on Fe constituents, plus boundary nucleation);
+  - finer, more equiaxed RX grains;
+  - lower RX temperature and time, so less MgO and less time for Mn to precipitate before RX
+  [ch03 §1, §4.4, §5.4].
+- **Constraints to clarify.**
+  - Why ≥ 50 % hot reduction is a minimum: closing cast porosity, breaking the cast structure, mill design or
+    cold-mill capacity?
+  - Higher cold reduction also raises cold-mill load and strip hardness.
+- **If the hot reduction cannot be lowered:**
+  - (a) finish hot rolling **cooler** (warm) before the quench, so part of the hot strain is retained as stored
+    energy (general knowledge; verify);
+  - (b) make thinner slugs where the product allows;
+  - (c) compensate with P3/P4 (fast heating) and P1.
+- **Trial.** At one slug gauge, compare the current split (≥ 50 % hot / ≈ 35–45 % cold) with ≈ 30 % hot /
+  ≈ 55–60 % cold. Measure grain size and scatter, HB, anneal temperature needed, and MgO.
+
+### P1 — High-temperature treatment of the hot band before cold rolling ("at-gauge homogenisation") ★ highest metallurgical value
+
+- **What.** Batch-anneal the quenched **hot-band coil (≈ 11–17 mm)** at ≈ 580–620 °C for ≈ 1–4 h (§1.1).
+  The thinner hot band heats faster than the 22 mm cast strip. Then cool **slowly or in
   steps** through ≈ 550 → 450 °C so the Mn precipitates as fewer, coarser dispersoids. Then cold roll and
   anneal the slugs as now, or shorter.
 - **Mechanism.**
@@ -111,10 +160,16 @@ Ranking is expected benefit per unit of risk and capex (inference).
   - As-cast vs 600 °C / 2 h + 20 °C/h to 450 °C vs 550 °C / 4 h.
   - Measure conductivity (Mn_ss proxy [ch13]), HB, and grain size after the standard slug anneal.
 
-### P2 — Use the casting heat: hot coiling plus insulated or controlled coil cooling ("free" precipitation)
+### P2 — Replace or shorten the cooling-bath quench: hot coiling plus controlled coil cooling ("free" precipitation)
 
-- **What.** Coil the strip as hot as the line allows. Cool the coil slowly under an insulated hood or in a
-  holding furnace, so it spends hours at ≈ 450–520 °C.
+- **What.** The line currently quenches the hot band in a cooling bath, which preserves full supersaturation
+  (§1.3). For Mn-bearing alloys:
+  - bypass or shorten the bath;
+  - coil hot (≈ 450–520 °C if the hot-mill exit allows);
+  - cool the coil slowly under an insulated hood or in a holding furnace.
+
+  For Mg–Si alloys (T11), keep the quench if bake response is wanted, or use slow cooling for soft, stable
+  slugs.
 - **Mechanism.** Precipitates a large part of the Mn supersaturation (diffusion distance 0.15–0.85 µm in
   1–4 h, §1.1) using heat already in the metal. It does not fully homogenise. This is a cheap partial version
   of P1 (G; analogous to self-annealing of hot-rolled coils).
@@ -155,9 +210,11 @@ Ranking is expected benefit per unit of risk and capex (inference).
   rates and uniformity for small parts (G).
 - **Risk.** Capex. Slug-to-slug uniformity must be proven.
 
-### P5 — Intermediate anneal of the strip (lower-capex alternative to P1)
+### P5 — Hot-band or intermediate anneal (lower-capex alternative to P1)
 
-- **What.** Cold roll 22 mm → an intermediate gauge. Anneal at ≈ 450–520 °C to recrystallise and precipitate
+- **What.** The simplest form on this line: anneal the **quenched hot band** at ≈ 450–520 °C to precipitate Mn
+  before cold rolling. With only 30–50 % cold reduction available, a true intermediate anneal between cold
+  passes is hard to fit. The original variant: cold roll to an intermediate gauge. Anneal at ≈ 450–520 °C to recrystallise and precipitate
   Mn on a refined structure. Then do the final cold rolling and a fast slug anneal.
 - **Mechanism.** Precipitation is faster on the deformed structure. After the intermediate anneal, Mn_ss is
   lower and the dispersoids are already formed, so the final anneal recrystallises quickly [ch03 §5.2] (D).
@@ -219,20 +276,26 @@ Check against each candidate:
 | Factor | Levels |
 |---|---|
 | Alloy | current 3207-type; strong-lean (+Mg 0.25–0.40, Cu ≈ 0.1); modified 3102 (Mn 1.1–1.3) |
-| Strip treatment before cold rolling | as-cast; P2 simulation (slow cool from ≈ 500 °C); P1 (600 °C / 2 h + stepped cool); P5 (intermediate anneal) |
+| Hot/cold split (P10) | current (≥ 50 % hot / ≈ 35–45 % cold); shifted (≈ 25–35 % hot / ≈ 55–60 % cold) at the same slug gauge |
+| Hot-band treatment before cold rolling | quenched (current); P2 simulation (slow cool from ≈ 500 °C instead of the bath); P1 (600 °C / 2 h + stepped cool); P5 (hot-band anneal 450–520 °C) |
 | Slug anneal | current batch cycle; fast two-stage (P3) in a pre-heated furnace or salt or fluidised bath |
 | Responses | conductivity; HB; RX fraction and grain size (EBSD or optical); MgO (colour or abrasion, XPS on a subset); wall simulation (ε ≥ 2 + 220 °C / 10 min) HV; later, press force and burst on real cans |
 
-Start with the as-cast vs P1 comparison on the current alloy. It is the cheapest test of the core hypothesis:
-upstream Mn precipitation and homogenisation make the slug anneal fast and fine.
+Start with two cheap comparisons on the current alloy:
+- **P10:** the current hot/cold split vs more cold reduction.
+- **P1/P5:** quenched hot band vs annealed hot band.
+
+Together they test the two core hypotheses: more cold strain, and Mn precipitated before cold rolling, make
+the slug anneal fast and fine.
 
 ---
 
 ## 4. Open questions for the user
 
-1. Strip temperature at the caster or in-line mill exit, and how the coil cools (needed for P2).
-2. Is there an in-line hot-rolling step after the rotary caster? What is the final strip gauge before
-   blanking, and the actual cold reduction?
+1. Strip temperature entering and leaving the hot mill, and the temperature after the cooling bath (needed for
+   P2 and P10). *(Route confirmed by the user: 22 mm → hot ≥ 50 % → cooling bath → cold 30–50 %.)*
+2. Why is ≥ 50 % hot reduction a minimum? Could the hot/cold split be shifted towards ≈ 25–35 % hot and
+   ≈ 55–60 % cold for 6–7.5 mm slugs (P10)?
 3. Available equipment: coil batch furnaces (maximum T, atmosphere), slug furnaces (batch or continuous,
    heating rate).
 4. A measured cell or dendrite spacing of the 22 mm cast strip, at the surface and centre (sets the P1 time,

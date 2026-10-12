@@ -68,7 +68,7 @@ Not used:
 8. **Room-temperature clustering runs on quenched-in vacancies, and 200–250 °C is the cluster-reversion window.** (Added after the [R5] full-text pass; details in §6.5–6.6.)
    - In Al–Cu–(Li,Mg) quenched from 500 °C, natural ageing is mostly done in 24 h, hardness saturates after ≈ 10 h, and the 72 h state is stable for 6 months [R5 pp.30–31, 71]. Mg accelerates clustering with no threshold; Mg is thought to raise the number or mobility of free vacancies [R5 pp.103, 109].
    - Once the quenched-in vacancies are gone, dissolved solute does not re-cluster at room temperature for 20 days [R5 p.102]. **Storage drift is therefore set by the last fast cooling, not by the solute content alone** (inference for T11 slugs).
-   - Natural-ageing clusters dissolve within seconds to a minute at 200–250 °C, and dissolution overlaps with the start of precipitation [R5 pp.92, 95–96]. The 220 °C/10 min bake lies in this window, so clusters formed in storage should revert early in the bake (inference, transferred from Al–Cu–(Li,Mg)).
+   - Natural-ageing clusters dissolve within seconds to a minute at 200–250 °C, and dissolution overlaps with the start of precipitation [R5 pp.92, 95–96]. The 220 °C/10 min bake lies in this window, so clusters formed in storage should revert early in the bake (inference, transferred from Al–Cu–(Li,Mg)). Whether they revert or seed β″ in Al–Mg–Si is open (§6.5). Any bake gain in the wall then has to come from precipitation on dislocations.
 
 ---
 
@@ -915,7 +915,7 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 
 **Kinetics and the role of vacancies.**
 - Natural ageing is vacancy-aided solute diffusion in a quenched supersaturated solution that also holds an above-equilibrium vacancy concentration [R5 pp.3, 7].
-- Some Cu-rich clusters already exist as quenched, i.e. they form during the quench. R5 attributes this to the low Cu solubility [R5 pp.55, 129]. Positron (coincidence Doppler broadening) and atom-probe work in the literature shows solutes and vacancies clustering during the quench [R5 p.14].
+- Some Cu-rich clusters already exist as quenched, i.e. they form during the quench. R5 attributes this to the low Cu solubility [R5 pp.55, 77, 129]. Positron (coincidence Doppler broadening) and atom-probe work in the literature shows solutes and vacancies clustering during the quench [R5 p.14].
 - **Time scales** after a water quench from 500 °C [R5 pp.78, 83]:
   - Al–Cu–Mg: excess Cu in clusters is ≈ 10 nm⁻³ from the start. Mg joins during the first hour and then exceeds Cu.
   - Al–Cu–Li–Mg: the excess Cu rises from 10.7 to 15.6 nm⁻³ in the first hour and reaches 38.9 nm⁻³ when naturally aged. Mg joins only after ≈ 2 h and passes the alloy Mg/Cu ratio after ≈ 8 h.
@@ -1006,9 +1006,9 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 | Method | What it measures | Limits | R5 practice | Use for T11 (inference) |
 |---|---|---|---|---|
 | Micro-hardness | Net strengthening from clusters, the most direct link to properties | No chemistry or size information | Vickers 200 gf, 10 s, ≥ 10 indents; 25 gf every 500 µm on the diffusion couple; as-quenched samples tested within 5 min [R5 pp.32, 68, 111] | Primary metric: slug HB/HV against storage time |
-| Electrical resistivity / conductivity | Global, indirect evidence of clustering; resistivity, like hardness, can fall during heating before any precipitate forms [R5 pp.10–11, 16] | Not specific to one solute | Not used experimentally in R5 | Cheap in-line companion to HB (already in the T11 plan) |
+| Electrical resistivity / conductivity | Global, indirect evidence of clustering; resistivity, like hardness, can fall during heating before any precipitate forms [R5 pp.10, 16] | Not specific to one solute | Not used experimentally in R5 | Cheap in-line companion to HB (already in the T11 plan) |
 | DSC | Heat of cluster formation (exotherm) and dissolution (endotherms). The exotherm area falls with storage time (progress of natural ageing); endotherm temperatures give thermal stability [R5 pp.72, 92] | The signal is dominated by strong bonds (Cu–Mg); Cu-rich clusters give little heat yet harden [R5 pp.83–84]. Baseline artefacts from heat capacity and sample position [R5 pp.34–35] | TA Q200 from −50 °C, so that clustering above 0 °C is captured; 10 °C min⁻¹. **Two-heat baseline:** ramp to 350 °C, cool at 50 °C min⁻¹, then a second ramp as the sample's own baseline (valid to ≈ 250 °C). Full-range scans 30–550 °C use a polynomial baseline [R5 pp.32–36, 68–69] | Feasible in-house for fresh versus stored slugs and baked walls; Al–Mg–Si peak positions differ |
-| SAXS | Electron-density fluctuations. With R5's statistical model it gives the correlation length ξ (size), periodicity λ (spacing) and the invariant (mean-square fluctuation); in-situ kinetics and heating ramps are possible [R5 pp.39, 49–50] | Elemental sensitivity (f_i − f_Al)/f_Al: Cu 1.23, **Mg −0.08**, Li −0.77. **Nearly blind to Mg and Si in Al** [R5 pp.46, 48, 77] | Lab Cu-Kα rotating anode, q = 0.02–0.5 Å⁻¹, 80 µm foils; synchrotron ramps up to 100 °C min⁻¹ with 1 s counts [R5 pp.39, 47, 69] | Unsuitable for Mg–Si clusters (inference from the sensitivities) |
+| SAXS | Electron-density fluctuations. With R5's statistical model it gives the correlation length ξ (size), periodicity λ (spacing) and the invariant (mean-square fluctuation); in-situ kinetics and heating ramps are possible [R5 pp.39, 49–50] | Elemental sensitivity (f_i − f_Al)/f_Al: Cu 1.23, **Mg −0.08**, Li −0.77. **Nearly blind to Mg and Si in Al** [R5 pp.46, 48–49, 77] | Lab Cu-Kα rotating anode, q = 0.02–0.5 Å⁻¹, 80 µm foils; synchrotron ramps up to 100 °C min⁻¹ with 1 s counts [R5 pp.39, 47, 69] | Unsuitable for Mg–Si clusters (inference from the sensitivities) |
 | SANS | Nuclear-scattering fluctuations: Mg contrast 0.55, Cu 1.23, Li −1.55 [R5 p.46]. Combined with SAXS ("contrast variation"), it separates the Cu and Mg contributions [R5 pp.46, 52] | ≥ 10 min per point; room temperature only in R5; Si contrast not given [R5 pp.38–39] | ILL D11, λ = 5 Å (above the Bragg cut-off) [R5 pp.38, 47] | Research tool only |
 | APT | Atom-by-atom 3D positions. Equally sensitive to all elements, so it separates Mg and Si in Al [R5 p.16] | Cluster-finding (maximum separation) depends on the chosen parameters and drops small clusters (e.g. < 10 atoms). Anisotropic spatial resolution and detector efficiency. The as-quenched state cannot be measured because of the time between polishing and analysis [R5 pp.16, 40, 47–48] | LEAP 4000, 40 K, 20 % pulse fraction, 200 kHz. Uses assumption-free radial distribution / pair-correlation functions [R5 pp.48, 53–54, 57] | Method of choice for Mg–Si cluster chemistry (external laboratory) |
 | TEM / HR-STEM | Clusters are rarely imaged: small, diffuse, low contrast [R5 pp.16, 67] | — | — | Not for clusters; use it for β″/β′ on dislocations after the bake |
@@ -1328,7 +1328,7 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 | Natural-ageing time scale (Al–Cu–(Li,Mg), water-quenched from 500 °C) | hardness saturates ≈ 10 h; mostly complete in 24 h; stable from 72 h to 6 months | — | room temperature | [R5 pp.30–31, 71] |
 | Natural-ageing hardness gain | +20 % (no Mg), +55 % (1.7 at% Mg), +82 % (0.45 at% Mg + Li) | HV | Al–Cu–(Li,Mg) | [R5 pp.71–72] |
 | Cluster size / spacing (SAS) | ξ 2.2–5.2; λ 36–72; size < 1 nm | Å | as-quenched and naturally aged | [R5 pp.56, 94] |
-| Cluster DSC windows (10 °C min⁻¹) | formation 50–135 °C; dissolution 100–260 °C | °C | Al–Cu–(Li,Mg) | [R5 pp.72–74, 92–93] |
+| Cluster DSC windows (10 °C min⁻¹) | formation exotherm 50–135; dissolution endotherms 50–260, main minima 130–240 | °C | Al–Cu–(Li,Mg) | [R5 pp.72–74, 92–93] |
 | Cluster reversion | Cu-rich: 200 °C/≤ 60 s; Mg-bearing: 250 °C/30 s; Al–Cu–Mg precipitates within 30 s at 240 °C | — | isothermal oil bath | [R5 pp.95–96] |
 | SAS sensitivity (f_i − f_Al)/f_Al | SAXS: Cu 1.23, Mg −0.08, Li −0.77; SANS: Cu 1.23, Mg 0.55, Li −1.55 | — | — | [R5 p.46 Table 4] |
 
@@ -1338,15 +1338,18 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 
 *Updated after the [TOT] full-text pass (2026-10-12). Resolved items were removed: the Orowan/planar-spacing signs (now [TOT p.109]), G and M for Al ([TOT pp.85, 89]), the Mg solid-solution exponent ([TOT p.162]), the Mn-resistivity contradiction ([TOT p.52]) and the Mn-diffusivity scale ([TOT p.295]). Partly filled items are marked.*
 
-1. **D₀ and Q per solute** (Mn, Fe, Si, Cu, Mg, Zn, Cr, Zr, Sc, Ti, Mo, V, Er) are still **missing from every source read**. TOT gives only vacancy energies [TOT p.40], a TM range at 500 °C, and the factor ≈ 10 between eutectic and peritectic TMs [TOT p.295].
+*Updated again after the [R5] full-text pass (2026-10-12). The old item 5 ("R5 is truncated at p.73") is resolved: Ch. 6–9 were read (§6.5–6.6). Items 1 and 4 are partly filled. Items 19–21 are new.*
+
+1. **D₀ and Q per solute** (Mn, Fe, Si, Zn, Cr, Zr, Sc, Ti, Mo, V, Er) are still **missing from every source read**. TOT gives only vacancy energies [TOT p.40], a TM range at 500 °C, and the factor ≈ 10 between eutectic and peritectic TMs [TOT p.295].
+   - *Partly filled (R5):* Cu, Mg and Li now have D₀/Q, as a secondary compilation of Du et al. 2003, Doig & Edington 1973, Mantina et al. 2009 and Wen et al. 1980 [R5 p.121]. The Du set reproduces Polmear's D(500 °C) for Cu and Mg (§1.4). **Si is still missing**, and it is the key solute for T11.
    - **Mn scale: resolved for this chapter.** Polmear's D_Mn(500 °C) = 5×10⁻¹³ cm² s⁻¹ lies inside TOT's range; Sheppard's 10³× faster row does not (§1.4).
    - **D_Sc/D_Zr: still open.** R1 has ≈ 4; the Arrhenius sets give ≈ 510–640 [ch13; ch18]; TOT gives a group-level ≈ 10. Possibly a definition or transcription issue in R1. Reconcile before KWN calibration.
-   - Action: source the Du et al. 2003 or Fujikawa compilations into the Drive.
+   - Action: source the Du et al. 2003 (Mater. Sci. Eng. A 363 (2003) 140–151, cited in [R5 p.126]) or Fujikawa compilations into the Drive. Du et al. should also give Si and several TMs (general knowledge; not checked).
 2. **Mn dispersoid kinetics for 3xxx** (α-Al(Mn,Fe)Si number density, size and coarsening; nucleation on Mg₂Si/"u-phase" precursors; DFZ widths) are not quantified in any source. *Partly filled:* TOT gives the decomposition onset (> 325 °C; 300–350 °C), the Si acceleration, the Al₆/α switch at ≈ 0.07 % Si and the size (< 1 µm) [TOT pp.160, 295, 299], but no number densities.
    - A 3xxx homogenisation/dispersoid paper is needed, e.g. Li & Arnberg (general knowledge).
 3. **Partition coefficients** are available only for Zr and Sc [R1]. k for Mn, Fe, Si, Cu, Cr and Ti is needed for Scheil initialisation. TOT gives none.
-4. **Activation energies** for cluster formation, GP/β″ precipitation and Al₃Sc nucleation are absent, apart from Q\* = 2.07 eV for interface transfer [R1]. *Partly filled:* TOT gives DSC windows and the 150/200 °C stage times for Al–Mg–Si [TOT pp.279–280], from which an apparent Q could be fitted (not done).
-5. **R5 is truncated (p.73).** Chapters 6–8 (reversion kinetics, the Mg–vacancy link, Mg-gradient diffusion couple) were not read. Re-read in page ranges.
+4. **Activation energies** for cluster formation, GP/β″ precipitation and Al₃Sc nucleation are absent, apart from Q\* = 2.07 eV for interface transfer [R1]. *Partly filled:* TOT gives DSC windows and the 150/200 °C stage times for Al–Mg–Si [TOT pp.279–280], from which an apparent Q could be fitted (not done). R5 adds only solute-diffusion Q (Cu, Mg, Li), E_f = 0.75 eV and solute–vacancy binding energies [R5 pp.103, 121–122]. R5's set-up allowed DSC rates of 2–100 °C min⁻¹ and SAXS ramps from 20 °C h⁻¹ to 100 °C min⁻¹, but results are reported only at 10 °C min⁻¹ [R5 pp.34, 39]. No Kissinger-type activation energy for clustering can therefore be derived from R5.
+5. **R5 coverage (mostly resolved).** The full text was read on 2026-10-12, except **pp.24–29** (the end of the Ch. 2 reference list, the Ch. 3 opener and the start of §3.1). Nothing quantitative used here depends on those pages. pp.30–60 exist only as unpaginated Drive text; a ≤ 5 MB re-split of part c would give laid-out text and figures.
 6. **R11 and R12 are truncated.** Polmear Ch. 4+ and Humphreys Ch. 9 (particle pinning in recrystallisation, critical F_V/r, Smith–Zener limit) and Ch. 11 were not read.
 7. **Braze survival of Al₃(Sc,Zr) at 600–610 °C.**
    - Polmear [R11 p.52] and TOT [TOT p.194] say recrystallisation is inhibited to ≈ 600 °C or above; R2 measured recrystallisation at 575–600 °C with 0.19Sc–0.05Zr.
@@ -1381,3 +1384,15 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
     - Sc (0.28 at% vs 0.35–0.38 wt%);
     - GP-zone thickness "one atomic layer, i.e. 2.5 nm" and β″ "Si:Al:Mg = 6:3:1" [TOT p.174];
     - Al₃Sc/Al₃Zr "40–300 nm" [TOT p.300].
+19. **Al–Mg–Si clustering in dilute alloys (new, T11).** R5 has no Al–Mg–Si data of its own (§6.5). The key papers it cites are not in the Drive:
+    - Birol 2005, pre-ageing for bake hardening of a **twin-roll cast** Al–Mg–Si alloy [R5 p.105 ref. 14];
+    - Yamada, Sato & Kamio 2000, effect of **quench conditions** on two-step ageing [R5 p.104 ref. 4];
+    - Aruga et al. 2014 and 2016, clusters and bake hardening, and natural ageing after pre-ageing [R5 p.60 refs. 25–26];
+    - Werinos et al. 2016, controlled natural ageing with Sn [R5 p.105 ref. 11];
+    - Pogatscher et al. 2011 [R5 p.105 ref. 12] and Banhart et al. 2010 [R5 p.104 ref. 5].
+    - Priority: Birol (strip-cast route), Yamada (quench rate) and Aruga (bake response). These would test the open question in §6.5: do storage clusters dissolve or seed β″ at 220 °C?
+20. **Cluster-strengthening law (new).** R5 gives only hardness–cluster correlations [R5 pp.12–13, 112]. The co-cluster strengthening model for Al–Mg–Si (Starink, Cao & Rometsch 2012 [R5 p.117 ref. 16]) is needed to turn a measured slug drift into ΔHB per unit of clustered solute.
+21. **Vacancy retention on the T11 route (new).** R5 did not vary the quench rate (§6.5). Whether the slug cooling after the anneal leaves enough excess vacancies for drift must be measured. For both cooling rates in the T11 plan, measure:
+    - slug HB at ≈ 2–6 h, 1, 3, 7 and 30 days;
+    - DSC of fresh versus stored slugs;
+    - wall HV 1 and 30 days after the 220 °C/10 min bake.

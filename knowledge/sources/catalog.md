@@ -345,9 +345,9 @@ same folder, named `<title> - part N (pp X-Y).pdf`. Then they can be read in ful
 |---|---|---|---|---|---|
 | A | S-016 | Humphreys & Hatherly, *Recrystallization* | 12.7 | 3 | RX kinetics, PSN, two-phase alloys, textures (slug anneal) |
 | A | S-029 | Totten & MacKenzie, *Handbook of Aluminum* Vol. 1 | 17.7 | 4 | Alloy metallurgy, rolling (Ch. 7), extrusion (Ch. 8), formability/earing |
-| A | S-015 | Maggs, *Intermetallic phase selection in dilute Al–Fe–Si* | 22.3 | 5 | β vs α Fe phases vs cooling rate (T11 risk 1) |
+| A | S-015 | Maggs, *Intermetallic phase selection in dilute Al–Fe–Si* | 22.3 | 5 | β vs α Fe phases vs cooling rate (Talum 1 risk 1) |
 | A | S-052 | Ryen, *Work hardening… of Al sheets* | 11.2 | 3 | Per-solute work hardening (Mn, Mg): wall strength per press force |
-| A | S-020 | Ivanov, *Solute clustering in Al alloys* | 13.3 | 3 | Mg–Si clustering, natural ageing, bake response (T11 risk 2) |
+| A | S-020 | Ivanov, *Solute clustering in Al alloys* | 13.3 | 3 | Mg–Si clustering, natural ageing, bake response (Talum 1 risk 2) |
 | A | S-028 | Polmear, *Light Alloys* | 9.7 | 2 | Canstock/foil/conductor alloys, cast and Mg chapters |
 | B | S-045 | Sheppard, *Extrusion of Aluminium Alloys* | 10.5 | 3 | Hot-working constants (Ch. 4) |
 | B | S-032 | *ASM Handbook Vol. 2* (nonferrous) | 52.6 | only the wrought-Al sections | Property data for 1xxx/3xxx/8xxx |

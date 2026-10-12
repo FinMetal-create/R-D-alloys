@@ -110,8 +110,8 @@ taken as 182–227 kJ/mol, the range implied in [ch13]. Homogenisation relaxatio
 3. **The quench is a design variable.**
    - Slow cooling or hot coiling instead would let Mn (and Mg₂Si) precipitate in the coil, using the casting
      heat (P2).
-   - For Mg–Si alloys like T11, the quench keeps Mg and Si in solution. That helps bake response but makes
-     slug hardness sensitive to the anneal cooling rate and to storage time [trials/T11 §2.3].
+   - For Mg–Si alloys like Talum 1, the quench keeps Mg and Si in solution. That helps bake response but makes
+     slug hardness sensitive to the anneal cooling rate and to storage time [trials/Talum-1 §2.3].
 
 ---
 
@@ -134,7 +134,7 @@ Ranking is expected benefit per unit of risk and capex (inference).
 - **Rule** (the in-house CRM-table logic [ch09 §5.2]): hot-band gauge h_HB = t_final × e^(ε_target), capped at
   22 mm. The cold mill then delivers exactly ε_target.
 
-  | Slug t_final (mm) | ε 0.80 (3102-type): h_HB / hot % / cold % | ε 0.85 (3207-type) | ε 0.90 (1xxx/T11-type, inference) |
+  | Slug t_final (mm) | ε 0.80 (3102-type): h_HB / hot % / cold % | ε 0.85 (3207-type) | ε 0.90 (1xxx/Talum 1-type, inference) |
   |---|---|---|---|
   | 5.5 | 12.2 / 44 % / 55 % | 12.9 / 42 % / 57 % | 13.5 / 39 % / 59 % |
   | 6.1 | 13.6 / 38 % / 55 % | 14.3 / 35 % / 57 % | 15.0 / 32 % / 59 % |
@@ -201,7 +201,7 @@ Ranking is expected benefit per unit of risk and capex (inference).
   - coil hot (≈ 450–520 °C if the hot-mill exit allows);
   - cool the coil slowly under an insulated hood or in a holding furnace.
 
-  For Mg–Si alloys (T11), keep the quench if bake response is wanted, or use slow cooling for soft, stable
+  For Mg–Si alloys (Talum 1), keep the quench if bake response is wanted, or use slow cooling for soft, stable
   slugs.
 - **Assessment for this line (≈ 380 °C after the hot mill): weak for Mn, ranked down.**
   - At 380 °C, Mn diffuses only ≈ 0.02 µm in 1 h and ≈ 0.08 µm in 10 h (Q = 200 kJ/mol, derived).

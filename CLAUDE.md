@@ -32,7 +32,7 @@ lacquer bake **220 °C / 10 min**. Strip temperature: **≈ 500 °C leaving the 
 (ε ≈ 0.36–0.69) is below the in-house CRM-table target of ε ≥ 0.80–0.85. Process-innovation options are in
 `knowledge/19-process-innovation-rotary-cast-slugs.md`.
 
-**Trials** are recorded in `knowledge/trials/<ID>.md` (T11 = product name **Talum 1**) (composition, assessment, measurement plan, results). Fill
+**Trials** are recorded in `knowledge/trials/<name>.md` (first trial alloy: **Talum 1**, `Talum-1.md`; formerly trial ID T11, renamed by the user 2026-10-12) (composition, assessment, measurement plan, results). Fill
 in the results section when plant data arrive. These records are the calibration data for the model loop.
 
 Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw

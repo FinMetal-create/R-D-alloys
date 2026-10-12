@@ -61,13 +61,13 @@ Not used:
 6. **Si and Fe are Sc poisons.**
    - Si makes the ternary V-phase AlSc₂Si₂, promotes discontinuous precipitation and delays the late stage of Al₃Sc precipitation. Fe also delays the late stage [R4 pp.22, 32–33].
    - **(inference)** 3xxx + Sc needs low Si. Al₃Sc formed at 0.4Sc/≤0.8Si but not at 0.10Sc/1.10Si [R4 p.32].
-7. **Lean Al–Fe–Si–Mg(–Mn) slug alloys such as T11 are controlled by Si partitioning, not by Mn.** (Added after the [TOT] full-text pass; details in §2.6 and §6.4.)
-   - The Fe-phase type decides how much Si stays free for Mg₂Si. The rule Si(available) = Si − ¼(Fe + Mn) [TOT p.171 Eq 26] gives ≈ 0.22 % for T11 (derived). If β-Al₅FeSi forms instead, only ≈ 0.07–0.12 % is left (derived, §6.4).
+7. **Lean Al–Fe–Si–Mg(–Mn) slug alloys such as Talum 1 are controlled by Si partitioning, not by Mn.** (Added after the [TOT] full-text pass; details in §2.6 and §6.4.)
+   - The Fe-phase type decides how much Si stays free for Mg₂Si. The rule Si(available) = Si − ¼(Fe + Mn) [TOT p.171 Eq 26] gives ≈ 0.22 % for Talum 1 (derived). If β-Al₅FeSi forms instead, only ≈ 0.07–0.12 % is left (derived, §6.4).
    - Dilute Mg₂Si alloys (< 0.8–0.9 %) gain, not lose, from room-temperature storage before artificial ageing [TOT pp.175–176, 279; R11 pp.141–142].
    - Fe retained in solution by fast casting raises the recrystallisation onset (+65 K at 0.04 at% Fe in Yelagin's binaries) through fine Al–Fe precipitation during the anneal [TOT pp.140, 296 Table 35].
 8. **Room-temperature clustering runs on quenched-in vacancies, and 200–250 °C is the cluster-reversion window.** (Added after the [R5] full-text pass; details in §6.5–6.6.)
    - In Al–Cu–(Li,Mg) quenched from 500 °C, natural ageing is mostly done in 24 h, hardness saturates after ≈ 10 h, and the 72 h state is stable for 6 months [R5 pp.30–31, 71]. Mg accelerates clustering with no threshold; Mg is thought to raise the number or mobility of free vacancies [R5 pp.103, 109].
-   - Once the quenched-in vacancies are gone, dissolved solute does not re-cluster at room temperature for 20 days [R5 p.102]. **Storage drift is therefore set by the last fast cooling, not by the solute content alone** (inference for T11 slugs).
+   - Once the quenched-in vacancies are gone, dissolved solute does not re-cluster at room temperature for 20 days [R5 p.102]. **Storage drift is therefore set by the last fast cooling, not by the solute content alone** (inference for Talum 1 slugs).
    - Natural-ageing clusters dissolve within seconds to a minute at 200–250 °C, and dissolution overlaps with the start of precipitation [R5 pp.92, 95–96]. The 220 °C/10 min bake lies in this window, so clusters formed in storage should revert early in the bake (inference, transferred from Al–Cu–(Li,Mg)). Whether they revert or seed β″ in Al–Mg–Si is open (§6.5). Any bake gain in the wall then has to come from precipitation on dislocations.
 
 ---
@@ -180,7 +180,7 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
 
 - The dip at 10 K s⁻¹ for the peritectic formers (Cr, Zr, V, Ti) fits the ~10² K s⁻¹ threshold [TOT p.295].
 - Ingot and casting practice runs at 10–100 K s⁻¹ [TOT p.294]. Fe is not in the table.
-- **Relevance (rotary-cast 22 mm strip):** at a casting cooling rate in or above this range, all of T11's 0.14 % Mn could in principle stay in (Al). In practice part of it goes into Fe-rich constituents [TOT p.160] (inference). The cast strip should be treated as a supersaturated, non-homogenised solid solution in Mn and, possibly, Fe (inference; see §5).
+- **Relevance (rotary-cast 22 mm strip):** at a casting cooling rate in or above this range, all of Talum 1's 0.14 % Mn could in principle stay in (Al). In practice part of it goes into Fe-rich constituents [TOT p.160] (inference). The cast strip should be treated as a supersaturated, non-homogenised solid solution in Mn and, possibly, Fe (inference; see §5).
 
 **Sc.**
 - About 0.025 wt% at 430 °C (binary) [R4 p.22].
@@ -228,7 +228,7 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
   - **Cross-check (derived):** the Du et al. set gives D_Mg(500 °C) ≈ 1.1×10⁻¹³ m² s⁻¹ and D_Cu(500 °C) ≈ 4.0×10⁻¹⁴ m² s⁻¹. These agree with Polmear's 1×10⁻¹³ and 5×10⁻¹⁴ m² s⁻¹ [R11 p.105].
   - All three data sets have Mg diffusing faster than Cu (Mg ≈ Li > Cu) [R5 p.121]. Experimental and first-principles D₀ differ by up to 15× for Mg; R5 does not choose between them.
   - **Equilibrium-vacancy diffusion is negligible at room temperature (derived):** at 20 °C the Mg sets give D ≈ 2×10⁻²⁷–3×10⁻²⁶ m² s⁻¹, i.e. a diffusion distance below 0.3 nm (one atomic spacing) in 30 days. Natural ageing within hours therefore needs excess (quenched-in) vacancies, consistent with [TOT pp.128, 271] and [R5 pp.3, 89].
-  - **Bake-scale diffusion (derived, T11):** at 220 °C for 10 min, √(Dt) ≈ 28–39 nm for Mg and 13–21 nm for Cu, with equilibrium vacancies only. Si is not in Table 10; R11 gives D_Si ≈ D_Mg at 500 °C [R11 p.105]. This agrees with the 30–45 nm used in [ch19 §1.1].
+  - **Bake-scale diffusion (derived, Talum 1):** at 220 °C for 10 min, √(Dt) ≈ 28–39 nm for Mg and 13–21 nm for Cu, with equilibrium vacancies only. Si is not in Table 10; R11 gives D_Si ≈ D_Mg at 500 °C [R11 p.105]. This agrees with the 30–45 nm used in [ch19 §1.1].
 - **Mn-diffusivity conflict, resolved for this chapter (full-text pass).** Elsewhere in the knowledge base, Sheppard's Mn row gives diffusion about 10³× faster than Polmear's D_Mn(500 °C) = 5×10⁻¹³ cm² s⁻¹ [ch07 §11 G9]. TOT's TM range at 500 °C, 10⁻¹⁴–10⁻¹² cm² s⁻¹ [TOT p.295], contains Polmear's value. A value 10³× higher would lie outside it (derived). **Use the Polmear scale.**
 - **D_Sc/D_Zr, still unresolved.** R1 uses ≈ 4 at 480 °C [R1 p.1414]. Arrhenius sets elsewhere in the knowledge base give ≈ 510 [ch13] and ≈ 640 [ch18 §2.3] at 480 °C. TOT gives only the group statement that eutectic formers (Sc) diffuse about 10× faster than peritectic formers (Zr) [TOT p.295]. That supports D_Sc > D_Zr but fixes neither value. Tracer data (Fujikawa) are still needed (§12).
 
@@ -370,7 +370,7 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
 | 3004 | 1.0–1.5 | 0.8–1.3 | 415 | 180 / 70 / 22 % | H34: 240 / 200 / 11 % |
 | 3105 | 0.2–0.8 | 0.2–0.8 | 345 | 115 / 55 / 24 % | H14: 170 / 150 / 5 % |
 
-  - **Relevance:** 3105 is the registered alloy closest to the lean Mn–Mg slug alloys. T11 (Mn 0.14, Mg 0.26) sits below its Mn range (inference).
+  - **Relevance:** 3105 is the registered alloy closest to the lean Mn–Mg slug alloys. Talum 1 (Mn 0.14, Mg 0.26) sits below its Mn range (inference).
 - **Constituent strengthening.** In annealed Al–0.05Si–(0.15–1.17)Fe 1xxx alloys, YS rises by **≈ 7 MPa per vol% constituent** (Al₃Fe or Al₆Fe), whatever the temper or intermetallic type [TOT pp.122, 138; Alcoa unpublished data]. Constituents are otherwise said to give no strengthening [TOT p.122].
 - Al–Mg–Mn plate: Mn is about twice as effective as Mg per % (≈35 MPa UTS per 1 % Mg) [R10 p.380].
 
@@ -430,14 +430,14 @@ Davis calls α "cubic αAl₁₂Fe₃Si", β "monoclinic β-Al₉Fe₂Si₂" and
   - Si/Mn ratio 0.34 in α-Al₁₅Mn₃Si₂ (8.9/26.3).
   - TOT's "¼(Fe + Mn)" rule [TOT p.171] therefore corresponds to α-type binding (inference).
 
-**Relevance (T11: Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04).**
+**Relevance (Talum 1: Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04).**
 - Ratios (derived): Fe:Si ≈ 1.4, Mn:Fe ≈ 0.27, Fe/Mn ≈ 3.7.
 - **Candidate constituents (inference from the data above):**
   - α-AlFeSi (Al₈Fe₂Si/Al₁₂Fe₃Si type, with some Mn).
   - β-Al₅FeSi.
   - Si-free Al₆(Fe,Mn) or Al₁₃(Fe,Mn)₄ in Si-lean interdendritic regions; the high Fe/Mn favours the latter [TOT p.160].
 - With only 0.14 % Mn, little Mn is available to tip the balance to script α [TOT p.179].
-- T11 contains both Si and Mg, which push toward Al₃Fe rather than Al₆Fe at a given front velocity [TOT p.139]. Whether the rotary caster's front velocity is above or below the ≈ 0.5 mm s⁻¹ switch is unknown (§12).
+- Talum 1 contains both Si and Mg, which push toward Al₃Fe rather than Al₆Fe at a given front velocity [TOT p.139]. Whether the rotary caster's front velocity is above or below the ≈ 0.5 mm s⁻¹ switch is unknown (§12).
 - **Consequence for strength:** the phase type sets how much Si is left for Mg₂Si, by up to a factor of two (§6.4).
 - **Measure:** Fe-phase type, size and morphology at the strip surface and centre, both as cast and after the slug anneal. The Al₆Fe→Al₃Fe and β→α changes are temperature dependent [TOT p.138; R8 p.23].
 
@@ -890,28 +890,28 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 - Deformation before ageing changes 6xxx properties only slightly. It speeds ageing and lowers precipitation temperatures, more so with excess Si, because Si nucleates on dislocations [TOT p.180].
 - Cu (< 2 %) speeds β″ and refines it about 3× [TOT p.279]. Below ≈ 0.2–0.5 % Cu, Al–Mg–Si–Cu stays in the Q-free "tetrahedron III" field [TOT p.183].
 
-**Relevance: T11 Mg₂Si budget, solvus and natural ageing (derived/inference).**
+**Relevance: Talum 1 Mg₂Si budget, solvus and natural ageing (derived/inference).**
 - Si needed to bind 0.26 Mg as Mg₂Si: 0.26/1.73 = **0.150 %** (derived).
 - **Si available depends on the Fe phase** (§2.6):
   - **TOT rule** (≈ α-type binding): 0.38 − ¼(0.52 + 0.14) = **0.215 %**. That is ≈ 0.065 % excess Si and **Mg₂Si ≈ 1.578 × 0.26 = 0.41 %** (derived).
   - **β-Al₅FeSi** (Si/Fe 0.5), with Mn in α (Si/Mn 0.34) or in Al₆(Fe,Mn): 0.07–0.12 % Si left. Si then limits Mg₂Si to ≈ 2.73 × Si_avail = **0.20–0.33 %**, leaving 0.05–0.14 % Mg in solution (derived).
   - **Si-free Al₃Fe/Al₆Fe**: almost all 0.38 % Si stays free, which is strongly Si-excess (derived).
-  - The Fe-phase selection therefore changes the Mg₂Si potential by about 2× and moves T11 between Si-excess and Mg-excess chemistry (inference).
+  - The Fe-phase selection therefore changes the Mg₂Si potential by about 2× and moves Talum 1 between Si-excess and Mg-excess chemistry (inference).
 - **Solvus.** TOT gives only the quasi-binary eutectic (595 °C, 1.85 %). The dissolution temperature of 0.2–0.4 % Mg₂Si is not in any source read (§12).
   - TOT's regimes (β′ directly above 300 °C, β alone above 400 °C [TOT p.278]) imply that Mg₂Si forming during the ≈ 500 → 380 °C in-line hot rolling would be coarse β′/β on dislocations, not hardening β″ (inference). The water quench retains the rest (inference).
-- **Natural ageing.** At 0.2–0.4 % Mg₂Si, T11 is below the 0.8–0.9 % thresholds whatever the unit.
+- **Natural ageing.** At 0.2–0.4 % Mg₂Si, Talum 1 is below the 0.8–0.9 % thresholds whatever the unit.
   - By TOT, storage before a later heat treatment is neutral or beneficial: it gives finer β″ later [TOT pp.175–176, 279] (inference).
-  - Hardness still drifts during storage through clustering, so record slug HB against age (T11 measurement plan).
-  - [R5] adds the vacancy control and the time scale of this drift; see the T11 notes in §6.5.
+  - Hardness still drifts during storage through clustering, so record slug HB against age (Talum 1 measurement plan).
+  - [R5] adds the vacancy control and the time scale of this drift; see the Talum 1 notes in §6.5.
 - **Bake 220 °C/10 min.** T_v = 111 + 71 × (0.20–0.41) ≈ **125–140 °C** (derived). The bake is above T_v, so no new homogeneous GP zones nucleate.
   - Any bake hardening must come from growth of clusters or zones formed beforehand, or from precipitation on the dense dislocation structure of the extruded wall (inference).
   - 10 min at 220 °C is of the order of the 8 min zone stage at 200 °C and far short of the 8 h β′ transition [TOT p.279]. The wall should therefore be in the zone/β″ stage, not overaged (inference, extrapolated from 6xxx).
-  - ⚠ *Added after the [R5] pass:* in Al–Cu–(Li,Mg), natural-ageing clusters **dissolve** at 200–250 °C within seconds to a minute [R5 pp.95–96]. Whether T11's storage clusters "grow" into β″ at 220 °C (as above) or first revert is therefore open (§6.5).
-- **Quench sensitivity.** T11 has little Mn, so it should be little quench sensitive from dispersoids (inference from [TOT pp.177–179]).
+  - ⚠ *Added after the [R5] pass:* in Al–Cu–(Li,Mg), natural-ageing clusters **dissolve** at 200–250 °C within seconds to a minute [R5 pp.95–96]. Whether Talum 1's storage clusters "grow" into β″ at 220 °C (as above) or first revert is therefore open (§6.5).
+- **Quench sensitivity.** Talum 1 has little Mn, so it should be little quench sensitive from dispersoids (inference from [TOT pp.177–179]).
 
 ### 6.5 Cluster kinetics, vacancies and reversion: what transfers from Ivanov's thesis (added after the [R5] full-text pass, 2026-10-12)
 
-**Transfer caveat.** R5's alloys contain 1.1–1.5 at% Cu plus 0.45–1.7 at% Mg (or 3.5 at% Li), and the clustering partners are Cu and Mg [R5 pp.30, 47]. T11 has ≈ 0.29 at% Mg (derived), ≈ 0.1–0.2 wt% free Si (§6.4) and no Cu. **The mechanisms (vacancy control, reversion) and the measurement methods transfer; R5's times, temperatures and hardness increments do not transfer as numbers.**
+**Transfer caveat.** R5's alloys contain 1.1–1.5 at% Cu plus 0.45–1.7 at% Mg (or 3.5 at% Li), and the clustering partners are Cu and Mg [R5 pp.30, 47]. Talum 1 has ≈ 0.29 at% Mg (derived), ≈ 0.1–0.2 wt% free Si (§6.4) and no Cu. **The mechanisms (vacancy control, reversion) and the measurement methods transfer; R5's times, temperatures and hardness increments do not transfer as numbers.**
 
 **Kinetics and the role of vacancies.**
 - Natural ageing is vacancy-aided solute diffusion in a quenched supersaturated solution that also holds an above-equilibrium vacancy concentration [R5 pp.3, 7].
@@ -979,14 +979,14 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
   - Sn as a vacancy trap.
   - One pre-ageing reference is on a **twin-roll cast** Al–Mg–Si alloy (Birol, Mater. Sci. Eng. A 391 (2005) 175–180) [R5 p.105 ref. 14]. It is not in the Drive.
 - ⚠ **A difference of scope, not a contradiction.** R5's "negative" natural-ageing effect is a general 6xxx statement with no composition dependence. TOT and R11 find the delay neutral or beneficial below ≈ 0.8–0.9 % Mg₂Si (§6.2, §6.4).
-  - For T11's ≈ 0.2–0.4 % Mg₂Si, the composition-specific TOT/R11 statements should take precedence for the bake response (inference).
+  - For Talum 1's ≈ 0.2–0.4 % Mg₂Si, the composition-specific TOT/R11 statements should take precedence for the bake response (inference).
   - R5's formability point still bears on slugs stored before extrusion (inference).
 
-**Relevance to T11** (inference; the transfer from Al–Cu–(Li,Mg) is qualitative only).
+**Relevance to Talum 1** (inference; the transfer from Al–Cu–(Li,Mg) is qualitative only).
 - **Natural-ageing drift of slugs.**
   - The drift needs excess vacancies, and these come from the **last fast cooling** before storage. At room temperature, equilibrium vacancies move Mg less than one atomic spacing in 30 days (§1.4, derived).
     - A slug cooled slowly from the anneal should therefore drift little; one cooled fast from a high temperature may drift (inference).
-    - This is the vacancy-side reason behind T11 risk 2b, and it complements the solute-side reason (Mg₂Si precipitated by slow cooling) in risk 2a.
+    - This is the vacancy-side reason behind Talum 1 risk 2b, and it complements the solute-side reason (Mg₂Si precipitated by slow cooling) in risk 2a.
   - For E_f = 0.75 eV, the equilibrium vacancy fraction at 380 °C is ≈ 8× lower than at 500 °C (derived). The hot band quenched from ≈ 380 °C therefore holds fewer quenched-in vacancies than a solution-quenched sheet, but the slug anneal resets this (inference).
   - It is not known whether Mg's catalytic role carries over to Al–Mg–Si; R5 does not show it. If it does, 0.26 % Mg (≈ 0.29 at%) lies inside the 0–0.45 at% range in which R5 saw clustering switch on without a threshold (inference).
   - If vacancies are retained, expect most of the change within 24 h and a plateau within ≈ 3 days, by analogy (inference).
@@ -994,19 +994,19 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
     - "Day 0" should mean tested within minutes or held cold. R5 tested within 2–5 min, or stored samples at −52 °C or in liquid nitrogen [R5 pp.30, 47, 68].
   - A DSC comparison of fresh and stored slugs would show a shrinking low-temperature formation exotherm if clustering occurs (method in §6.6). The Al–Mg–Si peak temperatures will differ from R5's.
 - **Bake at 220 °C/10 min on the extruded wall.**
-  - 220 °C lies between R5's 200 °C, where Cu-rich clusters revert in ≤ 60 s, and 250 °C, where the Mg-bearing clusters revert in 30 s [R5 pp.95–96]. It is also above T11's GP-zone critical temperature T_v ≈ 125–140 °C (§6.4). Clusters formed while slugs or cans are stored should therefore not survive the bake as clusters (inference).
-  - ⚠ **Open question.** R5's clusters revert, whereas TOT reports GP → β″ in 6061 without zone dissolution, and β″ nucleating on zones in dilute alloys [TOT pp.174–175, 279]. These sources cannot settle whether T11's storage clusters dissolve (softening) or seed β″ (hardening) at 220 °C. R5 adds that reversion and precipitation overlap in this temperature range [R5 pp.92, 95].
+  - 220 °C lies between R5's 200 °C, where Cu-rich clusters revert in ≤ 60 s, and 250 °C, where the Mg-bearing clusters revert in 30 s [R5 pp.95–96]. It is also above Talum 1's GP-zone critical temperature T_v ≈ 125–140 °C (§6.4). Clusters formed while slugs or cans are stored should therefore not survive the bake as clusters (inference).
+  - ⚠ **Open question.** R5's clusters revert, whereas TOT reports GP → β″ in 6061 without zone dissolution, and β″ nucleating on zones in dilute alloys [TOT pp.174–175, 279]. These sources cannot settle whether Talum 1's storage clusters dissolve (softening) or seed β″ (hardening) at 220 °C. R5 adds that reversion and precipitation overlap in this temperature range [R5 pp.92, 95].
   - **Precipitation on the wall's dislocations is kinetically possible (derived).** At 220 °C, Mg diffuses ≈ 30–40 nm in 10 min with equilibrium vacancies alone (§1.4). R11 gives D_Si ≈ D_Mg at 500 °C [R11 p.105]. Both distances exceed the ≈ 10 nm dislocation spacing at 10¹² cm⁻², the cold-worked density [R11 pp.36, 41] (derived).
     - Solute segregation to dislocations during the bake is therefore kinetically possible (inference; mechanism from [R5 pp.9, 14]).
-    - Whether it outruns recovery softening must be measured: HV of the wall simulation before and after 220 °C/10 min (T11 plan).
+    - Whether it outruns recovery softening must be measured: HV of the wall simulation before and after 220 °C/10 min (Talum 1 plan).
   - **The can wall may age again after the bake (inference).** In R5, reversion at 200 °C left no mobile vacancies, but reversion at 250 °C restored as-quenched kinetics [R5 pp.102–103]. 220 °C lies between the two. Measure wall HV 1 day and 30 days after the bake.
 
 ### 6.6 Characterising clusters: what each method measures (from [R5], 2026-10-12)
 
-| Method | What it measures | Limits | R5 practice | Use for T11 (inference) |
+| Method | What it measures | Limits | R5 practice | Use for Talum 1 (inference) |
 |---|---|---|---|---|
 | Micro-hardness | Net strengthening from clusters, the most direct link to properties | No chemistry or size information | Vickers 200 gf, 10 s, ≥ 10 indents; 25 gf every 500 µm on the diffusion couple; as-quenched samples tested within 5 min [R5 pp.32, 68, 111] | Primary metric: slug HB/HV against storage time |
-| Electrical resistivity / conductivity | Global, indirect evidence of clustering; resistivity, like hardness, can fall during heating before any precipitate forms [R5 pp.10, 16] | Not specific to one solute | Not used experimentally in R5 | Cheap in-line companion to HB (already in the T11 plan) |
+| Electrical resistivity / conductivity | Global, indirect evidence of clustering; resistivity, like hardness, can fall during heating before any precipitate forms [R5 pp.10, 16] | Not specific to one solute | Not used experimentally in R5 | Cheap in-line companion to HB (already in the Talum 1 plan) |
 | DSC | Heat of cluster formation (exotherm) and dissolution (endotherms). The exotherm area falls with storage time (progress of natural ageing); endotherm temperatures give thermal stability [R5 pp.72, 92] | The signal is dominated by strong bonds (Cu–Mg); Cu-rich clusters give little heat yet harden [R5 pp.83–84]. Baseline artefacts from heat capacity and sample position [R5 pp.34–35] | TA Q200 from −50 °C, so that clustering above 0 °C is captured; 10 °C min⁻¹. **Two-heat baseline:** ramp to 350 °C, cool at 50 °C min⁻¹, then a second ramp as the sample's own baseline (valid to ≈ 250 °C). Full-range scans 30–550 °C use a polynomial baseline [R5 pp.32–36, 68–69] | Feasible in-house for fresh versus stored slugs and baked walls; Al–Mg–Si peak positions differ |
 | SAXS | Electron-density fluctuations. With R5's statistical model it gives the correlation length ξ (size), periodicity λ (spacing) and the invariant (mean-square fluctuation); in-situ kinetics and heating ramps are possible [R5 pp.39, 49–50] | Elemental sensitivity (f_i − f_Al)/f_Al: Cu 1.23, **Mg −0.08**, Li −0.77. **Nearly blind to Mg and Si in Al** [R5 pp.46, 48–49, 77] | Lab Cu-Kα rotating anode, q = 0.02–0.5 Å⁻¹, 80 µm foils; synchrotron ramps up to 100 °C min⁻¹ with 1 s counts [R5 pp.39, 47, 69] | Unsuitable for Mg–Si clusters (inference from the sensitivities) |
 | SANS | Nuclear-scattering fluctuations: Mg contrast 0.55, Cu 1.23, Li −1.55 [R5 p.46]. Combined with SAXS ("contrast variation"), it separates the Cu and Mg contributions [R5 pp.46, 52] | ≥ 10 min per point; room temperature only in R5; Si contrast not given [R5 pp.38–39] | ILL D11, λ = 5 Å (above the Bragg cut-off) [R5 pp.38, 47] | Research tool only |
@@ -1054,7 +1054,7 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
   - R10 gives only linear unit slopes (n = 1 fit) with a non-linearity caveat.
   - TOT gives **n = 2/3 for dilute Mg (< 1 at%)** and 1/3 above (see above). *Updated after full-text pass; previously "general knowledge n ≈ 2/3–1".* No exponent is given for Mn, Si or Fe.
   - Fit k_i and n to the user's own 3xxx data.
-- **Relevance (T11):** 0.26 % Mg is ≈ 0.29 at% (derived), inside the dilute (n = 2/3) regime. 0.14 % Mn, if fully dissolved, adds ≤ 3–4 MPa YS on the 21–30 MPa per wt% slopes (derived).
+- **Relevance (Talum 1):** 0.26 % Mg is ≈ 0.29 at% (derived), inside the dilute (n = 2/3) regime. 0.14 % Mn, if fully dissolved, adds ≤ 3–4 MPa YS on the 21–30 MPa per wt% slopes (derived).
 - **Other solid-solution statements** [R11 pp.30, 34]:
   - On an atomic basis, Mn and Cu are the most effective at ≤0.5 %.
   - Only 0.2–0.3 % Mn stays in solution after preheat.
@@ -1099,7 +1099,7 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
   - Dispersion hardening in 8xxx is 30–40 MPa [R11 p.131].
   - Al₃Sc hardening is about 100 MPa [R3 p.13].
   - Excess Si: 0.2 % excess adds about 70 MPa to a 0.8 % Mg₂Si alloy [R10 p.381].
-  - Fe-rich constituents: ≈ 7 MPa YS per vol% in annealed 1xxx [TOT pp.122, 138]. For T11's ≈ 1.5–2 vol% constituents (estimate in the T11 record) that is ≈ 10–14 MPa (derived).
+  - Fe-rich constituents: ≈ 7 MPa YS per vol% in annealed 1xxx [TOT pp.122, 138]. For Talum 1's ≈ 1.5–2 vol% constituents (estimate in the Talum 1 record) that is ≈ 10–14 MPa (derived).
   - Al₃Zr dispersoids add little dispersion strength (low volume fraction) but a lot of grain- and subgrain-boundary strength by preventing recrystallisation: +25 MPa in Al–2.5Li–Zr [TOT p.114].
   - Texture strengthening of unrecrystallised extrusions: longitudinal YS ≈ 70 MPa above transverse. It is lost on recrystallisation [TOT p.131].
 - **Work hardening and substructure** [R11 pp.36, 41]:
@@ -1341,7 +1341,7 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 *Updated again after the [R5] full-text pass (2026-10-12). The old item 5 ("R5 is truncated at p.73") is resolved: Ch. 6–9 were read (§6.5–6.6). Items 1 and 4 are partly filled. Items 19–21 are new.*
 
 1. **D₀ and Q per solute** (Mn, Fe, Si, Zn, Cr, Zr, Sc, Ti, Mo, V, Er) are still **missing from every source read**. TOT gives only vacancy energies [TOT p.40], a TM range at 500 °C, and the factor ≈ 10 between eutectic and peritectic TMs [TOT p.295].
-   - *Partly filled (R5):* Cu, Mg and Li now have D₀/Q, as a secondary compilation of Du et al. 2003, Doig & Edington 1973, Mantina et al. 2009 and Wen et al. 1980 [R5 p.121]. The Du set reproduces Polmear's D(500 °C) for Cu and Mg (§1.4). **Si is still missing**, and it is the key solute for T11.
+   - *Partly filled (R5):* Cu, Mg and Li now have D₀/Q, as a secondary compilation of Du et al. 2003, Doig & Edington 1973, Mantina et al. 2009 and Wen et al. 1980 [R5 p.121]. The Du set reproduces Polmear's D(500 °C) for Cu and Mg (§1.4). **Si is still missing**, and it is the key solute for Talum 1.
    - **Mn scale: resolved for this chapter.** Polmear's D_Mn(500 °C) = 5×10⁻¹³ cm² s⁻¹ lies inside TOT's range; Sheppard's 10³× faster row does not (§1.4).
    - **D_Sc/D_Zr: still open.** R1 has ≈ 4; the Arrhenius sets give ≈ 510–640 [ch13; ch18]; TOT gives a group-level ≈ 10. Possibly a definition or transcription issue in R1. Reconcile before KWN calibration.
    - Action: source the Du et al. 2003 (Mater. Sci. Eng. A 363 (2003) 140–151, cited in [R5 p.126]) or Fujikawa compilations into the Drive. Du et al. should also give Si and several TMs (general knowledge; not checked).
@@ -1368,14 +1368,14 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
     - TOT Eqs 9, 16–21 and the sphere/rod rows of Table 5 [TOT pp.100, 109–113];
     - TOT Table 34 "ΔH/C" (quantity and unit undefined) [TOT p.295].
 13. **Strengthening constants.** Poisson's ratio ν for Al is not given in any source (0.33 is general knowledge). Solid-solution exponents are given only for Mg (2/3 below 1 at%) [TOT p.162]; Mn, Si and Fe are still linear unit effects. The SFE (170 vs 200 mJ m⁻²) and the Mn SS slope (21 vs 30.3 MPa per wt%) conflict between sources (§7).
-14. **Mg₂Si solvus versus temperature (new, T11).** No source read gives the temperature at which 0.2–0.4 % Mg₂Si dissolves, with or without excess Si; the TOT figure is unreadable [TOT p.171]. This is needed to set slug-anneal cooling and to predict how much Mg/Si the hot band retains. Action: compute with a CALPHAD tool or source a solvus table.
+14. **Mg₂Si solvus versus temperature (new, Talum 1).** No source read gives the temperature at which 0.2–0.4 % Mg₂Si dissolves, with or without excess Si; the TOT figure is unreadable [TOT p.171]. This is needed to set slug-anneal cooling and to predict how much Mg/Si the hot band retains. Action: compute with a CALPHAD tool or source a solvus table.
 15. **Natural-ageing threshold unit (new).** 0.9/1.1 % Mg₂Si is "at%" in TOT [TOT pp.175–176] and wt% in R11 [R11 pp.141–142]. Check Baba & Takashima (1969) or Dorward (1973).
-16. **Fe-phase selection at rotary-caster conditions (new, T11).**
+16. **Fe-phase selection at rotary-caster conditions (new, Talum 1).**
     - Is the strip solidification-front velocity above or below the ≈ 0.5 mm s⁻¹ Al₃Fe/Al₆Fe switch?
     - How far do Si 0.38 and Mg 0.26 shift it [TOT p.139]?
     - Which of α-AlFeSi, β-Al₅FeSi and Al₁₃(Fe,Mn)₄ forms at Fe:Si ≈ 1.4 with Mn:Fe ≈ 0.27?
     - Check the "4.6–6.1 wt% Fe" range in [TOT p.139] against Todd & Jones (1996) (likely 0.46–0.61 %).
-    - Settle by metallography of the T11 cast strip (T11 measurement plan).
+    - Settle by metallography of the Talum 1 cast strip (Talum 1 measurement plan).
 17. **Fe supersaturation in rotary-cast strip (new).** TOT Table 33 has no Fe column [TOT p.294]. Retained Fe raises the recrystallisation onset (+65 K at 0.04 at%) [TOT p.296]. Measure conductivity of the cast and quenched strip, and the recrystallisation start, to quantify the effect.
 18. **TOT internal and cross-source inconsistencies to check in the PDF:**
     - Mg maximum solubility (14.9 vs 17.4 wt%);
@@ -1384,7 +1384,7 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
     - Sc (0.28 at% vs 0.35–0.38 wt%);
     - GP-zone thickness "one atomic layer, i.e. 2.5 nm" and β″ "Si:Al:Mg = 6:3:1" [TOT p.174];
     - Al₃Sc/Al₃Zr "40–300 nm" [TOT p.300].
-19. **Al–Mg–Si clustering in dilute alloys (new, T11).** R5 has no Al–Mg–Si data of its own (§6.5). The key papers it cites are not in the Drive:
+19. **Al–Mg–Si clustering in dilute alloys (new, Talum 1).** R5 has no Al–Mg–Si data of its own (§6.5). The key papers it cites are not in the Drive:
     - Birol 2005, pre-ageing for bake hardening of a **twin-roll cast** Al–Mg–Si alloy [R5 p.105 ref. 14];
     - Yamada, Sato & Kamio 2000, effect of **quench conditions** on two-step ageing [R5 p.104 ref. 4];
     - Aruga et al. 2014 and 2016, clusters and bake hardening, and natural ageing after pre-ageing [R5 p.60 refs. 25–26];
@@ -1392,7 +1392,7 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
     - Pogatscher et al. 2011 [R5 p.105 ref. 12] and Banhart et al. 2010 [R5 p.104 ref. 5].
     - Priority: Birol (strip-cast route), Yamada (quench rate) and Aruga (bake response). These would test the open question in §6.5: do storage clusters dissolve or seed β″ at 220 °C?
 20. **Cluster-strengthening law (new).** R5 gives only hardness–cluster correlations [R5 pp.12–13, 112]. The co-cluster strengthening model for Al–Mg–Si (Starink, Cao & Rometsch 2012 [R5 p.117 ref. 16]) is needed to turn a measured slug drift into ΔHB per unit of clustered solute.
-21. **Vacancy retention on the T11 route (new).** R5 did not vary the quench rate (§6.5). Whether the slug cooling after the anneal leaves enough excess vacancies for drift must be measured. For both cooling rates in the T11 plan, measure:
+21. **Vacancy retention on the Talum 1 route (new).** R5 did not vary the quench rate (§6.5). Whether the slug cooling after the anneal leaves enough excess vacancies for drift must be measured. For both cooling rates in the Talum 1 plan, measure:
     - slug HB at ≈ 2–6 h, 1, 3, 7 and 30 days;
     - DSC of fresh versus stored slugs;
     - wall HV 1 and 30 days after the 220 °C/10 min bake.

@@ -24,12 +24,12 @@
 
 **Not used.** Duplicate copies in folder `1gxFIC8S…`, and everything inside `microstructure-sim-v2.14.0` (the `.js` files and the AA3207_Recrystallization_Simulation `.xlsx`, excluded as instructed). The broad handbooks (ASM Handbook vol. 1, "Alminium.pdf", "Light Alloys", "Alloys", TMS 2018 proceedings, "vasevska.pdf") also matched the search terms but were not mined. AMAG "AR-2014 Wärmebehandlung" was checked by snippet only (general heat treatment). Eskin Ch. 1 and the front matter were not read.
 
-**Full-text pass (2026-10-12).** The Drive text reader truncates long files, so sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`): R1, R4, R8 and R13. The Drive download tool refuses larger files with the message *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* (tested on a 12.66 MB file). R5 (22.34 MB) therefore remains truncated. R7 (13.88 MB) became available later on 2026-10-12 as four split parts (§0 row R7) and was read in full; its additions are in §6.1, §6.2 and the new §6.6, and the related gaps in §10 are closed. No OCR tool is available, so tables printed as images or rotated pages remain unreadable. **TOT** (Totten & MacKenzie, S-029) became available as split PDFs on 2026-10-12 and was read in full for the sections listed above. Its additions are §2.4, §2.6, §3.7, §4.3, §5.2, §6.5, §7.4–7.5, §8, §9 and §10, with notes on the user's rotary strip caster and trial alloy T11 marked **Relevance**.
+**Full-text pass (2026-10-12).** The Drive text reader truncates long files, so sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`): R1, R4, R8 and R13. The Drive download tool refuses larger files with the message *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* (tested on a 12.66 MB file). R5 (22.34 MB) therefore remains truncated. R7 (13.88 MB) became available later on 2026-10-12 as four split parts (§0 row R7) and was read in full; its additions are in §6.1, §6.2 and the new §6.6, and the related gaps in §10 are closed. No OCR tool is available, so tables printed as images or rotated pages remain unreadable. **TOT** (Totten & MacKenzie, S-029) became available as split PDFs on 2026-10-12 and was read in full for the sections listed above. Its additions are §2.4, §2.6, §3.7, §4.3, §5.2, §6.5, §7.4–7.5, §8, §9 and §10, with notes on the user's rotary strip caster and trial alloy Talum 1 marked **Relevance**.
 
 **Cloud-part batch 5 (2026-10-12).** Six split files were checked for Maggs (R5). Five were Ryen (S-052) and one was
 the TRIMET paper (R2, "aq.pdf"). One file, qwq.pdf (8,230,911 B), broke the connector on download (*"The connection
 to MCP server "Google_Drive" was closed because a message from the server was too large or could not be parsed"*);
-it was a Ryen part and is superseded. R2's images were rendered and read (§3.5); a focused T11 assessment of Fe-phase
+it was a Ryen part and is superseded. R2's images were rendered and read (§3.5); a focused Talum 1 assessment of Fe-phase
 selection is in the new §3.8. **R5 Chs 4–6 are still missing.**
 
 ---
@@ -398,30 +398,30 @@ The "Other" column was read from the clean layout extraction of 2026-10-12 [R1, 
   - Si raises the stability of Al3Fe against increasing front velocity, and 0.75% Mg raises it further. Ce and La suppress Al3Fe.
   - **This supports R5 (Si promotes Al3Fe) in the contradiction listed in §10 item 8**, and agrees with Mg promoting Al3Fe in the Maggs simulator (§3.3).
 
-**Relevance: trial T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) on the rotary strip caster** (derived or inference, as marked)
-- **Mn/Fe = 0.27** (derived), about half of TOT's > 0.5 guideline. Meeting it at 0.52 Fe would need Mn ≥ 0.26 (derived), close to the "Mn ≈ 0.25" sister-cast option in trials/T11.md §3. The guideline comes from Al–Si foundry alloys, so for T11 it gives a direction, not a threshold.
+**Relevance: trial Talum 1 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) on the rotary strip caster** (derived or inference, as marked)
+- **Mn/Fe = 0.27** (derived), about half of TOT's > 0.5 guideline. Meeting it at 0.52 Fe would need Mn ≥ 0.26 (derived), close to the "Mn ≈ 0.25" sister-cast option in trials/Talum-1.md §3. The guideline comes from Al–Si foundry alloys, so for Talum 1 it gives a direction, not a threshold.
 - **Fe:Si = 1.4** (derived) is below the Fe/Si of β (≈ 2) and of hexagonal α (≈ 4) (§2.2). There is enough Si for all Fe phases to be ternary.
   - (derived) If all Fe formed β, β would take ≈ 0.26 Si and leave ≈ 0.12 Si for Mg2Si and solid solution.
-  - (inference) Tezuka & Kamino found cubic α dominant at Si ≥ 0.25 with 0.3 Fe (§3.3) [R5, p.19–20], so binary Al3Fe or Al6Fe should be minor in T11.
+  - (inference) Tezuka & Kamino found cubic α dominant at Si ≥ 0.25 with 0.3 Fe (§3.3) [R5, p.19–20], so binary Al3Fe or Al6Fe should be minor in Talum 1.
 - **The closest measured path is 6063** (0.39 Si, 0.43 Mg, 0.2 Fe; Bäckerud) [R9, p.49; ch. 01 §4.1]:
   - Cubic α forms first (618–615 °C). β then forms by L + α → (Al) + Al5FeSi at 613 / 610 °C, at both 0.5 and 15 K/s.
-  - T11 has the same Si, less Mg and 2.6 × the Fe (derived). (inference) **Expect α followed by peritectic β even at DC-type cooling rates.** Only strip regions cooled well above 15 K/s may suppress β.
+  - Talum 1 has the same Si, less Mg and 2.6 × the Fe (derived). (inference) **Expect α followed by peritectic β even at DC-type cooling rates.** Only strip regions cooled well above 15 K/s may suppress β.
 - **Through-thickness gradient.** (general knowledge) A strip cast between two chills cools fastest at its faces and slowest at mid-thickness. TOT's rate rule (slow cooling gives β) therefore predicts **α script near the wheel and band faces and β platelets toward mid-thickness** (inference).
 - **β persists to the slug.** β does not spheroidise [R1, p.23]. TOT reports β fragmenting and dissolving at its tips during solution treatment of castings (535 °C quoted as the optimum) [TOT p.626]. (inference) Unless the slug anneal approaches solution-treatment conditions, do not count on it to change β.
 - **Fe/Mn = 3.7** (derived). A high Fe/Mn may give Al13(Fe,Mn)4 in the as-cast state [TOT p.160]. With only 0.14 Mn, Al6(Fe,Mn) should be minor (inference).
-- **Mg 0.26** promotes Al3Fe over cubic α in the Maggs simulator (§3.3) and stabilises Al3Fe in TOT's front-velocity data [TOT p.139]. At T11's Si level its main effect is more likely Mg2Si or π-type phases late in solidification (inference; π(Al8FeMg3Si6) is listed for 6xxx in R9 [R9, p.47–48] via ch. 01 §4.5).
-- **Test.** The trial plan's surface-versus-centre metallography (trials/T11.md §3) is the right check. Add the EDX Si/(Fe+Mn) classification of §3.5, because β plates and α script can look alike in a thin strip.
+- **Mg 0.26** promotes Al3Fe over cubic α in the Maggs simulator (§3.3) and stabilises Al3Fe in TOT's front-velocity data [TOT p.139]. At Talum 1's Si level its main effect is more likely Mg2Si or π-type phases late in solidification (inference; π(Al8FeMg3Si6) is listed for 6xxx in R9 [R9, p.47–48] via ch. 01 §4.5).
+- **Test.** The trial plan's surface-versus-centre metallography (trials/Talum-1.md §3) is the right check. Add the EDX Si/(Fe+Mn) classification of §3.5, because β plates and α script can look alike in a thin strip.
 
-### 3.8 Relevance to T11: Fe phases at the surface and centre of the 22 mm rotary-cast strip (added 2026-10-12; inference unless cited)
+### 3.8 Relevance to Talum 1: Fe phases at the surface and centre of the 22 mm rotary-cast strip (added 2026-10-12; inference unless cited)
 
 **Inputs.**
-- T11: Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Ti 0.043 (trials/T11.md §1). Fe:Si ≈ 1.4, Mn:Fe ≈ 0.27, Fe/Mn ≈ 3.7 (derived).
-- The charge includes 10 kg AlTi5B1 per 10 t, i.e. ≈ +0.005 % Ti and ≈ +0.001 % B (derived from trials/T11.md §1). Most of the 0.043 % Ti therefore comes from scrap, not from TiB2 refiner.
+- Talum 1: Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Ti 0.043 (trials/Talum-1.md §1). Fe:Si ≈ 1.4, Mn:Fe ≈ 0.27, Fe/Mn ≈ 3.7 (derived).
+- The charge includes 10 kg AlTi5B1 per 10 t, i.e. ≈ +0.005 % Ti and ≈ +0.001 % B (derived from trials/Talum-1.md §1). Most of the 0.043 % Ti therefore comes from scrap, not from TiB2 refiner.
 - No cooling rate has been measured on the rotary caster. The closest sourced analogue is a **19 mm belt-cast slab: ≈ 11–40 °C/s near the surface and ≈ 4 °C/s at the centre** [POL p.102, via ch. 06 §14 item 6]. This range matches the Maggs DC simulator (16 °C/s at 20 mm and 3 °C/s at 50 mm from the chill [R5, p.59]) and the DC billet periphery and centre (15–20 and 3–5 K/s [R10, p.113]). **The DC phase-selection data of §3.2–3.3 therefore apply to the 22 mm strip**, unlike the TRC rates (§4.5) (derived).
 
 **Expected Fe phases**
 
-| Zone | Cooling rate (analogue) | What the sources show at this rate | Expectation for T11 |
+| Zone | Cooling rate (analogue) | What the sources show at this rate | Expectation for Talum 1 |
 |---|---|---|---|
 | Surface layer (wheel and band faces) | ≈ 11–40 °C/s | Low-Si 1xxx: AlmFe + cubic α″ need ≈ 10–20 K/s [R10, p.116; R5, p.14–16]. With 0.3 Fe, Si ≥ 0.25 makes cubic α dominant (Tezuka & Kamino) [R5, p.19–20]. 6063 (0.39 Si, 0.2 Fe): cubic α at 618–615 °C, then β by L + α → (Al) + β at 613/610 °C, **still at 15 K/s** [R9, p.49, via §3.7]. Fast cooling favours script [TOT p.610]. | **Cubic α-Al(Fe,Mn)Si script dominant, with some peritectic β.** Binary Al6Fe/AlmFe should be minor, because Si is high. |
 | Mid-thickness | ≈ 4 °C/s | Low-Si 1xxx at 2–5 K/s: AlxFe + Al6Fe + cubic α [R10, p.116]. FTZ border ≈ 8 °C/s [R5, p.16]. Slow cooling favours β [TOT p.610]. 6063 still forms α + β at 0.5 K/s [R9, p.49]. Centreline segregation enriches the last liquid in Fe and Si (§5). | **α + β, with more and larger β platelets than at the surface; the highest β fraction at the centreline.** Mg2Si or π form late (§3.7). |
@@ -429,14 +429,14 @@ The "Other" column was read from the clean layout extraction of 2026-10-12 [R1, 
 - Net expectation: **β is present through the whole thickness, with more of it toward mid-thickness.** No source shows β suppressed at ≤ 40 °C/s for Fe:Si ≈ 1.4, Mn:Fe ≈ 0.27.
 - β cannot be removed downstream on this route. β→α′ needs ≈ 580 °C for 1 h [R3, p.383]; the strip leaves the caster at ≈ 500 °C (CLAUDE.md) and is never homogenised, and β does not change at slug-anneal temperatures (§3.7).
 
-**What would push T11 toward α** (strongest evidence first)
-1. **Mn/Fe ≥ 0.5** [TOT p.610] means Mn ≥ 0.26 at Fe 0.52, or Fe ≤ 0.28 at Mn 0.14 (derived). This is the "Mn ≈ 0.25" sister-cast option (trials/T11.md §3). The cost is a larger volume of harder α [TOT p.609] and more Mn supersaturation in unhomogenised strip (ch. 06 §6).
-2. **More TiB2 refiner.** TiB2 favours nucleation of cubic α [R5, p.62–63]. In the Maggs simulator, a 0.04 % Ti-B addition made cubic α dominant in A1 and A3 (Fe:Si 2) [R5, p.55–56]. In the literature Maggs reviews, 0.03Ti–0.005B added to Al–0.3Fe–0.15Si–0.5Mg made cubic α dominant everywhere [R5, p.24]. T11's ≈ 0.001 % B is about one fifth of that 0.005 % B (derived), so this is the cheapest lever to test.
-   - Caveats: Maggs worked at Fe:Si ≥ 2 and Si ≤ 0.2. In A2 (Fe:Si 4), Ti-B gave AlmFe → Al6Fe and the most vivid FTZ [R5, p.55–56]. At T11's Fe:Si ≈ 1.4, the peritectic β may form whatever the nucleant (inference).
-3. **Cr.** Cr stabilises α [TOT p.610; R5, p.11]. TRIMET's α reference used Cr 0.27 + Mn 0.12 at Fe 0.93 [R2, p.3], but it also needed a 12 h cool and a 200 °C hold to get only α (§3.5). Cr above T11's 0.030 maximum (trials/T11.md §1) would also have to be checked against the patent windows (ch. 16).
+**What would push Talum 1 toward α** (strongest evidence first)
+1. **Mn/Fe ≥ 0.5** [TOT p.610] means Mn ≥ 0.26 at Fe 0.52, or Fe ≤ 0.28 at Mn 0.14 (derived). This is the "Mn ≈ 0.25" sister-cast option (trials/Talum-1.md §3). The cost is a larger volume of harder α [TOT p.609] and more Mn supersaturation in unhomogenised strip (ch. 06 §6).
+2. **More TiB2 refiner.** TiB2 favours nucleation of cubic α [R5, p.62–63]. In the Maggs simulator, a 0.04 % Ti-B addition made cubic α dominant in A1 and A3 (Fe:Si 2) [R5, p.55–56]. In the literature Maggs reviews, 0.03Ti–0.005B added to Al–0.3Fe–0.15Si–0.5Mg made cubic α dominant everywhere [R5, p.24]. Talum 1's ≈ 0.001 % B is about one fifth of that 0.005 % B (derived), so this is the cheapest lever to test.
+   - Caveats: Maggs worked at Fe:Si ≥ 2 and Si ≤ 0.2. In A2 (Fe:Si 4), Ti-B gave AlmFe → Al6Fe and the most vivid FTZ [R5, p.55–56]. At Talum 1's Fe:Si ≈ 1.4, the peritectic β may form whatever the nucleant (inference).
+3. **Cr.** Cr stabilises α [TOT p.610; R5, p.11]. TRIMET's α reference used Cr 0.27 + Mn 0.12 at Fe 0.93 [R2, p.3], but it also needed a 12 h cool and a 200 °C hold to get only α (§3.5). Cr above Talum 1's 0.030 maximum (trials/Talum-1.md §1) would also have to be checked against the patent windows (ch. 16).
 4. **Cool the centre faster** (thinner strip, more heat extraction). The β→α transition moves to slower cooling rates as Fe falls [TOT p.610], so lower Fe and faster cooling reinforce each other.
 5. **Mg works against α on its own.** Mg hindered cubic α and promoted Al3Fe in the Maggs simulator [R5, p.54, 58], but Mg together with Ti-B gave cubic α [R5, p.24]. At 0.26 Mg this argues for lever 2 rather than for less Mg.
-6. **Lower Si toward Fe:Si ≈ 2** (the Si ≈ 0.25 sister cast). Cubic α still dominates at Si ≥ 0.25 with 0.3 Fe [R5, p.19–20], so the Si available for β falls without dropping into the binary-phase regime. Fe:Si ≈ 2 gives the deepest FTZ in anodised 1xxx [R5, p.18–19], which matters for slugs only as surface etch contrast (inference). Less Si also means less Mg2Si for the bake response (trials/T11.md §2.2).
+6. **Lower Si toward Fe:Si ≈ 2** (the Si ≈ 0.25 sister cast). Cubic α still dominates at Si ≥ 0.25 with 0.3 Fe [R5, p.19–20], so the Si available for β falls without dropping into the binary-phase regime. Fe:Si ≈ 2 gives the deepest FTZ in anodised 1xxx [R5, p.18–19], which matters for slugs only as surface etch contrast (inference). Less Si also means less Mg2Si for the bake response (trials/Talum-1.md §2.2).
 
 **Measurement.** Classify particles by EDX with the separator **Si ≈ 0.48·(Fe+Mn)** (§3.5) at the surface, quarter and centre of the cast strip and of the quenched hot band. R2 asks for "a statistically relevant number" of particles per location and says to discard low-Fe/low-Si points [R2, p.6]. Record the particle length as well, because coarse Fe-rich particles nucleate voids in the extruded can, and the base corner collects the defects (ch. 10 §4.4, §5). Confirm ambiguous particles ((Fe+Mn)/Si ≈ 2.1–2.75, §3.5) by EBSD.
 
@@ -726,19 +726,19 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 
 **Conflict on Fe.** TOT Ch. 12 says Fe improves hot-tear resistance [TOT p.592]. Against that: Fe raises HCS in 2038 up to 0.65%, the 6xxx HCS peaks at 0.3–0.4% Fe [R12, p.217–220], early coarse α(AlFeMn) raises susceptibility (Nagaumi) [R12, p.243], and Fe-rich eutectic blocks feeding [TOT p.491].
 - (inference) A consistent reading: in eutectic-rich Al–Si foundry alloys, compact Fe phases add solid bridges (cf. 0.8% Fe in Al–0.7Cu [R12, p.205]); in lean wrought alloys, early Fe-rich eutectic networks block feeding.
-- **For lean wrought alloys such as T11, use the wrought data (R12), not the foundry rule.**
+- **For lean wrought alloys such as Talum 1, use the wrought data (R12), not the foundry rule.**
 
-**Relevance: hot-tearing risk of T11 (Mg 0.26 + Si 0.38, Fe 0.52) on the rotary caster** (inference unless cited)
-- **Si.** 0.38 Si lies inside the critical hot-short range of high-purity Al–Si (0.17–0.8% Si) [R13, p.384]. T11 is on the lean side of the peak, far from the ≥ 5% Si where Si helps [TOT p.602].
+**Relevance: hot-tearing risk of Talum 1 (Mg 0.26 + Si 0.38, Fe 0.52) on the rotary caster** (inference unless cited)
+- **Si.** 0.38 Si lies inside the critical hot-short range of high-purity Al–Si (0.17–0.8% Si) [R13, p.384]. Talum 1 is on the lean side of the peak, far from the ≥ 5% Si where Si helps [TOT p.602].
 - **Mg + Si.** The pair resembles a very lean 6060 or 6063 (6060 typically 0.35–0.6 Mg and 0.3–0.6 Si, general knowledge). 6060 and 6061 are crack-sensitive without filler [TOT p.505–507]. On the other side, the measured freezing-range contraction of 6082 is small (0.02%) [R12, p.196].
-- **Fe is the main eutectic-maker in T11.** (derived, binary Scheil with TOT Table 3) About 28% of the liquid would end in Al–Fe eutectic reactions at 0.52 Fe, versus ≈ 1.8% for Si at 0.38 and ≈ 0.02% for Mg at 0.26. Such early Fe-rich eutectic blocks feeding [TOT p.491]. T11's 0.52 Fe lies above the 0.3–0.4% Fe HCS peak measured in 0.5Mg–0.5Si 6xxx [R12, p.220]; no data exist for higher Fe.
+- **Fe is the main eutectic-maker in Talum 1.** (derived, binary Scheil with TOT Table 3) About 28% of the liquid would end in Al–Fe eutectic reactions at 0.52 Fe, versus ≈ 1.8% for Si at 0.38 and ≈ 0.02% for Mg at 0.26. Such early Fe-rich eutectic blocks feeding [TOT p.491]. Talum 1's 0.52 Fe lies above the 0.3–0.4% Fe HCS peak measured in 0.5Mg–0.5Si 6xxx [R12, p.220]; no data exist for higher Fe.
 - **Last liquid.** The lowest-melting reactions available are Mg2Si + Si at 555 °C if free Si forms [TOT p.490; R9, p.47] and β + Si at 573–576 °C (§2.2). (derived) A strip exit temperature of ≈ 500 °C is ≥ 55 K below both, so the in-line hot mill acts on solid metal, provided the reading represents mid-thickness.
 - **Levers for the caster:**
   - TiB2-refined, dendritic grains (§6.3).
   - A clean melt, because oxide films initiate tears [TOT p.500].
-  - Keep Fe:Si > 1, which T11 already does (1.4), to avoid free Si.
+  - Keep Fe:Si > 1, which Talum 1 already does (1.4), to avoid free Si.
   - Avoid mechanical strain on the strip in the wheel–band contact while fs > 0.9 (ch. 01 §9.1).
-- **No hot-tear measurement exists for T11 or any comparable Fe-rich lean Mg–Si alloy.** The trial's crack inspection of the cast strip (trials/T11.md §3) is the first data point.
+- **No hot-tear measurement exists for Talum 1 or any comparable Fe-rich lean Mg–Si alloy.** The trial's crack inspection of the cast strip (trials/Talum-1.md §3) is the first data point.
 
 ### 6.6 Cold cracking: as-cast properties, residual stresses and the critical-crack-size criterion (full text of [R7], 2026-10-12)
 R7 studies 7xxx DC-cast round billets. The method transfers to other routes: genuine as-cast properties → thermal-stress simulation → fracture mechanics. The alloy numbers do not transfer, because lean 3xxx/6xxx alloys are not brittle in the as-cast state (general knowledge; see §6.6.6).
@@ -857,13 +857,13 @@ Sources: YS, reduction of area and elongation are from Table 6.1 (Gleeble, 10⁻
   - Literature cited by R7: more Si in 7050 raised RT ductility and reduced cold cracking, and a high-purity 7010 was more crack-prone [R7, p.16].
   - Alloy class matters mainly through brittleness of the eutectic network, freezing range, conductivity and CTE [R7, p.47–49].
 
-#### 6.6.6 Relevance: rotary strip caster, hot-band quench and trial T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) (inference unless cited)
-1. **T11 is not in R7's brittle class, but it carries the same crack initiators.**
+#### 6.6.6 Relevance: rotary strip caster, hot-band quench and trial Talum 1 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) (inference unless cited)
+1. **Talum 1 is not in R7's brittle class, but it carries the same crack initiators.**
    - R7's brittleness comes from a near-continuous network of non-equilibrium eutectic (4.5–5.8 % in 7050) in a 140 °C freezing range [R7, p.23, 30, 48]. Lean 3xxx freezes over 12–25 °C and 6063 over 40 °C [R7, p.48], and their as-cast matrix is ductile (general knowledge).
-   - (derived) T11's 0.52 Fe makes roughly 1.3–2.0 wt% Fe constituents (Fe content ≈ 37–40 % in Al3Fe, ≈ 31 % in α, ≈ 26 % in β; §1). That is roughly a quarter to a half of 7050's eutectic. The units differ (wt% vs area %), so this is an order-of-magnitude comparison only.
+   - (derived) Talum 1's 0.52 Fe makes roughly 1.3–2.0 wt% Fe constituents (Fe content ≈ 37–40 % in Al3Fe, ≈ 31 % in α, ≈ 26 % in β; §1). That is roughly a quarter to a half of 7050's eutectic. The units differ (wt% vs area %), so this is an order-of-magnitude comparison only.
    - Fe-rich constituents and Mg2Si are the same kind of particle that initiated cracks in 7050 [R7, p.64–65].
    - **Risk spot:** a mid-thickness band where β platelets and Fe-enriched centreline segregate (§3.7; ch. 15 §2). If they form a near-continuous film, the R7 mechanism applies locally.
-   - **Screening test for the trial:** RT tensile elongation of the as-cast 22 mm strip, taken separately from the surface layers and the mid-thickness, ideally also at 200 °C. Livanov's > 1.5 % [R7, p.16] is a floor. A lean as-cast strip near that value would point to a continuous network (inference). Add this to trials/T11.md §3 when that file is next revised.
+   - **Screening test for the trial:** RT tensile elongation of the as-cast 22 mm strip, taken separately from the surface layers and the mid-thickness, ideally also at 200 °C. Livanov's > 1.5 % [R7, p.16] is a floor. A lean as-cast strip near that value would point to a continuous network (inference). Add this to trials/Talum-1.md §3 when that file is next revised.
 2. **The quench bath is the analogue of R7's water-impingement zone.**
    - In the bath, the strip faces contract first against a hot core (a transient surface tension, like the 100 MPa WIZ peak in 7050). The core then contracts against cold faces, leaving compressive faces and a tensile mid-thickness [R7, p.81].
    - (derived) Gradients are far milder than in a DC billet. Take h ≈ 40–48 kW/m²K (impingement and nucleate boiling, §8 [R10, p.94–96]; an upper bound for a bath). The Biot number is then ≈ 25–30 for R7's Ø 200 mm billet (R = 100 mm, k = 157 W/mK [R7, p.48]). For the hot band it is ≈ 0.9–1.8: thickness ≈ 9–15 mm (from 6.1–7.4 mm slugs and 30–50 % cold reduction), k = 193 W/mK (3003) [R7, p.48].
@@ -872,10 +872,10 @@ Sources: YS, reduction of area and elongation are from Table 6.1 (Gleeble, 10⁻
    - **Orientation helps** [R7, p.96, 138]. A quenched plate carries mainly in-plane stresses (general knowledge). Laminar flaws, flattened into the rolling plane by the ≥ 50 % hot reduction, are therefore not opened in mode I. Through-thickness flaws are: **edge cracks from the hot mill and transverse surface cracks** are the flaw type to inspect for after the bath.
 3. **The in-line hot mill works in the ductile window, if the whole section is below its non-equilibrium solidus.**
    - Even 7050 is ductile at 300–400 °C (reduction of area 33–36 %, Charpy maximum at 400 °C). Its toughness collapses only above the non-equilibrium solidus, by liquid-film embrittlement [R7, p.36–37, 94].
-   - Rolling from ≈ 500 °C down to ≈ 380 °C sits in the ductile window, provided every point of the section is below its local non-equilibrium solidus. For T11 the lowest candidates are 555–576 °C (§6.5).
+   - Rolling from ≈ 500 °C down to ≈ 380 °C sits in the ductile window, provided every point of the section is below its local non-equilibrium solidus. For Talum 1 the lowest candidates are 555–576 °C (§6.5).
    - Two things can narrow that ≥ 55 K margin: a Fe/Si-enriched centreline, whose local solidus is lower, and a mid-thickness hotter than the measured surface. Measure or calculate the mid-thickness temperature at the first stand.
 4. **Oxides are the critical flaws, not pores.** R7's only validated cold crack started at a 7 mm Mg-oxide inclusion, while ~100 µm shrinkage pores were harmless [R7, p.131–132].
-   - With 0.26 Mg, T11 forms MgO and spinel more readily than 1xxx metal (§7.4). This strengthens the filtration and low-turbulence feed measures of §7.5.
+   - With 0.26 Mg, Talum 1 forms MgO and spinel more readily than 1xxx metal (§7.4). This strengthens the filtration and low-turbulence feed measures of §7.5.
    - Fractograph any crack in strip or slug, and look for chevron marks that point back to an oxide origin [R7, p.131].
 5. **The process knobs map across** (inference). In R7, heat input (speed × size) set the stresses, while water flow and temperature hardly mattered [R7, p.107, 116].
    - On the wheel caster the analogues are casting speed and strip thickness.
@@ -955,13 +955,13 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
 - **Detection.** Oxide films can be 1 µm wide and 10 nm thick, below NDT sensitivity [TOT p.119]. Entrained oxides also act as nucleation sites for hydrogen pores [TOT p.119].
 - **Size thresholds.** Inclusions generally harm properties above about 30 µm. Drawn-and-ironed can stock needs smaller ones removed, and inclusions below 10 µm cause pinholes in foil a few µm thick [TOT p.664].
 
-### 7.5 Relevance: rotary-cast strip, slug anneal and trial T11 (inference unless cited)
+### 7.5 Relevance: rotary-cast strip, slug anneal and trial Talum 1 (inference unless cited)
 - **Hydrogen reaches the slug anneal.** The rotary route has no ingot homogenisation, and the 22 mm strip cools fast. Hydrogen above the solid solubility stays in supersaturated solution [TOT p.644], and the **slug anneal is the first long high-temperature step**. There it can precipitate into micro-shrinkage, oxide films and particle interfaces, giving blisters on annealed slugs (R8 mechanism, §7.1).
   - Starting melt specification: < 0.10 ml/100 g (TOT's 99.99% slab limit, adopted here as a working value).
   - Keep slugs clean and dry, and keep the anneal atmosphere dry.
 - **Reduction does not cure everything.** (derived) 22 mm to a 6.1–7.4 mm slug is a total thickness reduction of 66–72%, before impact extrusion. Pores close with sufficient rolling [TOT p.120]. Oxide double films do not bond [TOT p.118], so they should survive into the can wall.
-- **More oxide classes than in 1xxx.** T11's 0.26% Mg makes MgO and spinel inclusions more likely than in 1xxx metal [TOT p.666].
-- **Oxide films may carry Fe intermetallics.** In a scrap-rich melt, intermetallics that deposit on oxide films [TOT p.118] would place the oxide films and the coarse Fe phases at the same sites. That makes filtration doubly important for T11: for slug-base damage and die wear (ch. 10), and for β-AlFeSi (§3.7).
+- **More oxide classes than in 1xxx.** Talum 1's 0.26% Mg makes MgO and spinel inclusions more likely than in 1xxx metal [TOT p.666].
+- **Oxide films may carry Fe intermetallics.** In a scrap-rich melt, intermetallics that deposit on oxide films [TOT p.118] would place the oxide films and the coarse Fe phases at the same sites. That makes filtration doubly important for Talum 1: for slug-base damage and die wear (ch. 10), and for β-AlFeSi (§3.7).
 - **Filtration and wheel feed.** Use ≥ 50 ppi foam, a deep bed or a cartridge filter (30 ppi counts only as a pre-filter for can-grade metal [TOT p.677]). Keep free-surface velocities feeding the wheel below 0.5 m/s [TOT p.118]. See ch. 01 §10 for the melt-side measures.
 ---
 
@@ -1022,7 +1022,7 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
 | Blister prevention | Gas ≤ ~0.2–0.5 ml/270 g (fluxed melt), plus low micro-shrinkage. A 600 °C ingot preheat lowers gas (to 0.14–0.35) but leaves 17–34 % scrap. ≥40 % cold reduction of the as-cast ingot before hot rolling eliminated blisters | [R8, p.924–925] |
 | Fe solubility in (Al) at 400–550 °C (three-phase fields) | 0.002–0.016 % | [R1, p.6, Table 1.4] |
 | Mn solubility in (Al) at 400 / 450 / 500 °C | 0.06 / 0.15 / 0.25 % (Al6Mn+α field); 0.04 / 0.05 / 0.06 % ((Si)+α field) | [R1, p.15, Table 1.13] |
-| Mn/Fe to favour α over β | > 0.5 (Al–Si foundry alloys). T11: 0.27 (derived) | [TOT p.610] |
+| Mn/Fe to favour α over β | > 0.5 (Al–Si foundry alloys). Talum 1: 0.27 (derived) | [TOT p.610] |
 | β vs α with cooling rate | Slow → β needles; fast → α script; transition shifts to slower rates at lower Fe | [TOT p.610] |
 | EDX α/β separator (particle analysis) | β above, α below **Si ≈ 0.48·(Fe+Mn)** wt% ((Fe+Mn)/Si ≈ 2.1); Griger's lines Si ≈ 0.68·Fe (β) and ≈ 0.15·Fe (αc) (digitised) | [R2, p.2, Figs 2–3] |
 | Cooling-rate analogue for the 22 mm rotary strip | 19 mm belt slab: ≈ 11–40 °C/s surface, ≈ 4 °C/s centre (≈ Maggs DC simulator 16 / 3 °C/s at 20 / 50 mm) | [POL p.102 via ch. 06; R5, p.59] (§3.8) |
@@ -1051,18 +1051,18 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
 2. **TRC metallurgy is essentially missing.** R4 gives only process parameters. Its Table 1 is now legible (2026-10-12), but the speed unit is still printed as "cm/min" and remains unverified (§4.2). The cooling rate, Mn/Fe/Si supersaturation, centreline segregation, and surface or bulk defects of TRC (cf. Sun et al. 2006 on TRC AA3105; Monaghan et al. 1993, both cited in R4) need sourcing. [TOT] (2026-10-12) adds no strip-casting metallurgy, only that twin-roll casters reach a nominal 6 mm minimum and belt casters cast 16–20 mm [TOT p.352–354] (§4.3).
 3. **PSN and recrystallisation.** No source quantifies the particle-size threshold for particle-stimulated nucleation, or how constituent morphology affects texture and earing. Particle effects on formability appear only qualitatively, for foil [R1, p.23].
 4. **Truncated or incomplete sources** (status after the 2026-10-12 full-text pass):
-   - Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are still missing. The file exceeds the 10 MB download-tool limit. *Action:* the user splits the PDF (e.g. per chapter) and uploads the parts, or downloads it through the standard Drive API. *2026-10-12 (batch 5):* the split upload expected to hold Maggs contained Ryen (S-052) and the TRIMET paper (R2) instead, so this gap is **still open**. Parts of ≤ ≈ 6 MB download reliably; an 8.2 MB part broke the connector. Because R5 is an OCR scan, splitting it into ≈ 40-page parts should keep each under that size. The T11 Fe-phase expectation in §3.8 relies on R5 Chs 1–3 and would be sharpened most by the Ch. 4–5 critical rates for Mg and Ti-B.
+   - Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are still missing. The file exceeds the 10 MB download-tool limit. *Action:* the user splits the PDF (e.g. per chapter) and uploads the parts, or downloads it through the standard Drive API. *2026-10-12 (batch 5):* the split upload expected to hold Maggs contained Ryen (S-052) and the TRIMET paper (R2) instead, so this gap is **still open**. Parts of ≤ ≈ 6 MB download reliably; an 8.2 MB part broke the connector. Because R5 is an OCR scan, splitting it into ≈ 40-page parts should keep each under that size. The Talum 1 Fe-phase expectation in §3.8 relies on R5 Chs 1–3 and would be sharpened most by the Ch. 4–5 critical rates for Mg and Ti-B.
    - *Resolved 2026-10-12:* R2's image-only tables, reference compositions and the numeric Si/(Fe+Mn) separator (§3.5).
    - O'Dette (R8): the Drive file holds only pp.924–925, so the ≥40 % cold-reduction explanation (p.926 onward) cannot be recovered from Drive. *Action:* obtain the complete article (J. Metals / Trans. AIME, July 1957, TP 4460E).
    - *Resolved 2026-10-12:* Lalpoor (R7) Chs 5–8 were read from the split parts. The cold-cracking criterion, critical crack sizes, residual stresses and process effects are in §6.6. Remaining R7 limits: pp. 31–70 exist only as Drive text without figures, so values that are only plotted (K_IC at 100 °C, Fig. 2.23; critical-size curves, Figs. 6.9, 7.6, 7.7; the new alloy's K_IC, Fig. 8.8) are missing. A ≤ 5 MB re-split of part bb would recover the layout text, though still not the plotted values.
 5. **Tables still unreadable.** R1 Tables 1.2 (Al–Fe–Si invariants), 1.5 (metastable phases) and 1.16 (quaternary mono/bivariant reactions) are on rotated pages with a garbage OCR layer; they need OCR or the printed book. *Resolved 2026-10-12:* R1 Tables 1.4, 1.7 and 1.13 and R8 Table I (§2.2, §2.4, §2.5, §7.2), and the R7 K_IC values: 8.9 ± 0.3 MPa√m at RT and 8.29 MPa√m at 200 °C, verified against the full text (§6.2).
 6. **Mn:Fe threshold for wrought 3xxx/8xxx.** There is no quantitative Mn:Fe or Si window for forming α instead of β or Al6(Fe,Mn) at DC versus TRC cooling rates. The only number found is the 4xx.x statement that "≫1:20" is needed [R1, p.43].
-   - *Partly addressed 2026-10-12:* [TOT] gives **Mn/Fe > 0.5** together with the rule that slow cooling favours β, and that lower Fe moves the β→α transition to slower cooling rates [TOT p.610] (§3.7). These numbers come from Al–Si foundry alloys. A window for lean wrought or strip-cast alloys (DC vs strip cooling rates) is still missing; the T11 trial metallography will give the first in-house point.
+   - *Partly addressed 2026-10-12:* [TOT] gives **Mn/Fe > 0.5** together with the rule that slow cooling favours β, and that lower Fe moves the β→α transition to slower cooling rates [TOT p.610] (§3.7). These numbers come from Al–Si foundry alloys. A window for lean wrought or strip-cast alloys (DC vs strip cooling rates) is still missing; the Talum 1 trial metallography will give the first in-house point.
    - *Added 2026-10-12 (R2 figures read):* one wrought 6xxx data point. TRIMET obtained only α at Fe 0.93 with Mn 0.12 + Cr 0.27 ((Mn+Cr)/Fe ≈ 0.43, derived), but only after a 12 h cool and a 200 °C hold [R2, p.3–4] (§3.5). It suggests that Cr can stand in for part of the Mn (inference). It gives no as-cast window.
 7. **Hot-tear data for 3xxx.** Only 3004 mush strength (fs 0.81), the Al–1.4Mn ductility drop and the benefit of grain refinement in 3104 are available. No CSC or measured HCS exists for 3102 or 3207.
-   - [TOT] (2026-10-12) adds the mechanism, binary peak behaviour and Scheil eutectic fractions (§6.5). It states that Al–Mg–Si crack maps exist [TOT p.502] but reproduces none, and it has no 3xxx data. Still missing: hot-tear data for lean, Fe-rich Mg–Si alloys such as T11.
+   - [TOT] (2026-10-12) adds the mechanism, binary peak behaviour and Scheil eutectic fractions (§6.5). It states that Al–Mg–Si crack maps exist [TOT p.502] but reproduces none, and it has no 3xxx data. Still missing: hot-tear data for lean, Fe-rich Mg–Si alloys such as Talum 1.
 8. **Contradictions to resolve:**
-   - Si promotes Al3Fe [R5, p.57] vs Si promotes FeAl6 [R3, p.368]. *Partly resolved 2026-10-12:* [TOT] reports that Si, and 0.75% Mg, raise the stability of Al3Fe against increasing front velocity [TOT p.139], which supports R5. The R3 statement stays unexplained (purity or method). *Batch 5 (2026-10-12):* no new evidence, because R5 Chs 4–6, where Maggs measures the Si effect by DSC and Bridgman growth, were not in the upload. For T11 (Si 0.38) the question matters little: at Si ≥ 0.25 the ternary α/β phases replace both binary phases (§3.8).
+   - Si promotes Al3Fe [R5, p.57] vs Si promotes FeAl6 [R3, p.368]. *Partly resolved 2026-10-12:* [TOT] reports that Si, and 0.75% Mg, raise the stability of Al3Fe against increasing front velocity [TOT p.139], which supports R5. The R3 statement stays unexplained (purity or method). *Batch 5 (2026-10-12):* no new evidence, because R5 Chs 4–6, where Maggs measures the Si effect by DSC and Bridgman growth, were not in the upload. For Talum 1 (Si 0.38) the question matters little: at Si ≥ 0.25 the ternary α/β phases replace both binary phases (§3.8).
    - **New (TOT):** Fe "improves hot tear resistance" [TOT p.592] (foundry alloys) vs Fe raising hot-crack susceptibility in wrought alloys [R12, p.217–220] and Fe-rich eutectic blocking feeding [TOT p.491]. A reading is proposed in §6.5.
    - **New (TOT):** partition coefficient of Mn, 0.95 [TOT p.491] vs 0.82 [R11, p.172].
    - **New (R7 full text):** casting speed and cold cracking. Livanov's slab rule says to cast *faster* to avoid cold cracks [R7, p.8, 119–120]. R7's billet simulations and trials show that higher speed raises the residual stresses and shrinks the critical crack size; the only crack came at the highest speed [R7, p.107–116, 130]. The two may describe different regimes (slabs vs billets; Livanov's speeds are bounded above by hot cracking) and are not reconciled in R7. For billets, R7's practical advice is to choose a speed whose minimum critical crack size exceeds the typical inclusion size [R7, p.142].
@@ -1073,7 +1073,7 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
    - *Partly addressed 2026-10-12:* [TOT] gives quantitative melt-side limits: solid solubility 0.03 ml/100 g at 600 °C, a < 0.10 ml/100 g limit against pores in 99.99% slab, and hydrogen pick-up versus humidity (§7.4; ch. 01 §10.1). Still missing: dew-point and lubricant-residue limits for the anneal of strip, coils or slugs, and any blister data for continuously cast strip.
 10. **Corrosion.** Only qualitative statements are available (phase potentials [R13, p.399–402]; lower Fe/Si is better [R3, p.368]). No data cover the effect of Al6(Fe,Mn) or α on pitting or intergranular attack in brazed 3xxx heat-exchanger alloys.
 11. **[TOT] items not recoverable from text** (2026-10-12): the β and α micrographs (Ch. 12 Figs. 18–19), the binary and Al–Mg–Cu hot-cracking maps (Ch. 9 Figs. 11–12), and the Al–Mg–Si crack map mentioned on p.502 (not printed). The Ch. 12 Fe-phase guidelines (Mn/Fe > 0.5, the cooling-rate rule) cite Refs 53–60 on Al–Si foundry alloys; check those originals before applying the numbers to wrought alloys.
-12. **T11-specific open questions** (to be answered by the trial, trials/T11.md §3–4):
+12. **Talum 1-specific open questions** (to be answered by the trial, trials/Talum-1.md §3–4):
     - Fraction of β versus α at the surface and at mid-thickness of the 22 mm strip (§3.7, §3.8), classified with the EDX separator Si ≈ 0.48·(Fe+Mn) (§3.5). If β dominates at mid-thickness, a cast with a higher TiB2 addition (≈ 0.005 % B) or Mn ≈ 0.25 is the next test (§3.8).
     - The actual surface and centre cooling rates (DAS or cell size) of the 22 mm strip, to replace the 19 mm belt-slab analogue in §3.8.
     - Whether any free Si or Mg2Si + Si eutectic forms (§6.5).
@@ -1085,4 +1085,4 @@ Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alk
     - No as-cast ductility, K_IC or CTOD data exist in the library for lean 3xxx/6xxx or for strip-cast material.
     - There is no residual-stress or quench-stress analysis for a 9–15 mm hot band quenched from ≈ 380 °C. The Biot estimate in §6.6.6 is derived, using DC heat-transfer coefficients as an upper bound; the real bath heat-transfer coefficient (film vs nucleate boiling) is unknown.
     - No source covers edge cracking in the in-line hot mill.
-    - *Action:* use the T11 trial checks in item 12. If cracks appear, run a thermal-stress calculation of the bath quench with temperature-dependent as-cast properties, following R7's method (§6.6.2–6.6.3).
+    - *Action:* use the Talum 1 trial checks in item 12. If cracks appear, run a thermal-stress calculation of the bath quench with temperature-dependent as-cast properties, following R7's method (§6.6.2–6.6.3).

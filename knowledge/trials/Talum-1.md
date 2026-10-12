@@ -1,17 +1,18 @@
-# Trial alloy T11 — product name **Talum 1** (first plant trial)
+# Talum 1 — first plant trial alloy
 
-**Name (user, 2026-10-12):** the alloy is called **Talum 1**. T11 stays as the trial/record ID. "Talum 1" is a trade
-name; it does not replace a registered designation. The alloy fits AA8010 only if Cu ≥ 0.10 (§2.1); otherwise it
+**Name (user, 2026-10-12):** the alloy is called **Talum 1**. It was trial ID **T11** until the user renamed it;
+the other alloy-design session and older notes still say Talum 1. "Talum 1" is a trade name; it does not replace a
+registered designation. The alloy fits AA8010 only if Cu ≥ 0.10 (§2.1); otherwise it
 is sold to an own specification.
 
-**Status:** planned (composition from the user's alloy-design session "Aerosol can alloy composition", shared
+**Status:** planned; recommended process window in §2.5 (composition from the user's alloy-design session "Aerosol can alloy composition", shared
 2026-10-12). All property values below are model estimates or inferences; none is plant-tested yet.
 
 ## 1. Composition (wt %)
 
 | Group | Si | Fe | Mn | Mg | Cu | Ti | Zn | Cr |
 |---|---|---|---|---|---|---|---|---|
-| T11 (target) | 0.38 | 0.52 | 0.14 | 0.26 | 0.038 | 0.043 | 0.034 | 0.011 |
+| Talum 1 (target) | 0.38 | 0.52 | 0.14 | 0.26 | 0.038 | 0.043 | 0.034 | 0.011 |
 | min | 0.37 | 0.51 | 0.13 | 0.24 | – | – | – | – |
 | max | 0.39 | 0.53 | 0.15 | 0.28 | 0.042 | 0.050 | 0.050 | 0.030 |
 
@@ -33,24 +34,24 @@ rolling 30–50 % → slugs → anneal (air or N₂) → impact extrusion → 22
 
 *Assessment = inference from the cited chapters. Ratios are derived.*
 
-### 2.1 What T11 is, metallurgically
+### 2.1 What Talum 1 is, metallurgically
 - **Not a 3102/3207-type Al–Mn alloy.** With Mn 0.14, Mg 0.26 and Si 0.38, it behaves like a
   **Mg-bearing, Fe-rich 1xxx/8xxx base with lean-6xxx (Mg–Si) character**.
 - **Registered windows:**
   - 3102 lists no Mg limit, so Mg counts as an "other" at ≤ 0.05, and 0.26 is outside (convention unverified).
   - 3207 needs Mn 0.40–0.8 and Mg ≤ 0.10. 3207A needs Mn ≥ 0.30. [ch17]
-  - So T11 would sell under a customer- or own-specification, not under 3102/3207. Check what the can customers
+  - So Talum 1 would sell under a customer- or own-specification, not under 3102/3207. Check what the can customers
     require.
   - **Closest registered alloy: AA8010** [ch05 §4.8/§4.10, Polmear Table 3.2]: Si 0.40, Fe 0.35–0.7, Cu 0.10–0.30,
     Mn 0.10–0.8, Mg 0.10–0.50, Zn 0.40, Cr 0.20, Ti 0.10.
-    - T11 meets every limit **except Cu** (0.038 vs ≥ 0.10).
-    - Raising Cu to ≈ 0.10–0.12 would make T11 an 8010. Cu also adds work hardening (Cu is the strongest
+    - Talum 1 meets every limit **except Cu** (0.038 vs ≥ 0.10).
+    - Raising Cu to ≈ 0.10–0.12 would make Talum 1 an 8010. Cu also adds work hardening (Cu is the strongest
       work-hardening solute per atom [ch07 §10]) and shifts corrosion towards a general rather than pitting mode
       [ch05 §4.2].
     - **Before changing Cu:** check the other session's unverified "Cu < 0.04 because of a Ball patent" rule
       (§1), check the 8010 limits against the Aluminum Association Teal Sheets [ch17], and check lacquer and
       product compatibility.
-- **Patents:** T11 sits **outside** the captured Ball US 12,385,112 claim-1 window on Si, Fe, Mn and Mg
+- **Patents:** Talum 1 sits **outside** the captured Ball US 12,385,112 claim-1 window on Si, Fe, Mn and Mg
   (window: Si 0.10–0.18, Fe 0.25–0.44, Mn 0.18–0.61, Mg 0.05–0.17) [ch16 §1.5]. It is also outside Talum
   EP 3075875 (Zr-bearing, Mg < 0.01) [ch11 §1.1]. Both are snippet-level; confirm with full claims.
   - EP 3075875 is assigned to **TALUM d.d. (Kidričevo)**. If that is the user's company, it is the company's
@@ -99,13 +100,13 @@ rolling 30–50 % → slugs → anneal (air or N₂) → impact extrusion → 22
        transform it (unverified for this alloy).
      - Levers if β dominates:
        - Mn ≈ 0.25–0.30 (Mn:Fe ≈ 0.5);
-       - more TiB₂ grain refiner (T11's 10 kg AlTi5B1 per 10 t gives ≈ 0.001 % B, vs ≈ 0.005 % B in the cited
+       - more TiB₂ grain refiner (Talum 1's 10 kg AlTi5B1 per 10 t gives ≈ 0.001 % B, vs ≈ 0.005 % B in the cited
          practice);
        - a small Cr addition.
      - Classify particles by EDX with the separator in R25 (ch00).
 2. **Lean-6xxx behaviour (Mg + Si).**
    - Mg 0.26 needs ≈ 0.15 Si for Mg₂Si. After the Fe phases take ≈ 0.13–0.26 Si, roughly 0.1–0.25 Si stays
-     available. So T11 has **≈ 0.3–0.4 wt % Mg₂Si potential (derived)**.
+     available. So Talum 1 has **≈ 0.3–0.4 wt % Mg₂Si potential (derived)**.
    - Consequences:
      - (a) **Slug hardness depends on cooling after the anneal.** Slow furnace cooling precipitates coarse
        Mg₂Si (softer, stable). Faster cooling keeps Mg and Si in solution (harder, bake-responsive).
@@ -129,7 +130,7 @@ rolling 30–50 % → slugs → anneal (air or N₂) → impact extrusion → 22
   - The hot band can **natural-age** during storage before cold rolling [ch04 §6]. Note the storage time.
   - During slow heating in the slug anneal, Mg₂Si can precipitate on the cold-worked structure before RX. At
     0.26 Mg the fraction is small, so the effect should be minor, but watch grain shape.
-- **Low cold strain (ε ≈ 0.36–0.69).** With little Mn pinning, T11 should still recrystallise readily. But
+- **Low cold strain (ε ≈ 0.36–0.69).** With little Mn pinning, Talum 1 should still recrystallise readily. But
   fewer nuclei mean **coarser and more variable grains** than the in-house CRM tables assume (ε ≥ 0.80)
   [ch19 §1.3; ch09 §5].
   - The split is flexible (user), so for the trial set the hot-band gauge to give **ε_cold ≈ 0.85–0.90**: e.g.
@@ -137,11 +138,103 @@ rolling 30–50 % → slugs → anneal (air or N₂) → impact extrusion → 22
     the current split for comparison.
   - Measure grain size and its scatter, including the surface vs centre of the slug.
 
+### 2.5 Recommended process window for the first cast (2026-10-12)
+
+*Inference from the cited chapters. Values marked (estimate) do not come from a source in this knowledge base;
+the trial must confirm them.*
+
+**Numbers the reasoning rests on**
+- **Liquidus ≈ 655 °C** (estimate from linearised binary liquidus slopes, general knowledge; Si and Mg lower it
+  most). It is only a few K below 1xxx and lean 3xxx. Confirm with Thermo-Calc or DSC.
+- **Mg₂Si potential.** Si available = Si − ¼(Fe + Mn) = 0.38 − 0.165 ≈ 0.215 %. With excess Si,
+  Mg₂Si = 1.578 × Mg ≈ **0.41 %**, plus ≈ 0.07 % excess Si [ch06, HB p.169–171] (derived). The GP-zone limit is
+  T_v = 111 + 71 × 0.41 ≈ 140 °C [ch04, TOT p.177] (derived).
+- **Mg₂Si solvus ≈ 360–400 °C** (estimate). It comes from the Al–Mg₂Si solubility curve (1.85 % at 595 °C
+  [ch04]; lower-temperature points from general knowledge), corrected for the excess Si. No solvus data exist in
+  the knowledge base (ch04 gap 14). The lab anneal series LA01 measures it.
+- **Full RX.** The commercial window for lean 3xxx is 345–420 °C [ch03 §4.3]. The in-house tables give
+  340–380 °C at ε_cold ≥ 0.80–0.85 [ch09 §5]. Talum 1 has little Mn but runs at lower cold strain, so expect
+  **≈ 380–410 °C for full RX in 1 h** (estimate).
+
+**1. Melt temperature: 680–690 °C at the caster inlet (superheat ≈ 25–35 K)**
+- **"Melt hot, cast cold"** [ch01, Eskin ch3 p.88]. Dissolve the Al-75Fe and Al-20Mn at ≈ 730–750 °C (general
+  practice), then let the melt cool so it reaches the caster at 680–690 °C. Set the furnace tapping temperature
+  from the measured launder loss.
+- **Why not hotter:**
+  - more hydrogen pick-up [ch01, Eskin ch2 p.24]. With no homogenisation, hydrogen stays in the strip until the
+    slug anneal and then forms blisters [ch01 §10];
+  - feathery grains, which form when a superheated melt meets a water-cooled mould. They give anisotropy and
+    uneven RX [ch01; ch02];
+  - more heat to remove before the strip centre solidifies, hence slower centre solidification, coarser
+    constituents and more β-AlFeSi at the centre (inference from [ch02 §3.8]);
+  - more Mg oxidation and dross (general knowledge).
+- **Why not colder:**
+  - cold folds carrying oxides and pores [ch01, Eskin ch3 p.121], and nozzle freeze-off;
+  - in DC Al–2.8Cu, higher superheat *reduced* hot cracking through eutectic healing [ch02, R12 p.259–262].
+    Talum 1's freezing range is wider than 1xxx, so do not run it colder than the plant's normal practice.
+- **Comparable practice:** twin-roll casting of AA8011/1235 runs at 685 ± 5 °C [ch02 §4.2]. In practice, keep
+  the superheat the plant uses for its standard alloy; do not raise it.
+- **Grain refiner:** feed AlTi5B1 rod into the launder **after** the filter [ch01 §5.4, §10.3]. Fine grain is
+  the main defence against hot tearing [ch01, TOT p.644], and the Talum 1 charge adds only ≈ 0.001 % B (§2.3).
+
+**2. HRM and CRM reductions: cold mill at the top of its range (45–50 %, ε ≈ 0.6–0.7); hot mill takes the rest**
+- The slug gauge fixes the total strain (22 → 6.1 mm: ε = 1.28). Every extra percent of hot reduction is cold
+  strain lost.
+  - Dynamic recovery removes much of the hot strain. Cold strain is what sets the RX nucleus density, the grain
+    size and the anneal temperature needed [ch19 §1.3, P10; ch03 §4.4].
+  - Talum 1 has almost no Mn supersaturation, so the split mainly controls grain size, grain uniformity and
+    anneal temperature (and through it MgO). It does not control precipitation before RX.
+- **Rule:** hot-band gauge ≈ 1.8–2 × slug thickness (derived):
+
+  | Slug | Hot band | Hot reduction | Cold reduction | ε_cold |
+  |---|---|---|---|---|
+  | 6.1 mm | 11.0–12.2 mm | 45–50 % | 45–50 % | 0.60–0.69 |
+  | 6.6 mm | 12.0–13.2 mm | 40–45 % | 45–50 % | 0.60–0.69 |
+  | 7.4 mm | 13.5–14.8 mm | 33–39 % | 45–50 % | 0.60–0.69 |
+
+- **6.1 mm slugs:** 22 → 11 → 6.1 mm fits the plant's ≥ 50 % hot rule.
+- **Thicker slugs** need < 50 % hot reduction to reach this cold strain. A published twin-belt slug route
+  hot-mills 27.9–35.1 mm slab to 6.0–18.0 mm, i.e. hot reductions from ≈ 35 % up [ch15, W15-04] (snippet).
+  Trial one coil and check the macro-etch, porosity and blisters (workbook CS06, HB03, SL06).
+- **Do not go above 50 % hot.** At 60 % hot (8.8 mm) the cold mill gives only 31 % (ε 0.37) for 6.1 mm slugs,
+  and less than 30 % for 7.4 mm (derived).
+- If the cold mill can exceed 50 %, ε 0.85–0.90 (57–59 % cold) is the knowledge-base optimum (ch19 P10 table).
+
+**3. Slug anneal: ≈ 430 °C metal temperature (coldest slug ≥ 420 °C), 1 h soak, pre-heated furnace, N₂ preferred; fast cooling for strength**
+- **One step does both jobs.** 430 °C is above the estimated full-RX temperature *and* the estimated Mg₂Si
+  solvus. The result is a fully recrystallised slug with Mg and Si back in solution.
+- **Fast cooling** after the soak (forced air; record the curve, workbook P5) keeps Mg and Si in solution.
+  - Per wt %, Mg in solution raises can-wall strength the most (≈ 1.3–2× Mn) [ch10 §3.4]. Mg locked in coarse
+    Mg₂Si does little.
+  - Expect a somewhat harder slug, still below ~35 HB. Expect some natural-ageing drift (T_v ≈ 140 °C), so
+    extrude within a fixed slug-age window (workbook SL01).
+- **Slow furnace cooling** instead precipitates coarse Mg₂Si: softer, stable slugs and lower press force, but
+  weaker cans [ch04 §6]. Run both cooling routes as the trial variants.
+- **Pre-heated furnace / fast heating** shortens the time at 250–380 °C. In that range Mg₂Si (and Fe) can
+  precipitate on the deformed structure before RX, giving coarse or elongated grains [ch03 §5.2; R10].
+- **Why not hotter** (470–600 °C, the range used for pure-Al and ReAl slugs [ch11]):
+  - Talum 1 has no Mn supersaturation to remove, and too little Mn to turn β into α, so a high-temperature
+    step buys nothing;
+  - it grows more Mg-rich oxide, since Mg oxide dominates above ≈ 337–400 °C [ch14; R18];
+  - it risks grain growth with few pinning dispersoids.
+- **Why not colder (≤ 380 °C):** RX may be incomplete at ε 0.4–0.7, and Mg₂Si may stay undissolved. Check with
+  LA01.
+- **Atmosphere:** at 430 °C the surface is in the Mg-oxide regime. Use N₂ with O₂ below a few hundred ppm
+  [R18], or keep the time in air as short as possible.
+
+**What the first cast must confirm:**
+- liquidus and Mg₂Si solvus (DSC or Thermo-Calc; LA01 conductivity on water-quenched samples);
+- 100 % RX and grain size at 430 °C (SL02, SL04);
+- MgO in air vs N₂ (SL06);
+- hardness drift after fast vs slow cooling (SL01);
+- can strength and burst (K01–K05);
+- castability at 680–690 °C (CS06, cracks in the process log).
+
 ## 3. What to measure (minimum set)
 
-**Data-collection workbook:** [`T11-data-collection.xlsx`](T11-data-collection.xlsx) turns this plan into a
+**Data-collection workbook:** [`Talum-1-data-collection.xlsx`](Talum-1-data-collection.xlsx) turns this plan into a
 checklist (47 items, priority A/B, each linked to the model it feeds and the chapter/rule behind it), a chemistry
-sheet with the T11 window, a per-coil process log (reductions, true strains, heating rate and slug age calculated)
+sheet with the Talum 1 window, a per-coil process log (reductions, true strains, heating rate and slug age calculated)
 and a one-row-per-reading results sheet. Fill it during the trial and send it back; the values go into §4.
 
 | Stage | Measurement | Why |
@@ -155,7 +248,7 @@ and a one-row-per-reading results sheet. Fill it during the trial and send it ba
 | Cans | Burst / deformation pressure **after the 220 °C / 10 min bake** (the H4x-type lacquered condition) vs current alloy at the same wall | The real strength target |
 | Control | Run the current production alloy through the same steps | Baseline |
 
-**Optional sister cast,** if a second melt is possible: same as T11 but Si ≈ 0.25 (Fe:Si ≈ 2) or Mn ≈ 0.25.
+**Optional sister cast,** if a second melt is possible: same as Talum 1 but Si ≈ 0.25 (Fe:Si ≈ 2) or Mn ≈ 0.25.
 That separates the β-phase risk from the Mg effect. Any variant must be re-checked against the patent windows
 in ch16.
 

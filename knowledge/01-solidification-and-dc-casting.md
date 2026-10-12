@@ -2,7 +2,7 @@
 
 **Scope.** This file distils the physical metallurgy of direct-chill (DC) casting into data we can use for alloy design and process modelling. The chain covered is: composition → solidification path → as-cast structure (grain size, DAS, intermetallics, eutectic) → segregation and casting defects (macrosegregation, hot tearing, porosity, surface defects) → what this means for homogenisation. The main targets are wrought 3xxx heat-exchanger and foil alloys (AA3102/AA3207 type), with 1xxx, 5xxx, 6xxx and 8xxx as secondary targets. The source works mostly with Al–Cu model alloys, 2024 and 7075, so any transfer to our alloys is labelled **Inference**.
 
-**Compiled:** 2026-10-12. **Main source:** D.G. Eskin, *Physical Metallurgy of Direct Chill Casting of Aluminum Alloys*, CRC Press / Taylor & Francis, 2008 (ISBN 978-1-4200-6281-6), supplied as chapter PDFs. **Second source (full-text pass 2026-10-12):** Totten & MacKenzie (eds.), *Handbook of Aluminum, Vol. 1* (Marcel Dekker 2003; catalogue S-029), cited as [TOT p.X]. It fills the gaps on DAS relations (§2.5), nucleation and inoculation (§5.4), the hot-cracking mechanism (§9.7), and hydrogen, degassing, inclusions, filtration and alkali removal (§10.1–10.4). Notes on the user's rotary strip caster and trial alloy T11 are marked **Relevance** and collected in §11 item 6.
+**Compiled:** 2026-10-12. **Main source:** D.G. Eskin, *Physical Metallurgy of Direct Chill Casting of Aluminum Alloys*, CRC Press / Taylor & Francis, 2008 (ISBN 978-1-4200-6281-6), supplied as chapter PDFs. **Second source (full-text pass 2026-10-12):** Totten & MacKenzie (eds.), *Handbook of Aluminum, Vol. 1* (Marcel Dekker 2003; catalogue S-029), cited as [TOT p.X]. It fills the gaps on DAS relations (§2.5), nucleation and inoculation (§5.4), the hot-cracking mechanism (§9.7), and hydrogen, degassing, inclusions, filtration and alkali removal (§10.1–10.4). Notes on the user's rotary strip caster and trial alloy Talum 1 are marked **Relevance** and collected in §11 item 6.
 
 ## Sources
 
@@ -190,7 +190,7 @@ Table 3.1 coefficients for Eq. 3.7 [ch3, p.96]. The printed units are "α, 10⁴
   - On a metal chill the HTC first rises as the dendritic network forms at the interface. It falls when eutectic forms and the shrinkage gap opens (Figs. 37–38; values figure-only).
 - **Relevance (rotary caster, 22 mm strip):**
   - (inference) The strip freezes against a water-cooled wheel groove and a band, so the same sequence of good contact followed by a shrinkage gap should apply on both faces.
-  - (inference) The through-thickness DAS profile is the practical record of the local cooling rate. No TOT or Eskin relation has constants for a 3xxx- or T11-type alloy. Measure SDAS at the surface, quarter and centre of the cast strip. Then back-calculate the cooling rate with d = C·Vc^−n (§2.2), after calibrating C on lab castings of the same alloy made at known rates.
+  - (inference) The through-thickness DAS profile is the practical record of the local cooling rate. No TOT or Eskin relation has constants for a 3xxx- or Talum 1-type alloy. Measure SDAS at the surface, quarter and centre of the cast strip. Then back-calculate the cooling rate with d = C·Vc^−n (§2.2), after calibrating C on lab castings of the same alloy made at known rates.
   - Strip-casting cooling rates from the web literature are in ch. 15.
 
 ---
@@ -384,13 +384,13 @@ General points: real as-cast phase assemblages differ from equilibrium (suppress
   - In Al–Si alloys grain refinement reduces hydrogen porosity.
   - "Fine grain size is necessary to avoid solidification cracking" [TOT p.644].
 - **Refiner and melt treatment.** Gas purging does not remove TiB2, which is well wetted, but filtration can. Al–Ti–B may therefore be added before rotary degassing, but not before a filter that removes TiB2 [TOT p.672]. TiB2 clusters of 1–50 µm are themselves listed as inclusions [TOT p.666].
-- **Relevance (trial T11, Ti 0.043 with AlTi5B1):**
-  - (derived from the T11 charge [trials/T11.md §1]) 10 kg AlTi5B1 per 10 t adds only ≈ 0.005% Ti and ≈ 0.001% B. Most of the 0.043% Ti therefore comes with the scrap. Total Ti lies above TOT's 0.01–0.03% "effective" range and well below the 0.15% peritectic level, so refinement rests on TiB2 plus Ti in solution.
-  - (derived, rough) Growth restriction Q = m·C0·(K − 1) for T11:
+- **Relevance (trial Talum 1, Ti 0.043 with AlTi5B1):**
+  - (derived from the Talum 1 charge [trials/Talum-1.md §1]) 10 kg AlTi5B1 per 10 t adds only ≈ 0.005% Ti and ≈ 0.001% B. Most of the 0.043% Ti therefore comes with the scrap. Total Ti lies above TOT's 0.01–0.03% "effective" range and well below the 0.15% peritectic level, so refinement rests on TiB2 plus Ti in solution.
+  - (derived, rough) Growth restriction Q = m·C0·(K − 1) for Talum 1:
     - Ti: from Eskin's Q ≈ 35 at 0.15% Ti (≈ 233 K per wt%), ≈ 0.04% Ti in solution gives ≈ 9–10 K. (TiB2 binds ≈ 2.2 × the B mass of Ti, general knowledge, i.e. only ≈ 0.002% Ti here.)
     - Other elements, with linearised binary liquidus slopes m = (TE − 660 °C)/CE and k from [TOT p.490–491] (Tm = 660 °C, general knowledge): Si ≈ 2.3 K; Fe ≈ 1.4 K; Mg ≈ 0.9 K; Cu ≈ 0.1 K; Mn ≈ 0.01 K.
     - Sum ≈ 14 K, with Ti dominant. Q additivity is questionable [ch2, p.64–65] and the slopes are crude. Use the numbers for ranking only.
-  - (inference) T11 is charged with AlTi5B1 in the furnace [trials/T11.md §1]. If a fine filter is installed (deep bed or ≥ 50 ppi foam, §10.3), part of the TiB2 can be caught there. Feeding refiner rod after the filter is the safer arrangement.
+  - (inference) Talum 1 is charged with AlTi5B1 in the furnace [trials/Talum-1.md §1]. If a fine filter is installed (deep bed or ≥ 50 ppi foam, §10.3), part of the TiB2 can be caught there. Feeding refiner rod after the filter is the safer arrangement.
 
 ---
 
@@ -843,15 +843,15 @@ Table 5.1: melt 720–730°C, cooling 12–18 K/s [ch5, p.196]
   - A KCl–MgCl2 flux (melting point 480 °C) is used in Europe on recycled scrap for thin sheet and foil [TOT p.691].
 - In Mg-bearing melts 52–95% of the injected chlorine converts to MgCl2, depending on Mg level and injector (Table 3) [TOT p.688].
 
-**Relevance of §10.1–10.4 to the rotary caster and trial T11** (inference unless cited)
+**Relevance of §10.1–10.4 to the rotary caster and trial Talum 1** (inference unless cited)
 - **Hydrogen stays in the strip.** There is no ingot homogenisation, and the strip cools fast, so hydrogen above the solid solubility stays in supersaturated solution [TOT p.644]. The slug anneal is the first long high-temperature step, where it can precipitate into pores, oxide films and particle interfaces, i.e. blisters (ch. 02 §7). Take < 0.10 ml/100 g [TOT p.661] as a starting melt specification and measure hydrogen at the launder, noting the season and humidity.
-- **T11's hydrogen behaviour** should resemble 1100 or 6063 (fH 1.01–1.04 [TOT p.653]) by composition similarity; its 0.26% Mg raises solubility only slightly [TOT p.595].
+- **Talum 1's hydrogen behaviour** should resemble 1100 or 6063 (fH 1.01–1.04 [TOT p.653]) by composition similarity; its 0.26% Mg raises solubility only slightly [TOT p.595].
 - **Scrap-rich charge.**
   - Expect more old oxides, plus MgO and spinel from the Mg-bearing scrap and alloying [TOT p.666].
   - A 30 ppi foam is only a pre-filter for can-grade metal [TOT p.677]. Use ≥ 50 ppi foam, a deep bed or a cartridge filter. Deep-bed life is shortest with unfluxed low-grade scrap [TOT p.678].
   - Filters release inclusions at the start of a cast [TOT p.678]; scrap the first strip.
 - **Young oxides at the wheel.** Keep free-surface velocities in the launder, tundish and nozzle feeding the wheel below 0.5 m/s [TOT p.118].
-- **Alkali.** T11 contains Mg and is hot rolled in line at ≥ 50%, so Na at the ppm level matters [TOT p.643]. Flux in the furnace (chlorine or MgCl2-based salt), not with in-line chlorine [TOT p.685].
+- **Alkali.** Talum 1 contains Mg and is hot rolled in line at ≥ 50%, so Na at the ppm level matters [TOT p.643]. Flux in the furnace (chlorine or MgCl2-based salt), not with in-line chlorine [TOT p.685].
 - **Refiner placement:** see §5.4.
 
 ---
@@ -888,10 +888,10 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
    - Ramp start-up gently [ch3, p.86; ch5, p.249–251].
    - Keep nucleate boiling but do not over-water [ch3, p.86–88].
    - Moderate superheat [ch2, p.24; ch5, p.259–262].
-6. **Rotary (wheel-type) strip caster and trial T11: relevance summary** (added 2026-10-12; inference unless cited)
-   - **Context.** 22 mm strip leaves the caster at ≈ 500 °C and goes straight to in-line hot rolling; there is no ingot homogenisation; the melts are scrap-rich. T11 is Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04, Ti 0.043 with AlTi5B1 [trials/T11.md §1]. Neither Eskin nor [TOT] has solidification data for continuously cast strip (§13 item 6).
+6. **Rotary (wheel-type) strip caster and trial Talum 1: relevance summary** (added 2026-10-12; inference unless cited)
+   - **Context.** 22 mm strip leaves the caster at ≈ 500 °C and goes straight to in-line hot rolling; there is no ingot homogenisation; the melts are scrap-rich. Talum 1 is Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04, Ti 0.043 with AlTi5B1 [trials/Talum-1.md §1]. Neither Eskin nor [TOT] has solidification data for continuously cast strip (§13 item 6).
    - **Structure scale.** Use the through-thickness SDAS profile of the cast strip as the cooling-rate record. Calibrate d = C·Vc^−n on lab castings first (§2.2, §2.5).
-   - **Phase path.** T11 has the same Si as the 6063 of §4.1 (0.39 Si, 0.43 Mg, 0.2 Fe) and less Mg. That 6063 forms cubic α and then β by L + α → (Al) + Al5FeSi at 613/610 °C at both 0.5 and 15 K/s (§4.1) [ch2, p.49]. T11 has 2.6× the Fe of that 6063 (derived), so β is a real risk, most of all in the slower-cooled mid-thickness. Phase selection is in ch. 02 §3.7.
+   - **Phase path.** Talum 1 has the same Si as the 6063 of §4.1 (0.39 Si, 0.43 Mg, 0.2 Fe) and less Mg. That 6063 forms cubic α and then β by L + α → (Al) + Al5FeSi at 613/610 °C at both 0.5 and 15 K/s (§4.1) [ch2, p.49]. Talum 1 has 2.6× the Fe of that 6063 (derived), so β is a real risk, most of all in the slower-cooled mid-thickness. Phase selection is in ch. 02 §3.7.
    - **Solidus and the hot mill.** The lowest non-equilibrium solidus in this chemistry family is 555 °C if free Si forms (§4.5) [ch2, p.47], or 573–576 °C for β + (Si) (§4.2) [ch2, p.45]. (derived) The ≈ 500 °C exit temperature is ≥ 55 K below these values, so the hot mill should see fully solid strip, provided the 500 °C reading represents mid-thickness. A surface pyrometer can understate the centre temperature.
    - **Hot tearing.** Lean Mg + Si alloys sit near the peak of the susceptibility curve (§9.5, §9.7; ch. 02 §6.5). Keep grains refined and dendritic (§5.4), the melt clean (oxide films start tears, §9.7), and strain in the wheel–band zone low while fs > 0.9 (§9.1).
    - **Melt.** Degas to < 0.10 ml/100 g; filter with ≥ 50 ppi foam, a deep bed or a cartridge; flux alkalis in the furnace, not in line; add the refiner after the filter (§5.4, §10.1–10.4).
@@ -966,14 +966,14 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
 
 1. **Missing chapter:** *Concluding Remarks* (p. 275, `62816_CH06.pdf`) is referenced but absent from Drive. Ask the user whether it exists.
 2. **No tabulated liquidus slopes (m) and no Q table for Mn, Fe, Si, Mg, Cu, Zn, Cr, Zr.** Eskin gives only K values (Table 4.9) and Q for Ti and Sc.
-   - *Partly addressed 2026-10-12:* [TOT] Tables 2–3 give binary eutectic temperatures, eutectic compositions and k [TOT p.490–491]. From these, linearised slopes can be derived, as used for the rough T11 ranking in §5.4. Proper m values are still needed, e.g. Easton and StJohn or CALPHAD (general knowledge).
+   - *Partly addressed 2026-10-12:* [TOT] Tables 2–3 give binary eutectic temperatures, eutectic compositions and k [TOT p.490–491]. From these, linearised slopes can be derived, as used for the rough Talum 1 ranking in §5.4. Proper m values are still needed, e.g. Easton and StJohn or CALPHAD (general knowledge).
    - The two books' k values differ: Mn 0.95 [TOT p.491] vs 0.82 [ch4, p.172]; Fe 0.022 [TOT p.491] vs 0.03 [ch4, p.172]. Do not reuse binary k values blindly in multicomponent 3xxx.
 3. **No quantitative transition-metal supersaturation (Mn, Fe, Cr, Zr, Sc) vs cooling rate.** Neither is there dispersoid-precipitation or homogenisation kinetics.
    - [TOT] adds one data point: typical as-cast 3003 ingot holds 0.7–0.9 wt% Mn in solution [TOT p.160].
    - The rest must come from other sources, such as Belov et al. *Iron in Aluminum Alloys* (cited [ch2, ref 31]), the 3xxx homogenisation literature, or Alstruc-type models (mentioned [ch2, p.33]).
 4. **Gas porosity: partly resolved 2026-10-12.** Hydrogen solubility (liquid and solid equations, alloy table, activity coefficients), pick-up from humidity, degassing limits and the pore-pressure condition are now in §10.1–10.2 [TOT]. Still missing:
    - Constants for a porosity model: the Niyama critical value, pore nucleation pressures, and the direction of the Niyama criterion as printed (§10.1).
-   - Hydrogen solubility for 3xxx or T11-type compositions. Only fH for 3003, 1100 and 6063 is given, at one condition [TOT p.653].
+   - Hydrogen solubility for 3xxx or Talum 1-type compositions. Only fH for 3003, 1100 and 6063 is given, at one condition [TOT p.653].
    - Any porosity data for strip casting. Eskin's porosity data are for Al–Cu billets only [ch5, p.267–269].
 5. **Cold-cracking criteria and residual-stress data** are essentially absent; there are only historical remarks.
 6. **No solidification data for twin-roll, belt or wheel strip casting.** The DC cooling-rate ranges (0.1–20 K/s) do not include strip-casting rates, so extrapolating the phase-selection data to the user's rotary caster is unverified. [TOT] names twin-roll (≥ 6 mm) and belt casters (16–20 mm) only as rolling-mill feed routes [TOT p.352–354]. Web data on strip casting are in ch. 15.
@@ -990,7 +990,7 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
    - [TOT] items: the unit of Ch. 12 Table 2 (printed "ppm", probably ml/100 g) [TOT p.596]; the Ti:B ratio "3:50" [TOT p.604]; the direction of the Niyama criterion [TOT p.632]; K/s vs K/min in Tensi's 40–300 range [TOT p.746]; and "0.07 ml/100 g ≈ 0.07 ppm" [TOT p.647], which conflicts with "0.01 ppm (0.011 ml/100 g)" [TOT p.655].
 9. **Figure-only data were not recoverable**, e.g. Fig. 1.5 DAS vs solidification rate, Fig. 2.3 grain size and DAS vs cooling rate for Al–Cu, Fig. 3.19/3.23 radial grain-size and DAS profiles, and Fig. 2.19 Al–Mg–Mn liquidus and solidus isotherms. Digitise them from the PDFs if the model needs them.
    - [TOT] figure-only items: Ch. 12 Fig. 7 (DAS vs solidification rate, Refs 26–31), Fig. 2 (H removal vs bubble size), Fig. 37 (interfacial HTC vs time); Ch. 13 Figs. 14 and 25 (degassing efficiency vs rotor speed; attainable H vs fH); Ch. 9 Figs. 11–12 (binary and Al–Mg–Cu hot-cracking peaks).
-   - The DAS–cooling-rate gap is narrowed by the text equations in §2.5, but there are still no alloy constants for 3xxx or T11.
+   - The DAS–cooling-rate gap is narrowed by the text equations in §2.5, but there are still no alloy constants for 3xxx or Talum 1.
 10. **Unresolved physics flagged by the author:**
     - The cause of the eutectic-fraction minimum at the billet centre [ch3, p.113].
     - The coarsening-exponent dependence on cooling rate and convection [ch2, p.38].
@@ -1003,7 +1003,7 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
     - Partition coefficients of Mn and Fe (item 2).
     - Hydrogen solubility drop on freezing: "10-fold" [TOT p.119] vs ≈ 19× from the Ransley equations [TOT p.74] (derived, §10.1).
     - Effect of Fe on hot tearing: "improves hot tear resistance" in foundry alloys [TOT p.592] vs a higher susceptibility in 2038 and the 6xxx peak at 0.3–0.4% Fe [ch5, p.217–220] (see ch. 02 §6.5).
-12. **Rotary-caster and T11 questions this chapter cannot answer from its sources** (to be filled from the T11 trial, trials/T11.md §4):
+12. **Rotary-caster and Talum 1 questions this chapter cannot answer from its sources** (to be filled from the Talum 1 trial, trials/Talum-1.md §4):
     - Through-thickness cooling rate and SDAS of the 22 mm strip.
     - Mid-thickness temperature at the caster exit, against the 555–576 °C solidus values (§11 item 6).
     - Melt hydrogen and inclusion levels achieved with the actual scrap charge, degasser and filter.

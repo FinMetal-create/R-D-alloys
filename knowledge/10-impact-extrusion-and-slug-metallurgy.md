@@ -213,7 +213,7 @@ Sensitivity: dp/dσ_UTS ≈ 11.5 → **+10 MPa slug UTS ≈ +115 MPa ram pressur
 - 35 HB corresponds to Rm = 130 MPa in both 1070-H18 and 3003-H12 [TOT p.815].
 - With Rm = 130–147 MPa at 35 HB, the forces above rise by ≈ 3–17 %: Ø53 flat ram ≈ 403–456 t (at or above the 400 t
   rating), Ø53 conical ≈ 336–380 t *(derived)*.
-- So for Mg-bearing slugs (T11, modified 3102), measure Rm directly instead of converting HB.
+- So for Mg-bearing slugs (Talum 1, modified 3102), measure Rm directly instead of converting HB.
 - P1 may overstate the penalty of hardness that comes from residual cold work (see (e)).
 
 **(b) Slab model (P2) for Ø53 (s = R_C−R_R = 0.44 mm, R_R = 26.06 mm).** p_R/σ₀ = 2.155 + a·T + b/T with a = 0.2887
@@ -661,7 +661,7 @@ The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to 
   stronger than AA1050 at large strain [S-052 p.109]. **The two Drive sources therefore disagree for commercial
   alloys**, and the disagreement is explained by Ryen's Mn–Fe–Si cluster hypothesis (§3.3). Use HB's Mn values only
   for high-purity Al–Mn.
-- **Relevance to T11 (Mg 0.26, Mn 0.14, Fe 0.52, Si 0.38)** *(inference)*: Ryen's lowest Mg alloy (0.48 %) gives
+- **Relevance to Talum 1 (Mg 0.26, Mn 0.14, Fe 0.52, Si 0.38)** *(inference)*: Ryen's lowest Mg alloy (0.48 %) gives
   ≈ 77–94 MPa/wt.%, so 0.26 Mg should add ≈ 20–25 MPa to the wall (derived, extrapolated below Ryen's range). The
   quenched, unhomogenised strip keeps Mn, Fe and Si in solution (CLAUDE.md), which is exactly the condition in which
   Ryen sees strong Mn–Fe–Si cluster strengthening (as-cast AA3103 had the highest yield, 58 MPa [S-052 p.91], though its particle structure also differs [S-052 p.103]). How
@@ -694,7 +694,7 @@ The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to 
     carrying residual cold work, with H12–H18 ductility (6–10 % elongation vs 30–43 % in O) *(derived)*. HB alone
     cannot tell the two apart; RX fraction and grain size can (§7).
   - *Corrected after full-text pass:* Rm/HB is 3.6–3.9 for 1xxx/3xxx but 4.1–4.2 for Mg-bearing 5052-O and 6061-O
-    *(derived)*. "Rm ≈ 3.6·HB" is the low end: use ≈ 3.75 for 1xxx/3xxx and measure Mg-bearing slugs (T11).
+    *(derived)*. "Rm ≈ 3.6·HB" is the low end: use ≈ 3.75 for 1xxx/3xxx and measure Mg-bearing slugs (Talum 1).
 - Forging alloys need "ductility and low flow stress"; "soft material causes low stress on the die" [TOT p.814].
 - Benchmarks: Al99.5 hot band 23–25 HB → **+20 % cold reduction ≈ 33 HB** (Table 3-1); 1060-O 19, 1100-O 23 / H14 32 /
   H18 44 HB [S-029 Table 20 via ch.06]; 3003-O 28 / H14 40 HB (ASM values in W-15/16, ch.09 §6.3).
@@ -877,7 +877,7 @@ The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to 
 - Pinholes/fractures are screened by pressure/leak testing [S-055 step 11; S-057 item 19].
 - Stretcher-strain markings occur "especially" in Al–Mg alloys: Type A (irregular, yield-point elongation) and Type B
   (regular, serrated flow); they cannot be hidden by paint [TOT pp.855–856]. No Mg threshold is given. At 0.26–0.35 %
-  Mg (T11, modified 3102) the risk is probably low (DSA and shear banding become frequent only above ≈ 2–3 % Mg, §3.3),
+  Mg (Talum 1, modified 3102) the risk is probably low (DSA and shear banding become frequent only above ≈ 2–3 % Mg, §3.3),
   but check the necked and re-expanded zones of the first cans *(inference)*.
 - *Partly closed after full-text pass:* galling is pressure welding in sliding contact [TOT p.854]; laps form at
   small corner radii [TOT p.798]; die checking and wear concentrate at die corners [TOT pp.799–801]. Still **no
@@ -898,9 +898,9 @@ The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to 
     before burst testing, and then sees the 220 °C bake, starts from the lower value (inference).
 - **Wall strength and press force are coupled** *(derived, §2.5e, §3.4)*. Both are set by the large-strain flow
   stress, so any strength the slug carries costs ram pressure at roughly 1/c. Strength added **after** extrusion,
-  by strain ageing or Mg–Si clustering in the 220 °C / 10 min bake, does not. For T11 (Mg 0.26, Si 0.38), Mg and Si
+  by strain ageing or Mg–Si clustering in the 220 °C / 10 min bake, does not. For Talum 1 (Mg 0.26, Si 0.38), Mg and Si
   are held in solution by the hot-band quench, and stay there only if the slug is cooled fast enough after its anneal
-  (trials/T11 §2.3 risk 2a, §2.4). The bake response is then the most force-efficient strength lever, provided
+  (trials/Talum-1 §2.3 risk 2a, §2.4). The bake response is then the most force-efficient strength lever, provided
   recovery of the heavily worked wall does not cancel it *(inference; unmeasured, §10 #6)*.
 - The downstream re-expansion steps of necking (S-058) stretch the wall. In sheet forming the forming limit is
   lowest in plane strain [TOT p.840], and low-n material localises strain early [TOT p.851]; a stage-IV wall has very
@@ -943,7 +943,7 @@ The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to 
 | Punch nose and corner radii | — | conical vs flat: flat ×1.2 force; corner-filling pressure ∝ ln(r/R) | larger radii avoid contraction, dead metal, laps at the base corner | stability (conical nose, centring); punch stress at ≈ 1.4–1.5 GPa (Kuhn's hot-die guide value 1400 MPa) | [S-053 pp.2, 10]; [TOT pp.797–805, 813, 823–824] |
 | Residual bottom thickness | — | thinner bottom → friction-dominated force spike at end of stroke (§2.5b) | — | pen-housing tool needed ≥ 3.1 mm bottom for die life; contraction at the bottom corner when the billet gets short | [TOT pp.813, 824, 828] |
 | Extrusion speed | — | strain-rate effect on flow stress small (m = 0.005, ≈ +7 % per 10⁶) but adiabatic heating larger | — | body force (inertia) of the extruded part adds tension (chevron cracks in rod extrusion; slowing down helped) | [TOT pp.823, 833, 853] |
-| Bake response (Mg + Si kept in solution) | none in the slug if Mg/Si stay in solution | **no extra force** | wall strengthening in the 220 °C / 10 min bake, if it outweighs recovery | slug hardness drifts with storage (natural ageing, trials/T11) | *(inference; unmeasured)* §6 |
+| Bake response (Mg + Si kept in solution) | none in the slug if Mg/Si stay in solution | **no extra force** | wall strengthening in the 220 °C / 10 min bake, if it outweighs recovery | slug hardness drifts with storage (natural ageing, trials/Talum-1) | *(inference; unmeasured)* §6 |
 | Warm extrusion (tools heated) | — | lower flow stress, higher ductility (≈ 200–300 °C window for RS Al) | lower wall strength | lubricant change, tool heating | [S-053 pp.48, 93] |
 
 **Ranking for lean-3xxx slug design** *(inference; revised after full-text pass)*:
@@ -1018,9 +1018,9 @@ unit press force" re-checked on measured curves (§3.4).*
    conversion pre-treatments for Al slugs would be — backward cup extrusion p.474, ironing p.476). It exceeds the
    connector limits (28.6 MB; ≈ 125 k-char export) — needs a page-split copy in Drive (parts ≤ ≈ 6 MB download
    reliably). *Ryen §4.5 and Ch.5 were read in full on 2026-10-12 (resolved).*
-2. **No large-strain compression flow curves for the slug alloys** (3102, 3207, modified 3102, T11). A pure-Al
+2. **No large-strain compression flow curves for the slug alloys** (3102, 3207, modified 3102, Talum 1). A pure-Al
    reference now exists (99.7 % Al to ε = 4.4, Table 3-2 [TOT p.811]), and Ryen's rolled-then-tensile data cover
-   AA1050, AlMg0.5–3 and AA3103-B to ε_vM 3.46 (Table 3-3). Neither covers a lean Fe-rich Mg–Si alloy such as T11,
+   AA1050, AlMg0.5–3 and AA3103-B to ε_vM 3.46 (Table 3-3). Neither covers a lean Fe-rich Mg–Si alloy such as Talum 1,
    and rolled-then-tensile data include static recovery between passes (§3.1). Measure annealed slugs by **re-shape upsetting**
    (h/d 1.5 → 0.5 per step, ≈ 5–6 steps to ε ≈ 4 [TOT p.810]) or Rastegaev compression [S-053 pp.54–58], plus torsion
    to ε ≈ 3, at 20–250 °C and 10⁻²–10² s⁻¹. These curves feed the work method (M19), which ranks alloys by press force
@@ -1036,10 +1036,10 @@ unit press force" re-checked on measured curves (§3.4).*
    the work-method prediction (§2.5e) that residual cold work raises force far less than HB suggests. By P1, 23 → 35 HB
    implies ≈ +52 % force, and the Ø53 flat ram reaches ≈ 391 t at 35 HB (≈ 403–456 t if Rm/HB is 3.75–4.2, §2.5a).
 6. **Bake response of the extruded wall** through the 220 °C / 10 min lacquer bake (and IBO/pin-chain cycles) for 3102,
-   modified 3102, 3207 and T11: wall HV vs height and inner/outer side [S-053 p.94]. For T11 this decides whether
+   modified 3102, 3207 and Talum 1: wall HV vs height and inner/outer side [S-053 p.94]. For Talum 1 this decides whether
    Mg + Si in solution give force-free strength (§6) or the wall simply recovers.
 7. **HB ↔ Rm conversion** for the in-house alloys: 3.6–3.9 for 1xxx/3xxx and 4.1–4.2 for Mg-bearing 5052-O/6061-O
-   [TOT p.815] → measure Rm on T11 and modified-3102 slugs.
+   [TOT p.815] → measure Rm on Talum 1 and modified-3102 slugs.
 8. **Hydrostatic-pressure sensitivity w** of Al flow stress at ~1 GPa (none in sources).
 9. **Temperature and strain-rate history** of the wall (thermocouple/IR on ejected cans; FE). The adiabatic bound is
    now ≈ 165–260 K for pure Al (§2.7) and higher for stronger alloys; unvalidated.
@@ -1057,20 +1057,20 @@ unit press force" re-checked on measured curves (§3.4).*
 13. **Phosphate or conversion pre-treatments for Al slugs**: no source (zinc phosphate documented for steel only
     [S-053 p.4]); see Schuler §6.3.3 (#1).
 14. **Stretcher strains** in the necked and re-expanded wall at 0.26–0.35 % Mg (Type A/B [TOT pp.855–856]): check
-    the first T11 cans visually.
+    the first Talum 1 cans visually.
 15. **Backward-can analogue of chevron cracking** (wall inertia pulling on the base corner near bottom dead centre,
     §5.2): no data; compare base-corner damage at two press speeds if the press allows.
 16. **Solute clusters in unhomogenised strip** (new, Ryen full-text pass). Ryen attributes most of commercial
     AA3103's strength over AA1050 to Mn–Fe–Si clusters that form at RT after quenching and dissolve at hot-working
     temperatures [S-052 pp.104–109]; the clusters were not observed directly [S-052 p.131]. The rotary route quenches
-    Mn, Fe and Si in solution (CLAUDE.md), so T11 and the 3102 variants may carry a sizeable cluster term in the hot
+    Mn, Fe and Si in solution (CLAUDE.md), so Talum 1 and the 3102 variants may carry a sizeable cluster term in the hot
     band and possibly in the slug. Measure conductivity and HB of the quenched hot band, after cold rolling, and after
     the slug anneal. Precipitation of Mn/Fe raises conductivity markedly, whereas forming or dissolving clusters
     changes it much less (general knowledge), so an HB change without a matching conductivity change would point to
     clusters (inference). Ryen used the same conductivity check to rule out dispersoid precipitation [S-052 p.57]. This term moves slug hardness, press force and wall strength together.
-17. **Stage-IV rate of T11-type alloys.** Ryen's θ_IV is nearly alloy-invariant for Mg ≤ 4.5 % and for AA3103 [S-052
+17. **Stage-IV rate of Talum 1-type alloys.** Ryen's θ_IV is nearly alloy-invariant for Mg ≤ 4.5 % and for AA3103 [S-052
     pp.110–112], but no source covers Mg + Si in solution (dynamic strain ageing, clustering during deformation) at
-    ε_vM > 1. Cold roll T11 strip to ε ≈ 2–3 and tensile test (the Ryen method) as a cheap proxy for wall strength
+    ε_vM > 1. Cold roll Talum 1 strip to ε ≈ 2–3 and tensile test (the Ryen method) as a cheap proxy for wall strength
     before the first press trial.
 
 ---

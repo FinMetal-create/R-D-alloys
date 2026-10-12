@@ -300,7 +300,7 @@ Use inexpensive, high-information measurements first [ch03 §5.2; ch13; ch18].
      10 MB are refused outright.
 
    The truncated sources under the limit have been read in full (Dwight, Kaufman, Schröder, EAA, Belov, Davis,
-   the blister paper and Junit; see each chapter's coverage table). Books above the limit
+   the blister paper, Junit, Farrar, Everhart and Thienel; see each chapter's coverage table). Books above the limit
    can be read in full once they are saved in Drive as parts of **≤ ~5 MB** each:
    - Totten, *Handbook of Aluminum* Vol. 1 (17.7 MB);
    - Humphreys & Hatherly (12.7 MB);

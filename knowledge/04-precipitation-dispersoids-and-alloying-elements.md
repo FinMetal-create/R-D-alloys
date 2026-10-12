@@ -65,6 +65,10 @@ Not used:
    - The Fe-phase type decides how much Si stays free for Mg₂Si. The rule Si(available) = Si − ¼(Fe + Mn) [TOT p.171 Eq 26] gives ≈ 0.22 % for T11 (derived). If β-Al₅FeSi forms instead, only ≈ 0.07–0.12 % is left (derived, §6.4).
    - Dilute Mg₂Si alloys (< 0.8–0.9 %) gain, not lose, from room-temperature storage before artificial ageing [TOT pp.175–176, 279; R11 pp.141–142].
    - Fe retained in solution by fast casting raises the recrystallisation onset (+65 K at 0.04 at% Fe in Yelagin's binaries) through fine Al–Fe precipitation during the anneal [TOT pp.140, 296 Table 35].
+8. **Room-temperature clustering runs on quenched-in vacancies, and 200–250 °C is the cluster-reversion window.** (Added after the [R5] full-text pass; details in §6.5–6.6.)
+   - In Al–Cu–(Li,Mg) quenched from 500 °C, natural ageing is mostly done in 24 h, hardness saturates after ≈ 10 h, and the 72 h state is stable for 6 months [R5 pp.30–31, 71]. Mg accelerates clustering with no threshold; Mg is thought to raise the number or mobility of free vacancies [R5 pp.103, 109].
+   - Once the quenched-in vacancies are gone, dissolved solute does not re-cluster at room temperature for 20 days [R5 p.102]. **Storage drift is therefore set by the last fast cooling, not by the solute content alone** (inference for T11 slugs).
+   - Natural-ageing clusters dissolve within seconds to a minute at 200–250 °C, and dissolution overlaps with the start of precipitation [R5 pp.92, 95–96]. The 220 °C/10 min bake lies in this window, so clusters formed in storage should revert early in the bake (inference, transferred from Al–Cu–(Li,Mg)).
 
 ---
 
@@ -209,12 +213,22 @@ Sources: binary and Fe columns from [R8 p.12 Table 1.9; values below 654 °C are
 | Vacancy formation / migration / self-diffusion energy | E_f = 0.76 eV, E_m = 0.65 eV, E_sd = 1.4 eV (single vacancy); divacancy binding 0.17 eV, migration 0.50 eV | pure Al | [TOT p.40 Table 8] |
 | Vacancy formation energy | ≈ 0.7 eV | pure Al | [TOT p.86] |
 | Solute transport during GP-zone formation | several orders of magnitude faster than normal diffusion at the same temperature (quenched-in vacancies); ≈ 10⁷× the expected rate in Al–Cu | after quench | [TOT pp.128, 271] |
+| D₀, Q for Cu in Al | 4.44×10⁻⁵ m² s⁻¹, 133.9 kJ mol⁻¹ (Du et al. 2003); 1.00×10⁻⁵, 127.6 (Doig & Edington 1973); 4.37×10⁻⁶, 120.6 (Mantina et al. 2009, first principles) | Arrhenius | [R5 p.121 Table 10] (secondary compilation) |
+| D₀, Q for Mg in Al | 1.49×10⁻⁵ m² s⁻¹, 120.5 kJ mol⁻¹ (Du); 1.00×10⁻⁶, 110.0 (Doig & Edington); 1.19×10⁻⁵, 122.5 (Mantina) | Arrhenius | [R5 p.121 Table 10] |
+| D₀, Q for Li in Al | 1.55×10⁻⁵ m² s⁻¹, 119.2 kJ mol⁻¹ (Wen et al. 1980) | Arrhenius | [R5 p.121 Table 10] |
+| Al self-diffusion | D₀ = 6.6×10⁻⁶ m² s⁻¹, Q = 124.5 kJ mol⁻¹ (the normalising values in the Table 10 caption; source not named) | Arrhenius | [R5 p.121] |
+| Vacancy formation enthalpy | 0.75 eV (used to estimate equilibrium vacancy ratios) | pure Al | [R5 p.103]; cf. 0.76 eV [TOT p.40] |
+| Solute–vacancy binding (first principles, Wolverton 2007) | Cu ≈ +0.02 eV, Mg ≈ −0.02 eV (repulsive), Sn 0.25 eV | dilute Al | [R5 p.122] |
 
 - Diffusion distance is x = √(Dt) [R11 p.105].
 - Doubling x needs 4× time. Raising the homogenisation temperature by 50 °C cuts time to about ⅓. Practical homogenisation times are 6–24 h [R11 p.105].
 - **(derived)** For 24 h at 500 °C, x ≈ 2 µm for Mn, ≈ 66 µm for Cu and ≈ 93 µm for Mg/Si. Mn therefore never levels across a 20–50 µm dendrite cell; Cu, Mg and Si do.
 - In KWN slice models, long-range Sc and Zr diffusion between dendrite slices had only a minor effect [R1 p.1413].
-- **D₀ and Q for individual solutes are not given in any source read**, including [TOT]: Ch. 2, 3 and 5 were checked and the whole book was searched (2026-10-12). See §12.
+- **D₀ and Q per solute: now available for Cu, Mg and Li only** [R5 p.121 Table 10] (updated after the [R5] full-text pass). [TOT] gives none: Ch. 2, 3 and 5 were checked and the whole book was searched (2026-10-12). Si, Mn, Fe, Zn, Cr, Zr, Sc and Ti are still missing (§12).
+  - **Cross-check (derived):** the Du et al. set gives D_Mg(500 °C) ≈ 1.1×10⁻¹³ m² s⁻¹ and D_Cu(500 °C) ≈ 4.0×10⁻¹⁴ m² s⁻¹. These agree with Polmear's 1×10⁻¹³ and 5×10⁻¹⁴ m² s⁻¹ [R11 p.105].
+  - All three data sets have Mg diffusing faster than Cu (Mg ≈ Li > Cu) [R5 p.121]. Experimental and first-principles D₀ differ by up to 15× for Mg; R5 does not choose between them.
+  - **Equilibrium-vacancy diffusion is negligible at room temperature (derived):** at 20 °C the Mg sets give D ≈ 2×10⁻²⁷–3×10⁻²⁶ m² s⁻¹, i.e. a diffusion distance below 0.3 nm (one atomic spacing) in 30 days. Natural ageing within hours therefore needs excess (quenched-in) vacancies, consistent with [TOT pp.128, 271] and [R5 pp.3, 89].
+  - **Bake-scale diffusion (derived, T11):** at 220 °C for 10 min, √(Dt) ≈ 28–39 nm for Mg and 13–21 nm for Cu, with equilibrium vacancies only. Si is not in Table 10; R11 gives D_Si ≈ D_Mg at 500 °C [R11 p.105]. This agrees with the 30–45 nm used in [ch19 §1.1].
 - **Mn-diffusivity conflict, resolved for this chapter (full-text pass).** Elsewhere in the knowledge base, Sheppard's Mn row gives diffusion about 10³× faster than Polmear's D_Mn(500 °C) = 5×10⁻¹³ cm² s⁻¹ [ch07 §11 G9]. TOT's TM range at 500 °C, 10⁻¹⁴–10⁻¹² cm² s⁻¹ [TOT p.295], contains Polmear's value. A value 10³× higher would lie outside it (derived). **Use the Polmear scale.**
 - **D_Sc/D_Zr, still unresolved.** R1 uses ≈ 4 at 480 °C [R1 p.1414]. Arrhenius sets elsewhere in the knowledge base give ≈ 510 [ch13] and ≈ 640 [ch18 §2.3] at 480 °C. TOT gives only the group statement that eutectic formers (Sc) diffuse about 10× faster than peritectic formers (Zr) [TOT p.295]. That supports D_Sc > D_Zr but fixes neither value. Tracer data (Fujikawa) are still needed (§12).
 
@@ -759,8 +773,8 @@ Other 1xxx rows:
 
 | System | Sequence | Source |
 |---|---|---|
-| Al–Cu | SSSS → GP (single Cu layers on {100}) → θ″ (GP2) → θ′ (Al₂Cu, tetragonal a 0.404 / c 0.580 nm, semi-coherent, on dislocations) → θ (bct a 0.607 / c 0.487 nm) | [R5 p.11; R11 p.57 Table 2.3; R4 p.37] |
-| Al–Cu–Mg | SSSS → Cu–Mg co-clusters → GPB (rods ⟨100⟩) → S′ → S (Al₂CuMg; S′ a 0.404, b 0.925, c 0.718 nm) | [R11 p.58; R3 p.16; R5 p.12] |
+| Al–Cu | SSSS → GP (single Cu layers on {100}) → θ″ (GP2) → θ′ (Al₂Cu, tetragonal a 0.404 / c 0.580 nm, semi-coherent, on dislocations) → θ (bct a 0.607 / c 0.487 nm) | [R5 p.10; R11 p.57 Table 2.3; R4 p.37] |
+| Al–Cu–Mg | SSSS → Cu–Mg co-clusters → GPB (rods ⟨100⟩) → S′ → S (Al₂CuMg; S′ a 0.404, b 0.925, c 0.718 nm) | [R11 p.58; R3 p.16; R5 pp.12–13] |
 | Al–Mg–Si | SSSS → Mg and Si clusters → Mg–Si co-clusters → GP → β″ (monoclinic a 1.534, b 0.405, c 0.683 nm, β 106°, ~MgSi) → β′ (hex, ~Mg₁.₇Si) / B′ (high Si:Mg) → β (Mg₂Si fcc a 0.639 nm) | [R11 pp.58–59, 63–66; R3 p.17] |
 | Al–Mg–Si (TOT) | SSSS → independent Mg and Si clusters, Mg–Si co-clusters → GP zones → "Si-rich phase" → β″ → β′ → β (Mg₂Si; a 0.639 or 0.6351 nm). The Mg:Si ratio rises along GPZ → β″ → β′ → β, so the metastable phases are Si-enriched. ⚠ TOT's β″ lattice entries (a = b = 0.616, c = 0.710 nm, γ = 82°; or 0.77/0.67/0.203 nm, γ = 75°) are older structure models and differ from R11's | [TOT pp.173, 278–279 Table 17] |
 | Al–Si | Si clusters → diamond-cubic Si directly, with no intermediate phase. Coherency is lost below ≈ 2 nm, so there is no useful hardening | [TOT pp.168, 280] |
@@ -779,21 +793,21 @@ Other 1xxx rows:
   - Two-stage hardening at about 100–240 °C. The first stage gives **60–70 % of total hardening within 60 s**, followed by a plateau of up to about 100 h.
   - It is attributed to about 10¹⁹ cm⁻³ Cu–Mg clusters [R11 pp.64–65].
   - Strengthening scales with the number density of Cu–Mg co-clusters. Cu–Cu and Mg–Mg clusters do not correlate with hardness. Vacancy–Mg–Cu complexes are proposed [R5 p.12].
-- **Natural-ageing data** (Al–1.1Cu–1.7Mg; Al–1.5Cu–3.5Li ± 0.44Mg at.%; solution treated 500–505 °C 30 min, water quenched) [R5 pp.29–31, 71–73]:
-  - Most change happens in the first 24 h; hardening saturates after about 10 h; 72 h is stable up to 6 months.
-  - HV goes from 74 → 117 (Al–Cu–Mg, +55 %), 64 → 77 (Al–Cu–Li, +20 %) and 64 → 115 (Al–Cu–Li–Mg, +82 %).
-  - **0.4 at% Mg turns on Cu clustering.**
-  - Cluster Mg/Cu: 0.70 → 1.82 (Al–Cu–Mg, as-quenched → naturally aged); 0.13 → 0.42 (Al–Cu–Li–Mg).
-  - Correlations vanish beyond about 2 nm (atom probe). Li stays random.
-  - Small-angle scattering correlation length ξ ≈ 2–5 Å; inter-cluster periodicity λ ≈ 36–72 Å (Table 6).
-  - DSC at 10 °C min⁻¹: cluster formation exotherm 50–125 °C; dissolution endotherm 150–260 °C (double minimum). The exotherm area halves within 1 h of natural ageing.
-  - Reversion: Cu-rich clusters dissolve at lower temperature than Cu–Mg clusters. Reverting Cu–Mg clusters at 250 °C recreates a supersaturated solid solution that decomposes like one quenched from 500 °C. Mg is linked to the retained excess vacancies [R5 pp.5–6, summary of the missing chapters].
+- **Natural-ageing data** (Al–1.1Cu–1.7Mg; Al–1.5Cu–3.5Li ± 0.45Mg at.%, i.e. 2.5Cu–1.5Mg and 3.5Cu–0.9Li ± 0.4Mg wt%; homogenised 500 °C/24 h, hot rolled at ≥ 350 °C, solution treated 500–505 °C 30 min, water quenched at 20 °C) [R5 pp.30–31, 47, 68, 71–73]. *Citations corrected after the full-text pass (previously "pp.29–31").*
+  - Most change happens in the first 24 h; hardening saturates after about 10 h; 72 h is stable up to 6 months [R5 pp.30–31, 71]. DSC shows clustering approaching completion after 16 h [R5 p.82].
+  - HV goes from 74 → 117 (Al–Cu–Mg, +55 %), 64 → 77 (Al–Cu–Li, +20 %) and 64 → 115 (Al–Cu–Li–Mg, +82 %) [R5 pp.71–72]. The 0.4 at% Mg addition does not change the as-quenched hardness [R5 p.71].
+  - **Mg turns on Cu clustering, with no threshold.** *Corrected after the full-text pass:* the earlier "0.4 at% Mg" was only the alloy level. A diffusion couple with 0–0.33 at% Mg shows naturally aged hardness, cluster scattering and Mg content following the same profile, and an as-quenched DSC clustering exotherm already at 0.09 at% Mg [R5 pp.109, 112–113] (§6.5).
+  - Cluster Mg/Cu: 0.70 → 1.82 (Al–Cu–Mg, as-quenched → naturally aged); 0.13 → 0.42 (Al–Cu–Li–Mg) [R5 p.56 Table 6]. ⚠ The Ch. 5 text gives 0.48 for naturally aged Al–Cu–Li–Mg (38.9 Cu and 9.0 Mg excess per nm³) [R5 p.78] against Table 6's 0.42 (7.1 Mg). This is an internal inconsistency in R5.
+  - Correlations vanish beyond about 2 nm (atom probe) [R5 p.54]. Li stays random [R5 pp.54, 129].
+  - Small-angle scattering correlation length ξ ≈ 2.2–5.2 Å; inter-cluster periodicity λ ≈ 36–72 Å [R5 p.56 Table 6]. Cluster size stays below 1 nm in all three alloys [R5 p.94].
+  - DSC at 10 °C min⁻¹ (Al–Cu–Mg): cluster formation exotherm 50–125 °C; dissolution endotherm 150–260 °C (double minimum). The exotherm area halves within 1 h of natural ageing and keeps falling for 6 h. The endotherm area does not change with ageing time, so the same solute ends up in clusters whether they form at room temperature or during the scan [R5 p.72].
+  - Reversion: Cu-rich clusters dissolve at lower temperature (≤ 200 °C) than Cu–Mg clusters (≈ 250 °C). Reverting the Mg-bearing clusters at 250 °C recreates a solid solution that clusters as fast as one quenched from 500 °C. Mg is linked to the retained excess vacancies [R5 pp.5–6, 96–103]. *Now read in full; details in §6.5.*
 - **Al–Mg–Si negative natural-ageing effect (quantified).**
   - A 24 h room-temperature delay before ageing at about 170 °C reduces tensile properties by **up to 10 %** in alloys with >1 % Mg₂Si.
   - The same delay **improves** properties in alloys with <0.9 % Mg₂Si.
   - Mechanism: clusters and vacancies, and a GP solvus above 170 °C in the richer alloys, give coarser β″.
   - 0.25 % Cu lessens the effect [R11 pp.141–142].
-  - Si-rich room-temperature clusters lock up solute. Industrial pre-ageing makes Mg–Si clusters dominant. Sn traps vacancies and retards Si clustering by orders of magnitude [R5 pp.9, 15, 45].
+  - Si-rich room-temperature clusters lock up solute. Industrial pre-ageing (≈ 80 °C) makes Mg–Si clusters dominant. Sn traps vacancies and retards Si clustering by orders of magnitude [R5 pp.9–10, 15–16, 45, 89]. *Pages corrected and the pre-ageing temperature added after the full-text pass;* the other Al–Mg–Si statements in R5 are collected in §6.5.
   - TOT gives the same split but in **at% Mg₂Si**: below 0.9 at%, the delay refines the aged structure, because the clusters act as nuclei; above 1.1 at%, it coarsens the structure [TOT pp.175–176, citing Baba & Takashima 1969]. ⚠ R11 uses wt% (0.9 / 1 %) for the same thresholds. The unit is unresolved; Ch. 5 uses "Mg₂Si < 0.8 %" with no unit [TOT p.279]. Details in §6.4.
 - **Microalloying mechanisms** [R11 p.49]:
   1. Vacancy trapping (Cd, In, Sn retard natural ageing and enhance artificial ageing in Al–Cu).
@@ -811,8 +825,8 @@ Other 1xxx rows:
   - Retained mobile vacancies allow further low-temperature ageing.
   - 7075 underaged 0.5 h at 130 °C, then held at 65 °C, reaches 225 DPN after 10⁴ h, versus 195 for T6.
   - T6I6 for Al–4Cu: 3 h at 150 °C → quench → 500 h at 65 °C → 50 h at 150 °C [R11 pp.67–69].
-- **Cold work before ageing** adds heterogeneous nucleation sites (T8; T₁ in Al–Cu–Li) [R11 p.46; R5 p.9].
-- **Activation energies** for cluster formation or dissolution are **not given** in the sources read, including [TOT] (see §12). Sc raises the apparent activation energy of δ′ precipitation (DSC; no value given) [R4 p.38]. TOT gives only temperature windows and stage times (§6.4).
+- **Cold work before ageing** adds heterogeneous nucleation sites (T8; T₁ in Al–Cu–Li) [R11 p.46; R5 p.9]. Dislocations act through solute segregation, which atom probe shows along dislocations after heating to the ageing temperature; the segregation speeds up precipitation [R5 pp.9, 14].
+- **Activation energies** for cluster formation or dissolution are **not given** in the sources read, including [TOT] and [R5] (see §12). R5 gives only solute diffusion D₀/Q for Cu, Mg and Li (§1.4) and a vacancy formation enthalpy of 0.75 eV [R5 pp.103, 121]. Sc raises the apparent activation energy of δ′ precipitation (DSC; no value given) [R4 p.38]. TOT gives only temperature windows and stage times (§6.4).
 - **Quench-retained vacancies** form prismatic loops in dilute alloys and helicoids in concentrated ones. Elements with high vacancy binding (Li, Si) hinder loop formation [TOT pp.87, 269]. Loop densities reach ≈ 10¹⁵ cm⁻³ [TOT p.87].
 - **GP-zone data (Al–Cu)** [TOT pp.141, 272–273]:
   - Natural-ageing GP zones: 10¹⁷–10¹⁸ cm⁻³, up to 5 nm, spacing 2.5–4 nm. θ″: 10–100 nm. θ′: 10–60 nm at 10¹¹–10¹² cm⁻³.
@@ -888,10 +902,122 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 - **Natural ageing.** At 0.2–0.4 % Mg₂Si, T11 is below the 0.8–0.9 % thresholds whatever the unit.
   - By TOT, storage before a later heat treatment is neutral or beneficial: it gives finer β″ later [TOT pp.175–176, 279] (inference).
   - Hardness still drifts during storage through clustering, so record slug HB against age (T11 measurement plan).
+  - [R5] adds the vacancy control and the time scale of this drift; see the T11 notes in §6.5.
 - **Bake 220 °C/10 min.** T_v = 111 + 71 × (0.20–0.41) ≈ **125–140 °C** (derived). The bake is above T_v, so no new homogeneous GP zones nucleate.
   - Any bake hardening must come from growth of clusters or zones formed beforehand, or from precipitation on the dense dislocation structure of the extruded wall (inference).
   - 10 min at 220 °C is of the order of the 8 min zone stage at 200 °C and far short of the 8 h β′ transition [TOT p.279]. The wall should therefore be in the zone/β″ stage, not overaged (inference, extrapolated from 6xxx).
+  - ⚠ *Added after the [R5] pass:* in Al–Cu–(Li,Mg), natural-ageing clusters **dissolve** at 200–250 °C within seconds to a minute [R5 pp.95–96]. Whether T11's storage clusters "grow" into β″ at 220 °C (as above) or first revert is therefore open (§6.5).
 - **Quench sensitivity.** T11 has little Mn, so it should be little quench sensitive from dispersoids (inference from [TOT pp.177–179]).
+
+### 6.5 Cluster kinetics, vacancies and reversion: what transfers from Ivanov's thesis (added after the [R5] full-text pass, 2026-10-12)
+
+**Transfer caveat.** R5's alloys contain 1.1–1.5 at% Cu plus 0.45–1.7 at% Mg (or 3.5 at% Li), and the clustering partners are Cu and Mg [R5 pp.30, 47]. T11 has ≈ 0.29 at% Mg (derived), ≈ 0.1–0.2 wt% free Si (§6.4) and no Cu. **The mechanisms (vacancy control, reversion) and the measurement methods transfer; R5's times, temperatures and hardness increments do not transfer as numbers.**
+
+**Kinetics and the role of vacancies.**
+- Natural ageing is vacancy-aided solute diffusion in a quenched supersaturated solution that also holds an above-equilibrium vacancy concentration [R5 pp.3, 7].
+- Some Cu-rich clusters already exist as quenched, i.e. they form during the quench. R5 attributes this to the low Cu solubility [R5 pp.55, 129]. Positron (coincidence Doppler broadening) and atom-probe work in the literature shows solutes and vacancies clustering during the quench [R5 p.14].
+- **Time scales** after a water quench from 500 °C [R5 pp.78, 83]:
+  - Al–Cu–Mg: excess Cu in clusters is ≈ 10 nm⁻³ from the start. Mg joins during the first hour and then exceeds Cu.
+  - Al–Cu–Li–Mg: the excess Cu rises from 10.7 to 15.6 nm⁻³ in the first hour and reaches 38.9 nm⁻³ when naturally aged. Mg joins only after ≈ 2 h and passes the alloy Mg/Cu ratio after ≈ 8 h.
+  - In both, clusters form Cu-rich first and become Cu–Mg-rich later [R5 pp.123, 129].
+- **Mg acts as a catalyst.**
+  - Without Mg (Al–Cu–Li), the few as-quenched Cu clusters do not evolve; hardness rises by only 20 % and the scattering hardly changes [R5 pp.71, 77].
+  - Adding 0.45 at% Mg makes Cu cluster about as fast as in Al–Cu–Mg with 1.7 at% Mg, and the hardening rates are comparable [R5 pp.82, 84].
+  - In the 0–0.33 at% Mg diffusion couple, clustering is proportionally faster with more Mg, and there is no threshold [R5 pp.109, 114–115].
+  - R5 concludes that Mg raises the concentration and/or mobility of vacancies available for diffusion [R5 pp.84, 103].
+- **Proposed mechanism (a hypothesis in R5).**
+  - First-principles solute–vacancy binding energies are ≈ +0.02 eV for Cu and ≈ −0.02 eV for Mg, against 0.25 eV for Sn [R5 p.122]. Both are too small for Sn-type trapping.
+  - R5 suggests that vacancies linger near Cu atoms, where their exchanges are correlated and "useless". The weakly repulsive Mg–vacancy pair instead makes uncorrelated, "useful" exchanges and sweeps up solute [R5 p.123].
+  - Mg diffuses faster than Cu in every data set (§1.4), yet Cu clusters first. R5 leaves this paradox unresolved [R5 pp.121, 124].
+- **Vacancy loss.**
+  - After 72 h of natural ageing and a reversion at 200 °C, the released solute does not cluster again within 20 days (Al–Cu–Li, Al–Cu–Mg) or 3 days (Al–Cu–Li–Mg) [R5 pp.97–99, 102].
+  - The quenched-in vacancies have therefore been annihilated during natural ageing or trapped at sites that are stable to 200 °C [R5 p.102].
+- **Re-activation.**
+  - Reversion at 250 °C for 30 s also dissolves the Mg-bearing clusters. It restores as-quenched clustering kinetics: the hardness rises again as fast as, or slightly faster than, in the first natural ageing [R5 pp.100–101, 103].
+  - For a vacancy formation enthalpy of 0.75 eV, the equilibrium vacancy concentration at 250 °C is only ≈ 6× that at 200 °C. That is too small to explain the ≈ 100× difference in post-reversion kinetics.
+  - R5 concludes that Mg released into solution re-activates the vacancies, with some help from the higher equilibrium vacancy content [R5 p.103].
+- **Quench rate was not varied in R5.** There are only two hints:
+  - The lower excess Cu after reversion than after the solution quench "might be attributed to" the different quench conditions [R5 p.99].
+  - Part of the quenched-in vacancies may be lost to defects during the solution quench [R5 p.103].
+  - Quench-rate effects for 6xxx are in [TOT p.177] (§6.4).
+- **Vacancy traps ("trap and release").** Sn's high vacancy binding and suitable solubility cut the free vacancies after the quench and delay Si clustering in Al–Mg–Si by orders of magnitude, while still allowing precipitation at higher temperature [R5 pp.10, 45, 89, 122].
+
+**Thermal stability and reversion.** Ramps are DSC and in-situ SAXS at 10 °C min⁻¹ on 72 h naturally aged material; isothermal reversions were done in an oil bath.
+
+| Alloy | Clusters stable to | Dissolution events | Isothermal reversion | Source |
+|---|---|---|---|---|
+| Al–Cu–Li | ≈ 110 °C by SAXS (the Fig. 34 caption says 140 °C ⚠) | broad DSC minimum at 130 °C, complete by 200 °C; SAXS minimum by 180 °C | 200 °C: no effect after 5 s, complete after 60 s | [R5 pp.92, 94–95] |
+| Al–Cu–Mg | ≈ 200 °C by SAXS | DSC minima at 200 °C (Cu-rich) and 240 °C (Cu–Mg); SAXS minimum at 270 °C | 200–235 °C removes only the 200 °C event. After 60 s at 200 °C the excess Cu falls by 25 % and Mg by 40 %. At 240 °C, 30 s turns the clusters into precipitates | [R5 pp.92, 94–95, 98] |
+| Al–Cu–Li–Mg | ≈ 60 °C by DSC, ≈ 130 °C by SAXS | DSC events at 105 °C (ascribed to Li short-range order), 165 °C and 220 °C; all clusters gone by ≈ 250 °C | 120 °C/60 s removes the 105 °C event; 200 °C/60 s removes the 165–170 °C event; 250 °C/30 s also dissolves the Mg-rich clusters | [R5 pp.93–96] |
+
+- **Dissolution and precipitation overlap.** In Al–Cu–Mg there is no zero-heat-flow gap between the cluster endotherms and the precipitation exotherm [R5 p.92].
+- The 240 °C/30 s change in Al–Cu–Mg is too fast for long-range diffusion. R5 ascribes it to short-range rearrangement of solute from clusters into precipitates [R5 p.95].
+- **Hardness after reversion (Al–Cu–Li–Mg)** [R5 pp.100–101]:
+  - 60 s at 200 °C causes "a loss of more than 60 % of the hardness from that of the naturally aged condition". ⚠ Taken literally, this would fall below the 64 HV as-quenched value; it presumably means 60 % of the natural-ageing gain.
+  - Hardness recovers only after more than 100 h.
+  - After 250 °C/30 s, hardness falls slightly further, then re-hardens as fast as after the solution quench.
+  - A slightly lower post-reversion hardness may come from a few larger precipitates formed on dislocations during reversion.
+- **Effect of Mg content on stability.** More Mg gives more thermally stable clusters [R5 p.83]. In the diffusion couple, a second dissolution peak at 215 °C appears above 0.21 at% Mg. The precipitation peak moves to lower temperature, with a step near 0.18 at% Mg [R5 p.113].
+
+**Strengthening from clusters.**
+- **Hardness tracks the amount of clustering.** Across the 0–0.33 at% Mg gradient, naturally aged hardness rises from 90 ± 3 to 123 ± 2 HV (25 gf). Over the same gradient, the cluster scattering rises from 23 to 48 excess electrons per nm³ [R5 p.112].
+  - ⚠ The Mg-free end (90 HV) does not match the 77 HV of Ch. 5. The indentation load (25 vs 200 gf) and the material history differ.
+- Literature cited in R5:
+  - In Al–Cu–Mg, strengthening scales with the number density of Cu–Mg co-clusters [R5 p.12].
+  - Natural-ageing hardening has been explained by modulus hardening [R5 p.13].
+- **Cu-rich clusters harden as much but give little DSC heat.** Al–Cu–Li–Mg (mostly Cu-rich clusters) and Al–Cu–Mg (Cu–Mg clusters) reach similar hardness, but the DSC signal follows the Mg content [R5 pp.83–84]. **DSC heat is therefore not a proxy for cluster strengthening.**
+- **R5 gives no quantitative cluster-strengthening law.** The co-cluster models it cites are not in the Drive (§12): Starink & Wang 2009 for Al–Cu–Mg [R5 p.126 ref. 7] and Starink, Cao & Rometsch 2012 for Al–Mg–Si [R5 p.117 ref. 16].
+
+**Al–Mg–Si statements in R5.** These come from the literature review and chapter introductions, not from R5's own data.
+- 6xxx alloys combine medium strength, good formability and high toughness, and can be strengthened after shaping (bake hardening) [R5 p.7].
+- Room-temperature clustering in Al–Mg–Si lowers formability and slows later precipitation [R5 pp.15, 45, 67].
+- Si-rich clusters lock up solute that cannot evolve continuously into precipitates, unlike in Al–Cu [R5 pp.9, 15].
+- Several cluster types coexist in naturally aged Al–Mg–Si [R5 p.89].
+- **Countermeasures** [R5 pp.9–10, 15–16, 89]:
+  - pre-ageing at ≈ 80 °C, so that Si–Mg clusters form instead of Si-rich ones;
+  - complex ageing sequences, which have been adopted industrially;
+  - Sn as a vacancy trap.
+  - One pre-ageing reference is on a **twin-roll cast** Al–Mg–Si alloy (Birol, Mater. Sci. Eng. A 391 (2005) 175–180) [R5 p.105 ref. 14]. It is not in the Drive.
+- ⚠ **A difference of scope, not a contradiction.** R5's "negative" natural-ageing effect is a general 6xxx statement with no composition dependence. TOT and R11 find the delay neutral or beneficial below ≈ 0.8–0.9 % Mg₂Si (§6.2, §6.4).
+  - For T11's ≈ 0.2–0.4 % Mg₂Si, the composition-specific TOT/R11 statements should take precedence for the bake response (inference).
+  - R5's formability point still bears on slugs stored before extrusion (inference).
+
+**Relevance to T11** (inference; the transfer from Al–Cu–(Li,Mg) is qualitative only).
+- **Natural-ageing drift of slugs.**
+  - The drift needs excess vacancies, and these come from the **last fast cooling** before storage. At room temperature, equilibrium vacancies move Mg less than one atomic spacing in 30 days (§1.4, derived).
+    - A slug cooled slowly from the anneal should therefore drift little; one cooled fast from a high temperature may drift (inference).
+    - This is the vacancy-side reason behind T11 risk 2b, and it complements the solute-side reason (Mg₂Si precipitated by slow cooling) in risk 2a.
+  - For E_f = 0.75 eV, the equilibrium vacancy fraction at 380 °C is ≈ 8× lower than at 500 °C (derived). The hot band quenched from ≈ 380 °C therefore holds fewer quenched-in vacancies than a solution-quenched sheet, but the slug anneal resets this (inference).
+  - It is not known whether Mg's catalytic role carries over to Al–Mg–Si; R5 does not show it. If it does, 0.26 % Mg (≈ 0.29 at%) lies inside the 0–0.45 at% range in which R5 saw clustering switch on without a threshold (inference).
+  - If vacancies are retained, expect most of the change within 24 h and a plateau within ≈ 3 days, by analogy (inference).
+    - The slug HB plan (day 0, 1, 7, 30) should add points at ≈ 2–6 h and 3 days.
+    - "Day 0" should mean tested within minutes or held cold. R5 tested within 2–5 min, or stored samples at −52 °C or in liquid nitrogen [R5 pp.30, 47, 68].
+  - A DSC comparison of fresh and stored slugs would show a shrinking low-temperature formation exotherm if clustering occurs (method in §6.6). The Al–Mg–Si peak temperatures will differ from R5's.
+- **Bake at 220 °C/10 min on the extruded wall.**
+  - 220 °C lies between R5's 200 °C, where Cu-rich clusters revert in ≤ 60 s, and 250 °C, where the Mg-bearing clusters revert in 30 s [R5 pp.95–96]. It is also above T11's GP-zone critical temperature T_v ≈ 125–140 °C (§6.4). Clusters formed while slugs or cans are stored should therefore not survive the bake as clusters (inference).
+  - ⚠ **Open question.** R5's clusters revert, whereas TOT reports GP → β″ in 6061 without zone dissolution, and β″ nucleating on zones in dilute alloys [TOT pp.174–175, 279]. These sources cannot settle whether T11's storage clusters dissolve (softening) or seed β″ (hardening) at 220 °C. R5 adds that reversion and precipitation overlap in this temperature range [R5 pp.92, 95].
+  - **Precipitation on the wall's dislocations is kinetically possible (derived).** At 220 °C, Mg diffuses ≈ 30–40 nm in 10 min with equilibrium vacancies alone (§1.4). R11 gives D_Si ≈ D_Mg at 500 °C [R11 p.105]. Both distances exceed the ≈ 10 nm dislocation spacing at 10¹² cm⁻², the cold-worked density [R11 pp.36, 41] (derived).
+    - Solute segregation to dislocations during the bake is therefore kinetically possible (inference; mechanism from [R5 pp.9, 14]).
+    - Whether it outruns recovery softening must be measured: HV of the wall simulation before and after 220 °C/10 min (T11 plan).
+  - **The can wall may age again after the bake (inference).** In R5, reversion at 200 °C left no mobile vacancies, but reversion at 250 °C restored as-quenched kinetics [R5 pp.102–103]. 220 °C lies between the two. Measure wall HV 1 day and 30 days after the bake.
+
+### 6.6 Characterising clusters: what each method measures (from [R5], 2026-10-12)
+
+| Method | What it measures | Limits | R5 practice | Use for T11 (inference) |
+|---|---|---|---|---|
+| Micro-hardness | Net strengthening from clusters, the most direct link to properties | No chemistry or size information | Vickers 200 gf, 10 s, ≥ 10 indents; 25 gf every 500 µm on the diffusion couple; as-quenched samples tested within 5 min [R5 pp.32, 68, 111] | Primary metric: slug HB/HV against storage time |
+| Electrical resistivity / conductivity | Global, indirect evidence of clustering; resistivity, like hardness, can fall during heating before any precipitate forms [R5 pp.10–11, 16] | Not specific to one solute | Not used experimentally in R5 | Cheap in-line companion to HB (already in the T11 plan) |
+| DSC | Heat of cluster formation (exotherm) and dissolution (endotherms). The exotherm area falls with storage time (progress of natural ageing); endotherm temperatures give thermal stability [R5 pp.72, 92] | The signal is dominated by strong bonds (Cu–Mg); Cu-rich clusters give little heat yet harden [R5 pp.83–84]. Baseline artefacts from heat capacity and sample position [R5 pp.34–35] | TA Q200 from −50 °C, so that clustering above 0 °C is captured; 10 °C min⁻¹. **Two-heat baseline:** ramp to 350 °C, cool at 50 °C min⁻¹, then a second ramp as the sample's own baseline (valid to ≈ 250 °C). Full-range scans 30–550 °C use a polynomial baseline [R5 pp.32–36, 68–69] | Feasible in-house for fresh versus stored slugs and baked walls; Al–Mg–Si peak positions differ |
+| SAXS | Electron-density fluctuations. With R5's statistical model it gives the correlation length ξ (size), periodicity λ (spacing) and the invariant (mean-square fluctuation); in-situ kinetics and heating ramps are possible [R5 pp.39, 49–50] | Elemental sensitivity (f_i − f_Al)/f_Al: Cu 1.23, **Mg −0.08**, Li −0.77. **Nearly blind to Mg and Si in Al** [R5 pp.46, 48, 77] | Lab Cu-Kα rotating anode, q = 0.02–0.5 Å⁻¹, 80 µm foils; synchrotron ramps up to 100 °C min⁻¹ with 1 s counts [R5 pp.39, 47, 69] | Unsuitable for Mg–Si clusters (inference from the sensitivities) |
+| SANS | Nuclear-scattering fluctuations: Mg contrast 0.55, Cu 1.23, Li −1.55 [R5 p.46]. Combined with SAXS ("contrast variation"), it separates the Cu and Mg contributions [R5 pp.46, 52] | ≥ 10 min per point; room temperature only in R5; Si contrast not given [R5 pp.38–39] | ILL D11, λ = 5 Å (above the Bragg cut-off) [R5 pp.38, 47] | Research tool only |
+| APT | Atom-by-atom 3D positions. Equally sensitive to all elements, so it separates Mg and Si in Al [R5 p.16] | Cluster-finding (maximum separation) depends on the chosen parameters and drops small clusters (e.g. < 10 atoms). Anisotropic spatial resolution and detector efficiency. The as-quenched state cannot be measured because of the time between polishing and analysis [R5 pp.16, 40, 47–48] | LEAP 4000, 40 K, 20 % pulse fraction, 200 kHz. Uses assumption-free radial distribution / pair-correlation functions [R5 pp.48, 53–54, 57] | Method of choice for Mg–Si cluster chemistry (external laboratory) |
+| TEM / HR-STEM | Clusters are rarely imaged: small, diffuse, low contrast [R5 pp.16, 67] | — | — | Not for clusters; use it for β″/β′ on dislocations after the bake |
+| Positron annihilation, NMR | Local vacancy and solute environment [R5 pp.4, 67] | Specialist | Not used | Would test the vacancy story directly |
+
+- **SAS model.** R5 treats clusters as concentration fluctuations and models them with an exponentially decaying, cosine-modulated correlation function, following Couturier et al. and Teubner & Strey [R5 pp.49–50]. ξ scales with cluster size and λ with the distance between clusters [R5 p.50].
+  - The mean-square concentration fluctuation can be non-monotonic as clusters grow and dilute. R5 therefore uses the **mean-square number of excess solute atoms** as the progress variable [R5 pp.51–52].
+  - Parameter uncertainty was estimated from 100 refits with random starting values [R5 p.56].
+- **APT and SAS measure the same thing.** The amplitude of the APT radial distribution function and the SAS correlation function both measure the same solute fluctuation, so the two can be compared directly [R5 pp.18, 53]. The Mg/Cu ratio from SAXS + SANS matched earlier APT values for the same alloy [R5 p.58].
 
 ---
 
@@ -1058,15 +1184,15 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 
 ## 10. Per-element alloying effects (wrought Al)
 
-Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conductivity; NHT = non-heat-treatable. Max solubility is from [R11 p.30] unless noted (TOT cross-check in §1.2). Diffusion is D at 500 °C [R11 p.105] where available; TOT gives only a TM range and a group ratio (§1.4). RX increments "+x / +y K" are the maximum rises of recrystallisation onset / finish in Yelagin's binaries [TOT p.296 Table 35] (§5). The conductivity column uses TOT's harm ranking Cr > V > Mn > Ti > Mg > Ag > Cu > Zn > Si > Fe > Ni [TOT p.52]. Work-hardening parameters K and H are from [TOT p.99 Table 2] (§7.2). *Table updated after full-text pass 2026-10-12.*
+Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conductivity; NHT = non-heat-treatable. Max solubility is from [R11 p.30] unless noted (TOT cross-check in §1.2). Diffusion is D at 500 °C [R11 p.105] where available; TOT gives only a TM range and a group ratio; R5 adds D₀/Q for Cu, Mg and Li [R5 p.121] (§1.4). RX increments "+x / +y K" are the maximum rises of recrystallisation onset / finish in Yelagin's binaries [TOT p.296 Table 35] (§5). The conductivity column uses TOT's harm ranking Cr > V > Mn > Ti > Mg > Ag > Cu > Zn > Si > Fe > Ni [TOT p.52]. Work-hardening parameters K and H are from [TOT p.99 Table 2] (§7.2). *Table updated after full-text pass 2026-10-12.*
 
 | Element | Max solubility (wt% @ °C) | Diffusion | Partitioning / reaction | Phases formed | Strength | RX / grain | Corrosion | Conductivity | Castability / process | Typical levels |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **Mn** | 1.82 @ 658; ≤0.23 @ 654 with Fe; ≤0.08 with Si saturation [R8]; eutectic ≈ 1.9 % @ 657 °C [TOT p.159]; 2.5–2.8 % retained at 10–100 K/s casting [TOT p.294] | 5×10⁻¹³ cm²/s (slowest listed) [R11]; inside the TM range 10⁻¹⁴–10⁻¹² cm²/s [TOT p.295] | eutectic [TOT p.294] (k < 1, gen. knowl.) | Al₆(Mn,Fe), α-Al₁₅(FeMn)₃Si₂ / Al₁₂(Mn,Fe)₃Si, Al₂₀Cu₂Mn₃, Al₆Mn dispersoids [R8; R10 p.389; TOT pp.160, 299]; Al₁₃(Fe,Mn)₄ at high Fe/Mn [TOT p.160] | SS: annealed YS +21, UTS +42 MPa/wt% [TOT p.160] vs YS 30.3 [R10 Table 8] ⚠; H19 YS +35 MPa/wt% [TOT p.160]; H = 1.03 GPa [TOT p.99]; dispersion, but "no real precipitation hardening" [TOT p.299]; Mn ≈ 2× Mg in Al–Mg–Mn [R10 p.380] | raises RX temperature, fibrous structure, slows recovery [R10 p.382]; only +30 K onset at 0.77 at% [TOT Table 35]; supersaturated (Al) decomposes > 325 °C (300–350 °C) [TOT pp.295, 299] | no adverse effect; Al₆(Mn,Fe) and α at ≈ matrix potential [R10 pp.382, 402]; MnAl₆ −0.85 V [R11 Table 2.5] | strongly lowers conductivity; among the most harmful with Cr, V, Ti [TOT p.52] (*corrected after full-text pass*; R10 p.382 is wrong) | Fe + Mn < 1.7–2.0 % to avoid primary Al₆ [R10 p.383]; ≤1.25 % because Fe lowers Mn solubility [TOT pp.159–160]; small additions favour script α over β-AlFeSi [TOT p.179]; raises quench sensitivity [TOT pp.177–179] | 3102: 0.05–0.4; 3207: 0.4–0.8; 3003: 1.0–1.6 [R8 Table 1.10]; ≤1.25 [R11]; 3105: 0.2–0.8 [TOT Table 37] |
 | **Fe** | 0.05 @ 655 [R11; TOT pp.117, 138] | not given; eutectic-group TMs diffuse ≈ 10× faster than peritectic ones [TOT p.295] | eutectic [TOT p.294] | Al₃Fe (eq., monoclinic); metastable Al₆Fe / AlₘFe in commercial casting; Al₃Fe below ≈ 0.5 mm/s front velocity, Al₆Fe above, Si and Mg stabilise Al₃Fe [TOT pp.138–139]; α-Al₈Fe₂Si / Al₁₂Fe₃Si, β-Al₅FeSi / Al₉Fe₂Si₂, Al₆(FeMn), Al₇Cu₂Fe [R8; R10; TOT] | slight; creep in conductors [R10 p.379]; 8006 fine-grain strength; constituents ≈ 7 MPa YS per vol% [TOT p.122]; hardens more than the size law predicts (clustering) [TOT p.92] | reduces grain size; stabilises fine grains (8006) [R10 p.379; TOT p.297]; **+65 K RX onset at 0.04 at% in SS** [TOT Table 35]; Fe in SS delays RX through fine Al–Fe precipitation [TOT p.140]; controls texture and earing in 3xxx [TOT p.299] | Al₃Fe/Al₆Fe/AlFeSi cathodic → pitting ∝ area fraction [R10 p.399]; FeAl₃ −0.56 V | small (mostly out of solution; near the end of TOT's harm ranking) [TOT p.52] | Fe:Si > 1 to avoid hot tearing [R8 p.29]; needles in foil; coarse Al₃Fe cracks and lowers formability, fine Al₆Fe does not [TOT p.139]; raises quench sensitivity [TOT p.194] | 0.4–0.7 (3xxx); 1.2–2 (8006) |
 | **Si** | 1.65 @ 577; lowered by Mg [TOT p.122] | 1×10⁻⁹ | eutectic | Si (direct, no transition phase [TOT p.168]), α/β-AlFeSi, α-Al(FeMn)Si, Mg₂Si, AlSc₂Si₂ [R4] | 9.2 MPa/wt% YS; excess Si in 6xxx +70 MPa [R10]; raises work hardening, H = 1.56 GPa [TOT pp.99, 140]; E +8.5 %/at% [TOT p.95]; Si available for Mg₂Si = Si − ¼(Fe + Mn) [TOT p.171] | promotes α dispersoids and speeds Mn precipitation [R8; TOT p.160]; GB segregation in 6xxx [R10 p.381; TOT p.172]; fine Si/AlFeSi particles delay early RX [TOT p.140] | Si −0.26 V (cathodic but polarised) [R11; R10 p.402]; excess Si → intergranular corrosion in 6xxx | moderate (9th of 11 in TOT's ranking) [TOT p.52] | hot short 0.17–0.8 % in high-purity Al [R10 p.384]; fluidity; improves feeding and hot-crack resistance in Al–Cu [TOT p.149] | 0.1–0.6 (3xxx) |
-| **Cu** | 5.65 @ 548 | 5×10⁻¹⁰ | eutectic | θ series, S, Q, Al₂₀Cu₂Mn₃, Al₇Cu₂Fe [R10; R11; TOT] | 13.8 MPa/wt% YS (SS); age hardening max 4–6 % [R10 p.373]; most effective per atom together with Mn [TOT p.94]; strongest work-hardening solute: K = 1, H = 3.38 GPa [TOT p.99]; E +4.4 %/at% [TOT p.95] | most effective at slowing recovery [R11 p.34; TOT p.100] | most detrimental (micro-constituents); 0.05–0.2 % gives more uniform corrosion and less pitting [R11 p.72]; raises potential (Al–4Cu −0.69 V) | moderate [TOT p.52] | ≤0.3 % in NHT (avoids Al–Cu–Fe constituents and ageing) [R11 p.30; TOT p.94]; SCC in some tempers [R7 p.2]; 0.25 % reduces the 6xxx natural-ageing penalty; refines β″ [TOT pp.177, 279] | 0.05–0.3 (3xxx) |
-| **Mg** | 17.4 @ 450 [R11] ⚠ vs 14.9 @ 450 [TOT p.161]; ≈ 1.7 at RT [TOT p.161] | 1×10⁻⁹ | eutectic | Mg₅Al₈ (β), Mg₂Si, S, η, Al₁₂Mg₂Cr, Al₂LiMg | 18.6 MPa/wt% YS [R10]; ΔYS ∝ (at% Mg)^(2/3) below 1 at% [TOT p.162]; σ_f = 15.5·wt% Mg (5xxx) [TOT p.167]; H19 +70–85 MPa/wt% [TOT p.160]; K = 0.37, H = 1.52 GPa [TOT p.99]; ≤175 MPa annealed at 6 % [R11 p.30; TOT p.94] | finer annealed grains up to 3.5 % Mg [TOT p.166]; suppresses dynamic recovery and cell formation [TOT pp.160, 166]; high-Mg alloys lose strength mainly by recovery [TOT p.168] | >3–4 % → β at grain boundaries → intergranular corrosion / SCC [R11 p.130; R10 p.403]; Al–5Mg −0.88 V | moderate (5th of 11 in TOT's ranking) [TOT p.52] | Lüders lines; hot cracking with Na [R10 p.380]; thicker oxide on the melt [TOT p.168]; Mg₂Si constituent in 5xxx [TOT p.167] | 0.1–0.3 (3xxx), 0.8–5.5 (5xxx) |
+| **Cu** | 5.65 @ 548 | 5×10⁻¹⁰; D₀ 4.44×10⁻⁵ m²/s, Q 133.9 kJ/mol (Du, via [R5 p.121]) | eutectic | θ series, S, Q, Al₂₀Cu₂Mn₃, Al₇Cu₂Fe [R10; R11; TOT] | 13.8 MPa/wt% YS (SS); age hardening max 4–6 % [R10 p.373]; most effective per atom together with Mn [TOT p.94]; strongest work-hardening solute: K = 1, H = 3.38 GPa [TOT p.99]; E +4.4 %/at% [TOT p.95] | most effective at slowing recovery [R11 p.34; TOT p.100] | most detrimental (micro-constituents); 0.05–0.2 % gives more uniform corrosion and less pitting [R11 p.72]; raises potential (Al–4Cu −0.69 V) | moderate [TOT p.52] | ≤0.3 % in NHT (avoids Al–Cu–Fe constituents and ageing) [R11 p.30; TOT p.94]; SCC in some tempers [R7 p.2]; 0.25 % reduces the 6xxx natural-ageing penalty; refines β″ [TOT pp.177, 279] | 0.05–0.3 (3xxx) |
+| **Mg** | 17.4 @ 450 [R11] ⚠ vs 14.9 @ 450 [TOT p.161]; ≈ 1.7 at RT [TOT p.161] | 1×10⁻⁹; D₀ 1.49×10⁻⁵ m²/s, Q 120.5 kJ/mol (Du, via [R5 p.121]); faster than Cu in all data sets [R5 p.121] | eutectic | Mg₅Al₈ (β), Mg₂Si, S, η, Al₁₂Mg₂Cr, Al₂LiMg | 18.6 MPa/wt% YS [R10]; ΔYS ∝ (at% Mg)^(2/3) below 1 at% [TOT p.162]; σ_f = 15.5·wt% Mg (5xxx) [TOT p.167]; H19 +70–85 MPa/wt% [TOT p.160]; K = 0.37, H = 1.52 GPa [TOT p.99]; ≤175 MPa annealed at 6 % [R11 p.30; TOT p.94]; catalyses room-temperature Cu clustering, with no threshold, by making vacancies available (Al–Cu–Li–Mg) [R5 pp.103, 109] | finer annealed grains up to 3.5 % Mg [TOT p.166]; suppresses dynamic recovery and cell formation [TOT pp.160, 166]; high-Mg alloys lose strength mainly by recovery [TOT p.168] | >3–4 % → β at grain boundaries → intergranular corrosion / SCC [R11 p.130; R10 p.403]; Al–5Mg −0.88 V | moderate (5th of 11 in TOT's ranking) [TOT p.52] | Lüders lines; hot cracking with Na [R10 p.380]; thicker oxide on the melt [TOT p.168]; Mg₂Si constituent in 5xxx [TOT p.167] | 0.1–0.3 (3xxx), 0.8–5.5 (5xxx) |
 | **Zn** | 82.8 @ 443 (peritectic per R11) | — | — | MgZn₂, T-phase; τ in Al–Mg | 2.9 MPa/wt% YS; little work hardening [R11 p.34]; least efficient solute, K = 0.071, H = 0.27 GPa [TOT pp.95, 99] | — | raises potential (anodic) → 7072 clad, sacrificial anodes [R10 p.385]; ≈ 1 % in some NHT alloys to adjust potential [TOT p.95]; 0.68–0.70 % Zn in 5083 → τ instead of β [R7 p.5] | small [TOT p.52] | — | 1–1.5 for HX fin anodic protection (gen. knowl.) |
 | **Cr** | 0.77 @ 661 (peritectic; peritectic composition 0.41 %) [R11; TOT p.116] | slow (qualitative) [R10 p.373; TOT p.168] | peritectic; primary Al₇Cr above 0.41 % [TOT p.116]; Al₇Cr primary at lower Cr in commercial alloys [R10 p.389] | Al₁₂Mg₂Cr, Al₁₈Mg₃Cr₂ dispersoids; Al₇Cr below ≈ 2 % Mg [TOT p.192]; supersaturated (Al) decomposes at 450–500 °C [TOT p.295] | slight | prevents RX in 6xxx/7xxx; +45 K onset at 0.35 at% [TOT Table 35] | reduces SCC (fibrous structure); yellow anodic film [R10 p.373] | large resistivity increase [R10 p.373]; the most harmful impurity in TOT's ranking [TOT p.52] | highest quench sensitivity [R11 p.112; TOT p.127]; sludge (factor Fe + 2Mn + 3Cr) [R7 p.5] | ≤0.35 |
 | **Zr** | 0.28 @ 660.5 (peritectic) [R11]; 0.093 at% [TOT p.295] | D_Sc/D_Zr ≈ 4 [R1] ⚠ vs ≈ 510–640 [ch13; ch18]; peritectic group ≈ 10× slower than eutectic [TOT p.295] | peritectic, **k = 1.4** [R1] | L1₂ Al₃Zr (metastable; misfit ≈ 0.6 %; ≈ 20 nm; 5–11 nm after 350–450 °C/200 h), D0₂₃ (eq.), Al₃(Sc,Zr) shell [R1; TOT pp.125, 192, 298]; supersaturated (Al) decomposes at 400–450 °C [TOT p.295] | small; ΔH/C 154 per at% (relative) [TOT Table 34] | 0.1–0.3 % inhibits recovery and RX [R10 p.387]; the most effective RX inhibitor in 7xxx [TOT p.192]; +105 / +240 K (onset/finish) at 0.09 at% [TOT Table 35]; dendrite-edge dispersoid-free zones [R1] | non-recrystallised structure helps SCC resistance [R10 p.387] | — | least quench-sensitive dispersoid [R11; TOT p.127]; Al₃Zr formation strongly helped by excess Si in 6xxx [TOT p.179]; reduces TiB grain refining [R10 p.387] | <0.15 (0.05–0.25 with Sc) |
@@ -1076,9 +1202,9 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 | **Mo** | ≈0.1 "peritectic limit" [R6] | — (peritectic group, slow [TOT p.295]) | peritectic [R6; TOT p.294] | Al₁₂Mo [R4] | as cast −9 % flow stress; after ECAP +4.7 % [R6] | grain refiner at 0.3 % (historic) [R10]; +70 / +45 K at 0.12 at% [TOT Table 35] | — | harmful in solid solution (removed by B) [R10 p.372] | master alloy at 1100 °C [R6] | 0.1–1 ppm impurity |
 | **Ni** | 0.04 @ 640 | — | eutectic [TOT p.294] | Al₃Ni (with Fe) | up to 2 % strengthens and lowers ductility; hot hardness [R10 p.383; R7 p.2]; hardens more than the size law predicts (clustering) [TOT p.92] | −10 / +5 K at 0.04 at% [TOT Table 35] | promotes pitting in 1100 [R10 p.383]; NiAl₃ −0.52 V | least harmful in TOT's ranking [TOT p.52] | — | 8001: 1.1 |
 | **Nb** | — | — (Period V, peritectic [R10 p.383]) | peritectic | — | — | +35 / +35 K at 0.12 at% [TOT Table 35] | — | — | — | — |
-| **Li** | 4.2 @ 600 [R11]; ≈ 4 wt% (16 at%) @ 610 [TOT p.152] | — | — | δ′, T₁, AlLi | low density (−3 % per 1 % Li), modulus +5–6 % per 1 % Li [TOT pp.152, 289] | — | <5 ppm causes blue corrosion of foil [R10 p.380] | — | oxidises melt; high vacancy binding hinders loop formation [TOT p.87] | — |
+| **Li** | 4.2 @ 600 [R11]; ≈ 4 wt% (16 at%) @ 610 [TOT p.152] | D₀ 1.55×10⁻⁵ m²/s, Q 119.2 kJ/mol [R5 p.121] | — | δ′, T₁, AlLi; stays random (no clusters) in naturally aged Al–Cu–Li(–Mg) [R5 pp.54, 129] | low density (−3 % per 1 % Li), modulus +5–6 % per 1 % Li [TOT pp.152, 289] | — | <5 ppm causes blue corrosion of foil [R10 p.380] | — | oxidises melt; high vacancy binding hinders loop formation [TOT p.87] | — |
 | **Ag** | 55.6 @ 566 | — | — | Ω (with Cu, Mg), Ag–Mg clusters | 0.1–0.6 % in Al–Zn–Mg improves strength and SCC [R10 p.384] | — | — | — | — | — |
-| **Sn / In / Cd** | Sn ~0.06 @ 228 | — | — | Sn particles nucleate θ′ | 0.05 % Sn boosts artificial ageing of Al–Cu [R10 p.384; R11 p.50] | — | 0.01 % Sn darkens surfaces and raises corrosion susceptibility [R10 p.384] | — | traps vacancies; delays Si clustering [R5] | ppm–0.1 |
+| **Sn / In / Cd** | Sn ~0.06 @ 228 | — | — | Sn particles nucleate θ′ | 0.05 % Sn boosts artificial ageing of Al–Cu [R10 p.384; R11 p.50] | — | 0.01 % Sn darkens surfaces and raises corrosion susceptibility [R10 p.384] | — | traps vacancies (binding 0.25 eV vs ≈ ±0.02 eV for Cu and Mg [R5 p.122]); delays Si clustering in Al–Mg–Si by orders of magnitude [R5 pp.10, 45, 89] | ppm–0.1 |
 | **RE (Y, Gd, Ho, Er, Yb, Ce)** | — | — | — | Al₃(Sc,X) L1₂ [R4 p.33] | Y 0.1–0.2 % improves 2519 [R7 p.5] | Yb + Cr + Zr raises RX resistance [R7 p.6] | — | — | Ce changes acicular FeAl₃ [R10 p.373] | ≤0.3 at% |
 | **B / Ca / Co** | Ca very low (CaAl₄) | — | — | TiB₂, VB₂ …; CaSi₂; Co₂Al₉ | Co in powder-metallurgy 7xxx | 0.2 % Ca alters RX of 3003 [R10 p.372] | — | B and Ca raise conductivity (precipitate impurities) [R10 p.372] | Ti:B 5:1–50:1 [R10 p.390]; 10 ppm Ca increases H pickup | B 0.005–0.1 |
 
@@ -1192,6 +1318,19 @@ Notation: SS = solid solution; RX = recrystallisation; cond. = electrical conduc
 | Direct β′ / β-only temperature | > 300 / > 400 | °C | Al–Mg–Si | [TOT p.278] |
 | Si precipitation complete | 17 h (150 °C) to 30 min (250 °C) | — | Al–Si | [TOT p.280] |
 | Quench rates (6xxx sensitivity test) | still air 0.65; cold water > 1000 | °C s⁻¹ | — | [TOT p.177] |
+| *Rows below added after the [R5] full-text pass (2026-10-12)* | | | | |
+| D₀, Q (Cu in Al) | 4.44×10⁻⁵, 133.9 (Du); 1.00×10⁻⁵, 127.6 (Doig); 4.37×10⁻⁶, 120.6 (first principles) | m² s⁻¹; kJ mol⁻¹ | Arrhenius | [R5 p.121 Table 10] |
+| D₀, Q (Mg in Al) | 1.49×10⁻⁵, 120.5 (Du); 1.00×10⁻⁶, 110.0 (Doig); 1.19×10⁻⁵, 122.5 (first principles) | m² s⁻¹; kJ mol⁻¹ | Arrhenius; Du set reproduces R11's D(500 °C) | [R5 p.121 Table 10] |
+| D₀, Q (Li in Al) | 1.55×10⁻⁵, 119.2 | m² s⁻¹; kJ mol⁻¹ | Arrhenius | [R5 p.121 Table 10] |
+| D₀, Q (Al self-diffusion) | 6.6×10⁻⁶, 124.5 | m² s⁻¹; kJ mol⁻¹ | normalising values in the Table 10 caption | [R5 p.121] |
+| Vacancy formation enthalpy | 0.75 | eV | c_v,eq(250 °C)/c_v,eq(200 °C) ≈ 6 | [R5 p.103] |
+| Solute–vacancy binding | Cu ≈ +0.02, Mg ≈ −0.02, Sn 0.25 | eV | first principles (Wolverton 2007) | [R5 p.122] |
+| Natural-ageing time scale (Al–Cu–(Li,Mg), water-quenched from 500 °C) | hardness saturates ≈ 10 h; mostly complete in 24 h; stable from 72 h to 6 months | — | room temperature | [R5 pp.30–31, 71] |
+| Natural-ageing hardness gain | +20 % (no Mg), +55 % (1.7 at% Mg), +82 % (0.45 at% Mg + Li) | HV | Al–Cu–(Li,Mg) | [R5 pp.71–72] |
+| Cluster size / spacing (SAS) | ξ 2.2–5.2; λ 36–72; size < 1 nm | Å | as-quenched and naturally aged | [R5 pp.56, 94] |
+| Cluster DSC windows (10 °C min⁻¹) | formation 50–135 °C; dissolution 100–260 °C | °C | Al–Cu–(Li,Mg) | [R5 pp.72–74, 92–93] |
+| Cluster reversion | Cu-rich: 200 °C/≤ 60 s; Mg-bearing: 250 °C/30 s; Al–Cu–Mg precipitates within 30 s at 240 °C | — | isothermal oil bath | [R5 pp.95–96] |
+| SAS sensitivity (f_i − f_Al)/f_Al | SAXS: Cu 1.23, Mg −0.08, Li −0.77; SANS: Cu 1.23, Mg 0.55, Li −1.55 | — | — | [R5 p.46 Table 4] |
 
 ---
 

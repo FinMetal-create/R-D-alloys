@@ -2,7 +2,7 @@
 
 **Scope.** This file condenses the alloy/temper designation systems and the per-series physical metallurgy of wrought aluminium (1xxx–8xxx), with brief notes on cast alloys and Mg alloys. It takes the R&D view of composition → processing → microstructure → properties. The focus is on 3xxx heat-exchanger, fin and foil alloys (AA3003/3005/3102/3103/3207 family) and the neighbouring 1xxx, 5xxx, 6xxx, 7xxx and 8xxx series.
 **Rules used.** Every number comes from a source and carries a citation `[Ref p.X]`. Printed book page numbers are used where they are known. Anything not in the sources is marked *(general knowledge)* and kept to a minimum. If two sources disagree, both values are given. Greek phase symbols (θ, β, η, δ, Ω) were dropped by the PDF text extraction, so they are restored here from the table structure and marked "(symbols restored)".
-**Date compiled:** 2026-10-12.
+**Date compiled:** 2026-10-12. **Updated 2026-10-12:** full-text pass for K and DW (downloaded whole); the P download failed (§1).
 
 ---
 
@@ -484,7 +484,7 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 | Can end | **5182** | [K p.96, 101, 118] |
 | Impact-extruded parts | No alloy or temper named in K or DW (definitions only, below) | [K p.203, 217] |
 | Conductor wire / bus | **1350** (62 % IACS guaranteed); 6201 (high-strength wire); 6101 (bus); 8017 family (Fe/Ni, little conductivity loss) | [K p.88, 99, 107, 115–116] |
-| Heat exchangers | 3003 (power-plant tubing, auto A/C tubes); 3002 (radiators); No. 12 brazing sheet = **3003 core clad both sides with 4343** | [K p.94, 116, 163] |
+| Heat exchangers | 3003 (power-plant tubing, auto A/C tubes); 3002 (radiators); brazing sheet ("12-O" in the caption) = **3003 core clad on both sides with 4343** filler | [K p.94, 116, 163] |
 | Building sheet | 3005, 3105, 5005; 3xxx fully hard profiled cladding | [K p.116; DW §4.2.1(b)] |
 
 - **Definitions (AA terminology)** [K p.199, 203, 211, 217]:
@@ -507,11 +507,11 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135].
 8. **Earing:** the definition and degree-of-earing formula are in §4.2 [K p.196–197]. The texture mechanism (45° ears from rolling texture, 0/90° from cube) is in [P p.39–40].
 9. **Orange peel** occurs "when large grains in the metal are present" [K p.210].
-10. **Mg-bearing variants (3004/3104/3105)** can **age-soften**: a spontaneous drop in strength at room temperature in strain-hardened Mg-containing alloys. The cure is **stabilising**, a low-temperature treatment [K p.187, 218]. Over-stabilising 5086-H34 at 120–175 °C produced an "undesirable continuous network of Mg2Al3" at grain boundaries [K p.134].
+10. **Mg-bearing variants (3004/3104/3105)** can **age-soften**: a spontaneous drop in strength at room temperature in strain-hardened Mg-containing alloys. The cure is **stabilising**, a low-temperature treatment [K p.187, 218]. A 5086-H34 plate stabilised at 120–175 °C shows an "undesirable continuous network of Mg2Al3" at its grain boundaries [K p.134]. Stabilising does not by itself prevent β precipitation in high-Mg alloys.
 11. **Bendability of 1xxx/3xxx sheet** [DW §4.3.4, Table 4.6, eq. 4.2]: r/t_min = A + B·√t, with A = 0.3a − 1.7 and B = 0.08a + 0.5 (t in mm). Valid for 90° cold bends at t = 1.5–10 mm. Index a: **1200-O 3, H12 5, H14 6; 3103-O 4, H12 5, H14 6**; 5251-O 5; 5083-O 6; 6082-T6 13. H2x and H3x bend slightly better than H1x.
 
 **Assessment for lean 3xxx slugs (inference, not source statements)**
-- *Hardness calibration.* The user's slug window of 23–33 HB brackets the typical hardness of **1100-O (23 HB), 3003-O (28 HB) and 3003-H12 (35 HB)** [K p.44–45]. A fully recrystallised lean Al-Mn slug should therefore read between 1100-O and 3003-O. Readings well above ~30 HB in an "O" slug point to incomplete recrystallisation (recovered substructure) or high Mn in solid solution. Readings near 23 HB point to a 1xxx-like matrix with little Mn effect. This needs checking against the in-house HB data in chapter 09.
+- *Hardness calibration.* The user's slug window of 23–33 HB brackets the typical hardness of **1100-O (23 HB), 3003-O (28 HB) and 3003-H12 (35 HB)** [K p.44–45]. A fully recrystallised lean Al-Mn slug should therefore read between 1100-O and 3003-O. Readings well above ~30 HB in an "O" slug point to incomplete recrystallisation (recovered substructure) or high Mn in solid solution. Readings near 23 HB point to a 1xxx-like matrix with little Mn effect. The K values are typical hardnesses (500 kg load, 10 mm ball). Check that the in-house test conditions match, and compare with the in-house HB data in chapter 09.
 - *Where the particle structure is set.* Items 1–2 mean the constituent and dispersoid populations that drive PSN and Zener drag are set by **casting and homogenisation/preheat**, not by the final anneal. The final anneal can only act on stored energy and grain structure. The two 600 °C micrographs bracket the options: a long soak coarsens and spheroidises; slow cooling to 450 °C adds fine Al-Mn-Fe precipitate. The second option is expected to raise the recrystallisation temperature and can coarsen or elongate the annealed grain (consistent with [D p.382; P p.105–106]).
 - *Grain-size control.* Item 4 (critical strain) and item 9 (orange peel) set the risks at the coarse end of the 20–100 µm target. Avoid annealing material carrying only small or uneven strains, such as lightly levelled edges.
 

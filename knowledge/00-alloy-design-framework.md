@@ -131,6 +131,7 @@ Strengthening coefficients are for **annealed super-purity binaries** unless sta
 | R21 | Press force vs slug hardness | Ram force follows the slug's **large-strain flow stress**; HB is only a proxy (Rm/HB ≈ 3.6–3.9, or 4.1–4.2 for Mg-bearing O tempers). With Rm ≈ 3.6·HB at ≈ 30:1 reduction, 33 HB needs ≈ 43 % more force than 23 HB, and **35 HB ≈ 52 % more**. At 35 HB a flat-nosed Ø53 punch is estimated at ≈ 391 t, about 98 % of a 400 t press; conical Ø53 is ≈ 326 t. Punch stress is then ≈ 1.4–1.5 GPa, at Kuhn's 1400 MPa die-steel guide value, so tooling becomes a limit too (order-of-magnitude estimates, not validated) | D/G | [ch10 §2.5, §4.1] |
 | R22 | What HB means for lean 3xxx slugs | Fully RX lean 3xxx ≈ 23–28 HB (between 1100-O 23 and 3003-O 28 HB). Readings above ≈ 30 HB in **lean** 3102/3207 point to residual cold work (partial RX) or very fine grain. In a deliberately stronger alloy, ≈ 35 HB can be fully recrystallised. Always pair HB with RX fraction and grain size | D/G | [ch10 §4.1, §7] |
 | R24 | Hot-working constants (Sellars–Tegart, homogenised DC material) | α / n / Q (kJ/mol) / ln A: 1100 0.045 / 5.66 / 158.3 / 24.67; 3003 0.0316 / 4.45 / 164.8 / 26.9; 3004 0.0344 / 3.6 / 193.85 / 28.21; 3105 0.0248 / 4.83 / 179.3 / 29.98. No values for 3102/3207/T11, and no T or strain-rate validity range is printed. Non-homogenised rotary-cast strip should sit at higher flow stress | D | [ch07 §10, Sheppard Table 4.1] |
+| R25 | Classifying Fe constituents (measurement) | By EDX on individual particles: β if particle Si > ≈ 0.48·(particle Fe+Mn), α below. This is a **particle-classification line, not an alloy-composition rule**. Measure at surface, quarter and centre of cast strip and hot band | D | [ch02 §3.5, TRIMET R2] |
 | R23 | Base-corner damage | Coarse Fe/Mn constituents nucleate hidden ductile damage at the base corner; it shows up later in ironing or necking | D | [ch10 §5.1] |
 
 ---
@@ -222,7 +223,7 @@ anneal (P3/P4).
   3102/3207 [ch10 §7] (derived). That is in the stronger range the user is aiming for (≈ 35 HB acceptable). The
   real questions are press force (the highest in the family, R21), full RX at the plant cold reduction, and
   castability on the rotary strip caster.
-- **Mg vs Mn.** Per wt %, Mg raises can-wall strength ≈ 2× more than Mn in solution. *Corrected after the
+- **Mg vs Mn.** Per wt %, Mg raises can-wall strength ≈ 1.3–2× more than Mn in solution (Ryen's measured curves [ch06; ch10 §3.4]). *Corrected after the
   full-text pass:* per unit of extra press force the two are close under the work method. So choose between them
   on other grounds: MgO, RX behaviour, castability, scrap chemistry [ch10 §3.4, §8].
   The Mg route, however, raises MgO.

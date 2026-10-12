@@ -329,6 +329,9 @@ Hinterkopf brochures, the punching slides) relates to the user's slug and aeroso
 | S-045 | Sheppard, *Extrusion* | w → ww → 2 (clean copy); aaa → bbb → ccc (duplicate split) | complete |
 | S-047 | AA, *Rolling Aluminum* | x → xx → xxx | complete except glossary p. 9-2; Appendix C tables are images |
 | S-007 | Lalpoor thesis | aa → q → qq → cc → dd (bb replaced by q/qq) | complete except acknowledgments |
+| S-052 | Ryen thesis | er → qwqwqw (= errr) → Thesis.book; qwq (8.2 MB) failed but is not needed | complete (front matter, pp. 1–192, App. A) |
+| — | TRIMET paper (ch02 R2) | aq | complete (7 pp.) |
+| S-015 | **Maggs thesis** | — | **not yet uploaded** (Drive file `fir-tree zone.pdf`, 22.3 MB, needs ≈ 5 parts) |
 | S-020 | Ivanov thesis | a → c (via text reader) → eee → d → b; ee (8.2 MB) failed | pp. 24–30 and some even pages 32–58 missing (low priority) |
 | — | 1.pdf, c.pdf, bb.pdf, ee.pdf | over the ≈ 6 MB limit | superseded by re-splits, except ee (not needed) |
 

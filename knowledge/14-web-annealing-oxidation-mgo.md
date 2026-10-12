@@ -39,7 +39,7 @@
 | W14-13 | authors not confirmed (one listing: G.R. Wakefield, R.M. Sharp) | 1991 | The composition of oxides formed on Al-Mg alloys | Applied Surface Science 51, 95–102 | https://www.sciencedirect.com/science/article/abs/pii/016943329190065R | abstract only (snippet) |
 | W14-14 | Purdue Univ. PhD dissertation (author not retrieved) | not confirmed | XPS characterization of heat-treated aluminum alloys | dissertation AAI9334333 | https://docs.lib.purdue.edu/dissertations/AAI9334333 | snippet only |
 | W14-15 | J.A.S. Tenório, D.C.R. Espinosa | 2000 | High-temperature oxidation of Al-Mg alloys | Oxidation of Metals 53, 361 | https://link.springer.com/article/10.1023/A:1004549522648 | snippet only (description by a citing source) |
-| W14-16 | Norsk Hydro (inventors incl. S. Rist, G. Øyen per inventor listings) | 2022 (grant) | Method for and equipment for suppressing discoloration of Al–Mg products | US 11,453,938 B2 (EP 3683322) | https://patents.google.com/patent/US11453938 | snippet only (claims summary) |
+| W14-16 | Norsk Hydro (inventors probably incl. S. Rist, G. Øyen — inventor-listing pages were returned with the patent; not confirmed) | grant year not confirmed (application US 2020/0232080) | Method for and equipment for suppressing discoloration of Al–Mg products | US 11,453,938 B2 (EP 3683322) | https://patents.google.com/patent/US11453938 | snippet only (claims summary) |
 | W14-17 | SINTEF group (authors not retrieved) | 2022 | Heat treatment of Mg-containing aluminum alloys 5182 and 6016 in an oxidizing atmosphere with 4% CO2 (+ companion papers on the CO2 effect) | Light Metals 2022 (TMS/Springer) | 10.1007/978-3-030-92529-1_77 | snippet only — **750 °C** |
 | W14-18 | Leth-Olsen et al. | 1997 | Formation of nanocrystalline surface layers by annealing and their role in filiform corrosion of aluminum sheet | J. Electrochem. Soc. 144(7) | — (no DOI retrieved) | snippet only |
 | W14-19 | H. Afseth, J.H. Nordlien, G.M. Scamans, K. Nisancioglu | 2001 | Effect of heat treatment on filiform corrosion of aluminium alloy AA3005; companion: Influence of heat treatment and surface conditioning on filiform corrosion of AA3005 and AA5754 | Corrosion Science 43(11), 2093–2109; 43(12), 2359–2377 | 10.1016/S0010-938X(01)00014-2 | snippet only |
@@ -214,7 +214,7 @@ build roughly 3× the MgO of one with 0.1 % Mg under the same cycle. Near-surfac
 | **Conversion-coating / pretreatment failure (→ lacquer adhesion)** | Excessive Mg surface enrichment (GDOES, TEM) **prevents formation of ZrO2-based conversion coatings**. The Mg and Zr surface concentrations are **anti-correlated**. **Sufficient alkaline etching** restores proper coating formation. Specimen variation tracked extrusion process details and **oxide thickness** more than bulk 6060 composition | none | [W14-21], [W14-22] (snippet only; the split of statements between the two papers is uncertain) |
 | **Adhesive bonding** | The native heat-generated oxide is **inert and inhomogeneous** and must generally be **replaced** before bonding | none | [W14-24] (snippet only) |
 | **Filiform corrosion (FFC) of painted sheet** | Annealing rolled sheet **> 300 °C** raises FFC susceptibility through an electrochemically active **nanocrystalline surface layer** [W14-18]. For AA3005-type alloys the **Mg-enriched oxide itself did not cause significant loss of FFC resistance**. The deformed surface layer with secondary precipitation is the main factor [W14-19], [W14-20]. A 2025 study on scrap-based Al links **Mg surface enrichment to increased FFC susceptibility** [W14-22] | none | (snippet only) — **sources disagree on whether MgO itself matters** |
-| **Brazeability (CAB)** | MgO and spinel are **poorly soluble in molten flux**, and Mg reduces the surface Al2O3 [W14-23], [W14-25]. Patent background: **above ~0.3 % Mg the Nocolok flux is "poisoned"** by MgO formation (MgF2-type products), and raising the flux load is uneconomic [W14-26]. A flux supplier gives a tolerance of **0.5 % Mg** for furnace flux brazing [W14-25] | **Oxide 4 → 22 nm: only a small brazeability loss at 5 g/m² flux, but an appreciable loss of clad fluidity from 4 → 10 nm at 2 g/m² flux** [W14-25] | (snippet only) |
+| **Brazeability (CAB)** | MgO and spinel are **poorly soluble in molten flux**, and Mg reduces the surface Al2O3 [W14-23], [W14-25]. Patent background: **above ~0.3 % Mg the Nocolok flux is "poisoned"** by MgO formation (the Mg oxides react with the flux to magnesium fluorides), and raising the flux load is uneconomic [W14-26]. A flux supplier gives a tolerance of **0.5 % Mg** for furnace flux brazing [W14-25] | **Oxide 4 → 22 nm: only a small brazeability loss at 5 g/m² flux, but an appreciable loss of clad fluidity from 4 → 10 nm at 2 g/m² flux** [W14-25] | (snippet only) |
 | **Lubricant (zinc stearate) interaction, friction in impact extrusion, weldability** | **No retrieved source** | — | — |
 
 **Note.** The brazing figures are the only "critical thickness" values found. They show that a few nm of extra oxide can matter
@@ -264,8 +264,7 @@ when the reactive agent (flux) is scarce. Any analogy to lacquer, pretreatment o
 
 ### 4.5 Be micro-additions (historic)
 - **Not verified in this round** (the search budget ran out before the query ran). *(general knowledge, verify)*: ppm-level Be has
-  historically been used in Al-Mg melts to reduce Mg oxidation. Be and its compounds are toxic (inhalation hazard), and
-  food- and beverage-contact practice generally excludes it. It should be treated as a historical reference, not a lever for aerosol slugs.
+  historically been used in Al-Mg melts to reduce Mg oxidation. Be and its compounds are toxic (inhalation hazard), and its use is now generally avoided for health and safety reasons. It should be treated as a historical reference, not a lever for aerosol slugs.
 
 ---
 
@@ -314,12 +313,12 @@ temperatures and times only (no Mg content, dew point or atmosphere). All scores
 8. **Internal-consistency check (recalc.).** Suppose the time axis of the §3.2 growth curve matches the A2 AO-45 phase table in
    §3.5 (0–80 min ramp to 300 °C; 80–120 min 300→370 °C; equalise 370 °C to ~150 min; ~15 min to 400 °C; 50 min soak). Then
    the curve gives 0.10 → 3.41 nm during the 300→370 °C ramp and 5.96 nm by the end of equalisation. That is **≈ 84 % of the 7.12
-   nm total formed at ≤ 370 °C**. The 400 °C soak adds only ≈ 0.6 nm, and ≈ 0.3 nm forms on cooling. This contradicts the sheet's own
+   nm total formed at ≤ 370 °C**. The ramp to 400 °C plus the 50 min soak (~150–215 min) adds only ≈ 0.9 nm (5.96 → 6.82), and ≈ 0.3 nm forms on cooling. This contradicts the sheet's own
    labels ("MgO LOG", "LOG safe" at ≤ 370 °C) and its risk weighting (time ≥ 400 °C = "#1 MgO driver"). Also, Cycle 3 Original and the
    A1 test have no equalisation step (§3.1), yet they show the same 3.41 nm at 120 min as the A2 variants, which suggests a shared
    ramp template. **Either the time axis differs from the phase table, or the model's low-temperature growth term dominates.
    This should be checked against the cell formulas.**
-9. **Resolution vs. uncertainty.** The differences between the best cycles (7.1 vs 8.6 vs 9.1 nm) are 15–25 %. Without measured
+9. **Resolution vs. uncertainty.** The best cycles (7.1 vs 8.6 vs 9.1 nm) differ by roughly 5–30 %. Without measured
    thickness data, and given the regime and atmosphere effects above, these differences are probably below what the model can
    resolve. The ranking by time-at-temperature is more robust than the absolute nm values.
 

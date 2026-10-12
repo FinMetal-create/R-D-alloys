@@ -880,7 +880,7 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 - Si needed to bind 0.26 Mg as Mg₂Si: 0.26/1.73 = **0.150 %** (derived).
 - **Si available depends on the Fe phase** (§2.6):
   - **TOT rule** (≈ α-type binding): 0.38 − ¼(0.52 + 0.14) = **0.215 %**. That is ≈ 0.065 % excess Si and **Mg₂Si ≈ 1.578 × 0.26 = 0.41 %** (derived).
-  - **β-Al₅FeSi** (Si/Fe 0.5), with Mn in α (Si/Mn 0.34) or in Al₆(Fe,Mn): 0.07–0.12 % Si left. Si then limits Mg₂Si to ≈ 2.73 × Si_avail = **0.19–0.33 %**, leaving 0.05–0.14 % Mg in solution (derived).
+  - **β-Al₅FeSi** (Si/Fe 0.5), with Mn in α (Si/Mn 0.34) or in Al₆(Fe,Mn): 0.07–0.12 % Si left. Si then limits Mg₂Si to ≈ 2.73 × Si_avail = **0.20–0.33 %**, leaving 0.05–0.14 % Mg in solution (derived).
   - **Si-free Al₃Fe/Al₆Fe**: almost all 0.38 % Si stays free, which is strongly Si-excess (derived).
   - The Fe-phase selection therefore changes the Mg₂Si potential by about 2× and moves T11 between Si-excess and Mg-excess chemistry (inference).
 - **Solvus.** TOT gives only the quasi-binary eutectic (595 °C, 1.85 %). The dissolution temperature of 0.2–0.4 % Mg₂Si is not in any source read (§12).
@@ -888,7 +888,7 @@ Sc has little or no effect on the kinetics of θ′, β″ or η′. θ′ nucle
 - **Natural ageing.** At 0.2–0.4 % Mg₂Si, T11 is below the 0.8–0.9 % thresholds whatever the unit.
   - By TOT, storage before a later heat treatment is neutral or beneficial: it gives finer β″ later [TOT pp.175–176, 279] (inference).
   - Hardness still drifts during storage through clustering, so record slug HB against age (T11 measurement plan).
-- **Bake 220 °C/10 min.** T_v = 111 + 71 × (0.19–0.41) ≈ **125–140 °C** (derived). The bake is above T_v, so no new homogeneous GP zones nucleate.
+- **Bake 220 °C/10 min.** T_v = 111 + 71 × (0.20–0.41) ≈ **125–140 °C** (derived). The bake is above T_v, so no new homogeneous GP zones nucleate.
   - Any bake hardening must come from growth of clusters or zones formed beforehand, or from precipitation on the dense dislocation structure of the extruded wall (inference).
   - 10 min at 220 °C is of the order of the 8 min zone stage at 200 °C and far short of the 8 h β′ transition [TOT p.279]. The wall should therefore be in the zone/β″ stage, not overaged (inference, extrapolated from 6xxx).
 - **Quench sensitivity.** T11 has little Mn, so it should be little quench sensitive from dispersoids (inference from [TOT pp.177–179]).

@@ -35,7 +35,7 @@ melt (scrap-rich) → strip casting (DC + hot rolling, or continuous casting ≈
 
 | Requirement | Target or constraint | Controlling microstructure | Where |
 |---|---|---|---|
-| Slug hardness | 23–33 HB (in-house) | Fully recrystallised matrix. The level is set by solute (Mn_ss, Mg, Cu), dispersoids and grain size | [ch09 §2–3] (I) |
+| Slug hardness | **≤ 35 HB** (user-stated upper limit, 2026-10-12; no lower limit given). The earlier "23–33 HB" was inferred from in-house model files [ch09 §2–3] | Fully recrystallised matrix. The level is set by solute (Mn_ss, Mg, Cu), dispersoids and grain size. Near 35 HB the press force, not the spec, may become the binding limit (R21) | user; [ch10 §2.5] |
 | Slug grain size | 20–100 µm, equiaxed. No pancake grains and no coarse surface grains (orange peel) | Recrystallisation (RX) nucleation density vs Zener drag. Precipitation-before-RX sequence | [ch09 §2–3] (I); [ch03 §5, §7.1] (D) |
 | Slug surface | Low MgO (in-house ≲ 7–9 nm). No abrasive oxide | Mg surface segregation and selective oxidation during the anneal | [ch09 §3] (I); [ch14] (W); [ch11 §2] (W) |
 | Extrudability | Low punch force, no splits, good wall surface | Low flow stress, high ductility, uniform fine grains, compact constituents | [ch10]; [ch03 §7.1] (D) |
@@ -126,8 +126,8 @@ Strengthening coefficients are for **annealed super-purity binaries** unless sta
 | R18 | MgO onset | Mg segregation from 100–200 °C; Mg-rich oxide above ≈ 337–400 °C; inert gas needs O₂ < a few hundred ppm | W | [ch14] |
 | R19 | Aerosol pressure rules | Test ≥ 10 bar or 1.5 × P(50 °C); burst ≥ 1.2 × test | W | [ch11 §4] |
 | R20 | Thin-wall lightweighting | t ∝ 1/σ_allowable; +10 % post-cure strength ≈ −9 % wall | G | [ch11 §1.2] |
-| R21 | Press force vs slug hardness | Ram force ∝ slug strength. At ≈ 30:1 reduction, 33 HB needs ≈ 43 % more force than 23 HB; a flat Ø53 punch at 33 HB approaches a 400 t press | D/G | [ch10 §2.5, §4.1] |
-| R22 | What HB means for lean 3xxx slugs | Fully RX lean 3xxx ≈ 23–28 HB (between 1100-O 23 and 3003-O 28 HB). Values near 33 HB point to residual cold work (partial RX) or very fine grain. Always pair HB with RX fraction and grain size | D/G | [ch10 §4.1, §7] |
+| R21 | Press force vs slug hardness | Ram force ∝ slug strength (Rm ≈ 3.6·HB). At ≈ 30:1 reduction, 33 HB needs ≈ 43 % more force than 23 HB, and **35 HB ≈ 52 % more**. At the 35 HB limit, a flat-nosed Ø53 punch is estimated at ≈ 391 t, about 98 % of a 400 t press; conical Ø53 is ≈ 326 t (order-of-magnitude estimate, not validated) | D/G | [ch10 §2.5, §4.1] |
+| R22 | What HB means for lean 3xxx slugs | Fully RX lean 3xxx ≈ 23–28 HB (between 1100-O 23 and 3003-O 28 HB). Readings above ≈ 30 HB in lean 3102/3207 point to residual cold work (partial RX) or very fine grain, even though they pass the ≤ 35 HB limit. Always pair HB with RX fraction and grain size | D/G | [ch10 §4.1, §7] |
 | R23 | Base-corner damage | Coarse Fe/Mn constituents nucleate hidden ductile damage at the base corner; it shows up later in ironing or necking | D | [ch10 §5.1] |
 
 ---
@@ -195,8 +195,8 @@ Pick the target microstructure from [ch03 §5.4] (table "fine equiaxed vs coarse
 - **Slug anneal.** Much higher Mn supersaturation as cast moves the alloy into the slow-RX, heating-rate-
   sensitive regime [ch03 §5; ch09 §9 item 5].
 - **Slug hardness and press force.** Fully annealed, it is estimated at ≈ 31–32 HB, versus 23–28 HB for lean
-  3102/3207 [ch10 §7] (derived). That leaves almost no margin to the 33 HB ceiling, and gives the highest press
-  loads in the family (R21).
+  3102/3207 [ch10 §7] (derived). That leaves only ≈ 3–4 HB of margin below the 35 HB limit for incomplete RX
+  or process scatter, and gives the highest press loads in the family (R21).
 - **Mg vs Mn.** Per unit of extra press force, Mg buys more can-wall strength than Mn in solution [ch10 §8].
   The Mg route, however, raises MgO.
 - **MgO.** About 2–3× more Mg means more MgO at a given cycle [ch14].

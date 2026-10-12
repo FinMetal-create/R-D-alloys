@@ -1065,8 +1065,11 @@ production"; slug thickness range 6.1–7.4 mm "within standard extrusion parame
 quoting".
 
 **Not present in any slug document:** composition limits, grain size, hardness (HB), annealing/temper, surface
-(MgO/oxide) or lubrication requirements. The closest in-house targets are in §2/§3 (HB 23–33, grain 20–100 µm,
-MgO ≤ ~7–9 nm) and §5 (grain bands, max extrusion area reduction).
+(MgO/oxide) or lubrication requirements. The closest in-house targets are in §2/§3 (HB values in the model files
+span ≈ 23–33, grain 20–100 µm, MgO ≤ ~7–9 nm) and §5 (grain bands, max extrusion area reduction).
+
+**User clarification (2026-10-12):** the slug hardness limit is **≤ 35 HB**. "23–33 HB" is not a specification;
+it was inferred from the model files. No lower hardness limit was stated.
 
 ### Assessment
 - Slug geometry is self-consistent: slug mass = (π/4)·D²·h·2.70 within 0.3–1.3 %, and slug thickness =

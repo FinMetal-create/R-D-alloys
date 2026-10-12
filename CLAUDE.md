@@ -15,7 +15,9 @@ composition → solidification → homogenisation → hot/cold deformation → a
 The main focus is wrought aluminium. The user's own work centres on lean 3xxx alloys
 (EN AW-3102 and a modified 3102, and AA3207) cold rolled into strip and annealed into
 **impact-extrusion slugs for aerosol cans**. The key levers are recrystallisation during
-annealing (grain size 20–100 µm, slug hardness 23–33 HB), MgO surface oxide growth, and
+annealing (grain size 20–100 µm; slug hardness **≤ 35 HB**, an upper limit stated by the user on 2026-10-12,
+with no lower limit given; the earlier "23–33 HB" window was an inference from the in-house files), MgO
+surface oxide growth, and
 cold-rolling-mill reductions. Other alloy families are covered for the principles that
 transfer to aluminium.
 

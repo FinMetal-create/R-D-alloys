@@ -4,6 +4,8 @@
 
 **Conventions.** Every claim carries a citation `[Ref p./§]`. **Derived** marks arithmetic I did on source numbers, such as unit conversions or slopes. **Inference** marks a design conclusion I drew from cited facts. **(general knowledge)** marks content that is not in the sources; I kept it to a minimum. Several source texts lost `%`, minus signs and units during PDF extraction. Values affected by this are flagged ⚠.
 
+**Update 2026-10-12 (Polmear full text).** Polmear's *Light Alloys* (S-028, cited here as **[POL p.x]**, the key used in ch07) was read in full from the user's two-part split copy (Section 1) and added to this chapter. New material: conductor-alloy data and a Zr conductivity coefficient (Section 2), canstock phase and texture practice (Sections 3, 5, 6), paint-bake behaviour (Section 7), continuous casting, castability, hot tearing and recycling (Section 8), oxide/MgO statements (Section 11) and the packaging and electrical rows of Section 12.2. Where POL and HB disagree, both are given and flagged (Section 14, item 5). ch05 §4.10 and §4.12 hold the fuller canstock, foil, conductor and cast-alloy summaries.
+
 ---
 
 ## 1. Sources

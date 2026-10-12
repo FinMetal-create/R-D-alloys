@@ -675,6 +675,22 @@ This map is assembled from K Ch. 6, the K terminology appendix, DW, TOT and, sin
   - **AC-44100 (LM6, Si 11.5)**, durability B: F sand 160 MPa / 5 %; F chill 190 MPa / 7 %. The most popular casting alloy, for its fluidity.
   - **AC-51400 (LM5, Mg 4.5 Mn 0.5)**, durability A: F sand 140 / 3; F chill 170 / 5.
   - **AC-42000 (LM25, Si 7.0 Mg 0.4)**, durability B: F sand 130 / 2; F chill 160 / 3; **T6 sand 230 / 2; T6 chill 280 / 2**.
+- **Polmear Ch. 4 (P full text).**
+  - *Scale.* Cast:wrought was about 1:2 in North America in 2004; nearly 300 casting compositions were AA-registered in 2005. "Secondary" alloys (from recycled metal) usually carry more undesirable impurities and often have inferior properties [P p.205]. Properties in a real casting may be **20–25 % below** those of separately cast test bars [P p.206].
+  - *Castability* is the sum of fluidity, mould filling, volume shrinkage, hot-tearing susceptibility, porosity formation and surface quality; mould design and process conditions are often more important than composition [P p.208].
+  - *Fluidity* falls as purity falls and alloying widens the freezing range, forms intermetallics and changes solidification from a planar front to a mushy mode; it recovers near a eutectic [P p.209].
+  - *Shrinkage* on solidification is **6 % for pure Al**, falling to 1–2 % for hypereutectic Al–Si [P p.209].
+  - *Porosity* follows the freezing range: long ranges give dispersed interdendritic micropores, short ranges localised macro-shrinkage. Intermetallics that impede interdendritic feeding raise it, e.g. needles of **Al₅FeSi** and Chinese-script **Al₁₅(Mn,Fe)₃Si₂** [P p.209–210].
+  - **Hot tearing** occurs when tensile stresses in the solidifying casting exceed the strength of the partly solid metal, typically at restrained hot spots. Alloys are more susceptible when they have **wide solidification ranges and small volumes of eutectic** to fill and heal tears. **Al–Cu and Al–Mg alloys are the most prone; Al–Si alloys the most resistant** [P p.210]. Al–Cu casting alloys "may present casting problems, e.g. hot-tearing" [P p.226]; Al–Zn–Mg castings are sand cast because permanent moulds tend to cause hot cracking [P p.228].
+  - **Fe phases and the Mn:Fe rule (Al–Si alloys).** Ductility of binary Al–Si needs Fe controlled to avoid **large brittle plates of β-AlFeSi**. Mn favours the finer **α-AlFeSi with Chinese-script morphology**. "An accepted rule in industry is that the **Mn:Fe ratio needs to be at least 0.5:1** for β-AlFeSi to be suppressed", although β has been seen at Mn:Fe up to 1:1. High Mn raises the total volume fraction of intermetallics, because α contains a lower atomic fraction of Fe and so forms larger colonies than the β it replaces; "the preferred strategy is to keep the iron levels as low as possible in the first place" [P p.220] (symbols restored from context). Even 0.0015 % Fe or more forms β-Al₉Fe₂Si₂ particles (printed "Al9Si2Fe2"; symbol restored), which can nucleate eutectic Si [P p.219].
+  - ⚠ **Conflict inside P:** Table 4.2's footnote for 355.0 reads "If iron exceeds 0.45 % manganese content must be **less than** one-half the iron content" [P p.212], the opposite of the Mn:Fe ≥ 0.5 rule in the text [P p.220]. *(General knowledge: the AA limit for 355.0 is usually stated as "not less than one-half"; the table is probably misprinted.)* Use the text rule.
+  - *Mg in Al–Si–Mg.* 357 (Al–7Si–0.5Mg) can form large particles of the π phase **Al₉FeMg₃Si₅**, which crack preferentially and remove Mg from the ageing reaction [P p.222] (symbol restored).
+  - *Al–Mg castings.* Mg increases melt oxidation; steam from sand moisture forms **MgO and hydrogen**, roughening and blackening the surface. Counter-measures: about 1.5 % boric acid in the sand or **~0.03 % Be** in the alloy, which forms an impervious oxide film and reduces general oxidation (BeO is toxic) [P p.227].
+  - *Die soldering.* Iron is the most beneficial alloy element against soldering to steel dies; for Al–Si die-casting alloys the critical Fe is estimated as **Fe_crit ≈ 0.075·[%Si] ± 0.05** (the operator before 0.05 is lost in the text layer and is not restored here; check the printed page). Mn and small Ti help, Ni hurts; Mg, Si and Sr have no significant effect. Melt injection ≤ about 670 °C limits sticking [P p.210–211].
+  - *Order of castability:* 3xx > 4xx > 5xx > 2xx > 7xx [P p.216].
+- **Relevance for rotary strip casting of lean slug alloys (inference from the statements above and from [D p.384]).**
+  - *Hot tearing.* P's criterion (wide freezing range, little eutectic) describes dilute alloys. D reports binary high-purity Al–Si as hot short up to 3 % Si, most critically at **0.17–0.8 % Si** [D p.384] (§4.3). T11's Si 0.38 lies inside that window, and its Mg 0.26 adds an Al–Mg contribution, the family P ranks most prone. T11's Fe 0.52 adds Al–Fe–Si eutectic, which may partly heal tears, but no source quantifies this for lean multicomponent alloys. Hot-tear and edge-crack checks on the 22 mm strip belong in the T11 measurement plan.
+  - *Mn:Fe.* T11 has Mn:Fe = 0.14/0.52 ≈ **0.27** (derived), below P's 0.5:1 rule. The rule is for Al–Si casting alloys with 5–12 % Si, so it transfers to a 0.38 % Si wrought alloy only qualitatively. It still flags a risk: without homogenisation to convert the as-cast Fe phase, plate-like β-type Al–Fe–Si may survive into the slug, where plates crack under extrusion strain (§4.10.1, ch06 §4 pitfall on constituent cracking). Mn would push towards α but also raises the intermetallic volume fraction and the Mn left in solution. Check the as-cast Fe phase by SEM/EDS.
 
 ---
 
@@ -727,6 +743,9 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
    - H solubility is 0.68 (liquid) vs 0.036 (solid) cm³/100 g, a factor of 19. Melts need **<0.15 cm³/100 g H** to be porosity-free.
    - Degassing with Ar/N2/Cl2 or FILD; ceramic foam filtration.
 2. **Casting.** DC cooling rate is 1–5 °C/s, with dendrite cells **30–70 µm**. Twin-roll casting runs at 10²–10³ °C/s with **5–10 µm** cells and higher transition-metal supersaturation [P p.99, 102].
+   - *(P full text)* **Moving-mould casters** [P p.101–102]: the **Properzi** (rotating wheel, for bar and rod; Fig. 3.4a) and **Hunter** (twin-roll, sheet; Fig. 3.4b) processes; the Alusuisse **block caster** (chilled blocks on caterpillar tracks); and the **Hazelett twin-belt caster** (steel belts, side-dam chains, gas injection against oxidation, water-cooled belts), which makes 12–75 mm slab up to 2.3 m wide at 21–24.5 t per metre of width per hour. For a **19 mm** Hazelett slab the cooling rate is **11–40 °C/s at the surface and 4 °C/s at the centre**. Twin-roll sheet is 3–10 mm thick and needs little further rolling.
+   - Faster solidification gives finer dendrite arm spacing, less microsegregation, smaller intermetallics and finer, more uniform grain [P p.102].
+   - *Relevance (inference):* P gives no cooling rate for wheel casters. The user's rotary strip caster belongs to the moving-mould family; at 22 mm it is nearest to the 19 mm Hazelett case in section thickness.
 3. **Grain refinement.** Al-5Ti-1B (Ti:B 3:1 to 50:1) [P p.103]. Commercial refiners hold 3–10 % Ti with Ti:B from 5:1 to 50:1 [D p.390].
 4. **Homogenisation** (450–600 °C, 6–24 h) [P p.105]. Purposes:
    - reduce microsegregation;
@@ -773,6 +792,8 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 
 ## 7. Corrosion and SCC summary relevant to alloy design
 - **Oxide film.** About **2.5 nm** on fresh rolled sheet and protective at **pH 4.5–8.5** [P p.70]. Davis gives ~5 nm and pH 4–9 [D p.399]. TOT gives 5–20 nm under usual conditions: an amorphous inner layer of ≤ 10 nm plus a bayerite/boehmite layer that depends on environment and time. The film forms in ≈ 10⁻⁴ s, thickens with water vapour and becomes complex at elevated temperature [TOT p.60–62]. Dwight prints "typical thickness **0.005 mm**" [DW §4.7.1], i.e. 5 µm. That is three orders of magnitude above P and D, and is almost certainly a unit slip for 0.005 µm (5 nm). Do not use the DW figure (this matters for the MgO annealing-oxide work, where film thickness is a measured quantity).
+  - *(P full text)* After the initial 2.5 nm, the air-formed film "may continue to grow at a decreasing rate for several years to reach a thickness of some tens of nanometres"; growth is faster at higher temperature and humidity, and many times faster in water than in dry air [P p.70]. Where Mg is enriched (grain-boundary regions in aged alloys), the adjacent oxide has more **MgO** and is "a less effective barrier" [P p.91]. MgO has a lower free energy of formation than alumina, so Mg metal can partly reduce Al₂O₃ to **spinel MgAl₂O₄**, rupturing the film; in powder sintering < 0.2 % Mg suffices for this. Atomised powder carries 5–15 nm of oxide [P p.188].
+  - *Relevance (inference):* these statements give the thermodynamic basis for MgO/spinel growth on Mg-bearing slugs during annealing (T11: 0.26 % Mg) and suggest that such an oxide is less protective than pure alumina. P gives no growth kinetics for solid-state annealing; see ch14.
 - **Atmospheric pitting of 3103 (Alcan data)** [DW §4.7.1, Fig. 4.12]: pit depth grows quickly in the first year and almost stops after **~5 years**, as corrosion products stifle the pits. Worst 5-year pit depths: **~0.04 mm rural, 0.08 mm inland industrial, ~0.16 mm industrial by the sea**.
 - **When to protect (BS 8118 ratings)** [DW Table 4.9]: A-rated alloys (1xxx, 3xxx, 5xxx) need protection only in **severe industrial** atmospheres, inland or by the sea. B-rated 6xxx always needs it in severe industrial sites. In inland moderate-industrial and in marine rural or moderate-industrial sites it needs protection only if thinner than 3 mm. Weldable 7xxx (C) needs it everywhere except inland rural; 2xxx and strong 7xxx (D) need it everywhere.
 - **Electrode potentials** (V vs 0.1 M calomel, NaCl–H2O2; all negative, signs restored) [P Table 2.4–2.5]:
@@ -808,7 +829,15 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
   - In 2004 roughly half of world Mg went into Al alloys. Less than 20 % went into Mg alloys, mostly die castings.
   - Die-casting tonnage grew 16 %/yr over 1994–2004, to 152,000 t in 2004.
   - Wrought Mg is limited by the hcp structure.
-- **Coverage gap.** Polmear Ch. 5 (Mg alloys) is **not in the extracted text**, and the 2026-10-12 full download of P failed (§1). This section therefore has no Polmear physical metallurgy (Zr grain refinement, Mg-Al β-Mg17Al12 and so on). K mentions Mg only as an alloying element; DW does not cover Mg alloys.
+- **Polmear Ch. 5 (P full text, brief; read for transferable principles only).**
+  - *Alloying.* Mg is hcp with an atomic diameter of 0.320 nm, which gives favourable size factors with many solutes. Maximum solubilities (wt %): **Al 12.7**, Zn 6.2, Y 12.5, Ag 15.0, Li 5.5, **Zr 3.8 (peritectic)**, **Mn 2.2 (peritectic)**, Ca 1.35, Ce 0.5 [P p.238 Table 5.1]. Cast products have traditionally been 85–90 % of Mg products in Europe [P p.239].
+  - *Impurity tolerance.* About **0.2 % Mn** (from 1925) improves corrosion by tying up Fe and other heavy metals in compounds, some of which settle out of the melt. Corrosion rises abruptly above the tolerance limits **Ni 5, Fe 170, Cu 1300 ppm** (Hanawalt) [P p.239]. High-purity AZ91E (Fe ≤ 0.015, Ni ≤ 0.001, Cu ≤ 0.015 %) corrodes up to 100× more slowly in salt fog than AZ91C [P p.262].
+  - *Grain refinement.* Zr refines Mg grains intensely (Sauerwald, 1937) but cannot be used in Al- or Mn-bearing alloys because it forms stable compounds with them; hence two families, Zr-free and Zr-bearing [P p.242]. Mg–Al alloys are refined by superheating to ≥850 °C for about 30 min or by 0.025–0.1 % hexachloroethane (carbon inoculation, Al₄C₃/Al₂OC nuclei proposed) [P p.252–253]. Be (<30 ppm) strongly reduces melt-surface oxidation but coarsens grains [P p.239–240 Table 5.2].
+  - *Mg–Al.* β-Mg₁₇Al₁₂ appears above 2 % Al; ductility falls rapidly above 8 % Al; Al solubility falls from 12.7 % at 437 °C to about 2 % at room temperature, but supersaturated Mg–Al transforms directly to coarse β laths on the basal planes without GP zones, so age hardening is poor and the alloys are used as cast or cast and annealed (about 420 °C) [P p.259–261] (symbols restored). AZ91 is the most widely used Mg alloy [P p.261].
+  - *Sheet.* Mg sheet is hot rolled to 5–6 mm and then annealed (e.g. 340 °C) before each pass, which reduces thickness by only **5–20 %** because of the hcp structure; world Mg sheet use was about 1000 t. Twin-roll strip casting (pilot: 2.5 mm, 600 mm wide, rolled down to 0.5 mm) is attractive, but Mg freezes faster and over longer ranges than Al, so cast strip is more prone to surface defects and internal segregation [P p.257–258].
+  - *Impact extrusion.* The Magnox fuel-element can alloy (Mg–0.8Al–0.005Be) is impact extruded with integral cooling fins [P p.285].
+  - *Recycling.* Mg scrap recycling lags Al because of Mg's reactivity with O and N and contamination by Cu and Ni; scrap is remelted under chloride–fluoride flux, and distillation is a possible route because of Mg's low boiling point (1090 °C) [P p.13].
+  - *Relevance (inference):* the Mg chapter supports two transferable points for Al slugs. Fe/Ni/Cu tolerance limits are an example of how impurity thresholds, not averages, govern corrosion; and strip casting of long-freezing-range alloys raises segregation and surface-defect risks, which is the same concern as for Mg-bearing lean Al alloys on a rotary caster.
 
 ---
 
@@ -835,6 +864,9 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
     - NHT alloys welded lose their temper, so design on O-temper strength [P p.163].
 14. **Do not fixate on familiar specifications;** choose from the full "menu" of alloys [T §1101.02]. Alloy-design trade-offs are multi-property: fatigue, toughness, SCC, weldability, strength [T Fig 1101.02.06].
 15. **Lithium alloys:** control alkali impurities to <1–5 ppm [P p.158]. The economics need weight-saving cost models (Boeing formula) [P p.172].
+16. **Make constituents functional where they cannot be removed** *(P full text)*. Constituents "serve no useful function in high-strength wrought alloys" but are useful in canstock [P p.78], where hard α-Al(Fe,Mn)Si cleans the ironing dies and homogenisation is designed to create it [P p.107, 186]. Likewise, Fe-rich intermetallics are the recrystallisation-control tool in 8006/8011 foil [P p.187] and the substructure stabilisers in Fe/Ni conductor alloys [P p.198–200].
+17. **Design the alloy for the casting route** *(P full text)*. Continuously cast products retain more transition-metal solute and can justify "a different alloy, or one with a lower solute content" than the DC-cast equivalent [P p.102]; that solute must then be precipitated deliberately to control grain structure [P p.106].
+18. **Balance textures, not just strength, for drawn or ironed parts** *(P full text)*: cube from the anneal against 45° from final rolling, targeting < 2.5 % earing in canstock [P p.186].
 
 ---
 
@@ -864,6 +896,7 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | **3004-O / H32 / H34 / H36 / H38** | **180 / 215 / 240 / 260 / 285** | **70 / 170 / 200 / 230 / 250** | **20 / 10 / 9 / 5 / 5** | HB 45 / 52 / 63 / 70 / 77; σf 95–110 | [K p.45] |
 | 3004-O / H38 | 180 / 280 | 70 / 250 | 20 / 5 | — | [P p.122] |
 | 3004-O / H34 | 180 / 240 | 70 / 200 | 22 / 11 | Annealing 415 °C | [TOT p.299 Table 37] (K H34 elongation 9 %) |
+| **3004-H19 canstock** (≈ 0.30 mm, after 2.5 → 0.30 mm cold rolling) | **310** | **290** | **10** (as printed) | Typical; ⚠ conflicts with ~2 % in [S] (§11) | [P p.186] (P full text) |
 | 3005-O / H18 | 130 / 240 | 55 / 225 | 25 / 4 | High-strength foil, roofing | [P p.122] |
 | **3105-O / H12 / H14 / H16 / H18 / H25** | **115 / 150 / 170 / 195 / 215 / 180** | **55 / 130 / 150 / 170 / 195 / 160** | **24 / 7 / 5 / 4 / 3 / 8** | Shear 85–115 | [K p.45] |
 | 3105-O / H18 | 120 / 215 | 55 / 195 | 24 / 3 | — | [P p.122] |
@@ -893,6 +926,8 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 5657-H25 / H38, H28 | 160 / 195 | 140 / 165 | 12 / 7 | Bright trim | [K p.47] |
 | **5754-H111** (*min*, BS EN 485-2, 0.2–6 mm) | **160–200** | **≥60** | **≥12 (A50)** | 44 HB; ρ 2.66; E 68; k 147 W m⁻¹K⁻¹; ρ_el 0.049 µΩ·m; α 24×10⁻⁶ K⁻¹; melting point 600 °C | [A57 p.1–2] |
 | 5154A (Mg 3.5)-O / H22 / H24 / H26 (*min*; t <50 / <40 / <25 / <6 mm) | 215 / 250 / 270 / 290 | 85 / 180 / 200 / 230 | 12–16 / 5–9 / 4–7 / 3–5 | Extrusions O (<25 mm): 200 / 85 | [DW Table 4.5] (verified; matches [S]) |
+| 5182 can-end stock (typical YS) | — | 320 (mid-1980s) → 370 (2006, Mg raised above 5 %) | — | End thickness 0.335 → ≈ 0.208 mm | [P p.187] (P full text) |
+| 5050-O / H38 | 145 / 220 | 55 / 200 | 24 / 6 | "Rip tops for cans" | [P p.122] |
 | 5251 (Mg 2.0, Mn 0.3)-O / H22 / H24 / H26 (*min*; t <50 / <25 / <12 / <4 mm) | 160 / 190 / 210 / 230 | 60 / 120 / 140 / 170 | 13–18 / 4–12 / 3–10 / 3–7 | Extrusions O (all t): 160 / 60. DW ranks 5052 slightly stronger than 5251, 5754 between 5251 and 5154A, and 5454 ≈ 5154A [DW §4.3.3] | [DW Table 4.5] (verified; matches [S]) |
 
 **6xxx**
@@ -914,6 +949,23 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 6111-T4; 6013-T4; 6013-T6 | 290; 315; — | 160; 185; 330 | 25; 25; — | — | [P p.126, 141] |
 | 6351-T6; 6066-T6; 6262-T9 | 310; 395; 400 | 285; 360; 380 | 14; 10; 9 | — | [K p.47] |
 
+**Automotive sheet formability indices** (P Table 3.11, after Hirsch 1997; typical values; the n column symbol is lost in the text layer and restored from the table note) [P p.177] (P full text). Steel sheet for comparison: elongation ≈ 40 %, R ≈ 1.6 vs ≈ 0.75 for Al sheet; n similar (0.22–0.25) [P p.178].
+
+| Alloy-temper (nominal) | 0.2 % PS, MPa | A % | n | R |
+|---|---|---|---|---|
+| 2008-T4 (0.9Cu–0.65Si–0.4Mg) | 126 | 28 | 0.25 | 0.70 |
+| 2036-T4 (2.6Cu–0.45Mg–0.25Mn) | 195 | 24 | 0.30 | 0.65 |
+| 5754-O (3.1Mg) | 100 | 28 | 0.30 | 0.75 |
+| 5052-O (2.5Mg–0.25Cr) | 90 | 25 | 0.30 | 0.75 |
+| 5182-O (4.5Mg–0.35Mn) | 140 | 30 | 0.31 | 0.75 |
+| 5022-T4 (3.7Mg–0.35Cu) | 135 | 30 | 0.30 | 0.65 |
+| 6009-T4 (1.1Si–0.6Mg–0.35Mn) | 125 | 27 | 0.22 | 0.64 |
+| 6010-T4 (1Si–0.8Mg–0.5Mn–0.4Cu) | 165 | 24 | 0.22 | 0.70 |
+| 6016-T4 (1.25Si–0.4Mg) | 120 | 28 | 0.27 | 0.60 |
+| 6111-T4 (0.85Si–0.75Mg–0.7Cu–0.3Mn) | 160 | 26 | 0.26 | 0.56 |
+
+*Note (P):* surplus Si improves both age-hardening response and formability of 6xxx sheet (hence 6016 in Europe); Cu raises age hardening and strain hardening (6111 in North America) at some corrosion risk; pre-ageing some 6xxx alloys briefly at about 100 °C increases the paint-bake response [P p.178].
+
 **7xxx / 2xxx / 8xxx**
 
 | Alloy-temper | UTS | YS | A % | Other | Source |
@@ -930,7 +982,9 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 2024-T3 / T4; 2014-T6; 2219-T87 | 485 / 472; 485; 475 | 345 / 325; 415; 395 | 18 / 20; 11 (5D); 10 | — | [K p.44–45] |
 | 8176-H24 | 160 | 95 | 15 | Conductor | [K p.49] |
 | 8001-O / H18 | 110 / 200 | 40 / 185 | 30 / 4 | — | [P p.123] |
-| **3102, 3207, 3104, 8006, 8011, 8079, 8111, 1050, 1200** | **no tabulated property values in any source read** (K, DW and TOT searched in full, 2026-10-12; TOT gives the 1050 *composition* only, §4.1) | | | 3104-H19 ~2 % elongation, ~87 % cold reduction: [S, unverified] only. DW Fig. 4.3 plots minimum f_o/f_u bars for 1080A, 1200 and 3105 (O/H14/H18), but the scan is too coarse (~100–170 dpi) to read numbers from | — |
+| Conductor wires (EC, 5005-H19, 6201-T81, Triple E, Super T, 8076, Stabiloy, Nico, 8130) | see §4.10.3 | | | % IACS 53.3–63.4 | [P p.200] (P full text) |
+| 7029-T5 (Al–4.7Zn–1.6Mg–0.7Cu; bumpers) | 430 | 380 | 15 | — | [P p.181] (P full text) |
+| **3102, 3207, 3104, 8006, 8010, 8011, 8079, 8111, 1050, 1200** | **no tabulated property values in any source read** (K, DW, TOT and P searched in full, 2026-10-12; TOT gives the 1050 *composition* only, §4.1; P gives the 1200, 8006, 8010 and 8011 *compositions* only, §4.1, §4.8) | | | 3104-H19 ~2 % elongation, ~87 % cold reduction: [S, unverified] only. *(P full text)* P's 3004-H19 canstock route implies 88 % (derived, §4.10.1), which supports the reduction; P's 10 % elongation does not support the ~2 %. DW Fig. 4.3 plots minimum f_o/f_u bars for 1080A, 1200 and 3105 (O/H14/H18), but the scan is too coarse (~100–170 dpi) to read numbers from | — |
 
 **Physical properties**
 - **Pure Al** [P Table 1.1 p.5; DW §1.2; K p.29–30]:
@@ -951,9 +1005,9 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 ---
 
 ## 11. Open questions and gaps
-*Updated 2026-10-12 after the full-text pass. Former item 12 (the Kaufman "296 and over" row) was resolved and removed; see §3.2. Former item 6 is reduced to what is still open. Updated again 2026-10-12 after the TOT (S-029) full-text pass: former item 15 (S-029 unreachable) is resolved and removed; items 1, 3, 4, 6, 9 and 14 are narrowed or extended.*
-1. **Target alloys missing from the sources.** AA3102, AA3207, AA3104, AA8079, AA8111 and AA1200 have **no tabulated compositions or properties** in any source read. K, DW and TOT were searched in full: K names 3104 only as "a modification of 3004" for can bodies [K p.93]; DW plots 1200 only in an unreadable bar chart and gives its bend index [DW Table 4.6]; TOT gives only cross-references for 1200 (DIN Al99, ISO Al99.0, GOST A0) [TOT p.37]. **AA1050 composition is now covered** (TOT Table 22, after the 1969 *Aluminum Standards and Data*) [TOT p.74], but no 1050 properties. A current primary source is still needed: EN 573-3/485-2, AA Teal Sheets, or the unprocessed *Al-Fe-Mn-Si System* chapter (see also ch17).
-2. **Polmear truncation.** The canstock (§3.6.5), foil (§3.6.4), conductor (§3.6.9) and automotive sheet (§3.6.2) sections, plus Ch. 4 (cast), are still unread. They are exactly the 3xxx/8xxx processing know-how this project needs. **The 2026-10-12 full download failed** for both Drive copies (connector message too large, §1). Options: download outside the connector (Drive API/curl with the user's credentials); have the user upload a split PDF (e.g. pp.170–260) under 6 MB; or use another copy of the book.
+*Updated 2026-10-12 after the full-text pass. Former item 12 (the Kaufman "296 and over" row) was resolved and removed; see §3.2. Former item 6 is reduced to what is still open. Updated again 2026-10-12 after the TOT (S-029) full-text pass: former item 15 (S-029 unreachable) is resolved and removed; items 1, 3, 4, 6, 9 and 14 are narrowed or extended. Updated again 2026-10-12 after the P (S-028) full-text pass: former item 2 (Polmear truncation) is resolved and removed (canstock, foil, conductors, automotive sheet, Ch. 4 and Ch. 5 now read, §4.10, §4.12, §8); items 1, 10, 11 and 14 are updated and items 15–17 are new.*
+1. **Target alloys missing from the sources.** AA3102, AA3207, AA3104, AA8079 and AA8111 have **no tabulated compositions or properties** in any source read; AA1200 has a composition but no properties. K, DW, TOT and P were searched in full: K names 3104 only as "a modification of 3004" for can bodies [K p.93]; DW plots 1200 only in an unreadable bar chart and gives its bend index [DW Table 4.6]; TOT gives only cross-references for 1200 (DIN Al99, ISO Al99.0, GOST A0) [TOT p.37]. *Corrected after the P full-text pass:* the **1200 composition is in P Table 3.2** (Si+Fe ≤ 1.0, Cu ≤ 0.05, Mn ≤ 0.05, Zn ≤ 0.10, Ti ≤ 0.05, Al ≥ 99.0) [P p.121] and was already quoted in §4.1; the earlier wording of this item listed 1200 among alloys with no composition. P also adds **8010** (§4.8), the closest registered match to T11. **AA1050 composition is covered** (TOT Table 22, after the 1969 *Aluminum Standards and Data*) [TOT p.74], but no 1050 properties. A current primary source is still needed: EN 573-3/485-2, AA Teal Sheets, or the unprocessed *Al-Fe-Mn-Si System* chapter (see also ch17).
+2. *(Resolved 2026-10-12: Polmear truncation. The user's two-part split copy was read in full; see §1 and the note above. The number is kept so that cross-references to items 3–17 stay valid.)*
 3. **Mn vs Mg effectiveness (narrowed after the TOT pass).** Davis gives "0.8 % Mg ≡ 1.25 % Mn" [D p.361] but also "Mn ≈ 2× Mg" in Al-Mg-Mn plate [D p.380]. Table 8 gives the solid-solution YS coefficients Mn 30.3 > Mg 18.6 MPa/wt %. TOT supports the temper hypothesis. In the O temper, Mn *in solution* is the stronger solute (+21 YS/+42 UTS MPa per wt.%). In H19, Mg gives 70–85 MPa YS per wt.% against 35 for Mn, because Mg suppresses dynamic recovery more [TOT p.160]. So "Mn ≈ 2× Mg" fits annealed material and "0.8 Mg ≡ 1.25 Mn" fits work-hardened material, especially as most Mn is precipitated in commercial alloys (0.2–0.3 % in solution [P p.30; TOT p.94]). Still open: coefficients for the user's actual Mn-in-solution level and for slug (O-temper, then extruded) conditions.
 4. **Hall–Petch constants (partly filled).** TOT gives σ_f = 10 MPa and k = 0.065 MPa·m^½ for pure Al, 0.1–0.2 for many alloys, ≤ 0.15 for Mg-free alloys, and the 5754/5182 values [TOT p.101, p.167] (§6). Still missing: k for 3xxx at slug grain sizes (20–100 µm), and numbers for dispersoid (Orowan) strengthening in 3xxx.
 5. **6082 Mg range:** P gives 0.60–1.0 and DW (EN) gives 0.6–1.2. Check against EN 573-3.
@@ -961,8 +1015,8 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 7. **O-temper YS differences.** P (3003-O YS 25 MPa) and K (40 MPa) disagree. The 5052-H38 UTS also differs (P 270 vs K 290 MPa). The likely causes are different data bases or the typical-vs-specified basis; record the product form when building models.
 8. **Davis Table 8 per-atomic-% coefficients** for Cu (16.2 at % vs 13.8 wt %) look inconsistent with atomic-mass scaling, possibly a source error. Prefer the wt % values with caution.
 9. **Kinetic data still needed (partly filled).** TOT adds the Al₆Mn decomposition range (300–350 °C), the > 325 °C onset for commercial Al–Mn, supersaturation versus cooling rate, and maximum recrystallisation-temperature increments for Mn and Fe [TOT p.294–296, p.299]. Still missing: Mn (and Fe) precipitation kinetics as a function of heating rate, and recrystallisation temperature versus dispersoid density in 3xxx. The sources give only qualitative statements, single D values [P p.105–106] and the two 3003 homogenisation micrographs [K p.131]. The [S] recrystallisation temperatures from Humphreys & Hatherly need checking against that book, which is in Drive but unread.
-10. **Zn in fin alloys.** The galvanic role of Zn in fins (FA6815) is inferred from general principles and needs a source.
-11. **Mg alloy metallurgy.** Polmear Ch. 5 is missing (download failed), so the Mg section rests on lecture slides only.
+10. **Zn in fin alloys.** The galvanic role of Zn in fins (FA6815) is inferred from general principles and needs a source. The full P text was searched (2026-10-12): §3.5.2 gives the FA6815 composition but not the role of its Zn [P p.168–169], so the item stays open.
+11. **Mg alloy metallurgy (largely resolved).** Polmear Ch. 5 is now read and summarised in §8 (alloying, impurity tolerance, Zr refinement, Mg–Al, sheet, strip casting). Not extracted: the Zr-bearing and rare-earth alloy families and the wrought-alloy property tables; they are outside this project's scope.
 12. **Kaufman Ch. 5 (fabricating processes, pp.77–86) is absent from the Drive PDF**, which jumps from p.76 to p.87. Its sections on strip and slab casting, hot and cold rolling and heat treatment are unread. A complete copy is needed.
 13. **"3xxx vs 1xxx" strength gain.** Davis says ~20 % [D p.360]; Dwight says "half as strong again" [DW §4.2.1(b)]. The K data support ~20 % against 1100 (§4.2). Always state the 1xxx baseline (1100 vs 1050A/1080A) when quoting the Mn benefit.
 14. **Source errors found in the full-text pass** (flagged in place, not silently fixed):
@@ -977,4 +1031,14 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
       - The unlabelled "0.3–0.6 %" impurity in TOT Table 37 [TOT p.299].
       - The UK designation "A4" for 1200 [TOT p.37].
       - Stacking-fault energy 135 [TOT p.40] vs 200 mJ/m² [TOT p.85] vs 170 [P p.36–37].
-      - Cooling rate of "modern ingot and casting metallurgy" 10–100 K/s [TOT p.294] vs 1–5 °C/s for DC [P p.99]. TOT does not name DC, so this may be a difference in scope rather than a real conflict.
+      - Cooling rate of "modern ingot and casting metallurgy" 10–100 K/s [TOT p.294] vs 1–5 °C/s for DC [P p.99]. TOT does not name DC, so this may be a difference in scope rather than a real conflict. *(P full text)* P's Hazelett figures (19 mm slab: 11–40 °C/s surface, 4 °C/s centre [P p.102]) fall inside TOT's 10–100 K/s at the surface, which suggests TOT's range covers continuous slab casting rather than DC.
+    - *Added in the P full-text pass:*
+      - **3004-H19 elongation:** P gives 10 % for canstock H19 (PS 290, TS 310 MPa) [P p.186]; [S, unverified] gives ~2 % for 3104-H19. Different alloys (3004 vs 3104) and possibly different test directions or gauge lengths; not resolved.
+      - **Anneal heating rate:** P's canstock hot-band anneal uses *slow* heating to 350 °C for 2 h [P p.186]; TOT says non-heat-treatable alloys are heated "very quickly to avoid grain growth" [TOT p.887]. Interpreted as different purposes (texture control of hot band vs final fine-grain anneal, §4.10.1), but flagged rather than reconciled by a source.
+      - **3004 anneal temperature:** P 350 °C [P p.186] agrees with TOT Table 7 (343 °C) [TOT p.888], not with TOT's 415 °C [TOT p.299].
+      - **5059 Zn:** P Table 3.2 prints Zn 0.20 max [P p.121], but P's text describes deliberate Zn up to 1.5 % [P p.130–131] (§4.4).
+      - **355.0 Mn:Fe footnote:** "Mn less than one-half the Fe" when Fe > 0.45 % [P p.212] vs the text rule Mn:Fe ≥ 0.5 [P p.220] (§4.12).
+      - **Hot-tearing index entry:** P's index lists hot tearing at p.201; the text is on p.210 (index misprint, no effect on content).
+15. **Rotary-caster solidification rate (new, P pass).** P gives cooling rates for DC, Hazelett (19 mm) and twin-roll casters but none for wheel casters (Properzi is shown only as a schematic) [P p.99–102]. The 22 mm strip's surface and centre rates, dendrite cell size and centreline structure need to be measured; they decide how much Fe, Mn and Si are supersaturated (§4.2) and whether a twin-roll-type centreline band forms (§4.10.2).
+16. **Fe phase in rotary-cast lean alloys (new, P pass).** P's Mn:Fe ≥ 0.5 rule [P p.220] is for Al–Si casting alloys. Whether T11 (Mn:Fe ≈ 0.27) forms plate-like β-type or α-type Al–Fe–Si in 22 mm strip without homogenisation, and whether in-line hot rolling fragments it, is unknown (§4.12). An SEM/EDS check of the as-cast and slug structure would answer it.
+17. **Bake softening of extruded walls (new, P pass).** P documents partial annealing of work-hardened Al–Mg sheet in a 180 °C/30 min paint bake [P p.178]. No source quantifies the equivalent loss for heavily extruded lean Al–Mn or Al–Fe–Si–Mg can walls in a 220 °C/10 min bake (§4.4).

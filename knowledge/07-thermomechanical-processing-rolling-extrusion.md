@@ -6,15 +6,17 @@
 
 **Biggest caveat.** The Drive text extraction truncates large books. The chapters that hold the per-alloy hot-working constants (Sheppard Ch. 4–6; Totten Ch. 7 *Rolling*, Ch. 8 *Extrusion*, Ch. 18 *Sheet forming*) were **not** returned. So the per-alloy sinh-law table (§3.3) is mostly empty and is the top retrieval gap (§11).
 
+**Full-text pass, 2026-10-12.** The PDFs were downloaded whole (base64) and converted locally with `pdftotext`. This worked for [RR] (3.81 MB), which is now read in full. It **failed** for [RA] (7.19 MB) and for both copies of [SH] (10.46 and 10.51 MB); the exact errors are in the note under §0. So §3.3, G1, G2 and G14 are still open.
+
 ---
 
 ## 0. Sources and coverage
 
 | Ref | Title (author, year) | Drive link | Readability / coverage actually read |
 |---|---|---|---|
-| RA | *Rolling Aluminum: From the Mine Through the Mill*, 3rd ed. (The Aluminum Association, 2007) | https://drive.google.com/file/d/1w70bnhbLUlg5Tg4tlFIa0pVEI58GRfht/view | Clean text. Sections 1–8 read in full, glossary to "Casting" (~75 % of the book). Appendices (alloy/temper tables, typical properties, tolerances) **not returned**. Introductory and mostly qualitative, but it gives the practical plant numbers. |
-| RR | *A Basic Understanding of the Mechanics of Rolling Mill Rolls* (K.H. Schröder, 2003). File "155680328-Rolling.pdf" | https://drive.google.com/file/d/1I9Qa_iFiOPw5DMU6sHFW6YAYblFC9Qyu/view | Clean text, pp. 1–75 of ~111 (to §4.5 fire-cracks). §4.8.3 *Bite angle and friction* and §4.10 *Linear load* **not returned**. About roll steels and roll damage; little Al content. |
-| SH | *Extrusion of Aluminium Alloys* (T. Sheppard, Springer/Kluwer, 1999) | https://drive.google.com/file/d/195YE0KUFE-yMliXyp304IqoaSdvnxKVU/view (duplicate "Extrusion Of Aluminium Alloys.pdf" 1pJoblJP3s9o7Z_WgFM9dhMmepLi7POET gives byte-identical extracted text) | OCR quality is poor: equations are partly garbled. Only pp. 1–~71 of ~400 returned: Ch. 1, Ch. 2 (continuum, pressure, friction, temperature, diffusion), and the start of Ch. 3. **Missing:** §3.3 homogenisation, §3.5–3.7 recovery/RX/quench sensitivity, Ch. 4 (Z–σ constants, subgrain size, limit diagrams), Ch. 5 (alloy-specific practice), Ch. 6 (6xxx, PCG, surface defects). |
+| RA | *Rolling Aluminum: From the Mine Through the Mill*, 3rd ed. (The Aluminum Association, 2007) | https://drive.google.com/file/d/1w70bnhbLUlg5Tg4tlFIa0pVEI58GRfht/view | Clean text. Sections 1–8 read in full, glossary to "Casting" (~75 % of the book). Appendices (alloy/temper tables, typical properties, tolerances) **not returned**. Introductory and mostly qualitative, but it gives the practical plant numbers. **2026-10-12:** whole-file download failed twice (7,188,660 B; duplicate 1i-3uwU8kh3uFXgSm5umZg3Hu0YSH4iAg has the same size), so coverage is unchanged. |
+| RR | *A Basic Understanding of the Mechanics of Rolling Mill Rolls* (K.H. Schröder, 2003). File "155680328-Rolling.pdf" | https://drive.google.com/file/d/1I9Qa_iFiOPw5DMU6sHFW6YAYblFC9Qyu/view | **Read in full, 2026-10-12** (downloaded whole: 3,809,860 B, 116 PDF pages = printed pp. 1–111 plus front matter; printed page = PDF page − 5; pages below are printed pages). Earlier passes had pp. 1–75. New: §4.6–4.12 (fatigue, wear, §4.8.3 bite angle and friction, roll repair, §4.10 design limits, acceptance) and Ch. 5. **§4.8.3 is qualitative.** Its bite-angle vs speed chart (Ill. 47) and campaign-friction chart (Ill. 48) are images, so no numbers can be extracted. The book has **no** rolling-force, torque or roll-flattening model. It is about roll steels and roll damage in (mostly steel) mills; little Al content. |
+| SH | *Extrusion of Aluminium Alloys* (T. Sheppard, Springer/Kluwer, 1999) | https://drive.google.com/file/d/195YE0KUFE-yMliXyp304IqoaSdvnxKVU/view (duplicate "Extrusion Of Aluminium Alloys.pdf" 1pJoblJP3s9o7Z_WgFM9dhMmepLi7POET gives byte-identical extracted text) | OCR quality is poor: equations are partly garbled. Only pp. 1–~71 of ~400 returned: Ch. 1, Ch. 2 (continuum, pressure, friction, temperature, diffusion), and the start of Ch. 3. **Missing:** §3.3 homogenisation, §3.5–3.7 recovery/RX/quench sensitivity, Ch. 4 (Z–σ constants, subgrain size, limit diagrams), Ch. 5 (alloy-specific practice), Ch. 6 (6xxx, PCG, surface defects). **2026-10-12:** whole-file download failed for both copies (note below), so coverage is unchanged. |
 | MFH | *Metal Forming Handbook* (Schuler, Springer 1998). File "3c-handbook-metal-forming.pdf" | https://drive.google.com/file/d/1n5Yidy74bZxj6ZifvCNtq0iRtk2nyh43/view ("vasevska.pdf" 1vbIfSVGbqJfheI2yJKigh5nZAdIK7KI4, 28.6 MB, gives **identical** extracted text, so it was read once) | Clean text, pp. 1–~60 of ~560: Ch. 2 basics and early Ch. 3 press design. Sheet-forming chapters (Ch. 4 deep drawing, bending, etc.) **not returned**. No Al-specific content. |
 | POL | *Light Alloys*, 4th ed. (I.J. Polmear, 2006). File "115132137-Light-Alloys.pdf" | https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view | Clean text, pp. 1–~189 (to §3.6.1). Used §2.1 (work hardening, FLC, texture, earing, annealing), §3.1 (casting, homogenisation, fabrication, heat treatment), §3.3, §3.4.3. §3.6.5 canstock **not returned**. |
 | TOT | *Handbook of Aluminum Vol. 1: Physical Metallurgy and Processes* (Totten & MacKenzie eds., Dekker 2003). File "Alminium.pdf" | https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view | OCR with substituted glyphs (ř = f, 3 = fi). PDF pp. 1–186 returned (Ch. 1–3; Ch. 3 = Tiryakioğlu & Staley). **Ch. 7 Rolling (p. 351), Ch. 8 Extrusion (p. 385) and Ch. 18 Sheet forming (p. 837) not returned.** Pages below are cited as PDF pages. |
@@ -23,6 +25,18 @@
 | MM | Alcoa Micromill™ presentation (J.F. Butler, 2015). File "document.pdf" | https://drive.google.com/file/d/1OYezPC_Eif_mKOTmq2xeExuqfcsTai1N/view | Read in full. Investor/marketing slides; treat the numbers as vendor claims. |
 | INT-CRM | User spreadsheets "EN_AW_3207_CRM_Reduction_Table.xlsx" and "EN_AW_Master_CRM_Reduction_Tables.xlsx" | https://drive.google.com/file/d/1r-GFxL4bVuGG_ZGm_Lix-SQ3Upc7gROk/view · https://drive.google.com/file/d/1KN_kyx3RDw0QfLNvi1UHx7UYP5xwLjpq/view | Read in full. **Internal heuristics** (HRM/CRM gauge rules for cold-extrusion slugs). No literature backing is given. |
 | INT-RX | User spreadsheet "AA3207_Recrystallization_Simulation.xlsx" (newest of 4 versions, 164 kB) | https://drive.google.com/file/d/1L9MDNPrCcWymlvgcowcv6Gf34eLJvwm2/view | Read in full. **Internal calibrated JMAK model.** Used here only for cross-checks. |
+
+**Drive download limit test (2026-10-12).** Whole files were requested with the Drive connector's `download_file_content` tool (base64 output).
+
+| File (bytes) | Result |
+|---|---|
+| [RR] 3,809,860 | OK (5,079,932-character base64 result, saved to disk and decoded; size matches Drive metadata) |
+| S-043 EAA brochure 3,278,124 (ch06) | OK |
+| [RA] 7,188,660 | Failed twice: *"The connection to MCP server "Google_Drive" was closed because a message from the server was too large or could not be parsed, so the result of tool "download_file_content" was not read."* |
+| [SH] 10,463,104 (1pJoblJP3s9o7Z_WgFM9dhMmepLi7POET) | Failed with the same connection-closed message (the server accepted it, the client transport dropped it) |
+| [SH] 10,512,541 (195YE0KUFE-yMliXyp304IqoaSdvnxKVU) | Refused by the server: *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* |
+
+So there are two limits. The server enforces a hard 10 MB (10,485,760 B) cap. Below that, the client transport fails somewhere between 3.81 MB and 7.19 MB of file size (≈ 5.1–9.6 M base64 characters). **Practical rule: files ≤ ~3.8 MB can be fetched whole. Larger books must be split (e.g. per chapter) into ≤ ~3.8 MB PDFs on Drive first.**
 
 Drive full-text searches run: `Zener-Hollomon`, `Zener`, `flow stress`, `hot rolling`, `extrusion`, `earing`, `forming limit`, `cold rolling`, `hyperbolic sine / subgrain size / peripheral coarse grain / extrudability`. Hits inside the `microstructure-sim-v2.14.0` tree (`models/*.js`, `*.jsx`, tests) were **not opened**, as instructed. Out of scope: the Nimonic 80A hot-deformation paper ("Microstructure_URN-NBN-SI-DOC-OFLHAUYU.pdf"; Ni superalloy, Z-methodology only). DC-casting, recrystallisation and Sc/Zr books (Eskin, Humphreys & Hatherly, Røyset) are assumed to be covered by companion KB files.
 
@@ -149,7 +163,10 @@ Drive full-text searches run: `Zener-Hollomon`, `Zener`, `flow stress`, `hot rol
 - Lubricant too low → sticking; too high → poor bite and dull surface. Reduction marks and "herringbone" appear on the tandem hot mill [RA p.5-2, 5-5].
 - **Negative crown** (thick edges) occurs in dilute, soft alloys (1xxx, 3102-type), which spoils flatness in cold rolling. Profile must be built while the strip is hot and thick; final flatness is set by the last (cold) stand [RA §5 p.5-8].
 - **Age-softening** of strain-hardened 5xxx and 3004 (Mg leaving solution) → H3x stabilisation [RA p.5-6; POL p.130].
-- Fire-cracking of work rolls is *more* likely when hot rolling Al than steel. Al conducts heat well and its oxide layer is thin, so the roll surface runs hotter despite the lower strip temperature [RR §4.5.3 p.75]. Friction is governed by the roll *surface* (fire-crack pattern, roughness), not by the roll-grade friction coefficient [RR §3.6 p.50–51].
+- Fire-cracking of work rolls is *more* likely when hot rolling Al than steel. Al conducts heat well and its oxide layer is thin, so the roll surface runs hotter despite the lower strip temperature [RR §4.5.3 p.75]. Fire-cracks are thermal-shock cracks: the hot roll surface is quenched by the coolant in a fraction of a second and cracks once the surface tensile stress reaches the shell strength. The pattern forms in the first roll revolutions. The worst cracking follows mill stops with a slab or strip in the gap [RR p.75].
+  - Remedy after a stop, roughing stand: stop the coolant, open the gap, push the slab out and let the roll cool slowly.
+  - Remedy after a stop, finishing stand: keep the gap closed and the coolant on until the strip is black, then shut down [RR p.76].
+- Friction is governed by the roll *surface* (fire-crack pattern, roughness), not by the roll-grade friction coefficient [RR §3.6 p.51–52] (page cite corrected after full-text pass; was p.50–51).
 
 ---
 
@@ -191,6 +208,7 @@ Drive full-text searches run: `Zener-Hollomon`, `Zener`, `flow stress`, `hot rol
 
 - **Only anchor (general knowledge):** for dilute Al alloys the apparent Q for hot working is usually close to the activation energy for Al self-diffusion, ≈ 142 kJ/mol.
 - Do **not** populate the table from memory. Retrieve [SH Ch.4] / [TOT Ch.7–8] (§11, G1).
+- 2026-10-12: a whole-file download of [SH] was tried and failed for both copies (§0 note), so the table is still empty. A chapter-split PDF of ≤ ~3.8 MB is needed.
 
 ### 3.4 Calibration point extracted here: AA3102 multi-port tube (derived from [WIL] + [SH])
 
@@ -262,7 +280,32 @@ Sources: [SH Table 2.3 p.65] (the D values recompute correctly from D₀ and Q �
 - Direct-force forming (upsetting, rolling): F = A·k_w, with forming efficiency η_F = k_f / k_w [MFH §2.2.3 p.29].
 - Specific work: w_id = ∫k_f dφ ≈ k_fm·φ_g; W = V·w_id/η_F [MFH §2.2.3 p.29–30].
 
-The textbook rolling-force set below is **not in the accessible sources (general knowledge)**. Use it only for first estimates until [TOT Ch.7] is retrieved:
+**Roll-gap friction and bite [RR, read in full 2026-10-12].**
+- Inside the gap there is backward and forward slip, with static friction at the neutral point between them. If the speed is too high, flow goes in one direction only, static friction is lost, and the roll slips and then chatters (alternating bite and no-bite) [RR §3.6 p.51].
+- Hot rolling with little strip tension needs "high" friction. The permissible bite angle falls as rolling speed rises. Slip is typical with freshly ground rolls after a roll change. Mills therefore roll special schedules for the first slabs to build up a fire-crack pattern. If the schedule asks for too large a bite at the desired speed, reduce the speed or roughen the roll surface (open fire-crack pattern, "ragging") [RR §4.5.3 p.74; §4.8.3 p.92].
+- The bite-angle vs speed curve was measured on hot strip mills (steel) with freshly ground rolls. It is an image (Ill. 47), so no values can be extracted [RR p.92].
+- Mill friction coefficients are back-calculated from measured vs calculated separating force [RR §3.6 p.51]. They are **much higher than laboratory values**, differ between roll grades, change from slab to slab and **rise during a campaign** (Ill. 48) [RR §4.8.3 p.93]. Laboratory tests (ring compression, CRM Liège) found no significant friction difference between roll grades [RR p.51–52]. So the surface (fire-cracks, oxide) matters more than the roll material [RR p.93].
+- **Consequence for pass-schedule models (inference):** a single μ fitted at roll change will drift. Calibrate μ online from measured roll force, as mills do [RR p.51], rather than taking a handbook value.
+
+**Roll elastic data and mill design limits [RR].** These are inputs or checks for any roll-force or roll-flattening model:
+
+| Quantity | Value | Ref |
+|---|---|---|
+| E, ferritic/bainitic/martensitic steel rolls | 210 000 N/mm² ± 3 % (insensitive to alloying and heat treatment) | [RR §3.2.1 p.18] |
+| E, austenitic steel | 180 000 N/mm² ± 3 % | [RR p.18] |
+| E, nodular (ductile) iron | 175 000 N/mm² ± 5 % | [RR p.18] |
+| E, grey (lamellar) iron | no single value: it "behaves totally differently" (non-linear elasticity, see RR §3.2.3) | [RR p.18] |
+| Poisson ratio | 0.3 elastic; 0.5 fully plastic | [RR p.18; §3.7 p.53] |
+| Compound (double-poured) rolls | Effective E combines shell and core and changes as the shell is ground away | [RR §3.7 p.53] |
+| Safe nominal bending stress (fillet notch factor 1.8 ≤ α_K ≤ 2.2) | grey iron < 60; nodular iron < 90; cast steel < 120; forged steel < 150 N/mm² | [RR §4.10.1 p.100] |
+| Static torque strength | 90 % of tensile strength (torque fatigue failures are rare) | [RR §4.5.2 p.74; §4.10.1.1 p.100] |
+| Linear load, hot strip vs work roll | traditionally < 1500 t/m of strip width (≈ 14.7 kN/mm, **derived**). Above this, use only work rolls with nodular-iron cores | [RR §4.10.1.2 p.100] |
+| Hertzian pressure, work roll vs back-up roll | safe limit 2100 N/mm². Peaks occur near the barrel edges (back-up roll bending), so a back-up roll chamfer is required | [RR §4.10.2.1 p.101] |
+| Roll accuracy | roll TIR must be one grade better than the product tolerance; ≤ 0.003 mm is acceptable for tin-plate rolls | [RR §4.11 p.102–103] |
+
+These limits come from steel hot strip and plate mills. For Al they are upper-bound sanity checks, not design values (inference).
+
+The textbook rolling-force set below is **not in the accessible sources (general knowledge)**. The full-text pass confirmed that [RR] contains no Orowan, Sims, Ekelund or Hitchcock model. Use the set only for first estimates until [TOT Ch.7] is retrieved. For E_roll, take the [RR] values above:
 - Projected contact length: L = √(R·Δh). Bite condition: μ ≥ tan α_bite (α_bite = roll angle of contact).
 - Ekelund hot-rolling mean pressure: p̄ = (2/√3)·σ̄·[1 + (1.6·μ·√(RΔh) − 1.2Δh)/(h₀ + h₁)]. Roll force F = p̄·w·L.
 - Ekelund mean strain rate: ε̄̇ ≈ 2·v_R·√(Δh/R)/(h₀ + h₁).
@@ -292,6 +335,10 @@ The textbook rolling-force set below is **not in the accessible sources (general
 - Edge cracking in plate. Edges are trimmed after intermediate rolling so cracks do not run in [RA §7 p.7-1].
 - Wedge (side-to-side thickness difference) comes from non-parallel rolls or uneven temperature across the gap [RA p.5-8].
 - Herringbone and reduction marks come from lubricant problems [RA p.5-5].
+- **Al hot-mill roll problems** [RR, full text]:
+  - The coolant in Al hot mills contains aggressive chemical (cleaning) additives. These affect roll wear [RR §4.8.1 p.88] and cause **corrosion fatigue at back-up-roll neck fillets**. Corrosion fatigue has no fatigue limit [RR §4.6.1.2 p.80; §4.9.4.1 p.98].
+  - Back-up rolls in Al hot mills see almost no wear, so they run much longer campaigns than in steel mills. The fillet must be sealed against coolant. Fillet repair by welding or re-machining is forbidden; cracked rolls can run under fracture-mechanics crack-growth monitoring [RR p.79–80, 98].
+  - Broken brush wires in Al hot mills can enter between work and back-up rolls and cause local overload [RR §4.5.4 p.76].
 
 ---
 
@@ -358,8 +405,12 @@ Other work-hardening facts:
 
 ### 5.3 Friction, lubrication, rolls
 
-- Friction is set by the roll surface (roughness, fire-crack network), which changes over a campaign. Lab friction coefficients of different roll grades are similar [RR §3.6 p.50–51].
-- Chrome-plated work rolls are used for hardness, finish and life [RA §4 p.4-3].
+- Friction is set by the roll surface (roughness, fire-crack network), which changes over a campaign. Lab friction coefficients of different roll grades are similar [RR §3.6 p.51–52] (page cite corrected after full-text pass).
+- Chrome-plated work rolls are used for hardness, finish and life [RA §4 p.4-3]. Work rolls for Al hot rolling and for cold rolling wear little, but **their surfaces lose roughness**, and this shows on the product. Chrome plating prolongs campaigns [RR §4.9.1 p.95].
+- **Cold-mill roll pairing.** Cold strip work-hardens immediately and cannot absorb accidental local overload, and the work roll must not deform. So the back-up roll must be **significantly softer** (lower yield strength) than the work roll and take the overload plastically [RR §4.5.4 p.77; §4.10.2.2 p.101]. Hot mills do not need this [RR p.77, 101].
+- Cold-mill back-up rolls develop work-hardened areas, which are checked by hardness readings and ground off. Every regrind should end with eddy-current crack testing [RR §4.9.1 p.95; §4.6.2.3 p.84].
+- Sub-surface "crumbly" spalls in cold-mill back-up rolls start at inclusions or micro-porosity at the depth of maximum Hertzian shear. Particle cleanliness of the roll material (e.g. ESR) is the cure [RR §4.6.2.3 p.84].
+- Hardness within one roll grade has no effect on work-roll tonnage performance (ICDP data). Carbide *type* matters more than carbide content [RR §4.8.1 p.89–90].
 - Roll crown, roll bending, tilting, crossing, axial shifting (CVC-type profiled rolls), stepped and sleeved back-ups, and zoned spray cooling are the flatness/profile actuators [RA §5 p.5-9/5-10].
 - Small rolls give larger reductions per pass but deflect more; large rolls are thermally more stable but have more inertia [RA §4 p.4-3/4-4].
 - Cold-mill coolant mainly controls roll temperature and dimensions [RA self-test 5.20].
@@ -393,6 +444,7 @@ Context: start strip 22 mm → HRM → CRM → full anneal → cold-extrusion sl
 - **Final cold reduction before anneal** is the main lever on recrystallised grain size and cube fraction; **cold reduction after anneal** sets the H-temper. Table 5-1 together with YS = σ₁εⁿ [TOT] gives the reduction needed for a target YS (inference).
 - Per-atom solute choice for work hardening (Table 5-2): Cu ≫ Mg ≈ Si > Mn ≫ Zn. Cu ≤ 0.3 % in NHT alloys [POL p.34]. For 3xxx fin/tube, small Cu/Mg additions add H14/H24 strength cheaply. Watch the corrosion potential (outside scope).
 - Avoid excessive total ε before a soft anneal: the risk is shear bands and edge cracks at ε ≳ 1 [POL p.32–33].
+- **Roll campaign as a hidden process variable (inference from [RR p.93, 95]).** Work-roll roughness falls and roll-gap friction drifts during a campaign. For slug strip, record the work-roll campaign position (tonnage or km since regrind) with each coil. Friction changes the through-thickness shear, the strip heating and the surface topography, so it can move the surface recrystallised grain size and the lubricant residue left for the anneal (MgO growth). The size of the effect is not quantified in any source.
 
 ### 5.7 Pitfalls
 
@@ -607,7 +659,7 @@ Physics belongs to the recrystallisation KB; only the process numbers are given 
 | Substructure | σ = σ₀ + k₁d⁻ᵐ | m = 1 (cells) → 0.5 (subgrains) | | [POL p.36–37] |
 | Physical | SFE (Al) | ~170 mJ/m² | | [POL p.36] |
 | Hot flow | Z | ε̇·exp(Q/RT) | | [SH eq. 2.4 p.28] |
-| Hot flow | α, n, Q, A per alloy | **missing** | retrieve SH Ch.4 / TOT Ch.7–8 | — |
+| Hot flow | α, n, Q, A per alloy | **missing** | retrieve SH Ch.4 / TOT Ch.7–8. The SH whole-file download failed on 2026-10-12 (size limit); needs a split PDF | — |
 | Hot flow | σ̄ AA3102, ~500 °C, MPE extrusion | ≈ 27–28 MPa (36 MPa if no friction term) | back-calculated **(derived)** from E4 + WIL data | [WIL; SH] |
 | Hot flow | σ̄ Al-0.19Sc-0.05Zr, same | ≈ 39 MPa (+44 %) | **(derived)** | [WIL; SH] |
 | Extrusion | Pressure | P = σ̄[0.171 + 1.86 ln R + 4mL_B/(√3 D_B)] | upper bound; OCR-reconstructed | [SH p.36] |
@@ -632,6 +684,13 @@ Physics belongs to the recrystallisation KB; only the process numbers are given 
 | Hot rolling | Tandem exit | 2.5–8 mm (3–6 mm for < 1 mm final) | | [POL p.107; RA p.5-7] |
 | Hot rolling | Pass example | ~13 % (ε_t 0.14) per breakdown pass | **(derived)** | [RA p.5-3] |
 | Hot rolling | Mill speed | ≤ ~600 m/min | | [RA p.4-6] |
+| Rolls | Young's modulus (for roll flattening, stack deflection) | steel 210 GPa ± 3 %; nodular iron 175 GPa ± 5 %; austenitic steel 180 GPa ± 3 %; ν = 0.3 | grey-iron cores are non-linear; compound-roll E drifts as the shell is ground away | [RR §3.2.1 p.18; §3.7 p.53] |
+| Rolls | Safe nominal bending stress | grey iron 60; nodular 90; cast steel 120; forged steel 150 MPa | fillet notch factor 1.8–2.2 | [RR §4.10.1 p.100] |
+| Rolls | Linear load, strip vs work roll (hot strip) | < 1500 t/m width (≈ 14.7 kN/mm, **derived**) | steel-mill experience limit; above it only nodular-core rolls | [RR §4.10.1.2 p.100] |
+| Rolls | Hertzian pressure, work roll vs back-up roll | ≤ 2100 MPa | peaks near barrel edges; chamfer the back-up roll | [RR §4.10.2.1 p.101] |
+| Rolls | Static torque strength | 0.9 × tensile strength | torque treated as static load | [RR p.74, 100] |
+| Rolls | Roll accuracy | TIR one grade finer than product tolerance; ≤ 0.003 mm (tin plate) | | [RR p.102–103] |
+| Roll gap | Friction coefficient μ | **no numbers in sources**. Mill μ ≫ lab μ and rises during a campaign. Allowed bite angle falls with speed | back-calculate μ from measured roll force | [RR p.51–52, 92–93] |
 | Cold rolling | First pass | ~50 % | | [RA p.5-7] |
 | Cold rolling | Speed | 1525–1830 m/min (≤ 2135) | | [RA p.5-7, 4-6] |
 | Cold rolling | Strip temperature rise | to ≥ ~80 °C | | [RA p.5-7] |
@@ -657,20 +716,20 @@ Physics belongs to the recrystallisation KB; only the process numbers are given 
 
 | ID | Gap | Why it matters | Where to get it |
 |---|---|---|---|
-| **G1** | **Per-alloy sinh-law constants (α, n, Q, A) for 1xxx, 3003/3102/3207, 5xxx, 6xxx, 7xxx**; subgrain size vs Z (d⁻¹ = a + b ln Z); flow-stress tables | Core of any hot-rolling or extrusion model. Currently only a single σ̄ point for 3102 (derived) | [SH Ch.4 §4.2, 4.11.4 (pp.127 ff.)]; [TOT Ch.7 p.351, Ch.8 p.385]. Fetch the PDF via the Drive API (file > 10 MB; the MCP download limit was exceeded), or split the PDF |
-| G2 | 6xxx homogenisation (β → α-AlFeSi, Mg₂Si dissolution) vs extrudability; **limit diagrams** (speed–temperature); 3xxx homogenisation practice for extrusion billets | Extrudability and surface-defect windows | [SH §3.3, Ch.5–6] |
-| G3 | Hot-mill finishing temperatures, coiling temperatures, coil cooling and self-annealing of 3xxx/1xxx hot band | Sets hot-band texture/RX state, and therefore earing and recrystallisation response | [TOT Ch.7]; recrystallisation KB |
-| G4 | Foil rolling practice: pass schedule, pack/double rolling, pinholes, final-anneal practice for 8011/8006/1235 | Foil and fin stock | [TOT Ch.7] |
+| **G1** | **Per-alloy sinh-law constants (α, n, Q, A) for 1xxx, 3003/3102/3207, 5xxx, 6xxx, 7xxx**; subgrain size vs Z (d⁻¹ = a + b ln Z); flow-stress tables | Core of any hot-rolling or extrusion model. Currently only a single σ̄ point for 3102 (derived) | [SH Ch.4 §4.2, 4.11.4 (pp.127 ff.)]; [TOT Ch.7 p.351, Ch.8 p.385]. **2026-10-12 whole-file download failed:** 10.46 MB copy → "connection … closed because a message from the server was too large"; 10.51 MB copy → "File too large for download, over limit of 10 MB" (§0 note). Next step: put a chapter-split PDF (Ch.4, ≤ ~3.8 MB) on Drive, or use the Drive API outside this connector |
+| G2 | 6xxx homogenisation (β → α-AlFeSi, Mg₂Si dissolution) vs extrudability; **limit diagrams** (speed–temperature); 3xxx homogenisation practice for extrusion billets | Extrudability and surface-defect windows | [SH §3.3, Ch.5–6]. Same retrieval block as G1 (2026-10-12) |
+| G3 | Hot-mill finishing temperatures, coiling temperatures, coil cooling and self-annealing of 3xxx/1xxx hot band | Sets hot-band texture/RX state, and therefore earing and recrystallisation response | [TOT Ch.7]; recrystallisation KB. [RR] (read in full) has none. [RA] appendices are still unread: its 7.19 MB download failed on 2026-10-12 |
+| G4 | Foil rolling practice: pass schedule, pack/double rolling, pinholes, final-anneal practice for 8011/8006/1235 | Foil and fin stock | [TOT Ch.7]. Not in [RR] (read in full) |
 | G5 | Literature confirmation of the heating-rate effect (Mn precipitation before RX) on anneal grain size in 3xxx | [INT-CRM]/[INT-RX] assume it; 3003 "~100 °C T_rx increase" is unsourced | Recrystallisation KB (Humphreys & Hatherly) |
 | G6 | Quantitative earing: % ears vs cube volume fraction vs final cold reduction (3004/3104, 8011 closures) | Can and fin-collar design | [POL §3.6.5] (not returned); [TOT Ch.18] |
 | G7 | r-values, Δr and FLDs for 3xxx fin/foil tempers | Formability metrics for HX alloys | [TOT Ch.18] |
-| G8 | Rolling-force/torque models (Orowan, Sims, Ekelund) with Al friction data | Pass-schedule models; §4.2 is general knowledge only | [TOT Ch.7]; [RR §4.8.3, §4.10] (not returned) |
+| G8 | Rolling-force/torque models (Orowan, Sims, Ekelund) with Al friction data | Pass-schedule models; the force equations in §4.2 are still general knowledge | [TOT Ch.7]. **Partly filled 2026-10-12:** [RR] is now read in full. It gives roll E/ν, mill design limits (linear load, Hertzian pressure, bending, torque) and qualitative bite/friction behaviour (§4.2, §10). It contains **no** force, torque or flattening model and no Al friction numbers (its bite and friction charts are images). Still needed: the force models and μ for Al hot and cold rolling |
 | G9 | Correct Mn, Cr, Fe diffusivities | Sheppard Table 2.3 Mn is ~10³× faster than Polmear; Cr/Fe rows look non-physical | Recrystallisation/diffusion KB; primary diffusion data |
-| G10 | Stabilisation temperature for H3x: 120–150 °C [POL] vs ~180 °C [RA] | Temper practice for 5xxx/3004 | Primary temper spec |
+| G10 | Stabilisation temperature for H3x: 120–150 °C [POL] vs ~180 °C [RA] | Temper practice for 5xxx/3004 | Primary temper spec (EN 515). The EAA brochure (S-043, ch06 §5) defines H3x as stabilised "by a low temperature heat treatment or as a result of heat introduced during fabrication" and gives no temperature, so the gap is still open |
 | G11 | Units in [TRC] (strip speed "cm/min", load "kN/mm", productivity "t/(m·h)") | Caster modelling | Original thesis [TRC ref 7] |
 | G12 | [INT-RX] Zener limit uses r = 80 nm while the sheet labels 80 nm as "size". [INT-CRM] grain sizes are unvalidated | Internal model consistency | Measure dispersoid radius by TEM/SEM; EBSD grain-size validation |
 | G13 | Strain-measure consistency: [INT-*] use ε_t; constitutive and RX literature may use ε̄ = 1.155·ε_t | Systematic error if mixed | Fix the convention in the model code |
-| G14 | Sheppard eqs. 2.4, 2.26–2.29 and 2.27 (Δp) are OCR-reconstructed | Verify before coding | Clean copy of [SH] pp.28, 36–37, 57 |
+| G14 | Sheppard eqs. 2.4, 2.26–2.29 and 2.27 (Δp) are OCR-reconstructed | Verify before coding | Clean copy of [SH] pp.28, 36–37, 57. Not verified: the 2026-10-12 download failed (G1). A split PDF of Ch.2 (pp.23–71) would also settle this |
 
 **Top 5 implications for alloy design (summary).**
 1. Per-atom work hardening Cu ≫ Mg ≈ Si > Mn ≫ Zn [TOT] gives cheap H-temper strength in 3xxx fin/tube. Cu ≤ 0.3 % in NHT alloys [POL].

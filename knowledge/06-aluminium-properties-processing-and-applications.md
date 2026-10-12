@@ -12,7 +12,7 @@
 |---|---|---|---|---|
 | **HB** | G.E. Totten & D.S. MacKenzie (eds.), *Handbook of Aluminum Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003, ISBN 0-8247-0494-0 ("Alminium.pdf"). "ASM Handbook of Aluminium vol. 1.pdf" (1LNDwz9XSVn51tWynCZUvGvbdzEDR23K3) is the **same file**: same size (17,664,014 B) and same front matter. I read it once. | https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view | EN | Text layer is good, but the OCR font substitutes f→ř, fi→3, x→\#, and drops `%`/minus signs. **Truncated at PDF p.186 ≈ book p.174 of 1296.** Read: Ch.1 (production, skimmed), **Ch.2 Properties of Pure Al (Sverdlin, p.33–80) in full**, **Ch.3 Physical metallurgy & alloying effects (Tiryakioğlu & Staley, p.81–~174)**, ending in Al–Mg–Si precipitation. **Not reached:** Ch.3 end (Al–Zn–Mg, Al–Mg–Si–Cu), Ch.4–24 (recrystallisation, ageing, rolling, extrusion, welding, casting, heat treating, quenching, …). Book page = PDF page − 12. |
 | **DW** | J. Dwight, *Aluminium Design and Construction*, E&FN Spon 1999 ("116748406-Aluminium-Alloys.pdf") | https://drive.google.com/file/d/158y2YRjC0dWVgkEgUCsb0DZ8LAqp2BbY/view | EN | Clean text. **Ch.1–3 in full plus Ch.4 up to §4.1.7** (≈ book p.1–70 of ~370). Tables 1.1, 3.1, 3.2, 4.1–4.3 are images and were not extracted. Ch.4.2–12 (properties, durability ratings, HAZ, design) not reached. |
-| **EAA** | European Aluminium Association, *Aluminium in Commercial Vehicles* (≈2007–2011; cites EN 1999, EAA 2005) ("uporaba v transportu.pdf", SL file name but **English** content) | https://drive.google.com/file/d/1nKCtal3NFz7WMlwE4ijgHl0UwMeCMHJp/view | EN | Two-column layout is interleaved but readable. **Read to p.80 of 162 (Ch. I–VI).** Ch. VII fabrication, VIII welding, IX joining, X finishing, **XI corrosion**, XII–XIII not reached. |
+| **EAA** | European Aluminium Association, *Aluminium in Commercial Vehicles* (≈2007–2011; cites EN 1999, EAA 2005) ("uporaba v transportu.pdf", SL file name but **English** content) | https://drive.google.com/file/d/1nKCtal3NFz7WMlwE4ijgHl0UwMeCMHJp/view | EN | **Read in full, 2026-10-12.** Downloaded whole (3,278,124 B = Drive size; 162 pp.; PDF page = printed page) and converted with `pdftotext -layout`, which gives clean two-column text. Earlier passes reached p.80. New: Ch. VI end (fatigue examples, ADR tanks, tipper wear), VII fabrication, VIII welding, IX other joining, X finishing, **XI corrosion (pp.145–151)**, XII cleaning, XIII repair. Ch. XI is short and qualitative: no corrosion rates or potentials. |
 | **RY** | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.Ing. thesis, NTNU, Nov. 2003 ("uporabno del-2.pdf", SL name, **English** content) | https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view | EN | Good. **Read to p.70 of ~190**: background (Ch.2), materials, homogenisation, processing (Ch.3), as-received state and texture (Ch.4.1–4.2). Mechanical results for AA1050/3103/5xxx, the discussion, and all of **Part B (6063/6082/7030/7108 extrusions)** were not reached; only the abstract was read. |
 | **VA** | T. Vasevska (Impol, Slovenska Bistrica), "Utrjevanje aluminija in zlitin pri vzdolžnem hladnem valjanju / Hardening of aluminium and alloys by longitudinal cold rolling", *Materiali in tehnologije* 38(3–4) 191–196 (2004) ("vasevska.pdf") | https://drive.google.com/file/d/1wpVR73nujVXO1OfmvV57CzuvwR__bdRc/view | **SL** (EN abstract) | Read in full and translated. Property-versus-reduction figures cannot be read numerically from the text. |
 | **TAL** | TALAT Lecture 1101, *Resources and Production of Aluminium*, G. Budd, EAA 1999 ("lastnosti aluminija.pdf", SL name, **English** content) | https://drive.google.com/file/d/18RcaS3-hFM9Wts56lekVpEoUht44bmE7/view | EN | Read in full (25 p). Introductory; low physical-metallurgy content. |
@@ -23,7 +23,9 @@
 | **MM** | J.F. Butler Jr. (Alcoa), "Alcoa Micromill™ – Breakthrough Technology for Next Generation Auto Sheet", presentation, 3 Sep 2015 ("document.pdf") | https://drive.google.com/file/d/1OYezPC_Eif_mKOTmq2xeExuqfcsTai1N/view | EN | All 14 slides read. Marketing claims; table column mapping partly ambiguous. |
 | **PC** | A.B. Phillion & J. Dantzig, "Pre-Course Reading for ESI's Solidification Course" ("Pre-course-reading.pdf") | https://drive.google.com/file/d/1PWxfw0Wekow6uLkk0TBx-OOxw8oaY001/view | EN | Text cut off after ≈ 5 pages. Generic solidification nomenclature only. |
 
-**Coverage caveat.** The Drive connector returns at most ≈ 110–390 k characters per file. In every large book, the processing chapters most relevant to rolling, extrusion, heat treatment, welding and corrosion fell beyond that limit (Section 14).
+**Coverage caveat.** The Drive text reader returns at most ≈ 110–390 k characters per file. In every large book, the processing chapters most relevant to rolling, extrusion, heat treatment, welding and corrosion fell beyond that limit (Section 14).
+
+**Whole-file route (tested 2026-10-12).** Files can be downloaded whole (base64) and converted locally. This works up to at least 3.81 MB. A 7.19 MB file broke the connector transport ("message from the server was too large"), and the server refuses anything over 10 MB. So HB (17.7 MB), HAB (20.6 MB) and the other large books here still need splitting into ≤ ~3.8 MB PDFs. Details are in ch07 §0.
 
 ---
 
@@ -222,7 +224,10 @@ Further reference values:
   - Up to 30 % reduction the only change is flattening of equiaxed grains. Above 50 %, longitudinal and transverse microstructures look alike. Pronounced banding appears only above 90 % [VA p.195].
 - **Annealing windows.**
   - Recovery from 150–350 °C; rapid softening (recrystallisation) above about 280 °C [EAA p.52].
-  - Fine recrystallised grain requires ≥ 15 % prior reduction ("critical work hardening"), fast heating (stated as 20–60 °C/h ⚠), no exposure above 350–380 °C, and holding ≤ 2 h. 5xxx: 320–380 °C for 30–120 min [EAA p.52–53].
+  - Fine recrystallised grain requires ≥ 15 % prior reduction ("critical work hardening"), fast heating, no exposure above 350–380 °C, and holding ≤ 2 h. 5xxx: 320–380 °C for 30–120 min [EAA p.52–53].
+    - The heating-rate wording is now checked in the clean full text: "A rapid temperature gradient of 20 to 60°C per hour" [EAA p.53]. The number is printed as such, not an extraction error. That 20–60 °C/h is called "rapid" is still odd (it is batch-furnace slow), so treat it as an unexplained source value.
+    - Below the critical work hardening, "heat treatment must be restricted to restoration without recrystallization" [EAA p.53].
+  - **Golden rule for interstage annealing.** Anneal only when the work hardening has reached at least the critical work-hardening rate. Annealing metal that is "only slightly work-hardened" risks grain enlargement [EAA §VII.1.1 p.92; §VII.2.6 p.97]. Shop practice is torch annealing with tallow as indicator, which turns light brown at 340 °C [EAA p.92]. In 5xxx with > 3 % Mg, anneal "very carefully" to avoid sensitisation to intergranular corrosion (Section 11) [EAA p.92 fn 2, p.97 fn 1].
   - Grains above about 100 µm cause orange peel and reduce formability [EAA p.52].
   - Minimum annealing temperatures: 1xxx 360 °C, 3xxx 400 °C, 5xxx 350 °C [DW §3.1.4].
   - Salt-bath recrystallisation at 400 °C: AlMgX 25 s, AA3103 45 s after ε = 2. Conductivity did not change, so no Mn dispersoids precipitated [RY p.56–57].
@@ -240,11 +245,15 @@ Further reference values:
   - Fe and Si present as constituents for PSN, since more constituent particles give more nuclei and a finer grain [HB p.140, Fig. 47];
   - controlled dispersoid density, since fine dispersoids retard recrystallisation and coarsen the final grain [HB p.125].
 - **Temper choice.** H2x (temper-annealed) and H3x (stabilised) give the same UTS as H1x with lower proof stress and higher elongation [DW §4.1.5]. Use H2x to recover ductility at a given strength. Al–Mg alloys, which recover strongly, benefit most [HB p.168].
+  - **Definitions** [EAA §V.4 p.42–43]:
+    - H1x: work-hardened only. H2x: work-hardened beyond the target, then partially annealed down to it. H3x: work-hardened and stabilised "either by a low temperature heat treatment or as a result of heat introduced during fabrication". **No stabilisation temperature is given** (cf. ch07 G10).
+    - Second digit (UTS-based): HX8 is the hardest temper normally produced; HX4 is midway between O and HX8; HX2 midway between O and HX4; HX6 midway between HX4 and HX8; odd digits are intermediate.
+    - HX11: strain-hardened after the final anneal, too much to count as annealed but not enough or consistently enough to qualify as HX1. H112: some strain hardening from hot working or limited cold work, with no upper property limits. H116: see Section 11.
 - **Mill scheduling.** Reversing-mill passes can be taken without re-coiling to keep the rolling direction, which saves time and energy [VA p.196].
 - **Earing.** Control it by balancing the annealing cube texture against the rolling texture of the final reduction, as done for 3004-H19 [HB p.131].
 
 ### Pitfalls
-- Slow heating or too little strain gives coarse grains; holding above 350–380 °C causes grain growth [EAA p.53].
+- Slow heating or too little strain gives coarse grains; holding above 350–380 °C causes grain growth [EAA p.53]. Repeated interstage anneals of lightly strained metal enlarge the grain [EAA p.97]. *Inference for slugs:* the same applies to any small strain picked up between the final anneal and a later heat exposure (levelling, slug sizing). It parallels the 3–7 % sizing-strain coarse-grain effect in brazed MPE tube (ch07 §8.5).
 - Processing heat-treatable 1xxx/3xxx stock at 400 °C can precipitate Mn and change properties. Check it with conductivity [RY p.56].
 - 5xxx with high Mg develops shear bands and is "notoriously hard to fabricate" hot and cold [RY p.17; HB p.166].
 
@@ -296,7 +305,9 @@ Further reference values:
 - T8 (cold work before ageing) raises 2xxx yield strength by up to 35 % over T6. In 2519, Mg plus cold work adds 190 MPa against 150 MPa expected from additivity [HB p.148–149].
 
 ### Design levers
-- Form heat-treatable alloys in T4/W and age afterwards: larger allowable strain and almost no work hardening [EAA p.53]. W temper lasts typically ≤ 15 min at ambient [WP p.47]. Bending is possible within about 2 h of the quench, or 4–5 days if stored at −6 to −10 °C [DW §3.1.4].
+- Form heat-treatable alloys in T4/W and age afterwards: larger allowable strain and almost no work hardening [EAA p.53]. W temper lasts typically ≤ 15 min at ambient [WP p.47].
+  - [EAA §VII.1.2–1.3 p.92–93]: 6xxx and 7xxx extrusions should be shaped in T1/T4 "within a short time window of a few days" after solution treatment, and very extensive shaping "a few minutes" after it, before natural ageing hardens the metal. T6 must be shaped cold: heating "will considerably reduce mechanical properties (approx. 40 %)".
+  - Bending is possible within about 2 h of the quench, or 4–5 days if stored at −6 to −10 °C [DW §3.1.4].
 - Prefer Zr over Cr/Mn dispersoids in thick, slowly quenched products [HB p.127].
 - Paint-bake-responsive 6xxx auto sheet (Micromill MMHF-T4): yield strength 152 MPa in T4, rising to 165 MPa and 249 MPa after the two paint-bake simulations (0 % + 180 °C/20 min and 0 % + 225 °C/30 min; column mapping ⚠) [MM sl.12].
 
@@ -382,9 +393,37 @@ Further reference values:
   - 5556A gives the best weld-metal strength on 7xxx and 5083.
   - Filler Mg should broadly match the parent: lower is weaker, higher is a corrosion risk.
 - **Friction-stir welding (TWI 1991).** Plates 3–12 mm; fine-grained nugget; stronger and better in fatigue than arc welds; joins 2xxx and 7075. Needs rigid backing and leaves an exit hole [DW §3.4]. Al₃Sc limits HAZ grain growth and narrows PFZs in welds [WP p.53].
+  - [EAA §VIII.8 p.120–121] adds: welds up to 50 mm thick from one side and 100 mm from two; one tool lasts up to ~1000 m of weld in 6xxx; no filler, gas or porosity; machines up to 20 m long. It cannot make joints that need deposited metal, such as fillet welds.
+- **Why Al welds differently from steel** [EAA §VIII.1 p.108; p.161]:
+  - The oxide melts at ~2000 °C against 630–660 °C for the metal, so it must be removed or broken up.
+  - High conductivity and melting energy mean arc welding needs about the same energy as steel.
+  - Thermal expansion is 2× steel, and the weld bead contracts ~6 % in volume from liquid to RT. Both cause distortion and hot-crack risk.
+- **Process windows** [EAA Table VIII.3 p.117; p.109–119]:
+  - TIG-AC: 0.8 ≤ t ≤ 5 mm in the table (1–6 mm in the text); preheat above 6 mm. TIG-DC: 0.2 ≤ t ≤ 10 mm, machine welding only. The He-shielded DC variant welds 10–12 mm in one pass but needs the arc height held within 0.5 mm.
+  - MIG: smooth current t ≥ 3 mm (butt welds need a backing bar); pulsed t ≥ 2 mm (2 < t ≤ 5 mm without backing); wire pulsation 1–5 mm; CMT t ≤ 1 mm.
+  - Laser: 1–4 mm, up to 12 m/min at ~1 mm and 1–3 m/min at 1.5–3 mm. Laser-MIG (70 % He / 30 % Ar): one pass up to 10 mm. Plasma-MIG: one pass up to 10 mm, practically pore-free.
+- **Filler selection notes** [EAA Table VIII.2 p.116]:
+  - (a) 5xxx with > 3.5 % Mg is sensitive to intergranular corrosion above 65 °C in aggressive environments. ⚠ Ch. XI uses > 3 % (Section 11).
+  - (b) **5xxx with < 3 % Mg and Mg-containing 3xxx "may be sensitive to hot cracking."**
+  - (e) Avoid welding Al–Si castings to 5xxx: Mg₂Si forms in the weld and weakens it.
+  - Store filler sealed; humidity on the wire causes porosity. Dry reels left open for months at ~80 °C overnight [EAA p.117].
+- **Weld preparation** [EAA §VIII.9 p.122; §VII.2.3 p.96]:
+  - Machine edges cut by water jet, plasma or laser to remove the rough, thick-oxide, micro-cracked layer. The thermal-cut HAZ is < 1 mm, but short-transverse cracks up to ~2 mm deep occur. Removing 2 mm restores the metal, as it does for sheared plate > 10 mm.
+  - Degrease with acetone or industrial alcohol, never trichloroethylene (forms phosgene in the arc). Then stainless-steel brush. Bring parts into the shop two days ahead so condensation dries.
+  - Deburr with milling tools, not grinding discs, whose residues cause weld porosity [EAA p.111].
+- **Weld-defect causes** [EAA Table VIII.4 p.124–125]:
+  - wormholes/porosity: poor degreasing, dirty or wet wire, poor gas cover, cold start, fast cooling;
+  - oxide inclusions: poor shielding, metal stored badly;
+  - cracks: unsuitable base or filler, welding sequence, over-clamping, sudden cooling;
+  - crater cracks: abrupt arc stop.
+  - Quality levels follow EN ISO 10042 and EN 1090-3 [EAA p.123–124].
+- **Repair** [EAA Ch. XIII p.158–161]: use the same (or a compatible) alloy as the original. Cut out with plasma or carbide wheels, not HSS or abrasive wheels, which leave inclusions. Enlarge patches slightly by hammering to offset weld contraction; small patches crack more readily.
 - **Brazing.** Al is brazed with an Al–Si eutectic filler; brazing alloys melt above 400 °C [HAB p.10]. Wrought 4xxx is used almost exclusively for welding wire and braze cladding [TAL p.10]. Al–Si alloys serve as brazing sheet and welding rod [HB p.169]. Brazing sheet dates from the 1960s [MM sl.4]. **No brazing metallurgy is in the read portions** (gap).
 - **Adhesive bonding.** One-component epoxies cure from 1 h at 120 °C to 10 min at 180 °C [DW §3.6.4]. Best pretreatment is a sulphuric–dichromate etch or anodising, not hard anodising [DW §3.6.2]. Bonded bicycle frames failed when slight corrosion undercut the adhesive [WP p.45].
 - **Mechanical fastening.** Use stainless or Al bolts; Al bolts are 6xxx in T6/T8 [DW §3.2.1]. Rivets are 5154A/5056A (5056A not recommended in the tropics), hot-driven at about 350 °C, or 6082 in T4 within 2 h of the quench [DW §3.2.3].
+  - Steel bolts on Al need insulating gaskets against galvanic corrosion [EAA §IX.2 p.133].
+  - Use threaded holes in Al only when there is no alternative and the YS exceeds 200 N/mm². Thread length is 1–2× the major diameter (≈ 1.2× for 6xxx-T6, longer for softer alloys). Use inserts (e.g. Helicoil) for repeated assembly [EAA §VII.5 p.103–104].
+  - Adhesive bonding insulates dissimilar metals and gives high fatigue strength and damping. Its drawbacks are low peel strength, ageing (creep, humidity, UV) and the need for surface pre-treatment [EAA §IX.1 p.130–132].
 - **Design factors (EN 1999).**
   - Partial factors: γ_M1 = 1.10 for members, γ_M2 = γ_Mw = 1.25 for connections. Commercial-vehicle load factors: 1.1 dead, 1.5 live [EAA p.63].
   - Weld fatigue detail categories range from 63-4.3 to 40-4.3 depending on weld quality [EAA p.79–80].
@@ -396,6 +435,9 @@ Further reference values:
 
 ### Mechanisms and data
 - **Passive film.** It forms in about 10⁻⁴ s and is 5–20 nm thick [HB p.60]. In water below 60 °C, amorphous hydroxide plus bayerite forms; boehmite forms at 60–80 °C [HB p.62]. Standard potential E⁰ = −1.663 V vs SHE [HB p.61].
+  - EAA gives "around 1–10 nm" for the natural oxide. It calls it chemically very stable, well adherent and self-repairing [EAA §XI.2.1 p.146]. ⚠ This does not match HB's 5–20 nm. The overlap is 5–10 nm; film thickness depends on age and environment (general knowledge).
+  - Strong acids or alkalis destroy the film. So do aggressive ions locally, chloride being the typical case (seawater, road salt), which leads to pitting. "Some alloying elements might increase the corrosion resistance of the oxide layer, while others can weaken it"; the elements are not named [EAA p.146].
+  - Anodising thickens the film ~1000× over the natural film. It is done in sulphuric acid, and the porous cells are sealed in boiling water [EAA §X.4.1 p.141].
 - **Pitting.** Caused by film breakdown, mainly by halides. Oxidisers (H₂O₂, free Cl) accelerate it, more strongly in acid. Sn in the film raises ionic conductivity and dissolution [HB p.65].
 - **Effect of purity.** 99.99 % Al has a lower pitting probability, and refined 99.99 % Al is 3–15× more corrosion resistant than commercial purity [HB p.65]. At ≥ 99.99 %, corrosion in HCl is governed by Cu: sheet with > 2×10⁻³ % Cu perforated in 1 week in 20 % HCl, against 2 weeks at 0.9–3×10⁻⁴ % Cu ⚠. Fe also raises the corrosion rate. Ga (0.5 % → 120 g/m²·h) and Re (0.3 % → 250 g/m²·h) are very harmful; 0.14–0.19 % Nb reduces resistance; Ti has no effect; 0.05–0.5 % Be has a slight effect [HB p.66].
 - **Potentials in 1 M NaCl (V vs 0.1 N calomel):** Mg −1.72, Zn −1.15, **Al −0.86**, Fe −0.72, Cu −0.35. Al is cathodic to Mg and Zn and anodic to Fe and Cu in most electrolytes [HB p.63].
@@ -404,6 +446,39 @@ Further reference values:
   - H116 applies to 5xxx with ≥ 3 % Mg. It must pass accelerated intergranular and exfoliation tests and is suited to continuous service ≤ 65 °C [EAA p.42–43].
   - High-Mg alloys can suffer intergranular corrosion and SCC [HB p.166].
   - Cr is often added to 5xxx for corrosion protection [HB p.168].
+  - **Sensitisation kinetics** [EAA §XI.2.2.6 p.151]:
+    - Al–Mg alloys with > 3 % Mg held long at 65–200 °C can form a **continuous bead of Al₈Mg₅** along grain boundaries. EAA's Al₈Mg₅ and HB's Al₃Mg₂ name the same β phase (general knowledge). The bead is anodic to the matrix.
+    - Intergranular corrosion needs **both** this sensitisation **and** an aggressive electrolyte (e.g. saline) on the bare surface.
+    - Kinetics depend on Mg content and production route. Forming and welding can raise susceptibility.
+    - The **thermal load (temperature × time) matters more than temperature alone**: sensitising 5086 takes ~2 years at 65 °C and several months at 100 °C; the fastest sensitisation is at 130–200 °C.
+    - Field data: heavy-fuel-oil road tankers ran ≥ 20 years, 8–10 h/day, i.e. ≥ 50 000 h cumulative at 65–70 °C, without problems.
+    - Guideline: use alloys with **≤ 3 % Mg** where long exposure above ~75 °C occurs; consult the producer for higher Mg.
+    - ⚠ EAA is internally inconsistent on the threshold: > 3 % Mg in Ch. XI but > 3.5 % Mg in the filler-metal table [EAA p.116].
+  - *Relevance to lean 3xxx (inference):* the user's 3102/3207 alloys hold 0.12–0.15 % Mg; variants under discussion have 2–3× that (ch09). All are an order of magnitude below the 3 % threshold, so β sensitisation is not a mechanism for them. It matters only if a 5xxx slug alloy is considered. EAA does flag a different Mg risk for welding: **Mg-containing 3xxx may be sensitive to hot cracking** [EAA p.116].
+- **Corrosion forms in service (EAA Ch. XI).** EAA lists galvanic, crevice, pitting and filiform corrosion for commercial vehicles. It states that other forms exist, but the alloys and tempers most used in vehicles are not prone to them [EAA §XI.2.2 p.147, §2.2.7 p.151].
+  - **Galvanic.** Needs (1) two materials of different potential, (2) an electrolyte and (3) direct or indirect contact. Al is the anode and dissolves, leaving a white alumina layer [EAA §XI.2.2.1 p.147–148]. Prevention: insulating elastomer (e.g. neoprene) sleeves, washers and gaskets, plus sealing compounds that close gaps and stop water entrapment [EAA p.148, Fig. XI.3].
+  - **Crevice.** Capillary forces hold moisture and aggressive deposits in narrow gaps. The rate is "normally very low" because the stable alumina product seals the crevice. Still, close or seal gaps in the road-splash zone [EAA §XI.2.2.2 p.149].
+  - **Pitting** is the most common form on Al [EAA §XI.2.2.3 p.149].
+    - Pit size and depth depend on the alloy, the degree of cold work and the heat treatment, and on aggressive ions in the environment.
+    - Pits start where the oxide film is damaged or imperfect, e.g. ground areas or weld discontinuities.
+    - Pits deepen quickly after initiation and then slow down, because insoluble alumina adheres inside the pit and blocks access of the medium. This is why bare Al can serve for decades in rural, marine or sea-water exposure.
+    - EAA concludes that pitting "is quite normal and does not impact the durability of vehicles". That holds for structural sections; it is not a criterion for thin-walled or appearance-critical parts (inference).
+  - **Filiform (under-film) corrosion** grows as worm-like filaments under paint or enamel [EAA §XI.2.2.5 p.150].
+    - The mechanism is similar to pitting: moisture penetrates the coating and an oxygen-concentration cell makes the filament head anodic.
+    - The metal is barely attacked, so the effect is mainly cosmetic, but it can delaminate the coating.
+    - It depends mostly on the environment and on **the quality of the pre-treatment before painting**. Follow the paint supplier's pre-treatment and use a suitable primer.
+  - **Design rules** [EAA §XI.2.2.4 p.150]: avoid constructive gaps or seal them; avoid water traps (open side downwards); avoid weld discontinuities; separate dissimilar metals with coatings or insulation.
+- **Fabrication- and handling-induced corrosion** [EAA]:
+  - Traces of ferrous or cuprous metal from shared tools cause localised corrosion. Use tools and equipment dedicated to Al [EAA §VII.2 p.93; §VII.1 p.92].
+  - Iron particles embedded by blasting or grinding are galvanic cells that cause "superficial micro-pitting" in moisture. Use iron-free abrasives (e.g. non-recycled corundum) [EAA §X.4.2.1 p.142, fn 1].
+  - Store sheet under cover in a ventilated area, separated by timber blocks, never directly on the floor and away from splash water and condensation, to prevent **condensation (water) stains**. Sheets thicker than 0.8 mm are stored upright, thinner ones flat [EAA §VII.2.1 p.93; §VII.3.1 p.98].
+- **Paint pre-treatment** [EAA §X.4.2 p.141–143]:
+  - Degreasing alone is not enough. The **natural oxide must also be removed**, because it disturbs paint adhesion.
+  - Chemical route: alkaline etch (NaOH-based; concentration and temperature set the rate) or acid etch (phosphoric or nitric), then a ~20 min fresh-water rinse, because the etched surface is rough and moisture-sensitive.
+  - Mechanical route: grinding (grit 120–180) or blasting. Stock removal is < 0.1 mm, similar to etching.
+  - Prime straight after pre-treatment: wash or reaction primer ~10 µm (8–10 µm), then basecoat 60–70 µm, then topcoat 50–60 µm within 2 h.
+  - "Problems with the paint decoration often are not related to the paint or the aluminium itself, but more with an insufficient pre-treatment."
+- **Cleaning** [EAA Ch. XII p.154–155]: detergents must be compatible with Al (not too acidic or alkaline). Test them first on bare Al, do not clean in direct sunlight, do not let detergent dry on the surface, and rinse with de-ionised water. Some tank-cleaning regulations prescribe strong acids or alkalis that exclude Al as a tank material.
 - **Strong alloys.** Cu-bearing alloys are less corrosion resistant (galvanic effect of Cu) [WP p.3]. 2xxx is prone to SCC and is being replaced by 7xxx [WP p.48]. Field failures: a 6 % Cu torpedo boat (Yarrow) and a 2xxx bascule bridge (Sunderland, marine/industrial atmosphere) [DW §1.4–1.5].
 - **Corrosion ratings** (A very good … D poor).
   - All listed 3xxx, 5xxx and 6xxx sheet and extrusions are rated A [EAA p.46–47].
@@ -427,8 +502,16 @@ Further reference values:
 - **Sacrificial layer.** *Inference:* Zn (≈ 1 %) and high-purity or Zn-bearing clads lower the potential of an outer layer relative to the core, so attack stays lateral and sacrificial [HB p.95, p.60; DW §2.2.5]. Core alloys should avoid Cu-free pitting initiators such as coarse Fe-rich constituents *(inference from [HB p.66])*.
 - **Cu control.** Keep Cu low in non-heat-treatable alloys (≤ 0.3 % [HB p.94]). Cu ennobles the alloy and drives corrosion of high-purity Al [HB p.66; WP p.3]. *Inference:* where a more noble core is wanted, a small controlled Cu addition is the potential lever; the source does not quantify this.
 
+### Design levers (packaging: impact-extruded aerosol cans) — *inference from EAA Ch. VII, X, XI and HB*
+- **Pitting and filiform start at surface damage and contamination.** Pits nucleate at damaged or imperfect oxide [EAA p.149]. Embedded Fe particles act as galvanic micro-pitting sites [EAA p.142], and filiform corrosion under organic coatings is governed by pre-treatment quality [EAA p.150].
+  - For slugs and cans this means: limit Fe pick-up from rolls, shears and slug-handling equipment; keep slug surfaces free of embedded debris; treat lacquer pre-treatment (oxide removal or conversion) as part of corrosion design, not only adhesion.
+  - None of this is quantified for 3xxx/1xxx can stock in the sources.
+- **Oxide on the annealed slug.** Paint adhesion requires removing the natural oxide [EAA p.141]. Annealing-grown oxide (the MgO issue in this KB) is therefore something the coating pre-treatment must remove or tolerate. Its thickness should be controlled with that in mind. This is an inference; the sources give no MgO-specific data.
+
 ### Pitfalls
-- **Missing topics.** None of the read portions covers long-life or sacrificial 3xxx brazing-sheet concepts, post-braze corrosion (brown band), exfoliation of 7xxx, or SWAAT/SAAT testing. EAA Ch. XI (corrosion) lies beyond the truncation point.
+- **Missing topics.** No source read so far covers long-life or sacrificial 3xxx brazing-sheet concepts, post-braze corrosion (brown band), exfoliation of 7xxx, or SWAAT/SAAT testing. EAA Ch. XI is now read in full (2026-10-12) and does not cover them either. It is a qualitative guide for 5xxx/6xxx vehicle structures, with no corrosion rates, potentials or test data, and nothing on 3xxx packaging alloys or internal-lacquer/product corrosion of cans.
+- **Oxide-thickness values disagree:** 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60].
+- **Mg threshold for sensitisation:** EAA uses both 3 % [p.151] and 3.5 % [p.116].
 
 ---
 
@@ -457,6 +540,18 @@ Further reference values:
 | **Electrical** | EC ≥ 99.45 % Al [HB p.70]. ISO E-Al annealed conductivity > 35.4–35.7 m/(Ω·mm²) [HB p.36]. Cr+V+Mn+Ti ≤ 0.01–0.015 % [HB p.52]. An Al conductor carries the same current with 50 % more area at half the weight of Cu [WP p.66]. | 1350; 8xxx conductor alloys (Alcoa 1972, 8030, 8176), which keep strength after current-cycle tests [WP p.65]. |
 | **Heat exchangers** | Al is a valid alternative to Cu, with conductivity about 4× steel, but alloying can cut it by up to ~50 % [DW §1.2]. Foil is used for heat exchangers (conduction) [WP p.62]. Heat exchangers are listed as an automotive Al application [MM sl.5; TAL p.15]. | 4xxx braze cladding [TAL p.10]; 3102 composition: Si ≤ 0.40, Fe ≤ 0.7, Cu ≤ 0.10, Mn 0.05–0.40, Zn ≤ 0.30, Ti ≤ 0.10 [WP p.49]; 3003: Mn 1.0–1.5, Cu 0.05–0.20, Fe 0.7, Si 0.6 [WP p.48]; AA3207 (0.4 % Mn) studied in [RY p.11, p.16]. |
 | **Building and marine** | Durability, extrudability, finish [TAL p.13]. | 3xxx hard-rolled trapezoidal cladding; 6063 windows [DW §1.5.4]. Marine: 5xxx plate (5083, 5086, 5052, 5059) plus 6xxx extrusions [DW §1.5.6; WP p.54]. |
+
+Additions from EAA Ch. VI §8–9 (read 2026-10-12):
+- **Abrasive wear (tipper floors)** [EAA §VI.9.2.2 p.88–89]:
+  - The hardness of a work-hardened alloy cannot always be linked to its wear resistance; the type of load decides.
+  - Mineral loads (stone, cement, chalk) wear far more than agricultural loads. Changing the sand type alone raised wear by 35 % in lab tests.
+  - Mass loss is linear in the number of tipping cycles.
+- **ADR tank shells** [EAA §VI.9.1 p.86–87]:
+  - Equivalent thickness e = 464·e₀ / ∛(R_m·A)². Minimum 4.00 mm (Al, protected shell ≤ 1.80 m) or 5.00 mm (> 1.80 m).
+  - EN 14286 alloys allow e = 5.3 mm at R_m·A = 6600 and 5.0 mm at R_m·A ≥ 7152. The arithmetic reproduces these values with e₀ = 4 mm (derived check).
+- **Detail fatigue** [EAA §VI.8.2 p.83–85]:
+  - In the FE example, a chassis gooseneck radius of 1000 mm gives σ_max 43 MPa, 450 mm gives 73 MPa and 300 mm gives 85 MPa. The text says stress rises ~70 % and deflection ~23 %, and that reducing the radius "from the normal radius of 450 mm to 350 mm" halves the life. ⚠ The figure shows 300 mm, not 350 mm.
+  - A Ø20 mm hole in the flange cuts life by > 80 %, and a welded fixture on the flange by > 90 %. The same features on the web have no effect.
 
 ---
 
@@ -521,10 +616,15 @@ Sources: [HB p.52–53, p.92–100, p.122, p.138–168; WP p.73]. **Per-wt.% res
 | Hot riveting | 5xxx rivets (O temper) | about 350 °C | [DW §3.2.3] |
 | Extrusion | 6xxx; RS scrap flakes | about 500 °C; 450 °C | [DW §2.3.1; SIL p.36] |
 | Service limit | H116 5xxx | ≤ 65 °C continuous | [EAA p.43] |
+| Sensitisation range | 5xxx > 3 % Mg | 65–200 °C; fastest 130–200 °C. 5086: ~2 years at 65 °C, several months at 100 °C | [EAA p.151] |
+| Service guideline | 5xxx, long exposure > ~75 °C | use ≤ 3 % Mg | [EAA p.151] |
+| Shop anneal indicator | torch annealing of 5xxx (O/H111 forming) | tallow turns light brown at 340 °C | [EAA p.92, 97] |
+| Filler-wire drying | 4xxx/5xxx wire exposed for months | ~80 °C overnight | [EAA p.117] |
+| Paint drying | wash-primed tank | RT (20 °C) up to 80 °C | [EAA p.143] |
 
 ### 13.4 Engineering suitability ratings (A very good → D poor)
 
-Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47].
+Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47]. The table was rechecked against the clean full text on 2026-10-12. Correction after the full-text pass: H34 is listed for 5083 only, not for 5086; the two rows were previously merged.
 
 | Alloy | Temper | Forming | Welding | Anodising | Corrosion |
 |---|---|---|---|---|---|
@@ -532,7 +632,8 @@ Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47].
 | 5005 | H14/H24 | B | A | A | A |
 | 5059 | O/H111 | B | A | A | A |
 | 5083, 5086 | O/H111 | A | A | A | A |
-| 5083, 5086 | H116/H22/H24/H34 | C | A | A | A |
+| 5083 | H116/H22/H24/H34 | C | A | A | A |
+| 5086 | H116/H22/H24 | C | A | A | A |
 | 5088, 5182, 5186 | O/H111 | A | A | A | A |
 | 5383 | H22/H32 | B | A | A | A |
 | 5454, 5754 | O/H111 | A | A | A | A |
@@ -551,8 +652,8 @@ Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47].
 1. **Truncated sources.** These should be re-ingested in page-split form, because the connector caps output at about 110–390 k characters per file:
    - HB Ch.4 (recrystallisation and grain growth), Ch.5 (hardening, annealing, ageing), Ch.7 (rolling, foil), Ch.8 (extrusion), Ch.9 (welding), Ch.19–20 (heat treating, quenching), and the end of Ch.3 (Al–Zn–Mg, Al–Mg–Si–Cu, alloy-element summary).
    - HAB Ch.10 Aluminium (p.165–212).
-   - EAA Ch. VIII welding and **Ch. XI corrosion**.
    - RY §4.5 (AA3103/5xxx work-hardening curves) and Part B.
+   - Whole-file download only works for files ≤ ~3.8 MB (ch07 §0 note). HB (17.7 MB), HAB (20.6 MB), DW, RY and SIL need splitting first; check sizes in the catalogue.
    - DW Ch.4.2–4.7 (alloy properties, durability ratings A–D, formability) and Ch.6 (HAZ).
    - SIL Ch.5.
    - The TMS-2018 AA6111 friction-stir-welding paper (p.249).
@@ -566,10 +667,12 @@ Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47].
    - temperature of the 209/222 and 343 W/m·K conductivity values;
    - Micromill paint-bake column mapping;
    - the cold-work-raises-conductivity statement versus HB Table 12;
-   - EAA annealing heating rate "20–60 °C per hour".
+   - natural-oxide thickness: 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60];
+   - EAA Mg threshold for sensitisation: 3 % (Ch. XI) vs 3.5 % (Table VIII.2).
 6. **Mill-relevant claims to test.**
    - Does reversing the rolling direction leave anisotropy unaffected in 3xxx, as found for Al99.5 [VA]? It also holds for "alloys" per VA, but no 3xxx data are shown.
    - Do Micromill's continuous-cast formability gains (FLD₀ and LDR) transfer to 3xxx fin stock?
+7. **Corrosion of 3xxx/1xxx packaging alloys.** The general corrosion sources read so far (HB Ch.2–3, EAA Ch. XI) say nothing about pitting or filiform behaviour of lacquered 3xxx/1xxx slugs and cans, product-side (aerosol content) corrosion, or the effect of the annealing oxide on lacquer adhesion. These need packaging-specific sources.
 
 ---
 

@@ -1146,8 +1146,8 @@ The rows "Rotated cube", "R" and "{111}<112>" are from [HBAL03 Tab.1 p.234]; P a
 10. **Data conflicts flagged in the HBAL03 full-text pass (2026-10-12)**. Resolve before using these numbers in models:
     - Mao's SFE 250 mJ m⁻², b = 0.35 nm and γ_HAGB 0.6–1.9 / 1.0 J m⁻² vs HH's 166 mJ m⁻², 0.286 nm and 0.324 J m⁻² (§1.4). This KB uses the HH values.
     - O-anneal temperatures for 3003/3004 differ between HBAL03 ch.5 (Tab.37), ch.19 (Tab.7) and W7 (§4.3).
-    - DRX in Al–Mn and 99.5 % Al: Mao (flow curves) vs Karhausen & Korhonen (industrial: post-dynamic/static RX only) (§9.1).
-    - Zener limit 4r/3F_V as a radius (Mao) or a diameter (common usage) (§6).
+    - DRX in Al–Mn and 99.5 % Al: Mao (flow curves) vs Karhausen & Korhonen (industrial: post-dynamic/static RX only) (§9.1). *Resolved by the HH full text in favour of dynamic recovery:* DRX only in very-high-purity Al; no particle-stimulated DRX in Al alloys [HH pp.416, 431, 436–437].
+    - Zener limit 4r/3F_V as a radius (Mao) or a diameter (common usage) (§6). *Resolved by the HH full text:* Zener's 4r/3F_V is a diameter (α = 1); Mao's radius form is Hillert's result; experiments favour α ≈ 0.26–0.35 [HH pp.358–361].
     - 1100-O UTS 75 MPa [HBAL03 Tab.3] vs ≈ 90 MPa [Pol06].
     - Mao's eq.22 coefficient and his Anderson–Mehl sentence are internally inconsistent (§4.2, §4.4).
     - *Added in the HH full-text pass (2026-10-12):*

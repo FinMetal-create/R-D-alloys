@@ -57,8 +57,11 @@ taken as 182–227 kJ/mol, the range implied in [ch13]. Homogenisation relaxatio
    which is exactly the "precipitation before RX → slow RX, coarse pancake grains" problem of rotary-cast,
    non-homogenised strip [ch03 §5.2; ch15 §3].
 2. **Real homogenisation needs ≈ 580–620 °C for ≈ 0.5–4 h,** depending on the cell spacing. The rotary
-   caster's faster cooling gives finer cells than DC (DC 30–70 µm, belt/twin-roll 5–10 µm [ch03 §5.1]), which
-   makes this short.
+   caster's faster cooling gives finer cells than DC. DC gives 30–70 µm; twin-roll strip (10²–10³ °C/s) gives
+   5–10 µm. A 19 mm belt-cast slab cools at only ≈ 4–40 °C/s, so wheel/belt-cast 22 mm strip lies in between
+   [ch03 §5.1; ch05/Polmear, corrected after the full-text pass]. With half-spacings l ≈ 5–10 µm the times
+   above hold; if the strip centre has l > 10 µm, the time grows as l² (e.g. l = 15 µm ≈ 2.3× the l = 10 µm
+   value).
    - **Gap:** the cell size of the 22 mm rotary-cast strip has not been measured. It is the single most
      useful number for this chapter.
 3. **Precipitation without homogenisation** happens at ≈ 450–520 °C on a timescale of hours (diffusion

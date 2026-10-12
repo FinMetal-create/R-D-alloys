@@ -840,7 +840,7 @@ Table 5.1: melt 720–730°C, cooling 12–18 K/s [ch5, p.196]
   - Ca removal rate constants (low-Mg alloys, Table 4): 2 lances 0.032 min⁻¹; single lance + jet stirrer 0.041; rotor 0.099; salt injection with stirring 0.086.
   - Metal cleanliness at the furnace outlet (PoDFA, Table 5): 3xxx 0.034 mm²/kg with chlorine lances versus 0.037 with salt injection; 1xxx 0.091 versus 0.081.
   - Emissions of HCl, Cl2 and dust fell 10–25-fold. Entrained liquid chloride was slightly higher than with chlorine. In-line degassers generate chlorides in situ in larger quantities, and the fine droplets are hard to separate.
-  - A KCl–MgCl2 flux (melting point 480 °C) is used in Europe on recycled scrap for thin sheet and foil [TOT p.691–692].
+  - A KCl–MgCl2 flux (melting point 480 °C) is used in Europe on recycled scrap for thin sheet and foil [TOT p.691].
 - In Mg-bearing melts 52–95% of the injected chlorine converts to MgCl2, depending on Mg level and injector (Table 3) [TOT p.688].
 
 **Relevance of §10.1–10.4 to the rotary caster and trial T11** (inference unless cited)

@@ -252,7 +252,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
     | 1235 | Si + Fe 0.65 | | 0.05 | — | — | — | — | 0.05 | 99.35 |
     | EC | — | — | — | — | — | — | — | — | 99.45 |
 
-    For the Si + Fe rows the columns after Cu are sparsely printed, so assigning the remaining values to Mn, Zn and "others" is the most likely reading but not certain. This 1969 table predates the current EN 573-3/AA registrations; check limits against the issue in force [TOT p.35]. **1050 (AA) is now covered; 1200 is not in the table** (only its cross-reference equivalents above).
+    The column assignment was checked against the printed column alignment. This 1969 table predates the current EN 573-3/AA registrations; check limits against the issue in force [TOT p.35]. **1050 (AA) is now covered; 1200 is not in the table** (only its cross-reference equivalents above).
   - **Grades and history** [TOT p.70, p.75]: 1100 was the first wrought alloy (USA, 1888). EC conductor metal has ≥ 99.45 % Al; the same purity is used for foil as **1145**.
   - **Product availability** [TOT p.76 Table 23]: among super- and commercial-purity grades, **impacts** are listed only for **1199 and 1100** (1100 is available in every product form; 1060, EC, 1145 and 1180 are not listed for impacts).
   - **Al–Fe–Si physical metallurgy** [TOT p.138–140]:
@@ -278,25 +278,33 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 **Metallurgy**
 - **Mn solubility vs practical content.** Maximum solid solubility is **1.82 %** (at 658 °C) [P Table 2.1]. Commercial Al-Mn alloys stay at **≤1.25 %** (P) or **≤1.2 %** (K), because Fe lowers Mn solubility and coarse **primary Al6Mn** would form, with a "disastrous effect on local ductility" [P p.129; K p.27]. Davis: only up to **~1.5 %** Mn can be added effectively [D p.360]. In 3xxx Mn is the main addition up to 1.25 % [D p.382].
 - **Primary-intermetallic limit.** Fe + Mn must stay **< ~2.0 % in 3003** and **< ~1.7 % in 3004** to prevent primary (Fe,Mn)Al6 in the casting system or ingot sump [D p.383]. The combined Mn + Fe + Cr + other transition metals must be limited for the same reason [D p.383].
+- **TOT on the Al–Mn system** [TOT p.159–160]:
+  - The Al–Al₆Mn eutectic lies at ≈ 1.9 % Mn and 657 °C; up to 1.82 % Mn is soluble, but commercial alloys stay below 1.25 % because Fe lowers Mn solubility and promotes large primary Al₆(Mn,Fe).
+  - "All 3XXX alloys contain controlled amounts of Fe and Si that play a vital role in the phase reactions and microstructural development".
+  - Typical as-cast 3003 ingot holds **0.7–0.9 % Mn in solution**.
+  - Homogenisation precipitates Al₁₂(Mn,Fe)₃Si or (below 0.07 % Si) Al₆(Mn,Fe) dispersoids, typically < 1 µm. Si speeds Mn precipitation and converts Al₆(Mn,Fe) to Al₁₂(Mn,Fe)₃Si; a higher Fe/Mn ratio favours Al₁₃(Fe,Mn)₄ as cast.
 - **Solidification and homogenisation phases.**
   - During DC casting some Mn forms **Al6(Mn,Fe)** and cubic **α-Al12(Fe,Mn)Si** by eutectic reactions. The rest stays supersaturated and precipitates during ingot preheat as **Al12(Mn,Fe)Si and Al6(Mn,Fe) dispersoids**. These strengthen the alloy and control the recrystallised grain size [D p.388].
   - Homogenisation also converts Al6(Fe,Mn) to the harder **α-Al12(Fe,Mn)3Si** by reaction with dissolved Si, which matters for can stock [P p.107].
   - In Cu-bearing alloys Mn forms **Al20Cu2Mn3** [D p.369, 388–389].
 - **Mn left in solid solution.** Only **0.2–0.3 % Mn** typically stays in solid solution after preheat and hot processing, because Mn precipitates as Al6Mn [P p.30]. Mn in solid solution is a **highly effective** strengthener in binary alloys, but contributes less in commercial alloys because it is largely precipitated [D p.368].
-- **Supersaturation vs cooling rate.** Rapid DC solidification retains Mn and Cr far above equilibrium solubility [D p.369]. Twin-roll and other continuous casting (10²–10³ °C/s vs 1–5 °C/s for DC) gives much higher supersaturation of slow diffusers such as **Fe**, and different properties at the same composition [P p.99, 102].
+- **Supersaturation vs cooling rate.** Rapid DC solidification retains Mn and Cr far above equilibrium solubility [D p.369]. Twin-roll and other continuous casting (10²–10³ °C/s vs 1–5 °C/s for DC) gives much higher supersaturation of slow diffusers such as **Fe**, and different properties at the same composition [P p.99, 102]. TOT quantifies it for Mn: solid-solution content 1.82 % at 10⁻¹ K/s, 2.5 % at 10 K/s, 2.8 % at 10² K/s and 3.0–5.0 % at 10³ K/s (Table 33) [TOT p.294]. Supersaturation rises continuously with cooling rate for eutectic-type transition metals (Mn, Fe, Sc, Ni); peritectic-type ones (Cr, V, Zr, Ti) need a threshold of about 10² K/s [TOT p.294–295]. TOT gives ingot and casting practice as 10–100 K/s [TOT p.294], against P's 1–5 °C/s for DC; the two sources differ on DC cooling rate.
 - **Diffusion rates.** D at 500 °C: **Mn 5×10⁻¹³**, Cu 5×10⁻¹⁰, Mg and Si 1×10⁻⁹ cm² s⁻¹ [P p.105]. Mn is **~1000× slower than Cu**, which is why Mn dispersoids resist dissolution and coarsening.
 - **Dispersoid nucleation.** Slow heating (e.g. **75 °C/h**) to the homogenisation temperature gives a fine, uniform dispersion. The dispersoids nucleate heterogeneously on transient precipitates formed during the slow heat-up [P p.106, Fig 3.8 for Al6Mn in Al-Zn-Mg]. Electrical conductivity is "an effective measure of the completeness" of preheat precipitation [D p.370].
 - **Recrystallisation and grain control.** Mn raises the recrystallisation temperature, promotes a fibrous structure in hot working, slows recovery and prevents grain growth as a dispersoid [D p.382]. Mn also **corrects the shape of acicular or platelike Fe constituents** and reduces their embrittling effect [D p.382].
+  - TOT (Yelagin's binary alloys) gives the maximum rise in recrystallisation onset/finish temperature: **Mn +30/+25 K at 0.77 at.%; Fe +65/+35 K at 0.04 at.%**; Zr +105/+240 K; Sc +120/+320 K [TOT p.296 Table 35]. For Mn and Fe the effect appears only above a threshold near their solubility at the solution-treatment temperature [TOT p.296].
+  - In commercial Al–Mn alloys, "high iron and silicon content and small amounts of copper and magnesium also tend to refine the grain size" [TOT p.299]. In can alloys Mn (up to 1.25 %) allows high deformation and prevents grain growth [TOT p.297].
 - **Calcium.** 0.2 % Ca alters the recrystallisation of 3003 [D p.372].
 - **Strength level.**
   - 3xxx is about **20 % stronger than 1xxx** [D p.360]. Annealed 3003 UTS is ~110 MPa vs 90 MPa for 1100, from dispersion hardening by fine Mn intermetallics [P p.129].
   - Dwight instead calls 3xxx "**half as strong again** as pure aluminium", with UTS "up to 200 N/mm² or more" and very high corrosion resistance [DW §4.2.1(b)]. The two statements fit different baselines (see §11). Against 1100, the K data give ~+20 % (3003-O 110 vs 1100-O 90; H18 200 vs 165 MPa [K p.44–45]). Dwight compares with purer 1xxx (top UTS 150 vs 200 MPa [DW Table 4.4]).
   - Mg adds solid-solution strength: 3105 (Al-0.55Mn-0.5Mg) and 3004 (O-temper UTS 180 MPa) [P p.129–130].
+  - **TOT coefficients** [TOT p.160]: in binary Al–Mn with Mn kept in solution, annealed YS rises ≈ 21 MPa and UTS ≈ 42 MPa per wt.% Mn in solution, but H19 YS only ≈ 35 MPa per wt.%. Mg raises H19 YS by 70–85 MPa per wt.%, so "Mn is not as effective in promoting work hardening as Mg", and many commercial 3xxx alloys add Mg and/or small Cu. Mn itself gives "modest" solid-solution strengthening and is more effective at promoting work hardening during cold rolling [TOT p.159]. In 3004 (1 Mn, 1 Mg) the Mg reduces dynamic recovery and gives a finer substructure with more dislocations than 3003 after 90 % cold rolling [TOT p.160, p.163].
   - **Davis compares Mn and Mg two ways:** "about **0.8 % Mg** = **1.25 % Mn** as hardener" [D p.361], but in 13 mm Al-Mg-Mn plate "**Mn is about twice as effective as Mg**" (Mg adds ~35 MPa UTS per 1 %) [D p.380]. See §11.
 - **Work hardening and forming.**
   - The work-hardening curves of 3003 resemble those of 1100 and 5050/5052 [P p.34–35, Fig 2.6].
   - **3003 draws better in the cold-worked than in the annealed condition** [P p.34]. For can-stock 3004, rolled sheet out-forms annealed sheet, the reverse of 5052 [P p.38].
-  - The cube texture nucleates at transition bands, and the rolling vs cube texture balance controls **earing**: 45° ears for a rolling texture; 0/90° ears for a cube texture [P p.39–40].
+  - The cube texture nucleates at transition bands, and the rolling vs cube texture balance controls **earing**: 45° ears for a rolling texture; 0/90° ears for a cube texture [P p.39–40]. TOT: earing in 3004-H19 can sheet is controlled "by balancing the cube texture developed during annealing with the deformation textures produced by rolling to the final temper" [TOT p.131], and in Al–Mn alloys Fe "prevents the formation of earing upon deep drawing due to the control of texture" [TOT p.299]. Quantitative definitions are in §4.11.
   - The coarse constituents in can stock are useful [P p.78]. *(General knowledge: hard α-particles clean the dies during ironing. Polmear's canstock §3.6.5 is still not available; the 2026-10-12 full download of P failed, see §1.)*
   - **Earing, as defined by the AA** [K p.196–197]: ears form "in groups of four or eight with the peaks … at 45° and/or at 0 and 90° to the rolling direction". **Degree of earing (%) = 100 × (mean peak height − mean valley height) / mean valley height.** The cause is "nonuniform directional properties … and/or … improperly adjusted tooling". See §4.11.
 - **Corrosion.**
@@ -315,6 +323,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
     - Strength comes from solid solution + dispersion hardening, "supplemented in some instances by precipitation hardening" [P p.169].
     - *(General knowledge, not stated by P: Zn in fin alloys makes the fin anodic, so it protects the tube sacrificially; this is consistent with the Zn effect on potential in [P p.73].)*
   - Solderability: 3003 excellent, 3004 good [D p.415].
+- **History (TOT).** 3003 was introduced in 1906 and 3004 at the end of the 1920s, both still in use "without major changes in composition". 3004 is "the main material for beverage cans", and Mn is "the cheapest addition in aluminum" [TOT p.297–299].
 - **Applications.** 3003 is the "most popular general-purpose alloy", used for fin stock, cooking utensils, pressure vessels and chemical equipment. 3004 for sheet and containers; 3105 for siding [D p.358]. 3003 for foil and roofing [P p.129]. 3004 for beverage cans, "the largest single use of the metals aluminium and magnesium" [P p.130]. 3xxx is "among the best for brazing and soldering" [K p.27].
   - *Kaufman Ch. 6 (full-text pass)* [K p.90, 93–95, 116, 118]:
     - Profile: high formability and corrosion resistance at medium strength; typical UTS 110–285 MPa; readily joined by all commercial methods.
@@ -333,9 +342,10 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 | 3005 | 0.60 | 0.70 | 0.30 | 1.0–1.5 | 0.20–0.6 | 0.25 | 0.10 (Cr or Ti; column ambiguous) | [P p.121]; nominal 1.2Mn-0.40Mg [K p.12] |
 | 3005 (CAB tube, as quoted) | 0.30 | 0.35 | 0.15 | 1.2 | 0.40 | — | — | [P p.168] |
 | 3105 | 0.60 | 0.70 | 0.30 | 0.3–0.8 | 0.20–0.8 | 0.40 | Cr 0.20, Ti 0.10 | [P p.121]; nominal 0.55–0.6Mn-0.5Mg [K p.12; D p.356] |
+| 3003 / 3004 / 3105 (TOT Table 37) | ≤ 0.3–0.6 (as printed, unlabelled impurity) | ≤ 0.70 | ≤ 0.25 | 1.0–1.5 / 1.0–1.5 / **0.2–0.8** | — / 0.8–1.3 / 0.2–0.8 | — | — | [TOT p.299]. ⚠ The footnote reads "up to 0.25 % Cu, 0.70 % Fe, and 0.3–0.6 % as impurities", with the element of the last value missing (Si presumably). TOT's 3105 Mn lower limit (0.2) differs from P (0.3) |
 | 3103 | — | — | — | nominal 1.2 | — | — | — | [DW Table 4.5, Table 4.8] (verified in the full-text pass; DW gives only the nominal Mn) |
 | FA6815 (fin) | 0.85 | 0.25 | — | 1.6 | — | 1.5 | Zr 0.15 | [P p.168] |
-| **3102, 3207, 3104** | **not given in any source read** | | | | | | | 3104 is named as "a modification of 3004" for can bodies [K p.93], with no composition; 3104-H19 appears only in [S]. 3102 and 3207 appear in neither K nor DW (full text searched). |
+| **3102, 3207, 3104** | **not given in any source read** | | | | | | | 3104 is named as "a modification of 3004" for can bodies [K p.93], with no composition; 3104-H19 appears only in [S]. 3102 and 3207 appear in neither K nor DW (full text searched), and the full TOT text (all 1296 pp.) does not mention 3102, 3207, 3104, 8079 or 8111 either (searched 2026-10-12). |
 
 **Design levers (3xxx), as stated by the sources**
 - Mn content limited by Fe through the primary-phase ceiling [P p.129; D p.383].
@@ -346,6 +356,9 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 - Zn for galvanic grading of fins vs tubes [P p.168; P p.73].
 - Zr (FA6815) for recrystallisation control [P p.168; D p.390].
 - Temper route (H1x vs H2x) for the strength–elongation trade-off [DW §4.1.5].
+- Mg (and small Cu) rather than more Mn to raise H-temper strength, because Mg adds 2–2.5× more H19 yield strength per wt.% than Mn in solution [TOT p.160].
+- Fe and Si level for grain refinement and earing control [TOT p.299].
+- **Relevance for the slug route (inference).** On a rotary caster the cooling rate is higher than DC and there is no homogenisation, so more Mn (and Fe) stays in solution [TOT p.294–295]. TOT's Table 35 increments (Mn +30 K, Fe +65 K onset at most [TOT p.296]) set the scale of how much the anneal temperature may need to rise when that solute precipitates concurrently with recrystallisation. Low-Mn designs such as T11 (Mn 0.14) reduce the Mn term but not the Fe term.
 
 **Pitfalls**
 - Primary Al6(Fe,Mn) [P p.129; D p.383].
@@ -370,7 +383,8 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - In O-temper 13 mm plate, Mg adds **~35 MPa UTS per 1 %** [D p.380].
   - Mg in solid solution sharply raises the work-hardening rate, and the rate grows with Mg content [P p.130]. 5456-H19 approaches **YS ~500 MPa** [P p.130]; heavily cold-worked Al-Mg exceeds **400 MPa** [P p.34].
   - Adding a little Mg causes a **large initial drop in elongation** [D p.408].
-- **No precipitation hardening.** Al3Mg2 (fcc) is hard to nucleate, so binary Al-Mg is not commercially heat treatable [D p.389]. The GP solvus lies below room temperature for <5 % Mg, so there is **no hardening below 5–6 % Mg** [P p.47, 57].
+- **No precipitation hardening.** Al3Mg2 (fcc) is hard to nucleate, so binary Al-Mg is not commercially heat treatable [D p.389]. The GP solvus lies below room temperature for <5 % Mg, so there is **no hardening below 5–6 % Mg** [P p.47, 57]. TOT agrees: no hardening is observed until Mg exceeds 5 % [TOT p.161]; Ch.19 puts the limit for "appreciable heat-treatment characteristics" at 7 % Mg [TOT p.885].
+- **Grain-size strengthening matters more in 5xxx** (TOT). Hall–Petch k is ≤ 0.15 MPa·m^½ for Mg-free alloys but > 0.2 in Al–Mg: 5754 k = 0.22, σ_f = 42.5 MPa; 5182 k = 0.30, σ_f = 57.6 MPa; σ_f ≈ 15.5 × wt.% Mg [TOT p.167]. In Al–Mg–Mn the optimum Al₆Mn dispersion occurs at 4.5 % Mg and 2 % Mn [TOT p.167].
 - **β phase.** Mg5Al8, "formerly Mg2Al3" [P Table 2.3]; also written Al8Mg5, Mg5Al3 [D p.380, 402–403] or Al3Mg2 [D p.389]. Fcc, a = 2.824 nm, incoherent; forms as plates or laths in grain boundaries [P p.57]. It is **strongly anodic: −1.24 V** vs **−0.88 V** for Al-5 % Mg solid solution [P Table 2.5].
 - **Sensitisation, IGC and SCC.**
   - **>3–4 % Mg:** β precipitates in slip bands and grain boundaries, giving **IGC and SCC**. It forms slowly at room temperature but faster after **heavy cold work or at higher temperature** [P p.130].
@@ -495,14 +509,16 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - **8006** (Al-1.6Fe-0.65Mn): foil and **heat-exchanger fin stock**.
   - **8001** (Al-1.1Ni-0.6Fe): nuclear water service; its mechanical properties resemble 3003.
   - **8280/8081**: Al-Sn bearing alloys.
-- **Fe-Mn near the ternary eutectic (8006).** Fine grain stabilised by a dispersed Fe-rich phase gives good room-temperature strength and ductility and retained elevated-temperature strength [D p.379].
+- **Fe-Mn near the ternary eutectic (8006).** Fine grain stabilised by a dispersed Fe-rich phase gives good room-temperature strength and ductility and retained elevated-temperature strength [D p.379]. TOT says the same of Fe + Mn in 8xxx: fine grain size stabilised by dispersed Fe-rich precipitates [TOT p.297].
+- **Very fine-grained 8xxx (TOT).** Some 8xxx alloys have a very fine grain stabilised by a near-uniform dispersion of fine particles. Their strength depends strongly on grain size (Hall–Petch exponent m ≈ 1), but at ≈ 1 µm grain size the lack of work hardening "can severely limit tensile ductility" [TOT p.102].
+- **Fe in 1xxx/8xxx foil stock (TOT).** Fe-bearing constituents promote particle-induced dynamic recovery during rolling to very high strains. In 1145-H19 foil the dislocation cells reach a limiting size just under 1 µm at a true strain of ≈ 0.15 [TOT p.139–140].
 - **Compositions** (wt %, max unless a range) [P p.121]:
   - 8006: Si 0.40, Fe 1.2–2.0, Cu 0.30, Mn 0.30–1.0, Mg 0.10, Zn 0.10.
   - 8011: Si 0.50–0.9, Fe 0.6–1.0, Cu 0.10, Mn 0.10, Mg 0.05, Zn 0.10, Cr 0.05, Ti 0.08.
   - 8017, 8030, 8176 and 8177 are conductor alloys (Fe 0.35–0.7) [K p.13]. 8176-H24 = 160/95 MPa, 15 % [K p.49].
 - **PM and Li alloys.** 8019 (Al-Fe-Ce) and 8009 (Al-Fe-V-Si) are powder-metallurgy alloys for elevated-temperature dispersion strengthening. 8090 is Al-Li (helicopters) [D p.363; P p.159].
 - **Kaufman Ch. 6** [K p.105–107]: 8xxx covers "lesser-used alloying elements such as iron, nickel, and lithium". Profile: high conductivity, strength and hardness; typical UTS **120–240 MPa**. "Iron and nickel provide strength with little loss in electrical conductivity", hence the conductor family represented by **8017**. Kaufman's bullet list labels the whole series "heat treatable", which contradicts his own p.26 (8017 and 8040 are NHT; only Al-Li 8090 is heat treatable). Treat the bullet as an error.
-- **8079 and 8111** are still **not covered** by any source read. K and DW were searched in full on 2026-10-12.
+- **8079 and 8111** are still **not covered** by any source read. K, DW and TOT were searched in full on 2026-10-12.
 
 ### 4.9 Al-Li alloys (2xxx/8xxx)
 - **Basic effects.** Li solubility is ~4 % (16 at.%) at 610 °C; each 1 % Li gives −3 % density and +6 % E; specific stiffness rises up to 25 % [P p.153].
@@ -515,7 +531,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - Even <5 ppm Li impurity in ordinary Al can cause "blue corrosion" of foil [D p.380].
 
 ### 4.10 Foil, can stock, impact slugs and conductors: application map (added in the full-text pass)
-Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors) are **still unread** because the download failed (§1). This map is assembled from K Ch. 6, the K terminology appendix, DW and the parts of P already read.
+Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors) are **still unread** because the download failed (§1). This map is assembled from K Ch. 6, the K terminology appendix, DW, the parts of P already read and TOT.
 
 | Product | Alloys named | Source |
 |---|---|---|
@@ -523,7 +539,7 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 | Other foil | 1145 (foil), 1199 (electrical foil), 3003, 3005 ("high-strength foil"), **8006** (Al-1.6Fe-0.65Mn), 8011 (bottle caps) | [P p.122, 129, 131] |
 | Beverage-can body (drawn and ironed) | **3004 and its modification 3104**; 3004-H19 is the textbook H19 temper | [K p.18, 63, 93, 118] |
 | Can end | **5182** | [K p.96, 101, 118] |
-| Impact-extruded parts | No alloy or temper named in K or DW (definitions only, below) | [K p.203, 217] |
+| Impact-extruded parts | No alloy or temper named in K or DW (definitions only, below). TOT's product chart lists **impacts in 1100 and 1199** among the 1xxx grades [TOT p.76]; TOT Ch.19 names "forgings and impacts" as a wrought form and impacts among heat-treatable forms [TOT p.882, p.934] | [K p.203, 217; TOT p.76, p.882, p.934] |
 | Conductor wire / bus | **1350** (62 % IACS guaranteed); 6201 (high-strength wire); 6101 (bus); 8017 family (Fe/Ni, little conductivity loss) | [K p.88, 99, 107, 115–116] |
 | Heat exchangers | 3003 (power-plant tubing, auto A/C tubes); 3002 (radiators); brazing sheet ("12-O" in the caption) = **3003 core clad on both sides with 4343** filler | [K p.94, 116, 163] |
 | Building sheet | 3005, 3105, 5005; 3xxx fully hard profiled cladding | [K p.116; DW §4.2.1(b)] |
@@ -545,14 +561,27 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 4. **Critical strain.** The recrystallised grain size of 1100 depends strongly on 0–10 % cold work before annealing [K p.121, Fig. 4; sizes not given in the caption].
 5. **Recovery without recrystallisation.** Hard-rolled 99.99 % Al foil (0.1 mm) forms a subgrain structure after **2 h at 150 °C** [K p.120, Fig. 1].
 6. **Partial recrystallisation from residual heat after hot rolling** is shown in 5456 plate [K p.134, Fig. 49]. The caption calls it "dynamic recrystallization"; *(general knowledge: recrystallisation after the pass is better called static or metadynamic)*.
-7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135].
+7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135]. TOT's typical practice is 343 °C for 1060/1100/1350/3004/3105 and 413 °C for 3003 [TOT p.888], so its 1xxx temperature is below DW's stated minimum. DW's figures are minima for local re-annealing (§3.4), while TOT's are typical furnace practice for fully cold-worked stock.
 8. **Earing:** the definition and degree-of-earing formula are in §4.2 [K p.196–197]. The texture mechanism (45° ears from rolling texture, 0/90° from cube) is in [P p.39–40].
 9. **Orange peel** occurs "when large grains in the metal are present" [K p.210].
 10. **Mg-bearing variants (3004/3104/3105)** can **age-soften**: a spontaneous drop in strength at room temperature in strain-hardened Mg-containing alloys. The cure is **stabilising**, a low-temperature treatment [K p.187, 218]. A 5086-H34 plate stabilised at 120–175 °C shows an "undesirable continuous network of Mg2Al3" at its grain boundaries [K p.134]. Stabilising does not by itself prevent β precipitation in high-Mg alloys.
 11. **Bendability of 1xxx/3xxx sheet** [DW §4.3.4, Table 4.6, eq. 4.2]: r/t_min = A + B·√t, with A = 0.3a − 1.7 and B = 0.08a + 0.5 (t in mm). Valid for 90° cold bends at t = 1.5–10 mm. Index a: **1200-O 3, H12 5, H14 6; 3103-O 4, H12 5, H14 6**; 5251-O 5; 5083-O 6; 6082-T6 13. H2x and H3x bend slightly better than H1x.
+12. **Earing, quantitative (TOT Ch.17)** [TOT p.851–853]:
+    - r = ε_width/ε_thickness; r̄ = (r₀ + 2r₄₅ + r₉₀)/4 measures drawability.
+    - **Δr = (r₀ − 2r₄₅ + r₉₀)/2 measures the earing tendency: the higher Δr, the more earing**, more trimming and less usable draw depth.
+    - LDR follows ln(LDR) = η·√((r̄ + 1)/2), with efficiency η = 0.74–0.79.
+    - High r̄ and low Δr also reduce wrinkling, while r hardly affects stretchability.
+    - TOT Ch.6 adds that four ears are common and two, six or eight occur occasionally. At angular positions of low r the wall thickens and stays lower; at high r it is thinner and higher [TOT p.334].
+13. **3003-O sheet-forming data (TOT Ch.17 Table 4, after Ref. 46)** [TOT p.853]: E 69 GPa, YS 48 MPa, UTS 110 MPa, uniform elongation 23 %, total elongation 33 %, n = 0.24, **r̄ = 0.6, Δr = 0.2**, strain-rate sensitivity m = 0.005. For comparison: 6009-T4 r̄ 0.6, Δr 0.1; drawing-quality Al-killed steel r̄ 1.8, Δr 0.7.
+14. **Constituents during deformation** [TOT p.122]: insoluble-constituent size falls with faster solidification, lower Fe and Si, and more deformation. 25–50 % of constituent particles are cracked after 7 % plastic strain in uniaxial tension. Constituents may serve as PSN sites. The ≈ 7 MPa per vol.% strength contribution was found in Al–0.05Si–(0.15–1.17)Fe alloys.
+15. **Annealing practice (TOT Ch.19)** [TOT p.887–888]:
+    - Non-heat-treatable alloys are heated "very quickly to avoid grain growth".
+    - Hold only until the centre of the load reaches temperature (343 °C for 1xxx/3004/3105, 413 °C for 3003); the cooling rate is unimportant.
+    - Furnace types, uniformity bands and survey rules are summarised in ch06 §7.
 
 **Assessment for lean 3xxx slugs (inference, not source statements)**
-- *Hardness calibration.* The user accepts slugs around **35 HB** as a stronger alloy; this is not a cap (stated 2026-10-12; the earlier "23–33 HB" was inferred from model files). For reference, the typical hardness is **1100-O 23 HB, 3003-O 28 HB and 3003-H12 35 HB** [K p.44–45]. A slug at the limit is therefore as hard as lightly strain-hardened (H12) 3003. A fully recrystallised lean Al-Mn slug should therefore read between 1100-O and 3003-O. Readings well above ~30 HB in an "O" slug point to incomplete recrystallisation (recovered substructure) or high Mn in solid solution. Readings near 23 HB point to a 1xxx-like matrix with little Mn effect. The K values are typical hardnesses (500 kg load, 10 mm ball). Check that the in-house test conditions match, and compare with the in-house HB data in chapter 09.
+- *Hardness calibration.* The user accepts slugs around **35 HB** as a stronger alloy; this is not a cap (stated 2026-10-12; the earlier "23–33 HB" was inferred from model files). For reference, the typical hardness is **1100-O 23 HB, 3003-O 28 HB and 3003-H12 35 HB** [K p.44–45]. A slug at the limit is therefore as hard as lightly strain-hardened (H12) 3003. A fully recrystallised lean Al-Mn slug should therefore read between 1100-O and 3003-O. Readings well above ~30 HB in an "O" slug point to incomplete recrystallisation (recovered substructure) or high Mn in solid solution. Readings near 23 HB point to a 1xxx-like matrix with little Mn effect. The K values are typical hardnesses (500 kg load, 10 mm ball). Check that the in-house test conditions match, and compare with the in-house HB data in chapter 09. TOT gives the same 1100-O value (23 HB, 500 kg/10 mm/30 s) and 1060-O 19 HB [TOT p.71]. Its heat-treat QC table caps 3003-O at Rockwell H 65 and 1100-O at H 50, with typical conductivity 44.5–50.5 vs 57.0–62 (% IACS by magnitude) [TOT p.928]. A conductivity reading is therefore a quick second check on whether a "soft" slug is 1xxx-like or retains Mn-type solute.
+- *Earing and slugs.* Slugs are thick discs rather than sheet, so the r̄/Δr sheet measures (item 12) do not transfer directly. Texture anisotropy in the slug plane still shows up as uneven wall height or thickness in the extruded can. The two TOT levers are a balanced cube versus rolling texture [TOT p.131] and Fe content [TOT p.299]. Cold reductions of only 30–50 % on the user's route make a weak, PSN-randomised texture more likely than a strong rolling texture; this is unmeasured.
 - *Where the particle structure is set.* Items 1–2 mean the constituent and dispersoid populations that drive PSN and Zener drag are set by **casting and homogenisation/preheat**, not by the final anneal. The final anneal can only act on stored energy and grain structure. The two 600 °C micrographs bracket the options: a long soak coarsens and spheroidises; slow cooling to 450 °C adds fine Al-Mn-Fe precipitate. The second option is expected to raise the recrystallisation temperature and can coarsen or elongate the annealed grain (consistent with [D p.382; P p.105–106]).
 - *Grain-size control.* Item 4 (critical strain) and item 9 (orange peel) set the risks at the coarse end of the 20–100 µm target. Avoid annealing material carrying only small or uneven strains, such as lightly levelled edges.
 

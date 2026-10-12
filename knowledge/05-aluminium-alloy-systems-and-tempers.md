@@ -629,13 +629,16 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 | Sc | Al3Sc (L12, coherent), precipitates at ~350 °C, coarsening-resistant; **Al3(Sc,Zr)** more homogeneous than Al3Zr | Inhibits recrystallisation up to ~600 °C | — | Adds dispersion strengthening | [P p.52–53, 156] |
 
 Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.387; P p.104].
+
 **TOT additions on dispersoid formers:**
+
 - Decomposition ranges of the supersaturated solutions (Table 34): **Al–Mn (Al₆Mn) 300–350 °C**, Al–Sc 250–350 °C, Al–Zr 400–450 °C, Al–Cr 450–500 °C, Al–V 500–550 °C. The limiting solubilities are 0.88 at.% (Mn), 0.41 (Cr), 0.093 (Zr), 0.21 (V), 0.17 (Ti) and 0.28 (Sc) [TOT p.295].
 - Of these, only Zr and Sc form coherent or semi-coherent precipitates that give real precipitation hardening. The Al–TM hardening range (250–450 °C) differs from that of commercial age-hardening alloys (150–200 °C) [TOT p.295].
 - Recrystallisation-temperature increments are in §4.2 (Table 35) [TOT p.296].
 - Al₃Zr has ≈ 0.6 % misfit and is near-spherical below 0.18 % Zr [TOT p.125].
 - Sc + Zr together allow Sc to be cut to 0.15–0.2 %. Their coherent cubic phases co-precipitate at 300–400 °C; after up to 200 h at 350–450 °C, Al₃Zr particles are 5–11 nm and Al₃Sc particles 25–35 nm [TOT p.297–298].
 - Dispersoids have a dual role: they suppress recrystallisation and favour transgranular, high-energy fracture, but they also nucleate microvoids by decohesion and form void sheets [TOT p.123].
+
 [S, unverified, citing Humphreys & Hatherly]: recrystallisation temperature (fast / slow heating) is 575/550 °C for Al-0.25Sc, 380/480 °C for Al-0.25Zr and 425/500 °C for Al-1.3Mn.
 
 ### 5.3 Fe and Si impurities: summary

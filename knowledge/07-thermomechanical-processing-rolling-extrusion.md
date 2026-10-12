@@ -246,31 +246,95 @@ Drive full-text searches run: `Zener-Hollomon`, `Zener`, `flow stress`, `hot rol
 | # | Equation | Notes | Ref |
 |---|---|---|---|
 | H1 | Z = ε̇·exp(ΔH/(G·T)) | ΔH = activation energy for deformation, G = gas constant | [SH §2.2 eq. 2.4 p.28] |
-| H2 | σ̄ = f(Z) "as modified by Sheppard [Sheppard & Wright 1979]", with material constants α, n (and A) | The body of eq. 2.4 is illegible in the OCR. Standard Sheppard–Wright form: σ̄ = (1/α)·sinh⁻¹[(Z/A)^{1/n}] = (1/α)·ln{(Z/A)^{1/n} + [(Z/A)^{2/n}+1]^{1/2}}, equivalent to ε̇ = A[sinh(ασ)]ⁿ exp(−Q/RT) **(general knowledge)** | [SH p.28] |
-| H2a | **Zener–Hollomon (sinh) form as printed in [TOT]:** σ̄ = (1/α)·arcsinh(Z/A) = (1/α)·arcsinh[ε̄̇·exp(Q/RT)/A] | Stress independent of total strain; α and A are fitting parameters. Reported "satisfactory both when performing torsion tests on aluminum and during extrusion". Torsion assumes steady state, while extrusion strain rates vary strongly. ⚠ **The printed form has no 1/n exponent** (checked on the rendered page). It is the n = 1 special case of H2, or a misprint. Fit with free n (H2) unless n = 1 is intended. **No constants given** | [TOT Ch.8 eq. 11 p.434] |
+| H2 | **Z = A[sinh(ασ̄)]ⁿ = ε̇·exp(ΔH/GT)**, so **σ̄ = (1/α)·ln{(Z/A)^{1/n} + [(Z/A)^{2/n} + 1]^{1/2}}** = (1/α)·arcsinh[(Z/A)^{1/n}] | **Verified on the page image (corrected after full-text pass; previously reconstructed from general knowledge).** Sellars–Tegart form as modified by Sheppard & Wright (1979) for the **steady-state** flow stress [SH eq. 2.4 p.28; eq. 4.1 p.128]. ⚠ Eq. 4.1 on p.128 prints "− 1" inside the root, i.e. arccosh; that is a **misprint**: eq. 2.4 (p.28) and eq. 4.7 (p.145) print "+ 1". The two forms differ only when (Z/A)^{1/n} is not ≫ 1, and the "−1" form fails for Z < A. Constants: Table 4.1 (§3.3). Used by Al companies "for on-line control in extrusion and tandem mill rolling" [p.128]. Its stated weakness: it "says nothing concerning the structural events" [p.128] | [SH p.28, 128, 145] |
+| H2-fit | Regression form for α, n, Q, A | Printed: ln[sinh(ασ)] = ln(A)/n + ln(ε̇)/n + (ΔH/GT)(1/T). ⚠ **Misprinted** (sign of the ln A term, extra 1/T, missing 1/n). The algebraically correct form is **ln[sinh(ασ)] = −ln(A)/n + ln(ε̇)/n + ΔH/(nGT)** (derived from H2). Torsion procedure: stress at 0.72 of the outer radius (Barraclough); correct for the test's temperature rise (finite difference) before regressing; α by Garofalo's method; gauge length:diameter ≤ 1 [SH §4.2.2 p.129] | [SH p.129] |
+| H2-hi | High-stress approximation | Printed: σ̄ ≅ (ln 2)/(αn) + (1/n)·ln(Z/A). ⚠ Dimensionally inconsistent as printed. From H2 with sinh x ≈ eˣ/2 the correct form is **σ̄ ≅ (1/α)·[ln 2 + (1/n)·ln(Z/A)]** (derived). Power-law regime for ασ < 0.8, exponential regime for ασ > 1.2 [SH p.133] | [SH eq. 4.7 p.145] |
+| H2a | **Zener–Hollomon (sinh) form as printed in [TOT]:** σ̄ = (1/α)·arcsinh(Z/A) = (1/α)·arcsinh[ε̄̇·exp(Q/RT)/A] | Stress independent of total strain; α and A are fitting parameters. Reported "satisfactory both when performing torsion tests on aluminum and during extrusion". Torsion assumes steady state, while extrusion strain rates vary strongly. ⚠ **The printed form has no 1/n exponent** (checked on the rendered page). It is the n = 1 special case of H2, or a misprint. [SH] prints the 1/n exponent (H2), and no alloy in [SH Table 4.1] has n ≈ 1 except 7004 (1.28) and 5182 (1.35), so the [TOT] form is most likely a misprint (inference, after the [SH] full-text pass). Use H2 with Table 4.1 constants. **No constants given in [TOT]** | [TOT Ch.8 eq. 11 p.434] |
 | H2b | **Norton–Hoff:** σ̄ = K·ε̄ⁿ·ε̄̇ᵐ·exp(β/T), β = Q/R | "Extensive use" in extrusion simulation. n = 0 removes strain dependence. FEM needs small n and m for numerical reasons, but very low rate sensitivity makes runs long [p.470]. **No constants given** | [TOT Ch.8 eq. 10 p.434, p.470] |
 | H2c | Static RX after hot passes (steel-type set): X = 1 − exp[−C(t/t₀.₅)ᵏ]; t₀.₅ = a·ε^(−b)·d₀^c·Z^(−d)·exp(Q_rex/RT); d_rex = e·d₀^f·ε^(−g) | **No constants given.** [TOT] warns that for Al these equations work only "in limited cases". Sellars found they predict unrealistically **large** grain sizes for Al. Al models need particle precipitation/dissolution and explicit nucleation sites (PSN, cube bands, grain boundaries) | [TOT Ch.7 eq. 1–4 p.359–360] |
-| H3 | Mean extrusion strain rate (Feltham): ε̇ = 6·V_R·D_B²·tanθ·ln R / (D_B³ − D_E³) | Classic form **(general knowledge)**. [SH] confirms the variables (D_B, D_E, V_R, R = D_B²/D_E²) | [SH p.28] |
-| H4 | Modified Feltham from minimised upper bound: ε̇ = 6·V_R·D_B²·(0.171 + 1.86 ln R)·tan(38.7 + 6.9 ln R) / (D_B³ − D_E³) | OCR-reconstructed (angle in degrees). Used by Sheppard to compute Z | [SH §2.3.2 p.36–37] |
+| H3 | Mean extrusion strain rate (Feltham): **ε̇ = 6·D_B²·V_R·ln R / (D_B³ − D_E³)** | Verified on the page image: [SH] prints it **without** a tan θ factor (corrected after full-text pass; the earlier row gave the general-knowledge form with tan θ, which reduces to this for θ = 45°). D_B, D_E billet and extrudate diameters, V_R ram speed, R = D_B²/D_E² | [SH §2.2 p.28] |
+| H4 | Modified Feltham from the minimised upper bound (Tutcher): ε̇ = 6·V_R·D_B²·(0.171 + 1.86 ln R)·tan(38.7 + 6.9 ln R) / (D_B³ − D_E³), angle in degrees | ⚠ [SH] prints D_B³ in the numerator and (D_B² − D_E²) in the denominator, **on both p.37 and p.142**. That is dimensionally inconsistent (ε̇ would not be in s⁻¹). The form above is the dimensionally consistent reading, matching the Feltham base (H3) (inference). Fig. 4.10 shows it tracks a time-averaged upper-bound solution for ln R ≈ 2–5 [p.143]. Used by Sheppard to compute Z | [SH §2.3.2 p.36–37; §4.5 p.142] |
 | H5 | FEM mean ε̇ vs ln R is **parabolic**, not linear as in Feltham; agreement worsens at high R (no spin correction) | | [SH §2.3.4 p.44, Fig. 2.8] |
-| H6 | Breakthrough (peak) pressure increment Δp = 6.62 + 0.921·ln(Z/A) | OCR shows extra symbols ("an"); may contain α, n. Verify against Castle & Sheppard 1976 [SH ref 37] | [SH §2.5.4 eq. 2.27 p.57] |
+| H6 | Breakthrough (peak) pressure increment **Δp = 6.62 + 0.921·ln(Z/A)/(αn)** (N mm⁻²) | **Verified (G14 closed).** The OCR's "an" is the denominator αn. Fitted to 2xxx, 5xxx (5456), Al-1 to 4 % Cu data, correlation 0.988, over (1/αn)·ln(Z/A) ≈ 0–150 and Δp ≈ 0–150 N mm⁻² [Fig. 4.11 p.145]; "valid over a wide range of Al-alloys" [p.144] | [SH §2.5.4 eq. 2.27 p.57; eq. 4.5 p.144] |
+| H9 | Subgrain size vs Z: **d⁻ᵐ = x + y·ln Z** | "Clearly established for most commercial alloys", usually with Z corrected for the temperature rise (Z_c) [SH eq. 4.10 p.156]. Only one fit is given: **AA2014**, printed "d⁻¹ = 0.15 + ln Z_i − 3.5". ⚠ That is a misprint; the reading consistent with Fig. 4.21(a) (d⁻¹ ≈ 0.25–1.2 over ln Z ≈ 25–33) is **d⁻¹ = 0.15·ln Z_i − 3.5** (inference; units read as µm⁻¹). Fitted over ln Z_c = 26.8–34.6, Q from the 2014 constants. Subgrain size and the recrystallised grain size after solution treatment are linearly related (2014), i.e. nucleation by subgrain coalescence [Fig. 4.21(b) p.159]. **No 3xxx subgrain constants in [SH]** | [SH §4.8 p.156–159] |
+| H10 | Static RX after hot deformation (Raghunathan et al.): **5056: t₀.₅ = 2.31×10⁻¹⁰·d₀^1.58·ε̄^−1.9·Z^−0.35·exp(212000/RT_ann); 5083: t₀.₅ = 4.5×10⁻¹⁰·d₀^2.45·ε̄^−1.97·Z^−0.58·exp(183000/RT_ann)** | Verified on the page image. Units of t, d₀ not stated. The text says Z = exp(ΔH/GT_def) (no ε̇; probably a misprint) and that Z should be non-dimensionalised by A. Small d₀, high strain, high Z and high T_ann all shorten t₀.₅. Sellars' Al-1Mg data instead give d₀⁴ and ε̇^5.4, which Sheppard calls "contrary" [p.117]. Sheppard regards these forms as empirical, not state-variable laws [p.117] | [SH §3.6 p.116–117] |
+| H11 | Avrami: X_v = 1 − exp(−A·tⁿ) and the extrusion forms ln ln[1/(1−X_v)] = −Ω₁ + n·ln t + Ω₂ε + Ω₃·ln(λ²R) + Ω₄·ln(λ²Z/A) − n·ΔH/GT (F temper) and a solution-soak form with a (T_s − T_def) term | n ranges from 0.5 (grain-corner site saturation) to 2.5 (random nucleation) (Christian) [p.116]. λ = peripheral shape factor. Fitted examples: 5456 (F temper) and 2024 (solution-soaked) [§4.9.2 p.166]; the printed coefficients are partly garbled in the OCR, so they are not reproduced here | [SH eq. 3.8–3.12 p.116–118; p.166] |
 | H7 | Diffusion: D = D₀·exp(−Q/RT); x ≈ √(Dt) | | [SH §2.6.2 eq. 2.39 p.65; POL §3.1.4 p.105] |
 | H8 | Homogenisation relaxation: c(x,t) = c₀ + c_m·cos(πx/l)·exp(−t/τ), τ = l²/(π²D). Halving l cuts time by 4; l/4 cuts it by 16 | | [SH §2.6.2 eq. 2.40–2.42 p.65–66] |
 
-### 3.3 Per-alloy constitutive constants — **status: still NOT AVAILABLE (TOT Ch.7–8 now read in full and contain none)**
+### 3.3 Per-alloy constitutive constants (G1 filled from [SH Table 4.1], 2026-10-12)
 
-| Alloy | α (MPa⁻¹) | n | Q (kJ/mol) | A (s⁻¹) or ln A | Source status |
+**Table 3-1 — Sellars–Tegart / Sheppard–Wright constants for H2** [SH §4.2.3 Table 4.1 p.132; digits checked on the page image; same values in `cloudpart4/txt/w.txt` l. 6757–6793]. G = 8.314 J mol⁻¹ K⁻¹ for all rows. The αn column is **derived** here (it enters H6 and the pressure law, §8.2).
+
+| Alloy | α (MPa⁻¹) | n | ΔH = Q (kJ/mol) | ln A (A in s⁻¹) | αn (derived) | Remarks (as printed) |
+|---|---|---|---|---|---|---|
+| 1050 | 0.037 | 3.84 | 156.888 | 26.69 | 0.142 | |
+| 1100 | 0.045 | 5.66 | 158.300 | 24.67 | 0.255 | |
+| 2011 | 0.037 | 3.712 | 142.000 | 19.2 | 0.137 | |
+| 2014* | 0.0118 | 5.86 | 176.867 | 31.43 | 0.069 | "PH.-SS [32]" |
+| 2014 | 0.0152 | 5.27 | 144.408 | 24.41 | 0.080 | |
+| 2024 | 0.016 | 4.27 | 148.880 | 19.6 | 0.068 | |
+| **3003** | 0.0316 | 4.45 | 164.800 | 26.9 | 0.141 | |
+| **3004** | 0.0344 | 3.6 | 193.850 | 28.21 | 0.124 | |
+| **3005** | 0.0323 | 4.96 | 183.100 | 29.87 | 0.160 | |
+| **3105** | 0.0248 | 4.83 | 179.300 | 29.98 | 0.120 | |
+| 4047 | 0.04 | 2.65 | 129.300 | 20.47 | 0.106 | |
+| 5005 | 0.029 | 5.8 | 183.576 | 26.65 | 0.168 | |
+| 5052 | 0.016 | 5.24 | 155.167 | 24.47 | 0.084 | |
+| 5054 | 0.015 | 5.43 | 173.600 | 26.61 | 0.081 | |
+| 5056 | 0.015 | 4.82 | 166.900 | 23.05 | 0.072 | |
+| 5083 | 0.015 | 4.99 | 171.400 | 23.11 | 0.075 | |
+| 5182 | 0.062 | 1.35 | 174.200 | 22.48 | 0.084 | |
+| 5456 | 0.0191 | 3.2 | 161.177 | 23.5 | 0.061 | |
+| 6061 | 0.045 | 3.55 | 145.000 | 19.3 | 0.160 | |
+| 6082 | 0.045 | 2.976 | 153.000 | 19.29 | 0.134 | |
+| 6063 | 0.04 | 5.385 | 141.550 | 22.5 | 0.215 | |
+| 6105 | 0.045 | 3.502 | 145.000 | 20.51 | 0.158 | |
+| 7004 | 0.035 | 1.28 | 153.000 | 20.12 | 0.045 | |
+| 7050 | 0.0269 | 2.86 | 151.500 | 22.85 | 0.077 | |
+| 7075 H1 | 0.0141 | 5.41 | 129.400 | 20.75 | 0.076 | 24 h soak |
+| 7075 H2 | 0.01 | 6.14 | 158.432 | 26.32 | 0.061 | slow heat, fast cool [23] |
+| 7075 H3 | 0.012 | 7.8 | 155.336 | 27.54 | 0.094 | fast heat, slow cool |
+| 7075 H4 | 0.01 | 8.5 | 156.325 | 27.14 | 0.085 | fast heat, fast cool |
+| 7075 H5 | 0.011 | 6.32 | 156.837 | 26.38 | 0.070 | slow heat, slow cool |
+| 7150 H1 | 0.01 | 5.7 | 161.402 | 29.8 | 0.057 | fast heat, fast cool |
+| 7150 H2 | 0.013 | 6.1 | 158.806 | 29.2 | 0.079 | fast heat, slow cool |
+| 7150 H3 | 0.01 | 5.5 | 159.832 | 30.7 | 0.055 | slow heat, fast cool |
+
+The 7075/7150 H1–H5 rows are homogenisation variants (heating and cooling rate of the homogenisation cycle; "F.Ht/Sl.Ht" = fast/slow heat). The text calls the table "Table 4.2" once [p.131]; the printed caption is Table 4.1.
+
+**Additional equation [SH p.131].** 7075, torsion data corrected for the test's temperature rise: Z = ε̇·exp(155100/GT) = 1.7×10¹²·[sinh(ασ)]^6.4. The α of this fit is not printed with it.
+
+**Validity and how to use the constants.**
+- Test basis: hot torsion (most data) and compression; after correction for the test's temperature rise the two agree (7xxx, Fig. 4.1, ln Z ≈ 20–40) [SH §4.2.3 p.130–131]. Sheppard concludes the constants "are adequate to describe the flow stress during extrusion" [p.136].
+- **No per-alloy T or ε̇ ranges are printed.** The plotted ranges are 500–800 K (227–527 °C) in Fig. 4.2, 450–850 K at ε̇ = 50 s⁻¹ in Fig. 4.4 (6xxx), and ln Z ≈ 20–40 in Fig. 4.1 [p.130–134]. Treat ≈ 230–530 °C and the extrusion strain-rate range as the validity envelope (inference). They are **steady-state hot-working** constants: do not use them for cold work (impact extrusion at room temperature: use Table 5-1).
+- **Material state.** Homogenised DC material. "Care must, however, be exercised if the values are to be utilized as a precision tool because … heating and cooling rates can produce variations in the flow stress. We may presume that there may be considerable variations if the homogenising practices are vastly different (i.e. when considering homogenized versus cast material)" [SH p.136]. Fig. 4.3 shows the 7150 flow stress shifting with the homogenisation heating and cooling rates [p.133].
+- **Use each row as a set.** α, n, Q and A are interdependent; fixing Q at the self-diffusion value (153 kJ/mol) changes A and n without changing σ̄ [SH p.135]. The 1050 and 1100 rows cross over (1050 is softer at 500 °C and harder at 380 °C, §3.3a), which illustrates the regression scatter Sheppard mentions for weak alloys [p.132] (inference).
+- **Meaning of the constants [SH p.133–136].** α is a reciprocal stress and marks the change from power-law (ασ < 0.8) to exponential (ασ > 1.2) stress dependence; harder alloys have lower α (≈ 0.011 for most hard 7xxx vs 0.04 for 6063). n is the "inverse of the temperature compensated strain rate sensitivity"; a lower α automatically gives a higher n, so n alone is not a measure of Z sensitivity. A is a "structure factor" with no established physical meaning.
+- **Q values vs self-diffusion.** Sheppard gives 153 kJ/mol for lattice self-diffusion in pure Al [p.135]. ⚠ Disagreement: the earlier "general knowledge" anchor in this file was ≈ 142 kJ/mol (corrected after full-text pass: the cited value is [SH]'s 153 kJ/mol; the 142 figure stays general knowledge only). The 3xxx rows sit above both (165–194 kJ/mol).
+- ⚠ **Q for AA3004/AA3104 differs between sources.** [SH] gives Q = 193.85 kJ/mol for 3004 (flow stress). The cube/PSN boundary of AA3104 in [TOT Ch.7 Fig. 4 p.357] implies Q ≈ 156–160 kJ/mol (derived from the plotted line slope, §4.3; Q is not stated in [TOT]). The two are fitted to different phenomena and data sets. Use Z* = 3×10¹⁴ s⁻¹ only with Q ≈ 156–160 kJ/mol; use [SH] constants only as a full set. Do not mix them.
+- **Cross-check of Table 4.1 against Table 4.2 (derived).** The αn values printed in Table 4.2 (§8.2) agree with α·n from Table 4.1 for 5083 (0.075), 5456 (0.059 vs 0.061), 2014 4 % Cu (0.080) and 7075/7150 (H3/H2 rows). They do **not** agree for 1100 (0.192 vs 0.255), 5052 (0.072 vs 0.084) and 5056 (0.035 vs 0.072). So the pressure-equation constants for these three alloys were fitted with a different constitutive set.
+- Retrieval leads for alloys not in the table (3102, 3207, Al-1Mn): ch. 13 §1 web leads (e.g. W13-19, Shi et al. 1997: CP-Al, Al-1Mn, Al-1Mg in plane-strain compression) (G1).
+
+#### 3.3a Derived hot flow stress for the in-line hot mill (slug route)
+
+**(derived)** σ̄ from H2 with Table 3-1, at the rotary-cast route's hot-mill window (≈ 500 °C caster exit → ≈ 380 °C mill exit). The strain-rate range 1–50 s⁻¹ is the range used in §4.3; the user's actual pass strain rates are not in the KB. Values in MPa, written ε̇ = 1 / 10 / 50 s⁻¹. Shear yield stress for the Sims load model (§4.2): k = σ̄/√3.
+
+| Alloy | 500 °C | 440 °C | 380 °C | ln Z range (Q of that row) | ασ̄ range |
 |---|---|---|---|---|---|
-| 1xxx (1100/1050) | — | — | — | — | In [SH Ch.4 Table, pp.127 ff.], not returned. **Not in [TOT Ch.7–8]** (full text, 2026-10-12) |
-| 3003 / 3102 / 3207 | — | — | — | — | Same. Back-calculated σ̄ point for 3102 in §3.4 |
-| AA3104 (can body) | — | — | **≈ 155–160 (derived, implied)** | — | Only an *implied* Q, from the cube/PSN boundary line Z* = 3×10¹⁴ s⁻¹ in [TOT Ch.7 Fig. 4 p.357] (§4.3). Digitising the line gives slope Q/R ≈ 19,150 K, so Q ≈ 159 kJ/mol. Q = 156 kJ/mol puts the line within the reading error of the printed Z* **(derived; Q is not stated in the text; range 150–350 °C, 10⁻³–10 s⁻¹)**. Use it only to place AA3104-type conditions relative to Z*, not as a fitted flow law |
-| 5xxx (5052/5083) | — | — | — | — | As 1xxx |
-| 6xxx (6060/6063/6082) | — | — | — | — | As 1xxx (SH Ch.6) |
-| 7xxx (7075) | — | — | — | — | [SH §2.5.4] uses 7075 at R = 30, 3 mm/s, 300–425 °C but gives no constants in the pages read |
+| 1050 | 14 / 24 / 33 | 23 / 35 / 46 | 36 / 51 / 62 | 24.4–32.8 | 0.53–2.30 |
+| 1100 | 20 / 26 / 32 | 26 / 34 / 39 | 34 / 43 / 49 | 24.6–33.1 | 0.88–2.19 |
+| 3003 | 22 / 33 / 43 | 33 / 46 / 57 | 48 / 63 / 75 | 25.6–34.3 | 0.70–2.36 |
+| 3005 | 22 / 32 / 40 | 32 / 44 / 53 | 47 / 61 / 70 | 28.5–37.6 | 0.70–2.27 |
+| 3105 | 25 / 37 / 47 | 37 / 53 / 65 | 56 / 74 / 87 | 27.9–36.9 | 0.61–2.15 |
+| 3004 | 38 / 55 / 68 | 57 / 75 / 88 | 81 / 99 / 112 | 30.2–39.6 | 1.31–3.86 |
+| 5005 | 39 / 51 / 60 | 51 / 64 / 73 | 67 / 81 / 90 | 28.6–37.7 | 1.13–2.61 |
+| 6063 | 21 / 29 / 35 | 27 / 36 / 43 | 35 / 45 / 52 | 22.0–30.0 | 0.82–2.10 |
 
-- **Only anchor (general knowledge):** for dilute Al alloys the apparent Q for hot working is usually close to the activation energy for Al self-diffusion, ≈ 142 kJ/mol.
-- Do **not** populate the table from memory. [TOT Ch.7–8] are now exhausted (equation forms only: H2a–H2c). Remaining: [SH Ch.4], and the confirmed web leads in ch. 13 §1 (e.g. W13-19, Shi et al. 1997: CP-Al, Al-1Mn, Al-1Mg in plane-strain compression) (§11, G1).
-- 2026-10-12: a whole-file download of [SH] was tried and failed for both copies (§0 note), so the table is still empty. A chapter-split PDF of ≤ ~3.8 MB is needed.
+- ασ̄ spans 0.5 to 3.9, i.e. both the power-law and the exponential regime [SH p.133]. A pure power law (Norton–Hoff, H2b) fitted at one end will be wrong at the other; use the sinh form.
+- Over 500 → 380 °C at fixed ε̇, σ̄ rises by a factor of ≈ 1.5–2.6. Most of the hot-mill load comes from the cold end of the window.
+- **Trial alloy T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) — bracket (inference).** No row matches. 1100 (dilute, Fe+Si) is a lower bound. 3005 and 3105, the Al-Mn-Mg members of the 3xxx group [SH p.72], are the closest Mn+Mg rows and serve as an upper bound. 6063 (Mg+Si) sits close to 1100. Expected range: **σ̄ ≈ 20–25 MPa at 500 °C/1 s⁻¹ to ≈ 49–87 MPa at 380 °C/50 s⁻¹** for homogenised material. Rotary-cast, unhomogenised strip with Mn, Mg and Si retained in solution should sit in the **upper half** of the bracket ([SH p.136, 207]: cast and unhomogenised material is stronger). Calibrate on measured hot-mill roll forces.
+- **Consistency check with the 3102 extrusion point (§3.4).** At 500 °C, 1100 gives 16 MPa (0.27 s⁻¹) and 25 MPa (5.7 s⁻¹); 3003 gives 17 and 30 MPa. The back-calculated σ̄ ≈ 27–28 MPa for AA3102 (0.24 Mn) falls between 1100 and 3003 **only at the H4 strain rate (≈ 5.7 s⁻¹)**. This supports the modified-Feltham rate (H4) over plain Feltham (H3) for that case, despite R = 817 lying outside H4's fitting range (derived).
 
 ### 3.4 Calibration point extracted here: AA3102 multi-port tube (derived from [WIL] + [SH])
 
@@ -280,13 +344,15 @@ Inputs [WIL Table 3 p.19, Table 5 p.38]:
 - ram 0.7 mm/s; exit ~34 m/min; water quench;
 - peak specific pressure 445.0 MPa and 460.2 MPa (two 3102 billets); 650.7 and 653.3 MPa (Al-0.19Sc-0.05Zr).
 
-**(derived)** Using [SH eq. 2.26 / p.36] p = σ̄(0.171 + 1.86 ln R + 4mL_B/(D_B√3)) with m = 0.88 [SH §2.4]:
-- ln R = 6.706; the bracket is 12.64 + 3.89 = 16.54.
+**(derived)** Using [SH §2.3.2 p.36, unnumbered; = eq. 4.4 p.144] p = σ̄(0.171 + 1.86 ln R + 4mL_B/(D_B√3)) with m = 0.88 [SH §2.4] (citation corrected after full-text pass: this is the p.36 equation, not eq. 2.26; the equation is now verified on the page image):
+- ln R = 6.706; the bracket is 12.64 + 3.89 = 16.54 (D_B taken as the 106 mm container bore).
 - σ̄(3102, ~500 °C) ≈ **27–28 MPa**; σ̄(AlScZr) ≈ **39.4 MPa** (+44 %, as measured).
 - Without the friction term, σ̄ would be 35–36 MPa.
 - Caveats:
-  - porthole/bridge-die pressure includes die-land and port losses, so this σ̄ is an upper estimate;
-  - eq. 2.26 is OCR-reconstructed.
+  - porthole/bridge-die pressure includes die-land and port losses, so this σ̄ is an upper estimate. [SH] treats bridge dies as two extrusions in series with shape factors (§8.2, E13);
+  - the 0.171 + 1.86 ln R regression is stated to be valid for rod extrusion up to R = 100, and its constant "can assume a negative value for higher ratios" [SH p.144]. R = 817 is far outside that range;
+  - the peak (breakthrough) increment Δp (H6) is not subtracted. For 1100–3003 constants at 500 °C and ε̇ ≈ 1–10 s⁻¹ it is only ≈ 6–15 MPa (derived), i.e. < 4 % of 445 MPa. At lower Z the H6 fit leaves its data range ((1/αn)·ln(Z/A) < 0) and should not be used.
+- Cross-check with Table 3-1: see §3.3a (the σ̄ is consistent with 1100–3003 constants at the H4 strain rate).
 - Strain-rate estimates **(derived)** differ by 20× between models, so report Z only with the model named:
   - H4: ε̇ ≈ 5.7 s⁻¹, but its die angle extrapolates to 85° at R = 817, outside its range;
   - H3 with θ = 45°: ε̇ ≈ 0.27 s⁻¹.
@@ -307,6 +373,18 @@ Inputs [WIL Table 3 p.19, Table 5 p.38]:
 Sources: [SH Table 2.3 p.65] (the D values recompute correctly from D₀ and Q — **derived** check) and [POL §3.1.4 p.105] (5×10⁻¹³ cm²/s etc.).
 
 ⚠ **Mn discrepancy of ~10³×.** Sheppard's Mn entry (Q = 121.4 kJ/mol) gives fast, Mg-like diffusion. Polmear's 500 °C value is ~10³ slower, which matches Mn being a *slow* diffuser (general knowledge). Sheppard's Cr and Fe rows (low D₀ and low Q) also look non-physical. **For 3xxx dispersoid and homogenisation models, use the Polmear-scale Mn diffusivity. Do not use [SH Table 2.3] for Mn, Cr or Fe.**
+- **Full-text pass (2026-10-12): Sheppard contradicts his own Table 2.3.** In §3.3.2 he groups Cr, Mn, Ti, V and Zr as "moderate solubility, **very low diffusion rate**", Cu, Mg, Si and Zn as "appreciable solubility, high diffusion rate", and Fe as "extremely low solubility, very low diffusion rate" [SH p.102]. Mg coring in an Al-5.5Mg-0.19Cr casting disappears in 20 h at 430 °C while the Cr segregation "remains virtually untouched"; Ti coring would need about 3 weeks [p.102–103]. This supports the flag above (G9 stays open for primary data).
+- **Diffusion distance scales with cell size squared** [SH §3.3.1 p.99]: doubling the distance quadruples the time. Example: Cu across a 0.05 mm dendrite cell at 500 °C homogenises in about 2 h. Rapid solidification gives maximum microsegregation across the dendrite walls but small cells; in commercial ingots large cells are more segregated and slower to homogenise, and an Al-2.5Mg casting with the finer structure approached uniform Mg faster at 425 °C [p.93–94, 99].
+
+#### 3.5a Phase changes during homogenisation (3xxx, 6xxx) [SH]
+
+- **3003:** as cast, (Mn,Fe)Al₆ dominates; heating transforms it to (Fe,Mn)SiAl₁₂ by a delayed peritectic reaction. Mn also supersaturates the cored dendrites and precipitates as a dispersoid. Grains formed by RX after extrusion are more elongated than in 1100 because of the dispersoid [SH §3.1 p.72].
+- **3004 (Mg-bearing):** Mg's affinity for Si "tends to shift the phase proportioning toward (Mn,Fe)Al₆" [p.72]. The α-transformation Al₆(Fe,Mn) → α-Al₁₂(Fe,Mn)₃Si starts at the particle/matrix interface and is controlled by Mn diffusion. **High Si accelerates it; high Mg suppresses it** (Si tied up as Mg₂Si; the C-curve nose moves to longer times). Excess Si is the more effective way to get a high α fraction. α is markedly harder than Al₆Mn, Al₆(Fe,Mn) and α-AlMnSi [SH §3.3.2 p.109–110, Fig. 3.12].
+- **3004 can-stock practice:** as cast ~5 % second phase, mainly Al₆(Fe,Mn) and α′-Al(Fe,Mn)Si, Mn-cored dendrites with the dendrite peripheries at about half the nominal Mn [p.217]. Critical soak **above 605–610 °C** (Fe phases for scouring in can making and for earing), then cooling at **5–30 °C/h** [p.217–218]. During the soak, fine Al₁₂(Fe,Mn)₃Si dispersoid forms in the dendrite cores, the constituents break up and spheroidise, and PFZs form at grain boundaries and around constituents [p.218–220]. The Mn-rich phase dissolves above about 500 °C, while the Fe-rich phase stays stable and precipitates at 605 °C [p.218].
+- **3003/3004 for extrusion:** the very high soak is not needed; "a soak at 575 °C for about 5 h followed by a slow cool (furnace or air)" would suffice to remove the Mn coring [SH §5.4 p.219].
+- **6xxx:** β-(Al,Fe,Si) → α-(Al,Fe,Si) transformation releases Si to the matrix, makes the Fe phase less brittle and adds Mg₂Si potential; it is complete after **6 h at 565 °C**. Small Mn additions move the α field to lower Fe:Si and accelerate β → α [SH §6.1 p.256]. Mg₂Si dissolves rapidly above 465 °C (≈ 2 h for complete dissolution), so the soak is set by the Fe phase, not by Mg₂Si [p.257].
+- **Al₃Zr:** must be heated slowly between 380 and 420 °C to form the fine metastable superlattice phase; precipitated at high temperature as the tetragonal phase it "has little effect on the alloy structure" [SH p.110].
+- **Coarsening:** Al₆Mn coarsens as d ∝ t^(1/3) (lattice-diffusion control), also seen in 3004. Phases with Si, Cu, Mg or Ni coarsen fast; those with Mn, Fe, Cr or Zr only at relatively high temperatures [SH p.108–109].
 
 ### 3.6 Design levers (hot deformation)
 
@@ -316,6 +394,10 @@ Sources: [SH Table 2.3 p.65] (the D values recompute correctly from D₀ and Q �
   - Zr < 0.18 wt % gives near-spherical Al₃Zr [TOT Ch.3 p.125].
 - Sc+Zr (Al-0.19Sc-0.05Zr) keeps the extruded tube **unrecrystallised** at 500 °C extrusion (3102 recrystallises fully during extrusion). It resists recrystallisation up to 575 °C and partially recrystallises at 600 °C / 2 min braze. Cost: **+44 % extrusion pressure** [WIL §5.1–5.2 p.38–41].
 - Higher flow stress (more solute) raises press load and deformation heating (ΔT ∝ σ̄·ln R/(ρc_p), §8.2). The extrudability window therefore narrows from both the load side and the temperature side (inference from [SH §2.5.2; WIL]).
+- **Mn is the RX inhibitor in dilute 5xxx [SH §4.9.1 p.165].** After extrusion, 5052 (no Mn) "recrystallized completely between die exit and quench for all extrusion conditions", while the Mn-bearing 5456 and 5083 kept an unrecrystallised core inside a recrystallised shell. Sheppard attributes this to drag by the Mn precipitates. Al₆Mn dispersoids pin advancing boundaries, so even recrystallised grains stay elongated along the extrusion direction [p.164–165, Fig. 4.26]. In 5xxx the RX fraction *falls* above ≈ 450 °C extrusion temperature because the driving force (dislocation density) falls while the Mn drag stays roughly constant [p.166].
+- **Fine Fe-bearing precipitates restrain dynamic recovery more than Mn-bearing ones [SH §5.2 p.207].** In Al-Fe, Al-Fe-Si and Al-Mn-Mg studies, homogenisation produced more particles < 0.2 µm in the Fe alloys; Mn particles are larger and fewer and very hard to redissolve. Dynamic restoration is high in low-solute alloys (99.99 % Al, Al-Si, Al-Fe, Al-Fe-Si) and low in alloys with much solute in the matrix (Al-Mg, Al-Mn, Al-Mn-Mg) [p.207–208, Fig. 5.1].
+- **Relative extrudability [SH Table 5.4 p.239]**, based on flow stress, 6063 = 100, higher = harder to extrude: 1000 77 · 1100 86 · 6063 100 · 3005 106 · 3003 112 · 3105 126 · 4047 128 · 6105 134 · 6061 151 · 5005 154 · 7004 157 · 2011 171 · 3004 180 · 6082 197 · 2014 202 · 5052 229 · 5056 232 · 2024 247 · 5054 265 · 7150 269 · 7050 280 · 5083 281 · 5182 293 · 5456 300 · 7075 316 (checked on the page image). It "in general" agrees with the surface-limit ranking of Fig. 4.18 [p.238].
+- **Relevance to the slug route (inference).** Table 5.4 is a hot-extrusion index, but it orders the candidate base alloys by flow stress: going from 1xxx (77–86) to 3003/3005 (106–112), 3105 (126), 5005 (154) and 3004 (180) raises the hot flow stress by up to ~2×. The cold Hollomon K values give a similar step: 3003/1100 = 188/146 = 1.29 (Table 5-1) vs 112/86 = 1.30 in Table 5.4 (derived). As a first screen, the hot index also ranks impact-extrusion press force for annealed slugs; confirm with room-temperature flow curves.
 
 ### 3.7 Pitfalls
 
@@ -395,7 +477,8 @@ These limits come from steel hot strip and plate mills. For Al they are upper-bo
 
 **Relevance to the slug route (in-line hot mill, 22 mm → hot band at ≥ 50 %, ≈ 500 → 380 °C).**
 - **(derived)** For 22 → 11 mm (50 %): R/h₂ = 20–50 corresponds to roll radii of 220–550 mm, so Q ≈ 1.5–2.0. Force per width is then P/w ≈ 2k·√(R·11 mm)·Q. The roll radius of the user's mill is not in the KB; insert it to get a number.
-- The hot-flow k at 380–500 °C for the user's alloys is the missing input (G1). §3.4's back-calculated σ̄ ≈ 27–28 MPa for 3102 at ~500 °C (extrusion strain rates) is the only anchor, and it is an upper estimate.
+- The hot-flow k at 380–500 °C was the missing input (G1). **Updated after the [SH] full-text pass:** k = σ̄/√3 now follows from Table 3-1 (§3.3a). For the T11 bracket (1100 → 3105 constants) at 440 °C, 10 s⁻¹, k ≈ 19–30 MPa; at 380 °C, 10 s⁻¹, k ≈ 25–43 MPa (derived).
+- **Illustrative load (derived; the roll radius R = 300 mm is an assumption, not the user's mill).** One 22 → 11 mm pass: √(RΔh) = 57 mm, R/h₂ ≈ 27, Q ≈ 1.6 (§4.2 table), so P/w ≈ 2k·57·1.6 ≈ 190·k N/mm. With k = 19–43 MPa this gives ≈ 3.5–8 kN/mm of strip width, below the ≈ 14.7 kN/mm work-roll experience limit of [RR p.100]. Replace R and ε̇ with the mill's values before use.
 - Use Sims (sticking) for the hot mill and the Bland–Ford set with Hitchcock flattening for the 30–50 % cold passes. Calibrate μ, and hence Q, on measured roll forces [RR p.51].
 
 ### 4.3 Recrystallisation after hot rolling
@@ -453,8 +536,9 @@ These limits come from steel hot strip and plate mills. For Al they are upper-bo
    - Rotary-cast 3xxx strip carries far more Fe and Mn, much of it in supersaturation (§2.3), and is quenched within seconds of the last pass.
    - So expect little or no hot-band RX. This agrees with the ch. 19 §1 assessment; the facts above now give it a literature basis.
    - The AA5182 spectrum is a different (Al-4.5Mg-type) alloy, so use it only as an order-of-magnitude clock: at ≈ 380 °C RX takes about 0.5 s to start and several seconds to finish. The sources do not say whether lean, Mn-supersaturated 3xxx is faster or slower. The Fe/Mn evidence above (TOT Ch.7 p.356; Ch.4 Fig. 28) points to slower (inference).
-2. **Cube/PSN placement.** With the AA3104 boundary (Z* = 3×10¹⁴ s⁻¹, Q ≈ 156–160 kJ/mol), in-line hot passes at 380–500 °C stay below Z* for ε̇ ≲ 50 s⁻¹ **(derived)**: ε̇ = 10 s⁻¹ at 380 °C gives Z ≈ 3–5×10¹³ s⁻¹, and 50 s⁻¹ gives ≈ 1.5–2.8×10¹⁴ s⁻¹. They are therefore on the **cube** side; the 30–50 % cold passes are on the PSN side ("CR"). The hot band's deformation state therefore favours cube nuclei for the final anneal, and the cold reduction adds PSN-random and rolling components. Composition differs from AA3104 (less Mg, more Mn in solution), so treat this as a direction, not a prediction.
+2. **Cube/PSN placement.** With the AA3104 boundary (Z* = 3×10¹⁴ s⁻¹, Q ≈ 156–160 kJ/mol), in-line hot passes at 380–500 °C stay below Z* for ε̇ ≲ 50 s⁻¹ **(derived)**: ε̇ = 10 s⁻¹ at 380 °C gives Z ≈ 3–5×10¹³ s⁻¹, and 50 s⁻¹ gives ≈ 1.5–2.8×10¹⁴ s⁻¹. They are therefore on the **cube** side; the 30–50 % cold passes are on the PSN side ("CR"). The hot band's deformation state therefore favours cube nuclei for the final anneal, and the cold reduction adds PSN-random and rolling components. Composition differs from AA3104 (less Mg, more Mn in solution), so treat this as a direction, not a prediction. ⚠ These Z values use Q ≈ 156–160 kJ/mol, the Q implied by the [TOT] boundary line. [SH]'s flow-stress Q for 3004 is 193.85 kJ/mol; computing Z with that Q gives values ≈ 260–730× higher at 500–380 °C (derived) and is **not** comparable with Z* (§3.3). Keep the two sources separate.
 3. **Quench vs coiling.** [TOT] describes coil self-annealing as the standard way to get a recrystallised, cube-rich hot band [p.356]. The user's water bath removes that option by design, so cube development and grain size are decided entirely in the final slug anneal. The lever left is the hot/cold split (§7.3).
+4. **Added after the [SH] full-text pass.** Unhomogenised as-cast 5xxx needed a substantially higher temperature for 100 % RX after 50 % hot rolling at 400 °C (430 °C for 5252, 540 °C for 5454) than homogenised material [SH p.222–223]. Mn-free 5052 recrystallised between die exit and quench while Mn-bearing 5xxx did not [SH p.165]. Both point the same way for rotary-cast, Fe/Mn-supersaturated strip: the quenched hot band stays unrecrystallised, and the slug anneal must be set hotter than DC-based anneal windows suggest (direction only; inference).
 
 ### 4.4 Design levers (hot rolling)
 
@@ -539,6 +623,7 @@ Trend: n falls from 0.25 to 0.17 as K rises from 175 to 450 MPa [POL p.36]. Note
 - H normalises the gain in σ₁ by the solute atomic fraction: **H = (k_alloy − k_Al)/(x_solute)^(2/3)**, where k is the YS after a true rolling strain of 1 and x is the atomic fraction [TOT Ch.3 eq. 9 p.100]. The book prints "d_Al" in the numerator, which is read here as k_Al. The 2/3 exponent was checked on the rendered page (corrected after full-text pass; the earlier OCR had garbled it).
 
 Other work-hardening facts:
+- Mg vs Mn as hardeners: "about 0.8 percent magnesium being equal to 1.25 percent manganese", and Mg can be added in much larger amounts; Mn is effective only up to about 1.5 % [RA App. C p.10C-2].
 - Cryogenic working: 1100 rolled at −196 °C gains up to ~40 % strength but loses ductility [POL p.36].
 - Strength gain examples [RA §2 p.2-6]:
   - 3003: UTS 110 → 200 MPa (O → H18);
@@ -621,12 +706,24 @@ Physics belongs to the recrystallisation KB; only the process numbers are given 
 - Strength falls gradually during recovery, then sharply during recrystallisation. Data for hard-rolled CP-Al: 5 min anneals [POL Fig. 2.10 p.41].
 - Batch coil annealing must allow conduction to the innermost wraps. Continuous strip annealing heats fast and gives a finer grain [RA §5 p.5-7].
 - Atmosphere: dry N₂ to avoid oxidising lubricant residues and forming MgO on Mg alloys [RA p.5-7].
-- **Heating-rate sensitivity in Mn-bearing 3xxx.** The mechanism (Mn precipitating before recrystallisation and pinning the substructure) is stated only in [INT-CRM] and [INT-RX] notes; it is not in the accessible literature pages. It is consistent with the dispersoid-pinning role in [TOT Ch.3 p.125; POL p.43]. Status: **plausible, needs a literature source** (gap G5).
+- **Heating-rate sensitivity in Mn-bearing 3xxx.** The mechanism (Mn precipitating before recrystallisation and pinning the substructure) is stated in [INT-CRM] and [INT-RX] notes. It is consistent with the dispersoid-pinning role in [TOT Ch.3 p.125; POL p.43]. **Partial literature support from [SH §5.4 p.216–217] (full-text pass, 2026-10-12):**
+  - Study design: 1100 cast as 2.5 cm slab, homogenised, cold rolled to 1 mm and annealed. 3004 cast as 50 cm ingot, homogenised, hot rolled 460 → 260 °C to 4.2 mm, cold rolled to 1.0 mm and annealed. Two anneals: **batch (25 °C/h heating, 2 h at 350 °C)** and **continuous (25 °C/s heating, a few seconds at 500 °C)** (heating rates checked on the page image; the homogenisation heating rate is printed as 40 °C/s).
+  - 1100: 0/90° earing (cube) was achievable **only after continuous annealing**, with a homogenisation hold window of 400–450 °C. 3004: optimum homogenisation hold ≈ 530 °C for the batch anneal and ≈ 610 °C for the continuous anneal. The optima lie near the C-curve nose for Fe and Mn precipitation from the cold-rolled supersaturated matrix. Moving away from the optimum lowered dispersoid density, widened PFZs and *raised* the cube fraction after annealing.
+  - In the **continuous** anneal of 3004, "recrystallization occurs without dispersoid interaction", and cube rises monotonically with homogenisation temperature [p.216–217].
+  - Ingot-cast 3004, batch anneal: the most cube (lowest 45° earing) came after 535 °C/4 h homogenisation [p.217].
+  - What this supports: with slow (batch) heating, Fe/Mn precipitation from a supersaturated, cold-rolled matrix interacts with RX and suppresses cube; with fast heating, RX outruns precipitation. That is the [INT-RX] mechanism. What it does not give: the ~100 °C T_rx shift claimed for 3003 in [INT-CRM], or any grain-size numbers. G5 is narrowed, not closed.
+  - **Relevance to the slug route (inference).** The rotary-cast strip is *more* supersaturated than these homogenised ingots (§2.4 items 7–9). So the heating-rate effect should be at least as strong for slugs: a slow batch heat-up gives Fe/Mn precipitation first (pinning, coarser and less cube-rich grains); a fast heat-up favours RX first (finer grains, more cube). Record the slug heating rate in every trial.
 - Internal model constants [INT-RX] (internal, calibrated, not literature):
   - Q_rx = Q₀ + Σ dQᵢ·cᵢ = 100 + 100·Mg + 200·Cu + 80·Mn(ss) = 145 kJ/mol for 3207;
   - JMAK n = 3; B₀ = 2.5×10²⁸ s⁻ⁿ; strain exponent m = 2;
   - t₅₀ ≈ 300 s at 350 °C, 70 % CR.
   - ⚠ Internal inconsistency: Zener limit d = 4r/(3F_v) = 17.8 µm and P_Z = 0.0365 MPa both use **r = 80 nm**, while the sheet labels 80 nm as the dispersoid *size*. If 80 nm is a diameter, d_Z = 8.9 µm and P_Z doubles **(derived)**.
+
+**Temper definitions relevant to slugs and cans [RA App. B p.10B-1/10B-2, ANSI H35.1-2006] (full-text pass, 2026-10-12).**
+- **O**: fully annealed, softest. Full annealing "converts both heat-treatable and non-heat-treatable wrought alloys into their softest, most ductile, most workable condition" [RA §5 p.5-6].
+- **H1x**: strain-hardened only. **H2x**: strain-hardened more than needed, then partially annealed; for alloys that age-soften at room temperature, H2x has the same minimum UTS as H3x, otherwise as H1x with slightly higher elongation. **H3x**: strain-hardened and stabilised "either by a low temperature thermal treatment or as a result of heat introduced during fabrication"; applies only to alloys that age-soften at room temperature; stabilisation "usually improves ductility" [RA App. B p.10B-1/10B-2]. No stabilisation temperature is given in Appendix B (G10).
+- **H4x: strain-hardened and lacquered or painted.** "Applies to products which are strain-hardened and which are subjected to some thermal operation during the subsequent painting or lacquering operation." The second digit gives the strain hardening remaining after the cure, and "the corresponding H2X or H3X mechanical property limits apply" [RA App. B p.10B-2].
+- **Relevance to the slug route (inference).** The impact-extruded can wall is strain-hardened, and the 220 °C/10 min lacquer bake is exactly the "thermal operation during lacquering" that the H4x temper describes. So specify and test can-wall properties **after** the bake, against H2x/H3x-type limits. Hard-rolled pure Al needs several hours at 280 °C to recrystallise [POL p.42], so a 10 min bake at 220 °C should mainly recover the wall, not recrystallise it. For Mg+Si-bearing T11 the bake also acts as a short artificial age: it is hotter and much shorter than the 115–190 °C, 5–48 h precipitation treatment range for sheet [RA §6 p.6-3].
 
 ---
 
@@ -763,9 +860,12 @@ Physics belongs to the recrystallisation KB; only the process numbers are given 
 | E1 | p = σ̄·ln R (homogeneous work, Siebel) | **Underestimates by ~60 %**: ignores the peak, friction and redundant work | [SH §2.3 eq. 2.5 p.29] |
 | E2 | p = σ̄(a + b·ln R + c·L) | Generic form: a = redundant work, b = inhomogeneity, c = friction | [SH eq. 2.6 p.29] |
 | E3 | p_T = σ̄·(a + b ln R + 4mL/(√3·D_B)) | Bulk (slab) analysis with sticking factor m | [SH §2.3.1 eq. 2.7 p.31] |
-| E4 | **P = σ̄·[0.171 + 1.86 ln R + 4m·L_B/(√3·D_B)]** | Minimised axisymmetric upper bound (double-triangle field) | [SH §2.3.2 p.36] |
-| E4′ | P = σ̄·[0.171 + 1.86 ln R + 4m·(L_B − (D_B − D_E)/(2 tan α))/(√3·D_B)] | Dead-zone-corrected friction length. Reconstructed from OCR | [SH eq. 2.26 p.57] |
-| E5 | Dead-zone/deformation depth X_D = 0.35·D_B·(1 + 0.15√R − 0.0145R); semi-angle α = 38.7 + 6.9 ln R (°) | OCR-reconstructed. α is "normally assumed 45°" | [SH eq. 2.28–2.29 p.57] |
+| E4 | **P = σ̄·[0.171 + 1.86 ln R + 4m·L_B/(√3·D_B)]** | Minimised axisymmetric upper bound (double-triangle field). **Verified on the page image** [p.36]. Without friction, **p/σ̄ = 0.171 + 1.8594 ln R**, a linear regression "valid for rod extrusion up to a ratio of 100"; at higher R the constant can turn negative, so it is not a measure of redundant work [SH eq. 4.3 p.144]. m was observed between 0.8 and 0.9 [p.144]. ⚠ Eq. 4.4 on p.144 prints "171" for 0.171 (misprint) | [SH §2.3.2 p.36; eq. 4.3–4.4 p.144] |
+| E4′ | As printed: **p = σ̄·[0.171 + 1.86 ln R + 4m·((D_B − D_E)/(2 tan δ))/(D_B√3)]**, m = 0.88 (average) | **Corrected after full-text pass.** The page image shows the friction length as (D_B − D_E)/(2 tan δ), with **no L_B term**; the earlier reconstruction "L_B − (D_B − D_E)/(2 tan α)" is not what is printed. Whether the printed form omits L_B by mistake cannot be settled from the book; for full-length billets use E4 | [SH eq. 2.26 p.57] |
+| E5 | Deformation-zone depth **X_D = 0.35·D_B·(1 + 0.15√R − 0.0145R)**; semi-angle **δ = 38.7 + 6.9 ln R (°)** | **Verified on the page image** (G14 closed). δ "is normally assumed to be 45°" | [SH eq. 2.28–2.29 p.57] |
+| E4a | Total pressure with constitutive constants: **p = (1/αn)·[A + B·ln R + C·ln(Z/A) + D·(L_B/D_B)·ln(Z/A)]** | The ln R × ln(Z/A) cross term was dropped as statistically insignificant. Laboratory-scale constants (A, B, C, D, αn) for 5456, 5083, 5056, 5052, 2014 (5 % and 4 % Cu), 1100, 7049, 7075, 7150 in [SH Table 4.2 p.146] (checked on the page image; `cloudpart4/txt/ww.txt` l. 253–265), e.g. **1100: A = −3.9056, B = 3.849, C = 1.728, D = 0.0179, αn = 0.192**; 7075: 14.176, 11.60, 1.757, 2.211, 0.093. ⚠ **Derived check:** at R = 30, L_B/D_B = 2, ε̇ = 1 s⁻¹, E4a gives pressures 1.2–1.8× lower than E4 + H6 with Table 3-1 constants for 5052, 5083, 5456 and 7075, and **≈ 4.3× lower for 1100** (e.g. 63 vs 272 MPa at 450 °C). The 1100 row's αn also disagrees with Table 3-1 (§3.3). Do not use the 1100 row of Table 4.2 without recalibration (G15) | [SH eq. 4.6–4.8 p.145–146] |
+| E13 | Shaped sections and bridge dies | Peripheral ratio λ = periphery of the section / periphery of a round of equal area; λ² multiplies R and Z in the pressure, surface and RX equations [SH §4.6.3 p.146–148]. For 2024 the fitted direct-extrusion law is p = (1/αn){1.76 + 10.92 ln λ²R + 4.56 ln(λ²Z/A) + 2.86(L/D)·ln(λ²Z/A)}, correlation 0.975 [p.147]. Multi-hole dies: λ from all holes, corrected by the pitch-circle diameter [p.148]. **Bridge/porthole dies are treated as two extrusions in series** (into the weld chamber, then through the die), R_t′ = λ₁²R₁·λ₂²R₂ [p.148–149]. Laue's difficulty classes with Sheppard's "modified shape factor": simple bar 2.8, standard sections 4.8, semi-hollows 21.16, tubes 40, simple hollows 82, tubes with projections 120 [SH Table 5.5 p.239] | [SH p.146–149, 239] |
+| E14 | Surface-limit criteria | 5456 rod: acceptable surface if **ln(Z_i/A) ≤ 6.35×10²⁰/T^7.06** (T in K) [SH p.154, Fig. 4.16]. General form (1/n)·ln(Z_i/A) ≤ a·T⁻ᵇ. 2024 shapes: (1/n)·ln(λ²Z_i/A) ≤ 2.113×10⁹/T^2.866 (direct) and ≤ 2.4×10¹⁰/T^3.57 (indirect) [p.154]. Points above and right of the locus give defects (Fig. 4.18, many alloys) [p.154–155]. Mechanism: die-land friction vs flow stress, and local melting if the solidus is exceeded [p.151–154] | [SH §4.7 p.151–156] |
 | E6 | Friction: τ = m·k (m = 0 perfect lubrication, m = 1 sticking) or τ = μp | **Design m ≈ 0.85**; measured m = 0.88 (1100, 2014 at 300–475 °C). The shear layer at the container is ~40–100 µm thick | [SH §2.4 p.48–49] |
 | E7 | Table 2.2 μ values (R = 30, P = aL + C) | 1100, 8 mm/s: μ = 0.075 (300 °C), 0.092 (400 °C). 2014, 5 mm/s: μ = 0.048 (300 °C), 0.055 (400 °C), 0.098 (475 °C). μ *rises* with T, contrary to earlier reports | [SH Table 2.2 p.49] |
 | E8 | Stüwe ΔT₁ (adiabatic deformation heat): ∝ σ̄·ln R/(ρc_p) | Exact prefactor illegible. Temperature rise ∝ flow stress × ln R | [SH §2.5.2 p.51] |

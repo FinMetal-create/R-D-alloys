@@ -26,8 +26,12 @@ materials. "MgO" refers to surface oxide growth during annealing.
 
 - `knowledge/00-alloy-design-framework.md` is the synthesis. Start here: design levers per
   property, the processing-route playbook and the quantitative rules of thumb.
-- `knowledge/01`–`09` are topic chapters distilled from the user's Google Drive library and
+- `knowledge/01`–`10` are topic chapters distilled from the user's Google Drive library and
   their own R&D files. Each chapter has a sources table with Drive links.
+- `knowledge/11`–`18` (`*-web-*.md`) come from online research (papers, theses, standards,
+  regulations, industry sources). They fill gaps the Drive library left open and cite URLs or
+  DOIs. If a Drive source and a web source disagree, flag it rather than silently picking one.
+  Regulatory and price figures carry a retrieval date and may be out of date.
 - `knowledge/sources/catalog.md` is the deduplicated catalogue of every Drive source, with
   stable `S-xxx` reference keys.
 

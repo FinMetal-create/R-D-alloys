@@ -39,6 +39,7 @@ general knowledge explicitly.
 | 17 | [Standards: compositions and properties](knowledge/17-web-standards-compositions-and-properties.md) | Web (partial) |
 | 18 | [Computational alloy-design tools](knowledge/18-web-computational-alloy-design-tools.md) | Web |
 | 19 | [Process innovation for rotary-cast slugs](knowledge/19-process-innovation-rotary-cast-slugs.md) | Synthesis + kinetic estimates |
+| T11 | [Trial record: T11 (first plant trial alloy)](knowledge/trials/T11.md) | Trial plan + assessment |
 | — | [Source catalogue](knowledge/sources/catalog.md) | Drive inventory (S-001…S-079, W-01…W-24) |
 
 ## Known limitations

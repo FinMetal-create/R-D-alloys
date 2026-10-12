@@ -29,6 +29,9 @@ rate, no ingot homogenisation, hot tearing and centreline segregation risks; see
 Route facts: **22 mm cast strip**; lacquer bake **220 °C / 10 min**. Process-innovation options are in
 `knowledge/19-process-innovation-rotary-cast-slugs.md`.
 
+**Trials** are recorded in `knowledge/trials/<ID>.md` (composition, assessment, measurement plan, results). Fill
+in the results section when plant data arrive. These records are the calibration data for the model loop.
+
 Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw
 materials. "MgO" refers to surface oxide growth during annealing.
 

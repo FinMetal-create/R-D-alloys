@@ -17,6 +17,12 @@
 > (catalogue key S-029), read in full; printed page numbers. Older `[S-029 …]` citations that came via other chapters
 > are kept; where re-checked against the full text they are marked "verified". Statements changed by this pass are
 > marked *"corrected after full-text pass"*.
+>
+> **Revision 2026-10-12 (full-text pass of S-052, Ryen).** Ryen's thesis is now read in full (pp.1–192 + appendix),
+> including §4.5 (large-strain flow data for AA1050, AlMgX, AA3103, AA5xxx) and Ch.5 (solute, particle and
+> grain-size effects; model application). New: Table 3-3 (§3.1), measured per-solute coefficients (§3.4), the
+> stage-IV results (§3.3) and a re-check of "Mg vs Mn per unit press force" with Ryen's own data (§3.4). Statements
+> changed by this pass are marked *"corrected after Ryen full-text pass"*.
 
 ---
 
@@ -26,7 +32,7 @@
 |---|---|---|---|
 | **S-053** | W.H. Sillekens, *Backward Can Extrusion and Materials Behaviour*, PhD TU Eindhoven 1992 (DOI 10.6100/IR374925) | https://drive.google.com/file/d/19TZFzxjO1cFP7k7mwdfrpcEXIbSRYG2z/view (dups 1FgOlZBrGWWfSCsEn9pe44eb10MEYShxy, 1u7fg8Mrxj0ha6NwDE3Z79OHEJ-VLEw2u, 1n2OYmFBOJJitAFgIRO00wbGtSTIEMvWa) | `read_file_content` returns **109,131 chars for all four copies (identical)**, ending at Fig. 4.11, printed p.67 — Ch.4.3, **Ch.5 and App. C are not in that export**. The PDF itself (3.64 MB, 143 PDF pages) was therefore downloaded and text-extracted: **Ch.1–6 and App. C read completely** (pp.1–126). App. A (extra steel/brass flow curves) and App. B (error analysis) not read (not Al-relevant). Many equations are images and are garbled (⚠); Figs 2.5, 2.6, 3.4, 3.8, 5.2, 5.3, 5.6 were read from rendered page images. **Material studied is rapidly-solidified recycled car-shredder scrap (Al-6Si-3Cu), not 3xxx.** |
 | **TOT (= S-029)** | G.E. Totten & D.S. MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003 (ISBN 0-8247-0494-0). Used here: **Ch.17 K. Shinozaki & K. Miyamoto, "Forging" (pp.809–836)**; **Ch.18 W.J. Thomas, T. Altan & S. Kaya, "Sheet Forming of Aluminum Alloys" (pp.837–880)**; Ch.16 H.A. Kuhn, "Designing for Aluminum Forging" (pp.775–808); Ch.3 M. Tiryakioğlu & J.T. Staley (spot checks pp.98–100, 160, 164) | Four PDF parts in Drive folder "Cloud part book": https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view (pp.1–388) · https://drive.google.com/file/d/1EwIKZG891qUZJJfloJCpHAP2hJmgXhZE/view (pp.388–788) · https://drive.google.com/file/d/10ilZD0Rt4LM1rUzaCa9hLB0Up-NaH7a3/view (pp.788–988) · https://drive.google.com/file/d/1KmVD2fbnjMnPd2M5YfDEQaI0OflR_NMD/view (pp.989–1296) | **Full text, coverage complete (2026-10-12).** All four parts downloaded; the broken font maps were rebuilt and the text re-extracted. **Ch.17 and Ch.18 read completely.** Ch.16 read for cold-forging, flow-stress, friction, defect and tooling content (the rest is hot die forging of 2xxx/6xxx/7xxx). Ch.21 (Machining) skimmed: no flow-stress or strain-rate data for 1xxx/3xxx. Ch.17 Fig. 2 (flow curve) and Fig. 17 (specific extrusion pressure) were **digitised** from 300-dpi page renders; Figs 19 and 22 and garbled equations were read from page images. Tables have extraction quirks; all numbers used were checked against the page images. |
-| **S-052** | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.Ing. NTNU 2003 | https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view (dup 1UzIUO6x8LEca1klH_1--rFxKuoXwsVhI) | `read_file_content` returns **132,953 chars (both copies identical)**, ending at **printed p.70 (§4.2.1, Fig. 4.6)**; the Drive search snippet (MAX) is the same text. Download refused (11.2 MB > 10 MB limit). **Read:** abstract, Ch.2 theory (pp.7–50, incl. the Nes work-hardening model), Ch.3 materials/processing (pp.53–63), §4.1–4.2.1 (pp.65–70). **Not reached:** §4.2.2–4.5 (incl. §4.5.2 AA3103 work-hardening curves, p.90), **Ch.5 (solute effects stage II–IV, particle & grain-size effects, model application, pp.97–130)**, Part B. Hence **no per-solute MPa coefficients from Ryen's own results** — only the abstract's conclusions. |
+| **S-052** | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.Ing. NTNU 2003 | https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view (dup 1UzIUO6x8LEca1klH_1--rFxKuoXwsVhI). Split copy in Drive folder "Cloud part book": er.pdf https://drive.google.com/file/d/1DXwBCcZG8Shr2h-ip3xtVuBbvsGGUMlo/view (pp.i–viii, 1–40) · qwqwqw.pdf https://drive.google.com/file/d/1i29-pTkkrRlcz6mxmDS-3L2g8n7wBDXV/view (pp.41–90; errr.pdf 1P5XI7XyJz7ASf2kTTLCF-oqWlRjiKg1B is a text-identical copy) · Thesis.book.pdf https://drive.google.com/file/d/1tCTAF9aRtRvPtObL6vkblyscDBf1BOX_/view (pp.91–192, A-1–A-4) | **Full text, 2026-10-12.** The three split parts were downloaded (2.51 / 5.86 / 2.85 MB, sizes verified) and converted with `pdftotext -layout`; they cover the whole thesis without gaps. A fourth part, qwq.pdf (8.23 MB), broke the connector and was not needed. Equations 2.20–2.39 were checked on page renders. The large-strain figures 4.31(a), 4.33(b) and 4.35 were **digitised** from 300-dpi renders: axes were calibrated on the tick marks and marker centroids located by image analysis (± ≈ 2–3 MPa). Earlier passes had only the Drive text to p.70. Printed page numbers are cited. |
 | **S-051** | T. Vasevska, "Utrjevanje aluminija in zlitin pri vzdolžnem hladnem valjanju", *Mater. Tehnol.* 38(3–4) 191 (2004) (SL) | https://drive.google.com/file/d/1wpVR73nujVXO1OfmvV57CzuvwR__bdRc/view | Full PDF downloaded (5 pp., pp.191–195), read and translated completely. **No hardening equation in the text**; the property-vs-reduction curves (Figs 3–6, Al99.5) were **digitised** from rendered images (§3.1). |
 | **S-046** | Schuler, *Metal Forming Handbook* (Springer 1998) | https://drive.google.com/file/d/1n5Yidy74bZxj6ZifvCNtq0iRtk2nyh43/view | `read_file_content` returns 124,942 chars, ending in **§3.2 (press design, ≈p.60 of ~560)**. The cold/impact-extrusion chapter (**Ch.6: §6.3.2 "Billet or slug preparation" p.454, §6.3.3 surface treatment p.459, §6.5.3 backward cup extrusion p.474, §6.5.5 ironing p.476**) appears only in the table of contents — **not reached**. Download impossible (28.6 MB). Only §2.2 basics used. |
 | **S-031** | J.R. Davis, "Aluminum and Aluminum Alloys", *Alloying: Understanding the Basics*, ASM 2001, pp.351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | Full PDF downloaded; complete. Used for solute coefficients and particle/ductile-fracture statements (also used in ch.05). |
@@ -427,6 +433,51 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 - Flow curves used for extrusion should be **compression** curves (Rastegaev specimens with lubricant pockets keep
   uniaxial stress to large strain; measuring diameter rather than height improves accuracy) [S-053 pp.54–55, 69, 74].
 
+**Table 3-3: commercial alloys cold rolled to large strain, then tensile tested along RD (Ryen)** (*added after Ryen
+full-text pass*). The strain is the von Mises equivalent of the rolling strain, ε_vM = (2/√3)·ln(t₀/t)
+[S-052 p.55, Eq. 3.3], the same measure as the can-wall strain (§2.2). Values are UTS / Rp0.2 in MPa, *digitised*
+from [S-052 p.90, Fig. 4.31(a); p.91, Fig. 4.33(b); p.93, Fig. 4.35] (± ≈ 2–3 MPa; "≈" = marker partly hidden).
+O-temper values are tensile results from [S-052 p.88, Table 4.3; p.91, Table 4.4; p.92, Table 4.5]; starting grain
+sizes from [S-052 p.66].
+
+| Alloy (wt.%) [S-052 p.53, Table 3.1] | Grain (µm) | O temper | ε_vM 0.58 | 1.15 | 2.31 | 3.46 | 4.6 |
+|---|---|---|---|---|---|---|---|
+| AA1050 (Fe 0.27, Si 0.09) | 117 | 76.8 / 24.0 | 112 / ≈104 | 132 / 121 | 160 / 142 | **186 / 160** | — |
+| AlMg0.5 (Mg 0.48, Fe 0.18, Si 0.04) | 86 | 95.9 / 28.0 | 139 / ≈134 | 156 / ≈148 | 189 / 170 | **223 / 205** | — |
+| AlMg1 (Mg 1.01, Fe 0.19, Si 0.04) | 79 | 119.9 / 38.3 | 170 / ≈164 | 190 / 182 | 222 / 204 | **252 / 235** | — |
+| AlMg3 (Mg 2.93, Fe 0.20, Si 0.06) | 68 | 193.4 / 62.1 | 277 / 243 | 305 / 274 | 346 / 304 | **377 / 341** | — |
+| AA3103-B (Mn 1.0, Mn_ss 0.41*, Fe 0.57, Si 0.12) | 65 | 101.7 / 46.0 | ≈145 / ≈142 | 171 / 163 | 201 / 187 | **232 / 207** | — |
+| AA3103-B fine-grained | 6 | — | 167 / — | 190 / — | 209 / — (ε_vM 2.0) | 219 / — (ε_vM 2.5) | — |
+| AA5005 (Mg 0.8, Fe 0.3, Si 0.1) | 175 | 138.8 / 54 | — / 185 | — / 206 | — / 245 | — / **273** | — / 299 |
+| AA5182 (Mg 4.55, Mn 0.27) | 50 | 265.3 / 107 | — / 302 | — / 345 | — / 416 | — / **449** | — / 494 |
+
+\* 0.20 at.% Mn in solution [S-052 p.54, Table 3.2], converted to wt.% (derived). The AA3103-B points sit at
+ε_vM ≈ 0.61, 1.11, 2.21 and 3.46. The AA5xxx were rolled from hot-rolled transfer gauge by Hydro Aluminium
+Deutschland [S-052 p.55, 92]; the other alloys were rolled from as-cast + homogenised plate in a laboratory mill.
+
+- **These are the first measured large-strain data for a 3xxx alloy in the library.** At the can-wall strain
+  (ε_vM ≈ 3.4–3.5) AA1050 reaches 160 / 186 MPa (Rp0.2 / UTS) and AA3103-B 207 / 232 MPa. The earlier *derived*
+  estimates of ≈ 160–190 MPa for commercially pure Al and ≈ 210–250 MPa for 3003 (§3.1 above, §6) are confirmed
+  (derived comparison).
+- **Stage IV is linear** above ε_vM ≈ 1 [S-052 p.89]. Slopes between ε_vM 1.15 and 3.46 (UTS, derived): AA1050
+  23, AA3103-B 26, AlMg1 27, AlMg3 31 MPa per unit ε_vM. Ryen's own stage-IV rates, M²θ_IV = 27 (AA1050) and 30 MPa
+  (AA3103-B) [S-052 p.112, Table 5.6], equal these slopes × 2/√3, so they are per unit *rolling* strain (derived
+  check). Extrapolating linearly to ε_vM ≈ 4.5 gives ≈ 210 MPa UTS for AA1050 and ≈ 260 MPa for AA3103-B (derived).
+- **Rm − Rp0.2 after rolling is static recovery, not a material constant.** Immediately after a rolling pass the
+  Frank-network dislocations start to recover at RT; on reloading the structure must be rebuilt, which shows up as a
+  yield-to-UTS gap. It grows with strain in the low-Mg alloys and AA3103, and is large from the start in AlMg3 and
+  AA5182 [S-052 pp.89–90, 93, 112–113, Fig. 5.14]. High-Mg alloys recover more,
+  "which demonstrates the need of a stabilising treatment" (H38) [S-052 p.112]. For the can wall the UTS column is
+  the better estimate of the flow stress at the end of extrusion; the Rp0.2 column is closer to what a can that has
+  stood at RT will show (inference).
+- Tension of the O-temper and compression (REAP project) agree for AA1050/AlMgX, and compression extends the curves
+  to ε = 0.5–0.8; the stress measured in cold-rolled material is "somewhat higher" than compression at the same
+  strain [S-052 p.89, Fig. 4.30].
+- Commercially pure Al hardens in stage IV only because of its impurities: Al99.99 has θ_IV ≈ 1.5 MPa (near
+  saturation, subgrain growth) against 19 MPa for AA1050 (Rp0.2 basis, Guyot & Raynaud data) [S-052 p.108,
+  Fig. 5.10]. Binary AlMn1 (Mn fully in solution) hardens no more than AA1050 to ε_vM ≈ 5 (Nes et al. 1982 data)
+  [S-052 p.109, Fig. 5.11].
+
 ### 3.2 Strain-path dependence (Sillekens Ch.4) — why the slug test matters
 - Compression, torsion and tension flow curves of the same annealed material **do not coincide** (Hollomon fits,
   correlation R ≥ 0.9895): C22 steel C/n = 832/0.197 (compression), 756/0.232 (tension), 670/0.172 (torsion); Armco
@@ -453,11 +504,26 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 - Stages: II (linear, θ ≈ G/200), III (dynamic recovery, decreasing θ), **IV (low linear θ)**, then saturation (e.g.
   CP-Al above ≈ 100 °C); **θ_IV = a·τ_IV, a ≈ 0.1** for fcc [S-052 pp.30–32, Eq. 2.10]. Polycrystals show parabolic
   σ ∝ √ε in "stage II" [S-052 p.32, Eq. 2.11]. **The can wall (ε ≥ 3.4) is deep in stage IV** *(inference)*.
+  - *Corrected after Ryen full-text pass:* a ≈ 0.1 holds for pure Al tested in torsion at various temperatures
+    (Alberdi). Ryen's commercial alloys at RT **do not obey Eq. 2.10**: a = 0.037–0.073, falling with Mg, while
+    θ_IV/G = 0.12–0.16·10⁻³ (M = 3) [S-052 pp.110–111, Fig. 5.13]. Rollett et al. found a constant a = 0.05 for Mg,
+    Mn and Cu additions in torsion [S-052 p.111].
+  - **θ_IV is almost independent of alloying.** M²θ_IV rises only from ≈ 27 MPa (AA1050) to ≈ 36 MPa at 3–5 at.% Mg,
+    mostly between 0 and 0.5 at.% (digitised from [S-052 p.111, Fig. 5.13(a)]); AA3103-B gives 30 MPa [S-052 p.112,
+    Table 5.6]. Grain size does not change θ_IV either; it only lifts the curve [S-052 p.118]. The flow stress at
+    the start of stage IV (ε = 1), by contrast, rises strongly with Mg: K = 54 MPa/at.% [S-052 p.111].
+  - **Consequence for the can wall** *(inference)*: the wall's strength advantage of an alloy is the advantage it
+    has built up by ε ≈ 1 (stages II–III, set by solute, particles and grain size), carried forward almost unchanged
+    through stage IV. Alloying does not buy a steeper stage IV.
 - Flow stress (resolved): **τ = τ_t + τ_p + α₁Gb√ρ_i + α₂Gb(1/δ + 1/D)**, α₁ ≈ 0.3, α₂ ≈ 2; δ subgrain size, D grain
   size; τ_t thermal component from the Orowan equation γ̇ = ρ_m b v with ρ_m ≈ 0.1ρ, at RT essentially
   exp(τ_t) ∝ γ̇/ρ_m [S-052 pp.36–37, Eqs 2.18–2.22].
-- Particles (Orowan, Ashby): ⚠ **τ_p = 1.24·A·G·b/(2πλ)·ln(λ/b)**, A ≈ 1; λ from volume fraction f_r and radius r
-  (Brown & Ham), ⚠ λ ≈ 0.8·r·(√(π/f_r) − 2) [S-052 pp.37–38, Eqs 2.23–2.24; reconstructed from OCR].
+- Particles (Orowan, Ashby): **τ_p = A·G·b/(1.24·2π) · (1/λ)·ln(λ/b)**, A ≈ 1; λ from volume fraction f_r and radius r
+  (Brown & Ham), **λ = 0.8·r·(√(π/f_r) − 2)** [S-052 pp.37–38, Eqs 2.23–2.24; verified on the page render].
+  *Corrected after Ryen full-text pass:* the factor 1.24 is in the **denominator**; the earlier OCR reconstruction
+  put it in the numerator (a factor ≈ 1.5 error). In application Ryen uses A ≈ 0.3 for dispersoid-bearing alloys
+  (Nes et al. 2001) and gets σ_p = M·τ_p ≈ 4 MPa for AA3103-C (f ≈ 0.03, r 0.5 µm; ≈ 10 MPa with A = 1, f = 0.048)
+  [S-052 p.128].
 - Storage: dρ⁺/dγ = 2/(bL); effective slip length **(1/L_eff)² = (√ρ/C)² + (1/L_G)²**, alloy barriers
   **(1/L_G)² = (1/D)² + (2f_r/r)²**, C ∝ 1/θ_II [S-052 p.39, Eqs 2.28–2.31]. Total density ρ = ρ_i + κ₀φ/(bδ), κ₀ ≈ 3
   [S-052 p.35, Eq. 2.16]; sub-boundary misorientation φ saturates at ≈ 3–4° at the III–IV transition (empirical
@@ -474,12 +540,38 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
   inside subgrains saturates ≈ 10¹⁴ m⁻² for ε = 0.03–2, **higher in AA3207 (0.4 % Mn) than AA1050** [S-052 p.16];
   hard particles create deformation zones, raise overall dislocation density and **reduce subgrain size** [S-052
   pp.15–16].
-- **Ryen's conclusions (abstract only — results chapters unreachable):** the model "successfully predicts the effects of
-  Mg in solid solution" and explains particle and grain-size effects in stage II–III; **"Mn, Fe and Si in solid solution
-  are suggested to create solute clusters that increase the strength significantly"**; at stage IV high-Mg alloys show
-  an unexpectedly low θ_IV due to a different storage pattern and shear bands [S-052 p.iii]. Test alloy AA3103 (Mn 1.0,
-  Fe 0.57, Si 0.12; Mn_ss 0.40/0.24/0.20/0.15 at.% after homogenisations AC/A/B/C; 65 µm grains; rolled to ε = 0.5–4)
-  [S-052 pp.53–56, 66] — **exactly the dataset needed for can-wall strength vs Mn in solution (§10)**.
+- **Ryen's results (full text; replaces the abstract-only summary):**
+  - Test alloy AA3103 (Mn 1.0, Fe 0.57, Si 0.12; Mn_ss 0.40/0.24/0.20/0.15 at.% after homogenisations AC/A/B/C;
+    65 µm grains; rolled to ε = 0.5–3) [S-052 pp.53–56, 66]. *Corrected after Ryen full-text pass:* ε = 4 was
+    reached only by the AA5xxx alloys [S-052 p.56, Table 3.3]. Large-strain data are in Table 3-3.
+  - **Mn in commercial AA3103 strengthens strongly; Mn in binary Al–Mn does not.** Fitted on the homogenised
+    conditions with AA1050 as the near-zero-solute reference, Mn_ss gives K = 95 (ε = 0.002) to 149 MPa/at.%
+    (ε = 0.2), roughly strain-invariant [S-052 pp.102–103, Table 5.4], against 11–46 MPa/at.% for Mg
+    [S-052 p.99, Table 5.2]. In hot torsion (ln Z = 25) the Mn effect drops to K = 17.6 MPa/at.%, close to Mg's
+    10.4 [S-052 pp.101, 105, Eqs 5.6, Fig. 5.7]. Binary AlMn1 (≈ 0.5 at.% Mn_ss) is slightly *weaker* than AA1050 to
+    ε_vM ≈ 5 [S-052 p.109, Fig. 5.11].
+  - Ryen's explanation: **Mn, together with Fe and/or Si, forms solute clusters at RT** that act as hard spots and
+    dissolve at high temperature. Mn is smaller than Al (−4.4 % radius vs +11.9 % for Mg), so size misfit cannot
+    explain the strengthening [S-052 pp.104–105, Table 5.5]. "In order to create the strong solute clusters, Mn
+    requires the presence of Fe or Si" [S-052 p.109]. The pure solid-solution effect of Mn is "of the same order as
+    that of magnesium" [S-052 p.133, conclusion 3]. The clusters are a hypothesis; Ryen calls for high-resolution
+    TEM to confirm them [S-052 p.131].
+  - **Impurity Fe and Si strengthen strongly.** AA1050 (Al99.6) is ≈ 30–35 MPa stronger than Al99.99, and its flow
+    curve coincides with binary Al–0.55 at.% Mg [S-052 pp.106–107, Fig. 5.9]. Mahon & Marshall report +20 MPa UTS
+    from only 0.02 wt.% Fe in solution in high-purity Al, with Si and Mn somewhat less [S-052 p.106].
+  - **Particles give a high yield stress but negligible work hardening** (AA3103 and AA5005); stage II becomes more
+    curved [S-052 pp.114–116, 133]. Small dispersoids (strip-cast AA3207, r = 0.1 µm, Forbord) act like the large
+    primary particles: rapid initial hardening, then a lower rate than the precipitate-free variant above 3 % strain
+    [S-052 pp.115–116, Fig. 5.16]. For AA3103-C, of the 20 MPa gap to AA1050 only ≈ 4 MPa is Orowan and ≈ 5 MPa
+    slip-length restriction (L_p = 8.3 µm vs L_ρ = 12 µm, L_D = 65 µm); the rest is attributed to clusters
+    [S-052 pp.114, 128–129, Fig. 5.26].
+  - **Stage IV** is nearly alloy-invariant (see the θ_IV bullet above). The model reproduces stage II–III for AlMgX
+    with C falling linearly with Mg [S-052 pp.119–121, Figs 5.19–5.20]. It overpredicts θ_IV for high-Mg alloys
+    unless the storage parameters q_c (raised with Mg) and S_IV/S_sc (lowered from 1 with Mg) are tuned; shear
+    banding is the proposed physical cause [S-052 pp.122–127, Figs 5.21, 5.24–5.25].
+  - Model inputs used for AlMgX: D = 60 µm, f = 0.015, r = 0.5 µm (L_eff = 20 µm), ε̇ = 0.001 s⁻¹, M = 3; the
+    activation volumes scale with c^(−e), e ≈ 0.55 [S-052 pp.120–121]. A rise of 1° in sub-boundary misorientation
+    at ε = 3 lowers the modelled stress by only ≈ 10 MPa [S-052 p.124].
 - Shear banding becomes frequent only above ≈ 2–3 % Mg (Inagaki & Kohara) and is linked to negative strain-rate
   sensitivity (dynamic strain ageing in Al-Mg at RT) and geometric softening [S-052 pp.17–19, 27] → not expected at
   0.3 % Mg *(inference)*.
@@ -500,8 +592,16 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 | Dispersion (8xxx) | 30–40 MPa | — | [S-028 p.131 via ch.05] |
 | Work-hardening potency per atom | Cu-equivalent K: Cu 1.00, Ge 0.64, Mg 0.37, Cd 0.33, Ag 0.15, Zn 0.071; Doherty H: Cu 3.38 ± 0.20, Si 1.56 ± 0.05, Mg 1.52 ± 0.14, Mn 1.03 ± 0.17, Zn 0.27 GPa | K from **tensile** curves; H from the **cold-rolling** YS at ε = 1 (*corrected after full-text pass*: H was labelled tensile and flagged ⚠; values now verified) | [S-029 pp.98–100, Table 2, Eq. 9, verified] |
 | Hall–Petch k | pure Al 0.065–0.07 MPa·m^½; AlNi6 0.14; alloys 0.1–0.2 | — | [S-052 p.33; S-029 p.101] |
+| Hall–Petch k, measured (Rp0.5) | AA1100 0.06; rising to **0.15 for AlMg3** (yield-point effect at small grain + high solute); **AA3103-B 0.01** (particles dominate the slip length). **No grain-size effect above ≈ 25 µm** for AA1050/AlMgX | coarse vs recrystallised fine-grained variants | [S-052 pp.116–117, Fig. 5.17] (*added after Ryen full-text pass*) |
+| **Mg in solution, commercial base (Fe/Si present)** | σ = σ_99.6 + K·c^n (c at.%): ε 0.002: K 11.3, n 1.22; ε 0.025: 21.8 / 0.98; 0.05: 30.6 / 0.92; 0.1: 40.9 / 0.92; 0.2: 46.0 / 0.99. Linear yield fit **σ0.2 = 20 + 14.5·c** MPa. Stage-IV start stress (ε = 1): K = 54 MPa/at.% | AA1050, AlMg0.5/1/3, AA5182 | [S-052 pp.99–100, Table 5.2, Eq. 5.5; p.111] |
+| Mg in solution, binary high-purity (Sherby) | σ = σ_99.99 + K·c^¾; K 27.4 (ε 0.025) → 54.5 MPa/at.% (ε 0.2). At 277 °C: 28·c^0.7; at 377 °C: 12·c^0.65 | binary Al–Mg | [S-052 pp.97–99, Table 5.1, Eqs 5.2–5.4] |
+| **Mn in solution, commercial AA3103** | K (n = 1) = 94.7 (ε 0.002), 126.3 (0.025), 134.5 (0.05), 145.6 (0.1), 148.5 MPa/at.% (0.2) | homogenised A/B/C, AA1050 as zero point; includes the proposed Mn–Fe–Si cluster effect | [S-052 pp.102–103, Table 5.4, Fig. 5.5] |
+| Mn in solution, binary high-purity (Mahon & Marshall, 0–0.05 at.%) | Yield: K 48.9, n 0.59; uniform strain: K 308, n 0.93 (few data) | binary Al–Mn | [S-052 p.102, Table 5.3] |
+| Hot flow stress (torsion, ln Z = 25) | AlMg: σ = 20 + 10.4·c; AA3103 Mn_ss: K = 17.6 MPa/at.% (cluster effect lost) | 350–550 °C | [S-052 pp.101, 105–106, Eq. 5.6, Fig. 5.7] |
+| Fe in solution | +20 MPa UTS from 0.02 wt.% Fe_ss in high-purity Al (Mahon & Marshall); Si and Mn somewhat less, "much higher than … Mg" | per Ryen, probably clusters | [S-052 p.106] |
+| Particles (AA3103-C vs AA1050) | 20–22 MPa gap over ε = 0–0.3: ≈ 4 MPa Orowan + ≈ 5 MPa slip-length, rest attributed to clusters; particles add little work hardening | f 0.045–0.048, r 0.5 µm (homogenised) | [S-052 pp.113–115, 128–129, Table 5.7] |
 | Strain ageing (Mg, Cu) | ↑ hardening at low strain, **↓ hardening at large strain**, less diffuse necking; Zn no strain ageing; Fe/Si/Mn particles little effect on hardening | sheet forming | [S-031 p.408] |
-| Strength vs total alloying | UTS ≈ linear in total wt.% alloying, O and H18/H38 (equation in image, not extracted) | NHT alloys | [S-052 p.7, Fig. 2.1] |
+| Strength vs total alloying | UTS ≈ linear in total wt.% alloying, O and H18/H38: **R_m = R_m⁰ + const·(Fe + Mn + Si + Mg + Cr, wt.%)**; the constants are not printed (*read from the figure after Ryen full-text pass*). Ryen's own alloys follow it in the O temper and after 87 % CR, except AA3103 (Rm varies with Mn_ss at constant total) and AA5005 | NHT alloys | [S-052 pp.7–8, Fig. 2.1; pp.95–96, Fig. 5.1] |
 | AA3004 decomposition | solute component grows with strain; second-phase component ≈ constant after early strain | Suni et al. | [S-052 p.29] |
 
 **Derived sensitivities per +0.1 wt.% in solution** (slug O-temper from S-031/S-029; wall from S-029 H19; ram pressure
@@ -509,16 +609,16 @@ machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
 
 | Element (+0.1 wt.% in ss) | Slug ΔYS / ΔUTS (MPa) | Δp_max ram (MPa, P1) | Can-wall ΔYS (MPa) | Wall gain per unit ram-pressure penalty (P1 basis; see refinement below) |
 |---|---|---|---|---|
-| Mg | 1.9 / 5.0 | +58 | +7–8.5 | **high** |
-| Mn | 2.1–3.0 / 4.2–5.4 | +48–62 | +3.5 | low |
+| Mg | 1.9 / 5.0 | +58 | +7–8.5 (HB H19); **+6–9 measured at ε_vM 3.46** (Ryen, see below) | **high** |
+| Mn | 2.1–3.0 / 4.2–5.4 | +48–62 | +3.5 (HB, **binary** Al–Mn); **≈ +4.6–4.8 per 0.1 % total Mn in commercial AA3103** (≤ +11–12 per 0.1 % Mn_ss, incl. particles; Ryen) | low (P1) → about equal to Mg (Ryen, below) |
 | Cu | 1.4 / 4.3 | +50 | no H19 value (strongest WH per atom) | probably high |
 | Si | 0.9 / 4.0 | +46 | — | — |
 | Zn | 0.3 / 1.5 | +17 | negligible | — |
-| Grain 100 → 20 µm | +9 (k 0.07) … +25 (k 0.2) YS | ≈ +0.1–0.3 GPa if UTS moves equally | wall grains are re-formed; small | — |
+| Grain 100 → 20 µm | +9 (k 0.07) … +25 (k 0.2) YS; *Ryen measured:* ≈ 0 above 25 µm (AA1050, AlMgX), ≈ +1 for AA3103-B (k 0.01) (derived) | ≈ +0.1–0.3 GPa if UTS moves equally (upper bound; ≈ 0 on Ryen's data) | wall grains are re-formed; small | — |
 
 → **On the P1 basis, Mg buys more can-wall strength per unit of extrusion-force penalty than Mn in solution**
 (inference from mixing O-temper UTS and H19 YS coefficients of two sources; verify with own data). The work method
-below narrows this to about parity.
+below narrows this to about parity, and Ryen's measured curves confirm parity (re-check below).
 
 **Refinement after full-text pass (work method P8, §2.5e)** *(derived; assumes each element's effect rises from its
 O-temper to its H19 value by ε ≈ 1–2)*.
@@ -529,13 +629,46 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 - Wall gain per unit ram pressure is then ≈ 0.19–0.28 for Mg and ≈ 0.21–0.22 for Mn, i.e. **about equal, ≈ 1/c**.
   *Corrected after full-text pass:* the ≈ 2× Mg advantage in the table above comes from P1, which charges Mn for its
   large O-temper UTS effect (+42 MPa/wt.%) although at large strain Mn adds only +35 MPa/wt.% YS against +70–85 for
-  Mg [S-029 p.160]. Mg still gives ≈ 2× more wall strength **per wt.%**, so less alloy is needed for a given target.
-  Per unit of press force, however, the two are close, so choose between them on other grounds: MgO, RX behaviour,
-  castability, bake response.
+  Mg [S-029 p.160]. Mg still gives more wall strength **per wt.%** (≈ 2× on HB's binary coefficients; ≈ 1.3–2× on
+  Ryen's commercial alloys, *corrected after Ryen full-text pass*, see below), so less alloy is needed for a given
+  target. Per unit of press force, however, the two are close, so choose between them on other grounds: MgO, RX
+  behaviour, castability, bake response.
 - Any strengthening that acts at large strain costs ram pressure at roughly 1/c. Friction, which adds pressure without
   adding wall strength, is the other lever (§2.6).
 - **Strength that appears after extrusion** (strain ageing or Mg–Si clustering in the 220 °C / 10 min bake) is the only
   route found that raises the wall without raising press force *(inference; bake response unmeasured, §6, §10 #6)*.
+
+**Re-check with Ryen's measured large-strain data** (*corrected after Ryen full-text pass*; all numbers derived from
+Table 3-3 and [S-052 Tables 4.3–4.4, 5.2, 5.4]; same laboratory, route and test for all four alloys)
+
+| Alloy − AA1050 | Addition (wt.%) | Δ yield, O temper | Δ at ε_vM 1.15 (UTS) | Δ at ε_vM 3.46, UTS / Rp0.2 ("wall") | Wall Δ per wt.% added | Mean Δ over ε_vM 0–3.46 | Wall Δ ÷ mean Δ |
+|---|---|---|---|---|---|---|---|
+| AlMg0.5 | Mg 0.48 | +4 | +24 | +37 / +45 | 77 / 94 MPa | — | — |
+| AlMg1 | Mg 1.01 | +14 | +58 | +66 / +75 | 65 / 74 MPa | ≈ 59 / 62 MPa | **1.11 / 1.22** |
+| AlMg3 | Mg 2.93 | +38 | +173 | +191 / +181 | 65 / 62 MPa | — | — |
+| AA3103-B | Mn 1.0 (0.41 in solution), Fe +0.30, Si +0.03 | +22 | +39 | +46 / +48 | 46 / 48 MPa per wt.% Mn; ≈ 112 / 117 per wt.% Mn_ss | ≈ 40 / 43 MPa | **1.16 / 1.12** |
+
+The mean Δ uses Ryen's stage II fits at ε ≤ 0.2 (Tables 5.2, 5.4) joined to the rolled points by trapezoids.
+- **Per unit of press force Mg and Mn are at parity, now from measured curves.** Both differences to AA1050 are
+  nearly constant lifts from ε_vM ≈ 0.6 onward, because θ_IV is alloy-invariant (§3.3). Wall gain ÷ mean flow-stress
+  gain is 1.1–1.2 for both, so wall gain per unit ram pressure is ≈ 1.1–1.2/c for both (work method, M19). This
+  confirms the earlier *derived* parity, which had rested on two different handbooks' coefficients.
+- **Per wt.% added, Mg gives ≈ 1.3–2× the wall strength of Mn** (62–94 against 46–48 MPa/wt.%), not "≈ 2×".
+  Mg's wall gain per wt.% falls as Mg rises (94 → 62 MPa/wt.%, Rp basis), so lean additions are the most efficient.
+- **Per wt.% actually in solution, Mn in a commercial (Fe/Si-bearing) alloy is at least as potent as Mg** (≤ 112–117
+  MPa/wt.% Mn_ss, an upper bound because AA3103-B also carries more particles and Fe than AA1050). The HB value of
+  +35 MPa/wt.% for H19 [S-029 p.160] was measured on **binary** Al–Mn sheet. Ryen's binary AlMn1 is likewise no
+  stronger than AA1050 at large strain [S-052 p.109]. **The two Drive sources therefore disagree for commercial
+  alloys**, and the disagreement is explained by Ryen's Mn–Fe–Si cluster hypothesis (§3.3). Use HB's Mn values only
+  for high-purity Al–Mn.
+- **Relevance to T11 (Mg 0.26, Mn 0.14, Fe 0.52, Si 0.38)** *(inference)*: Ryen's lowest Mg alloy (0.48 %) gives
+  ≈ 77–94 MPa/wt.%, so 0.26 Mg should add ≈ 20–25 MPa to the wall (derived, extrapolated below Ryen's range). The
+  quenched, unhomogenised strip keeps Mn, Fe and Si in solution (CLAUDE.md), which is exactly the condition in which
+  Ryen sees strong Mn–Fe–Si cluster strengthening (as-cast AA3103 had the highest yield, 58 MPa [S-052 p.91], though its particle structure also differs [S-052 p.103]). How
+  much of it survives the slug anneal decides both slug hardness and wall strength; measure conductivity and HB before
+  and after the anneal (§10 #16).
+- The other route to a stronger wall at the same press force remains strength gained after extrusion (bake, §6) and
+  force margin won back from friction (§2.6).
 
 ---
 
@@ -579,6 +712,14 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 - Hall–Petch effect is small: 100 → 20 µm adds ≈ 9 MPa YS (k = 0.07) to ≈ 25 MPa (k = 0.2) *(derived)* ≈ 2–7 HB.
   The in-house model HB ≈ 19.8 + 37.4/√d (ch.09 §2.2) implies k ≈ 0.13 MPa·m^½ via Rm ≈ 3.6·HB — inside the
   "alloys 0.1–0.2" range [S-029 p.101] *(derived)*.
+  - *Corrected after Ryen full-text pass:* measured on the same alloys, **grain size has no effect on the yield
+    stress above ≈ 25 µm** in AA1050 and AlMgX; below it k is 0.06 (AA1100) to 0.15 MPa·m^½ (AlMg3). In
+    particle-rich **AA3103-B, k ≈ 0.01**: a ten-fold grain refinement (65 → 6 µm) barely moves the yield, because the
+    particles already set the slip length [S-052 pp.116–117, 133]. For lean 3xxx slugs at 20–100 µm the grain-size
+    contribution is therefore ≈ 0–3 MPa (derived), less than the range above, and the in-house model's grain-size term
+    should be treated as a fit, not as Hall–Petch physics (inference).
+  - Fine grains do raise the curve at larger strain: fine-grained (6 µm) AA3103-B is ≈ 20 MPa above the 65 µm
+    material at ε_vM ≈ 0.6–1.2 and ≈ 10 MPa at ε_vM ≈ 2.5 (Table 3-3, derived); θ_IV is unchanged [S-052 p.118].
 - Through-thickness: a 0.35–0.44 mm wall made from a slug with 100 µm grains is reduced ≈ 30× in thickness (R ≈ 30);
   slug-scale grain/texture variations end up as fine bands in the wall *(derived/inference)*.
 - Fine grains develop rolling texture faster [S-052 p.21]; ultrafine (< 1 µm) grains lose work-hardening capacity
@@ -596,6 +737,12 @@ O-temper to its H19 value by ε ≈ 1–2)*.
   trimmed [TOT p.852].
 - Rolling texture: Cu/S/Brass β-fibre; medium (0.1–5 µm) non-shearable particles sharpen it, > 5 µm particles weaken it
   [S-052 pp.19–21]; RX texture cube vs PSN-random balance → earing direction (0/90° vs 45°) [S-028/S-029 via ch.07 §7].
+- *Ryen full-text pass:* starting from random as-cast textures, the rolling texture of AA1050 and AlMgX is **very weak at
+  ε = 0.5** and mostly developed by ε = 2 [S-052 p.68]; AA3103 (A, B, C) develops it like AA1050 [S-052 p.96]. A fine
+  starting grain (15 µm) gives a relatively strong copper–S texture already at ε = 0.6 [S-052 p.69]. At the line's
+  30–50 % cold reduction (ε ≈ 0.36–0.69) a coarse-grained hot band should therefore carry only a weak deformation
+  texture into the slug anneal, which favours low planar anisotropy (inference; the hot-band texture itself is not
+  random and is unmeasured).
 - For impact extrusion the anisotropy shows up as an **irregular can rim**, removed by trimming [S-055 step 3]; the
   in-house slug masses leave no trim allowance (ch.09 §8 Assessment) *(inference: low planar anisotropy and a trim
   allowance must be designed together)*.
@@ -611,6 +758,12 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 - Fe + Mn ceiling for primary (Fe,Mn)Al6: < ≈ 2.0 % (3003), < ≈ 1.7 % (3004) [S-031 p.383, via ch.05 §4.2]; modified
   3102 at Mn 1.30 + Fe 0.45 = 1.75 % sits between the two limits (ch.02 §2.6 for phase selection) *(derived)*.
 - Fe refines the wrought grain size (finely dispersed Fe-rich phase stabilises fine grains, e.g. 8006) [S-031 p.380].
+- **Particles lift the flow curve but add almost no work hardening** (AA3103, AA5005); dispersoids (r ≈ 0.1 µm) and
+  primary particles (r ≈ 0.5 µm) behave alike [S-052 pp.114–116, 133]. As-cast AA3103 (platelike primaries,
+  0.40 at.% Mn_ss) has a yield close to AlMg3 but then hardens like AlMg1 [S-052 p.115, Fig. 5.15(b)]. Its
+  rolling texture develops like AA1050's, so the deformation zones around the particles are small [S-052 pp.96, 115].
+  → For the slug, particle strength is paid for at the start of the stroke and carried into the wall unchanged
+  (inference, §3.4).
 - Lesson from scrap recycling: conventionally cast car-shredder scrap with coarse intermetallics **fractures at zero
   plastic strain**; rapid solidification (10⁵–10⁶ °C/s) refines and homogenises the particles → ≈ 40 % fracture strain
   [S-053 pp.32–33]; fracture strain is lowest across the bonding direction of the consolidated flakes [S-053 pp.40–41].
@@ -619,12 +772,20 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 ### 4.5 Solute elements (summary for slug design)
 - **Mg**: solid solution + strongest practical work-hardening effect; raises slug UTS ≈ 5 MPa per 0.1 % and can-wall YS
-  ≈ 7–8.5 MPa per 0.1 % (§3.4); raises Hollomon k at constant n, i.e. lifts the whole flow curve and hence press
-  force too [S-029 p.164; §2.5e]; strain ageing reduces large-strain hardening [S-031 p.408]; MgO growth in annealing
-  (ch.09 §2–3).
-- **Mn**: in solution highly effective in binaries but largely precipitated in commercial alloys [S-031 p.368]; with
-  Fe/Si possibly forming strengthening "solute clusters" [S-052 abstract]; dispersoids raise RX temperature and
-  pin grains (ch.09 §5, ch.05 §4.2).
+  ≈ 7–8.5 MPa per 0.1 % (§3.4; Ryen measured 6–9 MPa per 0.1 % at ε_vM 3.46); raises Hollomon k at constant n, i.e.
+  lifts the whole flow curve and hence press force too [S-029 p.164; §2.5e]; strain ageing reduces large-strain
+  hardening [S-031 p.408]; MgO growth in annealing (ch.09 §2–3). Above ≈ 2–3 % Mg it also promotes shear banding and
+  a lower θ_IV [S-052 pp.126, 134], irrelevant at slug Mg levels (inference). Small grains + Mg give Lüders yielding
+  in the O temper [S-052 pp.87, 134].
+- **Mn**: in solution highly effective in binaries but largely precipitated in commercial alloys [S-031 p.368].
+  *Corrected after Ryen full-text pass:* Ryen finds the opposite ranking for binary vs commercial alloys at large
+  strain. Binary AlMn1 is no stronger than AA1050, whereas Mn_ss in commercial AA3103 gives K ≈ 95–149 MPa/at.%,
+  which he attributes to Mn–Fe–Si clusters that need Fe or Si and dissolve at hot-working temperatures [S-052
+  pp.102–109, 133]. Dispersoids raise RX temperature and pin grains (ch.09 §5, ch.05 §4.2).
+- **Fe, Si (impurity level)**: AA1050's ≈ 0.4 % Fe + Si makes it ≈ 30–35 MPa stronger than Al99.99 and gives it its
+  stage-IV hardening (θ_IV 19 vs 1.5 MPa); 0.02 % Fe in solution adds ≈ 20 MPa UTS to high-purity Al [S-052
+  pp.106–108]. In unhomogenised, quenched strip (the rotary route) Fe and Si in solution are therefore a strength and
+  press-force term in their own right (inference).
 - **Cu**: most potent per atom for work hardening [S-029 p.99]; strain ages like Mg [S-031 p.408]; ≤ 0.3 % in NHT
   alloys [S-029 p.94].
 - **Si, Zn**: small direct effects (Table 3.4); Zn no strain ageing [S-031 p.408]; Si in solution impedes dynamic
@@ -729,6 +890,12 @@ O-temper to its H19 value by ε ≈ 1–2)*.
   (161 MPa measured in compression for 99.7 % Al [TOT p.811]) and ≈ 210–250 MPa for 3003-O (§3.1) *(derived upper
   bounds; corrected after full-text pass, previously 190 / 250 MPa)*. In practice it is reduced by adiabatic heating
   (§2.7) and by recovery in the IBO and pin-chain ovens [S-057; S-055]. **No bake-softening data in any source** (gap).
+  - *Confirmed after Ryen full-text pass:* measured at ε_vM 3.46 after cold rolling, AA1050 gives 160 / 186 MPa
+    (Rp0.2 / UTS) and AA3103-B 207 / 232 MPa; AlMg0.5 205 / 223, AlMg1 235 / 252 MPa (Table 3-3). Linear stage-IV
+    extrapolation to ε_vM ≈ 4.5 adds ≈ 25 MPa (derived).
+  - Even at RT the rolled structure recovers statically between deformation and testing, which is why Rp0.2 sits
+    ≈ 17–36 MPa below UTS at ε_vM 3.46 in these alloys [S-052 p.112, Fig. 5.14; Table 3-3]. A wall that has stood
+    before burst testing, and then sees the 220 °C bake, starts from the lower value (inference).
 - **Wall strength and press force are coupled** *(derived, §2.5e, §3.4)*. Both are set by the large-strain flow
   stress, so any strength the slug carries costs ram pressure at roughly 1/c. Strength added **after** extrusion,
   by strain ageing or Mg–Si clustering in the 220 °C / 10 min bake, does not. For T11 (Mg 0.26, Si 0.38), Mg and Si
@@ -740,7 +907,8 @@ O-temper to its H19 value by ε ≈ 1–2)*.
   low n *(inference)*.
 - Per wt.%, Mg raises the wall more than the slug (§3.4; per unit of press force see the §3.4 refinement). Particles
   reduce subgrain size and raise stored dislocation density [S-052 pp.15–16], so dispersoid/constituent-rich alloys
-  should reach a higher stage-IV stress (inference).
+  should reach a higher stage-IV stress (inference). *Ryen full-text pass:* they do, but only by the lift they
+  give in stages II–III; the stage-IV slope is the same (AA3103-B M²θ_IV 30 vs AA1050 27 MPa) [S-052 pp.112, 114].
 - The wall carries inner/outer strain gradients → non-uniform hardness [S-053 p.94]; downstream necking needs residual
   ductility and lacquer elasticity [S-058 p.2].
 - Thinner walls at equal burst pressure need higher wall strength (hoop stress ∝ P·D/2t) *(general knowledge; ch.09 §1)*.
@@ -756,7 +924,7 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 | **Grain 20–100 µm** (§3.1, §5) | > 100 µm → orange peel/formability loss [S-043]; ≥ 15 % prior strain for fine RX grain [S-043]; HP effect only 2–7 HB over 20–100 µm (§4.2). | Upper limit is literature-supported (surface); the lower limit has **no literature basis** in these sources — it is a cost/process limit (needs high CR, low T anneal; ch.09 §5), not a forming limit. |
 | **Cold-rolling ε ≥ 0.80–0.95** (§5) | > 50 % reduction gives L≈T deformed microstructure, no banding until > 90 % [S-051 p.195]; ε ≥ 0.15 critical strain [S-043]; fine grains texture faster [S-052 p.21]. | The CRM-table target (55–61 % CR) sits in the homogeneous-deformation regime and supports the CRM rule (ch.09 §5) qualitatively. **The actual line rolls only 30–50 % cold (ε ≈ 0.36–0.69; CLAUDE.md, ch.19)**, i.e. between grain flattening (≤ 30 %) and L≈T homogeneity (> 50 %) [S-051 p.195] → coarser, less uniform RX grain is expected unless the hot/cold split is moved *(inference; ch.19)*. No source gives grain size vs ε for 3xxx. |
 | **Low MgO after anneal** (§2.6, §3) | Interface/lubrication and surface reactions are recognised problem areas [S-053 pp.5–6]; end-of-stroke force is friction-dominated for thin-based Ø45–53 cans (§2.5b). | Plausible route by which MgO matters (lubricant adhesion → m → peak force, galling, surface) — **not quantified in any source** (gap). The full text adds the mechanism: lubricant on the punch nose cannot be replenished during the stroke, so deep cans are limited by lubricant starvation [TOT p.813], and friction is a property of the whole tribosystem [TOT p.854] → the stearate's adhesion to the annealed (MgO-bearing) surface is the quantity to measure *(inference)*. |
-| **Composition windows** (§1, §10) | Mg raises wall strength ≈ 2× more per wt.% than Mn in solution; per unit of press force the two are close under the work method (§3.4, corrected after full-text pass); Mn/Fe/Si clusters raise strength [S-052]; Fe/Mn particles cut fracture strain [S-031 p.408]; primary-phase Fe+Mn ceiling (§4.4). | See §8. |
+| **Composition windows** (§1, §10) | Mg raises wall strength ≈ 1.3–2× more per wt.% added than Mn (Ryen's measured curves; HB's binary coefficients gave ≈ 2×); per unit of press force the two are at parity (wall gain ÷ mean flow-stress gain 1.1–1.2 for both, §3.4, corrected after Ryen full-text pass); Mn–Fe–Si clusters raise strength in commercial alloys and are lost at hot-working temperatures [S-052 pp.102–109]; Fe/Mn particles cut fracture strain [S-031 p.408]; primary-phase Fe+Mn ceiling (§4.4). | See §8. |
 
 ---
 
@@ -765,7 +933,7 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 | Lever | Effect on slug (HB, flow stress) | Extrusion | Can | Risks / trade-offs | Basis |
 |---|---|---|---|---|---|
 | ↑ Mg (0.12 → 0.30) | +≈ 9 MPa UTS (+≈ 2.5 HB) | +≈ 0.1 GPa ram pressure by P1 (≈ +0.23 MN Ø53); ≈ +0.05–0.07 GPa by the work method P8 (§3.4) | +13–15 MPa wall YS | MgO ↑ (ch.09); strain ageing ↓ large-strain hardening; ↓ fracture strain at particles | §3.4; [S-031 p.408]; *(derived)* |
-| ↑ Mn total (0.3 → 1.2) | dispersoids + ≈ 0.1–0.2 % more Mn_ss: ≈ +20–30 MPa UTS (3003-O vs 1100-O ≈ +20) | +0.2–0.35 GPa | +≈ 5 MPa (ss) + unknown dispersoid share | slower RX, heating-rate sensitivity, coarser/elongated RX grain (ch.09 §5); primary (Fe,Mn)Al6 if Fe+Mn too high | §3.4, §4.4; [S-029 p.160]; *(derived)* |
+| ↑ Mn total (0.3 → 1.2) | dispersoids + ≈ 0.1–0.2 % more Mn_ss: ≈ +20–30 MPa UTS (3003-O vs 1100-O ≈ +20) | +0.2–0.35 GPa | +≈ 5 MPa (ss, HB binary) + unknown dispersoid share; *Ryen:* 1.0 % Mn (AA3103-B) is +46–48 MPa over AA1050 at ε_vM 3.46, i.e. ≈ +40 MPa for +0.9 % if linear in Mn (derived, rough; AA3103-B also has +0.3 Fe) | slower RX, heating-rate sensitivity, coarser/elongated RX grain (ch.09 §5); primary (Fe,Mn)Al6 if Fe+Mn too high | §3.4, §4.4; [S-029 p.160; S-052 Table 3-3]; *(derived)* |
 | Fe (≤ 0.45) | small strengthening (≈ 7 MPa/vol.% constituent); grain refinement | — | — | more void-nucleating particles → corner cracks, pinholes; scrap Fe pick-up | [S-031 pp.380, 408; S-029] |
 | Si (≤ 0.15) | small; promotes α-AlFeMnSi | — | — | lowers Mn_ss and changes dispersoid density (ch.02/05) | [S-031 p.388] |
 | Cu (0.05–0.10) | ≈ +2–4 MPa UTS | small | strongest WH per atom | not an anti-galling measure (§2.6); corrosion potential | [S-031; S-029 p.99; S-053 p.4] |
@@ -783,10 +951,10 @@ O-temper to its H19 value by ε ≈ 1–2)*.
    (§2.5e).
 2. **Get can strength where it costs no press force first** (the bake response of Mg + Si in solution), and win
    back force margin through lower friction (stearate retention, tool finish), which then allows a stronger slug.
-   Then use solute: Mg gives ≈ 2× more wall strength per wt.% than Mn in
-   solution (less alloy needed), but per unit of press force the two are close (§3.4). Stay within MgO limits.
+   Then use solute: Mg gives ≈ 1.3–2× more wall strength per wt.% added than Mn (less alloy needed), but per unit
+   of press force the two are at parity (§3.4, Ryen re-check). Stay within MgO limits.
 3. Keep Fe and coarse constituents low and fine for ductility at the base corner.
-4. Keep grains < 100 µm.
+4. Keep grains < 100 µm (for surface and formability; above ≈ 25 µm grain size adds no strength [S-052 p.117]).
 5. Control lubrication and tooling: stearate quantity and retention, generous punch/die corner radii, adequate
    residual bottom, punch centring, moderate speed. Friction dominates the end-of-stroke force on thin-based cans,
    and the base corner collects the defect mechanisms (§5.2).
@@ -808,9 +976,13 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 | M9 | σ_f(p) = σ_f(0)(1 + w·p) | w 0.1–0.4 GPa⁻¹ (non-Al); Al unknown | [S-053 pp.71–72] ⚠ form |
 | M10 | τ = τ_t + τ_p + α₁Gb√ρ_i + α₂Gb(1/δ + 1/D) | α₁ ≈ 0.3, α₂ ≈ 2, ρ_m ≈ 0.1ρ, κ₀ ≈ 3, φ_IV ≈ 3–4°, M = 3.06 | [S-052 pp.35–38, 50] |
 | M11 | dρ⁺/dγ = 2/(bL); (1/L_eff)² = (√ρ/C)² + (1/D)² + (2f_r/r)² | C ∝ 1/θ_II | [S-052 Eqs 2.28–2.31] |
-| M12 | τ_p = 1.24·A·G·b/(2πλ)·ln(λ/b); λ ≈ 0.8r(√(π/f_r) − 2) | A ≈ 1 | [S-052 Eqs 2.23–2.24] ⚠ |
-| M13 | θ_IV = a·τ_IV | a ≈ 0.1 | [S-052 Eq. 2.10] |
-| M14 | σ_y = σ_i + k·D^(−½) | k 0.065–0.07 (pure Al) … 0.1–0.2 MPa·m^½ | [S-052 p.33; S-029 p.101] |
+| M12 | τ_p = A·G·b/(1.24·2π)·(1/λ)·ln(λ/b); λ = 0.8r(√(π/f_r) − 2) | A ≈ 1 (≈ 0.3 with dispersoids); σ_p = M·τ_p ≈ 4–10 MPa for AA3103 | [S-052 Eqs 2.23–2.24, p.128] ✓ verified on page render (*corrected: 1.24 is in the denominator*) |
+| M13 | θ_IV = a·τ_IV | a ≈ 0.1 (pure Al, torsion); **a = 0.037–0.073 for commercial AA1050/AlMg/AA5182 at RT** (not constant); M²θ_IV ≈ 27–36 MPa per unit rolling strain | [S-052 Eq. 2.10; pp.110–112, Fig. 5.13, Table 5.6] |
+| M14 | σ_y = σ_i + k·D^(−½) | k 0.065–0.07 (pure Al) … 0.1–0.2 MPa·m^½; measured: AA1100 0.06, AlMg3 0.15, AA3103-B 0.01; no effect > 25 µm | [S-052 pp.33, 116–117; S-029 p.101] |
+| M26 | Solute law at fixed strain: σ = σ_ref + K·c^n (c at.%) | Mg commercial: n ≈ 1, K 11 → 46 MPa/at.% (ε 0.002 → 0.2), 54 at ε = 1; σ0.2 = 20 + 14.5c. Mg binary: n ≈ ¾. Mn_ss in AA3103: n = 1, K 95 → 149 MPa/at.% | [S-052 Tables 5.1–5.4, Eq. 5.5, p.111] |
+| M27 | θ_IV = α₂Gb · 2ρ_i·C·S_IV / (κφ_IV·√(ρ_i + κφ_IV/(bδ))) | S_IV/S_sc = 1 for pure metal, falls with Mg; q_c rises with Mg; θ_IV falls if φ keeps rising beyond φ_IV | [S-052 p.123, Eq. 5.9; Figs 5.21, 5.24] ✓ page render |
+| M28 | Slip lengths: L_ρ = C/√ρ, L_p = r/(2f_r), L_D = D | AA3103-C: L_p 8.3, L_ρ 12, L_D 65 µm → L_eff 11 → 7 µm with particles | [S-052 pp.128–129, Eq. 5.11] |
+| M29 | Measured large-strain flow data (rolled, then tensile) | Table 3-3 | [S-052 Figs 4.31, 4.33, 4.35] *(digitised)* |
 | M15 | Δσ_ss = Σ k_i·c_i (less than additive) | §3.4 table | [S-031 Table 8; S-029 p.160] |
 | M16 | Ductile failure: ε̄_F = f(η), linear between tension (η ≈ 1/3) and torsion (η = 0) | measure per alloy/temperature | [S-053 pp.42–44, 87–88] |
 | M17 | ΔT_adiabatic = β∫σdε/(ρc) | β ≈ 0.9 [TOT p.825], c ≈ 0.9 J g⁻¹K⁻¹ *(general knowledge)* | formula *(general knowledge)*; bound ≈ 165–260 K for pure Al (§2.7, corrected after full-text pass) |
@@ -825,7 +997,8 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 Calibration points available: Sillekens Fig. 5.3 (force–stroke, R_C 6/R_R 5/T₀ 4/T_e 1 mm, C 176 MPa, n 0.13, 230 °C,
 m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1; Shinozaki Fig. 2 (Table 3-2, compression to ε = 4.4) and Fig. 17
-(Table 2-2) [TOT pp.811, 821]; temper property table [TOT p.815]. **No in-house press-force or flow-curve data
+(Table 2-2) [TOT pp.811, 821]; temper property table [TOT p.815]; Ryen's large-strain data for AA1050, AlMgX,
+AA3103-B and AA5xxx to ε_vM 3.5–4.6 (Table 3-3) [S-052 pp.90–93]. **No in-house press-force or flow-curve data
 exist** (ch.09 §8).
 
 ---
@@ -837,13 +1010,18 @@ cold-extrusion lubricant (§2.6); a large-strain compression flow curve for pure
 fraction β ≈ 0.9 (§2.7); cold-extrusion defect mechanisms incl. chevron cracking and contraction (§5.2); tooling
 practice (§2.8).*
 
-1. **Unreached text.** Ryen §4.5 (AA3103 work hardening to ε = 4 vs Mn in solution, p.90) and Ch.5 (per-solute effects
-   in stage II–IV, pp.97–130) — the most valuable missing data for can-wall strength vs Mn_ss/Mg; Schuler Ch.6
-   (slug preparation p.454, **surface treatment p.459** — where phosphate or conversion pre-treatments for Al slugs
-   would be — backward cup extrusion p.474, ironing p.476). Both exceed the connector limits (10 MB download;
-   ≈125–133 k-char export) — needs a page-split copy in Drive.
+*Revised again 2026-10-12 after the Ryen (S-052) full-text pass. Resolved: Ryen §4.5 and Ch.5 (large-strain flow
+data, per-solute coefficients, stage IV; Table 3-3, §3.3–3.4); the Orowan equation M12 (corrected); "Mg vs Mn per
+unit press force" re-checked on measured curves (§3.4).*
+
+1. **Unreached text.** Schuler Ch.6 (slug preparation p.454, **surface treatment p.459** — where phosphate or
+   conversion pre-treatments for Al slugs would be — backward cup extrusion p.474, ironing p.476). It exceeds the
+   connector limits (28.6 MB; ≈ 125 k-char export) — needs a page-split copy in Drive (parts ≤ ≈ 6 MB download
+   reliably). *Ryen §4.5 and Ch.5 were read in full on 2026-10-12 (resolved).*
 2. **No large-strain compression flow curves for the slug alloys** (3102, 3207, modified 3102, T11). A pure-Al
-   reference now exists (99.7 % Al to ε = 4.4, Table 3-2 [TOT p.811]). Measure annealed slugs by **re-shape upsetting**
+   reference now exists (99.7 % Al to ε = 4.4, Table 3-2 [TOT p.811]), and Ryen's rolled-then-tensile data cover
+   AA1050, AlMg0.5–3 and AA3103-B to ε_vM 3.46 (Table 3-3). Neither covers a lean Fe-rich Mg–Si alloy such as T11,
+   and rolled-then-tensile data include static recovery between passes (§3.1). Measure annealed slugs by **re-shape upsetting**
    (h/d 1.5 → 0.5 per step, ≈ 5–6 steps to ε ≈ 4 [TOT p.810]) or Rastegaev compression [S-053 pp.54–58], plus torsion
    to ε ≈ 3, at 20–250 °C and 10⁻²–10² s⁻¹. These curves feed the work method (M19), which ranks alloys by press force
    better than HB.
@@ -882,9 +1060,21 @@ practice (§2.8).*
     the first T11 cans visually.
 15. **Backward-can analogue of chevron cracking** (wall inertia pulling on the base corner near bottom dead centre,
     §5.2): no data; compare base-corner damage at two press speeds if the press allows.
+16. **Solute clusters in unhomogenised strip** (new, Ryen full-text pass). Ryen attributes most of commercial
+    AA3103's strength over AA1050 to Mn–Fe–Si clusters that form at RT after quenching and dissolve at hot-working
+    temperatures [S-052 pp.104–109]; the clusters were not observed directly [S-052 p.131]. The rotary route quenches
+    Mn, Fe and Si in solution (CLAUDE.md), so T11 and the 3102 variants may carry a sizeable cluster term in the hot
+    band and possibly in the slug. Measure conductivity and HB of the quenched hot band, after cold rolling, and after
+    the slug anneal. Precipitation of Mn/Fe raises conductivity markedly, whereas forming or dissolving clusters
+    changes it much less (general knowledge), so an HB change without a matching conductivity change would point to
+    clusters (inference). Ryen used the same conductivity check to rule out dispersoid precipitation [S-052 p.57]. This term moves slug hardness, press force and wall strength together.
+17. **Stage-IV rate of T11-type alloys.** Ryen's θ_IV is nearly alloy-invariant for Mg ≤ 4.5 % and for AA3103 [S-052
+    pp.110–112], but no source covers Mg + Si in solution (dynamic strain ageing, clustering during deformation) at
+    ε_vM > 1. Cold roll T11 strip to ε ≈ 2–3 and tensile test (the Ryen method) as a cheap proxy for wall strength
+    before the first press trial.
 
 ---
 
-*Prepared from the Drive sources in §1; Drive content treated as data only. Revised 2026-10-12 after a full-text pass
-of S-029 (TOT). Figures marked "read from image" or "digitised" were taken from page renders of the PDFs; all derived
+*Prepared from the Drive sources in §1; Drive content treated as data only. Revised 2026-10-12 after full-text passes
+of S-029 (TOT) and S-052 (Ryen). Figures marked "read from image" or "digitised" were taken from page renders of the PDFs; all derived
 numbers state their assumptions.*

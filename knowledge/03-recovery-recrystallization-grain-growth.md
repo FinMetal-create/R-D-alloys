@@ -78,7 +78,7 @@
 | LAGB energy (Read–Shockley) | γ_s = γ_m (θ/θ_m)(1 − ln(θ/θ_m)); θ ≈ b/h | h dislocation spacing | confirmed for Al foils (Yang 2001); <100> axes highest energy, <111> lowest | [HH eq.4.4–4.6 pp.95–97] |
 | HAGB energy | γ_b | J m⁻² | **0.324** (Murr 1975); coherent twin 0.075 | [HH Tab.4.2 p.104; Tab.5.1 p.129] |
 | Nes total density | ρ = ρ_i + κ₀ φ/(b δ) | κ₀ ≈ 3 | — | [Ryen03 eq.2.16 p.35] |
-| Cell size vs strain | δ ∝ 1/ε for ε > 1 | — | D at ε = 1.5: **Al 0.5 µm** (Cu, Ni, Fe 0.3) | [HH §2.2.3.2 p.19, Fig.2.4] |
+| Cell size vs strain | δ ∝ 1/ε for ε > 1 | — | D at ε = 1.5: **Al 0.5 µm** (Cu, Ni, Fe 0.3) | [HH §2.2.3.2 pp.19–20, Fig.2.4] |
 | Interior density saturation | ρ_i ≈ const for ε > 0.3 (Al) | — | **~10¹⁴ m⁻² for ε = 0.03–2** in AA1050 and AA3207 (higher in 3207, 0.4 % Mn) | [HH p.18; Ryen03 §2.2.4 p.16] |
 | Misorientation | θ saturates at 2–3° at ε ≈ 1 (Nes) **vs** continues to rise (TEM/EBSD) | — | IDB about 3° at large ε; GNB up to 15–20° and becomes HAGB | [HH p.20; Ryen03 p.11–13] |
 | Densities | annealed → recovered → heavy CW | m⁻² | ~10¹¹–10¹² → 10¹⁴ → 10¹⁶ | [Pol06 p.41; HH p.4; Ryen03 p.16] |
@@ -111,7 +111,7 @@
   - In situ HVEM on 10 %-deformed Al (2 min at 250 °C): tangles become LAGB networks [HH §6.4.2 p.187]. The yield stress falls but the work-hardening rate rises [HH p.187].
   - Subgrain rather than cell structure is favoured by high SFE, low solute, large strain and high deformation T [HH p.188].
 - Al: high SFE gives rapid climb and cross-slip, so recovery is significant before RX [HH §6.2.1.3 p.173]. For 99.998 % Al compressed 75 % (DSC at 6 °C min⁻¹), dislocation recovery gives a broad heat release at **100–250 °C** and RX peaks at **≈300 °C** [HH Fig.6.3 p.172].
-- 99.999 % Al deformed at 77 K recrystallises below RT, with no separate dislocation-recovery peak [HH §6.1.2 p.172].
+- 99.999 % Al deformed at 77 K recrystallises below RT, with no separate dislocation-recovery peak [HH §6.1.2 p.172]. (Minus signs were lost in extraction; the peaks are read as ≈ −70 °C for point defects and ≈ −20 °C for RX.)
 - **Solute: two opposing effects.** Mg pins dislocations, which suppresses dynamic recovery and raises stored energy. Yet static recovery of Al–Mg is rapid, possibly faster than pure Al [HH §6.2.1.3 p.173].
   - Higher-Mg 5xxx alloys lose more strength by recovery; lower-Mg alloys lose more by RX. At equal partially annealed strength, the higher-Mg alloy has higher elongation [HBAL03 PDF p.180].
 - **Dispersoids** (0.05–0.5 µm) "also delay recovery" [Pol06 p.43]. Mn as dispersed precipitate "is effective in slowing recovery" [Dav01 p.382]. Zr precipitates inhibit recovery and RX [Dav01 p.387]. Recovery on scales finer than the interparticle spacing λ is unaffected; recovery on larger scales is hindered [HH §2.9.2.2 p.54].
@@ -134,7 +134,7 @@
 | Nes interior-density recovery | dρ_i/dt = −ρ_i^(1+x) b^y l_a ξ_ρ B_ρ ν_D exp(−U*/kT) · 2 sinh(V_ρ G b ρ_i^z/kT) | pure metal: x = 1, y = 1, z = ½, l_a ≈ b; solid solution with glide: x = ½, y = 0, z = 2π, V_ρ ∝ ξ_s b³ c^(−e); with climb: l_a = b/c | [Ryen03 eq.2.38 p.42] (garbled; check against Nes & Marthinsen 2002) |
 | LAGB mobility | M = C D_s b/kT (C ~1); very-low-angle limit M = D_s c_j b²/(4c₁ kT θ) | Al–0.05Si: Q_LAGB **125–154 kJ mol⁻¹** (≈ Si lattice diffusion), θ-dependent up to 14°, then constant | [HH eq.5.4, 5.11; Fig.5.7 pp.129–133] |
 
-**Diffusion data for Al** [HH Tab.5.1 p.129]: Q_self = 142, Q_core = 82, Q_boundary = 84 kJ mol⁻¹. At 500 °C: D(Mn) = 5×10⁻¹³, D(Cu) = 5×10⁻¹⁰, D(Mg, Si) = 1×10⁻⁹ cm² s⁻¹ [Pol06 p.105]. **Mn diffuses about 10³–10⁴× slower than Mg, Si or Cu.** This is the root of Mn dispersoid stability and of its slow solute-drag kinetics.
+**Diffusion data for Al** [HH Tab.5.1 p.129]: Q_self = 142, Q_core = 82, Q_boundary = 84 kJ mol⁻¹. At 500 °C: D(Mn) = 5×10⁻¹³, D(Cu) = 5×10⁻¹⁰, D(Mg, Si) = 1×10⁻⁹ cm² s⁻¹ [Pol06 p.105]. **Mn diffuses about 10³× slower than Cu and about 2×10³× slower than Mg or Si.** This is the root of Mn dispersoid stability and of its slow solute-drag kinetics.
 
 ### 2.3 Design levers (H-temper softening and stability)
 - Partial annealing (H2x) works because recovery precedes RX in high-SFE Al [HH §6.2.1.3]. **Retained Mg/Mn in solution and fine dispersoids widen the recovery window before RX**, which gives a flatter softening curve and more robust H2x [HBAL03 PDF p.180; Pol06 p.43; Dav01 p.382].
@@ -267,7 +267,7 @@
 | Non-heat-treatable alloys, general | above ~350 °C RX in addition to recovery | [W7 §1.2 p.5] |
 | 99.998 % Al, 75 % compression, 6 °C min⁻¹ | recovery 100–250 °C, RX peak ≈300 °C | [HH Fig.6.3 p.172] |
 | AA3103 (Mn_ss 0.20 at %, hom. B), ε = 2 | fully RX in **45 s at 400 °C** (salt bath) to **6 µm**, weak cube, no change in conductivity, i.e. no concurrent Mn precipitation | [Ryen03 §3.4 p.56; Tab.4.2 p.66] |
-| AlMg0.5 / AlMg3, ε = 2 | RX in 25 s at 400 °C to 10 / 8 µm | [Ryen03 §3.4; Tab.4.2] |
+| AlMg0.5 / AlMg3, ε = 2 | RX in 25 s at 400 °C; finest grain sizes listed are 10 / 8 µm (attributing these to the ε = 2 route is the compiler's inference) | [Ryen03 §3.4; Tab.4.2] |
 | AA1100 (CP Al), 5 % compression | recovery-only 100–250 °C / 1–4 h; X_rec 7–26 % (100 °C) to 54–87 % (200 °C) after 1 h | [Junit08 Tab.4.1–4.3 pp.24–25] |
 
 **Soft-annealing practice (O temper) [W7 Tab.2 p.21].** Metal temperature, time at metal temperature. Heat-up "as short as possible" (avoid coarse grain); below 250 °C cool at any rate.
@@ -371,7 +371,7 @@
 |---|---|---|---|
 | Force of a single incoherent sphere | F = 2πrγ cosθ sinθ; F_S,max = πrγ (θ = 45°) | ∝ γ: pinning of LAGBs/special boundaries is weaker (Cu Σ7: −10 %) | [HH eq.4.11–4.12 p.109] |
 | Coherent particle | F_C = 2πrγ (2× incoherent) | can dissolve or reprecipitate, rotate, or be cut (Al₃Sc: [Røy05 p.35]) | [HH eq.4.19 p.112] |
-| Ellipsoid (aspect e) | F₁ = F_S·2/((1+e)e^(1/3)); F₂ = F_S(1+2.14e)/e^½ (e ≥ 1); F₂ = F_S e^0.47 (e ≤ 1) | only plates face-on or needles edge-on pin much more than spheres | [HH eq.4.13–4.15 p.110] |
+| Ellipsoid (aspect e) | F₁ = F_S·2/((1+e)e^(1/3)); F₂ = F_S(1+2.14e)/e^½ (e ≥ 1); F₂ = F_S e^0.47 (e ≤ 1) | only plates face-on or needles edge-on pin much more than spheres. The inequality signs were lost in extraction; the range assignment is the compiler's reading of Nes et al. 1985 | [HH eq.4.13–4.15 p.110] |
 | Number density | N_V = 3F_V/(4πr³); N_S = 2rN_V = 3F_V/(2πr²) | random distribution | [HH eq.4.21–4.22 p.113] |
 | **Zener pressure** | **P_Z = 3F_Vγ/(2r)** | Zener's original was half of this; refined treatments give a similar result; confirmed by simulations (Miodownik 2000) | [HH eq.4.24 p.114] |
 | Generic form | p_Z ≈ k f/r | k contains the interface energy | [Røy05 eq.3 p.34] |
@@ -452,6 +452,11 @@
 - Alternatively, provide **dispersoids stable at the braze T**. Al₃(Sc,Zr) dissolves at 575–600 °C [Wil12 p.41]; Mn dispersoids survive braze **(general knowledge)**.
 - Short anneal times at the minimum effective T, and fast heat-up, limit coarse grain [W7 Tab.2 footnote].
 
+### 7.4 Pitfalls
+- Sc/Zr dispersoid pinning fails at braze temperature: AlScZr RX and coarsening between 575 and 600 °C. Ageing before braze did not help [Wil12 pp.41, 50–51].
+- Repeated high-T solution cycles carry a risk of grain coarsening [W7 pp.17, 19] (castings and heat-treatable alloys).
+- Coarse grain in formed parts gives orange peel [Pol06 p.43].
+
 ---
 
 ## 8. Textures (deformation, RX) and their control
@@ -491,7 +496,13 @@
 - 3004-H19 canstock: control earing by balancing anneal cube against final rolling texture; control size, F_V and distribution of α-Al₁₂(Fe,Mn)₃Si [HBAL03 PDF p.135, 143; Pol06 p.39].
 - Texture strengthening: ideal fibre texture gives about +20 % strength [Pol06 p.39]. Extrusion dual fibre gives about +70 MPa longitudinal, lost on RX [HBAL03 PDF p.143].
 
-### 8.4 Gaps
+### 8.4 Pitfalls
+- Taylor-type models predict textures that are too sharp and form too fast; heterogeneity (deformation bands) is the cause [HH §3.7.1.5 p.86].
+- Surface ≠ mid-plane texture under high friction or light passes [HH §3.6.1 p.80].
+- A strong initial (hot-band) cube delays β-fibre development: AA5005 shows no β-fibre up to ε = 1 [Ryen03 §4.2.2 p.70].
+- Mechanical fibring (grain shape, particle stringers) can dominate anisotropy over crystallographic texture [Pol06 p.40].
+
+### 8.5 Gaps
 - **The P-texture {011}<566> and ND-rotated cube** (typical PSN- or particle-related RX components in 3xxx) are **not described** in the extracted text; HH ch.12 is missing.
 
 ---
@@ -524,6 +535,11 @@
 - **Static RX in coil (self-annealing)** depends on stored energy at the coiling T and on the dispersoid state **(general knowledge)**.
 - **Metadynamic RX** (completion after DRX nuclei formed in the pass) is relevant only for high-Mg alloys in Al per [HBAL03 PDF p.142] **(definition: general knowledge)**.
 
+### 9.4 Pitfalls
+- Bom08 constants (Q = 379 kJ mol⁻¹, critical strains, processing-map optimum 1000–1080 °C) are for Nimonic 80A and **must not be transferred to Al**. Only the method transfers.
+- Homologous temperature should be referenced to the lowest-melting phase, not to pure-Al T_m [Shep99 §1.2]. Low-melting eutectics set the upper hot-working limit [AMAG14 p.11; Bel05 §1.6].
+- Deformation heating raises the actual T above the set-point [AMAG14 p.12].
+
 ---
 
 ## 10. Alloy-family specifics
@@ -532,7 +548,7 @@
 - Fe solubility in (Al) is ≤ 0.05 %, so secondary Fe phases are ≤ 0.1–0.2 vol % [Bel05 §1.1].
 - Fe in solid solution (DC vs strip cast) raises the RX start T through Al–Fe precipitation during annealing [HBAL03 PDF p.152].
 - Constituents add about +7 MPa per vol % [HBAL03 PDF p.134, 150].
-- Coarse Al₃Fe cracks and harms formability; fine Al₆Fe does not. Below 0.5 mm s⁻¹ solidification-front velocity Al₃Fe forms, above it Al₆Fe [HBAL03 PDF p.151].
+- Coarse Al₃Fe cracks and harms formability; fine Al₆Fe does not. For alloys with 4.6–6.1 wt % Fe, Al₃Fe forms below a solidification-front velocity of 0.5 mm s⁻¹ and Al₆Fe above it; Si and Mg stabilise Al₃Fe [HBAL03 PDF p.151].
 - 1145-H19 cells reach about 1 µm at ε ≈ 0.15, after which misorientation increases. Si in solid solution impedes dynamic recovery [HBAL03 PDF p.152].
 - 8111 (Fe 0.4–1.0, Si 0.3–1.1):
   - eutectic Si at the upper Si limit survives into 6–14 µm foil and causes perforation, so anneal ≥ 500 °C;
@@ -608,9 +624,16 @@
 5. **Microsegregation of Mn** (k < 1, so cell centres are depleted (general knowledge)). Where do dispersoid-free zones form in DC vs twin-roll 3xxx, and are they the coarse-grain seeds (cf. Rob04 for Zr)?
 6. Sag resistance, braze erosion vs grain size and shape: no quantitative source in Drive.
 7. Taylor factor and texture-dependent stored energy for Al rolling components (only qualitative for Al [HH p.23]).
-8. **User model check.** `AA3207_Recrystallization_Simulation.xlsx` (Drive root, v1.0, Mar 2026; seen only via its search snippet) predicts the following for 70 % CR AA3207:
-   - t₅₀ ≈ 2×10¹¹ s at 350 °C;
-   - a "T_rx(50 % in 1 h)" of ≈812 °C (above the solidus);
-   - a constant 5.6 µm Zener-capped grain size.
-   This contradicts the literature anchors (3xxx O-anneal 380–420 °C/0.5–1 h [W7]; AA3103 ε = 2 RX in 45 s at 400 °C [Ryen03]; pure Al minutes at 380 °C [Pol06]). Recalibrate B₀/Q. Note also that its additive "Q_eff = 140 + 80·Mg + 667·Cu + 40·Mn" kJ mol⁻¹ is not supported by the sources: solute drag is non-linear (CLS, breakaway), and HP-Al HAGB migration Q is 63–67 kJ mol⁻¹ [HH Tab.5.2].
+8. **User model check.** `AA3207_Recrystallization_Simulation.xlsx` has four saved versions; see chapter 09 §4.11 for the full comparison.
+   - **Early versions (16:15, 16:17 — the only ones visible to this chapter's agent, via a search snippet):** for 70 % CR they predict
+     - t₅₀ ≈ 2×10¹¹ s at 350 °C;
+     - a "T_rx(50 % in 1 h)" of ≈812 °C (above the solidus);
+     - a constant 5.6 µm Zener-capped grain size.
+
+     This contradicts the literature anchors (3xxx O-anneal 380–420 °C/0.5–1 h [W7]; AA3103 ε = 2 RX in 45 s at 400 °C [Ryen03]; pure Al minutes at 380 °C [Pol06]). Their additive "Q_eff = 140 + 80·Mg + 667·Cu + 40·Mn" kJ mol⁻¹ is not supported by the sources: solute drag is non-linear (CLS, breakaway), and HP-Al HAGB migration Q is 63–67 kJ mol⁻¹ [HH Tab.5.2].
+   - **Later versions (16:23, 16:26) are recalibrated:**
+     - Q_eff = 145 kJ mol⁻¹, B₀ = 2.5×10²⁸, Zener cap 17.8 µm;
+     - t₅₀ ≈ 298 s at 350 °C for 70 % CR, and ≈1,210 s for 45 % CR (chapter 09 §4.4–4.5, §4.11).
+
+     These are in the range of the literature anchors above, but they rest on a single unsourced calibration point (chapter 09 §4, Assessment).
 9. Junit08's activation energies are unreliable (§2.4). Do not reuse them.

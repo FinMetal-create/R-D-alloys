@@ -2,7 +2,7 @@
 
 **Scope.** This file condenses the alloy/temper designation systems and the per-series physical metallurgy of wrought aluminium (1xxx–8xxx), with brief notes on cast alloys and Mg alloys. It takes the R&D view of composition → processing → microstructure → properties. The focus is on 3xxx heat-exchanger, fin and foil alloys (AA3003/3005/3102/3103/3207 family) and the neighbouring 1xxx, 5xxx, 6xxx, 7xxx and 8xxx series.
 **Rules used.** Every number comes from a source and carries a citation `[Ref p.X]`. Printed book page numbers are used where they are known. Anything not in the sources is marked *(general knowledge)* and kept to a minimum. If two sources disagree, both values are given. Greek phase symbols (θ, β, η, δ, Ω) were dropped by the PDF text extraction, so they are restored here from the table structure and marked "(symbols restored)".
-**Date compiled:** 2026-10-12. **Updated 2026-10-12:** full-text pass for K and DW (downloaded whole); the P download failed (§1).
+**Date compiled:** 2026-10-12. **Updated 2026-10-12:** full-text pass for K and DW (downloaded whole); the P download failed (§1). **Updated again 2026-10-12:** S-029 (Totten & MacKenzie, *Handbook of Aluminum* Vol. 1, cited as **[TOT p.X]**) read from the user's four-part split copy (§1). Additions are marked "[TOT …]"; corrections are marked "corrected after the full-text pass".
 
 ---
 
@@ -13,6 +13,7 @@
 | **P** | I. J. Polmear, *Light Alloys: From Traditional Alloys to Nanocrystals*, 4th ed., Butterworth-Heinemann 2006 | https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view | Text extraction is **truncated at printed p.~173** (§3.6.1 Aircraft alloys). Chapter 1 was skimmed for key data (Table 1.1, Mg statistics); **all of Ch. 2** (physical metallurgy, pp.29–96) and **Ch. 3 §3.1–3.6.1** (wrought alloys, pp.97–173) were read in full. **Missing:** §3.6.2–3.6.10 (automotive sheet, marine, **foil, canstock**, bearings, **conductors**), Ch. 4 (cast), **Ch. 5 (Mg alloys)**, Ch. 6–7. Figures survive only as captions. Minus signs and Greek letters were lost. **Full-text download attempted 2026-10-12 and failed (see the note below the table); coverage is unchanged.** |
 | **D** | J. R. Davis, "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM International 2001, pp.351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | **Complete chapter read** (pp.351–416). Figures 1–36 survive as captions only, and parts of Figs 2–4 are garbled. This is a chapter of the ASM book, not the full ASM Specialty Handbook. |
 | **K** | J. G. Kaufman, *Introduction to Aluminum Alloys and Tempers*, ASM International 2000 | https://drive.google.com/file/d/1cmbbWXoyfHTTlgSDdeFCLHY6IrFl9zRl/view | **Full text via download, 2026-10-12** (6,094,116 bytes, 237 PDF pages; printed pp.i–vii, 1–76, 87–224 plus index). Earlier passes read Ch. 1–4 (to p.~74). The download pass added the end of Ch. 4 (cast tempers, pp.73–76), **Ch. 6** (applications by alloy class and by market, pp.87–118), **Ch. 7** (micrograph captions, pp.119–184) and the **Appendix terminology** (pp.187–224). **Ch. 5 (fabricating processes: ingot and strip casting, hot and cold rolling, heat treatment; pp.77–86) is not in the Drive PDF**, which jumps from p.76 to p.87. Property tables are readable but the column headers are scrambled. Columns were reconstructed as UTS, YS, A(1.6 mm sheet), A(5D bar), HB, shear, fatigue, E. |
+| **TOT** | G. E. Totten & D. S. MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003, ISBN 0-8247-0494-0 (catalogue key **S-029**). Read from the Drive folder "Cloud part book", which splits the book into four PDFs ("Al 1-400.pdf" 1Yxag4tV…, "ACFROG~1.PDF" 1EwIKZG8…, "Al 1-800.pdf" 10ilZD0R…, "1309.pdf" 1KmVD2fb…) | https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view (whole book; the split parts are in the same Drive) | **Full text, 2026-10-12.** The four parts cover printed pp. 1–1296 without gaps. Their font maps were repaired before text extraction, and residual extraction noise (equations, some table layouts) was checked against context. **Read for this file:** Ch.1 (Sverdlin, pp.1–31), **Ch.2 Properties of pure Al (pp.33–79)**, **Ch.3 Physical metallurgy and alloying effects (Tiryakioğlu & Staley, pp.81–210)**, **Ch.5 §3 transition metals and commercial Al–Mn alloys (Katgerman & Eskin, pp.293–299)**, **Ch.19 Heat treating processes and equipment (Howard, Bogh & MacKenzie, pp.881–970)**; spot reads Ch.6 p.334 and Ch.17 pp.851–853 (earing, r-values). Printed page numbers are used. ch06 cites the same book as [HB]. |
 | **AT** | Aalco Metals Ltd, *Aluminium Alloy Temper Designations* datasheet (updated 4 Oct 2016), 3 pp. | https://drive.google.com/file/d/1xQKanAcmXXqFlEy7NBRPX274_zjaYnil/view | Full. The two-column layout is interleaved in the text, but the meaning is recoverable. |
 | **A57** | Aalco Metals Ltd, *Aluminium Alloy 5754-H111 Treadplate* datasheet (11 Jan 2016), 2 pp. | https://drive.google.com/file/d/1knDlSBj70pPp_aybepmNcTgB4lqsB085/view | Full. |
 | **AM** | "Aluminium alloys and magnesium alloys" (lecture slides, 21 slides; partly after Callister) | https://drive.google.com/file/d/1HhefbsqmLFlItUqRitymP5DGujJU8RIb/view | Full. Overview level. |
@@ -24,12 +25,12 @@
 **Full-text download pass (2026-10-12).** The Drive text reader truncates long PDFs, so the books were downloaded whole (Drive `download_file_content`), decoded and converted with `pdftotext -layout`. Results:
 - **DW** (3.15 MB) and **K** (6.09 MB): downloaded and converted in full. File sizes match the Drive metadata byte for byte.
 - **P** (9.68 MB, both Drive copies, IDs 1deTdBlv… and 1UDBZmfT…): **failed twice** with *"The connection to MCP server "Google_Drive" was closed because a message from the server was too large or could not be parsed, so the result of tool "download_file_content" was not read."* The file is under the connector's stated 10 MB limit, but its base64 payload (~12.9 M characters) is too big for the connector transport. K's 8.1 M-character payload did go through. In practice the ceiling lies between ~6.1 and ~9.7 MB of PDF. **Polmear's canstock, foil and conductor sections (§3.6.4–3.6.9), Ch. 4 (cast) and Ch. 5 (Mg) therefore remain unread.**
-- **Limit test, S-029** (Totten & MacKenzie, *Handbook of Aluminum* Vol. 1, 17.66 MB, ID 1uBiRXgX…): refused with *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API. See https://developers.google.com/workspace/drive/api/guides/manage-downloads#curl"*. No content was obtained.
+- **Limit test, S-029** (Totten & MacKenzie, *Handbook of Aluminum* Vol. 1, 17.66 MB, ID 1uBiRXgX…): refused with *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API. See https://developers.google.com/workspace/drive/api/guides/manage-downloads#curl"*. **Resolved later on 2026-10-12:** the same book was read from the user's four-part split copy (row **TOT** above).
 
 **Found by the Drive search but not processed here** (outside this file's designation/temper scope, or too large; candidates for other knowledge files):
 - *Chapter 1 – Alloys of the Al-Fe-Mn-Si System* (https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view). This is the key phase-diagram source for 3xxx and 8xxx.
 - *Rolling_Aluminum_From_The_Mine_Through_The_Mill* (https://drive.google.com/file/d/1w70bnhbLUlg5Tg4tlFIa0pVEI58GRfht/view).
-- *ASM Handbook of Aluminium vol. 1* / *Alminium.pdf*, *74849304-Aluminium.pdf*, *41279889-Alloys.pdf*.
+- *ASM Handbook of Aluminium vol. 1* / *Alminium.pdf*: this is S-029, now read as **TOT** (row above). *74849304-Aluminium.pdf* and *41279889-Alloys.pdf* were not processed here.
 - Humphreys & Hatherly, *Recrystallization…*.
 - The Sheppard and other extrusion books.
 - *document.pdf* (an Alcoa Micromill presentation).
@@ -46,6 +47,16 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 - **Prefixes and suffixes.** **X** marks an experimental alloy (e.g. X2020, X7050) [K p.24–25; P p.117]. A suffix **A** marks a national or minor variant (6005A [K p.25]; 5154A vs 5154 [DW §4.1.2]). The EN standards use the same numbers with the prefix **EN AW-** ("AW" = aluminium wrought); e.g. AW-6082 [DW §4.1.2]. UNS form: "A9" + AA number (A92024) [K p.31]. Old pre-1955 numbers converted as 3S→3003, 4S→3004, 52S→5052, 61S→6061, 63S→6063, 75S→7075 [K p.32].
 - **Specification style** [DW §4.1.2]. A *range* gives an intended addition. A *single value* gives an impurity maximum. Example 6082 (EN): Si 0.7–1.3, Mn 0.4–1.0, Mg 0.6–1.2, Fe ≤0.5, Cu ≤0.1, Cr ≤0.25, Zn ≤0.2; nominal Si 1.0 / Mn 0.7 / Mg 0.9 %.
 - **High-purity "second-digit" variants raise toughness.** 2124/2224/2324 (ex 2024) and 7175/7475 (ex 7075) were made by controlling Fe and Si [K p.24, 30–31; P p.135, 151].
+- **Purity nomenclature (US usage, after Brandt)** [TOT p.35 Table 3]: commercial purity 99.50–99.79 % Al; high purity 99.80–99.949 %; super purity 99.950–99.9959 %; extreme purity 99.9960–99.9990 %; ultra purity > 99.9990 %. Russian GOST 11069 grades run from A999 (99.9999 %) through A85/A8/A7/A6/A5 (99.85–99.50 %) to A0 (99.0 %: Fe ≤ 0.50, Si ≤ 0.50, Cu ≤ 0.02, Zn ≤ 0.08, Ti ≤ 0.03, total ≤ 1.00 %). The "E" grades A7E and A5E have lower Si (0.08 and 0.12 %) for conductors [TOT p.35 Table 2].
+- **International cross-references for 1xxx** [TOT p.37 Table 6]:
+  - 1050A = DIN Al99.5 = NF A5 = ISO Al99.5 = BS 1B.
+  - 1060 = ISO Al99.6 = GOST A6.
+  - 1070A = DIN Al99.7 = ISO Al99.7.
+  - 1080A = DIN Al99.8 = ISO Al99.8(A).
+  - 1100 = ISO Al99.0Cu = JIS A1100.
+  - **1200 = DIN Al99 = ISO Al99.0 = JIS A1200 = GOST A0.** The UK column prints "A4" for 1200, the same code as the French column; this may be a misprint.
+  - 1350 = ISO E-Al99.5 = GOST A5E.
+  - The table lists only standards "essentially in agreement" with the AA composition; the issue in force should be checked [TOT p.35].
 
 | Series | Main element(s) | Strengthening route | Tensile-strength range, MPa [D p.355 Table 2] | Comments |
 |---|---|---|---|---|
@@ -120,6 +131,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 - **Even digits.** HX4 = UTS half-way between O and HX8; HX2 = half-way between O and HX4; HX6 = half-way between HX4 and HX8 [K p.18, 62–63]. Fraction of hardness = digit/8, e.g. H16 = ¾ hard [DW §4.1.3]. DW's Table 4.2 gives the grid: ¼, ½, ¾ and full hard = H12/H14/H16/H18 (temper-rolled), H22–H28 (temper-annealed) and H32–H38 (stabilised) [DW Table 4.2].
 - **What cold work does to YS vs UTS.** "For a given degree of cold work, the resulting increase in the proof stress (yield) is relatively much greater than the increase in tensile strength (UTS), as compared with the annealed condition" [DW §4.1.3]. Example from 3003: O → H14 is YS 40 → 145 MPa but UTS only 110 → 150 MPa [K p.45].
   - Worked example: 1100-O min UTS 75 MPa → H14 limit = 75 + ½·75 = 112.5, rounded to **110 MPa** [K p.62]. The ksi version: 11 + ½·10 = 16 ksi; H12 = 14 ksi and H16 = 19 ksi [K p.62–63].
+- TOT Ch.19 uses the names **HX2 quarter-hard, HX4 half-hard, HX8 full-hard, HX9 extra-hard**, and its basic-temper and T-temper tables agree with K [TOT p.883–884]. It classes 1xxx, 3xxx, 4xxx and 5xxx as non-heat-treatable (strength from solid solution or dispersion hardening plus strain hardening) and 2xxx, some 4xxx, 6xxx and 7xxx as heat-treatable [TOT p.883].
 - **Odd digits (1, 3, 5, 7)** are intermediate and rarely used. One use is 5657-H25 for brightness; another is pattern sheet [K p.63].
 - **Digit 9** = UTS ≥ **14 MPa (2 ksi) above HX8**. It is reached by rolling very thin sheet. The main example is **3004-H19 can stock** [K p.18, 63].
 - **Approximate cold reductions stated in the sources:**
@@ -196,14 +208,19 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - 300–420 °C [P p.42]; 345–415 °C, minutes to 3 h [P p.107]; 350–420 °C [P p.109].
   - **Recrystallisation kinetics of hard-rolled pure Al:** hours at 280 °C, minutes at 380 °C, seconds at 500 °C [P p.42].
   - **5083-O:** heat to ~345 °C, then cool at an uncontrolled rate [K p.58].
-  - [S, unverified] (citing ASM Table 7): 1xxx/3004/3105/5xxx at 343 °C; **3003 at 413 °C**.
+  - **Typical full-anneal temperatures** (Table 7; verified after the full-text pass, previously [S, unverified]): **1060, 1100, 1350, 3004, 3105 and the listed 5xxx at 650 °F (343 °C); 3003 at 775 °F (413 °C)** [TOT p.888]. For these alloys the time at temperature "should not be any longer than to get the center of the furnace load up to temperature", and the cooling rate is unimportant [TOT p.888]. The [S] values (343/413 °C, "ASM Table 7") match this table exactly.
+  - **Annealing rules in TOT Ch.19:**
+    - The temperature depends on prior strain; commercial practice uses "the lowest temperature that yields the softest state in the minimum amount of time".
+    - Non-heat-treatable alloys "are heated to temperature very quickly to avoid grain growth"; the aim is a fine grain [TOT p.887].
+  - ⚠ TOT's Al–Mn table gives different anneal temperatures: **3003 "400–600 °C", 3004 415 °C, 3105 345 °C** [TOT p.299]. The 3004 value conflicts with Table 7 (343 °C) in the same book.
   - **Minimum annealing temperatures (Dwight): 1xxx 360 °C; 3xxx 400 °C; 5xxx 350 °C** [DW §3.1.4]. Verified in the full text. The context is *local re-annealing of work-hardened sheet to help forming*; Dwight gives no hold time. *Corrected after the full-text pass:* the reason "Mn dispersoids retard recrystallisation" attached to these values in [S] is the spreadsheet's gloss, not Dwight's text. It is consistent with [D p.382] (Mn raises the recrystallisation temperature).
+  - Al–Mn alloys made supersaturated in Mn by ingot casting (< 10² K/s) decompose **above 325 °C** to fine Al₆Mn, (AlFeMn) and (AlFeMnSi) dispersoids. There is "no real precipitation hardening", but the dispersoids hinder grain growth and give fine-grained sheet [TOT p.299]. The Al₆Mn decomposition range is 300–350 °C [TOT p.295 Table 34].
   - **Partial annealing** (H2x) is defined as "thermal treatment given cold-worked metal to reduce strength and increase ductility to controlled levels other than annealed temper". **Annealing** is softening "by removal of stress resulting from cold working or by coalescing precipitates from solid solution" [K p.188].
-- **Full anneal (heat-treatable):** 2014-O = ~410 °C for 2–3 h, slow cool to ~260 °C, then uncontrolled [K p.58]. [S, unverified]: 7xxx two-stage with a 4 h hold at 230 °C.
-- **Homogenisation:** **450–600 °C for 6–24 h** [P p.105]. Kaufman's definition: ingots are raised to temperatures **near the solidus** and held to (1) reduce microsegregation and (2) improve workability. **Preheating** is the general term for a high-temperature soak to a desired structure; homogenising is one form of it [K p.202–203, 211]. For 3003 micrographs after 600 °C treatments, see §4.11.
+- **Full anneal (heat-treatable):** 2014-O = ~410 °C for 2–3 h, slow cool to ~260 °C, then uncontrolled [K p.58]. TOT agrees: 760 °F (404 °C) for 2–3 h, then 50 °F/h (28 °C/h) to 500 °F (260 °C). Where the hardness comes only from working, ≈ 650 °F (343 °C) and any cooling suffice [TOT p.887–888]. *Verified after the full-text pass* (previously [S, unverified]): 7xxx get a two-stage practice, 2–3 h at 775 °F (413 °C), slow cool to 450 °F (232 °C), hold 4 h at 450 °F [TOT p.887]. (°F conversions derived.)
+- **Homogenisation:** **450–600 °C for 6–24 h** [P p.105]; TOT gives "generally the 15–20 hour range" of soak [TOT p.887]. Kaufman's definition: ingots are raised to temperatures **near the solidus** and held to (1) reduce microsegregation and (2) improve workability. **Preheating** is the general term for a high-temperature soak to a desired structure; homogenising is one form of it [K p.202–203, 211]. For 3003 micrographs after 600 °C treatments, see §4.11.
 - **Solution treatment:** as close to the solidus as possible without liquation. Al-Cu-Mg alloys need control to within a few °C [P p.109; AR p.12–13].
 - **Quench-sensitive range:** **400–290 °C** [P p.112–113].
-- **Artificial ageing:** **100–190 °C** [P p.114]; 6xxx at ~170 °C [P p.141] or 160–190 °C [P p.140]. Artificial-ageing practice: 2–30 h at 100–200 °C [AT p.1].
+- **Artificial ageing:** **100–190 °C** [P p.114]; 6xxx at ~170 °C [P p.141] or 160–190 °C [P p.140]. Artificial-ageing practice: 2–30 h at 100–200 °C [AT p.1]. TOT: 95–205 °C [TOT p.920]; 6061/6063/6066 T4 → T6 at 177 °C for 8–10 h [TOT p.925].
 
 ---
 
@@ -222,6 +239,30 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 - **Composition and properties.** See the tables in §10.
   - 1100 includes **Cu 0.05–0.20** [P Table 3.2]; 1100 and 1135 have specified min and max Cu [D p.399].
   - **1200:** Si+Fe ≤1.0, Cu ≤0.05, Mn ≤0.05, Zn ≤0.10, Ti ≤0.05, Al ≥99.00 [P p.121]. 1050 has Al ≥99.50 [K p.12; D p.356].
+  - **Composition limits from TOT Table 22** (after *Aluminum Standards and Data*, 2nd ed., 1969; wt.%, max; "others" = each) [TOT p.74]:
+
+    | Alloy | Si | Fe | Cu | Mn | Mg | Zn | Ti | Others | Al min |
+    |---|---|---|---|---|---|---|---|---|---|
+    | **1050** | 0.25 | 0.40 | 0.05 | 0.05 | 0.05 | 0.05 | 0.03 | 0.03 | 99.50 |
+    | 1060 | 0.25 | 0.35 | 0.05 | 0.03 | 0.03 | 0.05 | 0.03 | 0.03 | 99.60 |
+    | 1100 | Si + Fe 1.0 | | 0.05–0.20 | 0.05 | — | — | — | 0.05 | 99.00 |
+    | 1145 | Si + Fe 0.55 | | 0.05 | 0.05 | — | — | — | 0.03 | 99.45 |
+    | 1175 | Si + Fe 0.15 | | 0.10 | — | — | — | — | 0.02 | 99.75 |
+    | 1230 | Si + Fe 0.70 | | 0.10 | 0.05 | — | 0.10 | — | 0.05 | 99.30 |
+    | 1235 | Si + Fe 0.65 | | 0.05 | — | — | — | — | 0.05 | 99.35 |
+    | EC | — | — | — | — | — | — | — | — | 99.45 |
+
+    For the Si + Fe rows the columns after Cu are sparsely printed, so assigning the remaining values to Mn, Zn and "others" is the most likely reading but not certain. This 1969 table predates the current EN 573-3/AA registrations; check limits against the issue in force [TOT p.35]. **1050 (AA) is now covered; 1200 is not in the table** (only its cross-reference equivalents above).
+  - **Grades and history** [TOT p.70, p.75]: 1100 was the first wrought alloy (USA, 1888). EC conductor metal has ≥ 99.45 % Al; the same purity is used for foil as **1145**.
+  - **Product availability** [TOT p.76 Table 23]: among super- and commercial-purity grades, **impacts** are listed only for **1199 and 1100** (1100 is available in every product form; 1060, EC, 1145 and 1180 are not listed for impacts).
+  - **Al–Fe–Si physical metallurgy** [TOT p.138–140]:
+    - Fe solubility is ≈ 0.05 %, so excess Fe forms constituents at grain and cell boundaries. Commercial 1xxx solidification gives metastable Al₆Fe or AlₘFe instead of equilibrium Al₃Fe; with Si, α-Al₁₂Fe₃Si or β-Al₉Fe₂Si₂ appear.
+    - Coarse Al₃Fe cracks and lowers formability and fatigue resistance; finely dispersed Al₆Fe does not.
+    - Constituents add ≈ 7 MPa per vol.% to strength, whatever the temper or intermetallic type.
+    - Si in solution raises strain hardening.
+    - Fe in solution raises the recrystallisation start temperature (fine Al–Fe precipitation during the anneal). Fe and Si *out* of solution as constituents give more PSN nuclei and a finer grain.
+    - Details and design levers are in ch06 §4–§5.
+  - **O-temper checks** [TOT p.928 Table 25]: 1100-O typical conductivity 57.0–62 (unit not printed; % IACS by magnitude), Rockwell H ≤ 50.
 - **Uses.** Electrical conductors (1350, formerly "EC"), chemical plant, foil, lithographic sheet, fin stock (1100) [K p.12; P p.129; D p.358].
   - *Kaufman Ch. 6 (full-text pass)* [K p.87–88, 118]: the range runs from 1100 (99.00 % Al min) through 1050/1350 (99.50 %) to **1175 (99.75 %)**. The series is chosen for "extremely high corrosion resistance and formability": foil and strip for packaging, chemical equipment, tank-car bodies, spun hollowware. **Food foil is 1175**, food trays 1100, pouches 1060 or 1100.
   - **1350 has tight limits on the impurities that lower conductivity, and 62 % IACS is guaranteed** [K p.88].

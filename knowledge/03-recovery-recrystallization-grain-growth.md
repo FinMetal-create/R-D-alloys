@@ -1,6 +1,6 @@
 # 03 — Recovery, Recrystallisation (RX) & Grain Growth in Wrought Al Alloys
 
-**Scope.** Physical metallurgy of softening after deformation, written for alloy and process design. The main focus is 3xxx heat-exchanger, fin and foil alloys (AA3102, AA3103, AA3003, AA3207, AA3005), with 1xxx, 8xxx (foil), 5xxx and 6xxx where the sources allow. The chain covered is: stored energy, then recovery, then nucleation of RX, then growth and kinetics, then particle and solute interaction (Zener, solute drag, concurrent precipitation), then grain growth, then texture, then hot working.
+**Scope.** Physical metallurgy of softening after deformation, written for alloy and process design. The main focus is lean 3xxx alloys (AA3102, AA3103, AA3003, AA3207, AA3005), both as heat-exchanger, fin and foil alloys and as **annealed impact-extrusion slugs** (lean Al–Mn and Al–Fe–Si–Mg chemistries such as trial T11), with 1xxx, 8xxx (foil), 5xxx and 6xxx where the sources allow. The chain covered is: stored energy, then recovery, then nucleation of RX, then growth and kinetics, then particle and solute interaction (Zener, solute drag, concurrent precipitation), then grain growth, then texture, then hot working.
 
 **Citation rules.** Every claim cites `[Key, section/page]`. Page numbers are the printed book or journal pages unless marked "PDF p.". Anything not found in the sources below is marked **(general knowledge)** and kept to a minimum. Values marked **(derived)** were calculated in this file from cited inputs; the assumptions are stated next to them. Translations from DE/SL are by the compiler.
 
@@ -30,7 +30,7 @@
 | Bom08 | D. Bombač, M. Fazarinc, G. Kugler, S. Spajić, "Microstructure development of Nimonic 80A superalloy during hot deformation", *RMZ – Mater. Geoenviron.* 55(3) 319–328, 2008 | [1K3jZ3TiJKKk54DiBq9dWya51PKsf_Zq8](https://drive.google.com/file/d/1K3jZ3TiJKKk54DiBq9dWya51PKsf_Zq8/view) | EN (SL abstract) | Complete. **Ni superalloy, not Al.** Only the methodology (Z-sinh, DRX onset, processing maps) transfers. |
 | Leh06 | W. Lehnert, R. Kawalla, D. Hübgen, "Herstellung von hochwertigen Bändern und Blechen aus Aluminiumwerkstoffen", *Metalurgija* 45(3) 169–178, 2006 | [18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC](https://drive.google.com/file/d/18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC/view) | DE (EN/HR abstr.) | Text complete. Tables 4–6 and figures 10–14 not extracted. 2026-10-12: PDF downloaded (2,844,699 B, 10 pp.); the tables and figures are embedded raster images with no text layer, so they are not recoverable without OCR. |
 | Pol06 | I.J. Polmear, *Light Alloys*, 4th ed., Butterworth-Heinemann 2006 | [1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w](https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view) | EN | Good. **Truncated at about book p.174** (ch. 1–3 up to §3.5.3). §3.6 (foil, canstock, finstock) missing. 2026-10-12: a download was attempted (9,683,385 B, under the 10 MB limit), but the Drive connector closed the connection ("a message from the server was too large or could not be parsed"), so the file is still truncated. |
-| HBAL03 | M. Tiryakioğlu & J.T. Staley, "Physical Metallurgy and the Effect of Alloying Additions", ch. 3 in Totten & MacKenzie (eds.), *Handbook of Aluminum* Vol. 1, Dekker 2003 | [1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz](https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view) ("Alminium.pdf"; identical size to "ASM Handbook of Aluminium vol. 1.pdf" 1LNDwz9XSVn51tWynCZUvGvbdzEDR23K3) | EN | OCR glyph errors (ř=f, \#=x, 3=fi) and **truncated at PDF p.186**. Ch. 4 (Mao, RX and grain growth) is not reached. Cited by PDF page. |
+| HBAL03 | G.E. Totten & D.S. MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003, ISBN 0-8247-0494-0 (catalog **S-029**). Chapters used: ch. 3 M. Tiryakioğlu & J.T. Staley, "Physical Metallurgy and the Effect of Alloying Additions" (pp.81–210); **ch. 4 W. Mao, "Recrystallization and Grain Growth" (pp.211–258)**; ch. 5 L. Katgerman & D. Eskin, "Hardening, Annealing, and Aging" (pp.259–304); ch. 7 K.F. Karhausen & A.S. Korhonen, "Rolling of Aluminum" (from p.351); ch. 19 R. Howard, N. Bogh & D.S. MacKenzie, "Heat Treating Processes and Equipment" (pp.881–970); ch. 22 N. Ridley, "Superplastic Forming" (pp.1105–1158) | Truncated copy: [1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz](https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view) ("Alminium.pdf"; identical size to "ASM Handbook of Aluminium vol. 1.pdf" 1LNDwz9XSVn51tWynCZUvGvbdzEDR23K3). **Full text:** Drive folder "Cloud part book" [1fzmh9OxDx3E92Sq2FLDNQ9AkCKrWvP-G](https://drive.google.com/drive/folders/1fzmh9OxDx3E92Sq2FLDNQ9AkCKrWvP-G): part 1 "Al 1-400.pdf" [1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT](https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view) (pp.1–388), part 3 "Al 1-800.pdf" [10ilZD0Rt4LM1rUzaCa9hLB0Up-NaH7a3](https://drive.google.com/file/d/10ilZD0Rt4LM1rUzaCa9hLB0Up-NaH7a3/view) (pp.788–988), part 4 "1309.pdf" [1KmVD2fbnjMnPd2M5YfDEQaI0OflR_NMD](https://drive.google.com/file/d/1KmVD2fbnjMnPd2M5YfDEQaI0OflR_NMD/view) (pp.989–1296) | EN | **Full text, 2026-10-12.** Born-digital; the broken font maps were repaired before text conversion. Equations keep the PDF layout and rare Greek letters are best guesses, so the equations used here were checked against page images. **Citation convention:** older entries cite **[HBAL03 PDF p.x]** of the truncated "Alminium.pdf" (ch. 3 only); **PDF p. = printed p. + 12** (confirmed against the full text for PDF pp.142–143, 152 and 171–172, whose content matches printed pp.130–131, 140 and 159–160). New entries cite **printed** pages as **[HBAL03 p.x]**. Mao's chapter is a textbook-level review (pure Al, Al–Mn, Al–Mg examples); some of its constants disagree with HH (§1.4). |
 | Ryen03 | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.ing. thesis, NTNU 2003 (supervisor E. Nes) | [1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_](https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view) ("uporabno del-2.pdf") | EN | Good. **Truncated at about §4.2.2 (p.70)**. AA3103 results (§4.5.2) and the solute discussion (ch. 5) are missing. Contains the Nes model equations, partly garbled. |
 | Røy05 | J. Røyset & N. Ryum, "Scandium in aluminium alloys", *Int. Mater. Rev.* 50(1) 19–44, 2005 | [1A_yvqnRq-o1I53m3tieuVp4Sq5zUu1iL](https://drive.google.com/file/d/1A_yvqnRq-o1I53m3tieuVp4Sq5zUu1iL/view) | EN | Complete. Inequality symbols mangled (`,`=<, `.`=>, `&`=≫, `%`=≲), decoded by context. |
 | Røy07 | J. Røyset, "Scandium in aluminium alloys overview: physical metallurgy, properties and applications", *Metall. Sci. Technol.* 25(2) 11–21 (c. 2007) | [1FizSqhIa3XAhPQpZYt0maHVsHdEsKrhW](https://drive.google.com/file/d/1FizSqhIa3XAhPQpZYt0maHVsHdEsKrhW/view) | EN (IT abstr.) | Complete. Column garbling. |
@@ -63,7 +63,8 @@
   - cell blocks and cell bands bounded by dense dislocation walls and microbands (geometrically necessary boundaries, GNBs), inclined about 25–40° to the rolling plane;
   - microshear (S) bands at 0.3 < ε < 1;
   - a lamellar structure of largely high-angle boundaries (HAGB) at ε > 2.
-- In Al the cell size falls to about 0.5 µm and then stays nearly constant for ε > 0.5 [HH §2.4.2.1 p.30].
+- In Al the cell size falls to about 0.5 µm and then stays nearly constant for ε > 0.5 [HH §2.4.2.1 p.30]. Mao gives "generally 1–3 µm or less" with < 2° between neighbouring cells, shown for 80–86 % cold-rolled Al–1.3 wt % Mn; cells elongate with further strain [HBAL03 p.213].
+- Of the stored energy, about 80–90 % is due to dislocations; the vacancy share is negligible because deformation vacancies migrate out at RT [HBAL03 pp.214, 216]. Impurity atoms, a finer initial grain size and second-phase particles all raise the stored energy at a given strain, because they increase dislocation multiplication [HBAL03 p.215].
 - **Solute (Mg ≥3–5 %) suppresses cell formation** [HH §2.4.3 p.35; Ryen03 §2.2.3 p.14]. Dislocations then form a "Taylor lattice" with domain boundaries parallel to {111} (0.5–1°) and microbands, which develop into shear bands.
 - In Al–Mn, cells form whether Mn is in solid solution or present as dispersoids. Adding Mg (3004 vs 3003) gives a finer substructure and a higher dislocation content after 90 % cold rolling (CR) [HBAL03 PDF p.172].
 - Deformation heterogeneities are the RX nucleation sites:
@@ -92,6 +93,8 @@
 | Interior density saturation | ρ_i ≈ const for ε > 0.3 (Al) | — | **~10¹⁴ m⁻² for ε = 0.03–2** in AA1050 and AA3207 (higher in 3207, 0.4 % Mn) | [HH p.18; Ryen03 §2.2.4 p.16] |
 | Misorientation | θ saturates at 2–3° at ε ≈ 1 (Nes) **vs** continues to rise (TEM/EBSD) | — | IDB about 3° at large ε; GNB up to 15–20° and becomes HAGB | [HH p.20; Ryen03 p.11–13] |
 | Densities | annealed → recovered → heavy CW | m⁻² | ~10¹¹–10¹² → 10¹⁴ → 10¹⁶ | [Pol06 p.41; HH p.4; Ryen03 p.16] |
+| — Mao's set | annealed → heavily deformed → after recovery | m⁻² | 10¹⁰ → 10¹⁵ → 1.5×10¹⁴ | [HBAL03 pp.214, 216] (citing Hornbogen & Warlimont) |
+| Stored energy, heavily deformed Al (Mao) | E ≈ 0.5 ρ G b² | ρ = 10¹⁵ m⁻², G = 2.5×10¹⁰ N m⁻², b = 3.5×10⁻¹⁰ m (as printed) | "about 2×10⁶ J m⁻³" (1.53×10⁶ in the nucleation estimate); annealed ≈ 20 J m⁻³. **With HH's G = 25.4 GPa and b = 0.286 nm: 1.0×10⁶ J m⁻³ (derived)** | [HBAL03 pp.215, 221] |
 | Measured stored energy, 99.999 % Al | torsion at 77 K, shear 6.75 | — | **69.6 J mol⁻¹**, ρ ≈ 3.1×10¹⁵ m⁻² (from E/Gb²) | [HH Tab.2.1 p.16] |
 | → as pressure | 69.6 J mol⁻¹ ÷ V_m(Al) ≈ 1.0×10⁻⁵ m³ mol⁻¹ | — | **≈ 7 MPa (derived)** | derived from HH Tab.2.1 |
 | Typical P_RX (Cu example) | ρ = 10¹⁵–10¹⁶ | — | 2–20 MPa | [HH §1.3.2 p.10] |
@@ -110,6 +113,10 @@
 - **Local stored energy matters more than the average** [HH §2.2.3 p.16; SimRX p.1].
 - **Particle-enhanced stored energy is real only at small strain.** It is about 10× pure Al in Al–Mg–Si at ε = 0.1 [HH p.54]. At RX-relevant strains dynamic recovery brings ρ back near the single-phase value [HH §2.9.2.1 p.54].
 - The misorientation-saturation assumption (3–4° in the Nes model [Ryen03 p.38]) is contested [HH p.20].
+- **Constants in Mao's chapter disagree with HH (flagged after the full-text pass; this KB keeps the HH values):**
+  - stacking-fault energy **250 mJ m⁻²** [HBAL03 p.212] vs 166 mJ m⁻² [HH Tab.2.4];
+  - Burgers vector **b = 3.5×10⁻¹⁰ m** [HBAL03 pp.215, 221] vs **0.286 nm** [HH Tab.5.1]. 0.35 nm is not the Al Burgers vector (b = a/√2 with a = 0.404 nm [HBAL03 pp.294, 297] gives 0.286 nm, derived), so Mao's stored-energy figures are about 1.5× too high;
+  - HAGB energy **0.6–1.9 J m⁻²** (99.99 % Al, nucleation estimate) and **≈1.0 J m⁻²** (grain-growth estimate) [HBAL03 pp.221, 245], both citing Mondolfo 1976, vs **0.324 J m⁻²** [HH Tab.4.2]. Every quantity linear in γ (critical nucleus radius, Zener pressure, grain-growth pressure) changes by the same factor of 2–6, so state which γ a model uses.
 
 ---
 
@@ -117,6 +124,12 @@
 
 ### 2.1 Mechanisms
 - Recovery and RX compete for the same stored energy. Recovery lowers the RX driving force and can change both the nature and the kinetics of RX [HH §6.1.1 p.170]. Recovery mechanisms (subgrain growth and coalescence) also *nucleate* RX [HH p.170; Pol06 p.42].
+- **What recovery does in Al (Mao)** [HBAL03 pp.216–220]:
+  - it starts immediately on annealing, with **no incubation period**, and involves **no HAGB migration**;
+  - the dislocation density drops from ~10¹⁵ to ~1.5×10¹⁴ m⁻², but the deformed grain shape and the **deformation texture are retained**;
+  - electrical resistivity falls only slightly, and in deformed pure Al **up to 40 % of the work-hardening increment in hardness** can be recovered (Lücke & Rixen 1968);
+  - mechanisms: annihilation of unlike edge dislocations by glide (same plane) or climb (adjacent planes), and alignment of like dislocations into tilt walls (polygonisation; edge-dislocation interaction force eq.1–3); cells coarsen and their walls sharpen into subgrain boundaries;
+  - the recovered density (~1.5×10¹⁴ m⁻²) is **still enough to drive RX** [HBAL03 p.220].
 - The sequence is: dipole annihilation; cell walls to sharp sub-boundaries (polygonisation, no scale change); subgrain coarsening [HH §6.3–6.5 pp.178–188].
   - In situ HVEM on 10 %-deformed Al (2 min at 250 °C): tangles become LAGB networks [HH §6.4.2 p.187]. The yield stress falls but the work-hardening rate rises [HH p.187].
   - Subgrain rather than cell structure is favoured by high SFE, low solute, large strain and high deformation T [HH p.188].
@@ -137,6 +150,7 @@
 | Fractional recovery (Friedel/Drouard form) | R = (σ_m − σ)/(σ_m − σ₀); R = c₁ ln t − Q/kT (as printed) | Zn crystals: Q = 83.7 kJ mol⁻¹ ≈ self-diffusion; Al crystals also obey type-1. To extract Q, divide the 1/T-slope by c₁ (§2.4; §11 row 24) | [HH eq.6.6–6.7 p.176]; same in [Junit08 §2.6 p.11] |
 | Type 1 (logarithmic) | dX/dt = −c₁/t → X = c₂ − c₁ ln t | invalid at t→0 and t→∞ | [HH eq.6.1–6.2 p.175] |
 | Type 2 (power) | dX/dt = −c₁ X^m → X^(1−m) − X₀^(1−m) = (m−1)c₁t | dipole annihilation gives m = 2; Cu/Ni m = 3 | [HH eq.6.3–6.5, 6.11–6.12 pp.175–180] |
+| Second-order dislocation recovery (Mao) | dρ/dt = −kρ² → ρ = 1/(kt + 1/ρ₀) ≈ 1/(kt) for ρ₀ ≫ ρ, i.e. dρ/dt ≈ −1/(kt²) | k depends on T only. Confirmed for zone-refined Al–0.0068 at % Cu (Vandermeer & Gordon 1963). Same form as HH type 2 with m = 2, and with σ ∝ ρ^½ it gives 1/σ² − 1/σ₀² ∝ t, the form of the climb-coarsening law below (derived) | [HBAL03 eq.4–6 pp.219–220] |
 | Network coarsening by climb | R² = R₀² + c₁t, c₁ = 2 D_s G b³ c_j/kT → 1/ρ − 1/ρ₀ = c₁t → 1/σ² − 1/σ₀² = c₃t | c_j jog concentration. Q_climb = Q_s at high T; plus jog formation at low T; core diffusion Q_c ≈ 0.5 Q_s | [HH eq.6.13–6.18 pp.182–183] |
 | Thermally activated glide (Cottrell–Aytekin, logarithmic) | dσ/dt = −c₁ exp(−(Q₀ − c₂σ)/kT) → σ = σ₀ − (kT/c₂) ln(1 + t/t₀) | **Al–1Mg Q₀ = 277, Al–5Mg Q₀ = 231 kJ mol⁻¹** (independent of strain; Barioz 1992; Al–3Mg, ε = 3) vs Q_s(Al) = 142 | [HH eq.6.19–6.22 pp.183–184] |
 | Climb of extended dislocations | v = c₀ D_x F γ_SFE²/(kT…) → recovery rate ∝ γ_SFE² | Argon & Moffat | [HH eq.6.23 p.184] |
@@ -150,6 +164,11 @@
 - Partial annealing (H2x) works because recovery precedes RX in high-SFE Al [HH §6.2.1.3]. **Retained Mg/Mn in solution and fine dispersoids widen the recovery window before RX**, which gives a flatter softening curve and more robust H2x [HBAL03 PDF p.180; Pol06 p.43; Dav01 p.382].
 - Increasing Mg and lowering the anneal T both give smaller recovered subgrains and higher retained strength [HBAL03 PDF p.180].
 - Use **σ ∝ 1/δ** for recovered or hot-worked products (AA3104 hot-worked: linear σ vs 1/δ [Ryen03 Fig.2.25 p.34]). For cells (low T, Hall–Petch-type exponent m ≈ 1) vs subgrains (m ≈ ½) see [Pol06 p.36–37; HBAL03 PDF p.113–114].
+- **Work-hardening anchors for H tempers** (sheet, UTS / YS / El.) [HBAL03 Tab.3 p.264]: 1100-O 75 / 25 MPa / 30 %; 1100-H14 110 / 95 / 5; 1100-H18 150 / – / 4; 5052-O 170 / 65 / 19; 5052-H34 235 / 180 / 6; 5052-H38 270 / 220 / 4. Temper codes: H1 strain-hardened, H2 strain-hardened and partially annealed, H3 strain-hardened and stabilised [HBAL03 Tab.2 p.263]. *Conflict flagged:* 1100-O UTS is 75 MPa here but ≈ 90 MPa in [Pol06 p.129]; both are within a normal supplier spread, so do not calibrate to either alone.
+
+**Relevance to the slug route.**
+- The **lacquer bake (220 °C/10 min)** sits in the recovery range of the DSC anchor (100–250 °C for 99.998 % Al [HH Fig.6.3]). Recovery needs no incubation [HBAL03 p.217], so the heavily worked can wall will start to recover at once. In pure Al recovery can remove up to ~40 % of the work-hardening increment [HBAL03 p.217]; how much happens in 10 min at 220 °C is not quantified in the sources. In Mg + Si-bearing slugs (T11) solute clustering may offset part of this (T11 §2.2 item 3; hypothesis).
+- A **slow heat-up of the slugs** spends time in the recovery range and lowers the RX driving force before nucleation; §4.3 and §8.2 show the cost (10× slower RX in 99.998 % Al) [HBAL03 p.236].
 
 ### 2.4 Pitfalls
 - **Apparent Q from recovery data is often meaningless** [HH p.185]:
@@ -193,7 +212,17 @@
   - New grains may also form by extended recovery: subgrain growth and coalescence until HAGBs develop [Pol06 p.42].
 - **Cube nuclei form preferentially at transition bands** (EBSD-confirmed) after cold rolling and probably also after warm or hot rolling [Pol06 pp.39, 42]. The Dillamore–Katoh mechanism (cube-centred transition bands) is the origin of cube RX texture [HH §2.7.3 p.42].
 - **Shear bands** are "a major nucleation site for recrystallized grains" [HH §2.8.2 p.46]. They give a random nucleus texture with a non-random misorientation distribution [SimRX p.3].
-- **Grain-boundary bulging** is shown for DRX onset in Nimonic 80A [Bom08 p.323], a method illustration only. For static strain-induced boundary migration in Al: **(general knowledge)**, and the HH §7.6 text is not available.
+- **Grain-boundary bulging** is shown for DRX onset in Nimonic 80A [Bom08 p.323], a method illustration only.
+- **Strain-induced boundary migration (SIBM) in Al** (corrected after full-text pass: previously marked general knowledge). Where the dislocation density differs strongly across an existing HAGB (low strains with uneven strain partitioning between grains, or orientation-dependent recovery after heavy strain), the boundary bulges into the side of higher density. The subgrain behind it grows beyond the critical size and becomes a nucleus. Observed in **20 %-compressed 99.99 % Al** (Bellier & Doherty 1977) [HBAL03 pp.222–223].
+- **Subgrain coalescence** produces a subgrain larger than the critical size by climb-out of the dislocations in the shared walls (with a slight rotation); repeated coalescence turns its boundary into a mobile HAGB [HBAL03 p.222, Fig.11].
+- **Classical critical nucleus radius** [HBAL03 eq.7–8 p.221]: ΔF = −(4/3)πR³F_s + 4πR²γ, so R_c = 2γ/F_s.
+  - Mao's estimate: F_s = 1.53×10⁶ J m⁻³ (ρ = 10¹⁵ m⁻²) and γ = 0.6–1.9 J m⁻² give **R_c ≈ 1–3 µm**, "approaching the size order of deformation cells" [HBAL03 p.221].
+  - With this KB's constants (γ = 0.324 J m⁻² [HH Tab.4.2]; F_s ≈ 1.0–7 MPa, §1.2) R_c ≈ 0.09–0.6 µm (derived).
+  - R_c is smaller where ρ is locally higher; this is why **grain boundaries and particles are the preferred (heterogeneous) sites** [HBAL03 pp.222–223]. Shown: nuclei along grain boundaries (high-purity Al–0.008 Cu; forged Al–0.01 Ti) and **around second-phase particles in rolled Al–1.3 wt % Mn** (P. Yang 1996; Engler, Yang & Kong 1996) [HBAL03 p.223, Fig.12].
+- **Particles can accelerate RX.** Particles normally retard boundary migration, but where they trigger "drastic heterogeneous nucleation" RX is faster overall; observed with Al₂Cu and Al₃Fe particles [HBAL03 p.226].
+- **Continuous (in-situ) RX** [HBAL03 pp.228–229]: when HAGB migration is blocked (e.g. by precipitates), only "extremely strong recovery" occurs; HAGBs form slowly by subgrain coalescence and the **deformation orientations are kept** (no new texture).
+  - 99.9 % Al forged 25 % in two perpendicular directions: continuous RX complete after ~40 min at 350 °C; Fe- and Si-bearing precipitates on the original boundaries blocked migration [HBAL03 pp.228–229, Fig.15].
+  - High-purity Al–Fe (Ito, Musick & Lücke 1983): continuous RX is obvious **around 400 °C once Fe exceeds 0.01 wt %**, because many FeAl₃ particles form on the boundaries [HBAL03 p.229].
 - **PSN (particle-stimulated nucleation)** [HH §2.9.3–2.9.4 pp.57–64; Pol06 p.42; HBAL03 PDF p.142]:
   - Requires non-deformable particles that develop a **deformation zone**: a rotated, finely subdivided, highly misoriented region about one particle diameter thick.
   - **d < 0.1 µm: no zones** (relaxation by prismatic loops).
@@ -206,6 +235,9 @@
     - (ii) the nucleus must be large and stable enough to grow into the lower-energy matrix.
   - The PSN-capable particle size **decreases with lower deformation T and higher strain rate** [HBAL03 PDF p.142].
   - PSN generally **randomises texture** (it deviates from cube) [HBAL03 PDF p.143; Leh06 p.177].
+  - **Supply of PSN-size particles.** Constituent diameters are "usually from 1 to 30 µm". They become **smaller with faster solidification, with lower Fe and/or Si, and with more deformation** [HBAL03 p.122].
+  - **Hot-rolled AA3104** (can body): lowering the rolling T or raising the speed to suppress inter-stand RX brings in PSN, and the texture moves from cube to the random PSN texture. Where that transition lies depends on the forming conditions and on the state of precipitation [HBAL03 pp.356–358, Figs.4–5]. Only the figures carry the numbers, and they are not extractable.
+  - **Industrial PSN route (AA7475 superplastic sheet)** [HBAL03 p.1116]: overaged coarse precipitates, then ~80 % warm work at ~200 °C, then **rapid heating** to 480 °C. This gives many PSN nuclei and 10–15 µm grains; 0.1–0.2 µm Cr dispersoids then limit grain growth.
 - **Fine dispersoids or precipitates inside deformation zones suppress PSN.**
   - In 1xxx, Si precipitating before or during annealing (fine Al–Fe–Si or Si) impedes RX within deformation zones, giving fewer effective nuclei [HBAL03 PDF p.152].
   - "Through secondary fine precipitates during RX the effect of primary particles can be suppressed", so RX texture is controllable by alloying and processing [Leh06 p.178].
@@ -222,7 +254,7 @@
 - Dislocation density in the zone: ρ(x) = (2c₁ tanθ_max cos²θ/(b d)) · exp(−c₁x/d) [HH eq.2.24–2.25 p.62].
 - Brown (1997) dislocation model: tan θ = (tan s/2) · ln(d/x) [HH eq.2.26 p.63].
 - CPFEM reproduces the zone rotations but lacks a length scale; gradient plasticity does not reproduce the small-particle cutoff [HH §2.9.4.4 pp.63–65].
-- **PSN nucleation efficiency (nuclei per particle) and the strain dependence of the critical particle size** sit in HH §9.3, which is **not extracted**. Hence it is a gap. As an orientation only: **(general knowledge) efficiency is typically ≤ 1 nucleus per particle, with a critical diameter of order 1 µm at moderate strains, decreasing with strain.**
+- **PSN nucleation efficiency (nuclei per particle) and the strain dependence of the critical particle size** sit in HH §9.3, which is **not extracted**. The full HBAL03 text (2026-10-12) does not supply them either: Mao treats particle nucleation only qualitatively [HBAL03 pp.223, 226]; ch. 3 gives only the direction of the T and strain-rate dependence [HBAL03 p.130]; ch. 7 gives the AA3104 cube/PSN maps as figures [HBAL03 pp.357–358]. Hence it is still a gap (§12 item 4). As an orientation only: **(general knowledge) efficiency is typically ≤ 1 nucleus per particle, with a critical diameter of order 1 µm at moderate strains, decreasing with strain.**
 
 ### 3.3 Design levers
 - **For fine, equiaxed, near-random grains** (formability, low earing contribution from PSN, uniform anodising/brazing response):
@@ -232,6 +264,14 @@
   - In 1xxx sheet, more Fe/Si as constituents gives more PSN-capable particles and finer annealed grain [HBAL03 PDF p.152, Fig.47].
 - **For strong cube** (cube/rolling-texture balance for earing; directional properties): promote transition-band nuclei and suppress PSN. This means lower constituent density, or **fine dispersoids/secondary precipitates that neutralise deformation zones** [Leh06 p.178; HBAL03 PDF p.143].
 - **For coarse grains** (sag resistance, crack deflection, creep; see §5): reduce nucleus density. Use few large particles, low strain, and precipitation that pins sub-boundaries before nucleation.
+
+**Relevance to the slug route.**
+- Three features of the route each push toward **fewer PSN nuclei**, and hence a coarser slug grain:
+  1. the cold reduction is low (30–50 %, ε ≈ 0.36–0.69), which raises the critical particle size (general-knowledge direction, §3.2);
+  2. rotary-caster solidification is faster than DC, which makes the constituents finer [HBAL03 p.122];
+  3. fine Fe/Mn/Si precipitates forming in the deformation zones during a slow heat-up cancel nuclei [HBAL03 PDF p.152].
+- Against this, stored energy that survives from the hot mill (§9) adds driving force (inference).
+- T11's ≈ 1.5–2 vol % of Fe-rich constituents (T11 §2.2) is a large PSN reservoir only if a good share of them is ≥ ~1 µm. **Measure the constituent size distribution in the cold-rolled strip** (fraction ≥ 1 µm, number per mm²); it is the main input for a nucleation-density grain-size model (§4.2, eq.22).
 
 ### 3.4 Pitfalls
 - Measured angle–axis misorientations at particles (30–40°) can underestimate the physical rotation, because random cubic orientations average about 40° [HH p.63].
@@ -248,6 +288,12 @@
 - **HAGB migration Q in high-purity Al:** 63 kJ mol⁻¹ (RX, 273–350 K) and 67 kJ mol⁻¹ (capillarity, 615–705 K). This is about Q_boundary-diffusion, i.e. about half of bulk diffusion [HH Tab.5.2 p.135].
   - With solute, Q at higher concentration approaches self-diffusion or solute diffusion [HH §5.3.3 p.147].
   - Turnbull reaction-rate form: M = (A_J A_A ν b/kT) exp(−H_a/kT) exp(ΔS/k) [HH eq.5.18 p.155].
+- **Mao's atomic-jump estimate of the RX front velocity** [HBAL03 eq.9–12 p.224]:
+  - net jump rate across the boundary, biased by the stored energy per atom F_sa: V = b ν c_v [exp(−(Q_a − F_sa)/kT) − exp(−(Q_a + F_sa)/kT)] ≈ **2 b ν c_v (F_sa/kT) exp(−Q_a/kT)**, because F_sa ≪ kT. This is v = M·P with M ∝ c_v exp(−Q_a/kT)/kT (derived);
+  - inputs: ν ≈ 10¹³ s⁻¹; vacancy fraction c_v ≈ 10⁻⁵ at 700 K and 10⁻⁴ at 800 K; **Q_a ≈ 45 kJ mol⁻¹** (printed "4.5×10⁴ J/m", i.e. 7.47×10⁻²⁰ J per atom, so J mol⁻¹ is meant);
+  - results: **0.08 µm s⁻¹** (heavily deformed, ρ = 10¹⁵ m⁻²) and **0.01 µm s⁻¹** (recovered) at **700 K (427 °C)**; **1.85 and 0.28 µm s⁻¹** at **800 K (527 °C)**; ≈ 0.8 µm s⁻¹ for ρ = 10¹⁶ m⁻². Mao says these "approach the order of practically observed velocity" in Al;
+  - check (derived): the printed values are reproduced with F_sa = F_s·a³/4 (a = 0.404 nm, i.e. the atomic volume) and F_s = 1.53 MPa;
+  - limits: the model ignores solute, particles and misorientation [HBAL03 p.225]. Its Q_a (45 kJ mol⁻¹) is below the measured 63–67 kJ mol⁻¹ for high-purity Al [HH Tab.5.2]. Use it only for **trends**: v ∝ stored energy (recovery cuts v by ~7×), and v rises ~23× from 427 to 527 °C (derived from the printed values).
 - **Orientation dependence:**
   - **40°<111> boundaries** grow fastest in deformed Al, with a broad peak (±10°) in RX vs ±0.2° in curvature-driven bicrystals [HH §5.3.2.1 pp.137–142].
   - Tilt boundaries are about 10× faster than twist boundaries, which gives lenticular grains [HH §5.3.2.2 p.143].
@@ -263,16 +309,24 @@
   - Valid for dilute solutions (c₀ < 0.1 %). Molodov 1998: Q rises with small additions in high-purity Al (interaction of adsorbed atoms).
   - **Cu and Mg in Al** show a very sharp low/high-mobility transition with concentration, and the apparent Q peaks at the transition (an artefact, not a mechanism). Ag and Fe show gradual transitions (Frois & Dimitrov; Montariol) [HH §5.3.3.1–2 pp.145–148].
   - Numeric drag coefficients per element (Mn, Mg, Cu, Fe, Si) are **not extractable** (figures only); see Gaps.
+  - **Confirmed in HBAL03** [pp.225–226, 248]: v is inversely proportional to the Cu content (Gordon & Vandermeer); raising Cu in zone-refined Al from 4.3 to 258 at. ppm clearly lowers the boundary velocity; the boundary breaks free when the driving force makes it too fast for the solute atmosphere to follow (Lücke et al. 1972); segregation c_B = c·exp(−Q_B/kT), with Q_B < 0 for attracted solute (Lücke & Detert 1957, eq.36). In 99.99995 at % Al the HAGB velocity is high and orientation-independent; at 99.9992 at % it drops clearly except near low-Σ coincidence orientations (Fridman et al. 1975).
+  - **Fe in solution is extraordinarily potent** [HBAL03 p.220] (Därmann 1984, as quoted): deformed high-purity Al recrystallises in **50 s at 150 °C**, while deformed **Al–0.01 at % Fe would need more than 10 billion years** at 150 °C. The figure is an extrapolation, not a measurement, but it shows that ~100 at. ppm of Fe changes the RX time at a fixed temperature by many orders of magnitude. Commercially pure Al recrystallises at 200–300 °C; zone-refined Al even at room temperature [HBAL03 p.220].
 - Triple-junction drag matters only for nanocrystalline material (≤ 50 atomic spacings). Grain- and subgrain-growth Q in Al ≈ self-diffusion, i.e. boundary-controlled [HH §5.5 pp.165–167].
 
 ### 4.2 JMAK kinetics
 - Statistical JMAK models convert an "extended" (unimpinged) RX volume into the real volume, assuming random spatial nucleation. Orientation-resolved versions (Bunge–Köhler; Sebald–Gottstein growth selection) predict RX texture but ignore topology and neighbourhood [SimRX pp.2–4].
-- **Explicit form (general knowledge):** X = 1 − exp(−k tⁿ), with k = k₀ exp(−nQ/RT).
-  - **n = 3** for site-saturated 3D growth;
-  - **n = 4** for constant nucleation rate;
-  - measured n in commercial Al alloys is commonly 1–2 because of heterogeneous (clustered) nucleation, recovery during annealing and concurrent precipitation;
-  - t₅₀ = (ln2/k)^(1/n).
-  - HH §7.3–7.4 (JMAK, Cahn–Hagel, microstructural path methods), which would source these, is **not extracted**.
+- **Johnson–Mehl derivation (now sourced; corrected after full-text pass, previously general knowledge)** [HBAL03 eq.13–22 pp.226–228]:
+  - definitions: N = (dn/dt)/(1 − X), the nucleation rate per unit volume of *untransformed* matrix; v = dR/dt;
+  - for constant N and v and spherical growth from random sites: **X = 1 − exp(−(π/3) N v³ t⁴)**, i.e. **n = 4**;
+  - characteristic time t_c = (3/(π N v³))^¼, so X = 1 − exp(−(t/t_c)⁴); X(t_c) ≈ 63 %;
+  - **RX grain size:** grains impinge at about t_c, so d = 2 v t_c. Printed as **d = 2(2v/(πN))^¼** [eq.22]; consistency with eq.20 requires 2(3v/(πN))^¼ (derived; the difference is a factor 1.11). Either way **d ∝ (v/N)^¼**: the RX grain size rises with growth rate and falls with nucleation rate, but only with the fourth root;
+  - N and v are **not constant** in real Al [HBAL03 p.227] (Anderson & Mehl 1945), so the derivation is a guide, not a fit law.
+- **Industrial (steel-type) form used for hot-rolling models** [HBAL03 eq.1–4 pp.359–360]:
+  - X = 1 − exp(−C (t/t₀.₅)^k), where C = ln 2 if t₀.₅ is the time to X = 0.5 (derived);
+  - t₀.₅ = a·ε^(−b)·d₀^c·Z^(−d)·exp(Q_rex/RT), with Z = ε̇·exp(Q_def/RT) (the rate dot is lost in the printed eq.3);
+  - d_rex = e·d₀^f·ε^(−g);
+  - a–g, Q_rex and Q_def are fitted constants; **no Al values are given**. For Al these equations work "in limited cases"; Sellars found them to predict **unrealistically large grain sizes**. Al models need particle precipitation/dissolution and the nature of the nucleation sites [HBAL03 p.360].
+- **Still general knowledge:** n = 3 for site-saturated 3D growth; t₅₀ = (ln2/k)^(1/n) for X = 1 − exp(−k tⁿ) with k = k₀ exp(−nQ/RT); measured n in commercial Al alloys commonly 1–2 because of clustered nucleation, recovery during annealing and concurrent precipitation. A literature value from the web chapter: n fell from 3.0 at 371 °C to 0.8 at 427 °C in deformed, supersaturated Al–Mn under concurrent precipitation (ch12 §4, [W12-19], abstract only). HH §7.3–7.4 (Cahn–Hagel, microstructural path methods) is still **not extracted**, and HBAL03 gives **no Q_rex or n values for Al alloys**.
 - Spatially resolved alternatives [SimRX pp.4–11]:
   - cellular automata (probabilistic switching from a linearised rate equation; can be coupled to CPFEM for Al);
   - Potts Monte Carlo (H = J/2 Σ(1 − δ) + H_El·f; Metropolis W = exp(−ΔE/kT));
@@ -291,6 +345,13 @@
 | AA3103 (Mn_ss 0.20 at %, hom. B), ε = 2 | fully RX in **45 s at 400 °C** (salt bath) to **6 µm**, weak cube, no change in conductivity, i.e. no concurrent Mn precipitation | [Ryen03 §3.4 p.56; Tab.4.2 p.66] |
 | AlMg0.5 / AlMg3, ε = 2 | RX in 25 s at 400 °C; finest grain sizes listed are 10 / 8 µm (attributing these to the ε = 2 route is the compiler's inference) | [Ryen03 §3.4; Tab.4.2] |
 | AA1100 (CP Al), 5 % compression | recovery-only 100–250 °C / 1–4 h; after 1 h X_rec is 7–26 % (mean 14 %) at 100 °C, 17–22 % (19 %) at 150 °C and 54–87 % (68 %) at 200 °C. The 250 °C data (Table 4.4, p.25) are not in the Drive file. Noisy (§2.4) | [Junit08 Tab.4.1–4.3 p.24; means derived] |
+| Deformed high-purity Al vs Al–0.01 at % Fe | 150 °C: 50 s vs > 10¹⁰ years (extrapolated, Därmann) | [HBAL03 p.220] |
+| Commercially pure Al; zone-refined Al | RX at 200–300 °C; zone-refined even at RT | [HBAL03 p.220] |
+| 99.998 % Al, 95 % CR, 300 °C | "after primary RX" at **316 s** by direct annealing; after a 240 °C/600 s recovery pre-anneal (no RX) it needed **3162 s** at 300 °C (~10× slower). Fig.24 of the same chapter still shows grains growing into deformed matrix at 316 s, so treat 316 s as order of magnitude | [HBAL03 pp.236, 238; Tab.2, Figs.22, 24] |
+| 99.9 % Al, forged 25 % in two directions | continuous (in-situ) RX complete after ~40 min at 350 °C | [HBAL03 p.228] |
+| High-purity Al–Fe, Fe > 0.01 wt % | continuous RX around 400 °C (FeAl₃ on boundaries) | [HBAL03 p.229] |
+| **Al–1 wt % Mn, 95 % CR** | primary RX **complete after 1 s at 620 °C**, 87 % cube | [HBAL03 p.251] |
+| Al–3 wt % Mg, 95 % CR | primary RX complete after 200 s at 300 °C | [HBAL03 p.252] |
 
 **Soft-annealing practice (O temper) [W7 Tab.2 p.21].** Metal temperature, time at metal temperature. Heat-up "as short as possible" (avoid coarse grain); below 250 °C cool at any rate.
 
@@ -307,6 +368,40 @@
 | 6xxx | 360–420 | 1–2 | ≤30 °C h⁻¹ to 250 °C |
 | 2xxx / 7xxx | 380–420 | 2–3 | ≤30 °C h⁻¹ (7xxx + 230 °C hold) |
 
+**Annealing practice in HBAL03 (added after full-text pass).**
+- **Principles** [HBAL03 §3.2 p.887]:
+  - annealing is done above the RX temperature, which depends on the prior strain;
+  - commercial practice uses "the lowest temperature that yields the softest state in the minimum amount of time";
+  - **non-heat-treatable wrought alloys are heated to temperature very quickly to avoid grain growth**, because a fine grain size is wanted;
+  - the cooling rate after the anneal is "unimportant" for these alloys.
+- **Table 7 (°F converted to °C, derived)** [HBAL03 p.888]. Footnote /1 on the NHT entries: hold "no longer than to get the center of the furnace load up to temperature"; cooling rate not important.
+
+| Alloy | Anneal T (°F) | ≈ °C (derived) | Time |
+|---|---|---|---|
+| 1060, 1100, 1350 | 650 | 343 | load at temperature |
+| **3003** | **775** | **413** | load at temperature |
+| **3004, 3105** | **650** | **343** | load at temperature |
+| 5005–5652 (all 5xxx listed) | 650 | 343 | load at temperature |
+| 2xxx (except 2036 at 725 °F), 6xxx, 7xxx | 760 | 404 | 2–3 h, then slow cool (footnotes /2, /3) |
+
+- **Al–Mn alloys** [HBAL03 Tab.37 p.299]:
+
+| Alloy | Mn (wt %) | Mg (wt %) | Anneal | UTS O / H (MPa) | YS O / H (MPa) | El. O / H (%) |
+|---|---|---|---|---|---|---|
+| 3003 | 1.0–1.5 | — | 400–600 °C | 110 / 150 (H14) | 42 / 145 | 35 / 12 |
+| 3004 | 1.0–1.5 | 0.8–1.3 | 415 °C | 180 / 240 (H34) | 70 / 200 | 22 / 11 |
+| **3105** | **0.2–0.8** | **0.2–0.8** | **345 °C** | **115 / 170 (H14)** | **55 / 150** | **24 / 5** |
+
+  Footnote: all contain up to 0.25 % Cu, 0.70 % Fe "and 0.3–0.6 % as impurities" (the element is missing in the print).
+- **Conflict flagged (within HBAL03 and against W7):**
+  - 3004: 415 °C [p.299] vs 343 °C [p.888];
+  - 3003: "400–600 °C" [p.299] vs 413 °C [p.888];
+  - W7 gives 380–420 °C for the whole 3xxx group [W7 Tab.2].
+  - The 343 °C entries fit the "lowest T for softest state" rule with time only to bring the load to temperature; 400–420 °C fits the 0.5–1 h holds of W7. **Treat 345–420 °C as the commercial window for lean 3xxx and set the actual value by an isochronal trial.**
+- **Relevance to the slug route.**
+  - 3105 (Mn 0.2–0.8, Mg 0.2–0.8) is the registered alloy closest to the lean slug alloys. Its O-anneal of 345 °C [p.299; p.888] is a useful lower anchor for T11 (Mn 0.14, Mg 0.26), but T11's Fe and Si retained in solution by the quench (§5) can push the RX temperature up.
+  - "Cooling rate unimportant" [p.888] does **not** hold for Mg + Si-bearing slugs: T11 has a Mg₂Si potential, so the cooling rate after the anneal sets the hardness (T11 §2.3 item 2).
+
 ### 4.4 Factors controlling RX (sourced)
 - **Strain.** A critical strain exists (Sauveur 1912). Grain size falls with prior strain (Charpy; Carpenter & Elam) [HH §1.2.1.3 pp.5–6]. The "Rekristallisationsschaubild" (grain size vs strain and T at fixed time) is the standard design map [Prakt05 p.9].
 - **Temperature/time.** RX starts at a "definite temperature" that depends on composition, time and work hardening [Pol06 p.41]. Too-long annealing gives coarse grain [W7 p.5].
@@ -314,16 +409,41 @@
   - Texture and final grain size depend on heating rate, T and time [Pol06 p.39].
   - Slow heating lets dispersoids form before RX [Røy05 p.35].
   - The AMAG coil anneal (300–400 °C, 2–5 h) before a fast continuous solution treatment gave coarse elongated grains vs fine equiaxed grains without it (AA2024) [AMAG14 p.14].
+  - Non-heat-treatable alloys are heated "very quickly to avoid grain growth" [HBAL03 p.887].
+  - **Recovery before RX** lowers the driving force: RX of 95 % CR 99.998 % Al at 300 °C took ~10× longer after a 240 °C/600 s pre-anneal, and the texture became sharper (§8.2) [HBAL03 p.236].
+- **Strain and temperature in the JM picture.** d ∝ (v/N)^¼ [HBAL03 eq.22 p.228]. *Inconsistency flagged:* the text says Anderson & Mehl found "the ratio v/N is increased with increasing tensile deformation or with arising annealing temperature, which would result in refined grain size" [HBAL03 p.228]. By the chapter's own eq.22 a larger v/N gives a **coarser** grain, so either "v/N" should read "N/v" or "refined" is wrong. Do not quote this sentence as evidence. That the RX grain size falls with prior strain is supported independently [HH §1.2.1.3 pp.5–6].
 - **Solute.** Fe in solid solution raises the RX start temperature by precipitating fine Al–Fe particles during the anneal (high-purity 1xxx) [HBAL03 PDF p.152]. Mn raises the RX temperature and promotes fibrous structures [Dav01 p.382]. Cr and Mn raise RX temperatures in 5xxx [Pol06 p.130].
   - **Fe reduces the grain size in wrought products.** In 8006-type Fe+Mn alloys near the ternary eutectic, the fine grain is "stabilized by the finely dispersed iron-rich second phase" [Dav01 p.379].
   - **Ca at the 0.2 % level "alters the recrystallization characteristics of 3003"**; the direction and size of the effect are not stated [Dav01 p.372]. As a trace element, 10 ppm Ca also raises hydrogen pickup in the melt (ch. 02 §7.1).
   - Mn is a common impurity in primary Al at 5–50 ppm [Dav01 p.382].
+  - **Transition-metal effect on the RX temperature (Yelagin, binary alloys cast → 500 °C anneal → hot rolled 420–450 °C → 450 °C anneal → cold rolled)** [HBAL03 p.296, Tab.35]. Maximum increments of RX start / finish temperature:
+
+    | Element | at % at the maximum | ΔT_start (K) | ΔT_finish (K) |
+    |---|---|---|---|
+    | Mn | 0.77 | +30 | +25 |
+    | **Fe** | **0.04** | **+65** | **+35** |
+    | Cr | 0.35 | +45 | +30 |
+    | Ni | 0.04 | −10 | +5 |
+    | Ti | 0.25 | +5 | +180 |
+    | V | 0.21 | +15 | +15 |
+    | Zr | 0.09 | +105 | +240 |
+    | Sc | 0.20 | +120 | +320 |
+    | Nb / Mo | 0.12 | +35 / +70 | +35 / +45 |
+
+    - **Period-IV TMs (the 3d row, incl. Mn, Fe, Cr) raise T_RX only above a threshold close to their solubility limit "at a temperature of solution treatment"** (in this series presumably the 500 °C anneal; compiler's reading). Period-V TMs (Zr, Nb, Mo) act even at very small additions, and some TMs show maxima tied to the solubility limit [HBAL03 p.296].
+    - Effective "antirecrystallisers" have an incomplete 3d shell with few electrons, a large atomic-radius misfit, a solid solution supersaturated by solidification, and decompose into thermally stable fine dispersoids [HBAL03 p.296].
+    - Interpretation (inference): the small Mn increment (+30 K at 0.77 at %) reflects a route in which Mn was largely precipitated and coarsened at 500/450 °C **before** cold rolling. In a route without homogenisation (rotary casting + quench), Mn and Fe stay in solution and can precipitate **during** the anneal, which is the more retarding sequence (§5.2). Expect larger increments than Table 35 shows.
 - **Particles.** See §3 and §5.
 - **Furnace accuracy.** Modern furnaces hold ±2.5 K [Leh06 p.172]. ±5 °C variations in rolling temperature have measurable property effects [AMAG14 p.12].
 
 ### 4.5 Pitfalls
 - A JMAK fit with one Q over a temperature range that crosses the precipitation C-curve (3xxx) is invalid (see §5).
 - Lab salt-bath RX (seconds) ≠ batch coil annealing (hours of ramp), because the precipitation path differs.
+- Steel-type t₀.₅/d_rex regressions (§4.2) over-predict Al grain sizes [HBAL03 p.360]. Do not use them without a particle and nucleation-site term.
+
+**Relevance to the slug route.**
+- Grain size is set mainly by the **nucleation density** (d ∝ (v/N)^¼ [HBAL03 eq.22]); v enters only weakly. So slug-grain control is about keeping nuclei alive: enough PSN-size constituents (§3), no recovery-dominated slow ramp (§2.3), and no precipitation on the substructure before RX (§5).
+- **Anneal-temperature anchors for lean slugs:** 3105 O at 345 °C [HBAL03 p.299]; 3003 at 413 °C and 3004/3105 at 343 °C with time only to bring the load to temperature [HBAL03 p.888]; 380–420 °C for 0.5–1 h [W7]. Al–1Mn at 95 % CR is fully recrystallised in 1 s at 620 °C [HBAL03 p.251], which shows how fast RX can be once the driving force is high and precipitation is avoided.
 
 ---
 
@@ -355,6 +475,24 @@
   - When Fe and Si are fully bound in Al₁₅(FeMn)₃Si₂, the Mn and Si in solid solution fix the dispersoid amount; use the Al–Mn–Si diagram for this [Bel05 §1.6].
   - 3003 can be single-phase (Mn < 1 %, Si < 0.1 %), and Mn microsegregation is removable above 540–550 °C. More Si gives excess phases, and a risk of partial melting about 60 °C below the binary Al–Mn solidus [Bel05 §1.6].
 - **Faster solidification** (belt or twin-roll casting: 11–40 °C s⁻¹ surface for a 19 mm slab; 10²–10³ °C s⁻¹ for twin-roll) gives finer dendrite cells (5–10 µm vs 30–70 µm DC) and higher supersaturation of Fe/Mn. Different properties result, and a leaner alloy may substitute [Pol06 p.102; Leh06 p.171]. Preheat and hot-rolling practice must be matched to the casting route [Leh06 p.171].
+- **Transition-metal (TM) solid solutions** [HBAL03 pp.293–295, 299]:
+  - TM supersaturation forms during **solidification** and rises with cooling rate. These solutions are **far more stable** than those of Cu, Mg, Zn, Si or Li after quenching; they decompose between 250 and 650 °C depending on the TM [p.293].
+  - **Maximum Mn in (Al) vs cooling rate** (Table 33; "%", presumably wt % since 1.82 equals the equilibrium maximum): 1.82 at 10⁻¹ K s⁻¹; 2.5 at 10 K s⁻¹; 2.8 at 10² K s⁻¹; 3.0–5.0 at 10³ K s⁻¹ [p.294]. The text says that at the 10–100 K s⁻¹ of "modern ingot and casting metallurgy" (Al) is saturated up to the equilibrium limit [p.294], which sits uneasily with the 2.5–2.8 % in the table (flagged).
+  - **Al₆Mn:** limit solubility 0.88 at %; decomposition range **300–350 °C**; hardening ΔH/C = 10 per at % (Zr 154, Sc 208) [Tab.34 p.295].
+  - In 3xxx ingots (V_c < 10² K s⁻¹) the Mn solid solution **decomposes above 325 °C** to fine Al₆Mn or (AlFeMn) and (AlFeMnSi) dispersoids. There is "no real precipitation hardening", but the dispersoids **hinder grain growth upon RX** and give a fine-grained sheet. High Fe and Si and small Cu and Mg additions also refine the grain [p.299].
+  - TMs that form eutectics with Al (**Mn, Fe**, Sc, Ni) decompose at lower T and faster than peritectic formers (Cr, V, Zr, Ti, Mo), whose diffusion coefficients are about an order of magnitude lower [p.295].
+  - **TM dendritic segregation is not easily removed by homogenisation**; TM diffusion coefficients are 10⁻¹⁴–10⁻¹² cm² s⁻¹ at 500 °C (printed "cm³/sec") [p.295]. This is consistent with D_Mn = 5×10⁻¹³ cm² s⁻¹ [Pol06 p.105].
+- **Homogenisation sets the dispersoid population (AA3003)** [HBAL03 p.355]: mean dispersoid size **0.03 µm at a density of 740 µm⁻³** (low-T anneal) vs **0.17 µm at 11 µm⁻³** (high-T anneal). Derived, assuming spheres and "size" = diameter:
+  - F_V ≈ 1.0 % vs 2.8 %;
+  - F_V/r ≈ 0.70 vs 0.33 µm⁻¹;
+  - P_Z = 3F_Vγ/2r ≈ 0.34 vs 0.16 MPa (γ = 0.324 J m⁻²).
+  
+  The low-T population pins about twice as hard. The size range "strongly affects recrystallization during and after hot rolling" [p.355]. *Caution:* the implied F_V *rises* after the high-T anneal, although Mn solubility rises with T. The source's size or density definitions may therefore differ from the assumptions above, so treat these derived values as order-of-magnitude only.
+
+**Relevance to the slug route (Mn/Fe budget).**
+- Any realistic caster cooling rate keeps far more Mn soluble than T11 (0.14 Mn) or lean 3xxx (≤ 0.5 Mn) contain [HBAL03 Tab.33]. Whatever Mn is not tied up in Fe-rich constituents during solidification therefore stays in solid solution through casting, the short in-line hot-mill exposure (≈ 500 → 380 °C) and the quench.
+- Fe solubility is tiny (max ≈ 0.05 % [HBAL03 PDF p.150]), but rapid solidification also retains some Fe in supersaturation (general knowledge; not quantified in HBAL03 Tab.33). Per at % present, Fe gives the largest RX-start increment in Table 35 (+65 K at only 0.04 at %; ranking derived).
+- Both decompose in the slug-anneal range (Mn above ~325 °C [p.299]; Al₆Mn 300–350 °C [p.295]). That is the classical "precipitation competes with RX" situation of §5.2 (inference).
 
 ### 5.2 Physical principle of the precipitation/RX interaction
 - Stored energy (~10⁵ J m⁻³ lightly deformed; ~7 MPa for heavily deformed Al, derived) is tiny compared with phase-transformation energies (~1 kJ mol⁻¹). Precipitation at the annealing temperature can therefore have "a profound effect" on RX [HH §2.2.1 p.13; §1.3.2 p.10].
@@ -370,7 +508,18 @@
 - **Fe/Si in 1xxx:** Fe or Si precipitating before or during annealing raises the RX start temperature and kills PSN nuclei [HBAL03 PDF p.152].
 - **3xxx RX-temperature shift by Mn:** Mn "increases the recrystallization temperature … promote[s] fibrous structure upon hot working" [Dav01 p.382]. The fibrous structure is retained because dispersoids are strung out in the working direction (mechanical fibering) [HBAL03 PDF p.135; Shep99 §1.2].
 - **Conductivity as a precipitation probe.** Electrical conductivity verified that a 45 s / 400 °C RX anneal of AA3103 caused no Mn precipitation [Ryen03 §3.4 p.56]. Use it to place your anneal relative to the precipitation C-curve.
-- **(general knowledge)** The resulting time–temperature map for supersaturated 3xxx has two C-curves, one for RX start and one for dispersoid precipitation start. Above their crossing T_c, RX precedes precipitation and gives fine equiaxed grains (dispersoids then form inside the RX grains). Below T_c, precipitation on the deformation substructure precedes RX: RX is retarded, nuclei are few, and grains are coarse and elongated (pancake). This is the user's "precipitation before RX → coarse/elongated grains". It is consistent with [Røy05 p.34–35; AMAG14 p.14; HBAL03 PDF p.152]. The quantitative 3xxx T–t–T curves (HH §9.8) are **not extracted**.
+- **Further support from the HBAL03 full text (2026-10-12):**
+  - **Commercial-purity alloys:** in AA1050, Fe and Si "efficiently obstruct recrystallization when present as finely dispersed precipitates". **Mn and Cr "cause the same effect unless the elements are already bound in coarse particles"** [HBAL03 p.356]. This is the industrial statement of the sequencing rule: Mn or Cr that is still in solution (or present as fine dispersoids) retards RX; Mn already in coarse particles does not.
+  - **High-purity Al–Fe:** above 0.01 wt % Fe, FeAl₃ forms on boundaries during annealing and RX becomes **continuous (in situ)** around 400 °C [HBAL03 p.229]. This is the extreme case of "precipitation before RX".
+  - **Texture:** impurity atoms generally weaken cube and strengthen R {124}<211>, "**especially when they precipitate during the recrystallization annealing**"; avoiding the precipitation temperature raises the cube fraction, so the annealing temperature is decisive (Ito et al. 1983) [HBAL03 p.235].
+  - **Hot rolling:** Fe clearly inhibits static RX after hot rolling (super-purity Al with Fe, Si, Cu additions; 50 % pass, 500 → 390 °C, 30 s before quench; Blade 1979) [HBAL03 pp.243–244, Fig.28]. Only the figure carries the numbers.
+- **(general knowledge)** The resulting time–temperature map for supersaturated 3xxx has two C-curves, one for RX start and one for dispersoid precipitation start. Above their crossing T_c, RX precedes precipitation and gives fine equiaxed grains (dispersoids then form inside the RX grains). Below T_c, precipitation on the deformation substructure precedes RX: RX is retarded, nuclei are few, and grains are coarse and elongated (pancake). This is the user's "precipitation before RX → coarse/elongated grains". It is consistent with [Røy05 p.34–35; AMAG14 p.14; HBAL03 PDF p.152; HBAL03 pp.229, 235, 356]. The quantitative 3xxx T–t–T curves (HH §9.8) are **not extracted**, and HBAL03 gives only the precipitation onset (Mn above ~325 °C [p.299]; Al₆Mn 300–350 °C [p.295]), not RX-start/precipitation-start curves.
+
+**Relevance to the slug route.**
+- The quenched strip carries Mn, Fe, Si (and Mg) in solution into cold rolling and the slug anneal. Mn and Fe start to precipitate in the same 300–400 °C range in which a batch slug anneal ramps and holds [HBAL03 pp.229, 295, 299].
+- **A slow ramp or a low hold therefore invites precipitation on the recovered substructure before RX.** The expected result is fewer nuclei, coarse or elongated grains and, in the extreme, continuous RX with the deformation texture kept [HBAL03 pp.228–229].
+- **Fast heating to a temperature above the precipitation "nose"** (position unknown for this chemistry; measure it) lets RX run first. Dispersoids then form inside the new grains and cap later grain growth (§6) (inference consistent with [HBAL03 p.887; Ryen03 §3.4]).
+- Use **conductivity before and after the anneal** to check which sequence occurred (§5.2 above).
 
 ### 5.3 Dispersoid spatial distribution
 - DC-cast segregation gives non-uniform dispersoids. **RX starts in dispersoid-depleted regions**, such as the dispersoid-free zone at dendrite edges when the former segregates to dendrite centres (Zr: Scheil k = 1.4; Sc: k = 0.9) [Rob04 pp.1410–1418].
@@ -414,17 +563,22 @@
 | Particles on boundaries | P_X = D F_V γ/(4r²) | precipitation onto substructure | [HH eq.4.36 p.119] |
 | Dissolving coherent particle | F depends on ln(C₀/C_eq) | — | [HH eq.4.20 p.112] |
 | Limiting grain size (derived from the sources) | 3γ/D (growth pressure, [HH §1.3.2]) = 3F_Vγ/(2r) gives **D_lim ≈ 2r/F_V** | consistency estimate | derived |
-| Limiting grain size (classical) | **D_Z = 4r/(3F_V)** | Zener–Smith; the HH ch.11 variants are not extracted | **(general knowledge)** |
+| Limiting grain size (classical; corrected after full-text pass) | **R_c = 2γ/P_Z = 4r/(3f)** with ΔP = 2γ/R; R is the grain (curvature) radius, so the diameter is **D = 2R_c = 8r/(3F_V) ≈ 2.7 r/F_V (derived)** | Mao calls R_c the "stable average grain size", but his eq.31–32 define R as a radius. The same 4r/3F_V is often quoted as a **diameter** (general knowledge), a factor-2 ambiguity. The range of estimates is therefore D_lim ≈ (1.3–2.7)·r/F_V. The HH ch.11 variants are still not extracted | [HBAL03 eq.37–38 p.250] |
+| Zener pressure (second source) | P_z = 3fγ/(2r) | same as HH eq.4.24 | [HBAL03 eq.37 p.250; Ridley eq.8 HBAL03 p.1114] |
+| Empirical pinning criterion | Zener pinning "will occur when F_V/r ≥ 2" (for groups of fine particles) | **units not printed** (presumably µm⁻¹; then P_Z ≈ 1 MPa with γ = 0.324 J m⁻², derived). Treat as uncertain | [HBAL03 p.1114] |
 
 **Worked example (derived; inputs assumed: r = 50 nm, F_V = 0.01, γ = 0.324 J m⁻²):**
 - P_Z = 0.097 MPa.
 - D_c = 0.37 µm and P′_Z,max ≈ 0.36 MPa.
-- D_lim: 10 µm (2r/F_V) or 6.7 µm (4r/3F_V).
+- D_lim: 10 µm (2r/F_V), 13 µm (8r/3F_V, i.e. twice Mao's radius 4r/3F_V) or 6.7 µm (4r/3F_V read as a diameter).
 - Compare:
   - RX driving pressure in heavily deformed Al: ≈7 MPa (derived);
   - subgrain-growth pressure for 1 µm subgrains: ≈0.6 MPa [HH §1.3.2];
   - growth pressure for 100 µm grains: ≈0.01 MPa [HH §1.3.2].
 - **Conclusion:** a typical 3xxx dispersoid population cannot stop growth of an established RX front driven by stored energy. It *can* (a) arrest subgrain coarsening and therefore *nucleation* (pinning is near its maximum because D_subgrain ≈ D_c), and (b) cap post-RX grain growth at about 10 µm. This is why the **timing** of precipitation relative to nucleation (§5) is decisive.
+- HBAL03 states the same mechanism: aluminide dispersoids (fine, "not necessarily coherent") hinder RX by **pinning small-angle boundaries and dislocations** [HBAL03 p.296]. Mn dispersoids in 3xxx "efficiently hinder grain growth upon recrystallization" [HBAL03 p.299]. Size anchors: after 350–450 °C for up to 200 h, Al₃Zr is 5–11 nm and Al₃Sc 25–35 nm [HBAL03 p.298].
+
+**Relevance to the slug route.** With 0.14 Mn (T11) the Mn dispersoid fraction is small. If, say, F_V ≈ 0.2 % and r ≈ 50 nm (assumed, not measured), D_lim ≈ (1.3–2.7)·r/F_V ≈ 33–67 µm (derived), inside the 20–100 µm slug window. A lean alloy is therefore close to the regime where post-RX grain growth is **not** dispersoid-capped. Hold time and heat-up rate then control the final size [HBAL03 p.887]. Measure F_V and r of dispersoids in annealed slugs before relying on a Zener cap.
 
 **Dispersoid size classes:**
 
@@ -467,21 +621,40 @@
   - Burst pressure (MPa): 3102 0 %/no braze 38; 0 %/braze 39; 5 %/no braze 48; 5 %/braze 39 [Wil12 Tab.6 p.50]. About 3 % sizing gives about −22 % post-braze strength [Wil12 p.13].
   - Similarly: coarse peripheral RX grains in extrusions (−10–15 % longitudinal strength) [Pol06 p.108]; peripheral RX in unlubricated direct extrusion from strain accumulation at the dead-zone border [Shep99 p.47]. Reheat cycles of RX-inhibited alloys must avoid coarse grains in critically strained regions [Pol06 p.107]. Locally different deformation followed by annealing gives coarse grain with optical and mechanical defects [W7 p.5].
 - Orange peel arises from coarse surface grains. Shallow coarse surface grains are less harmful, and hot-worked products are less prone [Pol06 p.43].
+- **Normal grain growth (Mao)** [HBAL03 pp.244–248]: homogeneous coarsening by curvature-driven HAGB migration toward the centres of curvature, distinct from subgrain coalescence. In 2D sections the boundaries meet at about 120°. Shrinking grains vanish ever faster as they get small. **The largest grains are often 3–4× the average size** (95 % CR Al–3 Mg annealed at 500 °C for 40–160 s).
+- **Abnormal grain growth (secondary RX): three triggers** [HBAL03 pp.250–254]:
+  1. **Particles** that coarsen, coalesce or dissolve at high T, lowering P_Z. Grains above an upper size limit then escape, while the matrix stays pinned.
+  2. **Texture.** A strong single component means most of its grains are bordered by low-mobility LAGBs; grains of a weak component meet mobile HAGBs and, once larger than the matrix grains, grow as secondary grains.
+     - **Al–1 wt % Mn**, 95 % CR: primary RX complete after **1 s at 620 °C** with **87 % cube**. On further annealing at 620 °C two AGG stages followed: first {011}<133> replaced cube, then {001}<320> replaced {011}<133>, each with a jump in mean grain size (Eichelkraut 1988) [pp.251–252, Fig.35].
+     - **Al–3 wt % Mg**, 95 % CR: RX complete after 300 °C/200 s with strong cube. After 300 °C/600 s plus 400 °C/20 s the cube maximum reached 119.9× random. At 400 °C the cube grains were then consumed by {112}<312> and {001}<490> grains after ≈ 3000 s (Zhao 1990) [pp.252–253, Figs.36–37].
+  3. **Free surface** in thin foil (< 0.1 mm, > 99.99 % Al): grains through the thickness and a very sharp cube, because the {001} surface energy is lowest [p.254].
 
 ### 7.2 Quantitative
-- Growth law **(general knowledge)**: dD/dt = M·αγ/D, giving D^n − D₀^n = k t with n = 2 ideal (often 2–4 with solute or particles), k = k₀ exp(−Q_gg/RT). The HH ch.11 text is not extracted.
+- **Growth law (now sourced; corrected after full-text pass, previously general knowledge)** [HBAL03 eq.31–35 pp.245–248]:
+  - boundary energy per unit volume F_b = 4πR²γ/(2·(4/3)πR³) = **3γ/(2R)** (R = mean grain radius);
+  - curvature pressure **ΔP = 2γ/R**; v = −dR_s/dt ∝ ΔP, which gives R_s² = R_s0² − Cγt for a shrinking grain and **R² = R₀² + Cγt** for the mean grain, i.e. **R ∝ √t (n = 2)**, C depending on T;
+  - example: with γ ≈ 1.0 J m⁻² (Mao's value, §1.4), coarsening from R = 50 to 100 µm releases 1.5×10⁴ J m⁻³ [p.245]; with γ = 0.324 J m⁻² it is 4.9×10³ J m⁻³ (derived). Both are ~100–1000× below the RX driving force (§1.2), which is why grain growth is slow and easily pinned.
+- Still **general knowledge**: n is often 2–4 with solute or particles; k = k₀ exp(−Q_gg/RT). The HH ch.11 text is not extracted.
+- **Solute drag in grain growth** [HBAL03 pp.248–250]: segregation c_B = c·exp(−Q_B/kT) (Lücke & Detert) falls with rising T and weaker binding, and a high driving force lets the boundary break away; both restore near-pure-Al mobility.
 - Q for grain/subgrain growth in Al ≈ self-diffusion (boundary control) [HH §5.5.2 p.167].
 - Limiting size with particles: see §6.
 - Hall–Petch for designing grain size:
   - pure Al k = 0.065–0.07 MPa m^½ [Ryen03 eq.2.12 p.33];
   - Mg-free alloys ≤ 0.15, Al–Mg > 0.2 (5754: k = 0.22, σ_f = 42.5 MPa; 5182: k = 0.30, σ_f = 57.6 MPa; σ_f = 15.5·wt %Mg + 24 MPa) [HBAL03 PDF p.179];
   - AlNi6 k = 0.14 [Ryen03 p.33].
+  - In Al, k is about **5× smaller than in ferrous alloys**, so grain size is a weak strengthener except at very fine sizes, where Hall–Petch still holds [HBAL03 p.263].
 
 ### 7.3 Design levers
 - Keep pre-braze or pre-anneal strains **away from the critical-strain window**. Either deform enough to recrystallise fine, or not at all.
 - Alternatively, **pre-recrystallise** before the strain-inducing operation and pin with dispersoids.
 - Alternatively, provide **dispersoids stable at the braze T**. Al₃(Sc,Zr) dissolves at 575–600 °C [Wil12 p.41]. Mn "as a dispersed precipitate … is effective in slowing recovery and in preventing grain growth" [Dav01 p.382], but the source gives no temperature limit, so survival at braze T stays **(general knowledge)**.
-- Short anneal times at the minimum effective T, and fast heat-up, limit coarse grain [W7 Tab.2 footnote].
+- Short anneal times at the minimum effective T, and fast heat-up, limit coarse grain [W7 Tab.2 footnote]. HBAL03 gives the same rule for non-heat-treatable alloys: heat very quickly and hold only until the load centre reaches temperature [HBAL03 pp.887–888].
+- Avoid a **single very strong texture component** if long high-T exposures follow; it is a trigger for texture-induced AGG [HBAL03 pp.251–253].
+
+**Relevance to the slug route.**
+- Slugs need 20–100 µm grains. Grain growth after RX follows R² − R₀² ∝ t [HBAL03 eq.35], so **soak time matters less than nucleation density** once RX is complete. Doubling the soak enlarges a growing grain by at most √2× (derived, ideal n = 2).
+- Lean alloys have few dispersoids to cap growth (§6), so the "heat fast, hold only to temperature" rule [HBAL03 p.888] is the main guard against coarse or duplex grains in the slug centre of a large batch load.
+- A mixed PSN texture is unlikely to trigger texture-induced AGG. A strongly cube-textured slug (low PSN) held long at high T could (inference from [HBAL03 pp.251–253]).
 
 ### 7.4 Pitfalls
 - Sc/Zr dispersoid pinning fails at braze temperature: AlScZr RX and coarsening between 575 and 600 °C. Ageing before braze did not help [Wil12 pp.41, 50–51].
@@ -502,8 +675,13 @@
 | Goss G | {011}<100> | 0, 45, 90 |
 | Cube | {001}<100> | 0, 0, 0 |
 | Dillamore D | {4 4 11}<11 11 8> | 90, 27, 45 |
+| Rotated cube (shear) | {001}<110> | 45, 0, 0 |
+| **R (RX component)** | **{124}<211>** | **57, 29, 63** |
+| — | {111}<112> | 90, 55, 45 |
 
-- β-fibre (C–S–B) plus α-fibre (G–B). At high strain S becomes dominant [HH pp.70–71].
+The last three rows are from [HBAL03 Tab.1 p.234]. *Flags:* that table prints copper as {112}<**112**>, a misprint for {112}<111> (as above and in [HBAL03 PDF p.143]); it gives Brass and Goss with φ₂ = 0° instead of 90°, which is a symmetry-equivalent setting (general knowledge).
+
+- β-fibre (C–S–B) plus α-fibre (G–B). At high strain S becomes dominant [HH pp.70–71]. In 95 %-rolled 99.998 % Al, S exceeds 60 % of the volume [HBAL03 p.238].
 - Relaxed-constraints theory explains C+S (ND–RD and ND–TD shears) [HH §3.7.1.4 p.85]. Cube and Goss are *metastable*, so they persist to large strain [HH p.85].
 - Most of the rolling texture is formed by ε = 2 in AA1050 [Ryen03 §4.2.1 p.68].
 - Mg weakens texture and destabilises S. At 3–5 % Mg, shear bands raise Brass; above about 5 % the texture randomises [Ryen03 p.21–22].
@@ -516,6 +694,22 @@
 - Rolled Al gives cube grains plus grains with retained rolling texture [Pol06 p.39]. Cube or Goss is strong especially in high purity. Substantial constituent fractions mean PSN, which randomises [HBAL03 PDF p.143].
 - Pure Al and some alloys "always form cube texture by RX". PSN deviates from cube. Fine secondary precipitates during RX suppress the primary-particle (PSN) effect [Leh06 p.177–178].
 - Growth selection via 40°<111> mobility [HH §5.3.2; SimRX p.3].
+- **Mechanisms in rolled Al (Mao)** [HBAL03 pp.234–238]:
+  - Rolled and annealed pure Al gives **cube {001}<100>, R {124}<211> and sometimes Goss {011}<100>** [p.235].
+  - **Oriented nucleation (Dillamore & Katoh):** cube lies in a *divergent* zone of orientation space. During rolling, cube-oriented regions split into transition bands with steep orientation gradients. After polygonisation and coalescence their subgrains acquire mobile HAGBs and nucleate cube (and R). Cube is metastable in rolling, so some cube subgrains survive heavy reductions (Ridha & Hutchinson) [pp.234–238].
+  - **Growth selection (Lücke):** cube and R are both ~40°<111> from S, the main rolling component, so their boundaries are the fastest [pp.235, 238]. In 95 % CR 99.998 % Al at 300 °C, nuclei appear in the transition bands between cube and S after 100 s, and by 316 s all the very large grains are cube or R [p.238, Fig.24].
+  - **The initial texture carries over:** in Al–0.01 Ti with a strong initial Goss, 95 % rolling and 300 °C annealing gave Goss + cube. TiAl₃ on the original boundaries stopped growth across them, so the nucleation pattern of the original grains survived [pp.237–238].
+- **Recovery before RX sharpens the texture** [HBAL03 Tab.2 p.236]. 95 % CR 99.998 % Al:
+  - 240 °C/600 s (recovery only) then 300 °C/3162 s: **cube 54 %, R 26 %**;
+  - direct 300 °C/316 s: **cube 12 %**, with the rest spread over {011}<611>, {013}<100>, {149}<511>, {225}<554>, {239}<311> and {269}<354> (6–23 % each).
+  - Explanation: the lowered driving force makes RX slow, so specially oriented (cube, R) nuclei win. A high driving force makes RX "rash", and many orientations grow [pp.236–237].
+- **Impurities/precipitation** weaken cube and strengthen R, especially when they precipitate during the anneal. Avoiding the precipitation temperature raises cube [HBAL03 p.235].
+- **3xxx:** Fe "prevents the formation of earing upon deep drawing due to the control of texture" [HBAL03 p.299]. A plausible mechanism is more Fe-rich constituents giving more PSN, which randomises (inference, consistent with [HBAL03 PDF p.143]).
+- **Hot-band cube for can body (AA3104/AA5182)** [HBAL03 pp.356–358]:
+  - can-body stock needs a distinct cube in the hot band to reduce earing;
+  - with little inter-stand RX, cube nuclei form at the expense of the rolling components and grow during the later anneal or coil self-anneal. Coarse dispersoids at large spacing help RX during coiling;
+  - inter-stand RX instead forms **large cube bands that deform unfavourably** in later passes; lowering the T or raising the speed restrains it but brings in PSN (random texture);
+  - the computed fraction of inter-stand RX correlates with cube intensity and 0/90° earing (AA5182), and is used for pass optimisation [HBAL03 p.358, Fig.6].
 - Hot-band textures: technically pure Al hardly recrystallises dynamically, so hot band shows pronounced cube {100}<001> [Leh06 p.175].
   - AA5005 transfer gauge: cube 36× random plus minor Bs. AA5182: weak cube [Ryen03 Tab.4.1 p.66].
   - The hot-band texture influences Lüders strain, uniform elongation and strength [Leh06 p.175].
@@ -534,7 +728,9 @@
 - Mechanical fibring (grain shape, particle stringers) can dominate anisotropy over crystallographic texture [Pol06 p.40].
 
 ### 8.5 Gaps
-- **The P-texture {011}<566> and ND-rotated cube** (typical PSN- or particle-related RX components in 3xxx) are **not described** in the extracted text; HH ch.12 is missing.
+- **The P-texture {011}<566> and ND-rotated cube** (typical PSN- or particle-related RX components in 3xxx) are **not described** in the extracted text; HH ch.12 is missing. The full HBAL03 text (2026-10-12) does not list them either (Mao's Table 1 has cube, rotated cube {001}<110>, R, Goss and the rolling components only [HBAL03 p.234]). The R component, the oriented-nucleation vs growth-selection mechanisms and the cube/PSN competition in AA3104 are now covered (§8.1–8.2).
+
+**Relevance to the slug route.** Impact extrusion is not limited by earing the way deep-drawn cans are. The texture questions for slugs are: (i) uniform wall flow and a uniform surface after forming (general knowledge), and (ii) the AGG risk of a single strong cube component (§7). A PSN-dominated, near-random slug texture is the safer target. That is also what a high constituent count and an anneal without precipitation give [HBAL03 PDF p.143; HBAL03 p.235].
 
 ---
 
@@ -548,11 +744,19 @@
 - Deformation heating raises the strip T [AMAG14 p.12].
 - At hot-working T, work hardening vanishes through dynamic recovery and RX [Pol06 p.36]. The Nes model gives dynamic recovery as dipole collapse plus subgrain growth with sinh-type rate laws [Ryen03 eq.2.37–2.39 pp.41–42].
 - Flow stress ∝ 1/δ for hot-worked AA3104 [Ryen03 Fig.2.25 p.34].
+- **Dynamic recovery and DRX (Mao)** [HBAL03 pp.240–244]:
+  - DRV works by cross-slip and climb, which need the narrow partials of high-SFE Al to recombine; its activation energy is "inversely proportional to the stacking fault energy" [p.240];
+  - DRX shows single-peak (low T, high rate) or multiple-peak (high T, low rate) flow curves [pp.240–241];
+  - in Al, DRX was long thought absent. Yamagata found it only in ≥ 99.999 % Al at very low compression speeds (341 °C, 1 mm min⁻¹), and **not** in 99.99 % Al (Cu 10, Fe 36, Si 26 ppm; 310 °C, 0.06 mm min⁻¹) [pp.242–243];
+  - hot-rolled (522 → 294 °C) Al–0.0035 Cu kept a deformed structure and recrystallised only in a later anneal [p.241, Fig.26];
+  - Mao argues that solute segregating to dislocations lowers the effective SFE, so DRV removes less stored energy and DRX can start; the DRX tendency rises with Mg in solution (Al–Mg at 0.9 T_m, Gardner & Grimes), and "similar behaviour" is reported for Al–Mn, Al–Mg–Mn and 99.5 % Al [p.244].
+- **Industrial view (Karhausen & Korhonen)** [HBAL03 p.356]: in customary industrial alloys DRX "may be observed only at extremely high temperatures", mainly by local bulging of grain boundaries. RX normally takes place **between stands or after rolling (post-dynamic or static)**, or by **self-annealing on the coil** from the rolling heat. *Conflict flagged:* this is hard to reconcile with Mao's report of DRX-type behaviour in Al–Mn and 99.5 % Al [p.244], which rests on flow-curve shape only. This KB follows the industrial view and [HBAL03 PDF p.142]: dilute and Mn-bearing alloys dynamically recover; high-Mg alloys may DRX.
+- **Hot-rolling model status** [HBAL03 pp.359–360]: steel-type Avrami/t₀.₅/d_rex regressions (§4.2) are of limited use for Al. Physically based models with nucleation-site efficiency and precipitation are under development.
 
 ### 9.2 Quantitative (method from Bom08, not Al data)
 - Activation energy from the **Zener–Hollomon hyperbolic-sine law**, with peak stress fitted over T and ε̇. Nimonic 80A: Q = 379 kJ mol⁻¹ [Bom08 p.323].
-- Form **(general knowledge)**: Z = ε̇ exp(Q/RT) = A [sinh(α_s σ)]^n'.
-- Subgrain size **(general knowledge)**: δ⁻¹ = a + b ln Z. HH ch.13 and Sheppard §4.2/4.11.4 with Al values are not extracted.
+- Form: Z = ε̇ exp(Q/RT) [HBAL03 eq.3 p.359, there written with Q_def, the apparent activation energy for deformation; no Al value given] = A [sinh(α_s σ)]^n' (the sinh law is **general knowledge**).
+- Subgrain size **(general knowledge)**: δ⁻¹ = a + b ln Z. HH ch.13 and Sheppard §4.2/4.11.4 with Al values are not extracted, and HBAL03 gives no Al constants.
 - For dilute Al alloys Q_HW is usually close to Q_self = 142 kJ mol⁻¹ [HH Tab.5.1] (**general knowledge** that it is used as such).
 - DRX onset by interrupted tests and metallography: GB bulging at ε ≈ 0.175 (1080 °C, 0.1 s⁻¹, Nimonic). The peak strain shifts to higher ε at higher ε̇ or lower T [Bom08 pp.323–327]. Processing maps (DMM) locate stable windows [Bom08 p.324].
 - Critical PSN particle size in hot working decreases with lower T and higher ε̇ [HBAL03 PDF p.142]. **(general knowledge)**: at high T and low Z, particle zones recover and PSN can be suppressed entirely.
@@ -563,13 +767,22 @@
   - unRX or recovered hot band (low exit T, fine dispersoids) gives a retained deformation texture.
   - Earing balance follows (§8).
 - Exit and coiling T accuracy matters at ±5 °C [AMAG14 p.12].
-- **Static RX in coil (self-annealing)** depends on stored energy at the coiling T and on the dispersoid state **(general knowledge)**.
+- **Static RX in coil (self-annealing)** depends on stored energy at the coiling T and on the dispersoid state. HBAL03 confirms the industrial use of self-annealing on the coil from the rolling heat and that **coarse dispersoids at large spacing help RX during coiling** [HBAL03 p.356].
+- **Inter-stand RX control:** lower the rolling T or raise the speed to restrain it (but watch for PSN replacing cube) [HBAL03 p.356].
 - **Metadynamic RX** (completion after DRX nuclei formed in the pass) is relevant only for high-Mg alloys in Al per [HBAL03 PDF p.142] **(definition: general knowledge)**.
 
 ### 9.4 Pitfalls
 - Bom08 constants (Q = 379 kJ mol⁻¹, critical strains, processing-map optimum 1000–1080 °C) are for Nimonic 80A and **must not be transferred to Al**. Only the method transfers.
 - Homologous temperature should be referenced to the lowest-melting phase, not to pure-Al T_m [Shep99 §1.2]. Low-melting eutectics set the upper hot-working limit [AMAG14 p.11; Bel05 §1.6].
 - Deformation heating raises the actual T above the set-point [AMAG14 p.12].
+- Steel-type hot-rolling RX regressions predict unrealistically coarse Al grains [HBAL03 p.360].
+
+**Relevance to the slug route (in-line hot mill → quench).**
+- Blade's experiment (50 % hot rolling of super-purity Al with Fe, Si or Cu additions; **entry 500 °C, exit 390 °C**; 30 s delay; quench) is almost the user's hot-mill window (≈ 500 → ≈ 380 °C, ≥ 50 %, then a water bath). **Fe clearly inhibited static RX** in it [HBAL03 pp.243–244, Fig.28]. Hot-rolled dilute Al with no hold also stayed deformed until a separate anneal [HBAL03 p.241].
+- So the quenched hot band of an Fe-bearing slug alloy is expected to be **dynamically recovered, not recrystallised** (inference). Two consequences:
+  1. its recovered substructure and any surviving stored energy add to the 30–50 % cold reduction at the slug anneal (more driving force than the cold strain alone suggests);
+  2. the cast-strip grain and its texture are not reset before cold rolling. Coarse columnar cast grains could then carry through as banding (inference; check by EBSD of the hot band).
+- If a fully recrystallised hot band is wanted (e.g. to reset the cast structure), it needs a higher exit T or a short hold before the quench, against the user's choice to retain Mn, Mg and Si in solution (trade-off; see ch19).
 
 ---
 
@@ -587,6 +800,8 @@
   - anneal at 620 °C only within a narrow composition window [Bel05 §1.5].
 - 8006 (Al–1.6Fe–0.65Mn) and 8011 (Al–0.75Fe–0.7Si): foil and finstock. Dispersion hardening gives 30–40 MPa of proof and tensile strength; solid solution gives 2–10 MPa of proof stress and 5–20 MPa of tensile strength [Pol06 p.131].
 - 8011A soft anneal: 340–400 °C, 1–2 h [W7].
+- In high-purity Al–Fe with > 0.01 wt % Fe, FeAl₃ on boundaries makes RX continuous around 400 °C [HBAL03 p.229]. In AA1050, finely dispersed Fe/Si precipitates obstruct RX in hot rolling [HBAL03 p.356].
+- 8xxx (Fe + Mn): good strength–ductility and retained elevated-T strength through a fine grain size stabilised by dispersed Fe-rich precipitates [HBAL03 p.297].
 
 **3xxx [HBAL03 PDF pp.171–172; Pol06 pp.129–130; W7; Wil12]**
 - Mn_ss in annealed sheet: YS +21 MPa per wt % and UTS +42 MPa per wt %. In H19: YS +35 MPa per wt % Mn, compared with **+70–85 MPa per wt % Mg** [HBAL03 PDF p.172].
@@ -594,6 +809,7 @@
 - 3003 draws better in the cold-worked than in the annealed state (cans) [Pol06 p.35].
 - In AA3004 the second-phase strengthening rises fast early and then stays constant, while the solute contribution grows with strain [Ryen03 §2.4 p.29].
 - AA3102 (tube, as tested: Si 0.07, Fe 0.41, Mn 0.24) extrudes into fine RX equiaxed grains [Wil12 pp.18, 40].
+- Mn (up to 1.25 %) in can alloys "allow[s] high deformation degrees and … prevent[s] grain growth", by slowing RX and through a fairly uniform distribution of Mn precipitates [HBAL03 p.297]. Commercial Al–Mn alloys (3003, 3004, 3105) anneal at 345–415 °C (3003: "400–600 °C"); O/H-temper properties in §4.3 [HBAL03 Tab.37 p.299]. Retained strength is "sufficient … up to 200 °C" [HBAL03 p.299].
 - Brazing heat exchangers: braze at 560–610 °C (CAB ~595 °C, Mg-free filler, low-Mg base) [Pol06 p.167–168].
   - Tube 3005: Al–1.2Mn–0.40Mg–0.35Fe–0.30Si–0.15Cu.
   - Fin FA6815: Al–1.6Mn–1.5Zn–0.85Si–0.25Fe–0.15Zr. Heat-exchanger alloys rely on solid solution plus dispersion [Pol06 p.168].
@@ -605,6 +821,8 @@
 - Mg ≥ 3–4 % gives β-phase on GBs at 60–200 °C [Leh06 p.174; Pol06 p.130].
 - Lüders type A/B. Avoid with strain-hardened sheet or by forming > 150 °C [Pol06 p.40–41].
 - Shear bands appear readily above about 2–3 % Mg [Ryen03 p.18].
+- 95 % CR Al–3 Mg: RX at 300 °C/200 s gives a strong cube; a long 400 °C anneal brings texture-induced abnormal growth ({112}<312> and {001}<490> grains consume cube) [HBAL03 pp.252–253].
+- DRX tendency rises with Mg in solution in hot compression [HBAL03 p.244].
 
 **6xxx (brief)**
 - Mn, Cr and Zr prevent RX in solution treatment (fine grain counters excess-Si GB embrittlement) [Dav01 p.381; HBAL03 PDF p.184].
@@ -629,19 +847,26 @@
 | 10 | Boundary migration | v = M(P_D − P_Z − P_sol); M = M₀ e^(−Q/RT) | HP Al HAGB Q = 63–67 kJ mol⁻¹; with solute → Q_self or Q_solute | HH eq.5.1–5.2; Tab.5.2 |
 | 11 | Solute drag (CLS) | P = v/M + α c₀ v/(1 + β² v²) | v ∝ 1/c₀ (drag regime); breakaway at high v or T | HH eq.5.23–5.25 |
 | 12 | Deformation zone (PSN) | tanθ = tanθ_max e^(−1.8x/d); θ′_max = 0.8 θ_max (d − 0.1)^0.2 | zone only for d > 0.1 µm; strain-only for d > 2.5 µm; practical PSN for d ≳ 1 µm | HH eq.2.21–2.23; Pol06 p.42 |
-| 13 | JMAK | X = 1 − exp(−k tⁿ), k = k₀ e^(−nQ/RT) | **n = 3–4 ideal; 1–2 typical in Al alloys (general knowledge)**; apparent Q of pure Al RX ≈ 110–150 kJ mol⁻¹ (derived from Pol06 p.42) | SimRX (concept); general knowledge |
+| 13 | JMAK | X = 1 − exp(−k tⁿ), k = k₀ e^(−nQ/RT); Johnson–Mehl X = 1 − exp(−(π/3)N v³ t⁴); industrial X = 1 − exp(−C(t/t₀.₅)^k) | **n = 4 for constant N, v (sourced)**; n = 3 site saturation and 1–2 typical in Al alloys (general knowledge); n 3.0 → 0.8 under concurrent precipitation in Al–Mn (ch12 [W12-19]); apparent Q of pure Al RX ≈ 110–150 kJ mol⁻¹ (derived from Pol06 p.42) | HBAL03 eq.19–21 pp.227–228, eq.1 p.359; SimRX (concept) |
 | 14 | Zener | P_Z = 3F_Vγ/2r; P′_Z,max ≈ 1.2F_V^(2/3)γ/r at D_c = (4πr³/3F_V)^(1/3) | coherent ×2; bands ×L/t; on boundaries D F_V γ/4r² | HH eq.4.24–4.36 |
-| 15 | Limiting grain size | D_lim ≈ 2r/F_V (derived) / 4r/3F_V (**general knowledge**) | — | §6 |
+| 15 | Limiting grain size | R_c = 4r/(3f) as a **radius** (sourced), i.e. D = 8r/3F_V; D_lim ≈ 2r/F_V (derived from 3γ/D); 4r/3F_V when read as a diameter (general knowledge) | range (1.3–2.7)·r/F_V; state the convention used | HBAL03 eq.38 p.250; §6 |
 | 16 | Dispersoid KWN | Gibbs–Thomson c_r = c_∞ exp(2σV_m/(R_g T r)); classical nucleation (Q ≈ 2.07 eV atom⁻¹ for Sc/Zr); dr/dt = (D/r)(c − c_α(r))/(c_β − c_α(r)); LSW r³ − r₀³ = a(t − t₀) | σ(Al₃(Sc,Zr)) = 0.1 J m⁻² (fitted; 0.06–0.18 measured) | Rob04 eq.1–5 |
 | 17 | RX fraction from F_V/r | X_RX = vol. fraction where F_V/r < (F_V/r)_crit | (F_V/r)_crit calibrated on one condition | Rob04 p.1419 |
 | 18 | Mn solid-solution budget (3103) | Mn_ss = f(homogenisation) | 0.40 → 0.24 → 0.20 → 0.15 at % (Table §5.1) | Ryen03 Tab.3.2 |
 | 19 | Diffusion (500 °C) | — | D_Mn = 5×10⁻¹³; D_Cu = 5×10⁻¹⁰; D_Mg,Si = 10⁻⁹ cm² s⁻¹; +50 °C → ~⅓ homogenisation time | Pol06 p.105 |
 | 20 | Anneal anchors | — | 3xxx O-anneal 380–420 °C/0.5–1 h; 1050 320–350 °C; 8011 340–400 °C; AA3103 ε = 2 → RX 45 s at 400 °C | W7 Tab.2; Ryen03 §3.4 |
 | 21 | Strain measures | ε = ln(t₀/t); ε_vM = (2/√3)ε | 39 % → 0.5; 63 % → 1; 87 % → 2; 95 % → 3 | Ryen03 eq.3.2–3.4, Tab.3.3 |
-| 22 | Grain growth | D^n − D₀^n = k₀ e^(−Q/RT) t | **n = 2 ideal (general knowledge)**; Q ≈ Q_self | HH §5.5.2 |
-| 23 | Hot working | Z = ε̇ e^(Q/RT) = A sinh(ασ)^n′; δ⁻¹ = a + b ln Z | **general knowledge** (Al constants not extracted); Q_HW ≈ 142 kJ mol⁻¹ assumed | Bom08 (method) |
+| 22 | Grain growth | D^n − D₀^n = k₀ e^(−Q/RT) t; ideal R² = R₀² + Cγt with ΔP = 2γ/R | **n = 2 ideal (sourced)**; n 2–4 with solute/particles (general knowledge); Q ≈ Q_self; largest grains 3–4× mean | HBAL03 eq.32–35 pp.247–248; HH §5.5.2 |
+| 23 | Hot working | Z = ε̇ e^(Q/RT) (sourced) = A sinh(ασ)^n′; δ⁻¹ = a + b ln Z; t₀.₅ = a ε^(−b) d₀^c Z^(−d) e^(Q_rex/RT); d_rex = e d₀^f ε^(−g) | Al constants not given in any extracted source; Q_HW ≈ 142 kJ mol⁻¹ assumed (general knowledge); the steel-type t₀.₅/d_rex set over-predicts Al grain size | HBAL03 eq.1–4 pp.359–360; Bom08 (method) |
 | 24 | Q from logarithmic recovery data (added 2026-10-12) | X = C₁ ln(t/t₀), t₀ = τ₀ e^(Q/RT) → C₁ = (∂X/∂ln t)_T; **Q = −R (∂X/∂(1/T))_t / C₁** (X as a fraction or in %, but the same in both derivatives) | Valid only in the logarithmic regime (not t → 0 or ∞), for isothermal holds long compared with the heat-up, and for a recovery-only state (no RX or precipitation in the window). A single-slope fit without C₁ (Junit08) gives unit-dependent numbers (§2.4) | HH eq.6.6–6.7 (form); t₀ form **general knowledge** |
 | 25 | Mn supersaturation at anneal T (added 2026-10-12) | ΔMn = Mn_ss − Mn_eq(T) | Mn_eq (wt %), (Al)+Al₆Mn+α field: 0.73 / 0.44 / 0.25 / 0.15 / 0.06 at 600 / 550 / 500 / 450 / 400 °C; ≤0.08 with free (Si); 0.026–0.05 at 427–527 °C with Al₃Fe present. Valid for equilibrium three-phase fields; real 3xxx with Fe and Si lies between these bounds | Bel05 Tab.1.9, 1.13 |
+| 26 | Second-order recovery (added, HBAL03 pass) | dρ/dt = −kρ² → ρ = 1/(kt + 1/ρ₀) | ρ: 10¹⁵ → 1.5×10¹⁴ m⁻² in recovery; up to 40 % of the work-hardening hardness recovered in pure Al | HBAL03 eq.4–5 pp.219–220; pp.216–217 |
+| 27 | RX front velocity (atomic-jump model) | v = 2bνc_v (F_sa/kT) e^(−Q_a/kT), F_sa = F_s·Ω | ν = 10¹³ s⁻¹; c_v = 10⁻⁵ (700 K), 10⁻⁴ (800 K); Q_a ≈ 45 kJ mol⁻¹; v = 0.08 / 1.85 µm s⁻¹ at 427 / 527 °C (ρ = 10¹⁵). Trend use only (no solute or particles) | HBAL03 eq.9–12 p.224 |
+| 28 | RX grain size from N and v | d = 2v t_c ∝ (v/N)^¼ (printed 2(2v/πN)^¼; 2(3v/πN)^¼ for consistency, derived) | grain size set mainly by nucleation density | HBAL03 eq.20–22 pp.227–228 |
+| 29 | Critical nucleus radius | R_c = 2γ/F_s | Mao: 1–3 µm (γ 0.6–1.9 J m⁻²); 0.09–0.6 µm with γ = 0.324 J m⁻², F_s = 1–7 MPa (derived) | HBAL03 eq.8 p.221 |
+| 30 | TM effect on RX temperature | ΔT_RX,start / ΔT_RX,finish (max) | Mn 0.77 at %: +30 / +25 K; Fe 0.04 at %: +65 / +35 K; Zr 0.09: +105 / +240 K; Sc 0.20: +120 / +320 K (after a 500 °C anneal + hot rolling + 450 °C anneal, i.e. pre-precipitated) | HBAL03 Tab.35 p.296 |
+| 31 | Mn retained vs cooling rate; Mn decomposition | max Mn in (Al): 1.82 / 2.5 / 2.8 / 3–5 % at 10⁻¹ / 10 / 10² / 10³ K s⁻¹; decomposes > 325 °C (Al₆Mn 300–350 °C) | sets Mn_ss for a non-homogenised (strip-cast) route | HBAL03 Tab.33 p.294; Tab.34 p.295; p.299 |
+| 32 | NHT anneal practice | T = lowest giving the softest state; fast heat-up; hold only until the load reaches T; cooling rate unimportant (not for Mg + Si alloys) | 1xxx, 3004, 3105, 5xxx 343 °C; 3003 413 °C [p.888]; 3105 345 °C, 3004 415 °C [p.299]; 3xxx 380–420 °C/0.5–1 h [W7] | HBAL03 pp.887–888, 299; W7 Tab.2 |
 
 ---
 
@@ -649,15 +874,18 @@
 
 1. **Missing core text:**
    - HH ch.7 (RX kinetics: JMAK n, Q, strain/T/heating-rate effects), ch.9 (PSN efficiency, Zener during RX, bimodal particles, **§9.8 precipitation–RX interaction and T–t–T**), ch.11 (grain growth and Zener variants), ch.12 (cube, P, ND-rotated cube), ch.13 (DRV, Z–subgrain relation, annealing after hot deformation) and ch.15 (industrial Al processing, can body).
-   - Handbook of Aluminum ch.4 (Mao); Sheppard ch.3–5; Polmear §3.6 (foil/fin/canstock); Ryen §4.5.2 (AA3103 work hardening) and ch.5 (solute effects).
-   - **Status 2026-10-12: still missing.**
+   - Sheppard ch.3–5; Polmear §3.6 (foil/fin/canstock); Ryen §4.5.2 (AA3103 work hardening) and ch.5 (solute effects).
+   - **Resolved 2026-10-12: Handbook of Aluminum** (full text read; Mao ch.4 integrated into §1–§11). It closes the "not extracted" notes on SIBM, the Johnson–Mehl n = 4 derivation, the parabolic grain-growth law and the classical Zener limit (now sourced), and adds anneal practice, TM effects on T_RX and the AA3104 cube/PSN competition. It does **not** close the HH-dependent items below: Mao is textbook-level and gives no Al values of k₀, n, Q_rex, PSN efficiency or T–t–T curves.
+   - **Status 2026-10-12 for HH, Sheppard, Polmear, Ryen: still missing.**
      - The Drive download tool refuses HH (12.66 MB): *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."*
      - Polmear (9.68 MB) is under that limit but still failed in transfer (the connector closed: "message from the server was too large or could not be parsed"), so the practical ceiling lies between a 2.84 MB PDF (3.8 M base64 characters, received intact) and a 9.68 MB PDF (failed).
    - Remedy: the user splits the PDFs into chapter files of a few MB (HH ch.7, 9, 11, 12, 13, 15; Polmear ch.3; Sheppard ch.3–5; Ryen ch.4–5) and uploads them to Drive, or downloads them via the standard Drive API outside this tool, then re-runs the extraction.
 2. **3xxx-specific RX kinetics are not in hand:** k₀, n and Q of RX for AA3102, AA3103, AA3207 vs Mn_ss, Fe/Si, strain and heating rate. The C-curve for Mn dispersoid precipitation in cold-rolled 3xxx (start and finish vs T) is also missing. These need dedicated papers (e.g. Sjølstad, Nes/Marthinsen, Engler, Tangen, Somerday & Humphreys), none found in Drive.
+   - Anchors added 2026-10-12 (HBAL03): model forms (Johnson–Mehl; industrial t₀.₅ form) [pp.227–228, 359]; Mn decomposition onset > 325 °C and Al₆Mn 300–350 °C [pp.295, 299]; T_RX increments of Mn and Fe after pre-precipitation [Tab.35 p.296]; Al–1Mn 95 % CR RX in 1 s at 620 °C [p.251]. Web chapter: JMAK n 3.0 → 0.8 (371 → 427 °C) under concurrent precipitation [ch12 §4]. **Still no (k₀, n, Q) set for a lean 3xxx or for T11-type chemistry**; for the slug route the trial programme (isochronal and isothermal hardness + conductivity on cold-rolled strip) is the realistic source.
 3. Quantitative **solute-drag coefficients for Mn, Fe and Si in Al** (only Cu and Mg are shown qualitatively). Interaction of Mn_ss with recovery kinetics (U*, V in the Nes model).
-4. **PSN nucleation efficiency** and the critical particle diameter as a function of strain for Al₁₅(FeMn)₃Si₂ and Al₆(Mn,Fe) constituents.
-5. **Microsegregation of Mn** (k < 1, so cell centres are depleted (general knowledge)). Where do dispersoid-free zones form in DC vs twin-roll 3xxx, and are they the coarse-grain seeds (cf. Rob04 for Zr)?
+   - HBAL03 adds v ∝ 1/c_Cu, the Lücke–Detert segregation form and the extreme Fe effect (Al–0.01 at % Fe at 150 °C) [pp.220, 225, 248], but **no drag coefficients** for Mn, Fe or Si.
+4. **PSN nucleation efficiency** and the critical particle diameter as a function of strain for Al₁₅(FeMn)₃Si₂ and Al₆(Mn,Fe) constituents. HBAL03 checked in full (2026-10-12): qualitative only (§3.2). For the slug route, also the size distribution of Fe-rich constituents in rotary-cast, hot- and cold-rolled strip (needed with d*).
+5. **Microsegregation of Mn** (k < 1, so cell centres are depleted (general knowledge)). Where do dispersoid-free zones form in DC vs twin-roll 3xxx, and are they the coarse-grain seeds (cf. Rob04 for Zr)? HBAL03 confirms that TM dendritic segregation is not easily removed by homogenisation (TM diffusivities 10⁻¹⁴–10⁻¹² cm² s⁻¹ at 500 °C) [p.295]; this matters more for the non-homogenised strip route. The location of dispersoid-free zones is still open.
 6. Sag resistance, braze erosion vs grain size and shape: no quantitative source in Drive.
 7. Taylor factor and texture-dependent stored energy for Al rolling components (only qualitative for Al [HH p.23]).
 8. **User model check.** `AA3207_Recrystallization_Simulation.xlsx` has four saved versions; see chapter 09 §4.11 for the full comparison.
@@ -672,7 +900,23 @@
      - t₅₀ ≈ 298 s at 350 °C for 70 % CR, and ≈1,210 s for 45 % CR (chapter 09 §4.4–4.5, §4.11).
 
      These are in the range of the literature anchors above, but they rest on a single unsourced calibration point (chapter 09 §4, Assessment).
+   - **Further literature anchors (HBAL03 full text, 2026-10-12):**
+     - commercially pure Al recrystallises at 200–300 °C [HBAL03 p.220];
+     - 95 % CR 99.998 % Al at 300 °C: primary RX at about 316 s, or 3162 s after a recovery pre-anneal [HBAL03 p.236];
+     - Al–1Mn 95 % CR: RX complete in 1 s at 620 °C [HBAL03 p.251];
+     - O-anneal practice 3105 345 °C, 3004 415 °C, 3003 "400–600 °C" [HBAL03 Tab.37 p.299]; 3003 413 °C and 3004/3105 343 °C, held only until the load reaches temperature [HBAL03 Tab.7 p.888];
+     - Mn increases the RX start T by at most +30 K (0.77 at %, pre-precipitated) and Fe by +65 K (0.04 at %) [HBAL03 Tab.35 p.296];
+     - HP-Al boundary velocity estimate 0.08 µm s⁻¹ at 427 °C for ρ = 10¹⁵ m⁻² [HBAL03 p.224];
+     - RX grain size d ∝ (v/N)^¼ [HBAL03 eq.22 p.228]; Zener limit R_c = 4r/(3f) [HBAL03 eq.38 p.250].
 9. Junit08's activation energies are unreliable (§2.4). Do not reuse them.
    - Re-assessed after the 2026-10-12 full-text pass: they are artefacts of fitting without C₁ and with X in %.
    - The pages that would allow a corrected Q (the 150 °C time series, Tables 4.5–4.8) are not in the Drive file. The file is a 24-page excerpt, so this item can only be closed with the complete thesis.
-   - A clean recovery-kinetics data set for 1xxx/3xxx (σ or hardness vs t at ≥3 temperatures, the same strain, isothermal holds) is still needed for H-temper and recovery modelling.
+   - A clean recovery-kinetics data set for 1xxx/3xxx (σ or hardness vs t at ≥3 temperatures, the same strain, isothermal holds) is still needed for H-temper and recovery modelling. HBAL03 supplies only the functional form (second-order, ρ = 1/(kt + 1/ρ₀) [eq.5 p.220]), not Al rate constants.
+10. **Data conflicts flagged in the HBAL03 full-text pass (2026-10-12)**. Resolve before using these numbers in models:
+    - Mao's SFE 250 mJ m⁻², b = 0.35 nm and γ_HAGB 0.6–1.9 / 1.0 J m⁻² vs HH's 166 mJ m⁻², 0.286 nm and 0.324 J m⁻² (§1.4). This KB uses the HH values.
+    - O-anneal temperatures for 3003/3004 differ between HBAL03 ch.5 (Tab.37), ch.19 (Tab.7) and W7 (§4.3).
+    - DRX in Al–Mn and 99.5 % Al: Mao (flow curves) vs Karhausen & Korhonen (industrial: post-dynamic/static RX only) (§9.1).
+    - Zener limit 4r/3F_V as a radius (Mao) or a diameter (common usage) (§6).
+    - 1100-O UTS 75 MPa [HBAL03 Tab.3] vs ≈ 90 MPa [Pol06].
+    - Mao's eq.22 coefficient and his Anderson–Mehl sentence are internally inconsistent (§4.2, §4.4).
+11. **Slug-route data needed (new 2026-10-12):** Blade's figure (Fe effect on static RX after 50 % hot rolling, 500 → 390 °C) [HBAL03 Fig.28 p.244] is the closest literature analogue to the in-line hot mill, but its values are figure-only. Obtain Blade, *Metal Science* 13 (1979) 206–210, or measure the hot-band state (EBSD fraction RX, conductivity) on rotary-cast strip directly.

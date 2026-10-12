@@ -12,6 +12,11 @@
 > numbers (assumptions stated). *(digitised)* = read off a rendered figure, accuracy ≈ ±3 MPa / ±2 HB / ±1 % A10.
 > *(inference)* = design conclusion drawn from cited facts. *(general knowledge)* = not in any source read; kept
 > minimal. ⚠ = equation reconstructed from garbled OCR or image; verify before use.
+>
+> **Revision 2026-10-12 (full-text pass of S-029).** `[TOT p.x]` = Totten & MacKenzie, *Handbook of Aluminum* Vol. 1
+> (catalogue key S-029), read in full; printed page numbers. Older `[S-029 …]` citations that came via other chapters
+> are kept; where re-checked against the full text they are marked "verified". Statements changed by this pass are
+> marked *"corrected after full-text pass"*.
 
 ---
 
@@ -20,6 +25,7 @@
 | Ref | Work | Drive link | Readability / how far the text goes |
 |---|---|---|---|
 | **S-053** | W.H. Sillekens, *Backward Can Extrusion and Materials Behaviour*, PhD TU Eindhoven 1992 (DOI 10.6100/IR374925) | https://drive.google.com/file/d/19TZFzxjO1cFP7k7mwdfrpcEXIbSRYG2z/view (dups 1FgOlZBrGWWfSCsEn9pe44eb10MEYShxy, 1u7fg8Mrxj0ha6NwDE3Z79OHEJ-VLEw2u, 1n2OYmFBOJJitAFgIRO00wbGtSTIEMvWa) | `read_file_content` returns **109,131 chars for all four copies (identical)**, ending at Fig. 4.11, printed p.67 — Ch.4.3, **Ch.5 and App. C are not in that export**. The PDF itself (3.64 MB, 143 PDF pages) was therefore downloaded and text-extracted: **Ch.1–6 and App. C read completely** (pp.1–126). App. A (extra steel/brass flow curves) and App. B (error analysis) not read (not Al-relevant). Many equations are images and are garbled (⚠); Figs 2.5, 2.6, 3.4, 3.8, 5.2, 5.3, 5.6 were read from rendered page images. **Material studied is rapidly-solidified recycled car-shredder scrap (Al-6Si-3Cu), not 3xxx.** |
+| **TOT (= S-029)** | G.E. Totten & D.S. MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003 (ISBN 0-8247-0494-0). Used here: **Ch.17 K. Shinozaki & K. Miyamoto, "Forging" (pp.809–836)**; **Ch.18 W.J. Thomas, T. Altan & S. Kaya, "Sheet Forming of Aluminum Alloys" (pp.837–880)**; Ch.16 H.A. Kuhn, "Designing for Aluminum Forging" (pp.775–808); Ch.3 M. Tiryakioğlu & J.T. Staley (spot checks pp.98–100, 160, 164) | Four PDF parts in Drive folder "Cloud part book": https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view (pp.1–388) · https://drive.google.com/file/d/1EwIKZG891qUZJJfloJCpHAP2hJmgXhZE/view (pp.388–788) · https://drive.google.com/file/d/10ilZD0Rt4LM1rUzaCa9hLB0Up-NaH7a3/view (pp.788–988) · https://drive.google.com/file/d/1KmVD2fbnjMnPd2M5YfDEQaI0OflR_NMD/view (pp.989–1296) | **Full text, coverage complete (2026-10-12).** All four parts downloaded; the broken font maps were rebuilt and the text re-extracted. **Ch.17 and Ch.18 read completely.** Ch.16 read for cold-forging, flow-stress, friction, defect and tooling content (the rest is hot die forging of 2xxx/6xxx/7xxx). Ch.21 (Machining) skimmed: no flow-stress or strain-rate data for 1xxx/3xxx. Ch.17 Fig. 2 (flow curve) and Fig. 17 (specific extrusion pressure) were **digitised** from 300-dpi page renders; Figs 19 and 22 and garbled equations were read from page images. Tables have extraction quirks; all numbers used were checked against the page images. |
 | **S-052** | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.Ing. NTNU 2003 | https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view (dup 1UzIUO6x8LEca1klH_1--rFxKuoXwsVhI) | `read_file_content` returns **132,953 chars (both copies identical)**, ending at **printed p.70 (§4.2.1, Fig. 4.6)**; the Drive search snippet (MAX) is the same text. Download refused (11.2 MB > 10 MB limit). **Read:** abstract, Ch.2 theory (pp.7–50, incl. the Nes work-hardening model), Ch.3 materials/processing (pp.53–63), §4.1–4.2.1 (pp.65–70). **Not reached:** §4.2.2–4.5 (incl. §4.5.2 AA3103 work-hardening curves, p.90), **Ch.5 (solute effects stage II–IV, particle & grain-size effects, model application, pp.97–130)**, Part B. Hence **no per-solute MPa coefficients from Ryen's own results** — only the abstract's conclusions. |
 | **S-051** | T. Vasevska, "Utrjevanje aluminija in zlitin pri vzdolžnem hladnem valjanju", *Mater. Tehnol.* 38(3–4) 191 (2004) (SL) | https://drive.google.com/file/d/1wpVR73nujVXO1OfmvV57CzuvwR__bdRc/view | Full PDF downloaded (5 pp., pp.191–195), read and translated completely. **No hardening equation in the text**; the property-vs-reduction curves (Figs 3–6, Al99.5) were **digitised** from rendered images (§3.1). |
 | **S-046** | Schuler, *Metal Forming Handbook* (Springer 1998) | https://drive.google.com/file/d/1n5Yidy74bZxj6ZifvCNtq0iRtk2nyh43/view | `read_file_content` returns 124,942 chars, ending in **§3.2 (press design, ≈p.60 of ~560)**. The cold/impact-extrusion chapter (**Ch.6: §6.3.2 "Billet or slug preparation" p.454, §6.3.3 surface treatment p.459, §6.5.3 backward cup extrusion p.474, §6.5.5 ironing p.476**) appears only in the table of contents — **not reached**. Download impossible (28.6 MB). Only §2.2 basics used. |
@@ -29,7 +35,7 @@
 | **S-057** | Mall + Herlan, CMC 200/250 monobloc aerosol-can lines | https://drive.google.com/file/d/1MFEG_JSZSKkmzXpRJ5lF58iiv7MBxnvX/view | Full (2 large pages; columns interleaved but readable). Line data incl. press force. |
 | **S-058** | Hinterkopf, N40.2 necking machine | https://drive.google.com/file/d/1rox7kzRaTGK_jAjUQrKQIBs06yvEmHQ_/view | Full (8 pp.). |
 | **S-059/S-060** | "Basic punching (theory)", Mate Precision Tooling slides 62–63 (.jpg) | https://drive.google.com/file/d/13cVKT8DZmNansFOdGiUpKPv8JrAiXkNY/view · https://drive.google.com/file/d/15cVOvSbU5hiY7Gkdp7PZg2cOd1ib6CHM/view | Image labels only (slug edge zones). |
-| cross-refs | S-028 Polmear, S-029 Totten *Handbook of Aluminum*, S-030 Kaufman, S-043 EAA *Aluminium in Commercial Vehicles* | links in `sources/catalog.md` | **Not re-read**; quoted via chapters 05/06/07 with the original page numbers. |
+| cross-refs | S-028 Polmear, S-030 Kaufman, S-043 EAA *Aluminium in Commercial Vehicles*; S-029 Ch.3 values quoted via chapters 05/06/07 | links in `sources/catalog.md` | S-028/S-030/S-043 **not re-read**; quoted via chapters 05/06/07 with the original page numbers. **S-029 is now read in full (row TOT)**; the Ch.3 values used below (pp.98–100, 160, 164) were re-checked against it. |
 | W-02, W-08, W-09, W-13, W-15/16, W-17/18, W-22/23, W-03 | User's working files | see ch.09 file inventory | Values quoted from ch.09, not re-read. |
 
 **Searched but nothing usable for this chapter:** Sheppard *Extrusion of Aluminium Alloys* (S-045; both copies >10 MB, download
@@ -67,12 +73,27 @@ non-technical aerosol-industry news-tracker script. **Excluded as instructed:** 
 - Line rate **200/250 cans/min**, 19 machines, >60/75 million cans/yr [S-057 tech. data] → **0.24–0.30 s per press
   cycle** *(derived)*. Ardagh's Al aerosol range: Ø35–66 mm, heights 70–277 mm (Ø53: 115–260 mm, 210–520 ml)
   [S-056 p.6]; the in-house sizes (Ø45–53, H 171–210 mm) are inside it.
+- **Closest documented analogue: a backward-extruded marker-pen housing (Miyamoto Industry).** The route is: blank
+  pierced from thick pure-Al sheet → lubricating with **zinc stearate** → backward extrusion of the tube at room
+  temperature → trimming and rolling of the tube end → degreasing → drying → pre-painting, painting and
+  over-coating, each followed by drying → inspection [TOT p.827]. The alloy is given as A1050 in the process text but
+  A1070 in the figure captions and §2.6 of that chapter [TOT pp.814, 818, 827] (inconsistency in the source).
+  - Blank Ø15.85 × 10.5 mm, with a 0.5 mm recess on one face and a chamfered other face. Tube Ø15.3 mm × ≈ 110 mm,
+    wall dimensioned 0.3 ± 0.05 mm, bottom 3.1 mm [TOT pp.827–828, Fig. 22, read from image; the drawing is partly
+    illegible and does not explain why the blank is wider than the tube].
+  - Wall/diameter ≈ 0.020, against ≈ 0.008 for the in-house cans *(derived)*. Output was 5 tubes/min on a
+    special-purpose press [TOT p.828], against 200–250 cans/min on aerosol lines [S-057].
 
 ### 2.2 Deformation measures and the in-house geometries
 - Extrusion ratio R = A₀/A₁ and reduction r = (A₀−A₁)/A₀; for cylindrical cans R = R_C²/(R_C²−R_R²) (R_C chamber,
   R_R ram radius) [S-053 pp.2–3, Eqs 1.1–1.2]. Low-strength materials (CP-Al, Pb, Zn) reach **R ≫ 10 (r > 0.90)**,
   steel much less [S-053 p.3].
-- Homogeneous (minimum) wall strain = ln R *(general knowledge)*.
+- Homogeneous (minimum) wall strain = ln R *(general knowledge)*. Logarithmic strain ε = ln(h₀/h) is the measure
+  used for forging, and "many forged products have strain between 2 and 4" [TOT p.810, Eq. 2].
+- Shinozaki defines the backward-can reduction in area as **r = d₂²/d₀²** (punch² / container², i.e. inner² / outer²
+  can diameter) [TOT p.813, Eq. 4]. This is the r column below.
+- Punch pressure is **lowest at r ≈ 40–60 %**. Very thin walls (large r) and very thick walls (small r) both need
+  higher pressure [TOT p.813]. The aerosol cans (r ≈ 0.97) sit at the high-pressure extreme *(inference)*.
 
 | Can (ch.09 §8) | Ø / wall t (mm) | R = R_C²/(t(2R_C−t)) | r | ln R | Slug T₀ (mm) | T₀/R_R |
 |---|---|---|---|---|---|---|
@@ -112,6 +133,13 @@ models govern [S-053 pp.22–23, Figs 2.7–2.8; p.81] *(inference)*.
   ≈30–35 kN within ≈1 mm, then a slowly rising plateau to ≈45 kN at 3 mm stroke; the model fits m ≈ 0.4 "apart from
   the initial stage" [S-053 p.85, Fig. 5.3 (read from image)]. The initial transient (filling/upsetting) is not
   captured by the models.
+- Shinozaki gives the same picture. In backward can extrusion the punch force stays "rather flat" because friction on
+  the can wall does not grow seriously. **At the end of the stroke, when the billet has become short, the punch force
+  rises suddenly**, and very short billets or flat plates need more force to overcome friction [TOT p.813, Fig. 6a].
+  In forward rod extrusion the peak comes early and then falls as container-wall friction decreases [TOT p.812].
+- **Deep cans are limited by lubricant on the punch.** Lubricant cannot be added to the punch face during the
+  stroke, so "it is difficult to manufacture deep cans because of a shortage of lubricant on the punch surface". The
+  punch must also be kept from sitting eccentrically or buckling [TOT p.813].
 
 ### 2.4 Pressure and force equations
 
@@ -124,8 +152,26 @@ models govern [S-053 pp.22–23, Figs 2.7–2.8; p.81] *(inference)*.
 | P5 | Upper-bound envelope values, m = 0.1, h/R_R = 0.1: **p_R/σ₀ ≈ 3.5–3.8** for R = 2 (R_C/R_R = 1.41, H/R_R = 2); **≈ 4.7 rising to ≈ 5.4** then dipping to ≈ 4.5 and rising sharply at the end for R = 10 (R_C/R_R = 1.05, H/R_R = 1) | Shape of p(stroke) | [S-053 pp.20–21, Figs 2.5–2.6, read from images] |
 | P6 | Slab/power example (R_C/R_R = 1.2, T₀/R_R = 0.8, T_e/R_R = 0.2, m = 0.2): p_R/σ₀ ≈ 3.7 at start → ≈ 2.9 (slab) / 3.2 (power) near the end; normal (compressive) stresses on ram and chamber up to ≈ 3.9 σ₀ (values 1.84–3.93 σ₀ shown for initial and final ram position; assignment to faces not legible in the OCR ⚠) | Tool-stress estimate | [S-053 pp.84–86, Figs 5.2, 5.4] |
 | P7 | Direct forming force F = A·k_w with forming efficiency η_F = k_f/k_w; specific work w = ∫k_f dφ ≈ k_fm·φ (arithmetic mean of entry/exit flow stress allowed) | Generic | [S-046 §2.2, pp.26–28] |
+| P8 | **Constraint-factor (work) method: p = c·Y_m**, where c = p/Y is read from upper-bound charts (Table 2-2) and Y_m = (1/c)∫₀ᶜ Y dε, so **p = ∫₀ᶜ Y dε**. Basis: Hill showed that without friction the mean plastic work per unit volume equals the drawing stress, so c is the mean equivalent strain. For non-steady processes ∫dε̄ = ∫(p/Y)(dh/h) | Uses the whole flow curve rather than UTS; "can be applied if we know individual flow stress–strain curves" | [TOT pp.821–822, Eqs 7–9] |
+| P9 | Upsetting with Coulomb friction: **p = Y(1 + μd/(3h))** | μ = 0.03–0.05 for well-lubricated cold-forged surfaces | [TOT pp.820–821, Eq. 5] |
+| P10 | Plane-strain slab with friction factor: **f = m·k, k = 0.577 S**; yield p − q = 1.15 S; web pressure p = 1.15 S[1 + (m/2)(L/t)(1 − 2x/L)]; **corner filling q = 1.15 S(1 + m/2)·ln(r/R)** (R = unfilled corner radius, so R → 0 gives q → ∞) | Example m = 0.3, S = 100 MPa, r = w′/2 = 6 mm: R = 1.6 mm → 175 MPa, R = 3.2 mm → 83 MPa (recomputed ✓) | [TOT pp.790–791, 796–797, Eqs 1–3, 8] |
+| P11 | Friction laws: Coulomb τ = μσₙ (low pressure, sheet forming); friction factor **τ = m·σ̄/√3** (bulk forming); **sticking once μp ≥ k**, after which μ is meaningless and m must be used | In bulk forming p ≫ k | [TOT pp.848–849, Eqs 2–4] |
 
 Check of P2 against Fig. 5.2: start (T/R_R = 0.8) → 3.64, end (0.2) → 2.89 — matches the plotted curve *(derived)*.
+
+**Table 2-2: specific pressure c = p/Y for backward can extrusion vs reduction in area r** (Kudo upper-bound
+analysis) [TOT p.821, Fig. 17, *digitised*, ±0.2]
+
+| r (%) | 30 | 50 | 70 | 80 | 90 | ≈ 95–96 |
+|---|---|---|---|---|---|---|
+| Friction-free | — (curve starts at r ≈ 43 %, c ≈ 1.55) | 1.7 | 2.3 | 3.0 | 3.8 | 4.6–5.1 (end of curve) |
+| No lubricant (sticking) | 1.3 | 2.1 | 3.2 | 4.1 | 5.7 | off scale (≈ 6.5 at r ≈ 92 %) |
+
+- Forward rod extrusion gives curves close to these. Actual lubrication lies between the two lines [TOT pp.821–822].
+- The in-house cans (r = 0.967) are beyond the plotted range: **c ≈ 5–5.5 frictionless and well above 6.5
+  unlubricated** *(extrapolated)*.
+- Lubrication is worth more at high r. "No lubricant" exceeds "friction-free" by ≈ 24 % at r = 50 %, ≈ 40 % at 70 %
+  and ≈ 50 % at 90 % *(derived)*.
 Empirical formulas and nomograms (Schmitt; Burgdorf & Müschenborn ±10 %) are adequate for press capacity [S-053
 pp.10, 27].
 
@@ -155,15 +201,47 @@ That is ≈ +52 % force vs 23 HB. At the hardness limit, a flat-nosed Ø53 punch
 for that geometry press capacity rather than the HB specification may be the binding constraint.
 Sensitivity: dp/dσ_UTS ≈ 11.5 → **+10 MPa slug UTS ≈ +115 MPa ram pressure ≈ +0.25 MN (+26 tf) on Ø53**.
 
+*Corrected after full-text pass (HB → Rm conversion).*
+- Rm/HB depends on alloy and temper. It is 3.6–3.9 for 1070/1100/3003 in O–H18, but 4.1–4.2 for 5052-O and 6061-O
+  [TOT p.815, Table 1; ratios derived; §4.1].
+- 35 HB corresponds to Rm = 130 MPa in both 1070-H18 and 3003-H12 [TOT p.815].
+- With Rm = 130–147 MPa at 35 HB, the forces above rise by ≈ 3–17 %: Ø53 flat ram ≈ 403–456 t (at or above the 400 t
+  rating), Ø53 conical ≈ 336–380 t *(derived)*.
+- So for Mg-bearing slugs (T11, modified 3102), measure Rm directly instead of converting HB.
+- P1 may overstate the penalty of hardness that comes from residual cold work (see (e)).
+
 **(b) Slab model (P2) for Ø53 (s = R_C−R_R = 0.44 mm, R_R = 26.06 mm).** p_R/σ₀ = 2.155 + a·T + b/T with a = 0.2887
 (1+m)/s, b = 0.3849·m·R_R. Minimum at T* = √(b/a): m = 0.05 → T* = 0.85 mm, p/σ₀ = 3.33; m = 0.1 → 1.18 mm, 3.86;
 m = 0.2 → 1.60 mm, 4.67. At T = 1 mm the bottom-friction term b/T is 0.50 (m 0.05), 1.00 (m 0.1), 2.01 (m 0.2), i.e.
 **for large-diameter, thin-based cans the friction term m·R_R/T dominates the end of stroke** → lubricant (and anything
-that degrades it, e.g. surface oxide condition) controls peak force *(inference)*. With σ₀ ≈ 190–250 MPa (flow stress
-at ε ≈ 3.4 from §3.1) p ≈ 0.73–0.97 GPa at m = 0.1 — 20–30 % below the empirical P1 value (P2 omits redundant shear at
-the zone boundaries) *(derived)*.
+that degrades it, e.g. surface oxide condition) controls peak force *(inference)*. With σ₀ ≈ 160–250 MPa (flow stress
+at ε ≈ 3.4: 161 MPa measured in compression for 99.7 % Al [TOT p.811, Fig. 2, digitised], up to ≈ 250 MPa extrapolated
+for 3003-O, §3.1) p ≈ 0.62–0.97 GPa at m = 0.1, below the empirical P1 value (P2 omits redundant shear at the zone
+boundaries) *(derived; corrected after full-text pass: the lower bound was 190 MPa)*.
 **(c) Dipper's strain (P4) cannot be used at R ≈ 30**: R_R/(4s) ≈ 15 gives ε_II ≈ 16·ln(T₀/T), i.e. strains ≫ 10
 *(derived)*. Use ln R (≈ 3.4) as the wall strain and FE for local values.
+
+**(d) Cross-check with the work method (P8)** *(derived)*.
+- Integrating the digitised 99.7 % Al compression curve (Table 3-2) to c = 5 gives **p ≈ 0.71 GPa** frictionless
+  (≈ 0.80 GPa at c = 5.5).
+- P1 with the 1070-O tensile strength (70 MPa [TOT p.815]) gives 11.5 × 70 ≈ 0.80 GPa.
+- The two agree within ≈ 0–12 %. P1 is therefore a fair press-capacity rule for annealed slugs whose whole flow curve
+  scales with UTS.
+
+**(e) What actually raises the force: whole-curve strength vs residual cold work** *(derived; model, not
+validated)*. In P8 the pressure is the area under the flow curve up to ε ≈ 5, so the large-strain part dominates.
+In pure Al the first unit of strain contributes only ≈ 93 of ≈ 710 MPa (≈ 13 %). Three consequences follow.
+- **Residual cold work** (prestrain ε₀) only shifts the curve: Δp = ∫_c^(c+ε₀) Y dε − ∫₀^ε₀ Y dε.
+  - Take ε₀ ≈ 0.2. This is roughly the step from 3003-O to 3003-H12 (28 → 35 HB; ε₀ ≈ 0.19 from the 3003-O Hollomon
+    fit, YS 40 → 125 MPa [TOT p.815; S-029 p.100]).
+  - On the pure-Al curve this adds only ≈ 23 MPa (≈ +3 %). UTS scaling (P1) would predict +18 % (Rm 110 → 130 MPa).
+  - Bauschinger-type softening on the path change (§3.2) would lower the increase further.
+  - The real cost of residual cold work is **ductility** (3003-H12 has 10 % elongation, 3003-O 30 % [TOT p.815]) and
+    uneven grains/texture, not press force.
+- **Solute or particle strengthening** raises the whole curve. Mg raises Hollomon k at constant n [S-029 p.164,
+  verified]. So press force and can-wall strength rise together: ΔY_wall/Δp ≈ 1/c ≈ 0.2.
+- **HB is a weak predictor of force** (as Sillekens says, §4.1). Two slugs at 35 HB can need quite different forces.
+  Calibrate with press-force logging (§10 #5) and compression flow curves to ε ≈ 4 (§10 #2).
 
 ### 2.6 Friction and lubrication
 - Lubricant on the billet prevents tool–workpiece metallic contact and lowers loads [S-053 p.2]. Cold extrusion of
@@ -174,8 +252,35 @@ the zone boundaries) *(derived)*.
   Molykote HTF, but "ambiguous to conclude a definite value" [S-053 pp.85, 93]; FE used Coulomb μ = 0.1 [S-053 p.93].
   Fig. 5.3: predicted force at 3 mm stroke ≈ 38 kN (m = 0), ≈ 42 (m = 0.2), ≈ 46 (m = 0.4), ≈ 65 kN (m = 0.8), i.e.
   friction from m = 0 to 0.8 adds ≈ 70 % at this low R [S-053 p.85, read from image].
-- Industrial Al slug lubricant (zinc stearate, tumbled) is **not described in any source read** [S-057 only says
-  "lubrication drum"] *(zinc stearate: general knowledge)*.
+- **Zinc stearate is the documented lubricant for cold backward extrusion of aluminium.** It was used for the pure-Al
+  marker-pen housing (RT backward extrusion of a blank pierced from thick sheet) and, after annealing, for cold-forged
+  A2218 blanks [TOT pp.827–828]. *(Corrected after full-text pass: this chapter said earlier that no source described
+  it.)* Tumbling as the application method is still only implied by the "lubrication drum" [S-057]. Graphite was used
+  for hot forging of Al–Si powder preforms at 793 K [TOT p.833].
+- **Phosphating** (zinc-phosphate carrier layer) is documented only for steel [S-053 p.4]. TOT gives no phosphate or
+  conversion-coating pre-treatment for Al slugs (gap, §10).
+- Friction values: well-lubricated cold-forged surfaces **μ = 0.03–0.05** (upsetting) [TOT p.821]; **m = 0.3** is "a
+  typical value for aluminum forging" (hot impression dies) [TOT p.791].
+- **Use the friction factor m, not μ, at extrusion pressures.** Coulomb friction applies at low pressure (sheet
+  forming). In bulk forming p ≫ k, the shear stress saturates, and sticking sets in once μp ≥ k; μ is then meaningless
+  [TOT pp.848–849].
+  - At the punch face p ≈ 1.0–1.5 GPa (§2.5) and k = Y/√3 ≈ 90–130 MPa (Y ≈ 160–220 MPa), so Coulomb friction reaches
+    sticking at μ ≈ 0.06–0.13 *(derived)*.
+  - The FE run with μ = 0.1 [S-053 p.93] therefore imposes near-sticking on the punch face *(derived)*. Calibrate m
+    instead (§10 #3).
+- **Lubricant starvation on the punch nose** limits deep cans [TOT p.813]. For a Ø53 × 200 mm can the inner wall area
+  is ≈ 15× the punch-face area (π·52·200 vs π/4·52²) *(derived)*, so the stearate carried in on the slug face must
+  survive a large surface extension *(inference)*. This is the most plausible route by which the slug surface (MgO,
+  roughness) matters: it controls how much stearate adheres and stays *(inference)*.
+- **Too much lubricant also harms.** It causes underfill (lubricant trapped in die corners) [TOT p.822] and an
+  orange-peel appearance with loss of the smooth bright surface [TOT p.825].
+- **Friction belongs to the whole tribosystem** (workpiece, tool, intermediate medium, surrounding medium, load). It
+  varies with location and during the process, and depends on sliding distance and velocity, pressure, tool and
+  workpiece hardness, finish and composition, and lubricant viscosity and composition [TOT p.854]. Sliding contact
+  can **pressure-weld** the workpiece onto the die (galling) [TOT p.854]. → Measure m on the real slug surface with
+  the real stearate and tool finish *(inference)*.
+- Warm forging at 150–200 °C is used to lower lubricant viscosity and friction [TOT p.826]. → Lubricant behaviour
+  probably changes as the tooling warms up during a run *(inference)*.
 - Tool–workpiece interface (friction, lubrication, wear) and surface reactions with the atmosphere are separate problem
   areas (4 and 6) in the Lange systematics adopted by Sillekens [S-053 pp.5–6] → the annealing **MgO surface oxide
   belongs to these areas**; no source quantifies its effect on m (gap, §10).
@@ -186,12 +291,73 @@ the zone boundaries) *(derived)*.
   influence**; above it, temperature and rate dominate [S-046 §2.2.1 p.26].
 - Plastic work → heat; in rolling, cooling prevents the temperature reaching recovery/RX levels [S-051 p.195]; strip
   temperatures of 100–150 °C occur in commercial cold rolling at ε̇ ≈ 50–100 s⁻¹ [S-052 p.10].
+- "Ninety percent of the energy used for forging will dissipate as heat", and the forged part can end up hotter than
+  the billet [TOT p.825] → **β ≈ 0.9 is now sourced**. In high-speed forging (mechanical press, hammer) the heat has
+  little time to diffuse into the dies, so heating is essentially adiabatic [TOT pp.777, 785].
 - **No measured temperature or strain-rate data for impact extrusion in the sources.** Adiabatic estimate
-  ΔT = β·∫σdε/(ρc) *(formula general knowledge; β ≈ 0.9, c ≈ 0.9 J g⁻¹K⁻¹, ρ = 2.70 g cm⁻³)*: with the Al99.5 curve of
-  §3.1 integrated to ε = 3.45 (≈ 546 MJ m⁻³) → **ΔT ≲ 200 K** in the wall *(derived upper bound: ignores heat flow
-  into tools and thermal softening)*. The stroke time is < 0.24–0.30 s (cycle time, §2.1) *(derived)*.
+  ΔT = β·∫σdε/(ρc) *(formula general knowledge; β ≈ 0.9 [TOT p.825], c ≈ 0.9 J g⁻¹K⁻¹, ρ = 2.70 g cm⁻³)*.
+  *Corrected after full-text pass* using the measured 99.7 % Al compression curve (Table 3-2):
+  - work to ε = 3.45 ≈ 445 MJ m⁻³ → **ΔT ≈ 165 K**;
+  - work to the mean equivalent strain c ≈ 5 (P8, includes redundant work) ≈ 710 MJ m⁻³ → **ΔT ≈ 260 K**;
+  - both are upper bounds that ignore heat flow into the tools and thermal softening; they scale with flow stress, so
+    they are higher for stronger alloys *(derived)*;
+  - the earlier figure (≈ 546 MJ m⁻³, ≲ 200 K) came from extrapolating the Al99.5 rolling fit.
+  The stroke time is < 0.24–0.30 s (cycle time, §2.1) *(derived)*.
+- **Strain-rate sensitivity is very low in the cold.** 3003-O at RT has m = 0.005 (6009-T4 0.002) [TOT p.853,
+  Table 4], so a 10⁶-fold rise in strain rate (tensile test → impact) raises the flow stress by only
+  10^(6 × 0.005) ≈ +7 % *(derived)*, consistent with [S-046 §2.2.1]. In the hot range the opposite holds: at 350 °C
+  raising the rate from 0.1 to 20 s⁻¹ raises the flow stress of 6061/2014/7075 by about half, and 100 °C lower more than
+  doubles it [TOT pp.784–786].
+- Ductility of Al alloys is "sensitive to strain rate sometimes", so presses with easily changed speeds are recommended
+  [TOT p.833]. To get equal tube lengths after trimming, "the extruded tube must have the same temperature" [TOT
+  p.827] → the thermal steady state of the tooling affects can length *(inference)*.
 - Consequence: the wall deforms partly "warm"; Sillekens' data show that higher temperature lowers both C and n of the
   flow curve, and **low n promotes strain concentration and failure** [S-053 p.47] *(transfer to 3xxx: inference)*.
+
+### 2.8 Tooling, die and punch design, presses and slug preparation
+- **Tool set for RT backward extrusion of a thin pure-Al tube** (marker-pen housing) [TOT pp.827–829, Fig. 23]:
+  - punch M2 (SKH51), 62 HRC; back-up punch H13 (SKD61), 53 HRC; die insert M2, 58 HRC; **container of cemented
+    carbide**; shrink ring H13; stripper;
+  - punch life ≈ **2 million** strokes;
+  - **a bottom thinner than 3.1 mm shortened die life**.
+  - Harder alloys (A2218, A2011-O) gave tool lives of ≈ 50,000 shots [TOT pp.829–830].
+- **Punch alignment.** For deep cans the punch must be protected from eccentric seating and buckling [TOT p.813].
+  Sillekens' conical-nose ram serves the same stability purpose [S-053 p.2].
+- **Corner radii.**
+  - The pressure needed to fill a corner grows as ln(r/R) (P10). In Kuhn's example, halving R from 3.2 to 1.6 mm
+    roughly doubled it [TOT p.797].
+  - Small radii cause laps, cracks, die checking (cracks in die corners) and fast wear from high local pressure, high
+    flow rate and frictional heating [TOT pp.798–801, 803].
+  - Rounded die corners and gradual profile changes reduce velocity discontinuities, and with them dead metal and skin
+    inclusion [TOT p.823].
+  - A larger punch or die corner radius widens the deformation zone and prevents contraction at the can's bottom
+    corner [TOT p.824] (§5.2).
+- **Pressure limits.** Kuhn takes **1400 MPa** as "a typical limit for hot working die steels" in die-forging design
+  [TOT p.805]. No limit for cold punches is given. The P1 estimate for Ø45–53 cans at 35 HB (≈ 1.45 GPa, §2.5a)
+  already exceeds that hot-die guide value → **punch stress and punch-nose geometry, not only press tonnage, may limit
+  how strong a slug can be** *(inference; check with the tool supplier)*.
+- **Slug shape and mass.**
+  - The pen-housing blank had a 0.5 mm recess on one face and a chamfered other face [TOT p.828, Fig. 22]. Billet
+    height/diameter ratio, corner trimming and small end recesses or tapers are the levers for sound die filling
+    [TOT p.814].
+  - Blanks for precision cold forging were **sorted by mass**: 70 ± 0.25 g, and 12–15 g with < ±0.05 g scatter, i.e.
+    ≈ ±0.3–0.4 % [TOT pp.829–830; % derived]. For slugs the equivalent is slug-mass control against the trim
+    allowance (§4.3, ch.09 §8) *(inference)*.
+- **Anneal before each forming step.** In multi-stage cold forging, anneal → lubricate is repeated before each step
+  (e.g. A2218: 410 °C × 1.5 h, cooled to 260 °C at 25 °C/h) [TOT pp.828–830]. Heat treatment "before and during"
+  cold forging is done "to increase or recover ductility" [TOT p.814].
+- **Presses** [TOT pp.831–833]:
+  - crank press: simple, productive, easy to automate;
+  - **link (knuckle) press**: large force near bottom dead centre and a slightly longer dwell, which helps the part
+    copy the die profile;
+  - hydraulic press: large capacity, long stroke, easy speed control;
+  - special-purpose presses for mass-produced tubes.
+  - Faster forging equipment limits the shape complexity that can be reached [TOT p.777].
+- **Counter punch.** Counter pressure on the extruded end (a 300 kPa hydraulic cylinder in one case, 40–50 kN in
+  another) equalises extruded lengths: fin-height scatter < 0.5 mm with it, 20 mm without [TOT p.826]. It also
+  suppresses contraction defects [TOT p.824].
+- For the downstream drawing/ironing tools (not the extrusion die), sheet-drawing guidance for Al is a die radius of
+  (4–10)·t and a punch radius of (4–10)·t [TOT p.844, Table 1].
 
 ---
 
@@ -211,14 +377,50 @@ Fig. 3, *digitised*]; Fig. 5 (reversing passes) agrees within ≈3 MPa / ≈2 HB
 | A10 (%) | 42 | 28 | 12 | 8.5 | 7.5 | 7 | 6 | 5.5 | 4.5 | 3.5 |
 
 - **Fit (derived): Rp0.2 ≈ 147·ε^0.22 MPa** for 0.1 ≤ ε ≤ 2.3 (residuals ≤ 3 MPa); HB ≈ 42·ε^0.16 for 0.2 ≤ ε ≤ 1.6.
-  Extrapolated to the wall strain ε ≈ 3.4: ≈ 190 MPa (cold, no recovery) *(derived)*.
+  Extrapolated to the wall strain ε ≈ 3.4: ≈ 190 MPa (cold, no recovery) *(derived)*. *Corrected after full-text
+  pass:* the measured compression curve below gives 161 MPa at ε = 3.4 (see the note after Table 3-2).
+
+**Table 3-2: annealed 99.7 % Al (18 HV), compression to large strain** (re-shape upsetting, RT, hydraulic testing
+machine) [TOT pp.810–811, Fig. 2, *digitised*, ±2 MPa]
+
+| ε | 0.02 | 0.1 | 0.2 | 0.3 | 0.5 | 0.7 | 1.0 | 1.5 | 2.0 | 2.5 | 3.0 | 3.4 | 4.0 | 4.4 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Y (MPa) | 46 | 62 | 74 | 83 | 98 | 108 | 120 | 135 | 145 | 152 | 157 | 161 | 166 | 169 |
+
+- The curve starts at ≈ 40 MPa at ε = 0 *(digitised)*.
+- Fit *(derived)*: **Y ≈ 122·ε^0.226 MPa for 1 ≤ ε ≤ 4.4** (residuals ≤ 2.2 MPa). The best single Hollomon fit over
+  0.1–4.4 is 117·ε^0.27, with residuals up to 6 MPa, so n falls with strain. Between ε = 2 and 4.4 the slope is
+  ≈ 10 MPa per unit strain (stage IV-like, §3.3).
+- Method: re-shape upsetting keeps h/d between 1.5 (buckling above) and 0.5 (friction no longer negligible below)
+  [TOT p.810]. Each re-machining step allows ε ≈ 0.73 (h₀/h = 3^(2/3) at constant volume), so ε ≈ 4 needs ≈ 5–6
+  steps *(derived)*. Low-friction compression is the standard flow-curve test; compression with friction and bend
+  tests are the fracture tests [TOT p.784]. This is the practical route to the large-strain curves that the slug
+  alloys lack (§10 #2).
+- Flow stress and hardness "have very good mutual co-relations"; if the flow curve is unknown, hardness helps
+  [TOT p.810]. Check with Tabor's HV ≈ 3·Y at ≈ 8 % strain *(general knowledge)*: 18 HV ≈ 176 MPa and
+  Y(0.08) ≈ 58 MPa give a ratio of ≈ 3.0 *(derived)*.
+- **Correction after full-text pass.** The Al99.5 rolling fit extrapolated to ε ≈ 3.4 gives ≈ 190 MPa; the measured
+  99.7 % Al compression curve gives **161 MPa**. Even with the rolling strain converted to von Mises equivalent strain
+  (×2/√3 for plane strain, *general knowledge*), the rolling fit gives ≈ 186 MPa. The gap reflects purity (99.5 vs
+  99.7 %), test mode (rolled then tensile vs compression, §3.2) and extrapolation. Use **≈ 160–190 MPa** for
+  commercially pure Al at ε ≈ 3.4 *(derived)*.
 - Transverse Rm/Rp0.2 exceed longitudinal by 7–20 MPa (one-direction rolling) and 3–9 MPa (reversing); transverse A10
   is lower at small reductions; reversing the rolling direction does not change properties or microstructure
   [S-051 p.194]. ≤ 30 % reduction only flattens grains; > 50 % longitudinal and transverse microstructures look alike;
   pronounced banding only > 90 % [S-051 p.195].
-- **O-temper Hollomon constants** (tension) [S-029 Ch.3 Table 3, via ch.07 Table 5-1 / ch.06 Table 4.1]: 1100-O
-  n = 0.242, K = 146 MPa; **3003-O n = 0.242, K = 188 MPa** (same n, +29 % K). Extrapolated to ε = 3.4: 3003 ≈ 253 MPa
-  *(derived; tensile Hollomon fits are not reliable to ε ≈ 3)*. Rolling form YS = σ₁·εⁿ [S-029 via ch.07 §5.2].
+- **O-temper Hollomon constants** (tension) [S-029 p.100, Table 3, verified]: 1100-O n = 0.242, K = 146 MPa;
+  **3003-O n = 0.242, K = 188 MPa** (same n, +29 % K); 6061-O 0.209 / 224; 5052-O 0.198 / 281; 5454-O 0.189 / 340;
+  5086-O 0.193 / 368; 5456-O 0.178 / 479 MPa. More Mg gives higher K and lower n.
+  - Extrapolated to ε = 3.4: 3003 ≈ 253 MPa *(derived; tensile Hollomon fits are not reliable to ε ≈ 3)*.
+  - Check against Table 3-2: the 1100-O fit extrapolated to ε = 3.4 gives 196 MPa, against 161 MPa measured for
+    99.7 % Al, so tensile fits overshoot by ≈ 20 % at this strain (purity differs slightly). Scaling 253 MPa by the
+    same factor gives **≈ 210 MPa for 3003 at ε ≈ 3.4** *(derived, rough)*.
+  - Rolling form YS = k·εⁿ with ε = ln(T_i/T_f) (Alcoa) [S-029 pp.98–99, Eq. 8, verified].
+- Mg lowers n compared with pure Al but raises k; with more Mg, n stays constant while k keeps rising, i.e. Mg raises
+  the rate of strain hardening [S-029 p.164, verified].
+- **Sheet data, 3003-O** [TOT p.853, Table 4]: YS 48, UTS 110 MPa, uniform elongation 23 %, total 33 %, n 0.24,
+  r̄ 0.6, Δr 0.2, strain-rate sensitivity m 0.005 (6009-T4: 131 / 234 MPa, n 0.23, r̄ 0.6, Δr 0.1, m 0.002). In
+  tension n equals the true uniform strain, and low-n material localises strain and fractures earlier [TOT p.851].
 - **Recycled RS Al (Al-6Si-3Cu-1.5Zn-0.7Fe)**, tension, annealed 350 °C/20 min: C ≈ 340 MPa / n ≈ 0.18 at 20 °C,
   falling to C ≈ 75–100 MPa / n ≈ 0.07–0.10 at 300–350 °C [S-053 p.40, Fig. 3.4, read from image]; C = 176 MPa,
   n = 0.13 used at 230 °C [S-053 p.85]. Reproducibility indicator I ≈ 6 % (C), 24 % (n) in tension [S-053 p.39].
@@ -288,14 +490,15 @@ Fig. 3, *digitised*]; Fig. 5 (reversing passes) agrees within ≈3 MPa / ≈2 HB
 |---|---|---|---|
 | ΔYS per wt.% in solution (super-purity, annealed) | Mn 30.3 · Mg 18.6 · Cu 13.8 · Si 9.2 · Zn 2.9 MPa | binary alloys; unit effect larger at small additions; multiple solutes **less than additive** | [S-031 Table 8, pp.368–369] (= ch.05 §6) |
 | ΔUTS per wt.% | Mn 53.8 · Mg 50.3 · Cu 43.1 · Si 39.6 · Zn 15.2 MPa | same | [S-031 Table 8] |
-| Mn in solution, O temper | +21 MPa YS, +42 MPa UTS per wt.% | commercial | [S-029 p.160, via ch.06 Table 4.1] |
-| Mn in solution, **H19** | +35 MPa YS per wt.% | heavy cold work ≈ can wall | [S-029 p.160] |
-| Mg, **H19** | +70–85 MPa YS per wt.% | heavy cold work | [S-029 pp.160, 164] |
+| Mn in solution, O temper | +21 MPa YS, +42 MPa UTS per wt.% | binary Al-Mn, Mn kept in solution by a high-temperature anneal and rapid quench | [S-029 p.160, verified] |
+| Mn in solution, **H19** | +35 MPa YS per wt.% | heavy cold work ≈ can wall | [S-029 p.160, verified] |
+| Mg, **H19** | +70–85 MPa YS per wt.% | heavy cold work | [S-029 pp.160, 164, verified] |
+| Si in 3xxx | accelerates Mn precipitation, gives denser Al₁₂(Mn,Fe)₃Si and less Mn left in solution after homogenisation; as-cast 3003 ingot holds 0.7–0.9 wt.% Mn in solution | DC ingot | [S-029 p.160, verified] |
 | Mg in Al-Mg-Mn plate, O | ≈ +35 MPa UTS per 1 % Mg; Mn "about twice as effective" | 13 mm plate | [S-031 pp.380–381] |
 | Mn left in solution in commercial 3xxx | only 0.2–0.3 wt.%; rest in constituents/dispersoids | after preheat + hot work | [S-029 p.94; S-028 p.30 via ch.05/06] |
 | Constituent (Fe-rich) particles | ≈ +7 MPa YS per vol.% | Al-Fe-Si | [S-029 pp.122, 138 via ch.06] |
 | Dispersion (8xxx) | 30–40 MPa | — | [S-028 p.131 via ch.05] |
-| Work-hardening potency per atom | Cu 1.00 > Mg 0.37 (Cu-equivalent K); Doherty H: Cu 3.38, Si 1.56, Mg 1.52, Mn 1.03, Zn 0.27 GPa ⚠ | tensile | [S-029 p.99 via ch.06/07] |
+| Work-hardening potency per atom | Cu-equivalent K: Cu 1.00, Ge 0.64, Mg 0.37, Cd 0.33, Ag 0.15, Zn 0.071; Doherty H: Cu 3.38 ± 0.20, Si 1.56 ± 0.05, Mg 1.52 ± 0.14, Mn 1.03 ± 0.17, Zn 0.27 GPa | K from **tensile** curves; H from the **cold-rolling** YS at ε = 1 (*corrected after full-text pass*: H was labelled tensile and flagged ⚠; values now verified) | [S-029 pp.98–100, Table 2, Eq. 9, verified] |
 | Hall–Petch k | pure Al 0.065–0.07 MPa·m^½; AlNi6 0.14; alloys 0.1–0.2 | — | [S-052 p.33; S-029 p.101] |
 | Strain ageing (Mg, Cu) | ↑ hardening at low strain, **↓ hardening at large strain**, less diffuse necking; Zn no strain ageing; Fe/Si/Mn particles little effect on hardening | sheet forming | [S-031 p.408] |
 | Strength vs total alloying | UTS ≈ linear in total wt.% alloying, O and H18/H38 (equation in image, not extracted) | NHT alloys | [S-052 p.7, Fig. 2.1] |
@@ -315,6 +518,23 @@ Fig. 3, *digitised*]; Fig. 5 (reversing passes) agrees within ≈3 MPa / ≈2 HB
 
 → **Mg buys more can-wall strength per unit of extrusion-force penalty than Mn in solution** (inference from mixing
 O-temper UTS and H19 YS coefficients of two sources; verify with own data).
+
+**Refinement after full-text pass (work method P8, §2.5e)** *(derived; assumes each element's effect rises from its
+O-temper to its H19 value by ε ≈ 1–2)*.
+- If ram pressure follows p ≈ c·Y_m (c ≈ 5, frictionless) rather than 11.5·UTS, the force penalty per +0.1 wt.% in
+  solution is ≈ c × (mean ΔY over ε = 0–5).
+  - Mg: ΔY ≈ 2 MPa (annealed) rising to 7–8.5 MPa (H19), mean ≈ 6–7.5 → Δp ≈ +30–37 MPa.
+  - Mn: ΔY ≈ 2.1–3.0 MPa (annealed) rising to 3.5 MPa (H19), mean ≈ 3.2–3.4 → Δp ≈ +16–17 MPa.
+- Wall gain per unit ram pressure is then ≈ 0.19–0.28 for Mg and ≈ 0.21–0.22 for Mn, i.e. **about equal, ≈ 1/c**.
+  *Corrected after full-text pass:* the ≈ 2× Mg advantage in the table above comes from P1, which charges Mn for its
+  large O-temper UTS effect (+42 MPa/wt.%) although at large strain Mn adds only +35 MPa/wt.% YS against +70–85 for
+  Mg [S-029 p.160]. Mg still gives ≈ 2× more wall strength **per wt.%**, so less alloy is needed for a given target.
+  Per unit of press force, however, the two are close, so choose between them on other grounds: MgO, RX behaviour,
+  castability, bake response.
+- Any strengthening that acts at large strain costs ram pressure at roughly 1/c. Friction, which adds pressure without
+  adding wall strength, is the other lever (§2.6).
+- **Strength that appears after extrusion** (strain ageing or Mg–Si clustering in the 220 °C / 10 min bake) is the only
+  route found that raises the wall without raising press force *(inference; bake response unmeasured, §6, §10 #6)*.
 
 ---
 

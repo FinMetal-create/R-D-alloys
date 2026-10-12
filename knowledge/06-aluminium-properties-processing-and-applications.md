@@ -55,18 +55,20 @@
 | Volume change on melting | 5.4 % | [HB p.59] |
 | Latent heat | 94.6 cal/g (99.999) / 93.0 (99.0) [HB p.37]; 397 J/g [HB p.59]; 10.71 kJ/mol [WP p.1] | — |
 | Specific heat | 0.2226 cal/g·K at 100 °C (99.999), 0.2297 (99.0) [HB p.37]; 24.20 J/mol·K at 25 °C [WP p.1] (≈ 0.90 J/g·K, derived) | — |
-| Young's modulus | 69 GPa pure (DW); wrought alloys 69–72, design value 70 GPa [DW §1.2]; extreme purity 69–72, commercial 70–72.5, thin clad sheet 68.5–70 [HB p.66] | — |
+| Young's modulus | 69 GPa pure (DW); wrought alloys 69–72, design value 70 GPa [DW §1.2]; extreme purity 69–72, commercial 70–72.5, thin clad sheet 68.5–70 [HB p.66]; Varley table 9.9×10⁶ psi (99.999 %) and 10.0×10⁶ psi (99.0 %) [HB p.37] (≈ 68.3 / 68.9 GPa, derived) | — |
 | E versus T | 67 GPa at 100 °C; 59 GPa at 200 °C | [DW §1.2] |
-| Shear modulus / Poisson | G 25–26.5 (extreme purity), 27–28 GPa (commercial); ν 0.31–0.33 [HB p.66]; design ν = 0.33 [DW §1.2]; WP gives G 26, K 76 GPa, ν 0.35 [WP p.1] | — |
+| Shear modulus / Poisson | G 25–26.5 (extreme purity), 27–28 GPa (commercial); ν 0.31–0.33 [HB p.66]; G_Al = 23 GPa in Ch.3's stacking-fault calculation [HB p.85]; design ν = 0.33 [DW §1.2]; WP gives G 26, K 76 GPa, ν 0.35 [WP p.1] | — |
+| Critical resolved shear stress | 0.79 MPa (pure Al single crystal); theoretical shear strength 0.9–2.62 GPa | [HB p.82, p.89] |
 | CTE | 23.1 µm/m·K at 25 °C [WP]; pure 23.5×10⁻⁶ K⁻¹, alloys 22–24.5, design 23, 26×10⁻⁶ at 200 °C [DW §1.2] | — |
 | Mean CTE, 99.99x Al | 20–100 °C: 23.4–23.9; 20–200: 24.3–24.6; 20–300: 25.3–25.5; 20–400: 26.5 ×10⁻⁶ K⁻¹ | [HB p.42] |
-| Thermal conductivity | 237 W/m·K at 300 K [WP]; ~240 W/m·K, ~4× steel [DW §1.2]; 0.57→0.54 cal/(cm·s·K) at 100 °C from 99.999→99.0 % (≈ 238→226 W/m·K, derived) [HB p.37]; commercial 99.49 / 99.70 % Al: 209 / 222 W/m·K (temperature garbled ⚠) [HB p.44–45] | — |
+| Thermal conductivity | 237 W/m·K at 300 K [WP]; ~240 W/m·K, ~4× steel [DW §1.2]; 0.57→0.54 cal/(cm·s·K) at 100 °C from 99.999→99.0 % (≈ 238→226 W/m·K, derived) [HB p.37]; commercial 99.49 / 99.70 % Al: 209 / 222 W/m·K "at 200°" (unit not printed, presumably °C) [HB p.44] (*corrected after the full-text pass: the temperature is readable*). Calculated pure-Al averages (Table 11): 0.59 / 0.56 / 0.54 / 0.53 / 0.52 cal/(cm·s·°C) at 25 / 100 / 200 / 400 / 600 °C [HB p.46] (≈ 247 / 234 / 226 / 222 / 218 W/m·K, derived). ⚠ HB also prints 343 W/m·K for 99.9 % electrolytic Al at 190 °C [HB p.45]; this is far above every other pure-Al value here and should not be used | — |
 | Resistivity, 20 °C | 2.63 (99.999) / 2.68 (99.990) / 2.74 (99.80) / 2.80 (99.50) / 2.87 µΩ·cm (99.0) | [HB p.37] |
 | Conductivity, high purity | 99.997 %: 65.45 % IACS (2.6434 µΩ·cm); 99.996 %: 64.94 % IACS (2.6548); 99.993 %: 65.1 % IACS | [HB p.50] |
 | Temperature coefficient of resistivity | 0.0042 (99.99x) → 0.0040 K⁻¹ (99.0); dρ/dT = 0.0115 µΩ·cm/K, 0–300 °C (Matthiessen) | [HB p.37, p.50] |
-| Resistivity jump on melting | 99.99 %: solid 10.8, liquid 26.6 ×10⁻⁸ Ω·m; commercial purity: liquid 27.1×10⁻⁸ Ω·m (~+164 %) | [HB p.52] |
-| Lattice / atomic | fcc, a = 4.0496 Å at 25 °C; nearest neighbour 2.863 Å; b = 0.286 nm; SFE ≈ 200 mJ/m² | [HB p.38–39, p.83–85; WP p.3] |
-| Vacancies | E_f 0.76 eV, E_m 0.65 eV, E_SD 1.4 eV; equilibrium concentration near m.p. 9.4×10⁻⁴ | [HB p.39] |
+| Resistivity jump on melting | 99.99 %: solid 10.8, liquid 26.6 ×10⁻⁸ Ω·m; commercial purity: liquid 27.1×10⁻⁸ Ω·m (~+164 %) [HB p.52]; ρ_liquid/ρ_solid = 1.9 at the melting point [HB p.59 Table 15]. ⚠ The same page prints ρ_s = 1.65×10⁻⁸ Ω·m for commercial-purity solid Al, which does not fit the 10.8 value or the +164 % | — |
+| Lattice / atomic | fcc, a = 4.04963 Å at 25 °C (99.99 %, Figgins) [HB p.39]; HB p.38 also prints "4.0414 Å at room temperature", which disagrees with the measured value on the next page. Nearest neighbour 2.863 Å; atomic radius 1.43 Å; b = 0.286 nm | [HB p.38–39, p.83; WP p.3] |
+| Stacking-fault energy | **135 erg/cm² (= mJ/m²) [HB p.40] versus 200 mJ/m² [HB p.85]**: the two chapters of HB disagree (⚠). Partial-dislocation separation in Al is only 1–2 atom diameters, so cross-slip is frequent [HB p.85]. Alloying lowers the SFE [HB p.85] | *corrected after the full-text pass: this table previously gave ≈ 200 only* |
+| Vacancies | E_f 0.76 eV, E_m 0.65 eV, E_SD 1.4 eV; di-vacancy binding 0.17 eV; equilibrium concentration near m.p. 9.4×10⁻⁴ [HB p.39–40]. Quenching from 900 K to 300 K with E_f ≈ 0.7 eV gives a "chemical stress" of about 3 GPa, relieved by vacancy loss to sinks and by vacancy-loop formation; Li and Si bind vacancies strongly and retard loop formation [HB p.86–87]. Quenched Al single crystals have a CRSS about 5× that of annealed ones [HB p.39] | — |
 | Reflectance / emissivity | bright dip R 90 % / ε 3 %; clear anodic R 80 % / ε 35–65 %; black anodic R 5 % / ε 95 %; sand-blasted 15–25 % of polished reflectance; rough finish ε 20–30 % | [HB p.55–56] |
 | Superconducting T_c | 1.187 K | [HB p.51] |
 
@@ -74,11 +76,26 @@
 - **Conductivity (fin and foil heat transfer, EC conductors).** Keep Cr, V, Mn and Ti out of solid solution. For EC aluminium, Cr+V+Mn+Ti ≤ 0.015 % (preferably 0.01 %) with Si 0.12–0.16 % [HB p.52]. Boron treatment removes V and Ti as (Ti,V)B₂ to raise conductivity [WP p.73]. *Inference for 3xxx:* the Mn that remains in solution after homogenisation (Section 4) is the main conductivity lever.
 - **Fe.** At Si ≈ 0.15–0.16 %, raising Fe from 0.16 to 0.57 % raises resistivity only from 0.02767 to 0.02788 Ω·mm²/m in the annealed state, about 0.05 µΩ·cm per wt.% Fe (derived). Fe is therefore a cheap way to add constituents for grain-size control and strength (Section 4) at very little conductivity cost [HB p.53].
 - At very low Si (≤ 0.006 %), the Fe/Si ratio (0.8–3.8) has only a slight effect on resistivity. At Si 0.15–0.16 % its effect becomes strong [HB p.52].
-- **Stiffness.** E is fixed by the base metal; all Al alloys have about the same E [EAA p.34, p.59]. Si, Cu and Li in solution raise E by 8.5, 4.4 and 1.5 ⚠ (units lost; per at.% in solution) [HB p.95].
+- **Stiffness.** E is fixed by the base metal; all Al alloys have about the same E [EAA p.34, p.59]. Si, Cu and Li in solution raise E by **8.5, 4.4 and 1.5 % per at.%** in solution [HB p.95] (*units corrected after the full-text pass; they were lost in the first extraction*). The mechanism given is that solutes anchor mobile dislocations, removing their contribution to elastic strain [HB p.95].
+- **O-temper conductivity as a process check.** Typical conductivity ranges of annealed products (unit not printed; the values are consistent with % IACS, general knowledge) [HB p.928 Table 25]:
+
+  | Alloy-O | Typical conductivity | Rockwell H, max |
+  |---|---|---|
+  | 1100 | 57.0–62 | 50 |
+  | 3003 | 44.5–50.5 | 65 |
+  | 5052 | 34–37 | 95 (HRE 70 max) |
+  | 6061 | 42.0–49 | 75 (HB 40 max) |
+  | 6063 | 57.0–65.0 | 70 |
+
+  *Inference:* the ≈ 12-point gap between 1100-O and 3003-O is the conductivity cost of 3003's Mn and Si (solid solution plus dispersoids). A lean slug alloy should read between these two bands. Where its reading falls, at a given composition, tracks how much Mn, Fe, Si and Mg the anneal left in solution.
+- **Natural ageing lowers conductivity.** After solution treatment and quenching, electrical conductivity *falls* during natural ageing. HB attributes this to GP-zone formation and vacancy consumption, not to true precipitation [HB p.910]. *Relevance (inference):* for Mg + Si-bearing slug alloys such as T11, a conductivity drift between the in-line quench and cold rolling or annealing would signal Mg–Si clustering. It should not be read as a change in Mn in solution.
 
 ### Pitfalls
 - **Cold-worked versus annealed conductivity.** HB Table 12 shows cold-worked commercial Al with *higher* resistivity than annealed: 0.02812 vs 0.02767 Ω·mm²/m, i.e. 35.56 vs 36.14 MS/m [HB p.53]. This conflicts with the claimed +0.5–1 % gain in the deformation direction [HB p.51]. Always specify temper when quoting conductivity.
-- **Unreliable values.** PC gives pure Al solidifying at "661 °C" [PC p.1]. Do not use it; the accepted value is 660.3 °C [WP p.1]. DW's specific heat ("22 cal/g°C") and resistivity units ("2.7 W cm") are typographic errors [DW §1.2].
+- **Unreliable values.** PC gives pure Al solidifying at "661 °C" [PC p.1]. Do not use it; the accepted value is 660.3 °C [WP p.1]. DW's specific heat ("22 cal/g°C") and resistivity units ("2.7 W cm") are typographic errors [DW §1.2]. HB prints the melting of 99.996 % Al as "933.4 °C" [HB p.58]; 933.4 is the value in kelvin.
+- **Still no per-element coefficients (checked in the full HB text).** HB Ch.2, Ch.3 and Ch.19 give the Fridlyander ranking, the Fe/Si table, the vacancy increment and the O-temper conductivity ranges above. None of them gives per-wt.% resistivity or thermal-conductivity increments for solutes in solution. The gap in Section 14 stays open.
+
+**Relevance (slug route, inference).** Conductivity is the cheapest in-line check of how much Mn, Fe, Si and Mg the caster, the in-line quench and the slug anneal leave in solution. Without per-element coefficients, calibrate it against the user's own alloys (ch09) rather than against literature.
 
 ---
 
@@ -114,6 +131,10 @@ Sources: [HB p.120–125; RY p.28].
 | Al–Cr | Peritectic at 661 °C, 0.41–0.77 % Cr; primary Al₇Cr is retained under commercial solidification. | [HB p.116] |
 | Al–Cu | Eutectic at 548 °C, 33.2 % Cu, with Al₂Cu. | [HB p.115–116] |
 | Al–Mg₂Si | Pseudo-binary eutectic at 595 °C; max solubility 1.85 % Mg₂Si; balanced Mg:Si = 1.73 (wt). With excess Si, %Mg₂Si = 1.578 × %Mg. Si available for Mg₂Si = %Si − ¼(%Fe + %Mn). | [HB p.169–171] |
+| Al–Mg–Si with Fe, Mn | Mn forms insoluble "Al₁₀Mn₂Si" (as printed) particles that take Si out of the matrix and lower the ageing response [HB p.177]. Mn and Cr (and Sr) favour Chinese-script α-Al(Fe,Mn)Si (α-Al₈Fe₂Si, α-Al₁₅(Mn,Fe)₃Si₂) over plate-like β-Al₅FeSi, which causes large misfit strain [HB p.179]. Fe gives mild strengthening up to 0.8–0.9 % in Al–Mg–Si alloys [HB p.179] | — |
+| Transition-metal (TM) supersaturation versus cooling rate | Solid-solution content after solidification (Table 33, "%", wt. presumably): at 10⁻¹ K/s Mn 1.82, Cr 0.82, Zr 0.28; at 10¹ K/s Mn 2.5; at 10² K/s Mn 2.8, Zr 0.15–0.17; at 10³ K/s Mn 3.0–5.0, Cr 1.5–3.5, Zr 0.5–0.7. Ingot and casting practice runs at 10–100 K/s, which saturates Al with TM up to the equilibrium limit (eutectic systems) or the liquid concentration (peritectic systems). Peritectic formers need a threshold of about 10² K/s; supersaturation in eutectic systems (Mn, Fe, Sc, Ni) rises continuously with cooling rate | [HB p.294–295] |
+| Al–TM decomposition | Al–TM supersaturated solutions are far more stable than those of Cu, Mg, Zn, Si or Li and decompose between 250 and 650 °C. Al–Mn (Al₆Mn) 300–350 °C; Al–Sc 250–350; Al–Zr 400–450; Al–Cr 450–500; Al–V 500–550 °C (Table 34). Commercial Al–Mn supersaturated by ingot casting (< 10² K/s) decomposes above 325 °C to Al₆Mn, (AlFeMn) and (AlFeMnSi) dispersoids, with "no real precipitation hardening" | [HB p.293, p.295, p.299] |
+| TM diffusion and segregation | D(TM) ≈ 10⁻¹⁴–10⁻¹² cm²/s at 500 °C (printed "cm³/sec"). Dendritic segregation of TM "cannot be easily eliminated by homogenization". Eutectic-type TM diffuse about an order of magnitude faster than peritectic-type TM | [HB p.295] |
 | Al–Si | Eutectic temperature is lowered 10 °C by 0.1 % Mg. Mg reduces Si solubility, so Mg₂Si is insoluble in 7075 but soluble in 6013. | [HB p.122, p.172] |
 | H in Al | Solubility falls about 10× on solidification [HB p.119]. ⚠ Minus signs restored: liquid log S = 2.796 − 2760/T; solid log S = 0.788 − 2080/T (Ransley–Neufeld); liquid 2.620 − 2550/T (Opie–Grant); liquid 2.969 − 3086/T, solid 1.961 − 3042/T (Eichenauer). S in cm³/100 g, T in K. | [HB p.73–75] |
 
@@ -123,7 +144,7 @@ Sources: [HB p.120–125; RY p.28].
 |---|---|---|
 | 1350 | Al₁₂Fe₃Si, Al₆Fe | — |
 | 3xxx (3003) | Al₆(Fe,Mn), Al₁₂(Fe,Mn)₃Si | Al₁₂(Mn,Fe)₃Si, Al₆(Mn,Fe) |
-| 5083 | Mg₂Si, Al₁₂(Fe,Mn)₃Si, Al₇Cr | Al₁₁Cr₂ ⚠, Al₆(Fe,Mn) |
+| 5083 | Mg₂Si, Al₁₂(Fe,Mn)₃Si, Al₇Cr | Al₁₁Cr₂ (as printed in HB Table 7), Al₆(Fe,Mn) |
 | 6061 / 6013 | Mg₂Si, Al₁₂(Fe,Mn)₃Si / Al₁₂(Fe,Mn)₃Si | 6013: Al₁₂Mn₃Si |
 | 2x24 | Al₇Cu₂Fe, Al₁₂(Fe,Mn)₃Si, Al₂CuMg, Al₂Cu, Al₆(Fe,Cu) | Al₂₀Cu₂Mn₃ |
 | 7x75 / 7x50, 7055 | Al₇Cu₂Fe, Al₁₂(Fe,Mn)₃Si, Mg₂Si, … | Al₁₂Mg₂Cr / Al₃Zr |
@@ -133,6 +154,9 @@ Sources: [HB p.120–125; RY p.28].
 - **3004-H19 can body.** Its success depends on controlling the size, volume fraction and distribution of Al₁₂(Fe,Mn)₃Si constituents [HB p.123].
 - **Choice of dispersoid former.** Coherent Al₃Zr is more effective against boundary migration than incoherent Al₁₂Mg₂Cr or Al₂₀Mn₃Cu₂. Particles < 0.4 µm retard recrystallisation, and small, closely spaced particles are most effective [HB p.125].
 - **Mn/Fe budget in 3xxx.** Mn + Fe must stay below the level that nucleates primary Al₆(Mn,Fe); hence the industrial Mn < 1.25 % [HB p.159–160].
+- **Al₃Zr** has only ~0.6 % misfit with Al and stays roughly spherical below 0.18 wt.% Zr; it can be coherent or semi-coherent depending on process history [HB p.125]. Excess Si strongly promotes Al₃Zr formation in Al–Mg–Si alloys [HB p.179].
+- **Relevance: Mg₂Si bookkeeping for T11 (derived from the HB rules above).** T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26): Si available for Mg₂Si = 0.38 − ¼(0.52 + 0.14) ≈ 0.22 %. Mg 0.26 needs only 0.26/1.73 ≈ 0.15 % Si, so Mg is limiting. That gives Mg₂Si ≈ 1.578 × 0.26 ≈ 0.41 % and ≈ 0.07 % excess Si. T11 is therefore a lean, slightly Si-excess Al–Mg–Si alloy in which about 40 % of the Si (0.165 of 0.38) is assigned to Fe and Mn constituents. The ¼ factor is an empirical rule for DC-cast alloys; on a fast rotary caster more Fe stays in solution (row above), so the real constituent fraction is uncertain (inference).
+- **Relevance: rotary-cast strip.** The supersaturation table shows the direction: the faster the casting, the more Mn (and, by the same eutectic-type logic, Fe) stays in solution. Without ingot homogenisation, that Mn and Fe can precipitate during later heating, from 300–350 °C for Al₆Mn [HB p.295] (inference for the route; the cooling rate of the user's caster is not known here).
 
 ### Pitfalls
 - Peritectic formers (Cr, Ti, Zr) give coarse primary particles if the composition is not tightly controlled [HB p.121].
@@ -144,8 +168,11 @@ Sources: [HB p.120–125; RY p.28].
 
 ### Mechanisms
 - **Solid solution.** The yield-stress increment follows τ = τ₀ + k·c^(2/3) for single crystals [RY p.25]. For Mg, the increment scales as c^(2/3) below 1 at.% and c^(1/3) above [HB p.162]. Effects are roughly additive in dilute alloys. Size misfit dominates; valence difference matters for Zn and Ag [HB p.90].
-- **Indirect solute effect (dominant for work hardening).** Solutes slow dynamic recovery, so dislocation storage rises [RY p.26; HB p.98]. Mg suppresses cell formation and produces a Taylor lattice [RY p.14].
-- **Dislocation strengthening.** Δσ = αGb√ρ with α 0.2–0.3 [HB p.96]. Dislocation density inside subgrains saturates at about 10¹⁴ m⁻² for ε = 0.03–2 in AA1050 and AA3207 (0.4 % Mn), higher in 3207 [RY p.16].
+  - To strengthen by solid solution in a non-heat-treatable alloy, the element must be appreciably soluble at the annealing temperature, must stay in solution after a slow cool from the anneal, and must not react with other elements to form insoluble particles [HB p.91–92].
+  - **Ternary synergy.** In Al–Mg–Si, Al–Cu–Mg and Al–Zn–Mg, both the solution strengthening and the work hardening are *greater* than the sum of the individual solutes [HB p.95, p.101]. *Relevance (inference):* for Mg + Si alloys such as T11, a linear sum of binary Mg and Si coefficients will underestimate strength and press force.
+- **Indirect solute effect (dominant for work hardening).** Solutes slow dynamic recovery, so dislocation storage rises [RY p.26; HB p.98]. Adding solute has the same effect on substructure as lowering the deformation temperature [HB p.98]. Mg suppresses cell formation and produces a Taylor lattice [RY p.14].
+- **Dislocation strengthening.** Δσ_y = M·α·G·b·√ρ, with α 0.2–0.3 and M ≈ 3 (Taylor factor) [HB p.89, p.96] (*corrected after the full-text pass: the earlier entry omitted M*). Dislocation density inside subgrains saturates at about 10¹⁴ m⁻² for ε = 0.03–2 in AA1050 and AA3207 (0.4 % Mn), higher in 3207 [RY p.16].
+- **Strain hardening of quenched metal.** In quenched Al foil, all quenched-in dislocation loops are gone after 5 % cold reduction; with more cold work the jogged tangles turn into well-defined subgrains [HB p.97].
 - **Grain and subgrain size.** Hall–Petch σ_y = σ_f + k·d^(−1/2), with σ_f = 10 MPa for pure Al [HB p.101]. Substructure strengthening scales as d^(−m) with m between ½ (hot-work subgrains) and 1 (cold-work cells) [HB p.101–102].
 - **Constituents.** In Al–0.05Si–Fe (0.15–1.17 % Fe), annealed yield strength rises about 7 MPa per vol.% constituent [HB p.122, p.138].
 - **Precipitates.** Shearable precipitates give localised slip; non-shearable ones give Orowan looping and higher work hardening. Maximum hardening occurs at a particle spacing of about 10 nm [HB p.104–108]. Combine precipitate contributions with exponent q = 1.5 (better fit than q = 2) [HB p.113].
@@ -156,16 +183,19 @@ Sources: [HB p.120–125; RY p.28].
 
 | Quantity | Value | Source |
 |---|---|---|
-| Mn in solution, O temper | +21 MPa YS, +42 MPa UTS per wt.% Mn in solution | [HB p.160] |
-| Mn in solution, H19 | +35 MPa YS per wt.% | [HB p.160] |
+| Mn in solution, O temper | +21 MPa YS, +42 MPa UTS per wt.% Mn in solution (binary Al–Mn sheet in which the Mn was kept in solution by a high-temperature anneal and rapid quench, HB Fig. 62) | [HB p.160] |
+| Mn in solution, H19 | +35 MPa YS per wt.%. Mn gives "modest" solid-solution strengthening but is more effective at promoting work hardening during cold rolling; it is still less effective than Mg, which is why many 3xxx alloys add Mg and/or small Cu | [HB p.159–160] |
 | Mg, H19 | +70–85 MPa YS per wt.% | [HB p.160, p.164] |
 | Mg, O temper | Up to 6 % Mg gives annealed YS up to 175 MPa | [HB p.94] |
 | Mn in solution in 3xxx after preheat and hot work | only 0.2–0.3 wt.% (0.1–0.15 at.%) | [HB p.94] |
 | Cu limit in non-heat-treatable alloys | about 0.3 wt.%, to avoid Al–Cu–Fe constituents, grain-boundary precipitates or ageing | [HB p.94] |
 | Most effective strengthener | Per atom: Mn and Cu (≤ 0.5 at.%). Per weight: Mg. Least efficient: Zn. | [HB p.94–95] |
 | Cu-equivalent K (tensile work hardening of 1 at.% solute) | Cu 1.00, Ge 0.64, Mg 0.37, Cd 0.33, Ag 0.15, Zn 0.071 | [HB p.99 Table 2] |
-| Doherty work-hardening parameter H (GPa) | Cu 3.38, Si 1.56, Mg 1.52, Mn 1.03, Zn 0.27 (⚠ table garbled; an unassigned third column reads Cu 0.20 / Si 0.05 / Mg 0.14 / Mn 0.17) | [HB p.99] |
+| Doherty work-hardening parameter H (GPa) | **Cu 3.38 ± 0.20, Si 1.56 ± 0.05, Mg 1.52 ± 0.14, Mn 1.03 ± 0.17, Zn 0.27**. H = (k_alloy − k_Al)/(at. fraction solute)^(2/3) (exponent read from the equation layout), where k is the YS after a true rolling strain of 1 (63 % cold reduction) in YS = k·εⁿ | [HB p.99–100] (*corrected after the full-text pass: the "unassigned third column" is the ± uncertainty of each value*) |
 | Hall–Petch k | Pure Al 0.065–0.07 MPa·m^½ [RY p.33; HB p.101]; many alloys 0.1–0.2 [HB p.101]; AlNi6 0.14 [RY p.33]; Mg-free alloys ≤ 0.15; 5754: k = 0.22, σ₀ = 42.5 MPa; 5182: k = 0.30, σ₀ = 57.6 MPa | [HB p.167] |
+| Hall–Petch friction stress, Al–Mg | **σ_f = 15.5 × (wt.% Mg)** (HB Eq. 24). Derived check: 3 % Mg gives 46.5 MPa (5754 printed: 42.5); 4.5 % Mg gives 70 MPa (5182 printed: 57.6). So it is an approximation only | [HB p.167] (*corrected after the full-text pass: the "+ 24" read earlier is the equation number*) |
+| Total strength | σ = σ_f + ΣΔσ_i, with σ_f = 10 MPa for pure Al; several precipitate contributions combine as (ΣΔσ_i^q)^(1/q), q ≈ 1.5 | [HB p.113] |
+| Maximum ageing increments (Table 36) | ΔYS_max: Al–1Mg–0.6Si–0.25Cu 140 MPa (79 MPa per at.% total solute); Al–4Cu–1.5Mg 260; Al–4.5Zn–1.8Mg 230; Al–5Zn–2.3Mg–1.7Cu 290; Al–0.5Sc 120 MPa (1000 MPa per at.%) | [HB p.298] |
 | Hollomon σ = Kεⁿ, O temper (n / K in MPa) | 1100: 0.242/146 · **3003: 0.242/188** · 6061: 0.209/224 · 5052: 0.198/281 · 5454: 0.189/340 · 5086: 0.193/368 · 5456: 0.178/479 | [HB p.100 Table 3] |
 | Initial work-hardening rate, pure Al | about G/20 | [HB p.97] |
 | Stage IV | θ_IV ≈ 0.1·τ_IV | [RY p.31] |
@@ -181,6 +211,10 @@ Sources: [HB p.120–125; RY p.28].
 | EC-O / H19 | 83 / 186 | 28 / 165 | 23 / 2.5 (in 10 in.) | — | — |
 | 1145-O / H18 | 76 / 145 | 34 / 117 | 40 / 5 | — | — |
 | 1100-O / H14 / H18 | 90 / 124 / 165 | 34 / 117 / 152 | 35 / 9 / 5 | 23 / 32 / 44 | 34 / 48 / 62 |
+| 1180-O / H18 | 62 / 124 | 21 / 117 | 45 / 5 | — | — |
+| EC-H14 | 110 | 97 | — | — | — |
+
+*Added after the full-text pass:* the 1180 and EC-H14 rows, and shear strengths from the same table: 1060-O/H14/H18 48/62/76; EC-O/H14/H19 55/69/103; 1145-O/H18 55/83; 1100-O/H14/H18 62/76/90 MPa [HB p.71] (psi → MPa derived). Hardness is HB 500 kg/10 mm/30 s; fatigue limit is R.R. Moore rotating beam, printed as "based on 5000 million cycles" [HB p.71].
 
 Further reference values:
 - Commercially pure Al sheet fatigue at 2×10⁷ cycles: annealed (UTS 80 MPa) σ₋₁ = 35 MPa; strain-hardened (UTS 150 MPa) σ₋₁ = 50 MPa [HB p.72].
@@ -195,8 +229,11 @@ Further reference values:
 - **Grain size matters more in 5xxx** (k > 0.2) than in heat-treatable alloys, where grain size gives little strengthening [HB p.101, p.167].
 - **Avoid ultrafine grains (< 1 µm).** They lose work-hardening capacity and ductility [HB p.102].
 
+- **Relevance: ageing headroom of T11 (inference).** For a 6061-type alloy, full solution treatment and peak ageing add ≈ 79 MPa per at.% of solute [HB p.298]. T11's Mg plus available Si is ≈ 0.29 + 0.21 ≈ 0.5 at.% (derived from 0.26 wt.% Mg and ≈ 0.22 wt.% available Si, Section 3), against 1.77 at.% in the HB example. Applying 79 MPa/at.% gives a full-T6 ceiling of ≈ 40 MPa. The cure at 220 °C/10 min is far shorter than a T6 age (Section 7), so bake hardening of T11 should be well below that ceiling, and only if the anneal left Mg and Si in solution. Plant data are needed.
+
 ### Pitfalls
-- The ⚠ Hall–Petch friction-stress formula for Al–Mg in HB ("σ_f = 15.5·wt.% Mg + 24") does not reproduce the 5754/5182 σ₀ values printed beside it [HB p.167]. Do not use it until it is checked against the primary reference.
+- *Corrected after the full-text pass:* the Hall–Petch friction-stress formula for Al–Mg is σ_f = 15.5·(wt.% Mg) (HB Eq. 24). The earlier "+ 24" was the equation number. It still reproduces the 5754/5182 σ₀ values only roughly (table above) [HB p.167].
+- **Constituents crack early.** 25–50 % of constituent particles are cracked after 7 % plastic strain in uniaxial tension [HB p.122]. *Inference for slugs:* impact extrusion imposes strains far above 7 %, under mostly compressive stress. Coarse Fe-rich constituents are therefore likely void and crack sites in the can wall and at the bottom radius, so constituent size control (casting rate, Fe and Si level, rolling reduction [HB p.122]) is a formability lever, not only a recrystallisation lever.
 
 ---
 
@@ -212,7 +249,17 @@ Further reference values:
   - Fine grains develop the rolling texture faster [RY p.21].
   - Recrystallisation produces cube/Goss, especially in high-purity alloys. Particle-stimulated nucleation (PSN) at constituents randomises the texture [HB p.131].
 - **Recrystallisation nucleation and retardation.** PSN occurs at constituents and coarse particles; the critical particle size decreases at lower deformation temperature and higher strain rate [HB p.130]. Fe in solution raises the recrystallisation start temperature through fine Al–Fe precipitation during the anneal; Si precipitation also impedes early recrystallisation [HB p.140].
-- **Annealing of Al–Mg.** High-Mg alloys lose more strength by recovery, low-Mg alloys by recrystallisation. At equal partially annealed strength, the higher-Mg alloy keeps more elongation [HB p.168].
+  - The full text adds the mechanism: when Si precipitates before or during annealing, fine Al–Fe–Si or Si particles impede early recrystallisation inside the deformation zones and reduce the number of zones that can act as nuclei. Conversely, the more Fe and Si sit *out* of solution as constituents during deformation, the larger the volume fraction of particles big enough to nucleate grains, which refines the 1xxx grain (HB Fig. 47) [HB p.140].
+  - Most products dynamically recover during hot working. Static recrystallisation may occur between or after rolling passes, and high-Mg alloys (lower stacking-fault energy) may recrystallise dynamically [HB p.130]. Cold-rolled sheet, rod and tube "almost invariably" recrystallise during annealing to O temper [HB p.131].
+- **Transition-metal effect on the recrystallisation temperature (Yelagin, binary alloys).** Maximum increments of the recrystallisation onset/finish temperatures (Table 35): **Mn (0.77 at.%) +30/+25 K; Fe (0.04 at.%) +65/+35 K**; Cr (0.35) +45/+30; Zr (0.09) +105/+240; Sc (0.20) +120/+320; Ti (0.25) +5/+180; V (0.21) +15/+15; Ni (0.04) −10/+5 K [HB p.296]. The alloys were cast, annealed at 500 °C, hot rolled at 420–450 °C, annealed at 450 °C and cold rolled. For Period IV elements (Mn, Fe, Cr, …) the effect sets in only above a threshold close to their solubility at the solution-treatment temperature, and some elements show a maximum versus concentration [HB p.296].
+  - An element is an efficient anti-recrystalliser if it has an incomplete 3d shell with few electrons, a large atomic-radius difference to Al, forms a supersaturated solution on solidification, and that solution decomposes into thermally stable fine dispersoids [HB p.296].
+- **Al–Mn alloys specifically.** The Mn dispersoids hinder grain growth on recrystallisation and give fine-grained sheet. "High iron and silicon content and small amounts of copper and magnesium also tend to refine the grain size" [HB p.299]. Fe also controls texture and "prevents the formation of earing upon deep drawing" [HB p.299]. In 3xxx can alloys Mn (up to 1.25 %) allows high deformation and prevents grain growth through slowed recrystallisation and uniformly distributed Mn precipitates; Mn is "the cheapest addition in aluminum" [HB p.297].
+- **Annealing of Al–Mg.** High-Mg alloys lose more strength by recovery, low-Mg alloys by recrystallisation. At equal partially annealed strength, the higher-Mg alloy keeps more elongation [HB p.168]. The data are binary Al–Mg alloys cold rolled 70 % and annealed 2 h at each temperature (HB Fig. 69). Higher Mg and lower annealing temperature give smaller recovered subgrains and higher retained strength [HB p.168–169].
+- **Industrial annealing practice (HB Ch.19).**
+  - Annealing is done above the recrystallisation temperature, so the required temperature depends on the prior strain. In commercial practice the annealing temperature is "the lowest temperature that yields the softest state in the minimum amount of time" [HB p.887].
+  - **Non-heat-treatable alloys "are heated to temperature very quickly to avoid grain growth"**; a fine grain is the aim, and the cooling rate from the annealing temperature is unimportant [HB p.887].
+  - Heat-treatable alloys: if the hardness comes from working, anneal at ≈ 650 °F (343 °C) and cool in any way. If it comes from prior heat treatment or hot work, anneal at ≈ 775 °F (413 °C) for 2–3 h, cool at ≈ 50 °F/h (28 °C/h) to 450 °F (232 °C) or lower; 7xxx get an extra 4 h at 450 °F. "To achieve proper control of the resulting annealed properties, it is best to resort to trial and error" [HB p.887].
+  - Typical full-anneal temperatures (Table 7): **1060, 1100, 1350, 3004, 3105 and all listed 5xxx: 650 °F (343 °C); 3003: 775 °F (413 °C)**; for these, the time at temperature "should not be any longer than to get the center of the furnace load up to temperature", and the cooling rate is unimportant [HB p.888]. Heat-treatable wrought alloys: 760 °F (404 °C) for 2–3 h, then 50 °F/h to 500 °F (260 °C). Alclad material gets shorter times to limit diffusion into the cladding [HB p.888]. (°F → °C conversions derived.)
 - **Work-hardening structure in 1xxx.** In 1145-H19 foil stock, cells reach a limiting size of a little under 1 µm at a true strain of about 0.15. Further strain raises misorientation [HB p.139–140].
 
 ### Quantitative data
@@ -232,7 +279,7 @@ Further reference values:
     - Below the critical work hardening, "heat treatment must be restricted to restoration without recrystallization" [EAA p.53].
   - **Golden rule for interstage annealing.** Anneal only when the work hardening has reached at least the critical work-hardening rate. Annealing metal that is "only slightly work-hardened" risks grain enlargement [EAA §VII.1.1 p.92; §VII.2.6 p.97]. Shop practice is torch annealing with tallow as indicator, which turns light brown at 340 °C [EAA p.92]. In 5xxx with > 3 % Mg, anneal "very carefully" to avoid sensitisation to intergranular corrosion (Section 11) [EAA p.92 fn 2, p.97 fn 1].
   - Grains above about 100 µm cause orange peel and reduce formability [EAA p.52].
-  - Minimum annealing temperatures: 1xxx 360 °C, 3xxx 400 °C, 5xxx 350 °C [DW §3.1.4].
+  - Minimum annealing temperatures: 1xxx 360 °C, 3xxx 400 °C, 5xxx 350 °C [DW §3.1.4]. HB Table 7 is consistent for 3003 (413 °C) but anneals 1xxx, 3004 and 3105 at 343 °C, below DW's minima [HB p.888]. HB's Al–Mn table gives 3003 "400–600 °C", 3004 415 °C and 3105 345 °C [HB p.299]; the 3004 figure conflicts with Table 7's 343 °C (⚠ two chapters of the same book).
   - Salt-bath recrystallisation at 400 °C: AlMgX 25 s, AA3103 45 s after ε = 2. Conductivity did not change, so no Mn dispersoids precipitated [RY p.56–57].
   - Foil final anneal up to 340 °C for 12 h, which also burns off rolling oil [WP p.61].
 - **Grain sizes** [RY p.66].
@@ -253,11 +300,15 @@ Further reference values:
     - Second digit (UTS-based): HX8 is the hardest temper normally produced; HX4 is midway between O and HX8; HX2 midway between O and HX4; HX6 midway between HX4 and HX8; odd digits are intermediate.
     - HX11: strain-hardened after the final anneal, too much to count as annealed but not enough or consistently enough to qualify as HX1. H112: some strain hardening from hot working or limited cold work, with no upper property limits. H116: see Section 11.
 - **Mill scheduling.** Reversing-mill passes can be taken without re-coiling to keep the rolling direction, which saves time and energy [VA p.196].
-- **Earing.** Control it by balancing the annealing cube texture against the rolling texture of the final reduction, as done for 3004-H19 [HB p.131].
+- **Earing.** Control it by balancing the annealing cube texture against the rolling texture of the final reduction, as done for 3004-H19 [HB p.131]. Fe in Al–Mn alloys suppresses earing through texture control [HB p.299]. The quantitative definitions (r̄, Δr = (r₀ − 2r₄₅ + r₉₀)/2, LDR) and 3003-O values (r̄ 0.6, Δr 0.2) are in ch05 §4.11 [HB p.851–853].
+- **Relevance: slug anneal (inference from HB Ch.19 practice and the Fe/Si effects above).**
+  - Heat the slugs fast and hold only until the coldest slug reaches temperature [HB p.887–888]. A basket or coil that heats slowly in its centre gives the centre slugs a slow-heating anneal, the condition that coarsens the grain [EAA p.53].
+  - On a fast rotary caster with no homogenisation, part of the Fe (and Mn, Si) stays in solution [HB p.294–295]. That dissolved Fe raises the recrystallisation onset during the slug anneal by precipitating finely [HB p.140], by up to ≈ 65 K in Yelagin's binary data [HB p.296]. Constituent Fe and Si, by contrast, refine the grain by PSN [HB p.140, p.299]. Measure T11's anneal curve (hardness and conductivity against temperature) instead of assuming 1xxx-like recrystallisation.
 
 ### Pitfalls
 - Slow heating or too little strain gives coarse grains; holding above 350–380 °C causes grain growth [EAA p.53]. Repeated interstage anneals of lightly strained metal enlarge the grain [EAA p.97]. *Inference for slugs:* the same applies to any small strain picked up between the final anneal and a later heat exposure (levelling, slug sizing). It parallels the 3–7 % sizing-strain coarse-grain effect in brazed MPE tube (ch07 §8.5).
 - Processing heat-treatable 1xxx/3xxx stock at 400 °C can precipitate Mn and change properties. Check it with conductivity [RY p.56].
+- **Very fine grains.** Stable grains < 10 µm are what superplastic sheet needs [HB p.131]. At ~1 µm (particle-stabilised 8xxx) the strong grain-size hardening (m ≈ 1) comes with a loss of work-hardening capacity that limits tensile ductility [HB p.102]. Neither is a target for slugs.
 - 5xxx with high Mg develops shear bands and is "notoriously hard to fabricate" hot and cold [RY p.17; HB p.166].
 
 ---
@@ -276,22 +327,38 @@ Further reference values:
 - AA1050 and AlMgX: 100 °C/h to 550 °C, 6 h, cool 6 °C/h to 350 °C, quench [RY p.54].
 - **Derived design estimate.** Going from AC to C removes about 0.5 wt.% Mn from solution. At +21 MPa/wt.% [HB p.160], that is roughly −10 MPa annealed yield strength, with a large gain in conductivity (Section 2 ranking). This assumes the linear coefficient applies.
 - A homogenised 500 mm 3004 ingot becomes progressively more homogeneous through hot rolling to 47 mm and cold rolling to 0.33 mm [HB p.160 Fig. 61].
+- **HB on 3xxx homogenisation (full text).** Typical as-cast 3003 ingot holds 0.7–0.9 % Mn in solution; the rest sits in Al–Mn–Fe and Al–Mn–Fe–Si constituents. Homogenisation precipitates Al₁₂(Mn,Fe)₃Si or, below 0.07 % Si, Al₆(Mn,Fe) dispersoids, "typically less than 1 µm" in diameter, with the size set by the thermal cycle [HB p.160]. Si speeds Mn precipitation, densifies the α dispersoids and lowers the Mn left in solution; with enough Si, as-cast Al₆(Mn,Fe) converts to Al₁₂(Mn,Fe)₃Si; a higher Fe/Mn ratio favours Al₁₃(Fe,Mn)₄ in the as-cast state [HB p.160].
+- **Furnace terms (HB Ch.19).**
+  - *Preheat:* heating logs or billets to a uniform intermediate temperature before extrusion or forging, as fast as the allowable surface condition permits; some tolerate direct flame, others need tight surface-temperature control to avoid surface melting, which causes tearing and die sticking [HB p.886–887].
+  - *Reheat:* heating slabs before rolling, repeated as the slab is reduced [HB p.887].
+  - *Homogenisation:* a long soak, "generally the 15–20 hour range", after casting [HB p.887].
+  - Pit furnaces are the usual equipment for homogenising or preheating ingots and coils [HB p.927].
+- **Limits of homogenisation for transition metals.** Dendritic segregation of Mn, Cr, Zr and similar elements "cannot be easily eliminated by homogenization" because they diffuse at only 10⁻¹⁴–10⁻¹² cm²/s at 500 °C [HB p.295].
 - **Levers.**
   - High-temperature soak followed by stepped slow cooling lowers Mn in solution (higher conductivity, more and coarser dispersoids).
   - A single-step treatment with a quench keeps more Mn in solution [RY p.54].
   - Si accelerates Mn precipitation [HB p.160].
-- **Pitfall.** Dispersoid size and number density are not reported in the read portion of RY, so they cannot be linked to recrystallisation behaviour here (gap).
+- **Relevance: rotary-cast strip, no homogenisation (inference).** The user's route replaces the 15–20 h soak with in-line hot rolling from ≈ 500 °C and a water quench at ≈ 380 °C. The Al–Mn decomposition window starts at 300–350 °C [HB p.295] and 325 °C [HB p.299]. So the slug anneal, not a homogenisation step, is where most supersaturated Mn and Fe can precipitate, and it must do so alongside recrystallisation (concurrent precipitation). With T11's low Mn (0.14 %) this matters less than for 3102/3207; Fe supersaturation is the open question (Section 5).
+- **Pitfall.** Dispersoid size and number density are not reported in the read portion of RY. HB gives only "< 1 µm" for 3xxx dispersoids [HB p.160], so they still cannot be linked quantitatively to recrystallisation behaviour here (gap).
 
 ---
 
-## 7. Heat treatment of heat-treatable alloys (2xxx/6xxx/7xxx)
+## 7. Heat treatment of heat-treatable alloys (2xxx/6xxx/7xxx) and heat-treatment equipment
 
 ### Mechanisms
 - Precipitation sequences:
-  - 6xxx: SSSS → separate Mg and Si clusters → co-clusters → GP zones → β″ → β′ → β (Mg₂Si) [RY p.8; HB p.172–174].
+  - 6xxx: SSSS → separate Mg and Si clusters → co-clusters → GP zones → (Si-rich phase) → β″ → β′ → β (Mg₂Si) [RY p.8; HB p.173–174]. HB Ch.19 gives the shorter form GP zones → β′ → β, with needle GP zones along ⟨001⟩ [HB p.916].
+  - Al–Mg–Si GP zones are single-atomic-layer plates (2.5 nm thick, ~30 nm long) with Mg:Si = 1, only partially coherent, and stable up to ≈ 260 °C. β″ is a needle phase (Si:Al:Mg = 6:3:1 as printed); GP zones and β″ form in parallel and compete. Both are sheared by dislocations and localise slip; β′ rods are bypassed by Orowan looping [HB p.174–175].
   - 7xxx: SSSS → GP → η′ → η (MgZn₂) [RY p.8].
   - Al–Cu: GP zones → θ″ → θ′ → θ; GP zones dissolve above 190 °C; θ′ misfit 4.5 % [HB p.141–144].
 - In 6xxx, Si clusters form within the first minute at 200 °C. Excess Si lowers Mg₂Si solubility, speeds precipitation and raises GP-zone density [HB p.174].
+- **Ageing delay and the GP-zone critical temperature (Al–Mg₂Si).**
+  - Below about 0.9 at.% Mg₂Si, supersaturation is low and precipitation on ageing straight after the quench is heterogeneous (on dislocations); a room-temperature delay then *refines* the final structure. Above about 1.1 at.% Mg₂Si, precipitation is homogeneous and a delay coarsens it [HB p.175–176].
+  - The critical temperature above which GP zones do not form is **T_v (°C) = 111 + 71 × (wt.% Mg₂Si)** (HB Eq. 28) [HB p.177].
+  - ~0.25 % Cu lessens the delay penalty; a short pre-age above the ageing temperature dissolves delay-formed zones; 0.5 h at 160 °C straight after the quench, before the delay, removed the penalty in an Al–1.2 % Mg₂Si alloy [HB p.177].
+  - Deformation before artificial ageing changes properties only slightly, but it lowers precipitation temperatures and accelerates ageing; alloys with excess Si respond more because Si nucleates on dislocations [HB p.180].
+  - At room temperature, dislocations *slow* precipitation by annihilating quenched-in vacancies; at 120–180 °C they speed precipitation and coarsening by pipe diffusion [HB p.904].
+- **Quench sensitivity of Al–Mg₂Si.** HB compares still-air cooling (0.65 °C/s) with cold-water quenching (> 1000 °C/s). Mn- and Cr-bearing alloys are the most quench sensitive because their dispersoids nucleate β″; homogenised material is less sensitive [HB p.177–179]. Mn, Cr, Zr, V and Fe *reduce* the ageing-delay penalty, especially at slow quench rates (15 °C/min), by lowering supersaturation [HB p.177].
 - **Quench sensitivity** comes from loss of solute to coarse heterogeneous precipitates and loss of vacancies to sinks. Cr dispersoids cause the most sensitivity, Mn-bearing dispersoids less, and coherent Al₃Zr the least [HB p.126–127].
 - **Precipitate-free zones (PFZ)** narrow with higher solution temperature and faster quench. Ageing at 93 °C removed PFZs in Al–Zn–Mg–Cu even after a 2 °C/s quench [HB p.129–130]. Pre-ageing at low temperature recovers strength in slowly quenched material [HB p.127–128].
 
@@ -305,7 +372,24 @@ Further reference values:
   - (2) Mg + Si > 1.4 %: stronger and quench sensitive; water quench.
   - (3) Excess Si: extra ageing response, but Si segregates to grain boundaries and causes intergranular embrittlement, countered by Cr/Mn.
   - 6061 = Al–1Mg–0.6Si + 0.25Cu.
-- T8 (cold work before ageing) raises 2xxx yield strength by up to 35 % over T6. In 2519, Mg plus cold work adds 190 MPa against 150 MPa expected from additivity [HB p.148–149].
+- T8 (cold work before ageing) raises 2xxx yield strength by up to 35 % over T6. In 2519, Mg plus cold work adds 190 MPa against 150 MPa expected from additivity [HB p.149, p.151] (*page corrected after the full-text pass; was p.148–149*).
+- **Solution heat treatment (HB Ch.19).**
+  - The temperature sits just below the eutectic melting point; for 2xxx the margin is only a few degrees (2014: 496–507 vs 510 °C; 2017: 496–507 vs 513 °C; 2024: 488–507 vs 502 °C) [HB p.889].
+  - Local solute concentrations or too-fast heating (undissolved Al₂Cu in 2xxx) cause incipient melting and solidified "rosettes", which NDT cannot detect [HB p.889].
+  - Example windows (°F): 6061 960–1075; 6066 960–1010; 6262 960–1050; 2024 910–930; 7075 860–930 (sheet) [HB p.892].
+  - Soak time is counted from when the load thermocouple recovers to within 6 °C of the set point. Minimum soaks (Table 12): ≤ 0.016 in: 10 min salt bath / 20 min air furnace; 0.125–0.250 in: 35 / 50 min; 0.251–0.500 in: 45 / 60 min [HB p.891, p.894].
+- **Quenching (HB Ch.19).**
+  - Heterogeneous precipitation during the quench is fastest at intermediate temperatures, where both supersaturation and diffusion are high [HB p.895]. The critical range for 7075 is 400–290 °C. Above 450 °C/s gives maximum strength and corrosion resistance; 450–100 °C/s lowers strength only; 100–20 °C/s gives the worst corrosion resistance; below 20 °C/s strength drops but corrosion resistance recovers [HB p.895–896].
+  - Required cooling rate for heat-treatable alloys: 200–1000 °F/s through 800–500 °F (≈ 110–560 °C/s through ≈ 427–260 °C, derived) [HB p.936].
+  - Quench Factor method: τ = Σ Δtᵢ/Cᵢ along the cooling path, with property p = p_max·exp(K₁τ), K₁ = ln 0.995 [HB p.897–898]. For 1.6 mm 7075-T6 sheet, τ = 0.46 (cold water, strongly agitated) gave YS 73.4 ksi, against 66–69 ksi for interrupted quenches with τ = 8.5–21 [HB p.899] (Table 15; printed "MPa", but the values are ksi magnitudes).
+  - Maximum quench delays: 5 s (≤ 0.41 mm), 7 s (0.41–0.79), 10 s (0.79–2.29), 15 s (> 2.29 mm). Delays may be exceeded if the part stays above ≈ 413 °C (482 °C for 2219) [HB p.899].
+  - **Water temperature controls the cooling rate** (Table 17, probe data): maximum cooling rate 153 °C/s with 40 °C water, 115 at 60 °C, 79 at 80 °C, 48 °C/s at 90 °C. At a part temperature of 343 °C the rate is 97 / 87 / 77 / 26 °C/s for 40 / 60 / 80 / 90 °C water [HB p.901]. The cooling rate depends on water temperature and agitation, not on the metal's conductivity or heat capacity [HB p.900].
+  - Water below ≈ 50–60 °C often quenches non-uniformly (unstable vapour blanket: spotty hardness, distortion, cracking). Distilled water forms a more persistent vapour blanket than hard water [HB p.900–901]. PAG polymer quenchants give rates between water and oil [HB p.901–902]. Spray quenching is mainly a plate and sheet-mill technique; optimum droplet ≈ 0.8 mm [HB p.903].
+- **Natural and artificial ageing (HB Ch.19).**
+  - Natural ageing stabilises after ≈ 4–5 days; T3/T4 are based on 4 days. 6xxx and 7xxx keep changing for years. Natural ageing is almost fully suppressed at −40 °C [HB p.907–908].
+  - Artificial ageing runs at 95–205 °C [HB p.920] (200–450 °F, i.e. 93–232 °C, on p.911). YS rises faster than UTS, so ductility and toughness fall [HB p.920].
+  - Higher ageing temperatures reach peak faster, so production uses lower temperatures to keep the fastest-heating parts of a load from over-ageing [HB p.920].
+  - Table 22 practices: 6xxx AQ/W → T4 at ambient, 96 h minimum; 6061/6063/6066 T4 → T6 at 350 °F (177 °C) for 8–10 h; 6013 T4 → T6 at 375 °F (191 °C) for 4–5 h; 6951 T4 → T6 at 320 °F (160 °C) for 17–19 h [HB p.924–925].
 
 ### Design levers
 - Form heat-treatable alloys in T4/W and age afterwards: larger allowable strain and almost no work hardening [EAA p.53]. W temper lasts typically ≤ 15 min at ambient [WP p.47].
@@ -313,11 +397,57 @@ Further reference values:
   - Bending is possible within about 2 h of the quench, or 4–5 days if stored at −6 to −10 °C [DW §3.1.4].
 - Prefer Zr over Cr/Mn dispersoids in thick, slowly quenched products [HB p.127].
 - Paint-bake-responsive 6xxx auto sheet (Micromill MMHF-T4): yield strength 152 MPa in T4, rising to 165 MPa and 249 MPa after the two paint-bake simulations (0 % + 180 °C/20 min and 0 % + 225 °C/30 min; column mapping ⚠) [MM sl.12].
+- As-quenched (AQ) material is nearly as ductile as O temper, so parts are often formed between the quench and ageing [HB p.904]. Refrigerated storage keeps the AQ condition (Table 19): 2014/2024/2219 must be chilled within 15 min and then last 1 / 30 / 90 days at −12 / −18 / −23 °C; 6061/7075 within 30 min and then 7 / 30 / 90 days [HB p.910].
+- **Relevance: T11, in-line quench, slug anneal and the 220 °C/10 min bake (inference from the HB data above).**
+  - T11 holds ≈ 0.41 wt.% Mg₂Si (Section 3). That is far below the ≈ 0.9 at.% threshold for homogeneous precipitation, so on any later heating Mg–Si precipitation will be heterogeneous, on dislocations [HB p.175–176]. Its GP-zone critical temperature is T_v ≈ 111 + 71 × 0.41 ≈ 140 °C (derived) [HB p.177], well below the 220 °C bake. During the bake, clustering or β″ formation is therefore expected mainly on the dislocations of the heavily extruded can wall. Excess Si raises that response [HB p.180]. Whether it outweighs bake recovery is unknown.
+  - The bake can act only on Mg and Si that are still in solution after the slug anneal. HB's rule that the cooling rate after annealing is unimportant [HB p.887–888] holds for non-heat-treatable alloys. For a lean Al–Mg–Si alloy such as T11, slow furnace cooling from the anneal should precipitate Mg₂Si and remove most of the bake response; a faster cool should keep it. The anneal cooling rate is therefore a design variable for T11.
+  - In-line cooling bath: HB's probe data show the cooling rate at 343 °C dropping from 77 °C/s (80 °C water) to 26 °C/s (90 °C water) [HB p.901]. Keeping the bath well below boiling is the main lever for retaining Mg, Si and Mn in solution after hot rolling. Very cold water (< 50–60 °C) risks non-uniform quenching and strip-shape problems [HB p.900–901]. The strip enters the bath at ≈ 380 °C, already inside the 400–290 °C critical range quoted for 7075 [HB p.895–896]. So both the transfer time from the hot mill and the bath temperature matter; HB gives no critical range for lean Al–Mg–Si.
 
 ### Pitfalls
 - 7xxx in T6 must not be bent (stress-corrosion cracking risk); 2xxx in T6 accepts very little deformation [DW §3.1.4].
 - Long delays at room temperature before artificial ageing of Al–Cu can coarsen the precipitates and lower properties [HB p.143].
 - Peak-ageing always lowers toughness monotonically from the under-aged state. Over-ageing restores toughness only when matrix microstructure controls fracture [HB p.134].
+- **"High-temperature oxidation" is really hydrogen from moisture.** During solution treatment, moisture in the furnace air supplies hydrogen that diffuses into the metal, gathers at inclusions and discontinuities, and forms surface blisters. 7xxx (especially 7050) is most susceptible, then 2xxx; extrusions blister most, then forgings. Remedies: dry and clean loads and racks, sequence doors over quench tanks, use ammonium fluoroborate (≈ 5 g per m³ of workload space; corrosive, so stainless furnace panels are recommended), or anodise large parts first [HB p.892–894]. HB Ch.3 adds that hydrogen porosity can also form in *solid* products heated to high temperature in humid environments [HB p.119].
+- Under-heating leaves solute out of solution and lowers aged strength; 2024-T4 properties rise steeply above ≈ 488 °C [HB p.889].
+- Overshoot above the upper uniformity limit is not allowed in aluminium heat-treating furnaces [HB p.921].
+
+### Heat-treatment equipment and furnace practice (HB Ch.19; relevance to slug annealing)
+- **Furnace families** [HB p.920, p.922–938]:
+
+  | Type | Batch or continuous | Typical use in HB | Notes |
+  |---|---|---|---|
+  | Roller hearth, pusher, belt, chain | Continuous | High-volume work with little change in alloy, process or part | Two roller-hearth lines solution treat 150 cast wheels/h each with one operator [HB p.929, p.931] |
+  | Car-bottom | Batch | Annealing large forgings and plates; ageing and homogenising | Sand seals against cold-air leaks; a three-zone unit holds ±5 °F (±2.8 °C) on 40,000 lb (≈ 18 t) loads [HB p.922, p.930] |
+  | Pit (below grade) | Batch | Homogenising or preheating ingots and coils; **annealing ingots and coils** | "Excellent temperature uniformity", simple to run; large pits use several control zones; rarely used for solution treatment because the quench delay is hard to meet [HB p.927] |
+  | Vertical tower | Batch | Long extrusions | Several zones, each with its own controller [HB p.922] |
+  | Drop-bottom / pusher | Batch | Solution treatment (drop-bottom is the most common) | Indirect gas radiant tubes or electric elements, shielded from the parts; air goes down past the elements and up through the load via adjustable louvers [HB p.929, p.931] |
+  | Salt bath | Batch | Solution treatment | Molten K/Na nitrate–nitrite, often with chromate; rapid heating; uniformity "usually much better than ±5 °F"; best kept at one temperature [HB p.937–938] |
+  | Fluidised bed | Batch | Solution treatment | Sand fluidised by a burning gas/air mix; rapid, even heat-up; uniform heat transfer reduces warping [HB p.938] |
+
+- **Common specifications** [HB p.920–922]: operating range 830–1080 °F (443–582 °C) for solution furnaces; uniformity ±5 °F or ±10 °F (±2.8 or ±5.6 °C); no overshoot; ceramic-fibre insulation up to 8 in (≈ 200 mm); control accuracy within 2 °F; high- and low-air temperature recorded in each zone; electric, indirect radiant-tube or direct-fired gas heating; high-velocity recirculated air through stainless ductwork. Large ovens (10 × 12 × 60 ft) certify to ±5 °F and must recover within 30 min after loads above 25,000 lb (≈ 11 t) [HB p.934]. Recuperators on radiant tubes give up to 15 % efficiency gains [HB p.934]. (°F and lb conversions derived.)
+- **Temperature uniformity** [HB p.936–937]:
+  - Uniformity is "directly proportional to recirculated airflow".
+  - It degrades with cold-air aspiration through openings, poorly mixed hot air, air bypassing the heat source, a changed load, misplaced or inaccurate thermocouples, or damaged insulation.
+  - Cold spots are almost always near doors or far from the fan.
+  - Louvers are typically designed for a 1 in water-column pressure drop, about 4000 ft/min outlet velocity (≈ 20 m/s, derived).
+  - Fan-motor current shows whether the air path is too open or too restricted.
+- **Loading and heating** [HB p.887–891]:
+  - Air furnaces need about 2 in (≈ 50 mm) between parts, placed in line with the airflow so that no part shades another.
+  - Soak time is counted from when the load thermocouple is within 6 °C of the set point.
+  - Non-heat-treatable alloys should be heated "very quickly to avoid grain growth".
+- **Atmosphere.** HB Ch.19 treats air furnaces only. The atmosphere problem it covers is moisture, as hydrogen pick-up and blistering (Pitfalls above). It says nothing about nitrogen or other protective atmospheres, or about oxide (MgO) growth during annealing; for those see ch14.
+- **Quality control and pyrometry** [HB p.964–966]:
+  - A temperature-uniformity survey (TUS) is required when the furnace enters service and after major changes. Typical bands are ±10 °F for solution treatment and ±5 °F for precipitation hardening.
+  - Survey density: at least one thermocouple per 25 ft³ (≈ 0.7 m³), minimum 9 and up to 40, at the corners and centre of the work zone; furnaces under 9 ft³ use 3 thermocouples.
+  - The survey must mimic normal practice (cold-charged or hot-charged). Readings every 2 min until equilibrium, then every 5 min for at least 15 min; maximum spread 20 °F.
+  - Solution furnaces are surveyed monthly, ageing furnaces every 6 months. Continuous furnaces are surveyed with load thermocouples or judged from part properties.
+  - The control thermocouple is checked against a test thermocouple within 3 in; a mismatch above ±3 °F means shut-down and quarantine of the work since the last check. Thermocouples are calibrated weekly against NIST-traceable standards.
+  - Records are kept for at least four years.
+- **Relevance: slug annealing (inference from the HB practice above; no HB data on slugs).**
+  - *Batch versus continuous.* A belt or roller-hearth furnace that heats slugs in a single layer meets HB's "heat quickly, hold only until the centre reaches temperature" rule for non-heat-treatable alloys [HB p.887–888] better than a pit or car-bottom furnace loaded with deep baskets. In a basket the outer slugs over-soak (grain growth, more MgO) while the centre slugs heat slowly (coarse grain). If batch annealing is kept, use shallow loads with spacing in line with the airflow [HB p.891] and qualify the load, not only the empty furnace.
+  - *Uniformity target.* The recrystallised grain size depends on heating rate and peak temperature [EAA p.53], so slug-to-slug temperature spread becomes grain-size and hardness spread. HB's ±5.6 °C (±10 °F) solution-furnace band is a sensible minimum and its ±2.8 °C (±5 °F) ageing-furnace band is preferable. Survey with load thermocouples placed in slugs at the corners and centre of the load [HB p.964–966].
+  - *Atmosphere.* Humid furnace air is a hydrogen source [HB p.892] and Mg-bearing alloys oxidise faster in the melt [HB p.168]. Dry, oil-free slugs and a controlled dew point (or N₂, ch14) should therefore be part of the anneal specification for Mg-bearing slugs such as T11. The dew-point limit is not given in HB.
+  - *Cooling after the anneal.* For 3102/3207-type alloys, the cooling rate is unimportant [HB p.888]. For T11 it is a lever on bake response (Design levers above).
 
 ---
 
@@ -333,6 +463,8 @@ Further reference values:
   - Measurement: PoDFA, Prefil, K-mould, LiMCA.
   - Removal: ceramic foam, porous tube, bonded and deep-bed filters [WP p.71–74].
 - Mg-containing melts form much thicker oxide; Be or Li reduce oxidation [HB p.168].
+- **Oxide-film detectability.** Entrained oxide defects can be as small as 10⁻⁶ m wide with films down to 10⁻⁸ m thick, below the sensitivity of current NDT [HB p.119]. Real-time radiography shows that surface turbulence during filling is the main source of porosity, because entrained oxides nucleate hydrogen pores [HB p.119–120].
+- **Primary-metal refining (HB Ch.1).** Raw smelter Al carries non-metallics (α/γ-Al₂O₃, Al carbide and nitride, graphite), metallics (Fe, Si from raw materials and cell parts) and hydrogen. Filtration through a fluxing filter while blowing nitrogen lowers H from 0.22 to 0.16 cm³/100 g. Bubbling N₂ with 2–10 % Cl₂ removes Na, H and non-metallics together and brings Na to 0.0003–0.001 % (gas use printed as 0.8–1.5 m³ per gram of metal, presumably per tonne) [HB p.23]. Mn and Sc do not change the melting point of Al and are not removed by zone refining [HB p.29].
 
 ### Quantitative data and process facts
 - **Direct-chill (DC) casting route.** DC casting produces rolling slab and extrusion log. Slabs are scalped on both faces and slowly preheated; the hot line is a breakdown mill plus a tandem mill. Plate is ≥ 6 mm; sheet is cold reduced with interpass anneals [DW §2.2; TAL p.20–21].
@@ -345,6 +477,7 @@ Further reference values:
   - Melt-spun at 10⁵–10⁶ °C/s (ribbons 50–100 µm, wheel 25 m/s, melt 750 °C), cold compacted and extruded at 450 °C: about 40 % fracture strain [SIL p.32–36].
   - Ductility roughly doubles from RT to 200 °C, with most of the gain between 200 and 300 °C [SIL p.43].
   - Extruded sheet section: r₀ 0.56, r₄₅ 1.09, r₉₀ 0.63; r̄ = 0.84; Δr = −0.50 [SIL p.45–46].
+- **Primary energy (for comparison with remelting).** US average electrolysis consumption ≈ 15.18 kWh/kg Al; modern high-amperage lines reach ≈ 13.0 kWh/kg, at 94–96 % current efficiency [HB p.22]. In 1995 secondary (recycled) metal was a little over one third of the US supply [HB p.2].
 - **Remelting.** Recycling uses about 5 % of primary energy, but up to 15 % of the charge is lost as dross [WP p.6]. Can scrap is remelted at 750 ± 100 °C and degassed with Cl₂/N₂ [WP p.26].
 - **Solidification basics.** Lever rule f_s = (C_l* − C₀)/(C_l* − C_s*); k₀ = C_s*/C_l*; tip and eutectic undercoolings are typically ≤ 0.1 °C; length scales are PDAS λ₁, SDAS λ₂ and λ_eut [PC p.1–5].
 - **Grain refinement.** Ti and/or B inoculants are standard [HB p.130]. Sr modifies eutectic Si; P refines primary Si [HB p.120–121].
@@ -437,7 +570,12 @@ Further reference values:
 ## 11. Corrosion behaviour and alloying effects
 
 ### Mechanisms and data
-- **Passive film.** It forms in about 10⁻⁴ s and is 5–20 nm thick [HB p.60]. In water below 60 °C, amorphous hydroxide plus bayerite forms; boehmite forms at 60–80 °C [HB p.62]. Standard potential E⁰ = −1.663 V vs SHE [HB p.61].
+- **Passive film.** It forms in about 10⁻⁴ s and is 5–20 nm thick [HB p.60]. The oxide's molecular volume is about 1.3× that of the Al consumed; the film thickens in the presence of water vapour and has a "complex structure" at elevated temperature [HB p.60–61]. Under normal conditions the first layer, no more than 10 nm thick, is amorphous oxide, and the second is a composite of bayerite and boehmite whose thickness depends on environment and exposure time [HB p.62]. In water below 60 °C, amorphous hydroxide plus bayerite forms; boehmite forms at 60–80 °C [HB p.62]. Standard potential E⁰ = −1.663 V vs SHE [HB p.61–62]. Passivity starts at pH ≈ 2.67 for unit Al³⁺ activity, and the boehmite solubility boundary lies at pH 12.3 (activity 1) to 6.3 (activity 10⁻⁶) [HB p.64].
+- **Chemical resistance lists (HB Tables 17–18).**
+  - *Good resistance:* acetic acid, acetone, alum, ammonia, detergents, emulsifiers, essential oils, fatty acids, fruit juices, glycerin, milk products, strong nitric acid, seawater, sugar syrups, sulfur and SO₂ (dry and wet), vegetable oils, vinegar, water, among others [HB p.61].
+  - *Not resistant:* caustic soda and potash, hydrochloric, hydrobromic, hydrofluoric, phosphoric and sulfuric acids, dilute nitric acid, wet chlorine and fluorine, copper, nickel and mercury salts, zinc chloride, hypochlorites, sodium sulphite and hydrogen peroxide [HB p.61].
+  - ⚠ The text later says Al has "very high resistance" to *concentrated* hydrogen peroxide [HB p.66], which conflicts with its listing in Table 18; concentration probably decides. Dilute H₂SO₄ (1–20 %) attacks all grades even at room temperature. Glacial acetic acid has little effect, but the attack grows at low concentrations. Formic, oxalic and some chlorinated organic acids attack Al [HB p.66].
+- **Potentials in other electrolytes (0.1 N calomel scale)** [HB p.63 Table 19]: Al −0.86 (1 M NaCl), −0.50 (1 M Na₂SO₄), −0.71 (1 M Na₂CrO₄), −0.80 (1 M HCl), −0.49 (1 M HNO₃), −1.50 (1 M NaOH), −0.80 V (1 M NH₄OH). The Al potential therefore shifts by about 1 V with the electrolyte.
   - EAA gives "around 1–10 nm" for the natural oxide. It calls it chemically very stable, well adherent and self-repairing [EAA §XI.2.1 p.146]. ⚠ This does not match HB's 5–20 nm. The overlap is 5–10 nm; film thickness depends on age and environment (general knowledge).
   - Strong acids or alkalis destroy the film. So do aggressive ions locally, chloride being the typical case (seawater, road salt), which leads to pitting. "Some alloying elements might increase the corrosion resistance of the oxide layer, while others can weaken it"; the elements are not named [EAA p.146].
   - Anodising thickens the film ~1000× over the natural film. It is done in sulphuric acid, and the porous cells are sealed in boiling water [EAA §X.4.1 p.141].
@@ -509,11 +647,13 @@ Further reference values:
 - **Pitting and filiform start at surface damage and contamination.** Pits nucleate at damaged or imperfect oxide [EAA p.149]. Embedded Fe particles act as galvanic micro-pitting sites [EAA p.142], and filiform corrosion under organic coatings is governed by pre-treatment quality [EAA p.150].
   - For slugs and cans this means: limit Fe pick-up from rolls, shears and slug-handling equipment; keep slug surfaces free of embedded debris; treat lacquer pre-treatment (oxide removal or conversion) as part of corrosion design, not only adhesion.
   - None of this is quantified for 3xxx/1xxx can stock in the sources.
-- **Oxide on the annealed slug.** Paint adhesion requires removing the natural oxide [EAA p.141]. Annealing-grown oxide (the MgO issue in this KB) is therefore something the coating pre-treatment must remove or tolerate. Its thickness should be controlled with that in mind. This is an inference; the sources give no MgO-specific data.
+- **Oxide on the annealed slug.** Paint adhesion requires removing the natural oxide [EAA p.141]. Annealing-grown oxide (the MgO issue in this KB) is therefore something the coating pre-treatment must remove or tolerate. Its thickness should be controlled with that in mind. HB adds that the film thickens with water vapour and has a complex structure at elevated temperature [HB p.60–61], and that Mg-bearing *melts* carry much thicker oxide than pure Al [HB p.168]. Both point the same way for annealing Mg-bearing slugs in humid air (inference). The sources give no MgO growth data for solid annealing; see ch14.
+- **Product-side resistance (inference from HB Tables 17–18).** Typical aerosol-relevant media (water, vegetable and essential oils, fatty acids, detergents, acetone, glycerin) are on HB's "good resistance" list, while alkalis, halide acids, hypochlorites, Cu/Ni/Hg salts and dilute sulfuric acid are on the "cannot resist" list [HB p.61, p.66]. These are generic statements for bare Al, without alloy, temperature, concentration or time. They do not replace pack testing of the internal lacquer system.
 
 ### Pitfalls
 - **Missing topics.** No source read so far covers long-life or sacrificial 3xxx brazing-sheet concepts, post-braze corrosion (brown band), exfoliation of 7xxx, or SWAAT/SAAT testing. EAA Ch. XI is now read in full (2026-10-12) and does not cover them either. It is a qualitative guide for 5xxx/6xxx vehicle structures, with no corrosion rates, potentials or test data, and nothing on 3xxx packaging alloys or internal-lacquer/product corrosion of cans.
-- **Oxide-thickness values disagree:** 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60].
+- **Oxide-thickness values disagree:** 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60]. HB's own layer model (amorphous inner layer ≤ 10 nm plus a variable bayerite/boehmite layer [HB p.62]) partly reconciles them: the inner barrier layer matches EAA, and the total film matches HB's 5–20 nm (inference).
+- **HB is generic on chemicals.** The full HB text has the chemical-resistance lists above, but nothing on lacquered or internally coated containers, filiform corrosion or aerosol formulations.
 - **Mg threshold for sensitisation:** EAA uses both 3 % [p.151] and 3.5 % [p.116].
 
 ---
@@ -531,6 +671,8 @@ Further reference values:
 - **Low temperature.** There is no ductile–brittle transition; strength and elongation improve at low temperature [EAA p.51; HB p.72; WP p.51 (5083 cryogenic)].
 - **Overheating.** Al does not glow before melting [WP p.45]. Overheated cylinder heads and welded frames creep and distort later [WP p.45].
 - **Fatigue.** There is no fatigue limit, so design for finite life. Al alloys are rarely used where high-cycle life above 10⁷ cycles is required [WP p.45; HB p.72]. Endurance in tension–compression is 0.85–0.95 of the bending value; in torsion 0.55–0.65 [HB p.72]. Al is more fatigue-prone than steel [DW §1.3.2]. A 2xxx crane jib designed at stresses that were too high failed early in fatigue [DW §1.5.3].
+- **Elevated temperature, 3xxx.** Al–Mn alloys gain strength at low temperature and keep "sufficient" tensile properties up to 200 °C [HB p.299]. *Relevance:* the 220 °C/10 min bake sits just above that range, so a small strength loss by recovery of the extruded wall is possible (inference; not quantified in HB).
+- **Ductile damage in pure Al.** In pure Al (A99) necking is not accompanied by porosity, and at room temperature cracks appear only close to failure. Strain localises into micro-centres at ε < 1–2 % at 20 °C but only at ε > 10–15 % at 300 °C, and no microcracks form up to 50–70 % deformation at 300 °C; failure is transcrystalline [HB p.73].
 
 ### 12.2 Application-driven requirements
 
@@ -539,7 +681,7 @@ Further reference values:
 | **Commercial vehicles** | Weight saving, measured as fuel per tonne saved: 0.6 l/100 km [EAA p.16]; 1,500 l/100,000 km (heavy goods) or 600 l (voluminous) [EAA p.22]; bus 1,700–1,900 l/100,000 km [EAA p.22]. 1 kg Al saves 28 kg CO₂ in a truck and 40–45 kg in a bus [EAA p.22]. Average 800 kg saved per articulated vehicle [EAA p.12]. Payback < 2 years [EAA p.30]. Service life > 20 years [EAA p.34]. IRTE Class A: 7° tilt at 44 t [EAA p.20]. Design for deflection: E is ⅓ of steel and CTE 2× [EAA p.59]. | Tipper floor 5083 H32/H321/H34, 5086 H24, 5383 H34, 5454 H22/H24, 5456 H34; 6 / 8 / 10 / ≤ 12 mm for light / medium / heavy / extreme duty [EAA p.35]. ADR tanks to EN 14286 in O/H111: 5083, 5086, 5383, 5454, 5754, 5182, 5186, 5059, 5088 [EAA p.37, p.49]. Extrusions 6060, 6005A, 6008, 6106, 6082, 6061, 7020 [EAA p.47]. Crash boxes and bumpers 7003/7108; crash modules 6008; wheels 6061/6082; diesel tanks 5052/5754; bus sides 3003/5005 (coated); suspension parts cast 21100 [EAA p.49]. |
 | **Beam efficiency** | YS: mild steel 350, HSS 760, Al 250 MPa. Equal strength: weight 1 / 0.71 / 0.42. Equal stiffness: weight 1 / 1 / 0.55, with Al section 1.40× higher [EAA p.18]. Example: an IPE240 steel beam (30.7 kg/m) is matched in EI by an Al I330×200×6×10 at 15.8 kg/m (51 %), with stress 161 vs 73 MPa at equal deflection [EAA p.60–61]. | 6082-T6 |
 | **Automotive body** | Formability (FLD₀, LDR), hemming, paint-bake response; Micromill claims a 25–35 % weight reduction vs HSS [MM sl.9–14]. ~131 kg Al per car in 2005 [EAA p.11]. | Outer panels 6111, 2008, 6016, 6022; inner 5083, 5754; structures 5182/5754 sheet and 6061/6063 extrusions [WP p.55; MM sl.4]. MMHF-T4 (YS 152, UTS 282 MPa, uniform elongation 25.8 %, FLD₀ 33.7) vs 5182-O (124 / 275 / 21.2 / 23.4) [MM sl.12]. |
-| **Packaging** | Can body relies on constituent control and earing control [HB p.123, p.131]. Foil: impermeable above 25 µm, pinholes below; gauges 6–200 µm (household 22 µm, heavy-duty 33 µm); inclusions cause pinholes [WP p.59–61, p.71]. Cans recycle can-to-can [TAL p.16]. | 3004-H19, 1145 (foil) [HB p.123, p.75]. Alloys of 92–99 % Al for foil and cans [WP p.9]. |
+| **Packaging** | Can body relies on constituent control and earing control [HB p.123, p.131]. Foil: impermeable above 25 µm, pinholes below; gauges 6–200 µm (household 22 µm, heavy-duty 33 µm); inclusions cause pinholes [WP p.59–61, p.71]. Cans recycle can-to-can [TAL p.16]. **Impacts:** HB's standard-products chart lists impacts for **1100 and 1199** only among the 1xxx grades (not 1060, EC, 1145, 1180) [HB p.76]. | 3004-H19, 1145 (foil) [HB p.123, p.75]; 3004 "the main material for beverage cans" [HB p.299]. Alloys of 92–99 % Al for foil and cans [WP p.9]. |
 | **Electrical** | EC ≥ 99.45 % Al [HB p.70]. ISO E-Al annealed conductivity > 35.4–35.7 m/(Ω·mm²) [HB p.36]. Cr+V+Mn+Ti ≤ 0.01–0.015 % [HB p.52]. An Al conductor carries the same current with 50 % more area at half the weight of Cu [WP p.66]. | 1350; 8xxx conductor alloys (Alcoa 1972, 8030, 8176), which keep strength after current-cycle tests [WP p.65]. |
 | **Heat exchangers** | Al is a valid alternative to Cu, with conductivity about 4× steel, but alloying can cut it by up to ~50 % [DW §1.2]. Foil is used for heat exchangers (conduction) [WP p.62]. Heat exchangers are listed as an automotive Al application [MM sl.5; TAL p.15]. | 4xxx braze cladding [TAL p.10]; 3102 composition: Si ≤ 0.40, Fe ≤ 0.7, Cu ≤ 0.10, Mn 0.05–0.40, Zn ≤ 0.30, Ti ≤ 0.10 [WP p.49]; 3003: Mn 1.0–1.5, Cu 0.05–0.20, Fe 0.7, Si 0.6 [WP p.48]; AA3207 (0.4 % Mn) studied in [RY p.11, p.16]. |
 | **Building and marine** | Durability, extrudability, finish [TAL p.13]. | 3xxx hard-rolled trapezoidal cladding; 6063 windows [DW §1.5.4]. Marine: 5xxx plate (5083, 5086, 5052, 5059) plus 6xxx extrusions [DW §1.5.6; WP p.54]. |
@@ -568,12 +710,13 @@ Additions from EAA Ch. VI §8–9 (read 2026-10-12):
 | E (GPa) | 69–72 | 69–72 (design 70); 67 at 100 °C, 59 at 200 °C |
 | ν | 0.31–0.33 (0.35 WP) | 0.33 design |
 | CTE (10⁻⁶ K⁻¹), 20–100 °C | 23.4–23.9 | 22–24.5 (design 23); 26 at 200 °C |
-| k (W/m·K) | 237–240 | 209–222 (99.49–99.70 %, ⚠ temperature); −up to 50 % in alloys |
+| k (W/m·K) | 237–240 (calculated ≈ 247 at 25 °C, HB Table 11) | 209–222 (99.49–99.70 %, at "200°"); −up to 50 % in alloys; 2 % Mn: 126 |
 | ρ_el (µΩ·cm), 20 °C | 2.63–2.65 (≈ 65 % IACS) | 2.74 (99.8), 2.80 (99.5), 2.87 (99.0); alloys up to 2× pure |
 | T_m (°C) | 660.2–660.4 | 657–658 (99.0–99.5 %); alloys lower |
-| SFE (mJ/m²) | ≈ 200 | lowered by solutes (e.g. Ag, Mg) |
+| SFE (mJ/m²) | 135 [HB p.40] or 200 [HB p.85] (⚠ HB disagrees with itself) | lowered by solutes (e.g. Ag, Mg) |
+| O-temper conductivity (% IACS, unit inferred) | — | 1100-O 57–62; 3003-O 44.5–50.5; 5052-O 34–37; 6063-O 57–65 [HB p.928] |
 
-Sources: [HB p.37–66; DW §1.2; WP p.1–3]
+Sources: [HB p.37–66, p.928; DW §1.2; WP p.1–3]
 
 ### 13.2 Solute effects on conductivity and strength (what the sources quantify)
 
@@ -581,17 +724,17 @@ Sources: [HB p.37–66; DW §1.2; WP p.1–3]
 |---|---|---|---|---|---|
 | Cr | 0.40 | 1 | dispersoid former; Al₁₂Mg₂Cr / E phase | — | worst for quench sensitivity [HB p.127] |
 | V | — | 2 | — | — | removed by B treatment [WP p.73] |
-| Mn | 0.90 (1.82 wt.%) | 3 | O: +21 YS / +42 UTS MPa per wt.% in solution; H19: +35 YS | H = 1.03 GPa | only 0.2–0.3 wt.% stays in solution after preheat |
+| Mn | 0.90 (1.82 wt.%) | 3 | O: +21 YS / +42 UTS MPa per wt.% in solution; H19: +35 YS | H = 1.03 ± 0.17 GPa | only 0.2–0.3 wt.% stays in solution after preheat; recrystallisation onset/finish up to +30/+25 K (0.77 at.%) [HB p.296] |
 | Ti | — | 4 | grain refiner | — | — |
-| Mg | 16.26 | 5 | O: up to 175 MPa YS at 6 %; H19: +70–85 YS per wt.% | K = 0.37; H = 1.52 GPa | shear bands > 2–3 %; β phase on grain boundaries > 3 % |
+| Mg | 16.26 | 5 | O: up to 175 MPa YS at 6 %; H19: +70–85 YS per wt.%; Hall–Petch σ_f ≈ 15.5 MPa per wt.% | K = 0.37; H = 1.52 ± 0.14 GPa | shear bands > 2–3 %; β phase on grain boundaries > 3 % |
 | Ag | 23.8 | 6 | — | K = 0.15 | lowers SFE |
-| Cu | 2.48 | 7 | most effective per atom ≤ 0.5 at.% | K = 1.00; H = 3.38 GPa (highest) | ≤ 0.3 wt.% in non-heat-treatable alloys; ennobles; corrosion of high-purity Al |
+| Cu | 2.48 | 7 | most effective per atom ≤ 0.5 at.%; E +4.4 %/at.% | K = 1.00; H = 3.38 ± 0.20 GPa (highest) | ≤ 0.3 wt.% in non-heat-treatable alloys; ennobles; corrosion of high-purity Al |
 | Zn | 66.4 | 8 | least efficient | K = 0.071; H = 0.27 GPa | ~1 wt.% to lower potential |
-| Si | 1.59 | 9 | raises strain hardening (impedes recovery) | H = 1.56 GPa | E +8.5 ⚠/at.%; accelerates Mn precipitation |
-| Fe | 0.025 | 10 | +7 MPa per vol.% constituent | particle-induced recovery | ≈ 0.05 µΩ·cm per wt.% (as constituent, derived) |
+| Si | 1.59 | 9 | raises strain hardening (impedes recovery) | H = 1.56 ± 0.05 GPa | E +8.5 %/at.%; accelerates Mn precipitation; binds vacancies |
+| Fe | 0.025 | 10 | +7 MPa per vol.% constituent | particle-induced recovery | ≈ 0.05 µΩ·cm per wt.% (as constituent, derived); in solution raises recrystallisation onset/finish up to +65/+35 K (0.04 at.%) [HB p.140, p.296] |
 | Ni | 0.023 | 11 | clusters (hardens more than size model predicts) | — | — |
 
-Sources: [HB p.52–53, p.92–100, p.122, p.138–168; WP p.73]. **Per-wt.% resistivity increments for solutes in solution, and the corresponding thermal-conductivity coefficients, are NOT given in the sources read (gap).**
+Sources: [HB p.52–53, p.92–100, p.122, p.138–168, p.296; WP p.73]. **Per-wt.% resistivity increments for solutes in solution, and the corresponding thermal-conductivity coefficients, are NOT given in the sources read (gap). The full HB text was checked on 2026-10-12 and does not contain them either.**
 
 ### 13.3 Heat-treatment and thermal windows
 
@@ -600,6 +743,11 @@ Sources: [HB p.52–53, p.92–100, p.122, p.138–168; WP p.73]. **Per-wt.% res
 | Homogenisation | AA3103 (1 % Mn) | 610 °C/14 h (+ step cool 550/16 h, 500/24 h, 450/32 h) → Mn in solution 0.24 → 0.15 at.% | [RY p.54] |
 | Homogenisation | AA1050, AlMgX | 550 °C/6 h, cool 6 °C/h to 350 °C | [RY p.54] |
 | Preheat (phase selection) | Al–Fe | 607 °C/16 h → Al₃Fe; 482 °C/16 h → Al₆Fe | [HB p.138] |
+| Homogenisation (general) | logs, billets | long soak, "generally the 15–20 hour range" | [HB p.887] |
+| Mn precipitation from supersaturated solution | Al–Mn (3xxx) | Al₆Mn decomposition 300–350 °C; commercial Al–Mn solution decomposes above 325 °C | [HB p.295, p.299] |
+| Full anneal (Table 7) | 1060, 1100, 1350, 3004, 3105, 5xxx / 3003 | 650 °F (343 °C) / 775 °F (413 °C); hold only until the load centre reaches temperature; cooling rate unimportant | [HB p.888] |
+| Full anneal (Al–Mn table) | 3003 / 3004 / 3105 | "400–600 °C" / 415 °C / 345 °C (⚠ 3004 conflicts with Table 7) | [HB p.299] |
+| Full anneal, heat-treatable alloys | 2xxx, 6xxx, 7xxx wrought | 760 °F (404 °C) 2–3 h, cool 50 °F/h (28 °C/h) to 500 °F (260 °C); 7xxx add 450 °F (232 °C)/4 h | [HB p.887–888] |
 | Full anneal | 5xxx | 320–380 °C, 30–120 min; ≥ 15 % prior strain; avoid > 350–380 °C | [EAA p.53] |
 | Minimum anneal temperature | 1xxx / 3xxx / 5xxx | 360 / 400 / 350 °C | [DW §3.1.4] |
 | Recovery / recrystallisation onset | non-heat-treatable | recovery 150–350 °C; rapid softening > 280 °C | [EAA p.52] |
@@ -607,14 +755,25 @@ Sources: [HB p.52–53, p.92–100, p.122, p.138–168; WP p.73]. **Per-wt.% res
 | Foil final anneal | 1xxx foil | up to 340 °C/12 h | [WP p.61] |
 | Solution treatment | 6xxx (shop practice) | "slightly above 500 °C", 20–30 min, water quench | [DW §3.1.4] |
 | Solution treatment | Al–4Cu | 550 °C, water quench | [HB p.143] |
+| Solution treatment | 6061 / 2024 / 7075 sheet | 960–1075 / 910–930 / 860–930 °F (516–579 / 488–499 / 460–499 °C) | [HB p.892] |
+| Solution soak (minimum) | wrought, 0.125–0.250 in / 0.251–0.500 in | salt bath 35 / 45 min; air furnace 50 / 60 min (from load within 6 °C of set point) | [HB p.891, p.894] |
+| Quench critical range | 7075 (75S) | 400–290 °C; > 450 °C/s for full strength | [HB p.895–896] |
+| Quench cooling rate, water | probe at 343 °C | 97 / 87 / 77 / 26 °C/s in water at 40 / 60 / 80 / 90 °C | [HB p.901] |
+| Quench delay (maximum) | ≤ 0.41 / 0.41–0.79 / 0.79–2.29 / > 2.29 mm | 5 / 7 / 10 / 15 s | [HB p.899] |
+| Natural ageing | 2xxx (T3/T4) | stable after ≈ 4–5 days; suppressed at −40 °C | [HB p.907–908] |
 | Artificial ageing | 6060 (T1/T4 → T5/T6) | 6 h/185 °C or 8 h/175 °C | [EAA p.53] |
 | Artificial ageing | 6005, 6106, 6061 | 8 h/175 °C | [EAA p.53] |
 | Artificial ageing | 6082 | 16 h/165 °C, 10 h/170 °C or 8 h/175 °C | [EAA p.53] |
 | Artificial ageing | 6xxx general / Al–Mg₂Si | 150–180 °C, several hours / about 170 °C | [DW §2.3.2; HB p.173] |
+| Artificial ageing (Table 22) | 6061, 6063, 6066 T4 → T6 | 350 °F (177 °C), 8–10 h; 6xxx T4 at ambient ≥ 96 h | [HB p.924–925] |
+| Artificial ageing range | heat-treatable alloys | 95–205 °C | [HB p.920] |
+| GP-zone critical temperature | Al–Mg₂Si | T_v = 111 + 71 × (wt.% Mg₂Si) °C; T11 ≈ 140 °C (derived) | [HB p.177] |
+| Al–Mg₂Si GP-zone stability | Al–Mg–Si | up to ≈ 260 °C | [HB p.174] |
 | PFZ suppression | Al–Zn–Mg–Cu | 93 °C ageing step | [HB p.130] |
 | GP-zone stability limit | Al–Cu | dissolve > 190 °C | [HB p.141] |
 | T4/W forming window | 6xxx/2xxx | ≤ 2 h after quench; 4–5 days at −6 to −10 °C; W ≤ 15 min ambient | [DW §3.1.4; WP p.47] |
 | Paint bake / stoving | auto 6xxx / powder coat | 180 °C/20 min (and 225 °C/30 min) / about 200 °C/10 min | [MM sl.12; DW §3.7.4] |
+| Furnace temperature uniformity | solution / precipitation furnaces | ±10 °F (±5.6 °C) / ±5 °F (±2.8 °C); survey spread ≤ 20 °F | [HB p.920, p.965–966] |
 | Adhesive cure | 1-component epoxy | 1 h/120 °C to 10 min/180 °C | [DW §3.6.4] |
 | Hot riveting | 5xxx rivets (O temper) | about 350 °C | [DW §3.2.3] |
 | Extrusion | 6xxx; RS scrap flakes | about 500 °C; 450 °C | [DW §2.3.1; SIL p.36] |
@@ -652,30 +811,40 @@ Columns are Forming / Welding / Anodising / Corrosion [EAA p.46–47]. The table
 
 ## 14. Open questions and gaps
 
-1. **Truncated sources.** These should be re-ingested in page-split form, because the connector caps output at about 110–390 k characters per file:
-   - HB Ch.4 (recrystallisation and grain growth), Ch.5 (hardening, annealing, ageing), Ch.7 (rolling, foil), Ch.8 (extrusion), Ch.9 (welding), Ch.19–20 (heat treating, quenching), and the end of Ch.3 (Al–Zn–Mg, Al–Mg–Si–Cu, alloy-element summary).
+*Updated 2026-10-12 after the HB full-text pass (Ch.1–3, Ch.5 §3, Ch.19). Resolved items were removed: the Al–Mg Hall–Petch formula, the Doherty H-table columns, the units of the modulus increments, and the temperature of the 209/222 W/m·K values (see Sections 2 and 4).*
+
+1. **Sources not yet read.** These should be re-ingested in page-split form, because the connector caps output at about 110–390 k characters per file:
+   - HB is now available as four split PDFs (Section 1). Its Ch.4 (recrystallisation and grain growth), the rest of Ch.5 (hardening, annealing, ageing), Ch.7 (rolling, foil), Ch.8 (extrusion), Ch.9 (welding) and Ch.20 (quenching) were not used for this chapter; they belong to ch03, ch07 and ch10.
    - HAB Ch.10 Aluminium (p.165–212).
    - RY §4.5 (AA3103/5xxx work-hardening curves) and Part B.
-   - Whole-file download only works for files ≤ ~3.8 MB (ch07 §0 note). HB (17.7 MB), HAB (20.6 MB), DW, RY and SIL need splitting first; check sizes in the catalogue.
+   - Whole-file download only works for files ≤ ~3.8 MB (ch07 §0 note). HAB (20.6 MB), DW, RY and SIL need splitting first; check sizes in the catalogue.
    - DW Ch.4.2–4.7 (alloy properties, durability ratings A–D, formability) and Ch.6 (HAZ).
    - SIL Ch.5.
    - The TMS-2018 AA6111 friction-stir-welding paper (p.249).
-2. **Missing coefficients.** Per-wt.% resistivity and thermal-conductivity coefficients for solutes in solution (Mn, Fe, Si, Cu, Mg, Zn, Cr, Ti, Zr) are absent. Only a ranking, the Fe/Si table and one Mn thermal-conductivity data point exist. These are essential for fin-alloy design and must come from a dedicated source (for example Hatch, *Aluminum: Properties and Physical Metallurgy*, 1984 — general knowledge).
+2. **Missing coefficients (confirmed absent from the full HB text).** Per-wt.% resistivity and thermal-conductivity coefficients for solutes in solution (Mn, Fe, Si, Cu, Mg, Zn, Cr, Ti, Zr) are still absent. HB gives a ranking, the Fe/Si table, the vacancy increment, the thermal-from-electrical relations and O-temper conductivity ranges (Section 2), but no per-element increments. A dedicated source is needed (for example Hatch, *Aluminum: Properties and Physical Metallurgy*, 1984 — general knowledge; see also ch13).
 3. **No brazing-sheet metallurgy in these sources.** Missing topics include braze cycles, liquid-film migration, Si diffusion, post-braze strength and sag, long-life and sacrificial (Zn) core and clad concepts, and SWAAT data. Use the specialised knowledge files.
-4. **Dispersoid kinetics for 3xxx.** The number density, size and strength contribution of α-Al(Mn,Fe)Si at the RY homogenisation conditions are missing. So is the link between Mn in solution, conductivity and recrystallised grain size.
-5. **Garbled items to verify against primary references (⚠):**
-   - Al–Mg Hall–Petch σ_f formula;
-   - Doherty H-table columns;
-   - units of the modulus increments (Si/Cu/Li);
-   - temperature of the 209/222 and 343 W/m·K conductivity values;
-   - Micromill paint-bake column mapping;
-   - the cold-work-raises-conductivity statement versus HB Table 12;
-   - natural-oxide thickness: 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60];
+4. **Dispersoid kinetics for 3xxx (partly filled).** HB adds the Al₆Mn decomposition window (300–350 °C), the > 325 °C onset for commercial Al–Mn, supersaturation versus cooling rate, and the transition-metal recrystallisation increments (Sections 3 and 5). Still missing: number density, size and strength contribution of α-Al(Mn,Fe)Si at given homogenisation or anneal conditions, and the quantitative link between Mn (and Fe) in solution, conductivity and recrystallised grain size.
+5. **Conflicts and garbled items still open (⚠):**
+   - Micromill paint-bake column mapping.
+   - The cold-work-raises-conductivity statement [HB p.51] versus HB Table 12 [HB p.53]. Both are printed as such in the full text.
+   - Natural-oxide thickness: 1–10 nm [EAA p.146] vs 5–20 nm [HB p.60] (partly reconciled by HB's two-layer film, Section 11).
    - EAA Mg threshold for sensitisation: 3 % (Ch. XI) vs 3.5 % (Table VIII.2).
+   - *New from the full-text pass:*
+     - Stacking-fault energy 135 [HB p.40] vs 200 mJ/m² [HB p.85].
+     - Lattice parameter 4.0414 [HB p.38] vs 4.04963 Å [HB p.39].
+     - 343 W/m·K for 99.9 % Al [HB p.45], which is implausible.
+     - Commercial-purity ρ_s = 1.65×10⁻⁸ Ω·m [HB p.52].
+     - Annealing temperature of 3004: 343 °C [HB p.888] vs 415 °C [HB p.299].
+     - Hydrogen peroxide "cannot resist" [HB p.61] vs "very high resistance" to concentrated H₂O₂ [HB p.66].
 6. **Mill-relevant claims to test.**
    - Does reversing the rolling direction leave anisotropy unaffected in 3xxx, as found for Al99.5 [VA]? It also holds for "alloys" per VA, but no 3xxx data are shown.
    - Do Micromill's continuous-cast formability gains (FLD₀ and LDR) transfer to 3xxx fin stock?
-7. **Corrosion of 3xxx/1xxx packaging alloys.** The general corrosion sources read so far (HB Ch.2–3, EAA Ch. XI) say nothing about pitting or filiform behaviour of lacquered 3xxx/1xxx slugs and cans, product-side (aerosol content) corrosion, or the effect of the annealing oxide on lacquer adhesion. These need packaging-specific sources.
+   - *Slug route (from the HB-based inferences in Sections 5–7):*
+     - How much Fe stays in solution in rotary-cast, hot-rolled and quenched strip, and does it delay recrystallisation in the slug anneal?
+     - Does T11 respond to the 220 °C/10 min bake, and how does that depend on the cooling rate after the slug anneal?
+     - What uniformity does the actual slug furnace achieve with a full load?
+7. **Corrosion of 3xxx/1xxx packaging alloys.** HB Ch.2 adds generic chemical-resistance lists for bare Al (Section 11). No source read so far covers pitting or filiform behaviour of lacquered 3xxx/1xxx slugs and cans, product-side (aerosol content) corrosion under the internal lacquer, or the effect of the annealing oxide on lacquer adhesion. These need packaging-specific sources.
+8. **Annealing atmosphere.** HB Ch.19 covers only air furnaces and moisture-driven hydrogen blistering. Dew-point limits, nitrogen or other protective atmospheres, and oxide (MgO) growth kinetics during annealing are not in HB; see ch14.
 
 ---
 

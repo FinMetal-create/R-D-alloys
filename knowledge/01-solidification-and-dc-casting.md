@@ -2,7 +2,7 @@
 
 **Scope.** This file distils the physical metallurgy of direct-chill (DC) casting into data we can use for alloy design and process modelling. The chain covered is: composition → solidification path → as-cast structure (grain size, DAS, intermetallics, eutectic) → segregation and casting defects (macrosegregation, hot tearing, porosity, surface defects) → what this means for homogenisation. The main targets are wrought 3xxx heat-exchanger and foil alloys (AA3102/AA3207 type), with 1xxx, 5xxx, 6xxx and 8xxx as secondary targets. The source works mostly with Al–Cu model alloys, 2024 and 7075, so any transfer to our alloys is labelled **Inference**.
 
-**Compiled:** 2026-10-12. **Single source:** D.G. Eskin, *Physical Metallurgy of Direct Chill Casting of Aluminum Alloys*, CRC Press / Taylor & Francis, 2008 (ISBN 978-1-4200-6281-6), supplied as chapter PDFs.
+**Compiled:** 2026-10-12. **Main source:** D.G. Eskin, *Physical Metallurgy of Direct Chill Casting of Aluminum Alloys*, CRC Press / Taylor & Francis, 2008 (ISBN 978-1-4200-6281-6), supplied as chapter PDFs. **Second source (full-text pass 2026-10-12):** Totten & MacKenzie (eds.), *Handbook of Aluminum, Vol. 1* (Marcel Dekker 2003; catalogue S-029), cited as [TOT p.X]. It fills the gaps on DAS relations (§2.5), nucleation and inoculation (§5.4), the hot-cracking mechanism (§9.7), and hydrogen, degassing, inclusions, filtration and alkali removal (§10.1–10.4). Notes on the user's rotary strip caster and trial alloy T11 are marked **Relevance** and collected in §11 item 6.
 
 ## Sources
 
@@ -14,6 +14,7 @@
 | ch3 | 62816_ch03.pdf | Ch. 3, Sump geometry, solidification and cooling rates, structure vs process parameters, casting defects (pp. 79–124) | https://drive.google.com/file/d/1t1R4f3IKhRkid18JooQCMoR5PNhbjsZE/view | Full text (~105 k chars, 100%). Same caveats as ch2. |
 | ch4 | 62816_ch04.pdf | Ch. 4, Macrosegregation (pp. 125–182) | https://drive.google.com/file/d/1LGAwTkLvuT29WFaaXDgYcKRN31PhMQ7v/view | Full text (~126 k chars, 100%). Eqs. 4.8–4.10 and 4.18–4.19 are garbled and only partly reproduced. |
 | ch5 | 62816_ch05.pdf | Ch. 5, Hot tearing: thermal contraction, semi-solid properties, criteria, process effects (pp. 183–274) | https://drive.google.com/file/d/1tYAv85fpfmJ7f5wNBPi3kvky3b1H4ps4/view | Full text (~229 k chars, 100%). Cleanest of the extractions, with page markers. Fraction bars are linearised and a few exponents may be lost (flagged). |
+| TOT | Totten & MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003, ISBN 0-8247-0494-0 (S-029). Drive folder "Cloud part book", parts 1 (`Al 1-400.pdf`) and 2 (`ACFROG~1.PDF`) | Read in full: Ch. 12 *Castings* (Colás, Velasco, Valtierra), pp. 591–642; Ch. 13 *Molten Metal Processing* (Otsuka), pp. 643–694; Ch. 9 *Aluminum Welding* (Cross, Olson, Liu) §3 weld solidification, §4 porosity, §5 hot cracking, pp. 485–507. Also read: Ch. 2 §6 hydrogen solubility, pp. 73–75; Ch. 3 (Tiryakioğlu & Staley) §2.2.1–2.2.2 inclusions and porosity, pp. 118–120, Al–Fe–Si and Al–Mn, pp. 138–140 and 159–160; Ch. 7 *Rolling* (Karhausen & Korhonen), strip-casting routes, pp. 352–355; Ch. 15 *Low-g crystallization* (Tensi), DAS relations, pp. 743–746 | Part 1 (pp. 1–388): https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view. Part 2 (pp. 388–788): https://drive.google.com/file/d/1EwIKZG891qUZJJfloJCpHAP2hJmgXhZE/view | **Full text, 2026-10-12.** Born-digital PDF; the broken font maps were rebuilt before text extraction. Cited by **printed** page (ch. 07 cites the older single-file copy by PDF page). Figures are not readable, so data shown only in figures are missing (Ch. 12 Fig. 1 and Fig. 7, Ch. 13 Figs. 1–26, Ch. 9 Figs. 11–12). Equations keep the PDF layout and were checked by hand. |
 
 **Not used.** (i) A second Drive folder (`19BnEdTwK87C8DAtx7SAsdcg-Ebc0w92M`) holds copies of the same six PDFs, with identical names and byte sizes; they were not re-read. (ii) "Download Free Ebooks & much more.URL" in the source folder is a web shortcut, not a source. (iii) The book has no index or back matter in Drive.
 
@@ -22,7 +23,8 @@
 - "(general knowledge)" marks a statement that is not in the source.
 - "**Inference:**" marks my own reasoning that links source facts to our alloys. It is not a source claim.
 - "(derived)" marks arithmetic on source numbers.
-- The source does **not** mention AA3102, AA3207, foil gauges, or twin-roll / continuous casting and rolling.
+- `[TOT p.X]` cites the printed page of the Handbook of Aluminum, Vol. 1.
+- Eskin does **not** mention AA3102, AA3207, foil gauges, or twin-roll / continuous casting and rolling. [TOT] names twin-roll and belt casters only as rolling-mill routes: twin-roll casters for soft alloys down to a nominal minimum of 6 mm; a belt caster at 16–20 mm for 1100, 3000 and 5000 series, hot rolled in tandem to 2–3 mm [TOT p.352–354]. Neither source gives solidification data for continuously cast strip.
 
 ---
 
@@ -167,6 +169,29 @@ Table 3.1 coefficients for Eq. 3.7 [ch3, p.96]. The printed units are "α, 10⁴
 
 ### 2.4 Pitfalls
 - Average DAS in the centre mixes coarse-cell "floating" grains and fine-cell grains. Measure them separately [ch3, p.102, 105].
+
+### 2.5 Dendrite spacing vs cooling rate: additions from [TOT] (full-text pass 2026-10-12)
+- **Secondary DAS.** For a given composition it is "controlled exclusively by the solidification rate". A smaller DAS improves mechanical properties and also physical ones such as thermal conductivity (A319) [TOT p.601]. The DAS-vs-rate data (Ch. 12 Fig. 7, Refs 26–31) exist only as a figure and were not recoverable.
+- **Primary dendrite spacing.** χ = K1·(dT/dt)^−1/2 = K1·(R·G)^−1/2, with K1 a material constant [TOT p.489, Eq. 11]. Tensi gives the same form, e = const·(dT/dt)^−0.5 [TOT p.744, Eq. 3]. In welding, heat input H enters as χ ∝ H^1/2 (3-D heat flow) or χ ∝ H (2-D heat flow) [TOT p.489, Eqs. 12–13].
+- **Secondary DAS as coarsening.** ds = B·(M·tf)^(0.3…0.4) [TOT p.745, Eq. 4]:
+  - B = 4.36–5.5 (geometric constant); tf = local coarsening time, i.e. the time the dendrites are surrounded by liquid.
+  - M = 2σ·DL·ln(cE/c0) / [ΔH·(1 − K0)·mL·(cE − c0)], a material factor. For AlSi7, M = 16.3×10⁻¹² cm³/s [TOT p.745–746].
+  - The exponent 0.3–0.4 agrees with Eskin's n = 0.2–0.4 and default 0.33 (§2.2) [ch2, p.24, 37–38].
+- **Order-of-magnitude anchors** [TOT p.489]:
+  - Welds cool at about 100 °C/s and show a dendrite spacing of about 10 µm. Weld grains are about 100 µm, i.e. about ten dendrites per grain.
+  - Castings cool at about 10 °C/s and show spacings of about 100 µm.
+  - (derived) Read literally, the two points imply spacing ∝ (dT/dt)^−1, not the −1/2 of Eq. 11 in the same chapter. Use them as rough anchors only.
+- In AlSi7-based alloys, alloying additions had no effect on dendrite morphology at cooling rates of 40 to about 300 [TOT p.746]. The unit is printed "K/sec" there, but a later passage on the same page uses "40 < T < 200 [K/min]", so the unit is uncertain.
+- **Grain structure in castings** [TOT p.602–603]:
+  - Faster cooling refines grains (and DAS). Mechanical agitation that detaches dendrite arms also refines them, but in practice chemical inoculants are used.
+  - Typical sequence: a chill layer of fine equiaxed grains at the mould wall, which ends when latent heat stops nucleation; then large columnar grains; then equiaxed grains once the gradients change.
+- **Mould heat transfer** [TOT p.620, 632]:
+  - HTC 0.2–2 kW/m²°C and solidification times of 30–300 s in low-pressure die casting, versus 20–90 kW/m²°C and 1–10 s in high-pressure die casting.
+  - On a metal chill the HTC first rises as the dendritic network forms at the interface. It falls when eutectic forms and the shrinkage gap opens (Figs. 37–38; values figure-only).
+- **Relevance (rotary caster, 22 mm strip):**
+  - (inference) The strip freezes against a water-cooled wheel groove and a band, so the same sequence of good contact followed by a shrinkage gap should apply on both faces.
+  - (inference) The through-thickness DAS profile is the practical record of the local cooling rate. No TOT or Eskin relation has constants for a 3xxx- or T11-type alloy. Measure SDAS at the surface, quarter and centre of the cast strip. Then back-calculate the cooling rate with d = C·Vc^−n (§2.2), after calibrating C on lab castings of the same alloy made at known rates.
+  - Strip-casting cooling rates from the web literature are in ch. 15.
 
 ---
 
@@ -327,9 +352,45 @@ General points: real as-cast phase assemblages differ from equilibrium (suppress
 
 ### 5.3 Design levers
 - **Partition coefficients** (Table 4.9; see §8) [ch4, p.172]: Fe 0.03, Si 0.13, Cu 0.17, Mg 0.43, Zn 0.45, Mn 0.82, Ti 9.0, Cr 2.0.
+  [TOT] gives Fe 0.022, Si 0.14, Cu 0.17, Mg 0.43, Mn 0.95, Sc 0.52 [TOT p.491, Table 3]. Mn and Fe differ between the books (§13 item 2).
   **Inference:** Mn (K ≈ 0.8) contributes little growth restriction per wt% and Fe (K ≈ 0.03) a lot, so lean 3xxx/1xxx alloys rely on TiB2 inoculation for equiaxed grains. The source gives no m values to compute Q here (gap).
 - **GR reduces hot tearing** while grains stay dendritic (§9) [ch5, p.256–258].
 - **GR can worsen centreline macrosegregation**, especially with potent Al5Ti0.2B [ch4, p.173]. It also widens the slurry zone and narrows the mushy zone, which can cause bleed-out unless melt temperature and speed are adjusted [ch3, p.121].
+
+### 5.4 Nucleation and inoculation: additions from [TOT] (full-text pass 2026-10-12)
+- **Classical nucleation** [TOT p.599, Eqs. 4–5]:
+  - r* = 2γsl·Tm/(L·ΔT) and ΔG* = 16π·γsl³·Tm²/(3·L²·ΔT²).
+  - Homogeneous nucleation needs an undercooling of the order of 0.25 Tm. Practical nucleation is heterogeneous, on walls, cavities or particles.
+- **Undercooling vs growth rate** (weld solidification): ΔT = D·G/R + A·R^1/2, with D = liquid diffusivity and A a material constant [TOT p.487, Eq. 8].
+  - High undercooling arises at very low growth rates (first term, relevant below about 0.3 mm/s) or at very high ones (second term).
+  - Low undercooling gives cells, high undercooling gives dendrites, and very high undercooling gives nucleation ahead of the front, i.e. equiaxed grains [TOT p.486–487].
+- **Al–Ti peritectic route.**
+  - Refinement is best when a nucleating surface exists at or just above the liquidus, e.g. Al3Ti particles from a master alloy. At least 0.15% Ti is needed for the peritectic reaction itself [TOT p.603].
+  - L + TiAl3 → (Al) at 665 °C and L + ZrAl3 → (Al) at 660 °C [TOT p.493]. This matches Eskin's > 0.15% Ti for refinement on primary phases (§5.2) [ch2, p.68].
+- **Ti–B master alloys** [TOT p.604]:
+  - 3–10% Ti, giving soluble Al3Ti plus insoluble (Ti,Al)B2.
+  - Effective at 0.01–0.03% Ti in the cast alloy. Because of this, "the predominant role in nucleation is taken by the boride particles".
+  - The Ti:B ratio is printed "3:50". That cannot describe these master alloys (AlTi5B1 has Ti:B = 5:1 by its name, general knowledge), so it is a printing or extraction error.
+  - Eskin's "0.001–0.005% Ti" (§5.2) is the Ti *added* with the refiner; TOT's 0.01–0.03% is the Ti *in the cast alloy*. They are not in conflict.
+- **Role of boron: two models.**
+  - Ch. 9 cites a theory that a TiB2 coating on TiAl3 slows the dissolution of TiAl3 in the superheated weld pool ("fading"). B is used at < 0.03% [TOT p.493].
+  - Eskin's in-situ data show a metastable Al3Ti layer *on* TiB2 as the nucleant (§5.1) [ch2, p.73–74].
+  - The books differ. Eskin's account is newer and rests on direct observation. Flagged, not resolved.
+- **Sc.** Alone it needs > 0.50% Sc (hypereutectic); 0.20 Sc + 0.15 Zr also works [TOT p.493]. This agrees with §5.2.
+- **Pre-dendritic Al15(Fe,Mn)3Si2** in Al–Si foundry alloys nucleates at undercoolings below 1 °C ahead of columnar grains and promotes new (Al) grains [TOT p.603].
+- **Why refine** [TOT p.602, 644]:
+  - Finer equiaxed grains give better hot-tear resistance, attributed to a lower coherency temperature, and better mass feeding.
+  - They also give less segregation, a better heat-treatment response, and a more even distribution of pores and intermetallics.
+  - In Al–Si alloys grain refinement reduces hydrogen porosity.
+  - "Fine grain size is necessary to avoid solidification cracking" [TOT p.644].
+- **Refiner and melt treatment.** Gas purging does not remove TiB2, which is well wetted, but filtration can. Al–Ti–B may therefore be added before rotary degassing, but not before a filter that removes TiB2 [TOT p.672]. TiB2 clusters of 1–50 µm are themselves listed as inclusions [TOT p.666].
+- **Relevance (trial T11, Ti 0.043 with AlTi5B1):**
+  - (derived from the T11 charge [trials/T11.md §1]) 10 kg AlTi5B1 per 10 t adds only ≈ 0.005% Ti and ≈ 0.001% B. Most of the 0.043% Ti therefore comes with the scrap. Total Ti lies above TOT's 0.01–0.03% "effective" range and well below the 0.15% peritectic level, so refinement rests on TiB2 plus Ti in solution.
+  - (derived, rough) Growth restriction Q = m·C0·(K − 1) for T11:
+    - Ti: from Eskin's Q ≈ 35 at 0.15% Ti (≈ 233 K per wt%), ≈ 0.04% Ti in solution gives ≈ 9–10 K. (TiB2 binds ≈ 2.2 × the B mass of Ti, general knowledge, i.e. only ≈ 0.002% Ti here.)
+    - Other elements, with linearised binary liquidus slopes m = (TE − 660 °C)/CE and k from [TOT p.490–491] (Tm = 660 °C, general knowledge): Si ≈ 2.3 K; Fe ≈ 1.4 K; Mg ≈ 0.9 K; Cu ≈ 0.1 K; Mn ≈ 0.01 K.
+    - Sum ≈ 14 K, with Ti dominant. Q additivity is questionable [ch2, p.64–65] and the slopes are crude. Use the numbers for ranking only.
+  - (inference) T11 is charged with AlTi5B1 in the furnace [trials/T11.md §1]. If a fine filter is installed (deep bed or ≥ 50 ppi foam, §10.3), part of the TiB2 can be caught there. Feeding refiner rod after the filter is the safer arrangement.
 
 ---
 
@@ -632,9 +693,19 @@ Table 5.1: melt 720–730°C, cooling 12–18 K/s [ch5, p.196]
   - RDG over-predicts tearing [ch5, p.237–239].
   - Porosity and hot tears are inversely related, because tears consume pores. Low porosity in a cracked region does not mean good feeding [ch5, p.268–269].
 
+### 9.7 Hot-cracking mechanism: additions from [TOT] (welding chapter)
+- Hot cracks tear liquid films formed by **low-melting eutectics**, mainly along grain boundaries. A large gap between the liquidus and the lowest eutectic subjects the film to more shrinkage and lengthens the feeding distance [TOT p.500].
+- **Model:** a crack forms when the rate of grain separation (shrinkage) exceeds the rate of liquid back-filling (feeding) [TOT p.500].
+  - The interdendritic pressure then drops and can briefly become negative.
+  - Tearing starts by **decohesion at oxide inclusions** or by cavitation.
+  - The same pressure drop nucleates pores; the rate of pressure drop decides which defect forms first.
+- **Composition:** susceptibility peaks at intermediate solute [TOT p.501]. At low solute there is no fully developed dendritic network and the films are thin; at high solute there is plenty of eutectic to back-fill. Composition data, including Al–Mg–Si, are in ch. 02 §6.5.
+- **Grain morphology:** fine grains spread the strain over more films, so fewer cracks start. Once a crack has started, fine grains can ease its growth compared with large, strongly curved grains [TOT p.500–501].
+- **Relevance (scrap-rich melts):** (inference) Because oxide films act as tear initiators [TOT p.500], melt cleanliness (§10.3) is also a hot-tearing lever on the rotary caster, not only a surface-quality one.
+
 ---
 
-## 10. Porosity, cold cracking, surface and shape defects
+## 10. Porosity, melt quality (hydrogen, inclusions, alkalis), cold cracking, surface and shape defects
 
 - **Porosity** [ch5, p.194–195, 267–269]:
   - Caused by shrinkage plus hydrogen evolution when the mush can neither be fed nor let gas escape.
@@ -642,7 +713,7 @@ Table 5.1: melt 720–730°C, cooling 12–18 K/s [ch5, p.196]
   - In 200-mm Al–Cu billets it peaks at about 3% Cu (porosity axis 0–0.1%). It rises with speed from 100 to 160 mm/min, then plateaus.
   - At high speed, pores are irregular and lie along solute-rich boundaries; at low speed they are rounder.
   - Above about 3.5% Cu, porosity and tearing both fall (better feeding).
-- **Hydrogen** promotes exudation and inverse segregation when trapped in the mush at moderate cooling rates (Masing and Dahl) [ch4, p.127]. Superheat increases gas pick-up [ch2, p.24]. **No hydrogen-solubility data are in the source** (gap).
+- **Hydrogen** promotes exudation and inverse segregation when trapped in the mush at moderate cooling rates (Masing and Dahl) [ch4, p.127]. Superheat increases gas pick-up [ch2, p.24]. Eskin gives no hydrogen-solubility data; [TOT] does (§10.1, updated after the full-text pass of 2026-10-12).
 - **Cold cracking:** only touched on.
   - Early DC of duralumin and Zn-bearing alloys suffered splitting (cold cracks) and hot tears, attributed to the steep surface-to-interior gradient [ch1, p.9].
   - Large 7075-type ingots used *air* secondary cooling until the mid-1950s to cut thermal stress [ch5, p.216].
@@ -656,6 +727,132 @@ Table 5.1: melt 720–730°C, cooling 12–18 K/s [ch5, p.196]
   - Worse with wider freezing range.
   - Remedies: cooler casting, smaller air gap, stronger oxide skin, mould lubrication [ch3, p.121–122; ch4, p.151].
 - **Distortions:** butt curl, butt swell and rolling-face pull-in [ch5, p.246–248]. Butt curl reduces stability and contact (safety hazard) [ch5, p.187].
+
+### 10.1 Hydrogen: solubility, pick-up and porosity ([TOT], full-text pass 2026-10-12)
+- Hydrogen is the only gas that dissolves in both solid and liquid Al [TOT p.73].
+- **Solubility at 1 atm H2** (S in cm³/100 g, T in K) [TOT p.74–75]:
+
+| Reference (as cited in TOT) | Liquid | Solid |
+|---|---|---|
+| Ransley & Neufeld | log S = 2.796 − 2760/T | log S = 0.788 − 2080/T |
+| Opie & Grant | log S = 2.620 − 2550/T | — |
+| Eichenauer, Hattenbach & Pebler | log S = 2.969 − 3086/T | log S = 1.961 − 3042/T |
+
+  - (derived) Liquid at 660 / 700 / 750 °C: 0.69 / 0.91 / 1.25 (Ransley), 0.77 / 1.00 / 1.34 (Opie–Grant), 0.46 / 0.63 / 0.90 (Eichenauer) cm³/100 g. The three equations differ by up to a factor of about 1.5.
+  - (derived) Solid at 660 / 600 / 500 / 400 °C: 0.036 / 0.025 / 0.013 / 0.005 (Ransley); 0.050 / 0.030 / 0.011 / 0.003 (Eichenauer) cm³/100 g. TOT quotes 0.03 ml/100 g at 600 °C [TOT p.661].
+  - Liquid-to-solid ratio at 660 °C: ≈ 19 (derived, Ransley). This matches the hydrogen partition ratio k′ = Ss/Sl ≈ 0.05 used in welding [TOT p.497]. Ch. 3 calls the drop on freezing "10-fold" [TOT p.119]; that figure is the loose one.
+- **Alloy effects.**
+  - Cu and Si lower the solubility; Mg raises it [TOT p.595]. Ca raises it and is a frequent cause of casting porosity [TOT p.592].
+  - Solubility at 750 °C [TOT p.596, Table 2]: pure Al 1.20; Al–7Si–0.3Mg 0.81; Al–4.5Cu 0.88; Al–6Si–3.5Cu 0.67; Al–4Mg–2Si 1.15. The unit is printed "ppm". (derived) The pure-Al value equals the Ransley liquid value in cm³/100 g (1.25 at 750 °C), so the unit is probably ml/100 g. Conversion: 1 ml/100 g ≈ 0.9 ppm by mass, from TOT's "0.01 ppm (0.011 ml/100 g)" [TOT p.655].
+  - Calculated hydrogen activity coefficients fH, where a higher fH means lower solubility at a given H2 pressure [TOT p.653, Table 1]: pure Al 1.00; 6063 1.01; 6061 1.03; 1100 1.04; 3003 1.21; 2017 1.46; Al–11Si–2.9Cu–1.2Mg (JIS AC8C) 2.03; 5052 and Al–5Mg–0.4Mn (JIS AC7A) 0.94. The hydrogen level reachable by degassing depends on fH [TOT p.661–663].
+- **Sources of hydrogen.**
+  - Water vapour reacts with the melt: 3H2O + 2Al = Al2O3 + 3H2 [TOT p.645]. Cast houses see more hydrogen problems in the humid hot season [TOT p.645].
+  - Gas carried on the oxide film of the charge, and moisture in refractories, are further sources [TOT p.75].
+  - Welding: organic contaminants (oil, drawing compounds, grease) cause pores through their hydrogen, not their carbon. Shielding-gas dew points above about −40 °C promote weld porosity [TOT p.497].
+- **Equilibrium with humidity** (Otsuka; stirred 99.99% Al; [He] in ml/100 g, pH2O in atm; valid for pH2O < 1.7×10⁻² atm) [TOT p.647–648, Eqs. 8–10]:
+  - 675 °C: [He] = 3.17·pH2O^0.470.
+  - 700 °C: [He] = 3.49·pH2O^0.453.
+  - 750 °C: [He] = 3.16·pH2O^0.387.
+  - Usual air in Japan has pH2O ≈ 1.5×10⁻³ to 3.0×10⁻² atm [TOT p.647].
+  - At 700 °C in dry air (pH2O = 1.7×10⁻⁴ atm) the equilibrium was 0.07 ml/100 g. A stirred melt reached it in about 50 min; a stagnant melt needed more than 300 min [TOT p.647].
+  - (derived, 700 °C) pH2O = 10⁻³ → 0.15; 3.8×10⁻³ → 0.28; 10⁻² → 0.43; 1.7×10⁻² → 0.55 ml/100 g. A humid cast-house atmosphere alone can therefore hold a stirred melt at 0.3–0.5 ml/100 g, i.e. 10–20 × the solid solubility at 600 °C.
+  - Pick-up is limited by mass transfer of hydrogen in the melt to the surface. The oxide film matters: at the same pH2O, the equilibrium under N2 or Ar is lower and reached sooner than under air [TOT p.649].
+  - Activation energy for solution from water vapour: 38,806 / 30,977 / 19,467 cal/mol at pH2O = 10⁻² / 10⁻³ / 10⁻⁴ atm, versus 28,258 cal/mol from H2 gas [TOT p.649].
+  - Engh model: pH2 at the interface = (kH2O/kH2)·pH2O, giving [%H]l ≈ (0.783/KH)·√pH2O [TOT p.646–647, Eqs. 4–7]. The measured equilibria exceed this estimate [TOT p.649].
+- **Hydrogen after solidification.**
+  - Excess hydrogen frozen into supersaturated solid solution later precipitates as pores during heat treatment [TOT p.644].
+  - In 99.99% Al slab, pores grew during homogenisation at 600 °C (1–12 h) by annihilation of micro-porosity and precipitation of hydrogen at grain boundaries. They caused cracking in hot rolling. The experience limit is **< 0.10 ml/100 g** [TOT p.661–662].
+  - Solid products can pick up hydrogen and form pores when heated to high temperature in humid environments [TOT p.119].
+- **Pore formation and healing.**
+  - A pore forms if Pg > Pa + Ph + Pb, with Pb = 2γ/r [TOT p.494–495, Eqs. 17–18].
+  - Gas pores are round; shrinkage pores are irregular [TOT p.597, 119].
+  - Real-time radiography shows surface turbulence during filling to be the overriding porosity factor, because entrained oxides nucleate hydrogen pores [TOT p.119].
+  - Niyama criterion N = G/R^0.5, with G and the cooling rate R taken at the solidus [TOT p.632, Eq. 12]. As printed, porosity is indicated "when a critical value is exceeded". In the usual use (general knowledge) porosity is predicted where N falls *below* a critical value. Check the original before coding it.
+  - Forging and extrusion heal ingot porosity. Thick-plate rolling may not close pores (tensile stresses), but further rolling to sheet does [TOT p.120].
+
+### 10.2 Degassing ([TOT])
+- **Removal steps:** transport of H in the melt to the bubble; diffusion through the bubble boundary layer; adsorption and desorption at the bubble surface; diffusion inside the bubble; escape at the melt surface or refractory walls [TOT p.596].
+  - Removal is mass-transfer controlled, so bubble size dominates.
+  - Porous-plug bubbles coalesce; an impeller disperses them [TOT p.596].
+- **Chlorine: the two chapters disagree.**
+  - Ch. 12 states that 2HAl + Cl2 → 2HCl "is thermodynamically favorable in some circumstances" [TOT p.596].
+  - Ch. 13 states that Cl2 does not react with dissolved H. It reacts with Al to give AlCl3 gas, and hydrogen leaves by diffusion into the bubbles exactly as with inert gas. Cl2 bubbles are simply smaller [TOT p.652–653].
+  - The Ch. 13 view rests on a stated thermodynamic argument; treat chlorine's degassing benefit as a bubble-size effect.
+- **Rotary injectors** [TOT p.653–661, 673]:
+  - SNIF (1976): 1–10 mm bubbles, in a closed chamber under positive inert-gas pressure that keeps moisture out.
+  - AlPur: degassing efficiency depends on gas flow and rotor speed (100–250 rpm).
+  - GBF: 1–4 mm bubbles in water, estimated at about 2–8 mm in the melt.
+  - Gas rates in the comparison: GBF 0.4 and SNIF 0.3 l Ar/min per kg of melt.
+  - SNIF SHEER removed 20% more hydrogen with 22% less gas than the earlier SNIF.
+- **Practical floor.** Models predict < 0.01 ppm (0.011 ml/100 g) after SNIF, but in practice hydrogen cannot be brought below about 0.05 ppm. Air leaks in at the unsealed inlet, and moisture is held on the chamber materials [TOT p.655].
+- **Atmosphere.** To reach < 0.10 ml/100 g in 99.99% Al, degassing must run under air with a dew point below −6 °C (pH2O < 3.8×10⁻³ atm) [TOT p.661].
+- **Metal handling.** Pumping instead of ladling allows lower metal temperatures (less hydrogen) and draws metal from below the dross [TOT p.598].
+- Degassing combined with inclusion removal (GBF) improved the cast surface of 6063 billet; inclusion filtration alone did not [TOT p.663].
+
+### 10.3 Inclusions and filtration ([TOT])
+**Inclusion types** [TOT p.666, Table 2]
+
+| Type | Phase and source | Shape | Size (µm) |
+|---|---|---|---|
+| Oxide | Al2O3 from oxidation of the melt surface | films or groups of films | 10–1000 |
+| Oxide | Al2O3 from undissolved alumina | polygonal particles | 10–20 |
+| Oxide | Al2MgO4 (spinel) from oxidation of the melt surface | truncated pyramids; thick films or lumps | 0.1–5; 1–100 |
+| Oxide | MgO from oxidation of the melt surface or alloying additions | polygonal particles; films of particles | 0.2–1; 10–1000 |
+| Oxide | Refractory (Al,Si,O) | lumps or particles | 10–500 |
+| Carbide | Al4C3 from the reduction cell | rectangular or hexagonal discs | 0.5–25 |
+| Boride | TiB2, VB from the reduction cell | discs | ~1 |
+| Boride | TiB2 from grain refiner | discs; clusters of discs | 1–3; 1–50 |
+| Salt | Cryolite from the reduction cell | spheres | 10–20 |
+| Salt | Mg/Al chlorides (Cl2 or dross fluxing); Na/K chlorides (dross fluxing) | — | — |
+
+- **Amounts and harm.** Inclusion concentration is usually below 1 ppm, except Al4C3 and refiner TiB2 [TOT p.664]. Inclusions generally become harmful above about 30 µm. Drawn-and-ironed 3004 can-body stock and memory-disk substrates need smaller ones removed, and in foil a few µm thick, inclusions below 10 µm can cause pinholes [TOT p.664].
+- **Old and young oxides** [TOT p.118–119]:
+  - "Old" oxides come from the crucible and are thick; filtration controls them. Their effects range from pinholes in foil to reduced fatigue life.
+  - "Young" oxides form during filling when the free-surface velocity exceeds a critical **0.5 m/s**. The folded double films do not bond, so they act as cracks. They lie on grain boundaries and on intermetallics, because peritectic intermetallics deposit on floating oxide films.
+  - Oxide defects can be 1 µm wide and 10 nm thick, below the sensitivity of NDT. Above 0.5 m/s gate velocity, casting bending strength fell by up to 90%.
+- **Flotation by gas bubbles** [TOT p.667–669, 671–672]:
+  - Inertial impaction collects particles larger than about 80 µm with 1–10 mm bubbles. Smaller particles need peripheral interception: x = exp(54×10⁴·G·a/r²), or exp(12·a/r²) at the typical SNIF sparging rate of 7.8×10⁻⁴ m³/kg (G = gas rate, a = particle radius, r = bubble radius; Eqs. 11–12).
+  - Sub-micron inclusions are nearly impossible to float with 2–10 mm bubbles. Below about 0.1 µm, particles agglomerate mainly by Brownian motion; above that, turbulence agglomerates them faster (up to about 10 µm).
+  - SNIF removed oxides larger than 50 µm but almost no borides.
+  - Cl2 in the purge gas gives less dross, and it is dry dross (better separated oxides) [TOT p.672].
+- **Settling.** Stokes velocity V∞ = Δρ·g·r²/(18µ) [TOT p.670, Eq. 13]. Measured settling (PoDFA, LiMCA) follows an exponential decay [TOT p.674]. Boron additions remove Ti and V from conductor-grade Al by settling (Ti,V)B2 [TOT p.674].
+- **Filtration mechanisms.**
+  - Cake mode: particles larger than the pores (Ch. 12: larger than about 30 µm) are strained at the surface and build a cake that captures finer ones, at the cost of a rising pressure drop [TOT p.599, 670].
+  - Depth mode: particles much smaller than the channels are captured on the walls of a tortuous path, by sedimentation, inertia, hydrodynamic effects, direct interception and turbulence, and held by fluid pressure, friction or chemical bonding [TOT p.670–671].
+  - Efficiency rises with lower flow rate and with a deeper filter [TOT p.599].
+- **Filter types** [TOT p.674–681]:
+  - **Ceramic foam (CFF):** 10–50 ppi. A 10 ppi foam has 3800–5100 µm cells; a 50 ppi foam has 1000–1150 µm cells. On 1050 at 167 kg/min (LiMCA, > 15 µm), mean efficiency was 76% for 50 ppi versus 69% for 30 ppi. A 30 ppi foam counts only as a pre-filter for critical products such as can-body alloy. Foams can release inclusions during a cast "for no specific reasons".
+  - **Deep bed (DBF):** a packed tabular-alumina bed. Life is about 5,000 t for unfluxed low-grade scrap and up to 25,000 t for prefluxed metal. Performance is stable after start-up, but inclusions are released at the start of a cast while the flow rate ramps up.
+  - **Bonded-particle tube (RMF / cartridge):** void fraction 38–42%, about half that of foam. TKR grades have mean pores of 760, 450 and 340 µm. A tube cartridge filter was more effective than 30 or 50 ppi foam.
+
+### 10.4 Alkali and alkaline-earth removal, fluxing ([TOT])
+- **Why it matters.** A few ppm Na in Al–Mg alloys cause cracking during hot rolling [TOT p.643, 681]. Li, Na and Ca come from primary metal; Li can also come from aerospace scrap; Mg can be removed by chlorine or fluorine as well [TOT p.597].
+- **Ca removal kinetics (Alcoa 622 reactor, 732 °C)** [TOT p.682–683]:
+  - Above 0.006% Ca, chlorine transport to the bubble controls the rate (zero order).
+  - At or below 0.006% Ca, Ca transport to the bubble controls it (first order).
+- **Effect of Mg** (Celik & Doutre, < 50 ppm impurities, 0.75 t furnace) [TOT p.684–685]:
+  - Removal is first order, controlled by mass transfer in the liquid.
+  - Removal is faster in Mg-bearing alloys. In pure Al it is independent of the Cl2 concentration; with Mg it depends strongly on it.
+  - In Mg alloys, liquid MgCl2 droplets (up to about 100 µm) form, persist, and keep removing Na, Li and Ca after the chlorine stops. They form low-melting mixed chlorides that are hard to separate, especially during in-line chlorination. **In-line rotary Cl2 fluxing should therefore not replace furnace fluxing for Mg-bearing alloys.**
+- **Na** [TOT p.685–687]: with inert-gas purging about 92% of Na leaves by evaporation at the surface and 8% with the bubbles. Ar alone works while Na is above about 50 ppm; Ar + Cl2 is needed to get below 1 ppm.
+- **Flux types** [TOT p.594–595]: cover fluxes (cost-effective in high-Mg alloys); cleaning fluxes (70–75% chlorides); drossing fluxes (fluorides that dissolve only thin alumina films; massive Al2O3 is reducible only electrolytically); refining fluxes (chlorine compounds that react with alkali metals).
+- **Salt-flux injection with stirring** as an alternative to chlorine [TOT p.688–691]:
+  - Ca removal rate constants (low-Mg alloys, Table 4): 2 lances 0.032 min⁻¹; single lance + jet stirrer 0.041; rotor 0.099; salt injection with stirring 0.086.
+  - Metal cleanliness at the furnace outlet (PoDFA, Table 5): 3xxx 0.034 mm²/kg with chlorine lances versus 0.037 with salt injection; 1xxx 0.091 versus 0.081.
+  - Emissions of HCl, Cl2 and dust fell 10–25-fold. Entrained liquid chloride was slightly higher than with chlorine. In-line degassers generate chlorides in situ in larger quantities, and the fine droplets are hard to separate.
+  - A KCl–MgCl2 flux (melting point 480 °C) is used in Europe on recycled scrap for thin sheet and foil [TOT p.691–692].
+- In Mg-bearing melts 52–95% of the injected chlorine converts to MgCl2, depending on Mg level and injector (Table 3) [TOT p.688].
+
+**Relevance of §10.1–10.4 to the rotary caster and trial T11** (inference unless cited)
+- **Hydrogen stays in the strip.** There is no ingot homogenisation, and the strip cools fast, so hydrogen above the solid solubility stays in supersaturated solution [TOT p.644]. The slug anneal is the first long high-temperature step, where it can precipitate into pores, oxide films and particle interfaces, i.e. blisters (ch. 02 §7). Take < 0.10 ml/100 g [TOT p.661] as a starting melt specification and measure hydrogen at the launder, noting the season and humidity.
+- **T11's hydrogen behaviour** should resemble 1100 or 6063 (fH 1.01–1.04 [TOT p.653]) by composition similarity; its 0.26% Mg raises solubility only slightly [TOT p.595].
+- **Scrap-rich charge.**
+  - Expect more old oxides, plus MgO and spinel from the Mg-bearing scrap and alloying [TOT p.666].
+  - A 30 ppi foam is only a pre-filter for can-grade metal [TOT p.677]. Use ≥ 50 ppi foam, a deep bed or a cartridge filter. Deep-bed life is shortest with unfluxed low-grade scrap [TOT p.678].
+  - Filters release inclusions at the start of a cast [TOT p.678]; scrap the first strip.
+- **Young oxides at the wheel.** Keep free-surface velocities in the launder, tundish and nozzle feeding the wheel below 0.5 m/s [TOT p.118].
+- **Alkali.** T11 contains Mg and is hot rolled in line at ≥ 50%, so Na at the ppm level matters [TOT p.643]. Flux in the furnace (chlorine or MgCl2-based salt), not with in-line chlorine [TOT p.685].
+- **Refiner placement:** see §5.4.
 
 ---
 
@@ -691,6 +888,13 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
    - Ramp start-up gently [ch3, p.86; ch5, p.249–251].
    - Keep nucleate boiling but do not over-water [ch3, p.86–88].
    - Moderate superheat [ch2, p.24; ch5, p.259–262].
+6. **Rotary (wheel-type) strip caster and trial T11: relevance summary** (added 2026-10-12; inference unless cited)
+   - **Context.** 22 mm strip leaves the caster at ≈ 500 °C and goes straight to in-line hot rolling; there is no ingot homogenisation; the melts are scrap-rich. T11 is Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26, Cu 0.04, Ti 0.043 with AlTi5B1 [trials/T11.md §1]. Neither Eskin nor [TOT] has solidification data for continuously cast strip (§13 item 6).
+   - **Structure scale.** Use the through-thickness SDAS profile of the cast strip as the cooling-rate record. Calibrate d = C·Vc^−n on lab castings first (§2.2, §2.5).
+   - **Phase path.** T11's Si and Mg sit close to 6063 (0.39 Si, 0.43 Mg), which forms cubic α and then β by L + α → (Al) + Al5FeSi at 613/610 °C at both 0.5 and 15 K/s (§4.1) [ch2, p.49]. T11 has 2.6× the Fe of that 6063 (derived), so β is a real risk, most of all in the slower-cooled mid-thickness. Phase selection is in ch. 02 §3.7.
+   - **Solidus and the hot mill.** The lowest non-equilibrium solidus in this chemistry family is 555 °C if free Si forms (§4.5) [ch2, p.47], or 573–576 °C for β + (Si) (§4.2) [ch2, p.45]. (derived) The ≈ 500 °C exit temperature is ≥ 55 K below these values, so the hot mill should see fully solid strip, provided the 500 °C reading represents mid-thickness. A surface pyrometer can understate the centre temperature.
+   - **Hot tearing.** Lean Mg + Si alloys sit near the peak of the susceptibility curve (§9.5, §9.7; ch. 02 §6.5). Keep grains refined and dendritic (§5.4), the melt clean (oxide films start tears, §9.7), and strain in the wheel–band zone low while fs > 0.9 (§9.1).
+   - **Melt.** Degas to < 0.10 ml/100 g; filter with ≥ 50 ppi foam, a deep bed or a cartridge; flux alkalis in the furnace, not in line; add the refiner after the filter (§5.4, §10.1–10.4).
 
 ---
 
@@ -719,7 +923,7 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
 | Partition coefficients K | Fe 0.03, Si 0.13, Cu 0.17, Mg 0.43, Zn 0.45, Mn 0.82, Ti 9.0, Cr 2.0 | Table 4.9 | [ch4, p.172] |
 | Growth restriction Q | Ti ≈ 35 at 0.15%; Sc 2.5 at 0.6% | — | [ch2, p.65] |
 | Undercooling parameter P | Sc 5; Ti 4.4 | — | [ch2, p.65] |
-| Ti from Al–Ti–B in practice | 0.001–0.005% (total Ti < 0.05%) | — | [ch2, p.65, 72–73] |
+| Ti from Al–Ti–B in practice | 0.001–0.005% added (total Ti < 0.05%); [TOT] gives 0.01–0.03% Ti in the cast alloy | — | [ch2, p.65, 72–73; TOT p.604] |
 | Coherency fs with GR | 0.23 → 0.45 (Al–4Cu + 0.05% Ti) | — | [ch4, p.172] |
 | Rigidity fs with GR | 0.75 → 0.82 (2024) | — | [ch4, p.172] |
 | Kozeny–Carman | kKC = 5; valid 0.6 < fs < 0.9 | — | [ch4, p.133, 136] |
@@ -739,17 +943,40 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
 | GR grain-size window vs hot tearing | Dendritic GR beneficial; cellular < 50 µm may worsen; > 100 µm fine is better | — | [ch5, p.258] |
 | Hydrogen after long holding | 0.30 → 0.19 cm³/100 g | 2037 melt, 10 h | [ch5, p.214] |
 | Zr/Sc solubility in (Al) | 0.06 Zr + 0.03 Sc (550°C); 0.09 Zr + 0.06 Sc (600°C) | — | [ch2, p.68] |
+| Primary dendrite spacing | χ = K1·(dT/dt)^−1/2 | K1 alloy constant | [TOT p.489, 744] |
+| Secondary DAS (coarsening form) | ds = B·(M·tf)^(0.3–0.4); B = 4.36–5.5; M(AlSi7) = 16.3×10⁻¹² cm³/s | — | [TOT p.745–746] |
+| Dendrite spacing anchors | ~10 µm at ~100 °C/s (welds); ~100 µm at ~10 °C/s (castings) | Rough; inconsistent with the −1/2 law | [TOT p.489] |
+| H solubility, liquid (Ransley) | log S = 2.796 − 2760/T → 0.69 / 0.91 / 1.25 cm³/100 g at 660 / 700 / 750 °C (derived) | 1 atm H2 | [TOT p.74] |
+| H solubility, solid | 0.03 ml/100 g at 600 °C; Ransley log S = 0.788 − 2080/T | 1 atm H2 | [TOT p.74, 661] |
+| H partition ratio k′ = Ss/Sl | ≈ 0.05 | — | [TOT p.497] |
+| H in equilibrium with humidity, 700 °C | [He] = 3.49·pH2O^0.453 ml/100 g; 0.07 at pH2O 1.7×10⁻⁴ atm | stirred 99.99% Al | [TOT p.647–648] |
+| Practical degassing floor | ≈ 0.05 ppm (models < 0.01 ppm) | rotary injector (SNIF) | [TOT p.655] |
+| H limit against pores and hot-rolling cracks | < 0.10 ml/100 g; degas at dew point < −6 °C | 99.99% Al slab | [TOT p.661] |
+| Ti–B effective Ti level | 0.01–0.03% Ti in the cast alloy | — | [TOT p.604] |
+| Inclusion size that matters | > 30 µm generally; < 10 µm for foil a few µm thick | — | [TOT p.664] |
+| Critical free-surface velocity (young oxides) | 0.5 m/s | — | [TOT p.118] |
+| Flotation by 1–10 mm bubbles | inertial capture > ~80 µm; SNIF removed oxides > 50 µm, not borides | — | [TOT p.667, 671–672] |
+| CFF efficiency | 76% (50 ppi) vs 69% (30 ppi); 30 ppi = pre-filter only for can stock | 1050, 167 kg/min, > 15 µm | [TOT p.676–677] |
+| Deep-bed filter life | 5,000 t (unfluxed low-grade scrap) to 25,000 t (prefluxed) | — | [TOT p.678] |
+| Na limits | a few ppm crack Al–Mg in hot rolling; Ar purging works above ~50 ppm, Ar + Cl2 needed for < 1 ppm | — | [TOT p.643, 685–687] |
 
 ---
 
 ## 13. Open questions and gaps
 
 1. **Missing chapter:** *Concluding Remarks* (p. 275, `62816_CH06.pdf`) is referenced but absent from Drive. Ask the user whether it exists.
-2. **No liquidus slopes (m) and no Q table for Mn, Fe, Si, Mg, Cu, Zn, Cr, Zr.** Only K values (Table 4.9) and Q for Ti and Sc are given. To compute Q = Σ m·(K − 1)·C for AA3102/AA3207 we need an m/K table, e.g. Easton and StJohn or CALPHAD (general knowledge). Do not reuse binary K values blindly in multicomponent 3xxx.
-3. **No quantitative transition-metal supersaturation (Mn, Fe, Cr, Zr, Sc) vs cooling rate.** Neither is there dispersoid-precipitation or homogenisation kinetics. These must come from other sources, such as Belov et al. *Iron in Aluminum Alloys* (cited [ch2, ref 31]), 3xxx homogenisation literature, or Alstruc-type models (mentioned [ch2, p.33]).
-4. **No hydrogen-solubility data, and no gas-porosity model beyond qualitative statements.** Porosity data are for Al–Cu billets only [ch5, p.267–269].
+2. **No tabulated liquidus slopes (m) and no Q table for Mn, Fe, Si, Mg, Cu, Zn, Cr, Zr.** Eskin gives only K values (Table 4.9) and Q for Ti and Sc.
+   - *Partly addressed 2026-10-12:* [TOT] Tables 2–3 give binary eutectic temperatures, eutectic compositions and k [TOT p.490–491]. From these, linearised slopes can be derived, as used for the rough T11 ranking in §5.4. Proper m values are still needed, e.g. Easton and StJohn or CALPHAD (general knowledge).
+   - The two books' k values differ: Mn 0.95 [TOT p.491] vs 0.82 [ch4, p.172]; Fe 0.022 [TOT p.491] vs 0.03 [ch4, p.172]. Do not reuse binary k values blindly in multicomponent 3xxx.
+3. **No quantitative transition-metal supersaturation (Mn, Fe, Cr, Zr, Sc) vs cooling rate.** Neither is there dispersoid-precipitation or homogenisation kinetics.
+   - [TOT] adds one data point: typical as-cast 3003 ingot holds 0.7–0.9 wt% Mn in solution [TOT p.160].
+   - The rest must come from other sources, such as Belov et al. *Iron in Aluminum Alloys* (cited [ch2, ref 31]), the 3xxx homogenisation literature, or Alstruc-type models (mentioned [ch2, p.33]).
+4. **Gas porosity: partly resolved 2026-10-12.** Hydrogen solubility (liquid and solid equations, alloy table, activity coefficients), pick-up from humidity, degassing limits and the pore-pressure condition are now in §10.1–10.2 [TOT]. Still missing:
+   - Constants for a porosity model: the Niyama critical value, pore nucleation pressures, and the direction of the Niyama criterion as printed (§10.1).
+   - Hydrogen solubility for 3xxx or T11-type compositions. Only fH for 3003, 1100 and 6063 is given, at one condition [TOT p.653].
+   - Any porosity data for strip casting. Eskin's porosity data are for Al–Cu billets only [ch5, p.267–269].
 5. **Cold-cracking criteria and residual-stress data** are essentially absent; there are only historical remarks.
-6. **No coverage of twin-roll / continuous casting and rolling.** The cooling-rate ranges given (0.1–20 K/s in DC) do not include strip-casting rates, so extrapolating the phase-selection data to CC&R is unverified.
+6. **No solidification data for twin-roll, belt or wheel strip casting.** The DC cooling-rate ranges (0.1–20 K/s) do not include strip-casting rates, so extrapolating the phase-selection data to the user's rotary caster is unverified. [TOT] names twin-roll (≥ 6 mm) and belt casters (16–20 mm) only as rolling-mill feed routes [TOT p.352–354]. Web data on strip casting are in ch. 15.
 7. **No 3xxx-specific DC data** beyond 3003 reaction temperatures, 3004 semi-solid behaviour and 3104 macrosegregation/hot-tear observations. Nothing exists for AA3102/AA3207 compositions.
 8. **Extraction artefacts to verify against the PDF before quantitative use:**
    - Eq. 4.8 (columnar permeability).
@@ -760,10 +987,23 @@ Every bullet combines source facts (cited) with **Inference** where it extrapola
    - The 7075 "435–445°C" statement [ch2, p.56].
    - Table 4.8 normalised sump depth for 60 mm/min / 200 mm (printed 0.47; 88/100 would be 0.88).
    - The 7050 "0.3% Ti" optimum [ch5, p.220].
+   - [TOT] items: the unit of Ch. 12 Table 2 (printed "ppm", probably ml/100 g) [TOT p.596]; the Ti:B ratio "3:50" [TOT p.604]; the direction of the Niyama criterion [TOT p.632]; K/s vs K/min in Tensi's 40–300 range [TOT p.746]; and "0.07 ml/100 g ≈ 0.07 ppm" [TOT p.647], which conflicts with "0.01 ppm (0.011 ml/100 g)" [TOT p.655].
 9. **Figure-only data were not recoverable**, e.g. Fig. 1.5 DAS vs solidification rate, Fig. 2.3 grain size and DAS vs cooling rate for Al–Cu, Fig. 3.19/3.23 radial grain-size and DAS profiles, and Fig. 2.19 Al–Mg–Mn liquidus and solidus isotherms. Digitise them from the PDFs if the model needs them.
+   - [TOT] figure-only items: Ch. 12 Fig. 7 (DAS vs solidification rate, Refs 26–31), Fig. 2 (H removal vs bubble size), Fig. 37 (interfacial HTC vs time); Ch. 13 Figs. 14 and 25 (degassing efficiency vs rotor speed; attainable H vs fH); Ch. 9 Figs. 11–12 (binary and Al–Mg–Cu hot-cracking peaks).
+   - The DAS–cooling-rate gap is narrowed by the text equations in §2.5, but there are still no alloy constants for 3xxx or T11.
 10. **Unresolved physics flagged by the author:**
     - The cause of the eutectic-fraction minimum at the billet centre [ch3, p.113].
     - The coarsening-exponent dependence on cooling rate and convection [ch2, p.38].
     - Ranking of the macrosegregation mechanisms (floating grains vs shrinkage vs convection) [ch4, p.150, 179].
     - Hot-crack nucleation mechanisms [ch5, p.240, 244].
     - A DC-robust hot-tearing criterion with reliable mush properties (E, γ, K) [ch5, p.239].
+11. **Disagreements found in the [TOT] full-text pass (2026-10-12), flagged rather than resolved:**
+    - Chlorine and hydrogen: Ch. 12 says 2HAl + Cl2 → 2HCl can be favourable [TOT p.596]; Ch. 13 says Cl2 does not react with dissolved H [TOT p.652–653] (§10.2).
+    - Role of boron in Al–Ti–B: a TiB2 coating that slows TiAl3 dissolution [TOT p.493] vs an Al3Ti layer on TiB2 as the nucleant [ch2, p.73–74] (§5.4).
+    - Partition coefficients of Mn and Fe (item 2).
+    - Hydrogen solubility drop on freezing: "10-fold" [TOT p.119] vs ≈ 19× from the Ransley equations [TOT p.74] (derived, §10.1).
+    - Effect of Fe on hot tearing: "improves hot tear resistance" in foundry alloys [TOT p.592] vs a higher susceptibility in 2038 and the 6xxx peak at 0.3–0.4% Fe [ch5, p.217–220] (see ch. 02 §6.5).
+12. **Rotary-caster and T11 questions this chapter cannot answer from its sources** (to be filled from the T11 trial, trials/T11.md §4):
+    - Through-thickness cooling rate and SDAS of the 22 mm strip.
+    - Mid-thickness temperature at the caster exit, against the 555–576 °C solidus values (§11 item 6).
+    - Melt hydrogen and inclusion levels achieved with the actual scrap charge, degasser and filter.

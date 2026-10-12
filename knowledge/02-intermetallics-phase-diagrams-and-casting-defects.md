@@ -1,6 +1,6 @@
 # 02 — Fe/Mn/Si intermetallics, phase diagrams and casting defects (DC & roll casting)
 
-**Scope.** Al–Fe–Si, Al–Fe–Mn, Al–Mn–Si and Al–Fe–Mn–Si phase equilibria in the Al corner; stable and metastable Fe-bearing phases and how cooling rate, Fe:Si, Mn:Fe and trace elements select them; fir-tree zone (FTZ); twin-roll / continuous roll casting (TRC/CRC); centreline macrosegregation; hot and cold cracking; blistering. The focus is wrought 1xxx/3xxx/8xxx foil and heat-exchanger alloys (AA3102, AA3207, 8006/8011/8111), with links to 5xxx and 6xxx.
+**Scope.** Al–Fe–Si, Al–Fe–Mn, Al–Mn–Si and Al–Fe–Mn–Si phase equilibria in the Al corner; stable and metastable Fe-bearing phases and how cooling rate, Fe:Si, Mn:Fe and trace elements select them; fir-tree zone (FTZ); twin-roll / continuous roll casting (TRC/CRC); centreline macrosegregation; hot and cold cracking; blistering, hydrogen and inclusion defects. The focus is wrought 1xxx/3xxx/8xxx foil and heat-exchanger alloys (AA3102, AA3207, 8006/8011/8111), with links to 5xxx and 6xxx.
 **Conventions.** Compositions are in wt.% (mass %) unless marked at.%. A citation reads [Ref, p.X], with page numbers as printed in the source (thesis or book pagination). "(general knowledge)" marks statements that do not come from the sources. "(derived)" marks arithmetic done on source numbers. "(garbled)" marks values reconstructed from corrupted text extraction. Check these against the original PDF before relying on them.
 
 ## 0. Sources
@@ -20,10 +20,11 @@
 | R11 | Eskin (2008) Ch. 4 "Macrosegregation", pp. 125–182 (62816_ch04) | https://drive.google.com/file/d/1LGAwTkLvuT29WFaaXDgYcKRN31PhMQ7v/view | EN | Found by Drive search. Read fully. |
 | R12 | Eskin (2008) Ch. 5 "Hot tearing", pp. 183–274 (62816_ch05) | https://drive.google.com/file/d/1tYAv85fpfmJ7f5wNBPi3kvky3b1H4ps4/view | EN | Found by Drive search. Read fully. Most criterion equations are images and **missing**. |
 | R13 | Davis J.R., "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM (2001), pp. 351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | EN | Found by Drive search. First pass read only the passages that matched Fe/Mn/Si/H keywords. **2026-10-12:** PDF downloaded (536,308 B, 66 pp. = pp.351–416) and read in full; the additions are in §7 (hydrogen sources). |
+| TOT | Totten & MacKenzie (eds.), *Handbook of Aluminum, Vol. 1: Physical Metallurgy and Processes*, Marcel Dekker 2003, ISBN 0-8247-0494-0 (catalogue S-029). Read: Ch. 12 *Castings* (Colás, Velasco, Valtierra), pp. 591–642; Ch. 13 *Molten Metal Processing* (Otsuka), pp. 643–694; Ch. 9 *Aluminum Welding* (Cross, Olson, Liu), §§3–5, pp. 485–507; Ch. 3 (Tiryakioğlu & Staley), §2.2.1–2.2.2 and §2.4.1 Al–Fe–Si / §2.4.4 Al–Mn, pp. 118–120, 138–140, 159–160; Ch. 2 §6 hydrogen solubility, pp. 73–75; Ch. 7 *Rolling*, pp. 352–355 | Drive folder "Cloud part book": part 1 https://drive.google.com/file/d/1Yxag4tVsKp2w7GaNvUqpz09wJRuCpLVT/view (pp. 1–388); part 2 https://drive.google.com/file/d/1EwIKZG891qUZJJfloJCpHAP2hJmgXhZE/view (pp. 388–788) | EN | **Full text, 2026-10-12.** Born-digital PDF; the broken font maps were rebuilt before text extraction. Cited as [TOT p.X] with **printed** page numbers. Figures are not readable (e.g. Ch. 9 Figs. 11–12 hot-cracking peaks, Ch. 12 Figs. 18–19 Fe-phase micrographs). Most of the Fe-phase rules in Ch. 12 are for Al–Si **foundry** alloys (5–12% Si); transfer to lean wrought alloys is marked as inference. |
 
 **Not used.** Duplicate copies in folder `1gxFIC8S…`, and everything inside `microstructure-sim-v2.14.0` (the `.js` files and the AA3207_Recrystallization_Simulation `.xlsx`, excluded as instructed). The broad handbooks (ASM Handbook vol. 1, "Alminium.pdf", "Light Alloys", "Alloys", TMS 2018 proceedings, "vasevska.pdf") also matched the search terms but were not mined. AMAG "AR-2014 Wärmebehandlung" was checked by snippet only (general heat treatment). Eskin Ch. 1 and the front matter were not read.
 
-**Full-text pass (2026-10-12).** The Drive text reader truncates long files, so sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`): R1, R4, R8 and R13. The Drive download tool refuses larger files with the message *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* (tested on a 12.66 MB file). R5 (22.34 MB) and R7 (13.88 MB) therefore remain truncated. No OCR tool is available, so tables printed as images or rotated pages remain unreadable.
+**Full-text pass (2026-10-12).** The Drive text reader truncates long files, so sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`): R1, R4, R8 and R13. The Drive download tool refuses larger files with the message *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* (tested on a 12.66 MB file). R5 (22.34 MB) and R7 (13.88 MB) therefore remain truncated. No OCR tool is available, so tables printed as images or rotated pages remain unreadable. **TOT** (Totten & MacKenzie, S-029) became available as split PDFs on 2026-10-12 and was read in full for the sections listed above. Its additions are §2.4, §2.6, §3.7, §4.3, §5.2, §6.5, §7.4–7.5, §8, §9 and §10, with notes on the user's rotary strip caster and trial alloy T11 marked **Relevance**.
 
 ---
 
@@ -151,6 +152,10 @@ The binary e11 and e12 temperatures are taken from the labels on R3 Fig. 6 (liqu
 - In 8006, primary Al3Fe and Al6(FeMn) (generally undesirable) can form at the upper Fe limit. Faster solidification shifts that boundary to higher Fe and Mn [R1, p.31].
 - The non-equilibrium Mn in (Al) is set by cooling rate and composition, and it fixes the amount of dispersoid formed on annealing above **300–350 °C**. These dispersoids are mostly Al6Mn, not Al6(FeMn) [R1, p.31–32].
 - In 8006 foil (0.6Mn, 1Fe, 0.1Si, 100 µm) the main phases are Al3(FeMn) and Al6(FeMn) [R1, p.38].
+- **Additions from [TOT] (full-text pass 2026-10-12)** [TOT p.159–160]:
+  - Binary Al–Al6Mn eutectic at about 1.9 wt% Mn and 657 °C. Up to 1.82 wt% Mn is soluble in (Al).
+  - Commercial Al–Mn alloys usually stay below 1.25 wt% Mn because **Fe lowers the solubility of Mn** and so raises the chance of large primary Al6(Mn,Fe) particles, which harm ductility.
+  - **A higher Fe/Mn ratio may promote Al13(Fe,Mn)4 in as-cast alloys** [TOT p.160]. This qualifies the R1 statement above that only Al6(Fe,Mn) is expected at > 10 K/s; R1 made that statement for the ternary Al–Fe–Mn system.
 
 ### 2.5 Al–Mn–Si (3xxx dispersoid chemistry)
 - Al15Mn3Si2 (α(MnSi)) has a homogeneity range of 25–29 Mn and 8–13 Si. It is cubic Pm3 with a=1.265–1.268 nm (1.260 in another report), ρ=3.55 g/cm³ and microhardness 8.8 GPa. The solubility of Mn in it is 0.7–0.8% (as printed). Si dissolves only slightly in Al6Mn [R1, p.12–13].
@@ -209,6 +214,10 @@ Text check: in the Al6Mn+α field Mn solubility is close to the binary Al–Mn v
 - Extruded 3003 tube (1.3Mn, 0.5Fe, 0.3Si) has Al15(FeMn)3Si2 as its main phase [R1, p.38].
 - Once all Fe and Si are bound in Al15(FeMn)3Si2, dispersoid formation can be analysed with the Al–Mn–Si diagram [R1, p.37].
 - Al15Mn3Si2 forms both during solidification and during annealing, as dispersoids [R1, p.32]. In commercial 3xxx ingots, eutectic Al6(Mn,Fe) and cubic Al12(Fe,Mn)Si form during solidification. The rest of the Mn stays in solution and precipitates during the ingot preheat as Al12(Mn,Fe)Si and Al6(Mn,Fe) dispersoids, which control the recrystallised grain size [R13, p.388–389].
+- **[TOT] on 3xxx ingots** [TOT p.160]:
+  - Typical as-cast 3003 ingot holds **0.7–0.9 wt% Mn in solution**. The rest is in Al–Mn–Fe and Al–Mn–Fe–Si constituents.
+  - During homogenisation, Al12(Mn,Fe)3Si or Al6(Mn,Fe) dispersoids (< 1 µm) precipitate from the supersaturated matrix. **Below 0.07 wt% Si the dispersoid is usually Al6(Mn,Fe).**
+  - Si accelerates Mn precipitation, giving a denser Al12(Mn,Fe)3Si dispersion and less Mn retained in solution. With enough Si, some or all of the as-cast Al6(Mn,Fe) transforms to Al12(Mn,Fe)3Si.
 - **3003 can be single-phase** if Mn < 1% and Si < 0.1%. Mn microsegregation can then be removed by annealing above 540–550 °C. Higher Si puts the alloy in 1- or 2-excess-phase fields at the same temperature [R1, p.32–33].
 - **Partial melting of Si-bearing 3xxx is possible ~60 °C below the solidus of binary Al–Mn** [R1, p.33–35]. Si lowers the Al–Mn solidus "dramatically, by 60 °C" [R9, p.46].
 - 3009 (1.5 Mn) does not form Al6Mn, either during solidification or during annealing [R1, p.35].
@@ -351,6 +360,43 @@ The "Other" column was read from the clean layout extraction of 2026-10-12 [R1, 
 - **Etch contrast is not phase identity.** Mn and Ti removed the visible FTZ without changing the phases [R5, p.54].
 - **Thermocouple cooling rates mislead** in the centre of an ingot. Floating grains have longer, mixed thermal histories ("coarse-cell" grains) [R10, p.97–101].
 
+### 3.7 Fe-phase selection: additions from [TOT] (full-text pass 2026-10-12)
+**β versus α in Al–Si foundry alloys (Ch. 12)**
+- **β-Al5FeSi is the most damaging Fe phase,** because of its needle (platelet) shape and its low coherency with the matrix [TOT p.609].
+- **Mn converts β into α-Al15(Fe,Mn)3Si2** ("Chinese script"). The drawback: for a given Fe content, Mn raises both the hardness and the amount of intermetallic. The better crack-propagation resistance of the script morphology is therefore offset by a larger volume of brittle α [TOT p.609].
+- **Cooling rate and composition are the two controls** [TOT p.610]:
+  - Low cooling rates favour β needles; higher rates favour Chinese script.
+  - The β-to-α transition moves to *slower* cooling rates as Fe falls, i.e. a leaner-Fe alloy still forms α at a slower cooling rate.
+  - Fe promotes β; Mn and Cr stabilise α.
+- **Guidelines** [TOT p.610]: keep Fe low; keep **Mn/Fe > 0.5**; solidify faster; limit the degree of eutectic modification.
+- **Formation stages in Al–Si alloys** (Table 3) [TOT p.609–610]: pre-dendritic Al15(Fe,Mn)3Si2; post-dendritic Al15(Fe,Mn)3Si2 + Al5FeSi; eutectic Al5FeSi + Mg2Si; post-eutectic Al5Mg8Cu2Si6 + CuAl2. Complex eutectics can freeze as low as 480 °C.
+- **Heat treatment** [TOT p.626]: during solution treatment β platelets fragment and dissolve at their tips, while α does not change. Temperature matters more than time once a minimum time is passed; 535 °C is quoted as the optimum for Al–Si castings.
+
+**Dilute Al–Fe(–Si) wrought alloys (Ch. 3)**
+- Commercial 1xxx solidification gives metastable Al6Fe or AlmFe instead of the equilibrium Al3Fe [TOT p.138].
+  - Binary Al–Fe ingot preheated 16 h at 607 °C contains Al3Fe; 16 h at 482 °C gives Al6Fe.
+  - With Si present, α (Al12Fe3Si) or β (Al9Fe2Si2) can appear in 1xxx sheet.
+- Constituent particles raise yield strength by about 7 MPa per vol%, whatever the temper or phase type [TOT p.138].
+- Coarse Al3Fe cracks and creates notches that lower formability and fatigue resistance. Finely dispersed Al6Fe does not [TOT p.139].
+- **Front velocity** (alloys with 4.6–6.1% Fe) [TOT p.139]:
+  - Al3Fe dominates below 0.5 mm/s, Al6Fe above.
+  - Si raises the stability of Al3Fe against increasing front velocity, and 0.75% Mg raises it further. Ce and La suppress Al3Fe.
+  - **This supports R5 (Si promotes Al3Fe) in the contradiction listed in §10 item 8**, and agrees with Mg promoting Al3Fe in the Maggs simulator (§3.3).
+
+**Relevance: trial T11 (Si 0.38, Fe 0.52, Mn 0.14, Mg 0.26) on the rotary strip caster** (derived or inference, as marked)
+- **Mn/Fe = 0.27** (derived), about half of TOT's > 0.5 guideline. Meeting it at 0.52 Fe would need Mn ≥ 0.26 (derived), close to the "Mn ≈ 0.25" sister-cast option in trials/T11.md §3. The guideline comes from Al–Si foundry alloys, so for T11 it gives a direction, not a threshold.
+- **Fe:Si = 1.4** (derived) is below the Fe/Si of β (≈ 2) and of hexagonal α (≈ 4) (§2.2). There is enough Si for all Fe phases to be ternary.
+  - (derived) If all Fe formed β, β would take ≈ 0.26 Si and leave ≈ 0.12 Si for Mg2Si and solid solution.
+  - (inference) Tezuka & Kamino found cubic α dominant at Si ≥ 0.25 with 0.3 Fe (§3.3) [R5, p.19–20], so binary Al3Fe or Al6Fe should be minor in T11.
+- **The closest measured path is 6063** (0.39 Si, 0.43 Mg, 0.2 Fe; Bäckerud) [R9, p.49; ch. 01 §4.1]:
+  - Cubic α forms first (618–615 °C). β then forms by L + α → (Al) + Al5FeSi at 613 / 610 °C, at both 0.5 and 15 K/s.
+  - T11 has the same Si, less Mg and 2.6 × the Fe (derived). (inference) **Expect α followed by peritectic β even at DC-type cooling rates.** Only strip regions cooled well above 15 K/s may suppress β.
+- **Through-thickness gradient.** (general knowledge) A strip cast between two chills cools fastest at its faces and slowest at mid-thickness. TOT's rate rule (slow cooling gives β) therefore predicts **α script near the wheel and band faces and β platelets toward mid-thickness** (inference).
+- **β persists to the slug.** β does not spheroidise [R1, p.23]. TOT reports β fragmenting only during solution treatment of castings (535 °C quoted) [TOT p.626]. (inference) Do not count on the slug anneal to change β.
+- **Fe/Mn = 3.7** (derived). A high Fe/Mn may give Al13(Fe,Mn)4 in the as-cast state [TOT p.160]. With only 0.14 Mn, Al6(Fe,Mn) should be minor (inference).
+- **Mg 0.26** promotes Al3Fe over cubic α in the Maggs simulator (§3.3) and stabilises Al3Fe in TOT's front-velocity data [TOT p.139]. At T11's Si level its main effect is more likely Mg2Si or π-type phases late in solidification (inference; π(Al8FeMg3Si6) is listed for 6xxx in R9 [R9, p.47–48] via ch. 01 §4.5).
+- **Test.** The trial plan's surface-versus-centre metallography (trials/T11.md §3) is the right check. Add the EDX Si/(Fe+Mn) classification of §3.5, because β plates and α script can look alike in a thin strip.
+
 ---
 
 ## 4. Twin-roll / continuous roll casting (TRC/CRC) versus DC
@@ -394,6 +440,10 @@ Strips are 1–2 m wide [R4, p.115].
 - On TRC 8111 strip after 550 °C / 10 h: 1Fe–0.8Si gave non-spheroidising Al5FeSi needles; 1Fe–0.4Si gave globular Al8Fe2Si [R1, p.27].
 - At ~10 K/s and above, metastable Al6Fe, AlmFe and cubic α become likely in Al–Fe–Si (see §3.2) [R5, p.14–16; R1, p.8].
 - (general knowledge) TRC strip solidifies at roughly 10²–10³ K/s. It shows mid-thickness (centreline) segregation of solute-rich liquid squeezed out during roll-gap deformation, and typical surface defects such as heat lines and tip marks. **None of the sources quantifies these points.**
+- [TOT] treats strip casting only as a rolling-mill feed route [TOT p.352–354]:
+  - Twin-roll casters suit low-capacity plants, mainly for soft alloys, down to a nominal minimum strip thickness of 6 mm. R4 gives 4–12 mm for its caster (§4.1); the two figures need not conflict, since they describe different machines.
+  - A belt-type caster followed by tandem hot rolling handles 1100, 3000 and 5000 series at 16–20 mm and rolls them down to 2–3 mm.
+  - **Relevance:** (derived) the user's 22 mm wheel-cast strip with in-line hot rolling is closest in gauge and layout to the belt-caster route, not to TRC. TOT gives no solidification or phase data for either route.
 
 ### 4.4 Design levers
 - Use TRC's higher cooling rate to run higher Fe+Mn without primaries, and to retain Mn in solution for controlled dispersoid precipitation [R1, p.12, 31]. Choose Si so that α-Al(Fe,Mn)Si or Al8Fe2Si forms rather than β (8111: Si ≈ 0.4 at 1% Fe) [R1, p.23, 27].
@@ -443,6 +493,7 @@ Strips are 1–2 m wide [R4, p.115].
 | 0.03 | 0.13 | 0.17 | 0.43 | 0.45 | 0.82 | 9.0 | 2.0 |
 
 - Fe segregates much more than Mn. Ti and Cr (K > 1) segregate in the opposite direction, i.e. positive at the centre [R11, p.170–172].
+- [TOT] Table 3 gives k = Fe 0.022, Si 0.14, Cu 0.17, Mg 0.43, Mn 0.95, Sc 0.52 [TOT p.491]. Fe agrees within scatter (R5: 0.027 [R5, p.6]); **Mn differs (0.95 vs 0.82).** Both confirm Fe as the strongest segregant and Mn as nearly non-segregating.
 
 **Speed rule**
 - Vcast ≤ A/D, with A = 25,000–33,300 mm²/min. For a 200 mm billet this gives 125–167 mm/min and limits relative segregation to 3–6% [R11, p.152].
@@ -590,9 +641,48 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 - Properties of stress-relieved or homogenised material differ from as-cast. Simulations need genuine as-cast data [R7, p.24, 31].
 - Higher purity is not always better. A high-purity 7010 was more cold-crack prone, and more Si in 7050 raised RT ductility (literature cited) [R7, p.16].
 
+### 6.5 Hot cracking vs composition: additions from [TOT] (full-text pass 2026-10-12)
+**Mechanism (welding chapter; same physics as casting hot tears)** [TOT p.499–500]
+- Hot cracks tear liquid films formed by low-melting eutectics. A large gap between the liquidus and the lowest eutectic means more shrinkage across the film and longer feeding paths.
+- A crack forms when grain separation outpaces back-filling. The interdendritic pressure then drops, and tearing starts by **decohesion at oxide inclusions** or by cavitation. The same pressure drop nucleates pores (details in ch. 01 §9.7).
+
+**Peak susceptibility and eutectic quantity** [TOT p.490–491, 501–502]
+- Susceptibility peaks at intermediate solute. At low solute the dendrite network is incomplete and the films are thin; at high solute there is plenty of eutectic to back-fill. The binary peaks (Varestraint, Fig. 11) are figure-only.
+- Si gives the least cracking of the binary additions, because it makes a lot of eutectic for back-filling. Mg, despite a wide freezing range, makes very little eutectic, which gives resistance; Al–Mg alloys weld well at ≥ 4% Mg.
+- **Eutectic fraction by Scheil** f = (C0/CE)^(1/(1−k)) (Table 3): Al–1Cu 1.48%; Al–1Mg 0.20%; Al–1Si 5.56%; Al–0.1Fe 5.21%; Al–0.1Sc 2.39%; Al–0.1Mn ≈ 0 (10⁻²⁴).
+  - **Fe makes large amounts of eutectic even at 0.1% and "can have a profound effect on solidification, blocking the flow of interdendritic fluid to feed shrinkage"** [TOT p.491].
+  - Mn at 0.1% makes essentially none.
+- **Eutectic reactions** (Table 2) [TOT p.490]:
+  - Al–Mg–Si: 595 °C (Mg2Si); 555 °C (Mg2Si + Si, high Si); 449 °C (Mg2Si + Mg5Al8, high Mg).
+  - Binary: Al–Fe 655 °C (FeAl3); Al–Mn 657 °C (MnAl6); Al–Si 577 °C; Al–Mg 450 °C; Al–Cu 547 °C.
+  - Mg lowers melting temperatures; high-Mg Al–Mg, Al–Mg–Cu, Al–Mg–Zn and Al–Mg–Si systems all form low-melting eutectics.
+- Ternary crack maps: the Al–Mg–Cu ring-casting map (Fig. 12) shows a 3-D peak. "Similar cracking diagrams exist for Al–Mg–Si and Al–Mg–Zn alloys" [TOT p.502], but the book reproduces none of them (gap, §10).
+- **Commercial alloys** [TOT p.505–507]: welded without filler, 6061, 7005 and 2014 give long crack lengths. 6060, 7030 and 6061 are "generally considered unweldable" without filler, while 7108 and 6082 weld readily.
+
+**Foundry view (Ch. 12)** [TOT p.592, 602]
+- Fe "improves hot tear resistance" and reduces die soldering, but lowers ductility.
+- Si improves fluidity, hot-tear resistance and feeding. At least 5% Si gives a low crack tendency, because of the large eutectic fraction and a low coherency temperature.
+- Cu harms hot-tear resistance and castability.
+
+**Conflict on Fe.** TOT Ch. 12 says Fe improves hot-tear resistance [TOT p.592]. Against that: Fe raises HCS in 2038 up to 0.65%, the 6xxx HCS peaks at 0.3–0.4% Fe [R12, p.217–220], early coarse α(AlFeMn) raises susceptibility (Nagaumi) [R12, p.243], and Fe-rich eutectic blocks feeding [TOT p.491].
+- (inference) A consistent reading: in eutectic-rich Al–Si foundry alloys, compact Fe phases add solid bridges (cf. 0.8% Fe in Al–0.7Cu [R12, p.205]); in lean wrought alloys, early Fe-rich eutectic networks block feeding.
+- **For lean wrought alloys such as T11, use the wrought data (R12), not the foundry rule.**
+
+**Relevance: hot-tearing risk of T11 (Mg 0.26 + Si 0.38, Fe 0.52) on the rotary caster** (inference unless cited)
+- **Si.** 0.38 Si lies inside the critical hot-short range of high-purity Al–Si (0.17–0.8% Si) [R13, p.384]. T11 is on the lean side of the peak, far from the ≥ 5% Si where Si helps [TOT p.602].
+- **Mg + Si.** The pair resembles a very lean 6060 or 6063 (6060 typically 0.35–0.6 Mg and 0.3–0.6 Si, general knowledge). 6060 and 6061 are crack-sensitive without filler [TOT p.505–507]. On the other side, the measured freezing-range contraction of 6082 is small (0.02%) [R12, p.196].
+- **Fe is the main eutectic-maker in T11.** (derived, binary Scheil with TOT Table 3) About 28% of the liquid would end in Al–Fe eutectic reactions at 0.52 Fe, versus ≈ 1.8% for Si at 0.38 and ≈ 0.02% for Mg at 0.26. Such early Fe-rich eutectic blocks feeding [TOT p.491]. T11's 0.52 Fe lies above the 0.3–0.4% Fe HCS peak measured in 0.5Mg–0.5Si 6xxx [R12, p.220]; no data exist for higher Fe.
+- **Last liquid.** The lowest-melting reactions available are Mg2Si + Si at 555 °C if free Si forms [TOT p.490; R9, p.47] and β + Si at 573–576 °C (§2.2). (derived) A strip exit temperature of ≈ 500 °C is ≥ 55 K below both, so the in-line hot mill acts on solid metal, provided the reading represents mid-thickness.
+- **Levers for the caster:**
+  - TiB2-refined, dendritic grains (§6.3).
+  - A clean melt, because oxide films initiate tears [TOT p.500].
+  - Keep Fe:Si > 1, which T11 already does (1.4), to avoid free Si.
+  - Avoid mechanical strain on the strip in the wheel–band contact while fs > 0.9 (ch. 01 §9.1).
+- **No hot-tear measurement exists for T11 or any comparable Fe-rich lean Mg–Si alloy.** The trial's crack inspection of the cast strip (trials/T11.md §3) is the first data point.
+
 ---
 
-## 7. Blister formation
+## 7. Blister formation, hydrogen and inclusion defects
 
 ### 7.1 Mechanism
 - Hydrogen above its solid solubility is immobile at RT and mobile at high temperature. It diffuses to internal discontinuities and recombines to H2, and the pressure rises until it balances the dissolved gas. Because solubility ∝ √p (Sieverts), large pressures build up. On annealed sheet the pressure deforms the softened surface into a blister [R8, p.924].
@@ -640,8 +730,37 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 - **Annealing-stage hydrogen** is relevant to slugs and coils, because blisters form when the metal softens during the anneal [R8, p.924].
   - Water vapour, decomposing hydrocarbons and sulfur compounds on the surface or in the atmosphere are hydrogen sources or pickup promoters for **solid** as well as liquid Al [R13, p.377–378].
   - (general knowledge, inference) Applied to annealing, this points to rolling-oil residues and humid furnace atmospheres as the likely in-process sources. The practical consequences are clean, degreased strip or slugs and a dry atmosphere.
-  - The source is **qualitative only**: no dew-point, lubricant-residue or H-pickup numbers exist in the Drive library.
+  - The source is **qualitative only**: no dew-point, lubricant-residue or H-pickup numbers exist in the Drive library for *solid* metal. *Update 2026-10-12:* [TOT] adds melt-side pick-up versus humidity (ch. 01 §10.1) and a weld shielding-gas dew-point threshold (§7.4), but still nothing for slug or coil anneals.
 
+### 7.4 Hydrogen and inclusion defects: additions from [TOT] (full-text pass 2026-10-12)
+Melt-treatment detail (solubility equations, pick-up, degassing, filtration, alkali removal) is in ch. 01 §10.1–10.4. This section gives the defect view.
+
+**Hydrogen**
+- **Solid solubility.** TOT quotes 0.03 ml/100 g at 600 °C [TOT p.661]. (derived) The solid-solubility equations in TOT give 0.025 (Ransley) and 0.030 (Eichenauer) cm³/100 g at 600 °C, and 0.005 / 0.003 at 400 °C [TOT p.74–75].
+- **Supersaturation, then pores.** Excess hydrogen frozen into supersaturated solid solution precipitates as pores during later heat treatment [TOT p.644].
+  - In 99.99% Al slab, pores grew during homogenisation at 600 °C by annihilation of micro-porosity and precipitation of hydrogen at grain boundaries. They caused cracks in hot rolling. The experience limit is **< 0.10 ml/100 g** [TOT p.661–662].
+  - Solid Al can also take up hydrogen and form pores when heated at high temperature in humid environments [TOT p.119].
+- **Organic contamination** (welding chapter) [TOT p.497]: oil, drawing compounds and shop grease cause pores through their hydrogen; tests with graphite showed the carbon is not responsible. A pre-weld vacuum heat treatment is suggested, and shielding-gas dew points above about −40 °C promote porosity.
+  - (inference) The same chemistry applies to rolling-oil residue on strip or slugs entering an anneal. The −40 °C figure is for weld shielding gas, not a furnace specification.
+- **In-line melt treatment helps downstream.** Combined degassing and inclusion removal (GBF) cut pinholes, scratch-like stringers and blisters in foil, sheet and extrusions [TOT p.674].
+- **Cross-check with R8** (derived; assumes R8's "ml/270 g" means per 270 g of metal, as printed): fluxed melts at 0.20–0.50 ml/270 g = 0.07–0.19 ml/100 g; gassed melts at 1.7–2.7 ml/270 g = 0.63–1.0 ml/100 g; ingots after the 600 °C preheat at 0.14–0.35 ml/270 g = 0.05–0.13 ml/100 g. R8's nearly blister-free fluxed melts therefore straddle TOT's 0.10 ml/100 g limit.
+
+**Inclusions** [TOT p.118–119, 664–666]
+- **Oxides are the main class:** Al2O3, MgO and spinel MgAl2O4 (sizes in ch. 01 §10.3).
+  - "Old" oxides come from the crucible. They are thick, filtration controls them, and they cause defects from pinholes in foil to reduced fatigue life.
+  - "Young" oxides are folded in by surface turbulence above **0.5 m/s**. The double films do not bond, so they act as cracks.
+- **Where young oxides end up.** They lie on grain boundaries, because dendrites cannot grow across them, and on intermetallics, because **intermetallics formed by peritectic reactions deposit on floating oxide films** [TOT p.118].
+- **Detection.** Oxide films can be 1 µm wide and 10 nm thick, below NDT sensitivity [TOT p.119]. Entrained oxides also act as nucleation sites for hydrogen pores [TOT p.119].
+- **Size thresholds.** Inclusions generally harm properties above about 30 µm. Drawn-and-ironed can stock needs smaller ones removed, and inclusions below 10 µm cause pinholes in foil a few µm thick [TOT p.664].
+
+### 7.5 Relevance: rotary-cast strip, slug anneal and trial T11 (inference unless cited)
+- **Hydrogen reaches the slug anneal.** The rotary route has no ingot homogenisation, and the 22 mm strip cools fast. Hydrogen above the solid solubility stays in supersaturated solution [TOT p.644], and the **slug anneal is the first long high-temperature step**. There it can precipitate into micro-shrinkage, oxide films and particle interfaces, giving blisters on annealed slugs (R8 mechanism, §7.1).
+  - Starting melt specification: < 0.10 ml/100 g (TOT's 99.99% slab limit, adopted here as a working value).
+  - Keep slugs clean and dry, and keep the anneal atmosphere dry.
+- **Reduction does not cure everything.** (derived) 22 mm to a 6.1–7.4 mm slug is a total thickness reduction of 66–72%, before impact extrusion. Pores close with sufficient rolling [TOT p.120]. Oxide double films do not bond [TOT p.118], so they should survive into the can wall.
+- **More oxide classes than in 1xxx.** T11's 0.26% Mg makes MgO and spinel inclusions more likely than in 1xxx metal [TOT p.666].
+- **Oxide films may carry Fe intermetallics.** In a scrap-rich melt, intermetallics that deposit on oxide films [TOT p.118] would place the oxide films and the coarse Fe phases at the same sites. That makes filtration doubly important for T11: for slug-base damage and die wear (ch. 10), and for β-AlFeSi (§3.7).
+- **Filtration and wheel feed.** Use ≥ 50 ppi foam, a deep bed or a cartridge filter (30 ppi counts only as a pre-filter for can-grade metal [TOT p.677]). Keep free-surface velocities feeding the wheel below 0.5 m/s [TOT p.118]. See ch. 01 §10 for the melt-side measures.
 ---
 
 ## 8. Supporting solidification relations (DC)
@@ -659,6 +778,11 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 | Ramp rate | A ramp of 11.32 mm/min² gives near real-time sump response; 113.2 mm/min² lags strongly | [R10, p.86] |
 | Feathery grains | Form at >10 K/s, with superheated melt against a water-cooled mould. Favoured in pure alloys (1xxx) and by Cr, Zr, Ti, Mg, Cu, Zn, Si. Consist of <110> twinned dendrites → anisotropy and inhomogeneous recrystallisation. Remedy: grain refiner, lower superheat, slower casting | [R10, p.118–120] |
 | Bleed-out | A grain-refined alloy has a wider slurry zone and a narrower mush, which increases the risk | [R10, p.121] |
+| Primary dendrite spacing | χ = K1·(dT/dt)^−1/2 = K1·(R·G)^−1/2. Rough anchors: ~10 µm at ~100 °C/s (welds), ~100 µm at ~10 °C/s (castings) | [TOT p.489, 744] |
+| Secondary DAS (coarsening form) | ds = B·(M·tf)^(0.3–0.4), B = 4.36–5.5; M(AlSi7) = 16.3×10⁻¹² cm³/s | [TOT p.745–746] |
+| Scheil eutectic fraction | f = (C0/CE)^(1/(1−k)); 0.1% Fe → 5.2%, 1% Si → 5.6%, 1% Mg → 0.2%, 0.1% Mn → ≈ 0 | [TOT p.491] |
+| Pore condition | Pg > Pa + Ph + 2γ/r | [TOT p.494–495] |
+| Niyama | N = G/R^0.5 at the solidus. As printed, porosity when "a critical value is exceeded"; usually below a critical value (general knowledge). Check before use | [TOT p.632] |
 
 ---
 
@@ -671,10 +795,10 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 | AlmFe (m ≈ 4–4.4) | bct, ≤3 Si | >10–35 °C/s; ~20 K/s | "Dendrite-like", regular eutectic | Outer FTZ zone; promoted by Co, Ti-B and B >50 ppm [R5, p.8–9, 14, 24–25; R10, p.116] |
 | AlxFe (x ≈ 5–5.8) | Disputed | ~0.5–6 K/s | — | Survives 590 °C / 5 h [R5, p.9, 15–17] |
 | Al6(Fe,Mn) | 19.6 Fe, 7.1 Mn (eutectic vertex); orth. a = 0.755 nm | L→(Al)+Al6(FeMn) 658–654 °C; E 654 °C with Al3Fe. Sole phase at >10 K/s (low Si). 3003: 653 °C (0.5 K/s), 646–615 °C (17 K/s) | Eutectic plates or script | Potential ≈ matrix (good corrosion). Primary if Fe+Mn >2.0 (3003) or >1.7 (3004) [R1, p.10–12, 38; R13, p.383, 402] |
-| α-Al15(Fe,Mn)3Si2 (cubic) | 26.3 Mn, 8.9 Si → 31 Fe, 1.5 Mn, 8 Si; a 1.265 → 1.25 nm | P4 648 °C; in 3003 peritectic 641–634 °C (0.5 K/s) or 589 °C (17 K/s); also as dispersoids on preheat | Chinese script or skeleton | Preferred over β. Binds Fe, Si and Mn, lowering Mn supersaturation [R1, p.12–19, 38, 43; R13, p.388] |
+| α-Al15(Fe,Mn)3Si2 (cubic) | 26.3 Mn, 8.9 Si → 31 Fe, 1.5 Mn, 8 Si; a 1.265 → 1.25 nm | P4 648 °C; in 3003 peritectic 641–634 °C (0.5 K/s) or 589 °C (17 K/s); also as dispersoids on preheat | Chinese script or skeleton | Preferred over β. Binds Fe, Si and Mn, lowering Mn supersaturation [R1, p.12–19, 38, 43; R13, p.388]. Stabilised by Mn and Cr (Mn/Fe > 0.5), but Mn raises the hardness and volume of α [TOT p.609–610] |
 | α-AlFeSi hexagonal (Al8Fe2Si, τ5) | 31.6 Fe, 7.8 Si (30–33 Fe, 6–12 Si); Fe/Si ≈ 4 | U10 L+Al3Fe→(Al)+α 632 °C (629 Phillips); monovariant 629–611 °C | Script; spheroidises at 550 °C | 8111 at ~0.4 Si with 1 Fe is the best case for foil [R1, p.1, 4, 23, 27; R3, p.396] |
 | α-AlFeSi cubic (αc, metastable) | Al:Fe:Si 7:4:1 to 9:5:1; a ≈ 1.25–1.256 nm | High cooling rates; Fe:Si ≈ 2; stabilised by Mn, Cr, V, W, Cu and ~0.3% Mn/Cu; TiB2 promotes it | Script | Light anodising response; in 6xxx formed by L+Fe4Al13 or eutectically [R3, p.361, 387; R5, p.11, 53–56] |
-| β-AlFeSi (Al5FeSi, τ6) | 25.6 Fe, 12.8 Si (25–30 Fe, 12–15 Si); Fe/Si ≈ 2 | U11 L+α→(Al)+β 613 °C; E1 L→(Al)+β+(Si) 573 °C (576 °C in Phillips); monovariant 611–576 °C | Plates (needles in section), HV 5.8 GPa | Avoid: hurts properties and foil; non-spheroidising; low-melting eutectic → hot tearing [R1, p.1, 4, 6, 23; R2, p.1; R3, p.397; R12, p.208] |
+| β-AlFeSi (Al5FeSi, τ6) | 25.6 Fe, 12.8 Si (25–30 Fe, 12–15 Si); Fe/Si ≈ 2 | U11 L+α→(Al)+β 613 °C; E1 L→(Al)+β+(Si) 573 °C (576 °C in Phillips); monovariant 611–576 °C | Plates (needles in section), HV 5.8 GPa | Avoid: hurts properties and foil; non-spheroidising; low-melting eutectic → hot tearing [R1, p.1, 4, 6, 23; R2, p.1; R3, p.397; R12, p.208]. Most detrimental Fe phase (needles, low coherency); favoured by slow cooling and high Fe; fragments only during solution treatment [TOT p.609–610, 626] |
 | δ-AlFeSi (Al4FeSi2, τ4) | 25.4 Fe, 25.5 Si | U12 600 °C (high Si) | Tetragonal plates | → β at 500 °C [R1, p.2; R3, p.386, 397] |
 | (Si) | — | Eutectic 577 °C; with Mn-α at 573–574 °C; appears at 0.2–0.3 Si in Al–Mn alloys | Particles or veins | Foil perforation; lowers solidus [R1, p.15, 23; R3, p.397] |
 | Al6Mn / Al15Mn3Si2 dispersoids | — | Precipitate on annealing above 300–350 °C | Sub-µm | Control recrystallisation; the amount is set by as-cast Mn supersaturation [R1, p.31–32; R13, p.389] |
@@ -696,6 +820,18 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 | Blister prevention | Gas ≤ ~0.2–0.5 ml/270 g (fluxed melt), plus low micro-shrinkage. A 600 °C ingot preheat lowers gas (to 0.14–0.35) but leaves 17–34 % scrap. ≥40 % cold reduction of the as-cast ingot before hot rolling eliminated blisters | [R8, p.924–925] |
 | Fe solubility in (Al) at 400–550 °C (three-phase fields) | 0.002–0.016 % | [R1, p.6, Table 1.4] |
 | Mn solubility in (Al) at 400 / 450 / 500 °C | 0.06 / 0.15 / 0.25 % (Al6Mn+α field); 0.04 / 0.05 / 0.06 % ((Si)+α field) | [R1, p.15, Table 1.13] |
+| Mn/Fe to favour α over β | > 0.5 (Al–Si foundry alloys). T11: 0.27 (derived) | [TOT p.610] |
+| β vs α with cooling rate | Slow → β needles; fast → α script; transition shifts to slower rates at lower Fe | [TOT p.610] |
+| Al3Fe vs Al6Fe front velocity | Al3Fe below 0.5 mm/s, Al6Fe above (4.6–6.1% Fe). Si and 0.75% Mg stabilise Al3Fe | [TOT p.139] |
+| Mn in solution, as-cast 3003 ingot | 0.7–0.9 wt% | [TOT p.160] |
+| Dispersoid type vs Si (3xxx) | Si < 0.07% → Al6(Mn,Fe); more Si → Al12(Mn,Fe)3Si | [TOT p.160] |
+| Constituent strengthening (1xxx) | ≈ 7 MPa per vol% | [TOT p.138] |
+| Partition coefficients, TOT | Fe 0.022, Si 0.14, Cu 0.17, Mg 0.43, Mn 0.95, Sc 0.52 | [TOT p.491] |
+| H solid solubility | 0.03 ml/100 g at 600 °C | [TOT p.661] |
+| H limit against pores and hot-rolling cracks | < 0.10 ml/100 g (99.99% Al slab) | [TOT p.661] |
+| Critical free-surface velocity (young oxide films) | 0.5 m/s | [TOT p.118] |
+| Harmful inclusion size | > 30 µm generally; < 10 µm in thin foil | [TOT p.664] |
+| Al–Mg–Si eutectics | 595 °C (Mg2Si); 555 °C (Mg2Si + Si); 449 °C (Mg2Si + Mg5Al8) | [TOT p.490] |
 
 ---
 

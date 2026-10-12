@@ -4,16 +4,16 @@
 
 **Conventions.** `[REF, p./§]` = source citation (page numbers are the printed book pages unless noted "PDF p."). **(general knowledge)** = not in the sources read here. Keep these minimal and verify them before quantitative use. **(inference)** = my reasoning that carries a source result over to Al. It is a hypothesis to test, not a source fact. Compositions are in wt% unless stated otherwise.
 
-**Status.** Extracted 2026-10-12. Every Drive source was truncated by the reader, so coverage is partial (see table). German text is translated to English.
+**Status.** Extracted 2026-10-12. The Drive text reader truncated every source. **Full-text pass 2026-10-12:** FAR, EVE and THI were then downloaded whole as PDFs (byte sizes match the Drive metadata), converted locally with `pdftotext -layout` and read in full. Coverage of the other sources is still partial (see table). German text is translated to English. Items changed by the full-text pass are marked **[FT 2026-10-12]**. Statements that the full text showed to be wrong are marked "corrected after full-text pass".
 
 ## Sources
 
 | Ref | Title (author/editor, year) | Drive link | Lang. | Readability / coverage actually read |
 |---|---|---|---|---|
-| FAR | *The Alloy Tree: A Guide to Low-alloy Steels, Stainless Steels and Nickel-base Alloys* (J.C.M. Farrar, Woodhead/CRC 2004) | https://drive.google.com/file/d/1DI6Ec7thYXVhQ_z0ApTBihCCkJy3Heve/view | EN | Clean text, ~95 k chars. **Read: front matter, Groups A–D data sheets (pp. 1–63) and the Group E tree (p. ~67).** Groups E–J data sheets, App. 5 (role of elements) and App. 6 (corrosion) were **not returned** (≈35 % of book). |
-| EVE | *Engineering Properties of Nickel and Nickel Alloys* (J.L. Everhart, Plenum/Springer 1971) | https://drive.google.com/file/d/1yPxmtJr-sKsxhNlEpkEl6xINfBRUg2k_/view | EN | Good OCR, with garbled figure axes. **Read: Ch. 1–3 and Ch. 4 to p. 68.** Ch. 5 (superalloys, p. 82+), stainless steels, Ch. 8–11 **not returned** (≈30 %). |
+| FAR | *The Alloy Tree: A Guide to Low-alloy Steels, Stainless Steels and Nickel-base Alloys* (J.C.M. Farrar, Woodhead/CRC 2004) | https://drive.google.com/file/d/1DI6Ec7thYXVhQ_z0ApTBihCCkJy3Heve/view | EN | **Full text read [FT 2026-10-12]**: PDF downloaded whole (206 PDF pages, 735,221 B, clean text layer). Read: front matter, Groups A–J data sheets (pp. 1–171), App. 1 (abbreviations, incl. the PRE formulas), App. 2–3, App. 4 (alloying costs), App. 5 (role of elements) and App. 6 (types of corrosion), pp. 172–186. **The book prints no Schaeffler, DeLong or WRC diagram and no Cr/Ni-equivalent formula anywhere** (full-text search). Earlier pass: Groups A–D only. |
+| EVE | *Engineering Properties of Nickel and Nickel Alloys* (J.L. Everhart, Plenum/Springer 1971) | https://drive.google.com/file/d/1yPxmtJr-sKsxhNlEpkEl6xINfBRUg2k_/view | EN | **Full text read [FT 2026-10-12]**: PDF downloaded whole (240 PDF pages, 4,968,962 B, CVISION OCR text layer). Read: Ch. 1–11 (pp. 1–218) and the appendices. Graph axes are OCR-garbled, so numbers are taken only from the prose and tables. Units are imperial (ksi, °F); SI conversions in this chapter are mine. Earlier pass: Ch. 1–3 and Ch. 4 to p. 68. |
 | SEG | "Nickel supper alloys.pdf" = M. Segersäll, *Nickel-Based Single-Crystal Superalloys – the crystal orientation influence on high temperature properties*, Linköping Lic. Thesis 1568 (2013) | https://drive.google.com/file/d/1d1gAovTKmXwAhqINacTcB-qS5fyz6aYT/view | EN | Clean LaTeX text. **Read: complete Part I (pp. 1–56) and bibliography.** Part II appended papers (p. 57+) **not returned**. The tables of alloy compositions are partly mis-aligned in the extraction, so only Re levels are quoted. |
-| THI | *Werkstoffe I – Chemie und Eigenschaften metallischer Werkstoffe – Stahl und NE-Metalle* (K.-Ch. Thienel, lecture notes, UniBw München, HT 2017) | https://drive.google.com/file/d/13ighAAUOs8kif9PuB8fWFy2mkyR3MYH_/view | **DE → EN** | Good text. Equations were partly scrambled and are reconstructed in the notes. **Read: pp. 1–80 (Ch. 1–9 + start of Ch. 10.1 Al production).** Al properties, Cu, Zn and Ch. 11 corrosion **not returned** (≈70 % read). |
+| THI | *Werkstoffe I – Chemie und Eigenschaften metallischer Werkstoffe – Stahl und NE-Metalle* (K.-Ch. Thienel, lecture notes, UniBw München, HT 2017) | https://drive.google.com/file/d/13ighAAUOs8kif9PuB8fWFy2mkyR3MYH_/view | **DE → EN** | **Full text read [FT 2026-10-12]**: PDF downloaded whole (114 PDF pages, 3,795,647 B, good text layer). Read: Ch. 1–12 (pp. 1–114), incl. Ch. 10 non-ferrous metals (Al pp. 80–89, Cu pp. 89–93, Zn pp. 93–95) and Ch. 11 corrosion (pp. 96–112). The equations are embedded objects that `pdftotext` scrambles. The carbon-equivalent formulas were verified from the word bounding boxes (`pdftotext -bbox`, PDF p. 72). Table 13 (the six DIN 4113 Al alloys) and Bild 85 (Al alloy overview) are images with no text layer, so they could not be read (no OCR available). Earlier pass: pp. 1–80. |
 | HIG | *Materials for Engineers and Technicians*, 4th ed. (R.A. Higgins & W. Bolton, Newnes/Elsevier 2006) | https://drive.google.com/file/d/1yZIlYSmfyQIXY3iUdzovF7u1tCHGmWc0/view | EN | Fair OCR. **Read: pp. 1–65 only (Ch. 1–5, Ch. 6 to §6.2.4).** Alloy steels, Al, Ni/Ti/Mg and composites chapters **not returned** (≈15 %). |
 | MG18 | *Magnesium Technology 2018* (D. Orlov, V. Joshi, K.N. Solanki, N.R. Neelameggham eds., TMS/Springer) | https://drive.google.com/file/d/1ZE6TQOXNnemhdi165P__jiKo9GGRVJtQ/view | EN | Skimmed. **Read: full TOC + papers on book pp. 3–~100** (PDF pp. 1–110). |
 | MMC18 | *Metal-Matrix Composites: Innovations, Advances and Applications* (T.S. Srivatsan, Y. Zhang, W.C. Harrigan eds., TMS 2018) | https://drive.google.com/file/d/1Ru1LakxdwSSI0o8r_BvToL2Y3cd3I3Kw/view | EN | Skimmed. **Read: TOC + papers book pp. 3–~175** (PDF pp. 1–188). The papers from Sarma (p. 183) onward were not returned. |
@@ -33,25 +33,33 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
 
 - **Substitutional vs interstitial.** Mn, Ni and Cr substitute in Fe. H, O, C and N occupy interstitial sites [THI §3.1 p.12–13]. Interstitial solubility depends on the lattice. In the fcc γ-Fe lattice the octahedral hole is larger than in bcc α-Fe, so the maximum C solubility is 2.06 % in γ at 1147 °C, 0.1 % in δ near 1500 °C and 0.02 % in α at 723 °C [THI §3.4 p.15–16].
 - **Hume-Rothery rules (general knowledge).** Extensive substitutional solubility needs four things: atomic-size difference ≲15 %, similar electronegativity, the same crystal structure and similar valency. The sources show the consequences:
-  - Ni–Cu is completely miscible [EVE p.33].
+  - Ni–Cu is completely miscible [EVE p.33; FAR J–1 p.166, App. 5 p.182].
   - About 30 % Cr dissolves in Ni [EVE p.58].
+  - **The solvent sets the alloying ceiling [FT 2026-10-12].** Ni "can accommodate into solid solution larger quantities of critical elements such as chromium, molybdenum, tungsten … than can iron" [FAR App. 5 p.182]. Mo up to almost 30 % fits in Ni-base alloys, but "there are limits as to how much can be accommodated in the iron-base matrix" [FAR App. 5 p.183; J–3 p.170]. The highest-Mo stainless grade in the book carries 7.5 % Mo (654 SMO) [FAR F–4 p.90]. This is why the most corrosion-resistant grades leave the Fe base for the Ni base [FAR F intro p.81; G intro p.99]. *Al transfer (inference):* Al has a low equilibrium solubility for most transition metals (Mn, Fe, Cr, Zr, Sc). The usable "ceiling" is therefore set by primary-intermetallic formation during casting, not by the solid-solution limit at the homogenisation temperature.
   - Ba has a radius 1.36 × that of Mg. It is therefore a strong solid-solution strengthener at small additions and also forms Ba–Al/Mg intermetallics for Orowan strengthening [MG18 Dieringa et al. p.7].
   - Ca is chosen to strengthen Mg–Li "due to its significant size mismatch" [MG18 p.63].
 - **Solid-solution strengthening as a creep lever.**
   - In ferritic steels, 0.5 % Mo provides "matrix strengthening" and extends useful creep strength to ~450 °C [FAR A–0 p.4–5]. Cr + Mo strengthen the matrix and form carbides that pin grain boundaries and dislocations [FAR A–1 p.6].
   - In Ni, Cr gives oxidation resistance plus solid-solution strengthening [EVE p.58]. Ni–Mo alloys (Hastelloy B ≈ 61Ni–28Mo; C ≈ 54Ni–16Mo–15.5Cr–4W; X ≈ 47Ni–22Cr–18.5Fe–9Mo) are solid-solution strengthened. They keep >50 % of room-temperature (RT) strength to ≥1200 °F (649 °C) [EVE Table 3-9 p.47, p.46, p.50].
   - In superalloys, Re, W and Mo strengthen γ. For creep the ranking is **Re > W > Ta > Cr > Co** [SEG §3.2.3 p.18].
+  - **Nitrogen in austenite [FT 2026-10-12].** Raising N from ~0.05 % to ~0.15 % in 304L/316L raises the specified minimum yield strength by about 30 %. The real gain is only about 15 %, because standard 304L already exceeds its specified minimum comfortably [FAR F intro p.81]. With ~0.5 % N (654 SMO, UR B66) the 0.2 % proof stress is about 30 % above the 6 % Mo superaustenitics and comparable with 22Cr duplex [FAR F–4 p.91].
+- **Solid solution costs conductivity [FT 2026-10-12].** In Cu–Ni the resistivity rises with Ni: 115, 163 and 225 Ω·cmil/ft for 10, 20 and 30 % Ni (≈19, 27 and 37 µΩ·cm), and 300 Ω·cmil/ft (≈50 µΩ·cm) at 45 % Ni [EVE Table 6-2 p.102]. Nickel silvers measure 115–189 Ω·cmil/ft, against 38 (≈6.3 µΩ·cm) for yellow brass [EVE p.115]. *Al transfer (inference):* this is the same trade-off that Mn in solid solution imposes on 3xxx conductivity, and it is why conductor and heat-exchanger alloys strengthen with particles rather than solute (§1.4).
 - **Solutes also change stacking-fault energy and plastic anisotropy.** In Mg, density functional theory (DFT) shows that Y's unique effect, compared with Al or Zn, is a large drop in the pyramidal-I stacking-fault energy. Y's effect on the basal I1 fault can be matched by twice as much Al, yet Mg–Al alloys are not ductile. So the "basal-I1" explanation of RE ductility is not supported [MG18 Yin, Wu, Curtin p.15].
 - **Interstitial control as a design lever.**
   - Very low C and N enabled weldable, tough supermartensitic stainless steels (C ≈ 0.01) [FAR C–6 p.48–49] and superferritic steels (C ≤ 0.02 plus Ti/Nb ≈ 0.6) [FAR C–7 p.50].
   - In cryogenic Ni steels, C is cut to ~0.1 % because "it is not required for alloy strengthening and has a detrimental effect on toughness" [FAR B–1 p.28].
   - In Ni, 0.02 % C instead of 0.15 % C lowers the work-hardening rate for deep drawing and improves creep above 600 °F [EVE p.8–9, p.20–22].
   - Sulfur, even at normal impurity levels, reduces both hot and cold workability of Ni [EVE p.9].
+  - **Carbon sets a service ceiling in pure Ni [FT 2026-10-12].** Alloy 200 (C ≤ 0.15 %) graphitises during long exposure and is limited to below ~300 °C. Alloy 201 (C ≤ 0.02 %) does not, and is usable to ~650 °C [FAR J–0 p.165].
+  - **Low C + Si to keep weld HAZs clean.** The original Hastelloy C and B had C and Si levels high enough to form intermetallics and grain-boundary precipitates in weld HAZs. The very-low-C/Si C-276 and B-2 grades fixed this and can be used as-welded [FAR G–1 p.102; G–2 p.104–105; J–3 p.170–171]. Si is kept as low as possible in complex Ni alloys to avoid detrimental intermetallics [FAR App. 5 p.181].
+  - **P cannot be refined out of Cr-bearing melts.** Cr oxidises in preference to P, so stainless steels carry 0.01–0.02 % P. Where temper embrittlement matters, P is held below 0.01 % "by careful selection of raw materials and recycled scrap" [FAR App. 5 p.184]. This is a direct precedent for controlling an unrefinable residual through scrap selection (§1.9).
   - *Al transfer (inference):* the Al equivalent is tight control of Fe and Si and of trace Na/Ca/P for formability and toughness. Treat impurity specification as a design variable, not as given.
 
 ### 1.2 Grain size, grain boundaries and grain-boundary engineering
 
 - **Hall–Petch:** σ_HP = k_HP·d^(−1/2). For cryomilled AA5083, **k_HP = 0.165 MPa·m^1/2** (with the Mg solid-solution effect folded in). It gives 274–595 MPa for grain sizes of 77–362 nm and is the dominant term in ultrafine-grained (UFG) Al–Mg/3YSZ composites [MMC18 Dussing et al. p.71ff].
+- **Grain size in the 15–70 µm range (a datum in the user's slug window) [FT 2026-10-12].** Annealed nickel silver CA 745 (65Cu–10Ni–Zn) flat product: grain size 0.070 mm gives UTS 49 ksi (≈338 MPa) and El 49 %; 0.015 mm gives UTS 60 ksi (≈414 MPa) and El 36 %. "Generally, the larger the grain, the softer the material" [EVE p.117]. The implied slope is ≈0.55 MPa·m^½ on UTS (my calculation, fcc Cu-base). It is not transferable to Al numerically, but the direction matches the 20–100 µm slug window: coarser grain gives a softer slug.
+- **Coarse grain for creep [FT 2026-10-12].** A solution anneal at 2050 °F (1121 °C) coarsens the grain of Incoloy 800 and 804 and "markedly improves the creep and rupture properties". For alloy 800, the stress for 0.0001 %/h at 1600 °F (871 °C) more than doubles. For alloy 804 the 100-h rupture stress at 1400 °F (760 °C) rises from 6.2 to 12.5 ksi (≈43 → 86 MPa). At 1800 °F and only 1 ksi, the advantage vanishes: 29,026 h (mill-annealed) vs 29,460 h [EVE p.77–79, Table 4-14]. Alloy 800HT is specified with **minimum grain-size limits** [FAR I–0 p.149]. Grain size is therefore a strength/creep trade-off whose sign depends on temperature and stress.
 - **Ways to refine grains:**
   - **Solidification:** chilling → undercooling → more nuclei → finer grains. Die castings are therefore finer, tougher and stronger than sand castings [HIG §4.5 p.49–50; THI §3.3 p.14].
   - **Inoculation.** In AZ91, 0.7 % of an extruded Al–30SiC refiner gives grain size 550 → 90 µm, or 670 → 160 µm in industrial ingots, and resists fading for >8 h after remelting [MG18 Bae et al. p.71–77]. In AM60, 1 % AlN nanoparticles give 1277 → 85 µm and TYS 44.9 → 91.2 MPa [MG18 Dieringa p.8].
@@ -80,11 +88,26 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - Dislocations must cut γ′ in pairs (superdislocations) because of the anti-phase-boundary (APB) penalty [SEG p.16]. Kear–Wilsdorf locks produce the anomalous rise of yield stress up to ~800 °C. Above ~800 °C the APB energy falls and strength drops fast [SEG §3.4.1 p.21–22].
   - Heat treatment changed precipitate shape but not γ′ fraction or composition [SEG p.14]. A CMSX-2 treatment that gave aligned 0.45 µm cuboids raised creep strength [SEG p.36].
 - **Metastable strengtheners have a ceiling temperature.** γ″ in IN718 is body-centred tetragonal (BCT), disc-shaped and metastable. It strengthens only up to **650 °C**, then transforms to δ and strength is lost [SEG p.17]. Aged Monel K-500 (Ni₃(Al,Ti)) keeps its advantage only to ~1000 °F (538 °C) [EVE p.40].
+  - **γ′ itself has a ceiling [FT 2026-10-12].** γ′-hardened wrought superalloys "are very strong within the temperature range in which the precipitated phase is stable". Above ~1800 °F (982 °C) the precipitates begin to dissolve and strength falls rapidly [EVE p.85]. In short-time tests they keep much of their RT strength to ~1200 °F (649 °C) but only ~40 % at 1600 °F (871 °C) [EVE p.89].
+- **More precipitate former buys temperature, and short-time tests hide it [FT 2026-10-12].** Above 1200 °F the short-time tensile strengths of five wrought γ′ alloys were indistinguishable, yet rupture strength rose steadily with Al + Ti [EVE p.89]:
+  - M-252 (3.6 % Al+Ti): 1000-h rupture strength 10 ksi (≈69 MPa) at 1600 °F.
+  - Nimonic 115 (9 % Al+Ti): 27 ksi (≈186 MPa) at 1600 °F. Its 1000-h strength at 1800 °F almost equals M-252's at 1600 °F, a ~110 °C gain in useful temperature.
+  - Cast alloys show the same trend: the 1000-h/1500 °F rupture stress rises from 33.5 ksi (GMR-235D) to 56 ksi (IN-100), about +75 %. Adding W matrix strengthening on top (MAR-M200, MAR-M246) gives 60–62 ksi [EVE Table 5-8 p.98–99].
+  - Co is added to MAR-M200 "to increase the solvus temperature of the gamma-prime phase" [EVE p.94]. B and Zr improve creep and hot workability [EVE p.82].
+  - *Al transfer (inference):* rank heat-resistant Al alloys by creep/stress-rupture tests, not by short-time hot tensile tests. A solute that raises the solvus of the strengthening phase is a separate lever from one that raises its volume fraction.
+- **Precipitation costs less ductility than cold work [FT 2026-10-12].** Ni-Span Hi: ageing from the solution-annealed state almost doubles strength with only a moderate drop in elongation. Cold work gives almost the same strength but "drastically" reduces ductility [EVE p.184–185]. Ni-Span C: ageing alone triples YS and doubles UTS "while retaining good ductility" [EVE p.188–189]. *Al transfer (inference):* where formability after strengthening matters, a precipitation route (T-temper) preserves more elongation than a work-hardened H-temper of equal strength.
+- **Over-ageing for toughness.** Berylco Nickel 440 aged to peak reaches UTS 225 ksi (≈1550 MPa). Over-aged for maximum impact energy it has 151 ksi (≈1040 MPa) [EVE p.211]. The 17-4PH SCC trade-off in §1.7 is the same logic.
+- **Service inside the ageing range keeps ageing [FT 2026-10-12].** Precipitation-hardening stainless steels are used at 600–1000 °F (316–538 °C). Because that range overlaps their ageing range, "additional aging may occur in service" [EVE p.148]. Alloy 625 loses ductility and toughness during long-term exposure around 700 °C as precipitates form and grow [FAR G–0 p.101].
+- **Resistivity tracks precipitation.** Ageing lowers resistivity because solute leaves solution. Duranickel 301 falls from 273 to 259 Ω·cmil/ft (≈45 → 43 µΩ·cm) [EVE p.204]. Martensitic PH stainless Stainless W shows the same effect [EVE p.146]. *Al transfer (general knowledge):* electrical-conductivity tracking of Mn or Mg₂Si precipitation is standard Al practice.
 - **Shearable nanoclusters give strength without losing ductility.**
   - Cu-rich bcc nanoprecipitates in ferritic steel: ageing at 450–600 °C historically adds **100–200 MPa** YS, with the hardening peak at **2.5–3.0 nm** [MPF18 Zhao et al. p.28].
   - The peak comes after 2 h at 500 °C, 1 h at 550 °C and 30 min at 600 °C (classic C-curve kinetics). After 500 °C/1 h: YS 1135.5 MPa, UTS 1159.8 MPa, El 11.9 %. Fracture stays dimpled and ductile because dislocations cut the Cu clusters [MPF18 p.32–35].
 - **Matrix and precipitates can be tuned independently.** In a 1.64 GPa / 14 % El steel, the precipitation contribution (~494 MPa) was the same in hot-rolled and annealed matrices [SUP18 Xu et al. p.157].
 - **Ageing usually lowers fatigue endurance ratios.** Monel K-500 rod falls from 0.43 (annealed) to 0.37 (cold drawn) to 0.28 (cold drawn + aged) [EVE Table 3-4 p.39]. Ageing also lowers the endurance ratio of IN718 [EVE p.65]. Long exposure of Hastelloy X at 1500–1600 °F drops Charpy from 54 to 9 ft-lb [EVE Table 3-12 p.49].
+  - **More data [FT 2026-10-12]:** Duranickel 301's endurance ratio is "considerably lower" aged than unaged, whether aged after hot rolling or after cold drawing [EVE p.208].
+  - Process route matters as much as ageing. Incoloy 800 endurance ratio: hot rolled 0.51, annealed 0.38, cold drawn 0.29 [EVE p.76].
+  - Cold work raises fatigue strength less than it raises UTS. Annealed 70/30 Cu–Ni: 25 ksi at 10⁸ cycles (UTS 58.5 ksi). Cold drawn: 33 ksi (UTS 87.3 ksi) [EVE p.105].
+  - For comparison, annealed austenitic stainless steels have endurance ratios of 0.40–0.48 (0.32–0.33 for 301 and 310, 0.54 for 216), and they are not notch-sensitive. A 60° notch even raised the endurance limit of 304 from 36 to 43 ksi [EVE p.137–138].
 - **Precipitation hardening in stainless steel.** 17-4PH (16.5Cr–4Ni–3.5Cu–0.2Nb, C 0.03) reaches proof stress >1100 MPa (≈3 × 300-series) or is over-aged to ~600 MPa. At the highest strengths, toughness falls and **SCC susceptibility rises** [FAR C–4 p.44–45].
 
 ### 1.4 Thermally stable dispersoids, the high-temperature lever
@@ -93,6 +116,14 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - 1100 Al + 8–9 % nano-Al₂O₃ reaches YS 251–260 MPa at RT, against 30–34 MPa for 1100-O [MMC18 Harrigan p.14–15; Zhang et al. Table 1 p.24].
   - At **375 °C after 10,000 h** it keeps 133 MPa, against 11 MPa for 1100-O. At 350 °C, 2618-T6 has only 28 MPa [MMC18 Zhang et al. p.24].
   - Nanocomposites are **4–10 × stronger at 350 °C** than their matrices [MMC18 p.21]. No grain growth occurred after 500 °C/5 h [MMC18 p.21].
+- **The Ni precedent: TD Nickel vs γ′ superalloys [FT 2026-10-12].** TD Nickel is Ni + 2.2 % ThO₂, made by powder metallurgy (aqueous reduction with a thoria sol, compaction, H₂ sintering, rolling, annealing). It is hardened by "stable, insoluble particles" rather than by γ′ [EVE Table 5-1 p.84; p.85, p.89]:
+  - At RT it is much weaker: YS 48–87 ksi (≈330–600 MPa), against 110–154 ksi for the aged γ′ alloys [EVE Table 5-3 p.88]. In short-time tests it keeps only ~25 % of its RT strength at 1600 °F [EVE p.89].
+  - In long-time tests it wins. Its 1000-h rupture strength at 2000 °F (1093 °C) equals that of Nimonic 115 at 1800 °F (982 °C), "a very significant advance" [EVE p.90]. In jet-engine burner-can service tests it beat Hastelloy X "by a wide margin" after 151 h [EVE p.90–91].
+  - It is thermally stable: Charpy V fell only from 34 to 30 ft-lb (≈46 → 41 J) after 100 h at 2400 °F (1316 °C) [EVE p.89].
+  - **It keeps the conductivity of the pure matrix.** Thermal conductivity is 48 Btu/h·ft·°F (≈83 W/m·K) against 5.2–6.8 (≈9–12 W/m·K) for the γ′ alloys. Resistivity is 46 Ω·cmil/ft (≈7.6 µΩ·cm) against 722–803 (≈120–133 µΩ·cm) [EVE Table 5-2 p.86].
+  - Its modulus is lower than wrought Ni (22,000 vs ~30,000 ksi), comparable with cast Ni [EVE p.85, Table 5-2].
+  - *Al transfer (inference):* this is the same trade that 1100 + nano-Al₂O₃ shows in MMC18. Insoluble dispersoids give up RT strength in exchange for strength at the temperature where precipitates dissolve, and they leave the matrix nearly solute-free and conductive. For Al heat exchangers and conductors that must keep strength after brazing or at 200–350 °C, this is the argument for dispersoids (Al₃Zr, Al–Al₂O₃) over more solute.
+- **Layer solid solution behind the particles [FT 2026-10-12].** In cast 22H/Supertherm heat-resistant alloys, Co and W are added "to maintain matrix strength at temperatures where carbides begin to dissolve" [FAR H–9 p.138]. HP40Nb adds Nb to form a network of stable carbides. Ti/Zr microalloying then adds "secondary networks of fine carbides". The result is +50 % 100,000-h rupture life at 1000 °C over HK40, and the microalloyed versions add another 5–10 % [FAR H–8 p.136–137]. Gains are temperature-specific. Alloy 35/45 gives ~30 % more rupture stress at 1100 °C but no real gain below ~1000 °C [FAR H–10 p.141].
 - **Carbonitride microalloying in steels.**
   - V, Nb and N additions turn 9Cr–1Mo into P91. For the same duty (600 °C, 30 MPa, 100,000 h) the pipe wall drops from **115 mm (P22) to 77 mm (X20) to 49 mm (P91)** [FAR A–3 Fig. 1 p.11].
   - Adding W (P92/E911) raises creep-rupture strength up to ~30 % above P91 [FAR A–4 p.13]. 12Cr P122 has ~30 % higher allowable stress than P91 at 600 °C [FAR A–8 p.21].
@@ -102,7 +133,7 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
 ### 1.5 Phase stability: avoiding deleterious phases
 
 - **Topologically close-packed (TCP) phases (σ, µ, P) in Ni superalloys** are promoted by high Cr, Mo, W and Re. **~2 % Ru lowers the TCP precipitation rate** [SEG §3.2.2 p.16]. TCP formation takes Re and W out of the matrix and so lowers creep resistance [SEG p.34, p.36].
-- **The alloying ceiling in stainless steel is set by intermetallics.** Superduplex (PREn > 40, plus Cu/W) "probably represent[s] the limit of alloy development". More alloying would cause rapid intermetallic formation in the HAZ and weld metal [FAR D intro p.55]. σ and other intermetallics form quickly at **~400–800 °C** [FAR D–2 p.61].
+- **The alloying ceiling in stainless steel is set by intermetallics.** Superduplex (PREn > 40, plus Cu/W) "probably represent[s] the limit of alloy development". More alloying would cause rapid intermetallic formation in the HAZ and weld metal [FAR D intro p.55]. σ and other intermetallics form quickly at **~400–800 °C** [FAR D–2 p.61]. The same ceiling applies on the austenitic side [FT 2026-10-12]. The highest-alloyed superaustenitics "probably represent the limit of development", and further gains need a Ni base [FAR F intro p.81]. PREn ≈ 55 "is about as high as is achievable with stainless steels" [FAR F–4 p.91].
 - **Embrittlement windows to design around:**
   - 475 °C embrittlement of 17–26 % Cr ferritics [FAR C–2 p.41; C–3 p.42].
   - Temper embrittlement of Cr–Mo steels, controlled by low P and As residuals [FAR A–1 p.7].
@@ -114,8 +145,22 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - Cr is a ferrite former, and ~17 % Cr with low Ni makes 430 ferritic at all temperatures [FAR C–2 p.40].
   - Co prevents retained δ-ferrite in 12Cr–2.5W–2.5Co creep steels [FAR A–8 p.21].
   - N is the austenite stabiliser that rescued duplex HAZ microstructures [FAR D–1 p.58].
-  - The Group E tree builds austenite with "Cr + Ni to form austenite" and "+Mn +N minus Ni for strong austenite" [FAR Group E tree p.~67].
-- **Schaeffler / DeLong (general knowledge).** Cr_eq = Cr + Mo + 1.5Si + 0.5Nb; Ni_eq = Ni + 30C + 0.5Mn, and DeLong adds +30N. The diagrams map weld-metal phase (A / A+F / F / M). The Farrar data sheets read here did not print these equations.
+  - The Group E tree builds austenite with "Cr + Ni to form austenite" and "+Mn +N minus Ni for strong austenite" [FAR Group E tree p.66; page corrected after full-text pass, previously "p.~67"].
+  - **More from the full text [FT 2026-10-12]:**
+    - Mo is a ferrite former, so 316 needs more Ni than 304 to stay fully austenitic [FAR E–3 p.74].
+    - Mn and N "can be used together as a direct substitute for nickel". In 201/202 about half the Ni is replaced by Mn [FAR E–4 p.76–77; App. 5 p.182].
+    - Type 310 has 20 % Ni "to maintain a fully austenitic microstructure and avoid ferrite, which would transform to sigma during long-term service" [FAR H–4 p.128]. Cast 330 may contain ferrite pockets that transform to σ [FAR H–6 p.132].
+    - Fully austenitic alloys with Ni ≈ Fe resist σ. Alloy DS "can be heated in the critical 600–900 °C range, for indefinite periods of time" [FAR H–5 p.131]. Incoloy 800 does not form σ even after long exposure at 1200–1600 °F (649–871 °C) [EVE p.73].
+- **Schaeffler / DeLong (general knowledge; still not sourced).** Cr_eq = Cr + Mo + 1.5Si + 0.5Nb; Ni_eq = Ni + 30C + 0.5Mn, and DeLong adds +30N. The diagrams map weld-metal phase (A / A+F / F / M). **Full-text check [FT 2026-10-12]:** none of FAR, EVE or THI prints a Schaeffler, DeLong or WRC diagram, or any Cr/Ni-equivalent formula. FAR only describes the constituent roles qualitatively, quoted above. These coefficients therefore stay general knowledge and need a primary source (e.g. the WRC-1992 diagram) before quantitative use.
+- **High Mo segregates and destabilises [FT 2026-10-12].** In the 6 % Mo superaustenitics, "the high molybdenum level [tends] to destabilise the austenite, give rise to segregation, and so reduce corrosion resistance". This is countered with more Ni and ~0.2 % N [FAR F–3 p.88]. Matching weld consumables are not used for 6–7.5 % Mo grades "because of molybdenum segregation in the as-welded condition". Over-alloyed Ni-base fillers are used instead [FAR F–3 p.89; F–4 p.91]. *Al transfer (inference):* slow-diffusing solutes segregate in as-cast Al too (Mn, Cr, Zr, Sc in dendrite cores or interdendritic regions). The options are the same: over-alloy to cover the depleted regions, or homogenise.
+- **Composition variants that trade strength for phase stability [FT 2026-10-12].**
+  - C-4 (no W) has corrosion resistance similar to C-276 but better high-temperature stability and resistance to ageing up to 1050 °C [FAR G–2 p.104].
+  - G-30 has more Cr, less Mo and Nb, and more W than G-3. The change is "claimed to improve weldability and particularly to increase corrosion resistance by reducing segregation and precipitation in weld HAZs" [FAR G–6 p.112–113].
+  - Alloy 617 replaces part of the Ni with ~12 % Co, drops Nb, and adds ~1 % Al + Ti. It has 625-like tensile properties but better creep rupture and long-term stability above ~900 °C [FAR I–4 p.156–157].
+- **Alloying for process robustness, not peak properties [FT 2026-10-12].**
+  - Most commercial Ni–Fe soft-magnetic alloys add Mo, Cr, Cu or V "to reduce the sensitivity of the nickel-iron alloys to variables occurring during heat treatment, thus simplifying the control of cooling rates" [EVE p.194].
+  - W–7.5Ni–2.5Cu heavy metal gives UTS 56 ksi with <1 % El after slow cooling, but 90 ksi with 1–2 % El after fast cooling. Replacing Cu with Fe (W–7Ni–3Fe) gives 59 ksi/19 % slow-cooled and 54 ksi/7 % fast-cooled. The point of the substitution was to "overcome this sensitivity to cooling rate" [EVE p.218].
+  - *Al transfer (inference):* for slug annealing, the composition goal can be a recrystallised grain size and hardness that are insensitive to coil position and furnace heating rate, not the highest possible value of either.
 - **Electron-vacancy and d-electron methods (general knowledge).** PHACOMP uses the average electron-vacancy number N̄v of the γ matrix after γ′/carbide partitioning. New PHACOMP uses Md̄ = Σ xᵢ·Mdᵢ (metal d-level). Higher values mean higher TCP propensity, and critical values are alloy-family specific. In the sources, this approach appears only as SUP18 TOC items, which were not read: Mostafaei & Abbasi, "incipient melting map and γ′ features … molecular orbital method" p.453, and Sadeghpour et al., "multi-element β-Ti … d-electron method" p.377.
   - *Al transfer (inference):* an Md/Bo-style descriptor has no standard Al analogue. CALPHAD driving-force screening of unwanted phases (Al₇Cu₂Fe, Mg₂Si coarse, β-AlFeSi, S/T phases) plays that role. Note, though, that CALPHAD databases can be wrong: for Mg–Al–Ce, experiment contradicted the published liquidus and a new hexagonal Al₅Ce₂ phase was found [MG18 Wong et al. p.79].
 
@@ -135,6 +180,7 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
    - Annealed Monel 400 creeps less than hot-rolled or cold-drawn-and-stress-relieved material at 800–1000 °F [EVE Table 3-6 p.41].
    - Ni–Mo alloys are used annealed above the recrystallisation temperature [EVE p.46].
    - Cold-worked steel strength is lost on heating into the recrystallisation range (welding, fire) [THI §5.6 p.53].
+   - The strength that cold work gives 70/30 Cu–Ni "is lost completely at about 1200 F" (649 °C). Above that, cold-worked and annealed material behave alike [EVE p.106] [FT 2026-10-12].
 6. **Rafting and morphology** (SX superalloys):
    - Rafting is directional γ′ coarsening, diffusion-controlled near ~900 °C. In CMSX-4 at 100 MPa/1150 °C it completes in 10 h [SEG §3.3 p.19].
    - Negative misfit plus tension gives N-type rafts. The rafting parameter is R = L/(2T), with R = 0.5 for cubes (eq. 2, p.20).
@@ -142,20 +188,50 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
 7. **Data:**
    - 0.2C steel rupture in 1000 h: 295 MPa at 400 °C, 118 MPa at 500 °C [HIG §3.5 p.37].
    - Low-C Ni (0.02C) at 1000 °F creeps less than 0.15C Ni at 800 °F [EVE p.20–22].
-   - Larson–Miller P = T(C + log t_r) is the usual time–temperature parameter (general knowledge).
+   - Larson–Miller P = T(C + log t_r) is the usual time–temperature parameter (general knowledge; not given in FAR, EVE or THI).
+8. **More cross-family creep data [FT 2026-10-12]:**
+   - **Stabilised carbides beat plain austenite.** The 0.0001 %/h creep stress of 347 at 1200 °F is twice that of 304. Above 1500 °F (816 °C) all the wrought austenitic stainless grades have very low creep resistance [EVE p.139–140].
+   - **Cast beats wrought in long-time properties** at equal composition: cast superalloys tend to have higher rupture strengths [EVE p.83]. Cast stainless steels have the long-time advantage too: the 0.0001 %/h creep stress of cast HK at 1600 °F is 1.5 × that of wrought 310 at 1500 °F [EVE p.155]. Cast superalloys carry less Cr and more Al than wrought ones, because highly alloyed grades are too strong to hot work [EVE p.82–83].
+   - **Absolute numbers at the top of the Fe–Ni–Cr range.** HK40 (0.4C–25Cr–20Ni): 100,000-h rupture stress ~4 MPa at almost 1100 °C [FAR H–7 p.135]. ~1150 °C is "about the practical upper limit" for fabricable heat-resistant alloys [FAR H–10 p.141]. 80Ni–20Cr has a 100-h rupture stress at 1800 °F of only about two-thirds of X-750's [EVE p.167].
+   - **Austenitic creep steel by stable-carbide design.** Esshete 1250 (15Cr–10Ni–6Mn–1Mo–0.25V–1Nb–0.005B) uses V, Nb and B carbides "as long-term ageing takes place" for service to 675 °C [FAR H–1 p.122–123].
 
 ### 1.7 Corrosion design rules
 
-- **Passivity threshold.** Stainless steel needs **≥10.5 % Cr** and ≤1.2 % C. The passive Cr-oxide film is ~10 atomic layers thick [THI §6.2.4 p.58]. 11–12 % Cr is "just stainless" [FAR C–1 p.38–39].
-- **Pitting index:** PREN = Cr + 3.3Mo + 16N (task brief / general knowledge; PREW replaces Mo by Mo + 0.5W, general knowledge). Values in the source:
+- **Passivity threshold.** Stainless steel needs **≥10.5 % Cr** and ≤1.2 % C. The passive Cr-oxide film is ~10 atomic layers thick [THI §6.2.4 p.58]. 11–12 % Cr is "just stainless" [FAR C–1 p.38–39]. **Source difference [FT 2026-10-12]:** EVE (1971) states that Cr "must be present in amounts above 11.5 %" [EVE p.129]. THI's 10.5 % is the current EN definition. Use 10.5 % as the definition and ~11–12 % as the practical minimum.
+- **Pitting-resistance indices: now sourced [FT 2026-10-12; replaces the earlier "task brief / general knowledge" formulas]** [FAR App. 1 p.172–173]:
+  - **PRE = Cr + 3.3Mo**: the original formula, for austenitic stainless steels without N additions.
+  - **PREn = Cr + 3.3Mo + 16N**: "the formula most widely used for duplex, superduplex and superaustenitic stainless steels". Some authorities consider an N multiplier of **30** more appropriate for high-N superaustenitics.
+  - **PREw = Cr + 3.3(Mo + 0.5W) + 16N**: for W-bearing superduplex grades.
+  - **PREN (Ni alloys) = Cr + 1.5(Mo + W + Nb) + 30N − 0.5Cu**: used by "some authorities" for corrosion-resistant Ni alloys. It gives 45 to >50 for the most resistant grades. FAR notes "some debate" about extending the stainless formulas to Ni alloys.
+  - Values in the source (FAR sheet, printed page):
 
 | Family (FAR sheet) | Typical composition | PRE(N) |
 |---|---|---|
 | Soft martensitic CA6NM (C–5, p.47) | 0.04C–13Cr–4.5Ni–0.75Mo | 15–21 |
+| 304L (E–3, p.75) [FT] | <0.03C–19Cr–9Ni | ~18 |
+| 316L (E–3, p.75) [FT] | <0.03C–17Cr–12Ni–2.5Mo | ~26 (Mo adds ~8) |
 | Lean duplex 2304/UR50 (D–0, p.56) | 23Cr–4.5Ni–0.15N … 22Cr–7Ni–2.5Mo–1.5Cu–0.1N | 26–32 |
+| 317L / 317LMN (F–0, p.83) [FT] | 19Cr–13Ni–3.5Mo / 19Cr–15Ni–4.5Mo–0.15N | 316L + ~5 / ~35 |
+| Alloy 20 (F–5, p.93) [FT] | 20Cr–34Ni–2.5Mo–3.5Cu–Nb | ~30 |
 | Standard duplex 2205 (D–1, p.58) | 22Cr–5Ni–3Mo–0.17N | ≥35 |
+| Alloy 28 (G–5, p.111) [FT] | 27Cr–31Ni–3.5Mo–1.2Cu–0.05N | 36–38 |
+| 904L (F–2, p.87) [FT] | 21Cr–26Ni–4.5Mo–1.5Cu | ~37 |
 | Superduplex 2507 (D–2, p.60) | 25Cr–7Ni–4Mo–0.25N | >40 (defining criterion) |
 | Superferritic AL 29-4C (C–7, p.51) | 0.02C–29Cr–4Mo–0.6(Ti+Nb) | ~40 |
+| 6 % Mo superaustenitic, e.g. 254 SMO (F–3, p.89) [FT] | 20/24Cr–18/25Ni–6.5Mo–~1Cu–0.22N | 43–45 (16N); ~50 (30N) |
+| 654 SMO / UR B66 (F–4, p.91) [FT] | 24Cr–22Ni–7.5Mo–0.5N / 24Cr–23Ni–6Mo–2W–2Cu–0.5N | ~55 (16N); >60 (30N) |
+| Most resistant Ni alloys (App. 1, p.173) [FT] | e.g. C-276, C-22, alloy 59/686 | 45 to >50 (Ni-alloy formula) |
+
+- **What the index does not capture [FT 2026-10-12].**
+  - Alloy C-22 has more Cr but less Mo, W and Fe than C-276. FAR calls the net effect on chloride pitting "effectively neutral", but the extra Cr improves resistance in oxidising media [FAR G–3 p.106–107].
+  - The general rule: "high chromium contents are required to provide resistance to oxidising media", while reducing acids "require high molybdenum and tungsten" [FAR G–4 p.109].
+  - Alloy 20 has a pitting index like 316L (~30) but was designed with Cu for general corrosion in sulfuric acid [FAR F–5 p.93].
+- **Sensitisation is a heat-treatment window [FT 2026-10-12].** Holding Cr–Ni stainless steel, or cooling it slowly, through 1450–800 °F (788–427 °C) deposits Cr carbides on the grain boundaries. This depletes Cr next to the boundaries and leads to intergranular failure, often next to welds [EVE p.131]. The fixes are:
+  - Re-dissolve the carbides at 1800–2050 °F (982–1121 °C) and water quench [EVE p.131].
+  - Cut C to low-carbon (<0.03 %) or extra-low-carbon (<0.02 %) levels [EVE p.131; FAR App. 1 p.172]. AOD made this economic from ~1970 [FAR E–1 p.70–71; App. 1 p.172].
+  - Stabilise with Ti or Nb at about 10 × C, e.g. 0.06 C needs ~0.7 % [FAR E–0 p.68].
+  - *Al transfer (inference):* 5xxx alloys with >3 % Mg have the same kind of window, in which the boundary phase is β-Al₃Mg₂ itself rather than a Cr-depleted zone (general knowledge). The same three levers apply: thermal history, composition limit and a "stabilising" addition that changes the boundary phase.
+- **SCC resistance from Ni [FT 2026-10-12].** Austenitic stainless steels are sensitive to chloride SCC "when residual stresses are present and temperatures are within the critical range (above about 65 °C)" [FAR E–3 p.75]. Higher Ni raises SCC resistance [FAR App. 5 p.182]. Alloy 690 (29–30 % Cr) replaced 600 in steam generators because it resists high-temperature SCC in water better [FAR G–7 p.115].
 
 - **A ferrite matrix gives immunity, or high resistance, to chloride stress-corrosion cracking (SCC)** in superferritics and duplex steels [FAR C–7 p.51; D–1 p.59].
 - **Strength vs SCC trade-off.** Peak-aged precipitation-hardened stainless steels are "rather sensitive to SCC" [FAR C–4 p.45]. *Al transfer (inference):* this matches the 7xxx T6-vs-T7x over-ageing logic.
@@ -167,6 +243,25 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - **Cathodic poisoning** by As, and its non-toxic analogue Ge, lowers corrosion and H₂ evolution. Mg with **>10.5 % Li** forms a protective Li₂CO₃ film [MG18 Birbilis et al. p.17].
   - New inhibitors complex cations of nobler impurities [MG18 p.10].
   - *Al transfer (inference):* for recycled Al, treat Cu and Fe intermetallics as cathodes. Design for low cathodic activity (constituent particle size and chemistry) rather than relying on purity alone.
+- **Local cells in Al and other metals [FT 2026-10-12]** [THI §11.2 pp.99–107]:
+  - Electrochemical corrosion needs a potential difference, a closed circuit with an electrolyte, and unhindered electrode reactions. Different crystal phases are one listed source of the potential difference [THI §11.2 p.99–100].
+  - Pitting runs faster as the cathode-to-anode area ratio rises (small defect, large passive cathode) [THI §11.2.3.2 p.102].
+  - On Al alloys, "the heterogeneous microstructure of the alloys causes heterogeneous oxide layers … with different electrochemical behaviour", which can lead to local pitting unless the protective film stops it [THI §11.2.4.2 p.107].
+  - The Al film is nearly pore-free, a few molecular layers thick, insoluble at neutral pH and self-healing. Acids (pH < 4) and alkalis (pH > 10) attack it [THI p.107]. Al is not resistant to alkaline building materials such as cement [THI §11.1.2 p.98].
+  - Aggressiveness of salt ions toward Al: Cl⁻ > NO₃⁻ > SO₄²⁻ > Na⁺ > K⁺ > NH₄⁺ > Ca²⁺ > Mg²⁺ [THI §11.1.2 p.98].
+  - Zn–Cu contact is singled out as especially critical because of the large potential difference [THI §11.2.3.4 p.103].
+
+#### 1.7.1 Oxide growth and scale engineering (relevant to MgO growth during slug annealing) [FT 2026-10-12]
+
+- **Oxide/metal volume decides protectiveness.** THI ties protectiveness to the oxide/metal density difference and the "transition from metal to oxide" [THI §11.1 p.96]. Its Table 14 gives the densities (g/cm³): Mg 1.7, MgO 3.6; Al 2.7, Al₂O₃ 3.4 and 4.0 (the two polymorph labels were lost in extraction); Fe 7.9, FeO 5.7, Fe₂O₃ 5.3, Fe₃O₄ 5.2; Zn 7.1, ZnO 5.7 [THI Table 14 p.97].
+  - Converted with molar masses to the **Pilling–Bedworth ratio** (PBR = V_oxide/V_metal consumed; the concept and molar masses are general knowledge, the arithmetic is mine): **MgO 0.78**; Al₂O₃ 1.28 (4.0 g/cm³) to 1.50 (3.4 g/cm³); ZnO 1.55; FeO 1.78; Fe₂O₃/Fe₃O₄ ≈ 2.1.
+  - **Flag: the THI argument conflicts with general knowledge.** THI says that Mg and Al oxides are denser than their metals and that a dense, insoluble oxide such as Al₂O₃ stops corrosion [THI p.96]. For MgO, however, the higher density is exactly why it is *not* protective. A PBR below 1 means the oxide cannot cover the metal it consumes, so the film is porous or cracked and growth continues (general knowledge).
+  - *Al transfer (inference):* this is the thermodynamic and geometric reason why Mg that segregates to the surface of Al–Mg strip during annealing builds MgO that keeps growing, rather than self-limiting like Al₂O₃.
+- **An inner barrier oxide can stop the outer oxide growing.** In alloy 45TM (28Cr–45Ni–3Si–0.1REM), Si and REM "act synergistically" to form "a very stable oxide layer that is adjacent to and just below the chromium oxide film. This silicon oxide layer prevents growth of the primary chromium oxide layer and therefore reduces the risk of spalling" [FAR I–2 p.152]. In 253MA, Si + REM likewise stabilise the oxide film against spalling [FAR H–2 p.125]. REMs "help to stabilise and prevent growth and spalling of the oxide film" [FAR App. 5 p.183].
+  - *Al transfer (inference, to test):* look for a minor addition, or a pre-oxidation step, that forms a dense layer under or in the Al₂O₃ film and blocks outward Mg transport. Small Be additions to Al–Mg melts are used to limit oxidation (general knowledge; Be carries occupational-health restrictions).
+- **Atmosphere selects which element oxidises.** 80Ni–20Cr suffers "selective oxidation in partially reducing atmospheres" at 1500–1800 °F (816–982 °C), which reduces ductility and causes hot spots. The cure is to keep the atmosphere oxidising or to lower the Ni content [EVE p.161]. "Green rot" in Ni–Cr alloys arises when furnace atmospheres alternate between reducing and oxidising [FAR H–5 p.131].
+  - *Al transfer (inference):* in a batch-annealing furnace the dew point and O₂ partial pressure decide whether Mg or Al oxidises preferentially at the strip surface. Atmosphere control is a first-order lever on MgO, alongside alloy Mg content and annealing time and temperature.
+- **Refractory-metal oxides can run away.** Mo-bearing alloys such as 316 can suffer catastrophic oxidation in oxygen above about 700 °C, because the oxidation is exothermic and self-accelerating [FAR App. 6 p.186; E–3 p.75].
 
 ### 1.8 Carbon equivalent, hardenability and weldability (steels)
 
@@ -176,10 +271,11 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - Corrosion: Cr ⇑, Cu+P ↑. Ni, Mo, Cu and Al are also listed as beneficial, but the table layout is garbled.
   - Cold formability: C ↓, Si ↓, P/S ↓.
   - Weldability: C ⇓, Mn ↓.
-- **Carbon-equivalent formulas** [THI §7.3.2 p.72; DE text, reconstructed from a scrambled equation layout]:
-  - IIW, for C > 0.18 %: **CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15**.
-  - High-strength or Q&T fine-grain steels: a second formula with terms Mn/10, (Cr+Cu+Mo)/20 and Ni/40. Its exact grouping is garbled; the standard EN 1011-2 **CET = C + (Mn+Mo)/10 + (Cr+Cu)/20 + Ni/40** is general knowledge.
-  - Ito–Bessyo, for C < 0.18 %: **C + Si/30 + (Mn+Cu+Cr)/20 + Ni/60 + Mo/15 + V/10 + 5B**.
+- **Carbon-equivalent formulas** [THI §7.3.2 p.72]. **Verified [FT 2026-10-12]:** in the PDF each formula is an embedded equation object. Its numerator and denominator positions were read from the word bounding boxes (PDF p. 72), so the term grouping below is now confirmed rather than reconstructed:
+  - IIW, for steel with C > 0.18 %: **CE = C + Mn/6 + (Cr+Mo+V)/5 + (Ni+Cu)/15**.
+  - "For alloyed high-strength steels, e.g. quenched-and-tempered fine-grain structural steels": **CET = C + (Mn+Mo)/10 + (Cr+Cu)/20 + Ni/40**. This matches the EN 1011-2 form. The earlier note that the grouping was garbled and only general knowledge is superseded.
+  - Ito–Bessyo, for steel with C < 0.18 %: **C + Si/30 + (Mn+Cu+Cr)/20 + Ni/60 + Mo/15 + V/10 + 5B**. THI labels this formula "CE_V". *Terminology flag (general knowledge):* the Ito–Bessyo expression is usually called P_cm, while "CEV" in EN 10025 denotes the IIW formula. Check which one a specification means.
+  - THI adds that other weightings exist depending on the purpose, and that CE also indicates cold-crack sensitivity. Any CE-based statement "must always be judged cautiously", because CE does not capture steelmaking route, fabrication or design [THI p.72].
 - **Preheat rule** [THI Table 9 p.72–73]:
   - CE(IIW) < 0.45 needs no preheat.
   - 0.45–0.60 needs 100–200 °C.
@@ -188,6 +284,13 @@ Not read: anything in the `microstructure-sim-v2.14.0` folder (excluded by instr
   - Procedures use **t8/5**, the 800 → 500 °C cooling time. Too low a preheat risks cold cracks; too high a preheat lowers HAZ toughness [THI p.73].
 - **The HAZ is a sequence of thermal zones** (cast → coarse γ → fine normalised → intercritical, partly re-hardened → tempering/ageing) [THI Fig. 70 p.71].
   - *Al transfer (inference):* the same zonation (fusion → partially melted → solutionised → over-aged → unaffected) explains 6xxx/7xxx HAZ softening. A local yield-strength map can be computed with the A356 local-heat-treatment framework [MPF18 Holzmann et al. p.77].
+  - When welding treated steels, especially cold-formed ones, heat input must be limited "to prevent softening through the change of the microstructure" [THI p.72].
+- **Al welding in THI [FT 2026-10-12]** [THI §10.1.6 p.88]:
+  - Because of its high thermal conductivity, Al needs about the same heat to melt as steel, despite its lower melting point.
+  - The oxide skin only melts at ~2000 °C. Gas or manual metal-arc welding therefore gives lack-of-fusion defects, and Al is welded under argon by MIG or TIG.
+  - In the HAZ the welding heat causes solution annealing and recrystallisation, and strength drops sharply. The size of the drop depends on the alloying elements, weld size and heat input.
+  - Age-hardenable alloys lose less strength than non-age-hardenable ones and can regain base-metal strength by heat treatment and ageing. The strength that cold work gives non-age-hardenable alloys is lost on welding.
+  - These points give source support to the Al HAZ inference above. The "Al weldability equivalent for hot cracking" (§2 lever 4) is still general knowledge.
 
 ### 1.9 Processing levers that cross families
 

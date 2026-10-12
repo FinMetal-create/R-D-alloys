@@ -7,21 +7,23 @@
 
 | Ref | Title (author, year) | Drive link | Lang. | Readability / coverage |
 |---|---|---|---|---|
-| R1 | Belov, Eskin, Aksenov, *Multicomponent Phase Diagrams: Applications for Commercial Al Alloys* (2005), Ch. 1 "Alloys of the Al–Fe–Mn–Si System", pp. 1–46 | https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view | EN | Text good. Figures are not readable. Tables 1.4 and 1.13 are scrambled. Tables 1.2 (Al–Fe–Si invariants), 1.5 (metastable phases) and 1.16 are **missing** from the extraction. Read fully. |
+| R1 | Belov, Eskin, Aksenov, *Multicomponent Phase Diagrams: Applications for Commercial Al Alloys* (2005), Ch. 1 "Alloys of the Al–Fe–Mn–Si System", pp. 1–46 | https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view | EN | Text good. Figures are not readable. Read fully. **Full-text pass 2026-10-12:** the PDF was downloaded (2,668,517 B, 46 pp., OCR text layer; PDF page = printed page) and converted with `pdftotext -layout`. Tables 1.4, 1.6, 1.7, 1.9–1.15 and 1.17–1.20 are now legible and verified (§2.2, §2.4, §2.5). Tables 1.2 (Al–Fe–Si invariants, p.3), 1.5 (metastable phases, p.9) and 1.16 (Al–Fe–Mn–Si mono/bivariant, p.18) are printed rotated and their OCR layer is garbage, so they are **still missing** (no OCR tool available). |
 | R2 | Rosefort, Matthies, Buck, Koch (TRIMET), "Determination of α- and β-AlFeSi phases in wrought Al alloys" (file name SL: "AlFeSi faze v gnetnih zlitinah") | https://drive.google.com/file/d/10S5-K7dD0IZZXepBfMi_hk0S8Rxzra5C/view | EN (one DE caption) | Text good, 7 pp. Tables 1–3, the alloy compositions and the numeric Si/(Fe+Mn) separator are in images and **not extracted**. Read fully. |
 | R3 | Ghosh G., "Al–Fe–Si", Landolt-Börnstein New Series IV/11A2 (MSIT), pp. 359–409 (file name SL: "Fazni diagram AlFeSi") | https://drive.google.com/file/d/1ziJfaBKy6slqy6sR6DSdjzImN8UZ4SJz/view | EN | Text and tables good. Greek letters are encoded ("J"=τ, `"`=α, `$`=β, `(`=γ). Figures are not readable. Read fully. |
-| R4 | Krstić Vukelja, Duplančić, Lela, "Continuous roll casting of Al alloys – casting parameters analysis", *Metalurgija* 49 (2010) 115–118 | https://drive.google.com/file/d/16xRFXhETDI8_5cYr9x9tuBxUueKkY9q0/view | EN (+HR abstract) | Text good. Table 1 is partly scrambled. The paper covers process parameters only: no microstructure, cooling-rate or segregation data. Read fully. |
-| R5 | Maggs S.J., *Intermetallic Phase Selection in Dilute Al–Fe–Si Alloys*, PhD thesis, Univ. Leeds (1996) ("fir-tree zone.pdf", 22 MB) | https://drive.google.com/file/d/1Dtgr_aj458cP3-2WGafeXu7LKDYNklva/view | EN | Scanned and OCR'd. **The text stops at thesis p. 71** (Chs 1–3). The DSC and Bridgman chapters (4–5) and the conclusions (6) are **not available**. Many phase names are garbled. |
+| R4 | Krstić Vukelja, Duplančić, Lela, "Continuous roll casting of Al alloys – casting parameters analysis", *Metalurgija* 49 (2010) 115–118 | https://drive.google.com/file/d/16xRFXhETDI8_5cYr9x9tuBxUueKkY9q0/view | EN (+HR abstract) | Text good. The paper covers process parameters only: no microstructure, cooling-rate or segregation data. Read fully. **2026-10-12:** PDF downloaded (482,542 B, 4 pp.); `pdftotext -layout` recovers Table 1 with its column assignment (§4.2). |
+| R5 | Maggs S.J., *Intermetallic Phase Selection in Dilute Al–Fe–Si Alloys*, PhD thesis, Univ. Leeds (1996) ("fir-tree zone.pdf", 22 MB) | https://drive.google.com/file/d/1Dtgr_aj458cP3-2WGafeXu7LKDYNklva/view | EN | Scanned and OCR'd. **The text stops at thesis p. 71** (Chs 1–3). The DSC and Bridgman chapters (4–5) and the conclusions (6) are **not available**. Many phase names are garbled. 2026-10-12: at 22.34 MB the file is above the download-tool limit (see the note below the table), so it is still truncated. |
 | R6 | Miyazaki, Isobe, Murao, "Formation mechanism and modeling of centerline segregation", *Nippon Steel Tech. Rep.* 104 (2013) 48–53 | https://drive.google.com/file/d/1QsCpR-VkKpP5rtYTqd7QB7P5IAUzFJPg/view | EN | Text good. The subject is **steel** CC slabs and blooms; only the mechanisms transfer. Eq. (1) is missing. Read fully. |
-| R7 | Lalpoor M., *Study of Cold Cracking during DC-Casting of High-Strength Al Alloys*, PhD thesis, TU Delft (2010) | https://drive.google.com/file/d/1gLPBgQq0_DICNYuWwMELjPhplKi3aBIo/view | EN | Text good, but **truncated at thesis p. 70** (Chs 1–4 of 8). The cold-cracking criterion and critical crack size (Chs 5–8) are **missing**. |
-| R8 | O'Dette J.H., "Blister formation in rolled aluminum", *J. Metals / Trans. AIME*, July 1957, pp. 924–925 | https://drive.google.com/file/d/1ng77xl3C81ziOj-F_orl5D5ksh0ryrpZ/view | EN | Only the **first 2 pages** were extracted. The abstract is scrambled and Table I is reconstructed (garbled). The prevention/explanation section is missing. |
+| R7 | Lalpoor M., *Study of Cold Cracking during DC-Casting of High-Strength Al Alloys*, PhD thesis, TU Delft (2010) | https://drive.google.com/file/d/1gLPBgQq0_DICNYuWwMELjPhplKi3aBIo/view | EN | Text good, but **truncated at thesis p. 70** (Chs 1–4 of 8). The cold-cracking criterion and critical crack size (Chs 5–8) are **missing**. 2026-10-12: at 13.88 MB the file is above the download-tool limit, so it is still truncated. |
+| R8 | O'Dette J.H., "Blister formation in rolled aluminum", *J. Metals / Trans. AIME*, July 1957, pp. 924–925 | https://drive.google.com/file/d/1ng77xl3C81ziOj-F_orl5D5ksh0ryrpZ/view | EN | **Full-text pass 2026-10-12:** the PDF was downloaded (625,299 B; the duplicate 1QtwlU4u3he2eroL4LrynS4Ov_TMfgGJo has the identical size). **The Drive file itself has only 2 pages** (pp.924–925, a 600-dpi scan with an OCR layer), so the earlier "2-page" result was not a reader truncation. The abstract and Table I are legible in the layout extraction and are now verified (§7). The continuation (p.926 onward, with the explanation of the ≥40 % cold-reduction route and the control methods) is **not in the Drive library**. Author: J.H. O'Dette, Aluminium Laboratories Ltd., Kingston, Ont.; TP 4460E, manuscript 13 Sept 1956. |
 | R9 | Eskin D.G., *Physical Metallurgy of Direct Chill Casting of Al Alloys* (CRC 2008), Ch. 2 "Solidification of Al alloys", pp. 19–78 (file 62816_ch02) | https://drive.google.com/file/d/1MBeZaNbetcIq6Xjcoj2Y56AW9wZPwcb2/view | EN | Found by Drive search. Text good apart from interleaved figure labels. Read fully. |
 | R10 | Eskin (2008) Ch. 3 "Solidification patterns and structure formation during DC casting", pp. 79–124 (62816_ch03) | https://drive.google.com/file/d/1t1R4f3IKhRkid18JooQCMoR5PNhbjsZE/view | EN | Found by Drive search. Read fully. Table 3.2 is partly scrambled. |
 | R11 | Eskin (2008) Ch. 4 "Macrosegregation", pp. 125–182 (62816_ch04) | https://drive.google.com/file/d/1LGAwTkLvuT29WFaaXDgYcKRN31PhMQ7v/view | EN | Found by Drive search. Read fully. |
 | R12 | Eskin (2008) Ch. 5 "Hot tearing", pp. 183–274 (62816_ch05) | https://drive.google.com/file/d/1tYAv85fpfmJ7f5wNBPi3kvky3b1H4ps4/view | EN | Found by Drive search. Read fully. Most criterion equations are images and **missing**. |
-| R13 | Davis J.R., "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM (2001), pp. 351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | EN | Found by Drive search. **Only the passages that matched Fe/Mn/Si/H keywords were read.** |
+| R13 | Davis J.R., "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM (2001), pp. 351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | EN | Found by Drive search. First pass read only the passages that matched Fe/Mn/Si/H keywords. **2026-10-12:** PDF downloaded (536,308 B, 66 pp. = pp.351–416) and read in full; the additions are in §7 (hydrogen sources). |
 
 **Not used.** Duplicate copies in folder `1gxFIC8S…`, and everything inside `microstructure-sim-v2.14.0` (the `.js` files and the AA3207_Recrystallization_Simulation `.xlsx`, excluded as instructed). The broad handbooks (ASM Handbook vol. 1, "Alminium.pdf", "Light Alloys", "Alloys", TMS 2018 proceedings, "vasevska.pdf") also matched the search terms but were not mined. AMAG "AR-2014 Wärmebehandlung" was checked by snippet only (general heat treatment). Eskin Ch. 1 and the front matter were not read.
+
+**Full-text pass (2026-10-12).** The Drive text reader truncates long files, so sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`): R1, R4, R8 and R13. The Drive download tool refuses larger files with the message *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* (tested on a 12.66 MB file). R5 (22.34 MB) and R7 (13.88 MB) therefore remain truncated. No OCR tool is available, so tables printed as images or rotated pages remain unreadable.
 
 ---
 
@@ -79,7 +81,22 @@ The binary e11 and e12 temperatures are taken from the labels on R3 Fig. 6 (liqu
 **Other Al–Fe–Si equilibria data**
 - Fe4Al13 dissolves 0.2–6 mass% Si (scatter between reports; 4 at.% Si at 550 °C). The lattice parameters vary with composition: a(pm) = 1505.0 + 1.14·W_Fe − 0.41·W_Si and b(pm) = 862.8 − 1.41·W_Fe − 1.3·W_Si [R3, p.360].
 - Fe and Si solubility in (Al) at 550 °C is each <1 at.% [R3, p.360].
-- In the (Al)+β+(Si) field the solid solubility of Si follows the binary Al–Si solvus: about 1.65% at 578 °C, 1.3% at 550 °C, 0.8% at 500 °C, 0.44% at 450 °C and 0.30% at 400 °C. Fe is about 0.016 → 0.002% over the same range [R1, p.6, Table 1.4, **garbled**: only this column could be reconstructed; it matches the E1 point above].
+- **Limit solid solubility of Fe and Si in (Al) in the three-phase fields** (Drits et al. 1977) [R1, p.6, Table 1.4; verified against the PDF 2026-10-12]:
+
+| T (°C) | (Al)+Al3Fe+α: Fe / Si | (Al)+α+β: Fe / Si | (Al)+β+(Si): Fe / Si |
+|---|---|---|---|
+| 629 | 0.052 / 0.64 | — | — |
+| 611 | — | 0.04 / 0.82 | — |
+| 600 | 0.033 / 0.4 | 0.033 / 0.82 | — |
+| 578 | — | — | 0.01 / 1.65 |
+| 550 | 0.016 / 0.2 | 0.016 / 0.42 | 0.008 / 1.3 |
+| 500 | 0.009 / 0.11 | 0.008 / 0.22 | 0.005 / 0.8 |
+| 450 | 0.004 / 0.06 | 0.004 / 0.11 | 0.003 / 0.44 |
+| 400 | 0.002 / 0.03 | 0.002 / 0.06 | 0.002 / 0.30 |
+
+  - In the (Al)+β+(Si) field the Si solubility follows the binary Al–Si solvus. The 629 °C (Al)+Al3Fe+α point (0.052 Fe, 0.64 Si) matches the U10 composition of R3 (0.05 Fe, 0.64 Si at 632 °C).
+  - **Corrected after full-text pass:** the earlier text gave Fe in the (Al)+β+(Si) field as "≈0.016 → 0.002 %". The value 0.016 % at 550 °C belongs to the other two fields; in the (Al)+β+(Si) field Fe is 0.008 % at 550 °C and 0.01 % at 578 °C.
+  - (derived) Between 400 and 550 °C Fe solubility in (Al) is only 0.002–0.016 %. At any anneal in this range (which includes the 3xxx soft-anneal window of 380–420 °C in ch. 03 §4.3), practically all Fe in 1xxx/3xxx is present as constituent particles, the potential PSN sites, rather than in solution.
 - Al8Fe2Si ↔ Fe/Si ratio ≈ 4.05 and Al5FeSi ↔ 2.0 (mass, derived from R1 compositions). In homogenised 6063, measured α2 had Fe/Si 2.75–5.5 (~3 µm particles) and β had 1.6–2.25 (~8 µm). Particles between 2.25 and 2.75 were "indeterminate" [R3, p.362, 383].
 
 **Effect of cooling rate on the 1050 solidification path** (0.37 Fe, 0.05 Si; Bäckerud) [R1, p.31; R9, p.46]
@@ -118,7 +135,7 @@ The binary e11 and e12 temperatures are taken from the labels on R3 Fig. 6 (liqu
 
 ### 2.4 Al–Fe–Mn (8006, low-Si 3xxx)
 - Only Al3Fe and Al6(Fe,Mn) are in equilibrium with (Al). Fe substitutes in Al6Mn up to Al12FeMn (12.85 Fe, 12.64 Mn). The maximum Mn in Al3Fe is Al3Fe0.88Mn0.12 (4–5% Mn). Al6(Fe,Mn) is orthorhombic, a=0.75518, b=0.64978, c=0.88703 nm [R1, p.10].
-- **Ternary eutectic** L → (Al) + Al3Fe + Al6(Fe,Mn) at 654 °C, with liquid ≈0.75 Mn and 1.75 Fe (Mondolfo). Denholm reported ~0.43 Mn and ~1.7 Fe, with tie-triangle vertices Al3Fe (36.9 Fe, 4.6 Mn), Al6(FeMn) (19.6 Fe, 7.1 Mn) and (Al) (0.044 Fe, 0.23 Mn) [R1, p.11]. A higher-temperature reaction involving Al4Mn is listed at 727 °C (garbled) [R1, p.11].
+- **Ternary eutectic** L → (Al) + Al3Fe + Al6(Fe,Mn) at 654 °C, with liquid ≈0.75 Mn and 1.75 Fe (Mondolfo). Denholm reported ~0.43 Mn and ~1.7 Fe, with tie-triangle vertices Al3Fe (36.9 Fe, 4.6 Mn), Al6(FeMn) (19.6 Fe, 7.1 Mn) and (Al) (0.044 Fe, 0.23 Mn) [R1, p.11]. The higher-temperature invariant is **L + Al3Fe + Al4Mn → Al6(FeMn) at 727 °C, with liquid 3.45 Mn and 2.5 Fe** (Mondolfo; Ran) [R1, p.11, Table 1.7; legible after the 2026-10-12 full-text pass, previously garbled]. Table 1.7 labels the 727 °C reaction "E" and the 654 °C eutectic "P", which looks like an inversion of the usual point labels; the reaction equations are unambiguous.
 - Monovariant reactions: L→(Al)+Al3Fe 655–654 °C; L→(Al)+Al6(FeMn) 658–654 °C [R1, p.12].
 
 **Limiting solubility of Mn and Fe in (Al) in the three-phase field**, with the binary values in brackets [R1, p.12, Table 1.9]
@@ -149,7 +166,7 @@ The binary e11 and e12 temperatures are taken from the labels on R3 Fig. 6 (liqu
 
 Monovariant reactions: L→(Al)+Al6Mn 658–649 °C; L→(Al)+Al15Mn3Si2 649–574 °C [R1, p.15].
 
-**Solubility in (Al)** [R1, p.15, Table 1.13, **garbled**, reconstructed so that it agrees with the text on p.13]
+**Limit solubility of Mn and Si in (Al) in the three-phase fields** (Drits et al. 1977; Phillips 1959) [R1, p.15, Table 1.13; **verified against the PDF 2026-10-12**: the earlier reconstruction was correct in every cell]
 
 | T (°C) | (Al)+Al6Mn+α: Mn / Si | (Al)+(Si)+α: Mn / Si |
 |---|---|---|
@@ -162,6 +179,7 @@ Monovariant reactions: L→(Al)+Al6Mn 658–649 °C; L→(Al)+Al15Mn3Si2 649–5
 | 400 | 0.06 / 0.08 | 0.04 / 0.25 |
 
 Text check: in the Al6Mn+α field Mn solubility is close to the binary Al–Mn value and Si is very low; in the (Si)+α field Si is close to binary Al–Si and Mn is ≤0.1% [R1, p.13].
+- (derived) **Annealing relevance.** Equilibrium Mn in (Al) is 0.25 % at 500 °C, 0.15 % at 450 °C and 0.06 % at 400 °C when the alloy sits in the Al6Mn+α field, and only 0.04–0.06 % when free (Si) is present. Any Mn retained in solution above these values (from fast casting or a short homogenisation) is supersaturated at a 400–500 °C anneal and can precipitate as dispersoids during that anneal. This is the concurrent-precipitation case of ch. 03 §5. The 3207 range (0.4–0.8 Mn) and the upper half of the 3102 range (0.05–0.4 Mn) exceed the 400–450 °C solubility.
 - **Pitfall:** Mondolfo's 527 °C section shows 1% Mn in the (Al)+Al6Mn+α field, but the table gives ~0.4%. The calculated 550 °C section (Du et al. 2004) agrees with the table [R1, p.13].
 - Under non-equilibrium solidification, Al4Mn and Al10Mn3Si appear at Mn > ~2.5% [R1, p.13]. As the cooling rate rises, Mn in (Al) can reach 1% in alloys with up to 4% Si [R1, p.13–15].
 - **In Al–Mn alloys a non-equilibrium eutectic containing (Si) already appears at 0.2–0.3% Si** [R1, p.15].
@@ -199,11 +217,13 @@ Text check: in the Al6Mn+α field Mn solubility is close to the binary Al–Mn v
 
 **Typical composition limits** [R1, p.10, Table 1.6]
 
-| Alloy | Mn | Fe max | Si max |
-|---|---|---|---|
-| 3102 | 0.05–0.4 | 0.7 | 0.4 |
-| 3207 | 0.4–0.8 | 0.45 | 0.3 |
-| 8006 | 0.3–1.0 | 1.2–2.0 (range) | 0.4 |
+| Alloy | Mn | Fe max | Si max | Other (max) |
+|---|---|---|---|---|
+| 3102 | 0.05–0.4 | 0.7 | 0.4 | Cu 0.1 |
+| 3207 | 0.4–0.8 | 0.45 | 0.3 | Mg 0.1, Cu 0.1 |
+| 8006 | 0.3–1.0 | 1.2–2.0 (range) | 0.4 | Mg 0.1, Cu 0.3 |
+
+The "Other" column was read from the clean layout extraction of 2026-10-12 [R1, p.10, Table 1.6; same 3102/3207 rows in Table 1.10, p.13].
 
 ### 2.7 Design levers (phase diagrams)
 - **Fe:Si > 1.** This keeps free (Si) out and avoids the low-melting L→(Al)+β+(Si) eutectic, which widens the freezing range and causes hot tearing [R1, p.29; R9, p.46; R12, p.208].
@@ -222,7 +242,7 @@ Text check: in the Al6Mn+α field Mn solubility is close to the binary Al–Mn v
 ### 2.8 Pitfalls (phase diagrams)
 - Equilibrium sections overstate how far the peritectics go. Non-equilibrium analysis assumes suppressed peritectics and equilibrium eutectics (Belov method) [R3, p.368; R1, p.6].
 - In 4xx.x, Mn-bearing α grows **on** β needles instead of nucleating separately, so equilibrium Mn:Fe targets do not apply [R1, p.43].
-- Several tables in R1 are only partly legible (see §0). Verify against the book.
+- Tables 1.4, 1.7 and 1.13 of R1 were verified against the PDF on 2026-10-12. Tables 1.2, 1.5 and 1.16 (rotated pages) are still unreadable; verify those against the printed book.
 
 ---
 
@@ -359,11 +379,11 @@ Text check: in the Al6Mn+α field Mn solubility is close to the binary Al–Mn v
 | Strip width / thickness | 1020–1520 mm / 6.5–8 mm. Trial strips 6.3 (AA1235) and 6.5 mm (AA8011) | [R4, p.116–117] |
 | Tip setback | 35–55 mm | [R4, p.116] |
 | Separating force | 2.5–5·10³ kN/mm. Total load 5·10³ kN/mm (per mm strip width) | [R4, p.115–116] |
-| Roll gap / contact arc | 5.2 mm / 47–50 mm. Average contact angle ~50 mm | [R4, p.116–117] |
+| Roll gap / contact arc | 5.2 mm for both alloys. "Contact angle" (given in mm) 50 mm for AA8011 and 47 mm for AA1235 (Table 1, 6.3 × 1200 (×1520) mm strip) | [R4, p.116, Table 1; column assignment recovered 2026-10-12] |
 | Melt temperature | 685 ± 5 °C | [R4, p.116] |
-| Strip speed | 1.25–1.30, range 0.95–1.50. **The unit is printed as "cm/min" (sic), probably m/min; unverified** | [R4, p.116] |
-| Grain refiner | Al–Ti–B wire fed at 28–35 cm/min | [R4, p.116] |
-| Graphite lubricant | 2 l per 75 l water | [R4, p.116] |
+| Strip speed | 1.30 (AA8011) and 1.25 (AA1235); stated casting range 0.95–1.50. **The unit is printed as "cm/min" both in the text and in Table 1; probably m/min, unverified.** (derived) At 1.30 m/min × 6.3 mm the output would be ≈1.3 t per m of strip width per hour; at 1.30 cm/min it would be ≈0.013 t/(m·h). The paper's own productivity figure, printed as "≈2.86·10⁶ t/(m·h)", is itself implausible and cannot settle the unit | [R4, p.116, Table 1] |
+| Grain refiner ("modifier") | Al–Ti–B wire fed at 35 cm/min (AA8011) and 28 cm/min (AA1235) | [R4, p.116, Table 1] |
+| Graphite lubricant | 2 l per 75 l water (the AA1235 cell is printed "2 l on l water") | [R4, p.116, Table 1] |
 | Gauge targets | longitudinal ±2% per coil, ±1% per roll revolution; crown 0–1%; edge tilt ≤1% | [R4, p.116] |
 
 Strips are 1–2 m wide [R4, p.115].
@@ -579,13 +599,25 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 - **Both gas and discontinuities are required.** The discontinuity factor, mainly **micro-shrinkage**, dominates control [R8, p.925].
 - Blisters are expanded lamellar discontinuities parallel to the sheet surface. They develop from ingot shrinkage cavities that rolling flattens. Entrapped oxide is possible but hard to detect, because X-ray absorption is almost the same as for Al [R8, p.924–925].
 - Hydrogen also causes secondary porosity, blistering and high-temperature deterioration during heat treatment [R13, p.378].
+- **Where the hydrogen comes from** [R13, p.372, 377–378; full-text pass 2026-10-12]:
+  - It is produced by the reduction of atmospheric water vapour by aluminium and by the decomposition of hydrocarbons.
+  - Pickup "in both solid and liquid aluminum" is enhanced by impurities such as sulfur compounds on the surface and in the atmosphere.
+  - Hydride-forming elements raise pickup in the liquid, whereas Be, Cu, Sn and Si lower it. As little as 10 ppm Ca increases the tendency of molten alloys to pick up hydrogen.
+  - The melt level is controlled by fluxing with hydrogen-free gases or by vacuum degassing.
+- **How the defect was traced** [R8, p.924–925]:
+  - Blister-raising discontinuities in sheet ingots were located by radiography and ultrasonics and followed through every production stage.
+  - Blisters were seen forming *during annealing* at the sites of ingot porosity, which fabrication had turned into lamellar discontinuities.
+  - In the DC-casting-variables programme, NDT failed to locate the (finer) discontinuities. Density measurements on ¾ × 3/16 × 6 in. strips cut across the ingot width found low-density regions that matched the blister sources, and metallography showed them to be micro-shrinkage.
+  - Very few oxide inclusions were seen in the ingot sections, but they could not be ruled out, because the methods detect cavities far better than oxide.
 
 ### 7.2 Quantitative data (Alcan 2S ≈ 1100)
-- **Route:** HR at 500 °C to 6.35 mm (0.250 in), CR to 1.0 mm (0.040 in), anneal 2 h at 500 °C, inspect 5-in squares [R8, p.924].
-- **Gas content:** gassed melts at 1.7–2.7 ml/270 g gave 100% scrap. Fluxing with Cl2, N2 or Ar at 680–750 °C cut gas to 0.20–0.50 ml/270 g and scrap to 0–4%. Multi-stream fine bubbles beat a single stream, and C2Cl6 worked similarly [R8, p.924].
+- **Route:** HR at 500 °C to 6.35 mm (0.250 in), CR to 1.0 mm (0.040 in), anneal 2 h at 500 °C, inspect 5-in squares. One blister on either surface scraps a square [R8, p.924–925].
+- **Gas content:**
+  - Melts were deliberately gassed by adding water, which reacts to Al2O3 + H. Gas was measured by vacuum fusion.
+  - Gassed melts at 1.7–2.7 ml/270 g gave 100% scrap. Fluxing with Cl2, N2 or Ar at 680–750 °C cut gas to 0.20–0.50 ml/270 g and scrap to 0–4%. Multi-stream fine bubbles beat a single stream, and C2Cl6 worked similarly [R8, p.924–925].
 - **Ingot type:** tilt-mould ingots had large shrinkage cavities and large blisters. DC ingots had small cavities and small blisters. Low-density regions corresponded to micro-shrinkage [R8, p.924–925].
 
-**Ingot preheat, gas (ml/270 g) and % blister scrap** [R8, p.924, Table I; **garbled**, column assignment reconstructed]
+**Ingot preheat, gas (ml/270 g) and % blister scrap** [R8, p.925, Table I. Verified on 2026-10-12 against the layout extraction: the earlier column assignment was correct. Each cell gives the original ingot gas → the gas after preheating, then the % blister scrap.]
 
 | Preheat time | 500 °C: gas before → after; scrap | 550 °C | 600 °C |
 |---|---|---|---|
@@ -594,13 +626,21 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 | 18 h | 1.53 → 1.27; 80% | 1.38 → 0.87; 94% | 1.90 → 0.14; 33% |
 | 24 h | 1.43 → 1.28; 84% | 1.39 → 0.42; 64% | 1.70 → 0.28; 27% |
 
-- **Abstract (garbled):** cold reduction of ≥40% applied to the as-cast ingot *before* normal hot and cold rolling eliminated blisters. The explanation is on pages that were not extracted [R8, p.924].
+- A 500 °C preheat did not lower the gas: it rose at 6 h (1.35 → 1.55) and fell only slightly at longer times [R8, p.925, Table I].
+- (derived) After the 600 °C preheat the ingots held 0.14–0.35 ml/270 g, no more than the fluxed melts (0.20–0.50), yet still gave 17–34% scrap versus 0–4%. Removing hydrogen from a solid ingot does not remove the porosity it has already formed, which agrees with the source's conclusion that the discontinuity dominates.
+- **Abstract (now legible; corrected after full-text pass):** *"The use of a fabricating technique based on at least 40 pct cold reduction of the as cast ingot prior to the application of normal hot and cold rolling procedures has been shown to eliminate blisters. An explanation for this is offered."* [R8, p.924].
+  - The explanation and the process details are on p.926 onward, which **is not in the Drive file** (§0).
+  - (general knowledge; a hypothesis, not R8's text) A plausible mechanism is that cold reduction at RT, where the hydrogen is immobile, collapses and presses together the shrinkage cavities before any preheat can let H2 diffuse into them and pressurise them. The flattened cavities can then bond during hot rolling instead of persisting as gas-filled lamellae.
 
 ### 7.3 Design levers and pitfalls
 - Degas (fine-bubble inert or chlorinating flux) and minimise micro-shrinkage, i.e. feeding and casting practice. Low gas alone does not stop blistering when shrinkage porosity is present [R8, p.924–925].
-- A high-temperature ingot preheat (600 °C) lowers the H content and the scrap rate. 500–550 °C was much less effective [R8, p.924].
-- **Pitfall:** X-ray NDT finds pores but misses oxides [R8, p.925].
-- (general knowledge) The sources do not discuss rolling lubricant residues or annealing atmosphere (H2O, H2) as additional blister sources.
+- A high-temperature ingot preheat (600 °C) lowers the H content and the scrap rate. 500–550 °C was much less effective [R8, p.925].
+- Heavy (≥40 %) cold reduction of the as-cast ingot before hot rolling eliminated blisters in R8's trials [R8, p.924]. The process window is not available (p.926+ missing).
+- **Pitfall:** X-ray NDT finds pores but misses oxides. Fine micro-shrinkage may escape both radiography and ultrasonics, so density profiling across the ingot is the fallback [R8, p.925].
+- **Annealing-stage hydrogen** is relevant to slugs and coils, because blisters form when the metal softens during the anneal [R8, p.924].
+  - Water vapour, decomposing hydrocarbons and sulfur compounds on the surface or in the atmosphere are hydrogen sources or pickup promoters for **solid** as well as liquid Al [R13, p.377–378].
+  - (general knowledge, inference) Applied to annealing, this points to rolling-oil residues and humid furnace atmospheres as the likely in-process sources. The practical consequences are clean, degreased strip or slugs and a dry atmosphere.
+  - The source is **qualitative only**: no dew-point, lubricant-residue or H-pickup numbers exist in the Drive library.
 
 ---
 
@@ -653,21 +693,25 @@ Thermal conductivity: 3003 193 W/mK, 3004 163 W/mK. CTE: 3003 23.2, 3004 23.9 ×
 | Positive/negative segregation threshold | Vcast·D ≈ 12,000–12,465 (no refiner) or 21,774 (refined) | [R11, p.161] |
 | CSC fractions | t_V at fs 0.9–0.99; t_R at fs 0.4–0.9 | [R12, p.234] |
 | Hot tearing | fs > 0.9 | [R12, p.185] |
-| Blister prevention | Gas ≤ ~0.2–0.5 ml/270 g, plus low micro-shrinkage | [R8, p.924] |
+| Blister prevention | Gas ≤ ~0.2–0.5 ml/270 g (fluxed melt), plus low micro-shrinkage. A 600 °C ingot preheat lowers gas (to 0.14–0.35) but leaves 17–34 % scrap. ≥40 % cold reduction of the as-cast ingot before hot rolling eliminated blisters | [R8, p.924–925] |
+| Fe solubility in (Al) at 400–550 °C (three-phase fields) | 0.002–0.016 % | [R1, p.6, Table 1.4] |
+| Mn solubility in (Al) at 400 / 450 / 500 °C | 0.06 / 0.15 / 0.25 % (Al6Mn+α field); 0.04 / 0.05 / 0.06 % ((Si)+α field) | [R1, p.15, Table 1.13] |
 
 ---
 
 ## 10. Open questions / gaps
 1. **Al6(Fe,Mn) → α-Al(Fe,Mn)Si transformation during 3xxx homogenisation.** None of the sources gives kinetics (temperature, time, Si dependence) for AA3102 or AA3207. R1 and R13 cover the phases only qualitatively. Kuijpers' thesis on β→α in 6xxx is cited by R2 but is not on Drive. *Action:* locate dedicated 3003/3xxx homogenisation papers.
-2. **TRC metallurgy is essentially missing.** R4 gives only process parameters, and its speed unit is doubtful. The cooling rate, Mn/Fe/Si supersaturation, centreline segregation, and surface or bulk defects of TRC (cf. Sun et al. 2006 on TRC AA3105; Monaghan et al. 1993, both cited in R4) need sourcing.
+2. **TRC metallurgy is essentially missing.** R4 gives only process parameters. Its Table 1 is now legible (2026-10-12), but the speed unit is still printed as "cm/min" and remains unverified (§4.2). The cooling rate, Mn/Fe/Si supersaturation, centreline segregation, and surface or bulk defects of TRC (cf. Sun et al. 2006 on TRC AA3105; Monaghan et al. 1993, both cited in R4) need sourcing.
 3. **PSN and recrystallisation.** No source quantifies the particle-size threshold for particle-stimulated nucleation, or how constituent morphology affects texture and earing. Particle effects on formability appear only qualitatively, for foil [R1, p.23].
-4. **Truncated sources.** Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are missing. Lalpoor (R7) Chs 5–8 (cold-cracking criterion, critical crack size) are missing. O'Dette (R8) pp. 926+, with the ≥40% cold-reduction mechanism, are missing.
-5. **Garbled tables.** R1 Table 1.4 (Al–Fe–Si solubility), 1.13 (Al–Mn–Si) and 1.7 (727 °C reaction), R8 Table I, and the R7 KIc numbers must be checked against the PDFs. R1 Tables 1.2, 1.5 and 1.16 were not extracted at all.
+4. **Truncated or incomplete sources** (status after the 2026-10-12 full-text pass):
+   - Maggs (R5) Chs 4–6, with the DSC and Bridgman critical-rate data for Mg, Ti and Ti-B, are still missing. Lalpoor (R7) Chs 5–8 (cold-cracking criterion, critical crack size) are still missing. Both files exceed the 10 MB download-tool limit. *Action:* the user splits the PDFs (e.g. per chapter) and uploads the parts, or downloads them through the standard Drive API.
+   - O'Dette (R8): the Drive file holds only pp.924–925, so the ≥40 % cold-reduction explanation (p.926 onward) cannot be recovered from Drive. *Action:* obtain the complete article (J. Metals / Trans. AIME, July 1957, TP 4460E).
+5. **Tables still unreadable.** R1 Tables 1.2 (Al–Fe–Si invariants), 1.5 (metastable phases) and 1.16 (quaternary mono/bivariant reactions) are on rotated pages with a garbage OCR layer; they need OCR or the printed book. The R7 KIc numbers remain unverified because R7 is too large to download. *Resolved 2026-10-12:* R1 Tables 1.4, 1.7 and 1.13 and R8 Table I (§2.2, §2.4, §2.5, §7.2).
 6. **Mn:Fe threshold for wrought 3xxx/8xxx.** There is no quantitative Mn:Fe or Si window for forming α instead of β or Al6(Fe,Mn) at DC versus TRC cooling rates. The only number found is the 4xx.x statement that "≫1:20" is needed [R1, p.43].
 7. **Hot-tear data for 3xxx.** Only 3004 mush strength (fs 0.81), the Al–1.4Mn ductility drop and the benefit of grain refinement in 3104 are available. No CSC or measured HCS exists for 3102 or 3207.
 8. **Contradictions to resolve:**
    - Si promotes Al3Fe [R5, p.57] vs Si promotes FeAl6 [R3, p.368].
    - "AlmFe = Al9Fe2" [R10, p.116] vs separate phases [R5, p.6, 9].
    - The direction of the Sha et al. growth-velocity effect on α/β selection in 6xxx is garbled in R3 p.369.
-9. **Blistering in modern routes.** Lubricant and annealing-atmosphere hydrogen pick-up on foil coils, and the role of oxides versus micro-shrinkage in TRC strip, are not covered.
+9. **Blistering in modern routes.** R13 now gives the qualitative picture (§7.1): hydrogen from water vapour and decomposing hydrocarbons, and pickup in solid Al promoted by sulfur compounds [R13, p.377–378]. **No quantitative data** exist for lubricant-residue or furnace dew-point limits on annealed coils or slugs. The role of oxides versus micro-shrinkage in TRC strip is not covered.
 10. **Corrosion.** Only qualitative statements are available (phase potentials [R13, p.399–402]; lower Fe/Si is better [R3, p.368]). No data cover the effect of Al6(Fe,Mn) or α on pitting or intergranular attack in brazed 3xxx heat-exchanger alloys.

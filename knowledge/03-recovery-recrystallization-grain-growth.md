@@ -6,29 +6,36 @@
 
 **Coverage warning.** The Drive text extractor truncates large PDFs at about 400 k characters. As a result, Humphreys & Hatherly (HH) is available only up to §6.5.1 (p.188). Its chapters on RX kinetics, PSN, Zener effects on RX, grain growth, RX textures and hot working (ch. 7, 9, 11–13, 15) are **not** in this extraction. The same truncation affects the Handbook of Aluminum (ch. 4 Mao "Recrystallization and Grain Growth" missing), Sheppard (ch. 3–5 missing) and Polmear (§3.6 foil, canstock and finstock missing). Where the requested topic sits in a missing chapter, this document says so explicitly (see §12 Gaps).
 
+**Full-text pass (2026-10-12).** Sources under 10 MB were downloaded whole and converted locally (`pdftotext -layout`). The results were:
+- **HH (12.66 MB):** the one download attempt was refused with *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."* HH therefore stays truncated at §6.5.1, and ch. 7, 9, 11–13 are still unavailable.
+- **Pol06 (9.68 MB):** below the limit, but the transfer failed ("message from the server was too large or could not be parsed"), so §3.6 is still missing.
+- **Junit08:** the Drive PDF itself is a 35-page excerpt ending at printed p.24, so nothing more exists on Drive. Its method was re-assessed in §2.4.
+- **Dav01, Leh06 and Bel05:** re-checked from the PDFs. The Leh06 tables are raster images and cannot be read without OCR. The Bel05 solubility tables were verified and added to §5.1 and §11 row 25.
+- Sheppard (10.46–10.51 MB), Ryen (11.22 MB) and the Handbook of Aluminum (17.66 MB) are over the limit and were not attempted.
+
 ---
 
 ## 0. Sources
 
 | Key | Source (author, title, year) | Drive link | Lang. | Readability / coverage |
 |---|---|---|---|---|
-| HH | F.J. Humphreys & M. Hatherly, *Recrystallization and Related Annealing Phenomena*, 2nd ed., Elsevier 2004 | [1QvLAUS_TAp3Pqpqsac2bpceRzsEw7w6w](https://drive.google.com/file/d/1QvLAUS_TAp3Pqpqsac2bpceRzsEw7w6w/view) | EN | Good text, but equations lose symbols (Greek letters and minus signs dropped). **Truncated at §6.5.1, book p.188 (PDF p.220) of ~600 pp.** Ch. 1–5 complete and ch. 6 to §6.5.1. TOC only for ch. 7–16. Download is blocked (12.7 MB > 10 MB tool limit). Duplicate copy 17tHwICnSZ9xIRALcJHIYXZhVs9mQc-1D. |
-| Junit08 | M.A. bin Junit, *Characterisation and Modelling of Static Recovery Process of Aluminum Alloy*, BEng thesis, Univ. Malaysia Pahang, 2008 | [1JT7HIwZIGuC5WeJbk1ntYwBd_QJWQbik](https://drive.google.com/file/d/1JT7HIwZIGuC5WeJbk1ntYwBd_QJWQbik/view) (same file as 1ANzZHinT6byugfeZkXbsNETvmKgc-phK) | EN/MS | Readable but **truncated at p.25** (Table 4.3), so ch. 4 (rest) and ch. 5 are missing. Low scientific quality (see §2 Pitfalls). |
+| HH | F.J. Humphreys & M. Hatherly, *Recrystallization and Related Annealing Phenomena*, 2nd ed., Elsevier 2004 | [1QvLAUS_TAp3Pqpqsac2bpceRzsEw7w6w](https://drive.google.com/file/d/1QvLAUS_TAp3Pqpqsac2bpceRzsEw7w6w/view) | EN | Good text, but equations lose symbols (Greek letters and minus signs dropped). **Truncated at §6.5.1, book p.188 (PDF p.220) of ~600 pp.** Ch. 1–5 complete and ch. 6 to §6.5.1. TOC only for ch. 7–16. Duplicate copy 17tHwICnSZ9xIRALcJHIYXZhVs9mQc-1D. **Download limit test 2026-10-12** (one call, ID 1QvLAUS…): refused with *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API. See https://developers.google.com/workspace/drive/api/guides/manage-downloads#curl"*. |
+| Junit08 | M.A. bin Junit, *Characterisation and Modelling of Static Recovery Process of Aluminum Alloy*, BEng thesis, Univ. Malaysia Pahang, 2008 | [1JT7HIwZIGuC5WeJbk1ntYwBd_QJWQbik](https://drive.google.com/file/d/1JT7HIwZIGuC5WeJbk1ntYwBd_QJWQbik/view) (same file as 1ANzZHinT6byugfeZkXbsNETvmKgc-phK) | EN/MS | **Full-text pass 2026-10-12:** the PDF was downloaded (2,349,034 B). It has **35 PDF pages only**: front matter plus printed pp.1–24, ending in the middle of Table 4.3. It is a repository excerpt; the TOC lists ch. 4 to p.36, ch. 5 at pp.37–39 and appendices to p.43. The earlier "truncation" was therefore **in the file, not in the reader**. Tables 4.4–4.14 and the Q calculations (pp.25–36), and the conclusions (pp.37–39), are **not in the Drive library**. Low scientific quality; re-assessed in §2.4. |
 | SimRX | "Modeling Recrystallization and grain growth phenomena" (review chapter; no author or date in text; refs 306–348) | [1MN7_BcrlAvTxyiDd_D2MQge-efotHMS6](https://drive.google.com/file/d/1MN7_BcrlAvTxyiDd_D2MQge-efotHMS6/view) | EN | Complete: 11 pp of text plus a long reference list. Qualitative modelling overview. |
 | Prakt05 | Y. Rudnik, *Praktikum G3/MW2: Wärmebehandlung und Rekristallisation von Aluminium* (lab instruction), Oct 2005 | [116AVCkaosrrRKG94_GFBXrHYE3R1EzC4](https://drive.google.com/file/d/116AVCkaosrrRKG94_GFBXrHYE3R1EzC4/view) | DE | Complete (9 pp). Figures (RX diagram of pure Al) not extractable. Basic level. |
 | AMAG14 | AMAG, "Heat Treatment – A Brief Introduction", *AluReport* 01.2014, pp.10–15 | [1hvicHsqiMWT-C-hsvbMlLlTw0eA6V4ko](https://drive.google.com/file/d/1hvicHsqiMWT-C-hsvbMlLlTw0eA6V4ko/view) | EN | Complete. Two-column text interleaved but decipherable. DE version exists (1D9DRhJTjetqwamIhaHLaekopweS_mFVt), not re-read. |
 | Bom08 | D. Bombač, M. Fazarinc, G. Kugler, S. Spajić, "Microstructure development of Nimonic 80A superalloy during hot deformation", *RMZ – Mater. Geoenviron.* 55(3) 319–328, 2008 | [1K3jZ3TiJKKk54DiBq9dWya51PKsf_Zq8](https://drive.google.com/file/d/1K3jZ3TiJKKk54DiBq9dWya51PKsf_Zq8/view) | EN (SL abstract) | Complete. **Ni superalloy, not Al.** Only the methodology (Z-sinh, DRX onset, processing maps) transfers. |
-| Leh06 | W. Lehnert, R. Kawalla, D. Hübgen, "Herstellung von hochwertigen Bändern und Blechen aus Aluminiumwerkstoffen", *Metalurgija* 45(3) 169–178, 2006 | [18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC](https://drive.google.com/file/d/18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC/view) | DE (EN/HR abstr.) | Text complete. Tables 4–6 and figures 10–14 not extracted. |
-| Pol06 | I.J. Polmear, *Light Alloys*, 4th ed., Butterworth-Heinemann 2006 | [1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w](https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view) | EN | Good. **Truncated at about book p.174** (ch. 1–3 up to §3.5.3). §3.6 (foil, canstock, finstock) missing. |
+| Leh06 | W. Lehnert, R. Kawalla, D. Hübgen, "Herstellung von hochwertigen Bändern und Blechen aus Aluminiumwerkstoffen", *Metalurgija* 45(3) 169–178, 2006 | [18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC](https://drive.google.com/file/d/18QdmKaIrJQ-coTXVt51rQ5wZqpVDgEdC/view) | DE (EN/HR abstr.) | Text complete. Tables 4–6 and figures 10–14 not extracted. 2026-10-12: PDF downloaded (2,844,699 B, 10 pp.); the tables and figures are embedded raster images with no text layer, so they are not recoverable without OCR. |
+| Pol06 | I.J. Polmear, *Light Alloys*, 4th ed., Butterworth-Heinemann 2006 | [1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w](https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view) | EN | Good. **Truncated at about book p.174** (ch. 1–3 up to §3.5.3). §3.6 (foil, canstock, finstock) missing. 2026-10-12: a download was attempted (9,683,385 B, under the 10 MB limit), but the Drive connector closed the connection ("a message from the server was too large or could not be parsed"), so the file is still truncated. |
 | HBAL03 | M. Tiryakioğlu & J.T. Staley, "Physical Metallurgy and the Effect of Alloying Additions", ch. 3 in Totten & MacKenzie (eds.), *Handbook of Aluminum* Vol. 1, Dekker 2003 | [1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz](https://drive.google.com/file/d/1uBiRXgXUTxHFChG8lksNf7wDKb3rdBzz/view) ("Alminium.pdf"; identical size to "ASM Handbook of Aluminium vol. 1.pdf" 1LNDwz9XSVn51tWynCZUvGvbdzEDR23K3) | EN | OCR glyph errors (ř=f, \#=x, 3=fi) and **truncated at PDF p.186**. Ch. 4 (Mao, RX and grain growth) is not reached. Cited by PDF page. |
 | Ryen03 | Ø. Ryen, *Work Hardening and Mechanical Anisotropy of Aluminium Sheets and Profiles*, Dr.ing. thesis, NTNU 2003 (supervisor E. Nes) | [1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_](https://drive.google.com/file/d/1Turdjqsi3pv1XbwGMdz6x7NKu-GnADj_/view) ("uporabno del-2.pdf") | EN | Good. **Truncated at about §4.2.2 (p.70)**. AA3103 results (§4.5.2) and the solute discussion (ch. 5) are missing. Contains the Nes model equations, partly garbled. |
 | Røy05 | J. Røyset & N. Ryum, "Scandium in aluminium alloys", *Int. Mater. Rev.* 50(1) 19–44, 2005 | [1A_yvqnRq-o1I53m3tieuVp4Sq5zUu1iL](https://drive.google.com/file/d/1A_yvqnRq-o1I53m3tieuVp4Sq5zUu1iL/view) | EN | Complete. Inequality symbols mangled (`,`=<, `.`=>, `&`=≫, `%`=≲), decoded by context. |
 | Røy07 | J. Røyset, "Scandium in aluminium alloys overview: physical metallurgy, properties and applications", *Metall. Sci. Technol.* 25(2) 11–21 (c. 2007) | [1FizSqhIa3XAhPQpZYt0maHVsHdEsKrhW](https://drive.google.com/file/d/1FizSqhIa3XAhPQpZYt0maHVsHdEsKrhW/view) | EN (IT abstr.) | Complete. Column garbling. |
 | Rob04 | J.D. Robson, "A new model for prediction of dispersoid precipitation in aluminium alloys containing zirconium and scandium", *Acta Mater.* 52 (2004) 1409–1421 | [1hVcF0Jxx5hg5BVVJJjPNyGk8o0oslgRk](https://drive.google.com/file/d/1hVcF0Jxx5hg5BVVJJjPNyGk8o0oslgRk/view) | EN | Complete. Equations partly garbled. |
 | W7 | Aluminium-Zentrale/GDA, *Merkblatt W7: Wärmebehandlung von Aluminiumlegierungen* (edition year not in text) | [1fEJ6FsDzCDqPZRloFgGFYV-RNudGVd9Y](https://drive.google.com/file/d/1fEJ6FsDzCDqPZRloFgGFYV-RNudGVd9Y/view) | DE | Complete, including Table 2 (soft-annealing practice per alloy). |
-| Bel05 | ch. 1 "Alloys of the Al–Fe–Mn–Si System" in *Multicomponent Phase Diagrams: Applications for Commercial Aluminum Alloys*, Elsevier 2005 (authors not in text; Belov, Eskin, Aksenov (general knowledge)) | [1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD](https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view) | EN | Complete. Phase-diagram figures garbled. |
+| Bel05 | ch. 1 "Alloys of the Al–Fe–Mn–Si System" in *Multicomponent Phase Diagrams: Applications for Commercial Aluminum Alloys*, Elsevier 2005 (authors not in text; Belov, Eskin, Aksenov (general knowledge)) | [1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD](https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view) | EN | Complete. Phase-diagram figures garbled. 2026-10-12: the PDF was downloaded (46 pp.) and Tables 1.4, 1.7, 1.9 and 1.13 were verified in the layout extraction (used in §5.1 and §11 row 25). Tables 1.2, 1.5 and 1.16 are on rotated pages and remain unreadable. |
 | Wil12 | C.R. Williams, *Effects of Sc and Zr Additions on Al Mechanical Properties, Post-Braze Grain Structure, and Extrusion*, MSc thesis, Ohio Univ. 2012 | [1MYsjf2OwlDfrOtnb1zQas-DV9wfunqne](https://drive.google.com/file/d/1MYsjf2OwlDfrOtnb1zQas-DV9wfunqne/view) | EN | Complete. Directly relevant to **AA3102 MPE tube braze grain growth**. |
-| Dav01 | J.R. Davis, "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM 2001, pp.351–416 | [1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z](https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view) | EN | Complete. Qualitative alloying-element roles. |
+| Dav01 | J.R. Davis, "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM 2001, pp.351–416 | [1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z](https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view) | EN | Complete. Qualitative alloying-element roles. Re-read from the downloaded PDF on 2026-10-12 (536,308 B, 66 pp.); additions in §4.4 and §7.3. |
 | Shep99 | T. Sheppard, *Extrusion of Aluminium Alloys*, Kluwer 1999 | [195YE0KUFE-yMliXyp304IqoaSdvnxKVU](https://drive.google.com/file/d/195YE0KUFE-yMliXyp304IqoaSdvnxKVU/view) | EN | **Truncated at about p.70** (ch. 1–2 only). Ch. 3.5 (recovery/RX), 4.2 (Zener–Hollomon), 4.9 (RX), 4.11.4 (subgrain size) and 5.4 (3xxx) are missing. Second copy 1pJoblJP3s9o7Z_WgFM9dhMmepLi7POET has the same truncation. |
 
 **Found by search but not used for content** (out of scope or not literature):
@@ -124,7 +131,7 @@
 
 | Law | Equation | Notes / parameters | Source |
 |---|---|---|---|
-| Fractional recovery (Friedel/Drouard form) | R = (σ_m − σ)/(σ_m − σ₀); R = c₁ ln t − Q/kT (as printed) | Zn crystals: Q = 83.7 kJ mol⁻¹ ≈ self-diffusion; Al crystals also obey type-1 | [HH eq.6.6–6.7 p.176]; same in [Junit08 §2.6 p.11] |
+| Fractional recovery (Friedel/Drouard form) | R = (σ_m − σ)/(σ_m − σ₀); R = c₁ ln t − Q/kT (as printed) | Zn crystals: Q = 83.7 kJ mol⁻¹ ≈ self-diffusion; Al crystals also obey type-1. To extract Q, divide the 1/T-slope by c₁ (§2.4; §11 row 24) | [HH eq.6.6–6.7 p.176]; same in [Junit08 §2.6 p.11] |
 | Type 1 (logarithmic) | dX/dt = −c₁/t → X = c₂ − c₁ ln t | invalid at t→0 and t→∞ | [HH eq.6.1–6.2 p.175] |
 | Type 2 (power) | dX/dt = −c₁ X^m → X^(1−m) − X₀^(1−m) = (m−1)c₁t | dipole annihilation gives m = 2; Cu/Ni m = 3 | [HH eq.6.3–6.5, 6.11–6.12 pp.175–180] |
 | Network coarsening by climb | R² = R₀² + c₁t, c₁ = 2 D_s G b³ c_j/kT → 1/ρ − 1/ρ₀ = c₁t → 1/σ² − 1/σ₀² = c₃t | c_j jog concentration. Q_climb = Q_s at high T; plus jog formation at low T; core diffusion Q_c ≈ 0.5 Q_s | [HH eq.6.13–6.18 pp.182–183] |
@@ -147,11 +154,23 @@
   - annihilation and rearrangement run concurrently;
   - recovery is heterogeneous (Kuhlmann);
   - Q rises during the anneal (Fe: 91 → 220 kJ mol⁻¹ [HH p.177]).
-- Junit08 fitted "Friedel's model" to AA1100 (5 % compression; 100–250 °C; 1–4 h) and obtained **Q = 733 kJ mol⁻¹ (X vs 1/T) and 225 kJ mol⁻¹ (X vs ln t)**. A reverse calculation from Nes's graph gave 518 kJ mol⁻¹ [Junit08 abstract; §2.7 pp.13–14]. All three exceed Q_self = 142 kJ mol⁻¹ [HH Tab.5.1] by up to 5×.
-  - Likely causes:
-    - (i) slope ≡ Q/R is assumed although R = c₁ ln t − Q/kT has c₁ multiplying the log term **(general knowledge: the dimensionally consistent form is R = c₁ ln(t/t₀), t₀ ∝ exp(Q/kT), so Q = −k·slope/c₁)**;
-    - (ii) data scatter: at 100 °C X_rec spans 7–26 % between triplicates [Junit08 Tab.4.1 p.24].
-  - **Do not use these Q values.**
+- Junit08 fitted "Friedel's model" to AA1100 (5 % compression; 100–250 °C; 1–4 h) and obtained **Q = 733 kJ mol⁻¹ (X vs 1/T) and 225 kJ mol⁻¹ (X vs ln t)**. A reverse calculation from Nes's graph gave 518 kJ mol⁻¹ [Junit08 abstract p.vii; §2.7 pp.13–14]. All three exceed Q_self = 142 kJ mol⁻¹ [HH Tab.5.1] by up to 5×.
+  - **Method, now confirmed by the full-text pass:**
+    - Specimens were AA1100 cylinders, Ø10 × 25 mm (about 50 of them), annealed at 413 °C for 1 h (heated at 5 °C min⁻¹, furnace cooled) [Junit08 §3.2–3.3 pp.15–19].
+    - They were pre-strained in compression by 2.5, 5, 7.5 or 10 % (50 kN machine, triplicates) [§3.4 p.20].
+    - Recovery anneals were done in a box furnace: 100/150/200/250 °C for 1 h at 5 % strain; 1–4 h at 150 °C; and the strain series at 150 °C/1 h. All were heated at 5 °C min⁻¹ [§3.5 pp.20–21].
+    - The specimens were then re-compressed. The degree of recovery is X_rec = (σ_m − σ_r)/(σ_m − σ_o), using yield stresses [§2.6 p.11; §3.7 p.21].
+    - The model used is X_rec = C₁ ln t − Q/RT, with R = 8.314 J mol⁻¹ K⁻¹ [§2.6 p.11]. Q was taken as **−(slope of X_rec in % vs 1/T) × R**. For example, the Nes graph read at 1 h gives y = −62303x + 168.6, so Q = 62303 × 8.314 = 518 kJ mol⁻¹ [§2.7 pp.13–14].
+  - **Re-assessment (corrected after full-text pass).** The values are not activation energies, for three reasons:
+    1. **C₁ is ignored.** (general knowledge) In the dimensionally consistent form X = C₁ ln(t/t₀) with t₀ = τ₀ exp(Q/RT), the 1/T-slope at fixed t is −C₁Q/R. The correct extraction is therefore Q = −R·(∂X/∂(1/T))_t / C₁, with C₁ = (∂X/∂ ln t)_T in the same units. In the printed form [HH eq.6.7; Junit08 p.11] the Q/kT term carries no C₁. The "Q" read from its 1/T-slope is therefore C₁ times the time–temperature-equivalence activation energy (general knowledge).
+    2. **The result depends on units.** (derived) Expressing X in % instead of as a fraction multiplies the "Q" by 100. The same Nes slope with X as a fraction gives 5.2 kJ mol⁻¹.
+       - A least-squares fit of the nine data points that are in the file (Tables 4.1–4.3, 100–200 °C, 1 h, 5 %) gives a slope of −9.2×10⁴ K with X in %. That is 767 kJ mol⁻¹ by Junit's rule, close to the reported 733 (which also used the 250 °C points, not in the file). With X as a fraction the same rule gives 7.7 kJ mol⁻¹.
+       - C₁ would come from the 150 °C time series (Tables 4.5–4.8, pp.27–28), which is not in the file. A corrected Q therefore **cannot be computed** from this source.
+    3. **The data are noisy and the anneals non-isothermal.** (derived from Tables 4.1–4.3, p.24)
+       - The annealed reference σ_o scatters from 22.8 to 64.7 MPa between nominally identical specimens, while σ_m is 107–113 MPa. The denominator σ_m − σ_o (45.9–90.1 MPa) therefore drives the X scatter: X_rec spans 7–26 % at 100 °C and 54–87 % at 200 °C.
+       - At 5 °C min⁻¹ the ramp to 250 °C takes about 45 min, comparable with the 1 h hold, so "t" is ill-defined.
+  - **Usable content only:** mean X_rec after 1 h at 5 % compression is 14 % (100 °C), 19 % (150 °C) and 68 % (200 °C) (derived means). These are a qualitative anchor showing that lightly strained CP Al softens substantially by recovery at about 200 °C/1 h.
+  - **Do not use these Q values.** Use the Q-extraction rule in §11 row 24 instead.
 
 ---
 
@@ -268,7 +287,7 @@
 | 99.998 % Al, 75 % compression, 6 °C min⁻¹ | recovery 100–250 °C, RX peak ≈300 °C | [HH Fig.6.3 p.172] |
 | AA3103 (Mn_ss 0.20 at %, hom. B), ε = 2 | fully RX in **45 s at 400 °C** (salt bath) to **6 µm**, weak cube, no change in conductivity, i.e. no concurrent Mn precipitation | [Ryen03 §3.4 p.56; Tab.4.2 p.66] |
 | AlMg0.5 / AlMg3, ε = 2 | RX in 25 s at 400 °C; finest grain sizes listed are 10 / 8 µm (attributing these to the ε = 2 route is the compiler's inference) | [Ryen03 §3.4; Tab.4.2] |
-| AA1100 (CP Al), 5 % compression | recovery-only 100–250 °C / 1–4 h; X_rec 7–26 % (100 °C) to 54–87 % (200 °C) after 1 h | [Junit08 Tab.4.1–4.3 pp.24–25] |
+| AA1100 (CP Al), 5 % compression | recovery-only 100–250 °C / 1–4 h; after 1 h X_rec is 7–26 % (mean 14 %) at 100 °C, 17–22 % (19 %) at 150 °C and 54–87 % (68 %) at 200 °C. The 250 °C data (Table 4.4, p.25) are not in the Drive file. Noisy (§2.4) | [Junit08 Tab.4.1–4.3 p.24; means derived] |
 
 **Soft-annealing practice (O temper) [W7 Tab.2 p.21].** Metal temperature, time at metal temperature. Heat-up "as short as possible" (avoid coarse grain); below 250 °C cool at any rate.
 
@@ -293,6 +312,9 @@
   - Slow heating lets dispersoids form before RX [Røy05 p.35].
   - The AMAG coil anneal (300–400 °C, 2–5 h) before a fast continuous solution treatment gave coarse elongated grains vs fine equiaxed grains without it (AA2024) [AMAG14 p.14].
 - **Solute.** Fe in solid solution raises the RX start temperature by precipitating fine Al–Fe particles during the anneal (high-purity 1xxx) [HBAL03 PDF p.152]. Mn raises the RX temperature and promotes fibrous structures [Dav01 p.382]. Cr and Mn raise RX temperatures in 5xxx [Pol06 p.130].
+  - **Fe reduces the grain size in wrought products.** In 8006-type Fe+Mn alloys near the ternary eutectic, the fine grain is "stabilized by the finely dispersed iron-rich second phase" [Dav01 p.379].
+  - **Ca at the 0.2 % level "alters the recrystallization characteristics of 3003"**; the direction and size of the effect are not stated [Dav01 p.372]. As a trace element, 10 ppm Ca also raises hydrogen pickup in the melt (ch. 02 §7.1).
+  - Mn is a common impurity in primary Al at 5–50 ppm [Dav01 p.382].
 - **Particles.** See §3 and §5.
 - **Furnace accuracy.** Modern furnaces hold ±2.5 K [Leh06 p.172]. ±5 °C variations in rolling temperature have measurable property effects [AMAG14 p.12].
 
@@ -317,6 +339,12 @@
 | B | A + 20 °C h⁻¹ → 550 °C, 16 h, quench | 0.20 |
 | C | B + 20 °C h⁻¹ → 500 °C 24 h → 450 °C 32 h, quench | 0.15 |
 
+- **Equilibrium Mn solubility that sets the supersaturation at the anneal T** [Bel05 Tab.1.13 p.15 and Tab.1.9 p.12; tables verified against the PDF 2026-10-12, see ch. 02 §2.4–2.5]:
+  - Mn in (Al) in the (Al)+Al₆Mn+Al₁₅Mn₃Si₂ field: 1.3 wt % at 649 °C, 0.73 at 600, 0.44 at 550, 0.25 at 500, 0.15 at 450 and 0.06 at 400 °C.
+  - With free (Si) present: only 0.04–0.08 wt % (400–573 °C).
+  - In the Fe-bearing (Al)+Al₃Fe+Al₆(FeMn) field: 0.05 wt % at 527 °C and 0.026 at 427 °C (extrapolated values).
+  - (derived; 1 at % Mn ≈ 2.04 wt % in dilute Al) Even the most precipitated AA3103 condition (C-type, 0.15 at % ≈ 0.30 wt % Mn_ss) is supersaturated relative to the 400–450 °C solubility (0.06–0.15 wt %).
+  - A 400–450 °C anneal therefore always has a chemical driving force for Mn precipitation. Whether it acts before RX is a question of kinetics: no conductivity change after 45 s at 400 °C in AA3103 [Ryen03 §3.4 p.56], and D_Mn is low (§2.2).
 - **Dispersoid phases.** Homogenisation precipitates α-Al₁₂(Mn,Fe)₃Si (or Al₁₅(FeMn)₃Si₂) or Al₆(Mn,Fe) dispersoids, typically < 1 µm; Si < 0.07 % gives Al₆(Mn,Fe) [HBAL03 PDF p.172; Tab.7 p.137].
   - **Si accelerates Mn precipitation**: a denser α dispersion and lower Mn_ss. Si also transforms Al₆(Fe,Mn) into α (harder, important for canstock) [HBAL03 PDF p.172; Pol06 p.107].
   - Higher Fe/Mn favours Al₁₃(Fe,Mn)₄ [HBAL03 PDF p.172].
@@ -449,7 +477,7 @@
 ### 7.3 Design levers
 - Keep pre-braze or pre-anneal strains **away from the critical-strain window**. Either deform enough to recrystallise fine, or not at all.
 - Alternatively, **pre-recrystallise** before the strain-inducing operation and pin with dispersoids.
-- Alternatively, provide **dispersoids stable at the braze T**. Al₃(Sc,Zr) dissolves at 575–600 °C [Wil12 p.41]; Mn dispersoids survive braze **(general knowledge)**.
+- Alternatively, provide **dispersoids stable at the braze T**. Al₃(Sc,Zr) dissolves at 575–600 °C [Wil12 p.41]. Mn "as a dispersed precipitate … is effective in slowing recovery and in preventing grain growth" [Dav01 p.382], but the source gives no temperature limit, so survival at braze T stays **(general knowledge)**.
 - Short anneal times at the minimum effective T, and fast heat-up, limit coarse grain [W7 Tab.2 footnote].
 
 ### 7.4 Pitfalls
@@ -609,6 +637,8 @@
 | 21 | Strain measures | ε = ln(t₀/t); ε_vM = (2/√3)ε | 39 % → 0.5; 63 % → 1; 87 % → 2; 95 % → 3 | Ryen03 eq.3.2–3.4, Tab.3.3 |
 | 22 | Grain growth | D^n − D₀^n = k₀ e^(−Q/RT) t | **n = 2 ideal (general knowledge)**; Q ≈ Q_self | HH §5.5.2 |
 | 23 | Hot working | Z = ε̇ e^(Q/RT) = A sinh(ασ)^n′; δ⁻¹ = a + b ln Z | **general knowledge** (Al constants not extracted); Q_HW ≈ 142 kJ mol⁻¹ assumed | Bom08 (method) |
+| 24 | Q from logarithmic recovery data (added 2026-10-12) | X = C₁ ln(t/t₀), t₀ = τ₀ e^(Q/RT) → C₁ = (∂X/∂ln t)_T; **Q = −R (∂X/∂(1/T))_t / C₁** (X as a fraction or in %, but the same in both derivatives) | Valid only in the logarithmic regime (not t → 0 or ∞), for isothermal holds long compared with the heat-up, and for a recovery-only state (no RX or precipitation in the window). A single-slope fit without C₁ (Junit08) gives unit-dependent numbers (§2.4) | HH eq.6.6–6.7 (form); t₀ form **general knowledge** |
+| 25 | Mn supersaturation at anneal T (added 2026-10-12) | ΔMn = Mn_ss − Mn_eq(T) | Mn_eq (wt %), (Al)+Al₆Mn+α field: 0.73 / 0.44 / 0.25 / 0.15 / 0.06 at 600 / 550 / 500 / 450 / 400 °C; ≤0.08 with free (Si); 0.026–0.05 at 427–527 °C with Al₃Fe present. Valid for equilibrium three-phase fields; real 3xxx with Fe and Si lies between these bounds | Bel05 Tab.1.9, 1.13 |
 
 ---
 
@@ -617,7 +647,10 @@
 1. **Missing core text:**
    - HH ch.7 (RX kinetics: JMAK n, Q, strain/T/heating-rate effects), ch.9 (PSN efficiency, Zener during RX, bimodal particles, **§9.8 precipitation–RX interaction and T–t–T**), ch.11 (grain growth and Zener variants), ch.12 (cube, P, ND-rotated cube), ch.13 (DRV, Z–subgrain relation, annealing after hot deformation) and ch.15 (industrial Al processing, can body).
    - Handbook of Aluminum ch.4 (Mao); Sheppard ch.3–5; Polmear §3.6 (foil/fin/canstock); Ryen §4.5.2 (AA3103 work hardening) and ch.5 (solute effects).
-   - Remedy: download via the Drive API, which has no 10 MB tool limit, or split the PDFs and re-run extraction.
+   - **Status 2026-10-12: still missing.**
+     - The Drive download tool refuses HH (12.66 MB): *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API."*
+     - Polmear (9.68 MB) is under that limit but still failed in transfer (the connector closed: "message from the server was too large or could not be parsed"), so the practical ceiling lies between a 2.84 MB PDF (3.8 M base64 characters, received intact) and a 9.68 MB PDF (failed).
+   - Remedy: the user splits the PDFs into chapter files of a few MB (HH ch.7, 9, 11, 12, 13, 15; Polmear ch.3; Sheppard ch.3–5; Ryen ch.4–5) and uploads them to Drive, or downloads them via the standard Drive API outside this tool, then re-runs the extraction.
 2. **3xxx-specific RX kinetics are not in hand:** k₀, n and Q of RX for AA3102, AA3103, AA3207 vs Mn_ss, Fe/Si, strain and heating rate. The C-curve for Mn dispersoid precipitation in cold-rolled 3xxx (start and finish vs T) is also missing. These need dedicated papers (e.g. Sjølstad, Nes/Marthinsen, Engler, Tangen, Somerday & Humphreys), none found in Drive.
 3. Quantitative **solute-drag coefficients for Mn, Fe and Si in Al** (only Cu and Mg are shown qualitatively). Interaction of Mn_ss with recovery kinetics (U*, V in the Nes model).
 4. **PSN nucleation efficiency** and the critical particle diameter as a function of strain for Al₁₅(FeMn)₃Si₂ and Al₆(Mn,Fe) constituents.
@@ -637,3 +670,6 @@
 
      These are in the range of the literature anchors above, but they rest on a single unsourced calibration point (chapter 09 §4, Assessment).
 9. Junit08's activation energies are unreliable (§2.4). Do not reuse them.
+   - Re-assessed after the 2026-10-12 full-text pass: they are artefacts of fitting without C₁ and with X in %.
+   - The pages that would allow a corrected Q (the 150 °C time series, Tables 4.5–4.8) are not in the Drive file. The file is a 24-page excerpt, so this item can only be closed with the complete thesis.
+   - A clean recovery-kinetics data set for 1xxx/3xxx (σ or hardness vs t at ≥3 temperatures, the same strain, isothermal holds) is still needed for H-temper and recovery modelling.

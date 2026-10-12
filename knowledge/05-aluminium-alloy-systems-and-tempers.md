@@ -10,16 +10,21 @@
 
 | Ref | Source | Drive link | Readability / coverage |
 |---|---|---|---|
-| **P** | I. J. Polmear, *Light Alloys: From Traditional Alloys to Nanocrystals*, 4th ed., Butterworth-Heinemann 2006 | https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view | Text extraction is **truncated at printed p.~173** (§3.6.1 Aircraft alloys). Chapter 1 was skimmed for key data (Table 1.1, Mg statistics); **all of Ch. 2** (physical metallurgy, pp.29–96) and **Ch. 3 §3.1–3.6.1** (wrought alloys, pp.97–173) were read in full. **Missing:** §3.6.2–3.6.10 (automotive sheet, marine, **foil, canstock**, bearings, **conductors**), Ch. 4 (cast), **Ch. 5 (Mg alloys)**, Ch. 6–7. Figures survive only as captions. Minus signs and Greek letters were lost. |
+| **P** | I. J. Polmear, *Light Alloys: From Traditional Alloys to Nanocrystals*, 4th ed., Butterworth-Heinemann 2006 | https://drive.google.com/file/d/1deTdBlvWinXqm3SyrnA7nrAXfc_V3d1w/view | Text extraction is **truncated at printed p.~173** (§3.6.1 Aircraft alloys). Chapter 1 was skimmed for key data (Table 1.1, Mg statistics); **all of Ch. 2** (physical metallurgy, pp.29–96) and **Ch. 3 §3.1–3.6.1** (wrought alloys, pp.97–173) were read in full. **Missing:** §3.6.2–3.6.10 (automotive sheet, marine, **foil, canstock**, bearings, **conductors**), Ch. 4 (cast), **Ch. 5 (Mg alloys)**, Ch. 6–7. Figures survive only as captions. Minus signs and Greek letters were lost. **Full-text download attempted 2026-10-12 and failed (see the note below the table); coverage is unchanged.** |
 | **D** | J. R. Davis, "Aluminum and Aluminum Alloys", in *Alloying: Understanding the Basics*, ASM International 2001, pp.351–416 | https://drive.google.com/file/d/1Pp-8Sal4UJRHtlf0r_p1vlinF9sXkO_Z/view | **Complete chapter read** (pp.351–416). Figures 1–36 survive as captions only, and parts of Figs 2–4 are garbled. This is a chapter of the ASM book, not the full ASM Specialty Handbook. |
-| **K** | J. G. Kaufman, *Introduction to Aluminum Alloys and Tempers*, ASM International 2000 | https://drive.google.com/file/d/1cmbbWXoyfHTTlgSDdeFCLHY6IrFl9zRl/view | Text **truncated at p.~74** (Ch. 4, cast-alloy tempers). Read: Ch. 1–3 in full and Ch. 4 (wrought tempers, Tables 1/1M, 2/2M) almost entirely. **Missing:** Ch. 5–8 (fabrication, applications, micrographs). Property tables are readable but the column headers are scrambled. Columns were reconstructed as UTS, YS, A(1.6 mm sheet), A(5D bar), HB, shear, fatigue, E. |
+| **K** | J. G. Kaufman, *Introduction to Aluminum Alloys and Tempers*, ASM International 2000 | https://drive.google.com/file/d/1cmbbWXoyfHTTlgSDdeFCLHY6IrFl9zRl/view | **Full text via download, 2026-10-12** (6,094,116 bytes, 237 PDF pages; printed pp.i–vii, 1–76, 87–224 plus index). Earlier passes read Ch. 1–4 (to p.~74). The download pass added the end of Ch. 4 (cast tempers, pp.73–76), **Ch. 6** (applications by alloy class and by market, pp.87–118), **Ch. 7** (micrograph captions, pp.119–184) and the **Appendix terminology** (pp.187–224). **Ch. 5 (fabricating processes: ingot and strip casting, hot and cold rolling, heat treatment; pp.77–86) is not in the Drive PDF**, which jumps from p.76 to p.87. Property tables are readable but the column headers are scrambled. Columns were reconstructed as UTS, YS, A(1.6 mm sheet), A(5D bar), HB, shear, fatigue, E. |
 | **AT** | Aalco Metals Ltd, *Aluminium Alloy Temper Designations* datasheet (updated 4 Oct 2016), 3 pp. | https://drive.google.com/file/d/1xQKanAcmXXqFlEy7NBRPX274_zjaYnil/view | Full. The two-column layout is interleaved in the text, but the meaning is recoverable. |
 | **A57** | Aalco Metals Ltd, *Aluminium Alloy 5754-H111 Treadplate* datasheet (11 Jan 2016), 2 pp. | https://drive.google.com/file/d/1knDlSBj70pPp_aybepmNcTgB4lqsB085/view | Full. |
 | **AM** | "Aluminium alloys and magnesium alloys" (lecture slides, 21 slides; partly after Callister) | https://drive.google.com/file/d/1HhefbsqmLFlItUqRitymP5DGujJU8RIb/view | Full. Overview level. |
-| **DW** | J. Dwight, *Aluminium Design and Construction*, E&FN Spon 1999 (Drive title "116748406-Aluminium-Alloys.pdf"; found by the Drive search) | https://drive.google.com/file/d/158y2YRjC0dWVgkEgUCsb0DZ8LAqp2BbY/view | Partial. The text runs to §4.1.7, and the Ch. 4 tables (4.1–4.5) did **not** extract. Used for §1.2 (physical properties), §2.2 (flat products) and §4.1 (tempers). |
+| **DW** | J. Dwight, *Aluminium Design and Construction*, E&FN Spon 1999 (Drive title "116748406-Aluminium-Alloys.pdf"; found by the Drive search) | https://drive.google.com/file/d/158y2YRjC0dWVgkEgUCsb0DZ8LAqp2BbY/view | **Full text via download, 2026-10-12** (3,154,749 bytes, 301 PDF pages, the whole book). Earlier passes read only to §4.1.7. The Ch. 4 tables are **scanned images** with no text layer, which is why they never extracted. They were recovered by extracting the embedded images and reading them: Tables 4.1–4.10, Fig. 4.1 (the BS EN 515 temper chart), eqs (4.2)–(4.4) and Fig. 4.6. Used for §1.2 (physical properties), §2.2 (flat products), §3.1.4 (forming and annealing), Ch. 4 (alloys, tempers, Table 4.5 minima, bending, temperature, casting alloys, corrosion). The later structural-design chapters were only keyword-searched for metallurgical content. Dwight cites by section, table and equation; the PDF carries no printed page numbers. |
 | **AR** | AMAG, "Heat Treatment – A Brief Introduction", *AluReport* 01.2014, pp.10–15 (found by search) | https://drive.google.com/file/d/1hvicHsqiMWT-C-hsvbMlLlTw0eA6V4ko/view | Full, but the column order is scrambled. Qualitative only. |
 | **T** | TALAT Lecture 1101, *Resources and Production of Aluminium* (EAA 1999), Drive title "lastnosti aluminija.pdf" ("aluminium properties", Slovenian title; the content is English) | https://drive.google.com/file/d/18RcaS3-hFM9Wts56lekVpEoUht44bmE7/view | Full. Low technical density, and the figure numbers are not recoverable. |
-| **S** | *aluminium_tempers_v3.xlsx* (user-compiled; it cites the ASM Handbook, Dwight Table 4.5/BS EN 515/485/755, and Humphreys & Hatherly). The Slovenian translation *aluminium_tempers_SLO.xlsx* has the same content. | https://drive.google.com/file/d/1XYBOGMAvW4uHGHxxecQr3HeGGlQ4EO-k/view · https://drive.google.com/file/d/1qg7Mvfi33_I1jax72vUiRI8YPRWyN09j/view | **Secondary and unverified.** Some rows are internally inconsistent: the "target" notes in the H2x partial-anneal rows are offset by one row, and row H31 carries the partial-anneal text. Its Dwight Table 4.5 values could **not** be checked against DW because those tables did not extract. Every value from it is marked **[S, unverified]**. *aluminium_tempers_v2.xlsx* was not read (it looks like an earlier draft). |
+| **S** | *aluminium_tempers_v3.xlsx* (user-compiled; it cites the ASM Handbook, Dwight Table 4.5/BS EN 515/485/755, and Humphreys & Hatherly). The Slovenian translation *aluminium_tempers_SLO.xlsx* has the same content. | https://drive.google.com/file/d/1XYBOGMAvW4uHGHxxecQr3HeGGlQ4EO-k/view · https://drive.google.com/file/d/1qg7Mvfi33_I1jax72vUiRI8YPRWyN09j/view | **Secondary.** Some rows are internally inconsistent: the "target" notes in the H2x partial-anneal rows are offset by one row, and row H31 carries the partial-anneal text. **Checked against DW on 2026-10-12 (full-text pass):** its BS EN 515 P/Q coefficients, its Dwight Table 4.5 minima (3103, 5251, 5154A, 5083, 6082, 7020) and the Dwight minimum annealing temperatures all **match DW exactly**. Those values are now cited to DW directly. Every other value from S (ASM-sourced anneal temperatures, the CW % guide, Humphreys & Hatherly data) stays **[S, unverified]**. *aluminium_tempers_v2.xlsx* was not read (it looks like an earlier draft). |
+
+**Full-text download pass (2026-10-12).** The Drive text reader truncates long PDFs, so the books were downloaded whole (Drive `download_file_content`), decoded and converted with `pdftotext -layout`. Results:
+- **DW** (3.15 MB) and **K** (6.09 MB): downloaded and converted in full. File sizes match the Drive metadata byte for byte.
+- **P** (9.68 MB, both Drive copies, IDs 1deTdBlv… and 1UDBZmfT…): **failed twice** with *"The connection to MCP server "Google_Drive" was closed because a message from the server was too large or could not be parsed, so the result of tool "download_file_content" was not read."* The file is under the connector's stated 10 MB limit, but its base64 payload (~12.9 M characters) is too big for the connector transport. K's 8.1 M-character payload did go through. In practice the ceiling lies between ~6.1 and ~9.7 MB of PDF. **Polmear's canstock, foil and conductor sections (§3.6.4–3.6.9), Ch. 4 (cast) and Ch. 5 (Mg) therefore remain unread.**
+- **Limit test, S-029** (Totten & MacKenzie, *Handbook of Aluminum* Vol. 1, 17.66 MB, ID 1uBiRXgX…): refused with *"File too large for download, over limit of 10 MB. For downloading larger files, use the standard Google Drive API. See https://developers.google.com/workspace/drive/api/guides/manage-downloads#curl"*. No content was obtained.
 
 **Found by the Drive search but not processed here** (outside this file's designation/temper scope, or too large; candidates for other knowledge files):
 - *Chapter 1 – Alloys of the Al-Fe-Mn-Si System* (https://drive.google.com/file/d/1vmvHnMKYNqQot_rqfrlOjEJcG7885YjD/view). This is the key phase-diagram source for 3xxx and 8xxx.
@@ -58,7 +63,11 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - *Work-hardenable:* pure Al (1xxx), Al-Mn (3xxx), Al-Si (4xxx), Al-Mg (5xxx), Al-Fe and Al-Fe-Ni (8xxx).
   - *Precipitation-hardenable:* Al-Cu, Al-Cu-Mg, Al-Cu-Li (2xxx); Al-Mg-Si (6xxx); Al-Zn, Al-Zn-Mg, Al-Zn-Mg-Cu (7xxx); Al-Li-Cu-Mg (8xxx).
   - *Definitions:* in strain-hardenable alloys the elements give no significant solid-solution or precipitation strengthening on thermal treatment. Heat-treatable alloys do respond to solution treatment and ageing [K p.6].
-- **Production split.** 75–80 % of aluminium goes into wrought products. Plate is >6 mm, sheet 0.15–6 mm and foil <0.15 mm [P p.97].
+- **Production split.** 75–80 % of aluminium goes into wrought products. Plate is >6 mm, sheet 0.15–6 mm and foil <0.15 mm [P p.97]. In Europe foil is defined as **≤0.20 mm** [K p.199].
+- **Strength ranges by series from the other two books** (full-text pass):
+  - *Kaufman typical UTS ranges* [K p.87–106]: 1xxx 70–185; 2xxx 190–430; **3xxx 110–285**; 4xxx 175–380; 5xxx 125–350; 6xxx 125–400; 7xxx 220–610; 8xxx 120–240 MPa.
+  - *Dwight approximate top tensile strength* [DW Table 4.4]: 1xxx 150; **3xxx 200**; 5xxx 300; 2xxx 450; 6xxx 200 (weaker type) / 300 (stronger type); 7xxx 350 (weaker, weldable) / 550 (stronger) MPa.
+  - *Dwight durability ratings* (BS 8118) [DW Table 4.4]: 1xxx and 3xxx **A**; 5xxx A* (the stronger alloys can corrode after long exposure in a hot environment); 6xxx B; weldable 7xxx C; 2xxx and strong 7xxx D. Available forms for 3xxx are listed as "sheet, strip" only, with no extrusion rating.
 
 ### 2.2 Cast alloys (xxx.x)
 - The first digit is the group. The 2nd and 3rd digits identify the alloy, or the purity for 1xx.x. The **4th digit** gives the product form: .0 = casting, .1 = ingot, .2 = ingot with tighter limits inside .1 [K p.13–14, 32–33].
@@ -107,8 +116,9 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   |---|---|---|---|---|---|---|---|---|---|---|---|
   | UTS increase to HX8, MPa | 55 | 62 | 69 | 76 | 83 | 90 | 97 | 103 | 110 | 115 | 120 |
 
-  The last column is printed as "296 and over" in [K p.19], which is probably a misprint for 325.
-- **Even digits.** HX4 = UTS half-way between O and HX8; HX2 = half-way between O and HX4; HX6 = half-way between HX4 and HX8 [K p.18, 62–63]. Fraction of hardness = digit/8, e.g. H16 = ¾ hard [DW §4.1.3].
+  The last column is printed as "296 and over" in both Table 5M [K p.19] and Table 3M [K p.62]. *Corrected after the full-text pass:* this is not a stray misprint for 325. **296 MPa is the direct conversion of the ksi table's last row, "43 [ksi] and over" (43 ksi ≈ 296 MPa)** [K p.18, 62], so the metric table's last two rows overlap (285–320 vs ≥296). Read the last band as "above the 285–320 band". The ksi Table 5 also misprints its 7th row as "25–20" (Table 3 gives 25–30) [K p.18, 62].
+- **Even digits.** HX4 = UTS half-way between O and HX8; HX2 = half-way between O and HX4; HX6 = half-way between HX4 and HX8 [K p.18, 62–63]. Fraction of hardness = digit/8, e.g. H16 = ¾ hard [DW §4.1.3]. DW's Table 4.2 gives the grid: ¼, ½, ¾ and full hard = H12/H14/H16/H18 (temper-rolled), H22–H28 (temper-annealed) and H32–H38 (stabilised) [DW Table 4.2].
+- **What cold work does to YS vs UTS.** "For a given degree of cold work, the resulting increase in the proof stress (yield) is relatively much greater than the increase in tensile strength (UTS), as compared with the annealed condition" [DW §4.1.3]. Example from 3003: O → H14 is YS 40 → 145 MPa but UTS only 110 → 150 MPa [K p.45].
   - Worked example: 1100-O min UTS 75 MPa → H14 limit = 75 + ½·75 = 112.5, rounded to **110 MPa** [K p.62]. The ksi version: 11 + ½·10 = 16 ksi; H12 = 14 ksi and H16 = 19 ksi [K p.62–63].
 - **Odd digits (1, 3, 5, 7)** are intermediate and rarely used. One use is 5657-H25 for brightness; another is pattern sheet [K p.63].
 - **Digit 9** = UTS ≥ **14 MPa (2 ksi) above HX8**. It is reached by rolling very thin sheet. The main example is **3004-H19 can stock** [K p.18, 63].
@@ -118,7 +128,18 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - 3005-H26 ≈ 75 % effective; 5052-H32 ≈ 25 % effective [K p.61].
   - The standards do **not** specify the reductions for H12/H14/H16; each mill sets its own practice [P p.118].
   - The CW% table in [S, unverified] (H1x: 10–20 / 25–35 / 45–55 / ~75 / 85–90 % for Hx2/4/6/8/9; H2x initial CW 1–2 steps higher; partial anneal ~200–280 °C, 1–4 h) is a compiled guide only and has no primary source.
-- **UTS vs temper rule (BS EN 515):** f_u = P·f_u0 + Q, where f_u0 is the O-temper min UTS. It applies to alloys with annealed UTS >~90 MPa, i.e. not pure Al [DW §4.1.5]. The coefficient table (DW Table 4.3) did not extract. [S, unverified] lists P/Q = 1.03/20, 1.06/40, 1.09/60, 1.12/80 for Hx2/4/6/8.
+- **UTS vs temper rule (BS EN 515):** f_u = P·f_u0 + Q (DW eq. 4.1), where f_u0 is the O-temper min UTS. It applies to alloys with annealed UTS >~90 MPa, i.e. not pure Al [DW §4.1.5]. Hx8 is defined as a fixed step above O, and the intermediate tempers take **equal steps in f_u** between O and Hx8 [DW §4.1.5]. *Corrected after the full-text pass:* the coefficient table was recovered from the page image, and it confirms the values previously held only in [S]:
+
+  | Temper | P | Q (MPa) |
+  |---|---|---|
+  | O | 1.00 | 0 |
+  | H12, H22, H32 | 1.03 | 20 |
+  | H14, H24, H34 | 1.06 | 40 |
+  | H16, H26, H36 | 1.09 | 60 |
+  | H18, H28, H38 | 1.12 | 80 |
+
+  Source: [DW Table 4.3; Fig. 4.1 plots these lines for f_u0 = 90–300 MPa]. BS EN 485 values "agree well, but not precisely" with the formula [DW §4.1.5].
+  - *Worked check (own arithmetic, not in DW):* for 3103, f_u0 = 90 MPa. The formula gives H14 ≈ 135 and H18 ≈ 181 MPa, against EN 485 minima of **140 and 185 MPa** [DW Table 4.5]. The AA rule (Table 5M, the 85–100 band: +76 MPa to Hx8) gives H14 ≈ 128 and H18 ≈ 166 MPa. So **for the same O-temper base, an EN "H18" is ~15–20 MPa stronger than an AA "H18"**. Do not mix EN and AA temper limits in one spreadsheet.
 - **H1x vs H2x vs H3x at the same second digit:** **same UTS**, but H2x and H3x have **slightly lower proof stress and higher elongation** [DW §4.1.5]. **Availability:** 1xxx and 3xxx are readily supplied H12–H18, and some H19. 5xxx sheet is normally made only up to Hx4 (Hx2 for 5083), mostly as H2x. Hx6/Hx8 in 5xxx need large tonnages [DW §4.1.6].
 
 **Three-digit H tempers** [K p.18, 20, 64; P p.118–119; AT p.2]
@@ -168,16 +189,18 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - **T78** = a proprietary controlled overage of Cu-bearing 6xxx (6013, 6056) against intergranular corrosion [P p.141, 171].
   - **T85** = 5 % cold work in a T8 [P p.119].
 - **Ethics note:** making up temper designations that look AA-registered is "incorrect and unethical" [K p.73].
-- **Cast tempers.** F is common (die castings). O is used for stability, e.g. 222.0-O at ~415 °C for 5 h with a slow cool. The T tempers in use are T4, T5, T6 and T7, and **T4 is unstable for most casting alloys** [K p.73–74].
+- **Cast tempers.** F is common (die castings). O is used for stability, e.g. 222.0-O at ~415 °C for 5 h with a slow cool. The T tempers in use are T4, T5, T6 and T7, and **T4 is unstable for most casting alloys** [K p.73–74]. T7 means overaged past peak, for a better strength–ductility combination and stability. The recognised variants are T51, T52, T53, T533, T551 and T571; T61, T62 and T65; and T71, T75 and T77. Their meanings are "not as well defined for castings as for wrought products": the same suffix may mean different practices on different alloys [K p.74–75]. EN castings use a separate numbering (BS EN 1706, e.g. **AC-44100-F**, AC-42000-T6). Those numbers "do not tally" with the AA ones and supersede the British LM numbers [DW §4.5.1].
 
 ### 3.4 Thermal-process windows given by the sources
 - **Full anneal (NHT):**
   - 300–420 °C [P p.42]; 345–415 °C, minutes to 3 h [P p.107]; 350–420 °C [P p.109].
   - **Recrystallisation kinetics of hard-rolled pure Al:** hours at 280 °C, minutes at 380 °C, seconds at 500 °C [P p.42].
   - **5083-O:** heat to ~345 °C, then cool at an uncontrolled rate [K p.58].
-  - [S, unverified] (citing ASM Table 7): 1xxx/3004/3105/5xxx at 343 °C; **3003 at 413 °C**. Min anneal (Dwight): 1xxx 360 °C, **3xxx 400 °C** ("Mn dispersoids retard recrystallisation"), 5xxx 350 °C.
+  - [S, unverified] (citing ASM Table 7): 1xxx/3004/3105/5xxx at 343 °C; **3003 at 413 °C**.
+  - **Minimum annealing temperatures (Dwight): 1xxx 360 °C; 3xxx 400 °C; 5xxx 350 °C** [DW §3.1.4]. Verified in the full text. The context is *local re-annealing of work-hardened sheet to help forming*; Dwight gives no hold time. *Corrected after the full-text pass:* the reason "Mn dispersoids retard recrystallisation" attached to these values in [S] is the spreadsheet's gloss, not Dwight's text. It is consistent with [D p.382] (Mn raises the recrystallisation temperature).
+  - **Partial annealing** (H2x) is defined as "thermal treatment given cold-worked metal to reduce strength and increase ductility to controlled levels other than annealed temper". **Annealing** is softening "by removal of stress resulting from cold working or by coalescing precipitates from solid solution" [K p.188].
 - **Full anneal (heat-treatable):** 2014-O = ~410 °C for 2–3 h, slow cool to ~260 °C, then uncontrolled [K p.58]. [S, unverified]: 7xxx two-stage with a 4 h hold at 230 °C.
-- **Homogenisation:** **450–600 °C for 6–24 h** [P p.105].
+- **Homogenisation:** **450–600 °C for 6–24 h** [P p.105]. Kaufman's definition: ingots are raised to temperatures **near the solidus** and held to (1) reduce microsegregation and (2) improve workability. **Preheating** is the general term for a high-temperature soak to a desired structure; homogenising is one form of it [K p.202–203, 211]. For 3003 micrographs after 600 °C treatments, see §4.11.
 - **Solution treatment:** as close to the solidus as possible without liquation. Al-Cu-Mg alloys need control to within a few °C [P p.109; AR p.12–13].
 - **Quench-sensitive range:** **400–290 °C** [P p.112–113].
 - **Artificial ageing:** **100–190 °C** [P p.114]; 6xxx at ~170 °C [P p.141] or 160–190 °C [P p.140]. Artificial-ageing practice: 2–30 h at 100–200 °C [AT p.1].
@@ -200,6 +223,14 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - 1100 includes **Cu 0.05–0.20** [P Table 3.2]; 1100 and 1135 have specified min and max Cu [D p.399].
   - **1200:** Si+Fe ≤1.0, Cu ≤0.05, Mn ≤0.05, Zn ≤0.10, Ti ≤0.05, Al ≥99.00 [P p.121]. 1050 has Al ≥99.50 [K p.12; D p.356].
 - **Uses.** Electrical conductors (1350, formerly "EC"), chemical plant, foil, lithographic sheet, fin stock (1100) [K p.12; P p.129; D p.358].
+  - *Kaufman Ch. 6 (full-text pass)* [K p.87–88, 118]: the range runs from 1100 (99.00 % Al min) through 1050/1350 (99.50 %) to **1175 (99.75 %)**. The series is chosen for "extremely high corrosion resistance and formability": foil and strip for packaging, chemical equipment, tank-car bodies, spun hollowware. **Food foil is 1175**, food trays 1100, pouches 1060 or 1100.
+  - **1350 has tight limits on the impurities that lower conductivity, and 62 % IACS is guaranteed** [K p.88].
+  - *Dwight* [DW §4.2.1(a); Table 4.8]: maximum possible UTS ≈ **150 MPa**; purities run from 99.00 to 99.99 %; higher purity means better corrosion resistance but lower strength. Nominal **1080A = 99.8 % Al min and 1050A = 99.5 % Al min** (weld-filler table).
+- **Microstructure notes from the micrograph captions** [K p.120–123]:
+  - DC-cast 99.5 % Al with grain refiner has grains **<0.5 mm** and cells of **50 to ~300 µm**, and the residual melt solidifies in the cell boundaries.
+  - Continuous-cast 99.5 % Al has an average cell size of **90 µm** (coarse), against **60 µm** at a "normal" solidification rate.
+  - In 1100-O and 1100-H18 sheet the **FeAl3 particles are fragments of script-like ingot constituents, and their "size and distribution … were unaffected by annealing"**.
+  - Kaufman's Fig. 4 shows the **recrystallised grain size of 1100 as a function of 0–10 % cold work before annealing**. This is the critical-strain effect; the caption gives no grain sizes.
 - **Recrystallisation spread.** [S, unverified, citing Humphreys & Hatherly]: commercial AA1050 recrystallises between 280 and 520 °C depending on Fe, Si and history. This is a reminder that the Fe/Si balance sets annealing behaviour.
 
 ### 4.2 3xxx — Al-Mn and Al-Mn-Mg (core of this project)
@@ -218,13 +249,15 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 - **Calcium.** 0.2 % Ca alters the recrystallisation of 3003 [D p.372].
 - **Strength level.**
   - 3xxx is about **20 % stronger than 1xxx** [D p.360]. Annealed 3003 UTS is ~110 MPa vs 90 MPa for 1100, from dispersion hardening by fine Mn intermetallics [P p.129].
+  - Dwight instead calls 3xxx "**half as strong again** as pure aluminium", with UTS "up to 200 N/mm² or more" and very high corrosion resistance [DW §4.2.1(b)]. The two statements fit different baselines (see §11). Against 1100, the K data give ~+20 % (3003-O 110 vs 1100-O 90; H18 200 vs 165 MPa [K p.44–45]). Dwight compares with purer 1xxx (top UTS 150 vs 200 MPa [DW Table 4.4]).
   - Mg adds solid-solution strength: 3105 (Al-0.55Mn-0.5Mg) and 3004 (O-temper UTS 180 MPa) [P p.129–130].
   - **Davis compares Mn and Mg two ways:** "about **0.8 % Mg** = **1.25 % Mn** as hardener" [D p.361], but in 13 mm Al-Mg-Mn plate "**Mn is about twice as effective as Mg**" (Mg adds ~35 MPa UTS per 1 %) [D p.380]. See §11.
 - **Work hardening and forming.**
   - The work-hardening curves of 3003 resemble those of 1100 and 5050/5052 [P p.34–35, Fig 2.6].
   - **3003 draws better in the cold-worked than in the annealed condition** [P p.34]. For can-stock 3004, rolled sheet out-forms annealed sheet, the reverse of 5052 [P p.38].
   - The cube texture nucleates at transition bands, and the rolling vs cube texture balance controls **earing**: 45° ears for a rolling texture; 0/90° ears for a cube texture [P p.39–40].
-  - The coarse constituents in can stock are useful [P p.78]. *(General knowledge: hard α-particles clean the dies during ironing. Polmear's canstock §3.6.5 was not available.)*
+  - The coarse constituents in can stock are useful [P p.78]. *(General knowledge: hard α-particles clean the dies during ironing. Polmear's canstock §3.6.5 is still not available; the 2026-10-12 full download of P failed, see §1.)*
+  - **Earing, as defined by the AA** [K p.196–197]: ears form "in groups of four or eight with the peaks … at 45° and/or at 0 and 90° to the rolling direction". **Degree of earing (%) = 100 × (mean peak height − mean valley height) / mean valley height.** The cause is "nonuniform directional properties … and/or … improperly adjusted tooling". See §4.11.
 - **Corrosion.**
   - Very high resistance. The Al6(Mn,Fe) and Al12(Mn,Fe)3Si particles have **almost the same potential as the matrix**, so they do not initiate attack; pitting is the main mode [D p.402].
   - **MnAl6 at −0.85 V equals pure Al** [P Table 2.5], and Al6Mn **dissolves Fe**, reducing its harm [P p.75]. (Potential signs restored.)
@@ -242,6 +275,12 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
     - *(General knowledge, not stated by P: Zn in fin alloys makes the fin anodic, so it protects the tube sacrificially; this is consistent with the Zn effect on potential in [P p.73].)*
   - Solderability: 3003 excellent, 3004 good [D p.415].
 - **Applications.** 3003 is the "most popular general-purpose alloy", used for fin stock, cooking utensils, pressure vessels and chemical equipment. 3004 for sheet and containers; 3105 for siding [D p.358]. 3003 for foil and roofing [P p.129]. 3004 for beverage cans, "the largest single use of the metals aluminium and magnesium" [P p.130]. 3xxx is "among the best for brazing and soldering" [K p.27].
+  - *Kaufman Ch. 6 (full-text pass)* [K p.90, 93–95, 116, 118]:
+    - Profile: high formability and corrosion resistance at medium strength; typical UTS 110–285 MPa; readily joined by all commercial methods.
+    - **3104 is a modification of 3004.** "Alloy 3004 and its modification 3104 are the principals for the bodies of drawn and ironed" beverage cans, in excess of **1.6 billion kg (3.5 billion lb) per year**. This makes 3004/3104 "the largest volume alloy combination in the industry".
+    - **3002** for automotive radiators; **3003** for power-plant heat-exchanger tubing and automotive A/C tubes; 3003 for cooking utensils, chemical equipment and builders' hardware.
+    - **3105** "a principal for roofing and siding"; building sheet and siding in 3005, 3105 and 5005.
+  - *Dwight* [DW §4.2.1(b)]: in construction the main use is **fully hard profiled cladding sheet**, plus 3xxx strip for welded tube (e.g. irrigation pipe).
 
 **Composition (wt %; max unless a range)**
 
@@ -253,14 +292,14 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 | 3005 | 0.60 | 0.70 | 0.30 | 1.0–1.5 | 0.20–0.6 | 0.25 | 0.10 (Cr or Ti; column ambiguous) | [P p.121]; nominal 1.2Mn-0.40Mg [K p.12] |
 | 3005 (CAB tube, as quoted) | 0.30 | 0.35 | 0.15 | 1.2 | 0.40 | — | — | [P p.168] |
 | 3105 | 0.60 | 0.70 | 0.30 | 0.3–0.8 | 0.20–0.8 | 0.40 | Cr 0.20, Ti 0.10 | [P p.121]; nominal 0.55–0.6Mn-0.5Mg [K p.12; D p.356] |
-| 3103 | — | — | — | nominal 1.2 | — | — | — | [S, unverified, "Dwight Table 4.5"]; named as an example only in [DW §4.1.1] |
+| 3103 | — | — | — | nominal 1.2 | — | — | — | [DW Table 4.5, Table 4.8] (verified in the full-text pass; DW gives only the nominal Mn) |
 | FA6815 (fin) | 0.85 | 0.25 | — | 1.6 | — | 1.5 | Zr 0.15 | [P p.168] |
-| **3102, 3207, 3104** | **not given in any source read** | | | | | | | (3104-H19 appears only in [S]) |
+| **3102, 3207, 3104** | **not given in any source read** | | | | | | | 3104 is named as "a modification of 3004" for can bodies [K p.93], with no composition; 3104-H19 appears only in [S]. 3102 and 3207 appear in neither K nor DW (full text searched). |
 
 **Design levers (3xxx), as stated by the sources**
 - Mn content limited by Fe through the primary-phase ceiling [P p.129; D p.383].
 - Si level (α vs Al6 constituent, and Mn solubility) [P p.107; D p.388].
-- Homogenisation heating rate and temperature for the dispersoid population [P p.105–106].
+- Homogenisation heating rate and temperature for the dispersoid population [P p.105–106]. The 3003 ingot micrographs show the two extremes: a long soak at 600 °C spheroidises the constituents, and slow cooling from 600 to 450 °C precipitates fine Al-Mn-Fe from supersaturation [K p.131] (§4.11).
 - Mg for solid solution (3004/3005/3105), limited by CAB brazing [P p.168].
 - Cu 0.05–0.2 for a general rather than pitting corrosion mode [P p.73].
 - Zn for galvanic grading of fins vs tubes [P p.168; P p.73].
@@ -269,8 +308,9 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
 
 **Pitfalls**
 - Primary Al6(Fe,Mn) [P p.129; D p.383].
-- Coarse constituents reduce fracture strain (Fe, Ni and Mn particles promote voids) [D p.408].
-- Earing [P p.39].
+- Coarse constituents reduce fracture strain (Fe, Ni and Mn particles promote voids) [D p.408]. **Primary (large, angular) Mn-bearing particles** survive into 3003-F hot band next to the small eutectic ones, together with oxide stringers from ingot inclusions [K p.131]. In 5083, brittle "(Fe,Mn)3Al12" particles (as extracted; the Si subscript may have been lost) break up during cold rolling and leave voids [K p.132].
+- Earing [P p.39; K p.196–197].
+- Coarse grains give **orange peel** (surface roughening on formed products when large grains are present) [K p.210]. This is the upper-bound grain-size risk for slugs (§4.11).
 - Higher Mg degrades CAB brazeability [P p.168].
 
 ### 4.3 4xxx — Al-Si (filler and braze cladding; brief)
@@ -420,7 +460,8 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - 8011: Si 0.50–0.9, Fe 0.6–1.0, Cu 0.10, Mn 0.10, Mg 0.05, Zn 0.10, Cr 0.05, Ti 0.08.
   - 8017, 8030, 8176 and 8177 are conductor alloys (Fe 0.35–0.7) [K p.13]. 8176-H24 = 160/95 MPa, 15 % [K p.49].
 - **PM and Li alloys.** 8019 (Al-Fe-Ce) and 8009 (Al-Fe-V-Si) are powder-metallurgy alloys for elevated-temperature dispersion strengthening. 8090 is Al-Li (helicopters) [D p.363; P p.159].
-- **8079 and 8111** are **not covered** by any source read.
+- **Kaufman Ch. 6** [K p.105–107]: 8xxx covers "lesser-used alloying elements such as iron, nickel, and lithium". Profile: high conductivity, strength and hardness; typical UTS **120–240 MPa**. "Iron and nickel provide strength with little loss in electrical conductivity", hence the conductor family represented by **8017**. Kaufman's bullet list labels the whole series "heat treatable", which contradicts his own p.26 (8017 and 8040 are NHT; only Al-Li 8090 is heat treatable). Treat the bullet as an error.
+- **8079 and 8111** are still **not covered** by any source read. K and DW were searched in full on 2026-10-12.
 
 ### 4.9 Al-Li alloys (2xxx/8xxx)
 - **Basic effects.** Li solubility is ~4 % (16 at.%) at 610 °C; each 1 % Li gives −3 % density and +6 % E; specific stiffness rises up to 25 % [P p.153].
@@ -431,6 +472,67 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - **Alkali impurities (Na, K) >3–5 ppm** form brittle grain-boundary "islands"; vacuum refining brings them to <1 ppm [P p.158].
   - Cost ~3× that of conventional high-strength alloys [P p.159].
   - Even <5 ppm Li impurity in ordinary Al can cause "blue corrosion" of foil [D p.380].
+
+### 4.10 Foil, can stock, impact slugs and conductors: application map (added in the full-text pass)
+Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors) are **still unread** because the download failed (§1). This map is assembled from K Ch. 6, the K terminology appendix, DW and the parts of P already read.
+
+| Product | Alloys named | Source |
+|---|---|---|
+| Food foil | **1175** (99.75 % Al); household foil "1100 or similar"; pouches 1060 or 1100 | [K p.89, 118] |
+| Other foil | 1145 (foil), 1199 (electrical foil), 3003, 3005 ("high-strength foil"), **8006** (Al-1.6Fe-0.65Mn), 8011 (bottle caps) | [P p.122, 129, 131] |
+| Beverage-can body (drawn and ironed) | **3004 and its modification 3104**; 3004-H19 is the textbook H19 temper | [K p.18, 63, 93, 118] |
+| Can end | **5182** | [K p.96, 101, 118] |
+| Impact-extruded parts | No alloy or temper named in K or DW (definitions only, below) | [K p.203, 217] |
+| Conductor wire / bus | **1350** (62 % IACS guaranteed); 6201 (high-strength wire); 6101 (bus); 8017 family (Fe/Ni, little conductivity loss) | [K p.88, 99, 107, 115–116] |
+| Heat exchangers | 3003 (power-plant tubing, auto A/C tubes); 3002 (radiators); No. 12 brazing sheet = **3003 core clad both sides with 4343** | [K p.94, 116, 163] |
+| Building sheet | 3005, 3105, 5005; 3xxx fully hard profiled cladding | [K p.116; DW §4.2.1(b)] |
+
+- **Definitions (AA terminology)** [K p.199, 203, 211, 217]:
+  - *Foil* is a rolled product <0.15 mm thick (US), or ≤0.20 mm in Europe. It is supplied annealed, in an intermediate temper or hard. A *pinhole* is a minute hole in foil.
+  - **Impact**: "a part formed in a confining die from a metal **slug**, usually cold, by rapid single-stroke application of force through a punch, causing the metal to flow around the punch and/or through an opening in the punch or die".
+  - **Slug**: "a metal blank for forging or impacting".
+- **Recycling.** Aluminium alloys "may be recycled directly back into the same high-quality products, such as rigid containers, sheet" [K p.4]. Casting alloy 332.0 "can be made almost exclusively from recycled scrap" [K p.111–112]. Polmear's treatment of recycling and Fe/Si accumulation was not reached.
+
+### 4.11 3xxx/1xxx constituents, homogenisation, annealing and earing (added in the full-text pass)
+**Source statements**
+1. **Homogenisation of 3003 DC rolling ingot (micrographs)** [K p.131, Fig. 40]:
+   - *As cast:* angular Al-Mn-Fe particles inside the cast grains and at grain boundaries.
+   - **72 h at 600 °C, then quenched:** the particles "have grown and rounded off (spheroidized)".
+   - **6 h at 600 °C, then furnace cooled over 15 h to 450 °C:** "a **fine AlMnFe precipitate** originated from the supersaturated solid solution due to the slow cooling". The cast particles spheroidised less than after 72 h.
+2. **Constituents are fixed before the final anneal.** In 3003-O the dispersion of "(Fe,Mn)Al6 (large) and aluminum-manganese-silicon (both large and small) was not changed by annealing" [K p.132]. The same holds for FeAl3 in 1100-O vs 1100-H18 [K p.123]. In 3003-F hot band, primary (large, angular) and eutectic (small) Mn-bearing particles coexist [K p.131].
+3. **Recrystallised 3003-O grains stay elongated in the rolling direction**, although the elongation "indicates rolling direction, but not the crystallographic orientation" [K p.131–132].
+4. **Critical strain.** The recrystallised grain size of 1100 depends strongly on 0–10 % cold work before annealing [K p.121, Fig. 4; sizes not given in the caption].
+5. **Recovery without recrystallisation.** Hard-rolled 99.99 % Al foil (0.1 mm) forms a subgrain structure after **2 h at 150 °C** [K p.120, Fig. 1].
+6. **Partial recrystallisation from residual heat after hot rolling** is shown in 5456 plate [K p.134, Fig. 49]. The caption calls it "dynamic recrystallization"; *(general knowledge: recrystallisation after the pass is better called static or metadynamic)*.
+7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135].
+8. **Earing:** the definition and degree-of-earing formula are in §4.2 [K p.196–197]. The texture mechanism (45° ears from rolling texture, 0/90° from cube) is in [P p.39–40].
+9. **Orange peel** occurs "when large grains in the metal are present" [K p.210].
+10. **Mg-bearing variants (3004/3104/3105)** can **age-soften**: a spontaneous drop in strength at room temperature in strain-hardened Mg-containing alloys. The cure is **stabilising**, a low-temperature treatment [K p.187, 218]. Over-stabilising 5086-H34 at 120–175 °C produced an "undesirable continuous network of Mg2Al3" at grain boundaries [K p.134].
+11. **Bendability of 1xxx/3xxx sheet** [DW §4.3.4, Table 4.6, eq. 4.2]: r/t_min = A + B·√t, with A = 0.3a − 1.7 and B = 0.08a + 0.5 (t in mm). Valid for 90° cold bends at t = 1.5–10 mm. Index a: **1200-O 3, H12 5, H14 6; 3103-O 4, H12 5, H14 6**; 5251-O 5; 5083-O 6; 6082-T6 13. H2x and H3x bend slightly better than H1x.
+
+**Assessment for lean 3xxx slugs (inference, not source statements)**
+- *Hardness calibration.* The user's slug window of 23–33 HB brackets the typical hardness of **1100-O (23 HB), 3003-O (28 HB) and 3003-H12 (35 HB)** [K p.44–45]. A fully recrystallised lean Al-Mn slug should therefore read between 1100-O and 3003-O. Readings well above ~30 HB in an "O" slug point to incomplete recrystallisation (recovered substructure) or high Mn in solid solution. Readings near 23 HB point to a 1xxx-like matrix with little Mn effect. This needs checking against the in-house HB data in chapter 09.
+- *Where the particle structure is set.* Items 1–2 mean the constituent and dispersoid populations that drive PSN and Zener drag are set by **casting and homogenisation/preheat**, not by the final anneal. The final anneal can only act on stored energy and grain structure. The two 600 °C micrographs bracket the options: a long soak coarsens and spheroidises; slow cooling to 450 °C adds fine Al-Mn-Fe precipitate. The second option is expected to raise the recrystallisation temperature and can coarsen or elongate the annealed grain (consistent with [D p.382; P p.105–106]).
+- *Grain-size control.* Item 4 (critical strain) and item 9 (orange peel) set the risks at the coarse end of the 20–100 µm target. Avoid annealing material carrying only small or uneven strains, such as lightly levelled edges.
+
+### 4.12 Cast alloys (brief; Polmear Ch. 4 still unread)
+- **General.** Casting alloys carry more Si and Cu, so their structures are heterogeneous. Coarse, sharp, brittle constituents act as internal notches, and fatigue is "very sensitive to large heterogeneities" [K p.108].
+- **AA cast series** [K p.108–115]:
+
+  | Series | Character | Approx. UTS, MPa | Workhorse alloys |
+  |---|---|---|---|
+  | 2xx.x | Heat treatable; strong at RT and high T | 130–450 | 201.0 (strongest; prone to microporosity and hot tearing); 203.0 (highest strength at ~200 °C) |
+  | 3xx.x | Heat treatable; excellent fluidity | 130–275 | 319.0, 356.0/A356.0 (sand, permanent mould); 360.0, 380.0/A380.0, 390.0 (die); 357.0/A357.0; 332.0 (from scrap) |
+  | 4xx.x | Non-heat-treatable; fluid | 120–175 | B413.0 (eutectic) |
+  | 5xx.x | Non-heat-treatable; corrosion resistance, anodising | 120–175 | 512.0, 514.0 (seawater); 520.0 (decorative die castings). The long freezing range means 355.0 often replaces them |
+  | 7xx.x | Harder to cast; machinability and finish | 210–380 | — |
+  | 8xx.x | Al-Sn bearings | 105–210 | — |
+
+  Kaufman gives B413.0 "a low melting point of 700 °C" [K p.112]. This conflicts with the Al–Si eutectic at ~577 °C [D p.365; P Table 2.1]. It is probably a pouring temperature or a misprint.
+- **Three EN casting alloys** (minimum UTS / elongation of separately cast test bars; chill casting is always stronger than sand) [DW §4.5.2, Table 4.7]:
+  - **AC-44100 (LM6, Si 11.5)**, durability B: F sand 160 MPa / 5 %; F chill 190 MPa / 7 %. The most popular casting alloy, for its fluidity.
+  - **AC-51400 (LM5, Mg 4.5 Mn 0.5)**, durability A: F sand 140 / 3; F chill 170 / 5.
+  - **AC-42000 (LM25, Si 7.0 Mg 0.4)**, durability B: F sand 130 / 2; F chill 160 / 3; **T6 sand 230 / 2; T6 chill 280 / 2**.
 
 ---
 
@@ -498,6 +600,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 | Second-phase (constituent) hardening | Rate per unit weight is similar to, but usually lower than, solid solution | [D p.369] |
 | Dispersion (8xxx) | 30–40 MPa from dispersoids; 2–10 MPa YS from solid solution | [P p.131] |
 | **Work hardening** | σ = K εⁿ. As K rises over **175–450 MPa**, **n falls from 0.25 to 0.17**. For pre-strained material σ = K(ε0 + ε)ⁿ. Cold-worked NHT tempers harden much more slowly than annealed material. | [P p.35–36] |
+| Stress–strain shape (Ramberg–Osgood) | e = σ/E + 0.002·(σ/σ_o)ⁿ, where σ_o is the actual 0.2 % proof stress (DW eq. 4.3, read from the page image). **n ≈ 40 down to 5** for Al materials. For minimum-property material, **n = log(5·el) / log(f_u/f_o)** (el in %) [DW eq. 4.4]. n depends strongly on f_u/f_o and hardly on el. Fully hard or fully heat-treated tempers (f_u/f_o < 1.2) have an abrupt knee; O and T4 have a rounded one. | [DW §4.4.1–4.4.2] |
 | Cryogenic work hardening | Working at −196 °C gives up to **+40 %** strength (1100), at lower ductility | [P p.36] |
 | Solute effects on work hardening | Cu is the most effective at raising dislocation multiplication; Mg has the greatest practical value; Zn has negligible effect | [P p.34] |
 | Strain ageing | Mg and Cu pin dislocations: higher work hardening at low strain, lower at large strain, which reduces diffuse necking. Zn does not strain-age. | [D p.408] |
@@ -511,7 +614,9 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 ---
 
 ## 7. Corrosion and SCC summary relevant to alloy design
-- **Oxide film.** About **2.5 nm** on fresh rolled sheet and protective at **pH 4.5–8.5** [P p.70]. Davis gives ~5 nm and pH 4–9 [D p.399].
+- **Oxide film.** About **2.5 nm** on fresh rolled sheet and protective at **pH 4.5–8.5** [P p.70]. Davis gives ~5 nm and pH 4–9 [D p.399]. Dwight prints "typical thickness **0.005 mm**" [DW §4.7.1], i.e. 5 µm. That is three orders of magnitude above P and D, and is almost certainly a unit slip for 0.005 µm (5 nm). Do not use the DW figure (this matters for the MgO annealing-oxide work, where film thickness is a measured quantity).
+- **Atmospheric pitting of 3103 (Alcan data)** [DW §4.7.1, Fig. 4.12]: pit depth grows quickly in the first year and almost stops after **~5 years**, as corrosion products stifle the pits. Worst 5-year pit depths: **~0.04 mm rural, 0.08 mm inland industrial, ~0.16 mm industrial by the sea**.
+- **When to protect (BS 8118 ratings)** [DW Table 4.9]: A-rated alloys (1xxx, 3xxx, 5xxx) need protection only in **severe industrial** atmospheres, inland or by the sea. B-rated 6xxx always needs it in severe industrial sites. In inland moderate-industrial and in marine rural or moderate-industrial sites it needs protection only if thinner than 3 mm. Weldable 7xxx (C) needs it everywhere except inland rural; 2xxx and strong 7xxx (D) need it everywhere.
 - **Electrode potentials** (V vs 0.1 M calomel, NaCl–H2O2; all negative, signs restored) [P Table 2.4–2.5]:
   - **Phases and solid solutions:** Mg5Al8 −1.24; Al-Zn-Mg solid solution −1.07; MgZn2 −1.05; Al2CuMg −1.00; Al-5Mg solid solution −0.88; **MnAl6 −0.85 = Al (99.95 %) −0.85**; Al-Mg-Si solid solution −0.83; Al-1Si −0.81; Al-2Cu −0.75; Al-4Cu −0.69; FeAl3 −0.56; CuAl2 −0.53; NiAl3 −0.52; Si −0.26.
   - **Alloys:** Alclad 6061/7075 −0.99; 5456/5083 −0.87; 5052/5086 −0.85; 3004/1060/5050 −0.84; 1100/3003/6063/6061/Alclad 2024 −0.83; 2014-T4 −0.69.
@@ -520,6 +625,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
   - **Mg:Si at 2:1 gives Mg2Si with about the matrix potential** [P p.75].
 - **SCC.**
   - **Susceptible:** 2xxx; 5xxx with >3 % Mg; 7xxx. **Rare** in 6xxx. **Absent** in 1xxx, 3xxx and Al-Mg <3 % [P p.90].
+  - Temperature thresholds for 5xxx differ by source: **>3 % Mg with continuous exposure above 100 °C** [K p.96]; **Mg >3.5 % operating long-term above ~70 °C** [DW §4.7.1]; Mg above "about 3.5 or 4 %" in hot environments [DW §4.3.3]. Compare >~3.5 % above ~65 °C [D p.361].
   - The mechanism is intergranular. Electrochemistry dominates, with a role for hydrogen [P p.90–92].
   - It is worst in recrystallised structures and short-transverse loading [P p.90; K p.27–28].
   - Resistance rises in the underaged and overaged conditions [P p.90–91].
@@ -544,7 +650,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
   - In 2004 roughly half of world Mg went into Al alloys. Less than 20 % went into Mg alloys, mostly die castings.
   - Die-casting tonnage grew 16 %/yr over 1994–2004, to 152,000 t in 2004.
   - Wrought Mg is limited by the hcp structure.
-- **Coverage gap.** Polmear Ch. 5 (Mg alloys) is **not in the extracted text**, so this section has no Polmear physical metallurgy (Zr grain refinement, Mg-Al β-Mg17Al12 and so on).
+- **Coverage gap.** Polmear Ch. 5 (Mg alloys) is **not in the extracted text**, and the 2026-10-12 full download of P failed (§1). This section therefore has no Polmear physical metallurgy (Zr grain refinement, Mg-Al β-Mg17Al12 and so on). K mentions Mg only as an alloying element; DW does not cover Mg alloys.
 
 ---
 
@@ -595,7 +701,7 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 3005-O / H18 | 130 / 240 | 55 / 225 | 25 / 4 | High-strength foil, roofing | [P p.122] |
 | **3105-O / H12 / H14 / H16 / H18 / H25** | **115 / 150 / 170 / 195 / 215 / 180** | **55 / 130 / 150 / 170 / 195 / 160** | **24 / 7 / 5 / 4 / 3 / 8** | Shear 85–115 | [K p.45] |
 | 3105-O / H18 | 120 / 215 | 55 / 195 | 24 / 3 | — | [P p.122] |
-| 3103-O / H14 / H18 (*min*, sheet) | 90 / 140 / 185 | 35 / 120 / 165 | 17–28 / 2–5 / 1–2 | — | [S, unverified; "Dwight Table 4.5"] |
+| 3103-O / H14 / H18 (*min*, plate/sheet; t <50 / <25 / <3 mm) | 90 / 140 / 185 | 35 / 120 / 165 | 17–28 / 2–5 / 1–2 | BS EN 485 basis; no extrusion data | [DW Table 4.5] (verified 2026-10-12; matches [S]) |
 | 4032-T6 | 380 | 315 | 9 (5D) | HB 120; E 79 | [K p.45] |
 
 **5xxx**
@@ -610,7 +716,7 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 5056-O / H18 / H38 | 290 / 435 / 415 | 150 / 405 / 345 | 32 / 9 / 13 (5D) | — | [K p.46] |
 | **5083-O / H321, H116** | **290 / 315** | **145 / 230** | **20 / 14 (5D)** | σf 160; E 71 | [K p.46] |
 | 5083-O / H343 | 290 / 360 | 145 / 280 | 22 / 8 | — | [P p.123] |
-| 5083-O / H22 / H24 (*min*, sheet) | 275 / 305 / 340 | 125 / 215 / 250 | 10–16 / 5–10 / 4–7 | — | [S, unverified; "Dwight"] |
+| 5083-O / H22 / H24 (*min*, plate/sheet; t <50 / <40 / <25 mm) | 275 / 305 / 340 | 125 / 215 / 250 | 10–16 / 5–10 / 4–7 | Extrusions O (all t): 270 / 110 | [DW Table 4.5] (verified; matches [S]) |
 | 5383-O / H321 | 290 / 305 | 145 / 220 | 17 / 10 | — | [P p.123] |
 | 5086-O / H32, H116 / H34 / H112 | 260 / 290 / 325 / 270 | 115 / 205 / 255 / 130 | 22 / 12 / 10 / 14 | — | [K p.46] |
 | 5154-O / H32 / H34 / H36 / H38 / H112 | 240 / 270 / 290 / 310 / 330 / 240 | 115 / 205 / 230 / 250 / 270 / 115 | 27 / 15 / 13 / 12 / 10 / 25 | HB 58 → 80 | [K p.46] |
@@ -619,7 +725,8 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 5457-O / H25 / H38, H28 | 130 / 180 / 205 | 50 / 160 / 185 | 22 / 12 / 6 | — | [K p.47] |
 | 5657-H25 / H38, H28 | 160 / 195 | 140 / 165 | 12 / 7 | Bright trim | [K p.47] |
 | **5754-H111** (*min*, BS EN 485-2, 0.2–6 mm) | **160–200** | **≥60** | **≥12 (A50)** | 44 HB; ρ 2.66; E 68; k 147 W m⁻¹K⁻¹; ρ_el 0.049 µΩ·m; α 24×10⁻⁶ K⁻¹; melting point 600 °C | [A57 p.1–2] |
-| 5154A-O / H22 / H24 / H26; 5251-O / H22 / H24 / H26 (*min*) | 215/250/270/290; 160/190/210/230 | 85/180/200/230; 60/120/140/170 | — | — | [S, unverified; "Dwight"] |
+| 5154A (Mg 3.5)-O / H22 / H24 / H26 (*min*; t <50 / <40 / <25 / <6 mm) | 215 / 250 / 270 / 290 | 85 / 180 / 200 / 230 | 12–16 / 5–9 / 4–7 / 3–5 | Extrusions O (<25 mm): 200 / 85 | [DW Table 4.5] (verified; matches [S]) |
+| 5251 (Mg 2.0, Mn 0.3)-O / H22 / H24 / H26 (*min*; t <50 / <25 / <12 / <4 mm) | 160 / 190 / 210 / 230 | 60 / 120 / 140 / 170 | 13–18 / 4–12 / 3–10 / 3–7 | Extrusions O (all t): 160 / 60. DW ranks 5052 slightly stronger than 5251, 5754 between 5251 and 5154A, and 5454 ≈ 5154A [DW §4.3.3] | [DW Table 4.5] (verified; matches [S]) |
 
 **6xxx**
 
@@ -632,7 +739,9 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 6063-T6 | 240–245 | 215 | 12 | — | [P p.126, 140] |
 | **6061-O / T4 / T6** | **125 / 240 / 310** | **55 / 145 / 275** | **25 / 22 / 12** | HB 30 / 65 / 95; σf 60 / 95 / 95 | [K p.47] |
 | **6082-T5 / T6** | **300 / 315** | **260 / 285** | **15 / 12** | Extrusions (T5), plate (T6) | [P p.126] |
-| 6082-T4 / T6 (*min*, sheet <6 mm) | 205 / 310 | 110 / 260 | 12–14 / 6–10 | — | [S, unverified; "Dwight"] |
+| 6082-T4 / T6 (*min*, plate/sheet; T4 <12 mm, T6 <6 mm and 6–12 mm) | 205 / 310 and 300 | 110 / 260 and 255 | 12–14 / 6–10 | Extrusions: T4 (<25 mm) 205/110; T5 (<5 mm) 270/230; T6 (<5 mm) 290/250; T6 (5–25 mm) 310/260 | [DW Table 4.5] (verified; matches [S]) |
+| 6063-T4 / T5 / T6 (*min*, extrusions) | 130; 175 (<3 mm), 160 (3–25 mm); 215 (<10 mm), 195 (10–25 mm) | 65; 130, 110; 170, 160 | 12–14; 5–8, 6–8; 6–8 | No sheet data | [DW Table 4.5] |
+| 6061-T4 / T6 (*min*; sheet <12 mm \| extrusions <25 mm) | 205 / 290 \| 180 / 260 | 110 / 240 \| 110 / 240 | 12–18 / 6–10 | — | [DW Table 4.5] |
 | 6005-T5 | 305 | 270 | 12 | — | [P p.126] |
 | 6016-T4 | 210 | 105 | 26 | Automotive sheet | [P p.126] |
 | 6111-T4; 6013-T4; 6013-T6 | 290; 315; — | 160; 185; 330 | 25; 25; — | — | [P p.126, 141] |
@@ -643,7 +752,8 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | Alloy-temper | UTS | YS | A % | Other | Source |
 |---|---|---|---|---|---|
 | **7020-T4 / T6** | **340 / 370** | **225 / 310** | **18 / 15** | Weldable | [P p.127] |
-| 7020-T4 / T6 (*min*, sheet <12 mm) | 320 / 350 | 210 / 280 | 11–14 / 7–10 | — | [S, unverified; "Dwight"] |
+| 7020-T4 / T6 (*min*, plate/sheet <12 mm) | 320 / 350 | 210 / 280 | 11–14 / 7–10 | Extrusions T6 (t 40 mm as printed): 350 / 290 | [DW Table 4.5] (verified; matches [S]) |
+| 7019 (Zn 4.0, Mg 2.0)-T6 (*min*) | 380 | 330 | 8 | Top of the practical range for welded construction; military bridging [DW §4.3.3] | [DW Table 4.5] |
 | 7005-T53; 7039-T61; 7016-T6 | 395; 415; 360 | 345; 345; 315 | 15; 13; 12 | — | [P p.127] |
 | **7075-O / T6, T651** | **230 / 570** | **105 / 505** | **17 / 11** | HB 60 / 150; σf 160; E 72 | [K p.49] |
 | 7075-T6 / T73 / T76 | 570 / 500 / 540 | 500 / 430 / 470 | 11 / 13 / 12 | — | [P p.127] |
@@ -653,7 +763,7 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
 | 2024-T3 / T4; 2014-T6; 2219-T87 | 485 / 472; 485; 475 | 345 / 325; 415; 395 | 18 / 20; 11 (5D); 10 | — | [K p.44–45] |
 | 8176-H24 | 160 | 95 | 15 | Conductor | [K p.49] |
 | 8001-O / H18 | 110 / 200 | 40 / 185 | 30 / 4 | — | [P p.123] |
-| **3102, 3207, 3104, 8006, 8011, 8079, 8111, 1050, 1200** | **no property values in any source read** | | | (3104-H19 ~2 % elongation, ~87 % cold reduction: [S, unverified] only) | — |
+| **3102, 3207, 3104, 8006, 8011, 8079, 8111, 1050, 1200** | **no tabulated property values in any source read** (K and DW searched in full, 2026-10-12) | | | 3104-H19 ~2 % elongation, ~87 % cold reduction: [S, unverified] only. DW Fig. 4.3 plots minimum f_o/f_u bars for 1080A, 1200 and 3105 (O/H14/H18), but the scan is too coarse (~100–170 dpi) to read numbers from | — |
 
 **Physical properties**
 - **Pure Al** [P Table 1.1 p.5; DW §1.2; K p.29–30]:
@@ -665,20 +775,32 @@ Typical values unless marked *min*. **UTS/YS in MPa; A = elongation % in 50 mm o
   - Conductivity: alloying can cut thermal conductivity by up to ~50 %, and resistivity is about twice the pure-Al value for some alloys.
 - **Davis:** alloys have 50–60 % of the thermal conductivity of Cu, and Al has nearly 2× the electrical conductivity of Cu per unit weight [D p.352].
 - **Modulus by series** [K Table 1M]: 1xxx/3xxx 69; 5052/5154/5454 70; 5083/5086/5456 71; 2xxx 70–74; 7xxx 70–72 GPa.
+- **Strength vs temperature** [DW §4.3.5, Fig. 4.6]. These are typical-material curves (Aluminium Federation data), tested at temperature after long exposure at that temperature.
+  - 6082-T6 UTS falls by **70 % at 200 °C** and rises by **40 % at −200 °C**. There is no low-temperature brittleness.
+  - Read approximately from the figure: 5083-O, 5251-H24 and 6063-T6 hold roughly constant UTS up to ~100 °C. **3103-H18**, the lowest curve at ~200 MPa near room temperature, declines gradually up to ~150 °C. By 300 °C all of these curves are below ~100 MPa.
+  - Above 100 °C, 6082 loses strength much faster than 5083 [DW Fig. 4.7]. 2618 has twice the strength of 2014A-T6 after prolonged heating at 200 °C.
 - **Melting ranges** [D p.414 Table 10]: 1350 646–657; 1100 643–657; **3003 643–654**; **3004 629–652**; 5005 632–652; 5050 627–652; 5052 593–649; 6061 593–649; 6063 616–654; 6951 616–654; 7005 607–649 °C.
 
 ---
 
 ## 11. Open questions and gaps
-1. **Target alloys missing from the sources.** AA3102, AA3207, AA3104 (except [S]), AA8079, AA8111 and AA1050/1200 properties are **not** given by any source read. A primary source is needed: EN 573-3/485-2, AA Teal Sheets, or the unprocessed *Al-Fe-Mn-Si System* chapter.
-2. **Polmear truncation.** The canstock (§3.6.5), foil (§3.6.4), conductor (§3.6.9) and automotive sheet (§3.6.2) sections were cut off. They are exactly the 3xxx/8xxx processing know-how this project needs. Re-extract the PDF beyond p.173 (e.g. split the file) to recover them.
+*Updated 2026-10-12 after the full-text pass. Former item 12 (the Kaufman "296 and over" row) was resolved and removed; see §3.2. Former item 6 is reduced to what is still open.*
+1. **Target alloys missing from the sources.** AA3102, AA3207, AA3104, AA8079, AA8111 and AA1050/1200 have **no tabulated compositions or properties** in any source read. K and DW were searched in full: K names 3104 only as "a modification of 3004" for can bodies [K p.93], and DW plots 1200 only in an unreadable bar chart and gives its bend index [DW Table 4.6]. A primary source is needed: EN 573-3/485-2, AA Teal Sheets, or the unprocessed *Al-Fe-Mn-Si System* chapter.
+2. **Polmear truncation.** The canstock (§3.6.5), foil (§3.6.4), conductor (§3.6.9) and automotive sheet (§3.6.2) sections, plus Ch. 4 (cast), are still unread. They are exactly the 3xxx/8xxx processing know-how this project needs. **The 2026-10-12 full download failed** for both Drive copies (connector message too large, §1). Options: download outside the connector (Drive API/curl with the user's credentials); have the user upload a split PDF (e.g. pp.170–260) under 6 MB; or use another copy of the book.
 3. **Mn vs Mg effectiveness conflict.** Davis gives "0.8 % Mg ≡ 1.25 % Mn" [D p.361] but also "Mn ≈ 2× Mg" in Al-Mg-Mn plate [D p.380]. Table 8 gives the solid-solution YS coefficients Mn 30.3 > Mg 18.6 MPa/wt %. Hypothesis: the difference comes from how much Mn is in solution vs dispersoids and from the product form. This needs quantification for 3xxx at the actual Mn-in-solution level (0.2–0.3 % [P p.30]).
-4. **Hall–Petch constants** (σ0, k_y) for Al and 3xxx grain sizes, and precipitate-free numbers for dispersoid (Orowan) strengthening in 3xxx, are not in these sources.
+4. **Hall–Petch constants** (σ0, k_y) for Al and 3xxx grain sizes, and precipitate-free numbers for dispersoid (Orowan) strengthening in 3xxx, are not in these sources. K and DW contain none either.
 5. **6082 Mg range:** P gives 0.60–1.0 and DW (EN) gives 0.6–1.2. Check against EN 573-3.
-6. **Unverified spreadsheet values.** The BS EN 515 P/Q coefficients and the Dwight Table 4.5 minima in [S] could not be checked: the Dwight tables did not extract. Treat them as unverified until checked against DW Table 4.3/4.5 or EN 485-2.
+6. **Still-unverified spreadsheet values.** The ASM-sourced anneal temperatures (343/413 °C), the CW % guide, the H2x partial-anneal windows (200–280 °C, 1–4 h) and the Humphreys & Hatherly recrystallisation data in [S] have no primary source yet. Check them against the ASM Handbook / H&H (both in Drive, unread here). The Dwight-sourced values in [S] are now verified (§1, §3.2, §3.4, §10).
 7. **O-temper YS differences.** P (3003-O YS 25 MPa) and K (40 MPa) disagree. The 5052-H38 UTS also differs (P 270 vs K 290 MPa). The likely causes are different data bases or the typical-vs-specified basis; record the product form when building models.
 8. **Davis Table 8 per-atomic-% coefficients** for Cu (16.2 at % vs 13.8 wt %) look inconsistent with atomic-mass scaling, possibly a source error. Prefer the wt % values with caution.
-9. **Kinetic data still needed:** Mn dispersoid precipitation kinetics as a function of heating rate, and recrystallisation temperature vs dispersoid density in 3xxx. The sources give only qualitative statements and single D values [P p.105–106]. The [S] recrystallisation temperatures from Humphreys & Hatherly need checking against that book, which is in Drive but unread.
+9. **Kinetic data still needed:** Mn dispersoid precipitation kinetics as a function of heating rate, and recrystallisation temperature vs dispersoid density in 3xxx. The sources give only qualitative statements, single D values [P p.105–106] and the two 3003 homogenisation micrographs [K p.131]. The [S] recrystallisation temperatures from Humphreys & Hatherly need checking against that book, which is in Drive but unread.
 10. **Zn in fin alloys.** The galvanic role of Zn in fins (FA6815) is inferred from general principles and needs a source.
-11. **Mg alloy metallurgy.** Polmear Ch. 5 is missing, so the Mg section rests on lecture slides only.
-12. **Kaufman Table 5M last row** prints "296 and over", which is probably a misprint for ≥325 MPa. Check against ANSI H35.1.
+11. **Mg alloy metallurgy.** Polmear Ch. 5 is missing (download failed), so the Mg section rests on lecture slides only.
+12. **Kaufman Ch. 5 (fabricating processes, pp.77–86) is absent from the Drive PDF**, which jumps from p.76 to p.87. Its sections on strip and slab casting, hot and cold rolling and heat treatment are unread. A complete copy is needed.
+13. **"3xxx vs 1xxx" strength gain.** Davis says ~20 % [D p.360]; Dwight says "half as strong again" [DW §4.2.1(b)]. The K data support ~20 % against 1100 (§4.2). Always state the 1xxx baseline (1100 vs 1050A/1080A) when quoting the Mn benefit.
+14. **Source errors found in the full-text pass** (flagged in place, not silently fixed):
+    - DW oxide thickness "0.005 mm" (5 µm), which conflicts with 2.5–5 nm in P/D (§7).
+    - K's B413.0 "melting point of 700 °C", which conflicts with the 577 °C eutectic (§4.12).
+    - K's 8xxx bullet "heat treatable", which conflicts with K p.26 (§4.8).
+    - K's Table 5 row "25–20" for 25–30 ksi (§3.2).
+15. **S-029 (Totten & MacKenzie, *Handbook of Aluminum* Vol. 1, 17.66 MB) is not reachable through the Drive connector:** "File too large for download, over limit of 10 MB" (§1). Its Ch. 3 (alloy metallurgy) and its rolling and annealing chapters would need an out-of-connector download or a user-supplied split.

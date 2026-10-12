@@ -178,7 +178,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - [S, unverified] (citing ASM Table 7): 1xxx/3004/3105/5xxx at 343 °C; **3003 at 413 °C**. Min anneal (Dwight): 1xxx 360 °C, **3xxx 400 °C** ("Mn dispersoids retard recrystallisation"), 5xxx 350 °C.
 - **Full anneal (heat-treatable):** 2014-O = ~410 °C for 2–3 h, slow cool to ~260 °C, then uncontrolled [K p.58]. [S, unverified]: 7xxx two-stage with a 4 h hold at 230 °C.
 - **Homogenisation:** **450–600 °C for 6–24 h** [P p.105].
-- **Solution treatment:** as close to the solidus as possible without liquation. Al-Cu-Mg alloys need control to within a few °C [P p.109; AR p.12].
+- **Solution treatment:** as close to the solidus as possible without liquation. Al-Cu-Mg alloys need control to within a few °C [P p.109; AR p.12–13].
 - **Quench-sensitive range:** **400–290 °C** [P p.112–113].
 - **Artificial ageing:** **100–190 °C** [P p.114]; 6xxx at ~170 °C [P p.141] or 160–190 °C [P p.140]. Artificial-ageing practice: 2–30 h at 100–200 °C [AT p.1].
 
@@ -390,7 +390,7 @@ The `.js`/`.jsx` files found by the search belong to the `microstructure-sim-v2.
   - **Trend in Zn:Mg ratio:** **2.25 (7075) → 2.7 (7050) → 3.9 (7055) → 5.0 (7085)**. Fe, Si, Mn and Cr are each cut to ≤0.1 %. 7085 has very low quench sensitivity, so **~150 mm** sections can be heat treated [P p.151].
   - **SCC controls:** overageing; cooling rate after solution treatment; an unrecrystallised structure (Zr); Cu or Cr additions; Zn:Mg ratio [D p.386].
   - **T73 performance:** 7075-T73 short-transverse specimens remain **uncracked at 300 MPa**, whereas T6 fails at 50 MPa [P p.147]. RRA (T77): 5 min to 1 h at 200–280 °C, then re-age [P p.149].
-  - **Low-melting phases in 7075** (MgZn2, Al2Mg3Zn3, Al6CuMg4) must be dissolved during homogenisation [AR p.11].
+  - **Low-melting phases in 7075** (MgZn2, Al2Mg3Zn3, Al6CuMg4) must be dissolved during homogenisation [AR p.10–11].
 - **Composition and properties.**
   - **7020:** Si 0.35, Fe 0.40, Cu 0.20, Mn 0.05–0.5, Mg 1.0–1.4, Zn 4.0–5.0, Cr 0.10–0.35, Zr 0.08–0.20, (Zr+Ti) 0.08–0.25 [P p.125]. Table 3.8: Zn 4.3, Mg 1.2, Zn+Mg 5.5, **Zn/Mg 3.6** [P p.143].
   - **7075:** Si 0.40, Fe 0.50, Cu 1.2–2.0, Mn 0.30, Mg 2.1–2.9, Zn 5.1–6.1, Cr 0.18–0.28 [P p.125]; nominal 5.6Zn-2.5Mg-1.6Cu-0.23Cr [K p.13].
@@ -481,7 +481,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
    - transform constituents (Al6 → α).
 
    Raising the temperature by **50 °C cuts the time to about one third** [P p.105].
-5. **Hot rolling.** The reversing mill takes 200–600 mm ingot down to 15–35 mm slab; the tandem mill takes it to 2.5–8 mm hot band [P p.107]. Temperature control must be within **±5 °C**, which "may have a clearly measurable impact" [AR p.13].
+5. **Hot rolling.** The reversing mill takes 200–600 mm ingot down to 15–35 mm slab; the tandem mill takes it to 2.5–8 mm hot band [P p.107]. Temperature variations of **±5 °C** "may have a clearly measurable impact" [AR p.12–13].
 6. **Cold rolling with interpass anneals; temper rolling or temper annealing** [DW §2.2.3; P p.107]. Cladding is ~5 % of the thickness per side and ≥100 mV more anodic than the core [P p.108].
 7. **Heat-treatable route.** Solution treatment, quench, stretch 1–3 %, then age [P p.90, 109–114]. A process anneal at 300–400 °C for 2–5 h before solution treatment gives a coarse elongated grain in 2xxx sheet, with **lower fatigue-crack growth rates** [AR p.14].
 

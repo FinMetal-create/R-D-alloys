@@ -561,7 +561,7 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 4. **Critical strain.** The recrystallised grain size of 1100 depends strongly on 0–10 % cold work before annealing [K p.121, Fig. 4; sizes not given in the caption].
 5. **Recovery without recrystallisation.** Hard-rolled 99.99 % Al foil (0.1 mm) forms a subgrain structure after **2 h at 150 °C** [K p.120, Fig. 1].
 6. **Partial recrystallisation from residual heat after hot rolling** is shown in 5456 plate [K p.134, Fig. 49]. The caption calls it "dynamic recrystallization"; *(general knowledge: recrystallisation after the pass is better called static or metadynamic)*.
-7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135]. TOT's typical practice is 343 °C for 1060/1100/1350/3004/3105 and 413 °C for 3003 [TOT p.888], so its 1xxx temperature is below DW's stated minimum. DW's figures are minima for local re-annealing (§3.4), while TOT's are typical furnace practice for fully cold-worked stock.
+7. **Annealing temperatures.** The minimum for 3xxx is **400 °C vs 360 °C for 1xxx** [DW §3.1.4]. 5457-O plate annealed at **345 °C** gives equiaxed grains [K p.135]. TOT's typical practice is 343 °C for 1060/1100/1350/3004/3105 and 413 °C for 3003 [TOT p.888], so its 1xxx temperature is below DW's stated minimum. DW's figures relate to local re-annealing of work-hardened sheet (§3.4). TOT notes that the required temperature depends on the prior strain [TOT p.887], which may explain part of the difference (inference).
 8. **Earing:** the definition and degree-of-earing formula are in §4.2 [K p.196–197]. The texture mechanism (45° ears from rolling texture, 0/90° from cube) is in [P p.39–40].
 9. **Orange peel** occurs "when large grains in the metal are present" [K p.210].
 10. **Mg-bearing variants (3004/3104/3105)** can **age-soften**: a spontaneous drop in strength at room temperature in strain-hardened Mg-containing alloys. The cure is **stabilising**, a low-temperature treatment [K p.187, 218]. A 5086-H34 plate stabilised at 120–175 °C shows an "undesirable continuous network of Mg2Al3" at its grain boundaries [K p.134]. Stabilising does not by itself prevent β precipitation in high-Mg alloys.
@@ -629,6 +629,13 @@ Polmear's dedicated sections (§3.6.4 foil, §3.6.5 canstock, §3.6.9 conductors
 | Sc | Al3Sc (L12, coherent), precipitates at ~350 °C, coarsening-resistant; **Al3(Sc,Zr)** more homogeneous than Al3Zr | Inhibits recrystallisation up to ~600 °C | — | Adds dispersion strengthening | [P p.52–53, 156] |
 
 Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.387; P p.104].
+**TOT additions on dispersoid formers:**
+- Decomposition ranges of the supersaturated solutions (Table 34): **Al–Mn (Al₆Mn) 300–350 °C**, Al–Sc 250–350 °C, Al–Zr 400–450 °C, Al–Cr 450–500 °C, Al–V 500–550 °C. The limiting solubilities are 0.88 at.% (Mn), 0.41 (Cr), 0.093 (Zr), 0.21 (V), 0.17 (Ti) and 0.28 (Sc) [TOT p.295].
+- Of these, only Zr and Sc form coherent or semi-coherent precipitates that give real precipitation hardening. The Al–TM hardening range (250–450 °C) differs from that of commercial age-hardening alloys (150–200 °C) [TOT p.295].
+- Recrystallisation-temperature increments are in §4.2 (Table 35) [TOT p.296].
+- Al₃Zr has ≈ 0.6 % misfit and is near-spherical below 0.18 % Zr [TOT p.125].
+- Sc + Zr together allow Sc to be cut to 0.15–0.2 %. Their coherent cubic phases co-precipitate at 300–400 °C; after up to 200 h at 350–450 °C, Al₃Zr particles are 5–11 nm and Al₃Sc particles 25–35 nm [TOT p.297–298].
+- Dispersoids have a dual role: they suppress recrystallisation and favour transgranular, high-energy fracture, but they also nucleate microvoids by decohesion and form void sheets [TOT p.123].
 [S, unverified, citing Humphreys & Hatherly]: recrystallisation temperature (fast / slow heating) is 575/550 °C for Al-0.25Sc, 380/480 °C for Al-0.25Zr and 425/500 °C for Al-1.3Mn.
 
 ### 5.3 Fe and Si impurities: summary
@@ -652,7 +659,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
    - precipitate dispersoids;
    - transform constituents (Al6 → α).
 
-   Raising the temperature by **50 °C cuts the time to about one third** [P p.105].
+   Raising the temperature by **50 °C cuts the time to about one third** [P p.105]. TOT gives a typical soak of 15–20 h [TOT p.887] and notes that dendritic segregation of transition metals "cannot be easily eliminated by homogenization" (D ≈ 10⁻¹⁴–10⁻¹² cm²/s at 500 °C) [TOT p.295].
 5. **Hot rolling.** The reversing mill takes 200–600 mm ingot down to 15–35 mm slab; the tandem mill takes it to 2.5–8 mm hot band [P p.107]. Temperature variations of **±5 °C** "may have a clearly measurable impact" [AR p.12–13].
 6. **Cold rolling with interpass anneals; temper rolling or temper annealing** [DW §2.2.3; P p.107]. Cladding is ~5 % of the thickness per side and ≥100 mV more anodic than the core [P p.108].
 7. **Heat-treatable route.** Solution treatment, quench, stretch 1–3 %, then age [P p.90, 109–114]. A process anneal at 300–400 °C for 2–5 h before solution treatment gives a coarse elongated grain in 2xxx sheet, with **lower fatigue-crack growth rates** [AR p.14].
@@ -666,6 +673,10 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 | **Solid solution** (annealed super-purity binaries) | ΔYS per wt %: **Mg 18.6**, **Mn 30.3**, **Cu 13.8**, **Si 9.2**, **Zn 2.9 MPa**. ΔUTS per wt %: Mg 50.3, Mn 53.8, Cu 43.1, Si 39.6, Zn 15.2 MPa. Per at %: YS Mg 17.2, Cu 16.2, Si 9.3, Zn 6.6 MPa (1 at % Mn is not soluble). Size misfit vs Al: Si −3.8, Zn −6.0, Cu −10.7, Mn −11.3, Mg +11.8 %. Small additions have larger unit effects. Multiple solutes are **less than additive**. | [D p.367–368 Table 8] |
 | Solid solution, practical notes | On an atomic basis Mn and Cu are the most effective at ≤0.5 %. Mg is most effective by weight (high solubility). Zn gives little. Cu in NHT alloys is kept ≤0.3 % to avoid Al-Cu-Fe phases. | [P p.30] |
 | Mg in Al-Mg(-Mn) plate | ~**35 MPa UTS per 1 % Mg**, and Mn "about twice as effective" (O temper, 13 mm plate) | [D p.380] |
+| Mn vs Mg by temper (TOT) | Mn in solution: O +21 YS / +42 UTS MPa per wt.%; H19 +35 YS per wt.%. Mg: H19 +70–85 YS per wt.%; annealed 5xxx up to 175 MPa YS at ≤ 6 % Mg | [TOT p.94, p.160] |
+| Solute work-hardening parameters (TOT) | Cu-equivalent K per at.% (tensile): Cu 1.00, Ge 0.64, Mg 0.37, Cd 0.33, Ag 0.15, Zn 0.071. Doherty H (cold rolling): Cu 3.38 ± 0.20, Si 1.56 ± 0.05, Mg 1.52 ± 0.14, Mn 1.03 ± 0.17, Zn 0.27 GPa | [TOT p.99] |
+| Ternary synergy (TOT) | In Al–Mg–Si, Al–Cu–Mg and Al–Zn–Mg, solution strengthening and work hardening exceed the sum of the single-solute effects | [TOT p.95, p.101] |
+| Hollomon n / K, O temper (TOT Table 3) | 1100-O 0.242 / 146 MPa; **3003-O 0.242 / 188 MPa**; 6061-O 0.209 / 224; 5052-O 0.198 / 281; 5454-O 0.189 / 340; 5086-O 0.193 / 368; 5456-O 0.178 / 479 | [TOT p.100] |
 | Additivity of contributions | Solid solution + second phase + dispersoid contributions are **roughly additive** (Al-Mg-Mn, Fig 9) | [D p.370] |
 | Second-phase (constituent) hardening | Rate per unit weight is similar to, but usually lower than, solid solution | [D p.369] |
 | Dispersion (8xxx) | 30–40 MPa from dispersoids; 2–10 MPa YS from solid solution | [P p.131] |
@@ -674,7 +685,9 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 | Cryogenic work hardening | Working at −196 °C gives up to **+40 %** strength (1100), at lower ductility | [P p.36] |
 | Solute effects on work hardening | Cu is the most effective at raising dislocation multiplication; Mg has the greatest practical value; Zn has negligible effect | [P p.34] |
 | Strain ageing | Mg and Cu pin dislocations: higher work hardening at low strain, lower at large strain, which reduces diffuse necking. Zn does not strain-age. | [D p.408] |
-| **Substructure (Hall–Petch type)** | σ = σ0 + k1·d⁻ᵐ, with d the cell or subgrain size. **m changes from 1 (cells) to 0.5 (subgrains)** after recovery. Stacking-fault energy ≈ **170 mJ m⁻²**, so cells form rather than twins. **No grain-size Hall–Petch constants for Al are given in any source read.** | [P p.36–37] |
+| **Substructure (Hall–Petch type)** | σ = σ0 + k1·d⁻ᵐ, with d the cell or subgrain size. **m changes from 1 (cells) to 0.5 (subgrains)** after recovery. Stacking-fault energy ≈ **170 mJ m⁻²**, so cells form rather than twins. | [P p.36–37] |
+| **Grain-size Hall–Petch (TOT)** | σ_y = σ_f + k·d^(−1/2); **σ_f = 10 MPa and k = 0.065 MPa·m^½ for pure Al**; k = 0.1–0.2 for many alloys, ≤ 0.15 for Mg-free alloys, > 0.2 for Al–Mg (5754 0.22, 5182 0.30). Grain size gives little strength in heat-treatable alloys. TOT's stacking-fault energy is 200 mJ/m² [TOT p.85] (Ch.2 of TOT gives 135 [TOT p.40]; P gives 170) | [TOT p.101, p.167] (*added after the full-text pass; the earlier entry said no source gave these constants*) |
+| Dislocation strengthening (TOT) | Δσ_y = M·α·G·b·√ρ, α 0.2–0.3, M ≈ 3; CRSS of pure Al 0.79 MPa; initial work hardening of pure Al ≈ G/20 | [TOT p.89, p.96–97] |
 | Texture | Ideal fibre texture: up to ~20 % higher strength along the fibre | [P p.39] |
 | **Precipitation – shearing** | Maximum strength when particle spacing ≈ the limiting dislocation curvature, **~10 nm (~50 atomic spacings)**. GP zones are sheared; their strength comes from the high volume fraction plus "chemical hardening". Shearing gives planar slip and pile-ups. | [P p.53] |
 | **Precipitation – Orowan bypass** | Δτ = [Gb / (2π√(1−ν))]·(1/λ)·ln(D_p/r0). G = shear modulus, b = Burgers vector, ν = Poisson's ratio, λ = effective inter-particle spacing, D_p = planar particle diameter, r0 = dislocation core radius. The spacing for volume fraction f, *as extracted* (π symbols and minus signs lost): {100} plates "0.931(0.306·D·T/f)^½ · D/8 · 1.061D"; {111} plates "0.931(0.265·D·T/f)^½ · D/8 · 0.919T"; ⟨100⟩ rods "1.075D(0.433/f)^½ · (1.732D)^½". **{111} plates > {100} plates > rods > spheres**, and the advantage grows with aspect ratio (closed-network entrapment above a critical aspect ratio). | [P p.56–61] (equation layout reconstructed; check the original, Nie & Muddle 1996/1998) |
@@ -684,7 +697,7 @@ Zr side-effect: it **poisons TiB2 grain refiners**, so more Ti-B is needed [D p.
 ---
 
 ## 7. Corrosion and SCC summary relevant to alloy design
-- **Oxide film.** About **2.5 nm** on fresh rolled sheet and protective at **pH 4.5–8.5** [P p.70]. Davis gives ~5 nm and pH 4–9 [D p.399]. Dwight prints "typical thickness **0.005 mm**" [DW §4.7.1], i.e. 5 µm. That is three orders of magnitude above P and D, and is almost certainly a unit slip for 0.005 µm (5 nm). Do not use the DW figure (this matters for the MgO annealing-oxide work, where film thickness is a measured quantity).
+- **Oxide film.** About **2.5 nm** on fresh rolled sheet and protective at **pH 4.5–8.5** [P p.70]. Davis gives ~5 nm and pH 4–9 [D p.399]. TOT gives 5–20 nm under usual conditions: an amorphous inner layer of ≤ 10 nm plus a bayerite/boehmite layer that depends on environment and time. The film forms in ≈ 10⁻⁴ s, thickens with water vapour and becomes complex at elevated temperature [TOT p.60–62]. Dwight prints "typical thickness **0.005 mm**" [DW §4.7.1], i.e. 5 µm. That is three orders of magnitude above P and D, and is almost certainly a unit slip for 0.005 µm (5 nm). Do not use the DW figure (this matters for the MgO annealing-oxide work, where film thickness is a measured quantity).
 - **Atmospheric pitting of 3103 (Alcan data)** [DW §4.7.1, Fig. 4.12]: pit depth grows quickly in the first year and almost stops after **~5 years**, as corrosion products stifle the pits. Worst 5-year pit depths: **~0.04 mm rural, 0.08 mm inland industrial, ~0.16 mm industrial by the sea**.
 - **When to protect (BS 8118 ratings)** [DW Table 4.9]: A-rated alloys (1xxx, 3xxx, 5xxx) need protection only in **severe industrial** atmospheres, inland or by the sea. B-rated 6xxx always needs it in severe industrial sites. In inland moderate-industrial and in marine rural or moderate-industrial sites it needs protection only if thinner than 3 mm. Weldable 7xxx (C) needs it everywhere except inland rural; 2xxx and strong 7xxx (D) need it everywhere.
 - **Electrode potentials** (V vs 0.1 M calomel, NaCl–H2O2; all negative, signs restored) [P Table 2.4–2.5]:

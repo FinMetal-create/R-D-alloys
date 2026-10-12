@@ -760,21 +760,31 @@ O-temper to its H19 value by ε ≈ 1–2)*.
 
 | Lever | Effect on slug (HB, flow stress) | Extrusion | Can | Risks / trade-offs | Basis |
 |---|---|---|---|---|---|
-| ↑ Mg (0.12 → 0.30) | +≈ 9 MPa UTS (+≈ 2.5 HB) | +≈ 0.1 GPa ram pressure (≈ +0.23 MN Ø53) | +13–15 MPa wall YS | MgO ↑ (ch.09); strain ageing ↓ large-strain hardening; ↓ fracture strain at particles | §3.4; [S-031 p.408]; *(derived)* |
+| ↑ Mg (0.12 → 0.30) | +≈ 9 MPa UTS (+≈ 2.5 HB) | +≈ 0.1 GPa ram pressure by P1 (≈ +0.23 MN Ø53); ≈ +0.05–0.07 GPa by the work method P8 (§3.4) | +13–15 MPa wall YS | MgO ↑ (ch.09); strain ageing ↓ large-strain hardening; ↓ fracture strain at particles | §3.4; [S-031 p.408]; *(derived)* |
 | ↑ Mn total (0.3 → 1.2) | dispersoids + ≈ 0.1–0.2 % more Mn_ss: ≈ +20–30 MPa UTS (3003-O vs 1100-O ≈ +20) | +0.2–0.35 GPa | +≈ 5 MPa (ss) + unknown dispersoid share | slower RX, heating-rate sensitivity, coarser/elongated RX grain (ch.09 §5); primary (Fe,Mn)Al6 if Fe+Mn too high | §3.4, §4.4; [S-029 p.160]; *(derived)* |
 | Fe (≤ 0.45) | small strengthening (≈ 7 MPa/vol.% constituent); grain refinement | — | — | more void-nucleating particles → corner cracks, pinholes; scrap Fe pick-up | [S-031 pp.380, 408; S-029] |
 | Si (≤ 0.15) | small; promotes α-AlFeMnSi | — | — | lowers Mn_ss and changes dispersoid density (ch.02/05) | [S-031 p.388] |
 | Cu (0.05–0.10) | ≈ +2–4 MPa UTS | small | strongest WH per atom | not an anti-galling measure (§2.6); corrosion potential | [S-031; S-029 p.99; S-053 p.4] |
 | Zn (0.10–0.15) | negligible | — | — | electrochemistry only | [S-031 Table 8, p.408] |
-| Slug anneal: full RX, 20–60 µm | lowest HB for the chemistry | lowest force | wall strength set by chemistry, not slug temper | under-anneal → HB ↑, path-change softening; over-anneal → coarse grain/orange peel, MgO | §4, §7; ch.09 |
-| Lubricant / surface | — | m: 0.05 → 0.2 raises end-of-stroke p/σ₀ from 3.3 to 4.7 (Ø53) | surface quality | oxide/lubricant interaction unquantified | §2.5b *(derived)* |
-| Punch nose | — | conical vs flat: flat ×1.2 force | — | stability (conical nose) | [S-053 pp.2, 10] |
+| Slug anneal: full RX, 20–60 µm | lowest HB for the chemistry; restores ductility (3003-O 30 % vs H12 10 % elongation) | lowest force, but less force saving than the HB drop suggests (≈ 3 % for ε₀ ≈ 0.2, §2.5e) | wall strength set by chemistry, not slug temper | under-anneal → HB ↑, ductility ↓, path-change softening; over-anneal → coarse grain/orange peel, MgO | §2.5e, §4, §7; [TOT p.815]; ch.09 |
+| Lubricant / surface (zinc stearate) | — | m: 0.05 → 0.2 raises end-of-stroke p/σ₀ from 3.3 to 4.7 (Ø53); no lubricant vs friction-free ≈ +50 % at r = 0.9 | surface quality; too much lubricant → underfill, orange peel | lubricant starvation on the punch nose limits deep cans; oxide/lubricant interaction unquantified | §2.5b *(derived)*; [TOT pp.813, 821–822, 825, 827] |
+| Punch nose and corner radii | — | conical vs flat: flat ×1.2 force; corner-filling pressure ∝ ln(r/R) | larger radii avoid contraction, dead metal, laps at the base corner | stability (conical nose, centring); punch stress at ≈ 1.4–1.5 GPa (Kuhn's hot-die guide value 1400 MPa) | [S-053 pp.2, 10]; [TOT pp.797–805, 813, 823–824] |
+| Residual bottom thickness | — | thinner bottom → friction-dominated force spike at end of stroke (§2.5b) | — | pen-housing tool needed ≥ 3.1 mm bottom for die life; contraction at the bottom corner when the billet gets short | [TOT pp.813, 824, 828] |
+| Extrusion speed | — | strain-rate effect on flow stress small (m = 0.005, ≈ +7 % per 10⁶) but adiabatic heating larger | — | body force (inertia) of the extruded part adds tension (chevron cracks in rod extrusion; slowing down helped) | [TOT pp.823, 833, 853] |
+| Bake response (Mg + Si kept in solution) | none in the slug if Mg/Si stay in solution | **no extra force** | wall strengthening in the 220 °C / 10 min bake, if it outweighs recovery | slug hardness drifts with storage (natural ageing, trials/T11) | *(inference; unmeasured)* §6 |
 | Warm extrusion (tools heated) | — | lower flow stress, higher ductility (≈ 200–300 °C window for RS Al) | lower wall strength | lubricant change, tool heating | [S-053 pp.48, 93] |
 
-**Ranking for lean-3xxx slug design** *(inference)*: (1) get full recrystallisation at the lowest HB the chemistry
-allows (force ∝ UTS); (2) buy can strength with Mg (and possibly Cu) rather than Mn in solution, within MgO limits;
-(3) keep Fe and coarse constituents low/fine for ductility at the base corner; (4) keep grains < 100 µm; (5) control
-lubrication — it dominates the end-of-stroke force on thin-based cans.
+**Ranking for lean-3xxx slug design** *(inference; revised after full-text pass)*:
+1. **Get full recrystallisation**, chiefly for ductility and uniform grain. HB itself predicts force poorly
+   (§2.5e).
+2. **Buy can strength where it costs no press force first**: the bake response of Mg + Si in solution, then lower
+   friction (stearate retention, tool finish). Then use solute: Mg gives ≈ 2× more wall strength per wt.% than Mn in
+   solution (less alloy needed), but per unit of press force the two are close (§3.4). Stay within MgO limits.
+3. Keep Fe and coarse constituents low and fine for ductility at the base corner.
+4. Keep grains < 100 µm.
+5. Control lubrication and tooling: stearate quantity and retention, generous punch/die corner radii, adequate
+   residual bottom, punch centring, moderate speed. Friction dominates the end-of-stroke force on thin-based cans,
+   and the base corner collects the defect mechanisms (§5.2).
 
 ---
 
@@ -785,11 +795,11 @@ lubrication — it dominates the end-of-stroke force on thin-based cans.
 | M1 | R = R_C²/(R_C² − R_R²); ε_wall ≥ ln R | in-house R ≈ 30–32, ln R ≈ 3.4–3.5 | [S-053 Eq. 1.2]; §2.2 *(derived)* |
 | M2 | p_max = (3.14·ln R + 0.80)·σ_UTS; ×1.2 flat ram | σ_UTS slug (MPa) | [S-053 Eq. 2.1] |
 | M3 | p_R/σ₀ = 1 + 2/√3 + (1+m)/(2√3)·T/(R_C−R_R) + 2m/(3√3)·R_R/T | m 0.05–0.4; T residual bottom (mm) | [S-053 Eq. 5.7/C.20] ✓ checked vs Fig. 5.2 |
-| M4 | τ_fr = m·σ₀/√3 | m | [S-053 Eq. 2.2] |
+| M4 | τ_fr = m·σ₀/√3 | m; preferred over Coulomb μ at bulk-forming pressures (M22) | [S-053 Eq. 2.2; TOT p.849] |
 | M5 | ε_I = ln(T₀/T); ε_II = ln(T₀/T)[1 + R_R/(4(R_C−R_R))]; ε_glob volume-weighted | **not for R ≫ 10** | [S-053 Eqs 5.9–5.10] |
 | M6 | σ_f = C·ε̄ⁿ; path-changed: σ_f = C(ε₀)·ε̄^n(ε₀) | test mode must match process | [S-053 pp.38–39, 63–64] |
-| M7 | Al99.5 strip: Rp0.2 ≈ 147·ε^0.22 MPa (0.1–2.3); HB ≈ 42·ε^0.16 (0.2–1.6); Rm ≈ 3.6·HB | — | [S-051 Fig. 3] *(digitised + derived fit)* |
-| M8 | 1100-O: K 146, n 0.242; 3003-O: K 188, n 0.242 (MPa) | tension | [S-029 Table 3 via ch.07] |
+| M7 | Al99.5 strip: Rp0.2 ≈ 147·ε^0.22 MPa (0.1–2.3); HB ≈ 42·ε^0.16 (0.2–1.6); Rm ≈ 3.6·HB | do not extrapolate past ε ≈ 2.3 (gives ≈ 190 MPa at 3.4 vs 161 MPa measured, §3.1); for Rm/HB see M25 | [S-051 Fig. 3] *(digitised + derived fit)* |
+| M8 | 1100-O: K 146, n 0.242; 3003-O: K 188, n 0.242 (MPa) | tension; overshoot ≈ 20 % at ε ≈ 3.4 (§3.1) | [S-029 p.100, Table 3, verified] |
 | M9 | σ_f(p) = σ_f(0)(1 + w·p) | w 0.1–0.4 GPa⁻¹ (non-Al); Al unknown | [S-053 pp.71–72] ⚠ form |
 | M10 | τ = τ_t + τ_p + α₁Gb√ρ_i + α₂Gb(1/δ + 1/D) | α₁ ≈ 0.3, α₂ ≈ 2, ρ_m ≈ 0.1ρ, κ₀ ≈ 3, φ_IV ≈ 3–4°, M = 3.06 | [S-052 pp.35–38, 50] |
 | M11 | dρ⁺/dγ = 2/(bL); (1/L_eff)² = (√ρ/C)² + (1/D)² + (2f_r/r)² | C ∝ 1/θ_II | [S-052 Eqs 2.28–2.31] |
@@ -798,11 +808,19 @@ lubrication — it dominates the end-of-stroke force on thin-based cans.
 | M14 | σ_y = σ_i + k·D^(−½) | k 0.065–0.07 (pure Al) … 0.1–0.2 MPa·m^½ | [S-052 p.33; S-029 p.101] |
 | M15 | Δσ_ss = Σ k_i·c_i (less than additive) | §3.4 table | [S-031 Table 8; S-029 p.160] |
 | M16 | Ductile failure: ε̄_F = f(η), linear between tension (η ≈ 1/3) and torsion (η = 0) | measure per alloy/temperature | [S-053 pp.42–44, 87–88] |
-| M17 | ΔT_adiabatic = β∫σdε/(ρc) | β ≈ 0.9, c ≈ 0.9 J g⁻¹K⁻¹ | *(general knowledge)*; ≲ 200 K bound §2.7 |
+| M17 | ΔT_adiabatic = β∫σdε/(ρc) | β ≈ 0.9 [TOT p.825], c ≈ 0.9 J g⁻¹K⁻¹ *(general knowledge)* | formula *(general knowledge)*; bound ≈ 165–260 K for pure Al (§2.7, corrected after full-text pass) |
 | M18 | F = A·k_w, η_F = k_f/k_w; w = ∫k_f dφ | — | [S-046 pp.26–28] |
+| M19 | **p = c·Y_m = ∫₀ᶜ Y dε̄** (frictionless; c = mean equivalent strain from upper-bound charts) | c (backward can) from Table 2-2; ≈ 5–5.5 at r ≈ 0.97 *(extrapolated)* | [TOT pp.821–822, Fig. 17] ✓ cross-checked against P1 (§2.5d) |
+| M20 | 99.7 % Al, compression, RT: Y ≈ 122·ε^0.226 MPa (1 ≤ ε ≤ 4.4); full curve in Table 3-2 | 18 HV annealed; Y(0) ≈ 40 MPa | [TOT pp.810–811, Fig. 2] *(digitised + derived fit)* |
+| M21 | Plane-strain slab: k = 0.577 S; p = 1.15 S[1 + (m/2)(L/t)]; corner filling q = 1.15 S(1 + m/2)·ln(r/R) | m ≈ 0.3 for hot Al forging | [TOT pp.790–791, 797] ✓ example recomputed |
+| M22 | Sticking when μp ≥ k (k = σ̄/√3); then use τ = m·σ̄/√3 | at p ≈ 1–1.5 GPa sticking for μ ≳ 0.06–0.13 *(derived)* | [TOT pp.848–849] |
+| M23 | Strain-rate sensitivity σ ∝ ε̇^m | 3003-O m = 0.005, 6009-T4 0.002 (RT) | [TOT p.853, Table 4] |
+| M24 | Upsetting with Coulomb friction p = Y(1 + μd/(3h)) | μ = 0.03–0.05, well-lubricated cold forging | [TOT pp.820–821] |
+| M25 | Rm/HB (HB 10/500) | 3.6–3.9 (1xxx/3xxx O–H18); 4.1–4.2 (5052-O, 6061-O) | [TOT p.815, Table 1] *(ratios derived)* |
 
 Calibration points available: Sillekens Fig. 5.3 (force–stroke, R_C 6/R_R 5/T₀ 4/T_e 1 mm, C 176 MPa, n 0.13, 230 °C,
-m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1. **No in-house press-force or flow-curve data exist** (ch.09 §8).
+m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1; Shinozaki Fig. 2 (Table 3-2, compression to ε = 4.4) and Fig. 17
+(Table 2-2) [TOT pp.811, 821]; temper property table [TOT p.815]. **No in-house press-force or flow-curve data exist** (ch.09 §8).
 
 ---
 

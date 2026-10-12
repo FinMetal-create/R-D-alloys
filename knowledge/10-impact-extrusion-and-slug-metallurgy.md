@@ -530,8 +530,7 @@ m ≈ 0.4) [S-053 p.85]; Vasevska Table 3-1. **No in-house press-force or flow-c
 9. **Temperature and strain-rate history** of the wall (thermocouple/IR on ejected cans; FE) — the ≲ 200 K bound is
    unvalidated.
 10. Whether the modified 3102 (Mn 1.1–1.3, Mg 0.25–0.35) fully recrystallises (≈ 31–32 HB expected; ≈ 35 HB acceptable) at ≤ 100 µm at the
-    plant CR (25–45 %). The §7 estimate of ≈ 31–32 HB leaves only ≈ 3–4 HB of margin; trial with HB + EBSD + press
-    force.
+    plant CR (25–45 %). The open questions are full RX and press force rather than an HB cap; trial with HB + EBSD + press force.
 11. Do in-house slugs show planar anisotropy (rim irregularity) large enough to need the trim allowance missing from
     the slug masses (ch.09 §8)? Measure rim height variation vs slug texture.
 

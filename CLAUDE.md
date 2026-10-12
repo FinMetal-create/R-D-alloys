@@ -12,9 +12,15 @@ composition → solidification → homogenisation → hot/cold deformation → a
             → properties (strength, ductility/formability, sag/creep, corrosion, conductivity)
 ```
 
-The main focus is wrought aluminium (especially 3xxx heat-exchanger/foil alloys such as
-AA3102 and AA3207, produced by DC casting or continuous casting and rolling). Other alloy
-families are covered for transferable principles.
+The main focus is wrought aluminium. The user's own work centres on lean 3xxx alloys
+(EN AW-3102 and a modified 3102, and AA3207) cold rolled into strip and annealed into
+**impact-extrusion slugs for aerosol cans**. The key levers are recrystallisation during
+annealing (grain size 20–100 µm, slug hardness 23–33 HB), MgO surface oxide growth, and
+cold-rolling-mill reductions. Other alloy families are covered for the principles that
+transfer to aluminium.
+
+Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw
+materials. "MgO" refers to surface oxide growth during annealing.
 
 ## Where the knowledge lives
 

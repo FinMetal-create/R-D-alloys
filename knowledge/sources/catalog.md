@@ -318,3 +318,25 @@ Hinterkopf brochures, the punching slides) relates to the user's slug and aeroso
 - p.14: Zr: lower coarsening rate of Al3(Sc,Zr); Zr does not affect start of precipitation but slows later stage (C-curves 10% & 60% Al-0.4Sc vs Al-0.4Sc-0.15Zr, Fig 6b); core/shell: Al3Sc core (Sc diffusion), Zr-rich shell (slow Zr diffusion)
 - Table 1 p.16: 3xxx Al-0.5Mn-0.2Mg-0.15Zr: Rp0.2 87 / Rm 140; +0.11Sc 119/173; +0.21Sc 152/198; +0.26Sc 168/207 (Riddle, Hallem, Ryum 2002; as-hot-worked or annealed)
 - p.19: Al-2%Sc master ~US$50/kg -> Sc ~US$2500/kg; 0.2 wt% Sc adds ~US$5/kg
+
+## Files too large for the Drive connector: split plan (2026-10-12)
+
+The connector downloads whole PDFs only up to **≈ 6 MB**. Kaufman at 6.09 MB worked; 7.19 MB and larger
+failed. Larger files are only partly readable as text. Save them in Drive as parts of **≤ 5 MB** each, in the
+same folder, named `<title> - part N (pp X-Y).pdf`. Then they can be read in full.
+
+| Priority | Ref | Work | Size (MB) | Parts at ≤ 5 MB | What it would add |
+|---|---|---|---|---|---|
+| A | S-016 | Humphreys & Hatherly, *Recrystallization* | 12.7 | 3 | RX kinetics, PSN, two-phase alloys, textures (slug anneal) |
+| A | S-029 | Totten & MacKenzie, *Handbook of Aluminum* Vol. 1 | 17.7 | 4 | Alloy metallurgy, rolling (Ch. 7), extrusion (Ch. 8), formability/earing |
+| A | S-015 | Maggs, *Intermetallic phase selection in dilute Al–Fe–Si* | 22.3 | 5 | β vs α Fe phases vs cooling rate (T11 risk 1) |
+| A | S-052 | Ryen, *Work hardening… of Al sheets* | 11.2 | 3 | Per-solute work hardening (Mn, Mg): wall strength per press force |
+| A | S-020 | Ivanov, *Solute clustering in Al alloys* | 13.3 | 3 | Mg–Si clustering, natural ageing, bake response (T11 risk 2) |
+| A | S-028 | Polmear, *Light Alloys* | 9.7 | 2 | Canstock/foil/conductor alloys, cast and Mg chapters |
+| B | S-045 | Sheppard, *Extrusion of Aluminium Alloys* | 10.5 | 3 | Hot-working constants (Ch. 4) |
+| B | S-032 | *ASM Handbook Vol. 2* (nonferrous) | 52.6 | only the wrought-Al sections | Property data for 1xxx/3xxx/8xxx |
+| B | S-067 | TMS *Light Metals 2018* | 114.8 | only selected casthouse / alloy papers | Continuous casting, recycling, Fe tolerance |
+| B | S-047 | AA, *Rolling Aluminum* | 7.2 | 2 | Appendices |
+| C | S-046 | Schuler, *Metal Forming Handbook* | 28.6 | only cold-extrusion chapter (pp. 443–480) | Impact-extrusion practice |
+| C | S-074 | Habashi, *Alloys* | 20.6 | only the aluminium chapter | Alloy overview |
+| C | S-007, S-049, S-075, S-077, S-079, other TMS 2018 volumes | — | 8–36 | as needed | Lower relevance; S-079 is a scan without text (needs OCR) |

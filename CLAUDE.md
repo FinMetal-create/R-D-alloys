@@ -35,6 +35,10 @@ lacquer bake **220 °C / 10 min**. Strip temperature: **≈ 500 °C leaving the 
 **Trials** are recorded in `knowledge/trials/<name>.md` (first trial alloy: **Talum 1**, `Talum-1.md`; formerly trial ID T11, renamed by the user 2026-10-12) (composition, assessment, measurement plan, results). Fill
 in the results section when plant data arrive. These records are the calibration data for the model loop.
 
+**Second product: deep-drawing discs** (3.4 mm circles for cookware). Earing (EN 1669), grain size and
+through-thickness uniformity are the critical properties. Customer feedback is recorded in
+`knowledge/customer-feedback/` (first case: recycled AlMn1 discs, Sept 2026).
+
 Terminology in the user's files: "CRM" means **cold rolling mill**, not critical raw
 materials. "MgO" refers to surface oxide growth during annealing.
 

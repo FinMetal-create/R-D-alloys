@@ -111,3 +111,54 @@ reproduced as received. The analysis in §4 is inference from the cited chapters
 - Cast the customer chemistry and roll 3.4 mm discs from two hot bands, 6.0 mm (43 %) and 8.5 mm (60 %).
 - Give each two anneals: the current one and a fast or pre-heated one.
 - Measure earing (EN 1669), grain size at the surface and centre, Rp0.2 and Rm.
+
+## 6. Two-step final anneal for AlMn1 discs (if the alloy is kept)
+
+*Recipe and trial proposal (inference). The only literature data point is one twin-roll-cast 3003 study at
+abstract level [ch15, W15-35].*
+
+**Evidence.** On cold-rolled TRC 3003, 450 °C / 5 h ("pre-recovery") + 530 °C / 15 h gave fine quasi-equiaxed
+grains, a very weak ND-rotated cube and **Δr = 0.03, against 0.31** for a single 530 °C / 15 h step [W15-35].
+Δr = (r₀ − 2r₄₅ + r₉₀)/2 is the earing index: the higher Δr, the more earing [ch05 §4.11, TOT p.851–853].
+
+**Mechanism** [ch15 §3, W15-35/W15-36; ch03 §5.2]:
+1. **Step 1 (≈ 450 °C, below the RX start of this supersaturated, moderately rolled strip).** Mn precipitates
+   while the structure only recovers. Precipitate-free zones form around the coarse constituents, so the
+   deformation zones there are free of fine dispersoids.
+2. **Step 2 (≈ 530 °C).** The dispersoids coarsen, so Zener drag falls (P_Z ∝ F_V/r, R12). RX then starts by PSN
+   in the precipitate-free zones. PSN nuclei are randomly oriented, which weakens the texture.
+3. **Why it suits a batch furnace.** The Mn precipitation is finished, everywhere in the load, before RX starts.
+   The heating rate of each coil or load position therefore no longer decides the result. That addresses the
+   coil-to-coil scatter in §1 (4.2–8.4 % earing).
+
+**Do not reverse the order.** In CC AA3015, high-then-low (599 → 371 °C) gave faster RX but **coarser** grains and
+a **stronger** cube [W15-30].
+
+**Limits:**
+- It does not fix the surface-to-centre constituent-size gradient of the rotary-cast strip. That needs
+  hot-band homogenisation (ch19 P1, [W15-11]).
+- Its effect may be smaller at 43–51 % cold reduction than in the thin TRC sheet of [W15-35], because fewer
+  particles are large enough for PSN. Combine it with ≈ 60 % cold reduction (§5 action 2).
+- The cycle is long (≈ 20 h at temperature plus heat-up). Keep good oil burn-off below ≈ 300 °C so the long cycle
+  does not bake in stains (general knowledge; see §1 black stains).
+
+**Lab trial** (as-rolled 3.4 mm strip from production, taken before the final anneal):
+
+| Cycle | Step 1 | Step 2 | Purpose |
+|---|---|---|---|
+| A | current plant cycle | – | Baseline |
+| B | 450 °C / 5 h | 530 °C / 15 h | Literature cycle [W15-35] |
+| C | 450 °C / 5 h | 530 °C / 4 h | Shorter step 2 |
+| D | 420 °C / 5 h | 530 °C / 4 h | Lower step 1 (more margin below RX start) |
+| E | 450 °C / 2 h | 530 °C / 4 h | Shorter step 1 |
+| F | – | 530 °C / 2 h, pre-heated furnace (fast heating) | Fast single-step reference |
+
+- **Check after step 1** (extra samples pulled out):
+  - not recrystallised (Barker, hardness still above the O temper);
+  - conductivity up, meaning Mn has precipitated.
+- **After the full cycle:**
+  - earing (customer's cup test / EN 1669) and r₀, r₄₅, r₉₀ → Δr;
+  - grain size at the surface and the centre;
+  - Rp0.2, Rm, A50.
+- **Plant transfer.** Run the best cycle on one coil, with thermocouples at the coil core and outer wrap. Count
+  the step-1 hold from the moment the core reaches temperature.

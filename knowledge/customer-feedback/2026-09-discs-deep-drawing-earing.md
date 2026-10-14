@@ -142,6 +142,31 @@ a **stronger** cube [W15-30].
 - The cycle is long (≈ 20 h at temperature plus heat-up). Keep good oil burn-off below ≈ 300 °C so the long cycle
   does not bake in stains (general knowledge; see §1 black stains).
 
+**Choosing the step-1 temperature (derived; user question 2026-10-14).**
+- **Rule:** step 1 = the **highest** temperature at which the strip does **not** recrystallise during the furnace
+  ramp plus the hold.
+  - If step 1 recrystallises the strip, the cycle is just the current single-step anneal with extra time.
+  - So step 1 must sit **below the temperature at which the current final anneal recrystallises the strip.**
+- **Lower costs a lot of time.** Mn lattice diffusion distance √(Dt) in 5 h, and the hold giving the same distance
+  as 450 °C / 5 h (D_Mn(500 °C) = 5×10⁻¹³ cm²/s, Q ≈ 182–227 kJ/mol [ch19 §1.1]):
+
+  | Step 1 | √(Dt) in 5 h | Hold equivalent to 450 °C / 5 h |
+  |---|---|---|
+  | 450 °C | ≈ 0.3 µm | 5 h |
+  | 425 °C | ≈ 0.15–0.2 µm | ≈ 15–19 h |
+  | 400 °C | ≈ 0.07–0.12 µm | ≈ 47–83 h |
+  | 375 °C | ≈ 0.03–0.06 µm | ≈ 170–400 h |
+
+  Dislocation (pipe) diffusion in the cold-rolled strip makes real precipitation faster than this lattice
+  estimate, but the ratios between temperatures hold roughly.
+- **Lower also gives finer, denser dispersoids and narrower precipitate-free zones around the constituents.**
+  Both weaken the PSN mechanism that step 2 relies on. Low-temperature (≈ 440 °C) precipitation in supersaturated
+  TRC strip gave dense fine dispersoids and the slowest softening [W15-25].
+- **Screen first.** Hold as-rolled strip for 5 h at 400 / 425 / 450 / 475 °C, heated at a coil-like ramp
+  (≈ 30–60 °C/h, to be matched to the plant record). Measure hardness, RX fraction (Barker) and conductivity.
+  Choose the highest temperature with 0 % RX. If that is ≤ 400 °C, the two-step route needs very long holds;
+  prefer hot-band homogenisation (ch19 P1) or the customer chemistry instead.
+
 **Lab trial** (as-rolled 3.4 mm strip from production, taken before the final anneal):
 
 | Cycle | Step 1 | Step 2 | Purpose |

@@ -50,13 +50,12 @@ reproduced as received. The analysis in §4 is inference from the cited chapters
 
 | Cast | Route | Hot band | Cold steps | Final | Cold reduction |
 |---|---|---|---|---|---|
-| 21592 (OT1) | "re-rolling to final thickness" | 7.0 mm | 7.0 → 4.5 mm (35.7 %), then 4.5 → 3.4 mm | 3.4 mm | 51.4 % in total from 7.0 mm. If the 4.5 mm material was annealed before re-rolling, the last reduction was only **24.4 %** (derived) |
+| 21592 (OT1) | "re-rolling to final thickness" | 7.0 mm | 7.0 → 4.5 mm (35.7 %), then 4.5 → 3.4 mm, **no anneal in between** (user, 2026-10-14) | 3.4 mm | **51.4 %** (ε 0.72, derived) |
 | 23321 (OT3) | "direct casting to final thickness" | 6.0 mm | 6.0 → 3.4 mm | 3.4 mm | **43.3 %** (ε 0.57, derived) |
 
 - The hot reduction is 22 → 6–7 mm, i.e. 68–73 %.
 - **Open questions:**
   - Which coils and anneal loads went into which delivery?
-  - Was there an anneal at 4.5 mm (OT1)?
   - Which final anneal was used: furnace type, heating rate, temperature and time?
   - The OT3 date "3.6.2027" is probably 3.6.2026.
 
@@ -85,10 +84,15 @@ reproduced as received. The analysis in §4 is inference from the cited chapters
    - High-temperature homogenisation of twin-roll-cast 3105 reduced the surface-to-centre particle gradient, and
      cyclic homogenisation up to 620 °C gave a uniform fine grain structure through the thickness [ch15, W15-11].
 4. **The cold reduction is low.**
-   - 43 % (OT3), and possibly only 24 % after an intermediate anneal (OT1).
+   - 43 % (OT3, ε 0.57) and 51 % (OT1, ε 0.72; no intermediate anneal, user 2026-10-14).
    - The in-house CRM tables ask for ε ≥ 0.85 (≥ 57 %) for 3207 and ε ≥ 0.95 (≥ 61 %) for 3003 [ch09 §5].
    - Low cold strain gives few nuclei, coarse grains and more scatter.
-5. **Why other suppliers don't have the problem (inference).** With the customer chemistry (Mn 0.50–0.60), Mn
+5. **Cold reduction alone does not explain the scatter.** The three 1st-delivery discs probably come from one
+   route, yet earing ranges from 4.2 % to 8.4 %. If the 1st delivery is cast 21592 (51 %) and the 2nd is cast
+   23321 (43 %), the higher reduction did *not* give lower earing (8.1–8.4 % vs 5.3–5.5 %). Either way, most of
+   the variation must come from the final anneal (heating rate by coil and load position) and from Mn in
+   solution, not from the reduction. The delivery-to-cast mapping is still to be confirmed.
+6. **Why other suppliers don't have the problem (inference).** With the customer chemistry (Mn 0.50–0.60), Mn
    supersaturation is roughly halved. Typical suppliers also use DC ingot with homogenisation or a fast-heating
    anneal. Both remove the precipitation-versus-RX race.
 

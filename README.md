@@ -39,6 +39,7 @@ general knowledge explicitly.
 | 17 | [Standards: compositions and properties](knowledge/17-web-standards-compositions-and-properties.md) | Web (partial) |
 | 18 | [Computational alloy-design tools](knowledge/18-web-computational-alloy-design-tools.md) | Web |
 | 19 | [Process innovation for rotary-cast slugs](knowledge/19-process-innovation-rotary-cast-slugs.md) | Synthesis + kinetic estimates |
+| 20 | [Aluminium foam (closed-cell): routes, metallurgy, properties](knowledge/20-web-aluminium-foam.md) | Web (snippet level) |
 | Talum 1 | [Trial record: **Talum 1** (first plant trial alloy, formerly T11)](knowledge/trials/Talum-1.md) · [data-collection workbook](knowledge/trials/Talum-1-data-collection.xlsx) | Trial plan, assessment, process window |
 | CF | [Customer feedback: 3.4 mm deep-drawing discs, earing and grain (Sept 2026)](knowledge/customer-feedback/2026-09-discs-deep-drawing-earing.md) | Customer report + assessment |
 | — | [Source catalogue](knowledge/sources/catalog.md) | Drive inventory (S-001…S-079, W-01…W-24) |
